@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-3-94"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-94"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-3-94/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-94/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-3-94/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-94/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_3_94">
+        <num>27-3-94</num>
+        <content>
+          <p>It shall be unlawful for any carrier to ship, transport, or receive for shipment or transportation any wildlife, except as otherwise provided by the wildlife laws, rules, or regulations, without having ascertained that the person offering the wildlife for shipment or transportation was then and there in possession of a proper license or permit duly issued for the period when the shipment was offered, or without receiving from the person a sworn statement as provided in paragraph (3) of Code Section 27-3-92. Any carrier who shall ship or transport the skins, hides, or pelts of fur-bearing animals shall be required to make reports of such shipments or transportation as may be required by the rules and regulations of the board.</p>
+          <p>(Ga. L. 1911, p. 137, § 19; Ga. L. 1916, p. 114, § 8; Code 1933, § 45-306; Ga. L. 1955, p. 483, § 49; Code 1933, § 45-405, enacted by Ga. L. 1977, p. 396, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

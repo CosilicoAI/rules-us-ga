@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-339"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-339"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-339/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-339/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-339/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-339/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_339">
+        <num>46-8-339</num>
+        <content>
+          <p>Street, suburban, and interurban railroad companies incorporated under the laws of this state shall have the authority to furnish steam for heating and power purposes to any person within the limits of the counties in which such companies operate, with authority to charge and collect reasonable compensation for the same and with full power to do any and all things necessary or convenient to carry into full effect the authority conferred by this Code section, and to use the streets and public places to lay and maintain their pipes and other appliances for conveying and distributing such steam, provided that before any such company shall be entitled to use any of the streets of any city in this state, the consent of such city shall be obtained.</p>
+          <p>(Ga. L. 1903, p. 684, § 1; Civil Code 1910, § 2606; Code 1933, § 94-1005.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

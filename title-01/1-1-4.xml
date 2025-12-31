@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/1-1-4"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/1-1-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/1-1-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_1_4">
+        <num>1-1-4</num>
+        <content>
+          <p>The omission from this Code of any Acts passed prior to the adoption of this Code which validated any bonds, notes, warrants, certificates, or other evidences of indebtedness issued by any political subdivision or instrumentality of the state shall in no way operate or be construed to repeal or destroy the effect of any and all of such validating Acts where such validating Acts have been otherwise lawfully passed and are not in conflict with the Constitution of the United States or the Constitution of Georgia.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

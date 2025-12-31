@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-28"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_28">
+        <num>20-3-28</num>
+        <content>
+          <p>Members of the board of regents shall receive the sum provided by Code Section 45-7-21 for each day of actual attendance at meetings of the board or for each day of travel, within or outside the state, as a member of a committee of the board, which travel has been authorized by the chairman or by action of the board, plus reimbursement for actual transportation costs while traveling by public carrier or the legal mileage rate for the use of a personal automobile to and from the place of meeting or places of visits or inspections. No member shall be authorized to receive the sums, expenses, and costs provided by this Code section for more than 60 days per year. Such sums, expenses, and costs shall be paid from funds appropriated to or otherwise available to the board.</p>
+          <p>(Ga. L. 1931, p. 7, § 59; Code 1933, § 32-111; Ga. L. 1964, p. 454, § 1; Ga. L. 1971, p. 233, § 1; Ga. L. 1977, p. 226, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

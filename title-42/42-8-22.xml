@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-8-22"/>
+          <FRBRuri value="/us-ga/act/ocga/42-8-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-8-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-8-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-8-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-8-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_8_22">
+        <num>42-8-22</num>
+        <content>
+          <p>There is created a state-wide probation system for felony offenders to be administered by DCS. Separate files and records shall be kept with relation to the system.</p>
+          <p>(Ga. L. 1956, p. 27, § 2; Ga. L. 1958, p. 15, § 1; Ga. L. 1962, p. 16, § 1; Ga. L. 1966, p. 56, § 1; Ga. L. 1985, p. 283, § 1; Ga. L. 2000, p. 1643, § 2; Ga. L. 2015, p. 422, § 4-1/HB 310.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted the present provisions of this Code section for the former provisions, which read: "There is created a state-wide probation system for felony offenders to be administered by the Department of Corrections. The probation system shall not be administered as part of the duties and activities of the State Board of Pardons and Paroles. Separate files and records shall be kept with relation to the system." See Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

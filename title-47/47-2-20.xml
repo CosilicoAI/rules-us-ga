@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-2-20"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-2-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-2-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_2_20">
+        <num>47-2-20</num>
+        <content>
+          <p>A retirement system is established and placed under the management of the board of trustees for the purpose of providing retirement allowances and other benefits under this chapter for employees of the state and political subdivisions thereof. It shall have the powers and privileges of a corporation and the right to bring and defend actions and to implead and be impleaded. It shall be known as the "Employees' Retirement System of Georgia," and by such name all of its business shall be transacted, all of its funds invested, and all of its cash and securities and other property held.</p>
+          <p>(Ga. L. 1949, p. 138, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

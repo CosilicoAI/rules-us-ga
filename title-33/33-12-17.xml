@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-12-17"/>
+          <FRBRuri value="/us-ga/act/ocga/33-12-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-12-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-12-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-12-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-12-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_12_17">
+        <num>33-12-17</num>
+        <content>
+          <p>When any depositing company shall desire to withdraw any deposit made with the Commissioner as provided by Code Section 33-12-1, and the Commissioner shall find that the deposit is no longer required, in whole or in part, in order to comply with the laws of this or any other state, he may to that extent release the deposit, and his certificate to that effect shall authorize the state to return the deposit so released to the depositing company. A certificate from the Commissioner or other official authorized to administer the insurance laws of any other state or states showing that the depositing company has fully satisfied or made provision for the full payment and satisfaction of all policy obligations in the other state or states or that such policy obligations in such other state or states have been otherwise adequately provided for shall be sufficient evidence that the deposit is no longer required by the laws of such other state or states; provided, however, that any notice of loss theretofore given in conformity with this law shall remain effective, and the Commissioner shall nevertheless retain securities in an amount sufficient to meet the requirements of Code Sections 33-12-11 and 33-12-12.</p>
+          <p>(Ga. L. 1896, p. 58, § 3; Civil Code 1910, § 2561; Ga. L. 1916, p. 129, § 1; Code 1933, §§ 56-1111, 56-1112; Code 1933, § 56-1117, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

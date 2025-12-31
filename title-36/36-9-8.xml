@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-9-8"/>
+          <FRBRuri value="/us-ga/act/ocga/36-9-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-9-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-9-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-9-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-9-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_9_8">
+        <num>36-9-8</num>
+        <content>
+          <p>The public grounds and other county property are placed in the keeping of the sheriff of the county, subject to the order of the county governing authority; and it is his or her duty to preserve them from injury or waste and to prevent intrusions upon them.</p>
+          <p>(Orig. Code 1863, § 471; Code 1868, § 533; Code 1873, § 499; Code 1882, § 499; Civil Code 1895, § 354; Civil Code 1910, § 403; Code 1933, § 91-705; Ga. L. 2006, p. 560, § 2/SB 462.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

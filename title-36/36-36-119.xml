@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-36-119"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-119"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-36-119/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-119/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-36-119/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-119/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_36_119">
+        <num>36-36-119</num>
+        <content>
+          <p>The county, the municipal governing authorities, and the property owner or owners shall negotiate in good faith throughout the annexation proceedings provided by this article and may at any time enter into a written agreement governing the annexation. If such agreement is reached after the arbitration panel has been appointed and before its dissolution, such agreement shall be adopted by the panel as its findings and recommendations. If such agreement is reached after an appeal is filed in the superior court and before the court issues an order, such agreement shall be made a part of the court's order. Any agreement reached as provided in this Code section shall be recorded as provided in Code Section 36-36-115.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

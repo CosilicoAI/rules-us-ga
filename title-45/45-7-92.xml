@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-7-92"/>
+          <FRBRuri value="/us-ga/act/ocga/45-7-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-7-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-7-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-7-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-7-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_7_92">
+        <num>45-7-92</num>
+        <content>
+          <p>Members of the commission shall take an oath to uphold the Constitution and laws of the United States and of the State of Georgia and shall receive a daily expense allowance and reimbursement for transportation costs as provided for in Code Section 45-7-21. All expenses incurred by the commission in the performance of its duties shall be paid from funds available to the General Assembly. The commission shall meet no more than 15 days in any year.</p>
+          <p>(Ga. L. 1971, p. 103, § 3; Ga. L. 1988, p. 297, § 1; Ga. L. 2017, p. 579, § 3-1/HB 202.)</p>
+          <p>The 2017 amendment,
+      effective May 9, 2017, in the first sentence, substituted "a daily expense allowance and reimbursement for transportation costs as provided for in Code Section 45-7-21" for "a salary of $59.00 per day for each day of service and such expenses and allowances while performing their duties of office as are refundable to state employees" and, in the last sentence, deleted "30 days during the year it is established and no more than" preceding "15 days" and deleted "thereafter" at the end.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

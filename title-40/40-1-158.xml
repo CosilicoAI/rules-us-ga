@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-158"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-158"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-158/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-158/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-158/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-158/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_158">
+        <num>40-1-158</num>
+        <content>
+          <p>Pursuant to rules and regulations prescribed by the commissioner of driver services, each chauffeur employed by a limousine carrier shall secure from the Department of Driver Services a for-hire license endorsement or private background check certification pursuant to Code Section 40-5-39.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

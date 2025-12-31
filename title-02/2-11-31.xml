@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-11-31"/>
+          <FRBRuri value="/us-ga/act/ocga/2-11-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-11-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-11-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-11-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-11-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_11_31">
+        <num>2-11-31</num>
+        <content>
+          <p>The Commissioner is authorized to apply for and the court is authorized to grant a temporary or permanent injunction restraining any person from violating or continuing to violate any of the provisions of this article or rules and regulations promulgated under this article, notwithstanding the existence of other remedies at law. Such injunctions shall be issued without bond.</p>
+          <p>(Ga. L. 1956, p. 217, § 8; Ga. L. 1996, p. 1151, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

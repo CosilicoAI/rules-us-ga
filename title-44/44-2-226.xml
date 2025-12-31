@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-226"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-226"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-226/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-226/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-226/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-226/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_226">
+        <num>44-2-226</num>
+        <content>
+          <p>The clerk should also enter on the petition a certificate substantially in the following form:
+   I certify that on the ________ day of ________________________, ________, I mailed to each of the following persons a copy of the within petition and process to his post office address as disclosed by the record:
+   ________________________________________________________________________
+   ________________________________________________________________________
+   ________________________________________________________________________
+   and that advertisement has been published in accordance with law, a copy of said advertisement being hereto attached.
+   This ________ day of ________________________, ________.
+   ___________________________________________________________________
+   Clerk</p>
+          <p>(Ga. L. 1917, p. 108, § 91; Code 1933, § 60-607; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-10-12"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-10-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-10-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_10_12">
+        <num>32-10-12</num>
+        <content>
+          <p>Each county or urban road project leased by the authority to the state and the department, upon completion of the action with respect thereto undertaken by the authority, shall be a part of the system of public roads of the state and of the county or counties or incorporated municipality or municipalities wherein the project is located; but no such project shall become a part of the state highway system until designated as such as provided by law.</p>
+          <p>(Ga. L. 1955, p. 124, § 12; Ga. L. 1967, p. 385, § 9; Ga. L. 1971, p. 385, § 9; Code 1933, § 95A-1210, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

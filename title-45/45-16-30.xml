@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-16-30"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-16-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-16-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_16_30">
+        <num>45-16-30</num>
+        <content>
+          <p>No person shall move or transport a body across a Georgia state line until the investigation of the case and the medical examiner's inquiry are complete and until the removal of the body is authorized by the coroner or medical examiner. Except when the conduct is a violation of Code Section 16-10-94, any person who violates this Code section shall be guilty of a misdemeanor and, upon conviction thereof, shall be punished by a fine of not less than $500.00 or more than $1,000.00 or 60 days in jail, or both.</p>
+          <p>(Ga. L. 1960, p. 1009, § 9; Ga. L. 1985, p. 843, § 8; Ga. L. 1990, p. 1735, § 3; Ga. L. 1997, p. 1421, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

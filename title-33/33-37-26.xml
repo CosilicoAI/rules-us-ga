@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-37-26"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-37-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-37-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_37_26">
+        <num>33-37-26</num>
+        <content>
+          <p>The receiver for an insurer shall not void any transfer of, or any obligation to transfer, money or any other property arising under or in connection with any federal home loan bank security agreement; any pledge, security, collateral, or guarantee agreement; or any other similar arrangement or credit enhancement relating to a federal home loan bank security agreement made in the ordinary course of business and in compliance with the applicable federal home loan bank agreement.However, a transfer may be avoided under this Code section if the transfer was made with intent to hinder, delay, or defraud the insurer, the receiver for the insurer, or existing or future creditors.This Code section shall not affect a receiver's rights regarding advances to an insurer in delinquency proceedings pursuant to 12 C.F.R. Section 1266.4.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

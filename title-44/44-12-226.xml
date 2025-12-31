@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-226"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-226"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-226/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-226/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-226/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-226/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_226">
+        <num>44-12-226</num>
+        <content>
+          <p>The expiration, before or after July 1, 1990, of any period of time specified by contract, statute, or court order during which a claim for money or property can be made or during which an action or proceeding may be commenced or enforced to obtain payment of a claim for money or to recover property, does not prevent the money or property from being presumed abandoned nor affect any duty to file a report or to pay or deliver abandoned property to the commissioner as required by this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

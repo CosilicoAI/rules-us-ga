@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-412"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-412"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-412/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-412/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-412/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-412/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_412">
+        <num>44-14-412</num>
+        <content>
+          <p>The proceeds of any sale made under Code Sections 44-14-410, 44-14-411, and 44-14-411.1 shall be applied to the payment of any expense incurred in caring for the property sold, any expense incurred in endeavoring to locate and make delivery of the property to the owner, any expense of advertising the sale, and any other necessary expenses. Should there be a balance, the balance shall be payable to the owner of the property; provided, however, that any claim of an owner shall be barred unless made within one year from the date of the sale.</p>
+          <p>(Ga. L. 1947, p. 1165, § 3; Ga. L. 1982, p. 915, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

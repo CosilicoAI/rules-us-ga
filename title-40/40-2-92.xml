@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-92"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_92">
+        <num>40-2-92</num>
+        <content>
+          <p>Any and all reciprocal agreements entered into by the commissioner shall be subject to confirmation by Act or resolution of the General Assembly and shall not be of force or effect until the passage of such Act or resolution and its approval by the Governor except such agreement or agreements as may be entered into while the General Assembly is not in session.</p>
+          <p>(Ga. L. 1931, p. 7, § 84; Ga. L. 1931, p. 216, § 3; Code 1933, § 68-218; Ga. L. 1990, p. 2048, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

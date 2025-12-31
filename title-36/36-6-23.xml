@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-6-23"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-6-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-6-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_6_23">
+        <num>36-6-23</num>
+        <content>
+          <p>The failure or refusal of any county treasurer to render the account and make the showing provided for by Code Section 36-6-22, after being notified to do so by the county governing authority, shall constitute malpractice in office. A conviction therefor shall subject the offender to removal from office. During the continuance of such failure or refusal after the notice aforesaid, the county governing authority shall suspend the treasurer from duty and shall appoint some fit and proper person to take charge of the county funds and perform the duties of his office until the question of his removal can be passed upon and decided by the proper tribunal. Proper bonds shall be taken from the person so appointed, as provided by law. The power given by this Code section and Code Section 36-6-22 to inquire into the affairs of the treasurer of the county and to suspend him from office in certain cases shall in no way affect the liability of the treasurer or that of the sureties on his bond.</p>
+          <p>(Ga. L. 1882-83, p. 82, § 2; Civil Code 1895, § 419; Civil Code 1910, § 528; Code 1933, § 23-1025.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

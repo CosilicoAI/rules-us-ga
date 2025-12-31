@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-2-42"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-2-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-2-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_2_42">
+        <num>27-2-42</num>
+        <content>
+          <p>It shall be unlawful for any person whose license, privilege, or right to hunt, fish, trap, possess, or transport wildlife, having been suspended or revoked pursuant to this article, to exercise that right or privilege within this state or to purchase or possess such a license which grants such right or privilege. Any person who hunts, fishes, traps, possesses, or transports wildlife in this state or who purchases or possesses a license to hunt, fish, trap, possess, or transport wildlife in this state in violation of such suspension or revocation pursuant to this article shall be guilty of a misdemeanor of a high and aggravated nature and shall be punished by a fine of not less than $1,500.00 nor more than $5,000.00 or imprisonment for a period not exceeding 12 months or both.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

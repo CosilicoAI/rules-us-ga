@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-962"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-962"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-962/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-962/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-962/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-962/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_962">
+        <num>20-2-962</num>
+        <content>
+          <p>The principal of each public school shall make a quarterly report to the local board of education immediately upon the end of each quarter of the fiscal year, and such report shall contain an account of all receipts and expenditures of such funds during the past quarter. The principal shall also make an annual report of the complete property inventory of the school. The local board may at any time during the school year inspect all receipts, expenditures, and property of each public school.</p>
+          <p>(Ga. L. 1959, p. 159, § 3; Ga. L. 1988, p. 612, § 15.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

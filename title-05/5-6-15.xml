@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-6-15"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-6-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-6-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_6_15">
+        <num>5-6-15</num>
+        <content>
+          <p>The writ of certiorari shall lie from the Supreme Court to the Court of Appeals as provided by Article VI, Section VI, Paragraph V of the Constitution of this state.</p>
+          <p>(Orig. Code 1863, § 3957; Code 1868, § 3977; Code 1873, § 4049; Code 1882, § 4049; Civil Code 1895, § 4634; Civil Code 1910, § 5180; Code 1933, § 19-101; Ga. L. 1983, p. 3, § 47.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

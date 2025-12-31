@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-19"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_19">
+        <num>15-18-19</num>
+        <content>
+          <p>(Ga. L. 1975, p. 1506, § 4; Code 1933, § 24-2919, enacted by Ga. L. 1977, p. 1257, § 8; Ga. L. 1997, p. 1319, § 12; Ga. L. 1999, p. 81, § 15; Ga. L. 2008, p. 577, § 10/SB 396; Ga. L. 2009, p. 745, § 2/SB 97; Ga. L. 2012, p. 446, § 2-17/HB 642; Ga. L. 2016, p. 864, § 15/HB 737.)</p>
+          <p>The 2016 amendment,
+      effective May 3, 2016, part of an Act to revise, modernize, and correct the Code, substituted "House Committee on Judiciary and the Senate Judiciary Committee" for "Judiciary Committee of the House of Representatives and the Judiciary Committee of the Senate" in the last sentence of subsection (c).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

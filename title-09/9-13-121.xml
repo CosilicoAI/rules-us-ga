@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-121"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-121"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-121/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-121/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-121/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-121/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_121">
+        <num>9-13-121</num>
+        <content>
+          <p>If the defendant was not served and did not appear, he may take advantage of the defect by affidavit of illegality. However, if he has had his day in court, he may not go behind the judgment by an affidavit of illegality.</p>
+          <p>(Orig. Code 1863, § 3597; Code 1868, § 3621; Code 1873, § 3671; Code 1882, § 3671; Civil Code 1895, § 4742; Civil Code 1910, § 5311; Code 1933, § 39-1009.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

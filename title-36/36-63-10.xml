@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-63-10"/>
+          <FRBRuri value="/us-ga/act/ocga/36-63-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-63-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-63-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-63-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-63-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_63_10">
+        <num>36-63-10</num>
+        <content>
+          <p>No bonds or other obligations of and no indebtedness incurred by any authority shall constitute an indebtedness or obligation of the State of Georgia or of any county, municipal corporation, or political subdivision thereof, nor shall any act of any authority in any manner constitute or result in the creation of an indebtedness of this state or of any such county, municipal corporation, or political subdivision. All such bonds and obligations shall be payable solely from the revenues therein pledged to such payment, including pledged rentals, sales proceeds, insurance proceeds, and condemnation awards; and no holder or holders of any such bonds or obligations shall ever have the right to compel any exercise of the taxing power of this state or of any county, municipal corporation, or political subdivision thereof, nor to enforce the payment thereof against any property of the state or of any such county, municipal corporation, or political subdivision.</p>
+          <p>(Code 1933, § 69-1510a, enacted by Ga. L. 1978, p. 1898, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

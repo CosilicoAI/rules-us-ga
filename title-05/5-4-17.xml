@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-4-17"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-4-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-4-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_4_17">
+        <num>5-4-17</num>
+        <content>
+          <p>If the certiorari is dismissed and a final decision is made in the case by the superior court, the defendant in certiorari may have judgment entered in the superior court against the plaintiff and his security for the sum recovered by him, together with the costs in the superior court; and if the case is sent back to the court below, and there is a judgment in the case in favor of the defendant in the court below the security on the certiorari bond shall then be included as in case of security on appeal.</p>
+          <p>(Orig. Code 1863, § 3978; Code 1868, § 3999; Code 1873, § 4071; Code 1882, § 4071; Civil Code 1895, § 4656; Civil Code 1910, § 5205; Code 1933, § 19-505.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

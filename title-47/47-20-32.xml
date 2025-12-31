@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-20-32"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-20-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-20-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_20_32">
+        <num>47-20-32</num>
+        <content>
+          <p>As a condition precedent to the introduction of any retirement bill, the member of the General Assembly who intends to be the primary sponsor of the bill must present an exact copy of the proposed bill, which must bear an LC number, to the state auditor.The state auditor shall determine whether the proposed bill is a retirement bill having a fiscal impact or a nonfiscal retirement bill and provide a written certification of that determination to the member of the General Assembly who intends to be the primary sponsor of the bill.Such certification shall specifically identify the proposed bill by reference to the LC number.If the proposed bill is introduced into the General Assembly, it shall have attached thereto the original of the certification of the state auditor.If the LC number on the bill as offered for introduction is different from the LC number shown on the state auditor's certification or if the bill as offered for introduction does not bear an LC number on each page of the bill, the bill may not be accepted for introduction by the Secretary of the Senate or the Clerk of the House of Representatives, and the bill may not be considered by any committee of the House or Senate or by the House or Senate. If the bill is certified as a retirement bill having a fiscal impact, its introduction shall also be limited by the provisions of subsection (a) of Code Section 47-20-34.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

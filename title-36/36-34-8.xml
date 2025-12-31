@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-34-8"/>
+          <FRBRuri value="/us-ga/act/ocga/36-34-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-34-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-34-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-34-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-34-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_34_8">
+        <num>36-34-8</num>
+        <content>
+          <p>It is declared to be the intention of the General Assembly that the provisions of this chapter are general laws within the meaning of Article III, Section VI, Paragraph IV(a) of the Constitution. No local or special laws shall be enacted on subject matters over which municipal corporations are authorized to act pursuant to this chapter. Any provision of any municipal charter heretofore enacted covering subject matters over which municipal corporations are authorized to act pursuant to this chapter shall be amended, modified, superseded, or repealed only in accordance with subsection (b) of Code Section 36-35-3.</p>
+          <p>(Ga. L. 1972, p. 820, § 1; Ga. L. 1983, p. 3, § 57.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

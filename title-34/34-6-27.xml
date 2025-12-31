@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-6-27"/>
+          <FRBRuri value="/us-ga/act/ocga/34-6-27"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-6-27/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-6-27/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-6-27/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-6-27/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_6_27">
+        <num>34-6-27</num>
+        <content>
+          <p>The remedy of injunction, in addition to any other available remedy, is given to any individual whose employment is affected, or may be affected, by any contract which is declared in whole or in part to be void by any provision of this article. The application for injunction may be filed in any court of appropriate jurisdiction, and service shall be made upon the parties in the manner now or hereafter provided by law. In any such proceeding, the plaintiff shall be entitled to his costs and reasonable attorneys' fees and shall recover actual damages sustained by him. The court shall assess such costs, attorneys' fees, and damages between the parties to the contract under equitable rules and principles.</p>
+          <p>(Ga. L. 1947, p. 616, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

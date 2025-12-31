@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-68"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-68"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-68/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-68/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-68/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-68/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_68">
+        <num>15-9-68</num>
+        <content>
+          <p>Notwithstanding the provisions of subsection (e) of Code Section 31-10-8 and subsection (c) of Code Section 31-10-27, unless local law or an agreement between a judge of the probate court and the county governing authority provides for the retention of a greater amount, a county governing authority may, by ordinance or resolution, limit the total amount of fees authorized to be retained as personal compensation by a probate judge who serves as local custodian, local registrar, or special abstracting agent pursuant to Code Section 31-10-8 or 31-10-27 to an aggregate amount not less than an amount equal to the fees collected or $7,500.00, whichever is less, in any calendar year beginning on or after January 1, 1997. Any probate judge whose fees are limited pursuant to this Code section shall prepare and submit a report at least quarterly to the county governing authority specifying the amount received during the quarter for which the report is submitted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

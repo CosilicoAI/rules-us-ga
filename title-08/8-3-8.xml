@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-8"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_8">
+        <num>8-3-8</num>
+        <content>
+          <p>The property of an authority is declared to be public property used for essential public and governmental purposes and not for purposes of private or corporate benefit and income. That portion of any housing project subject to a private enterprise agreement contemplated by subparagraph (C) of paragraph (13.1) of Code Section 8-3-3 consisting of the eligible housing units therein that are occupied or reserved for occupancy by persons of low income is declared to be public property used for essential public and governmental purposes and not for purposes of private or corporate benefit or income. Therefore, an authority and its property, as well as only that portion of any housing project subject to a private enterprise agreement contemplated by subparagraph (C) of paragraph (13.1) of Code Section 8-3-3 consisting of the eligible housing units therein that are occupied or reserved for occupancy by persons of low income, shall be exempt from all taxes and special assessments of the city, the county, and the state or any political subdivision thereof, provided that, in lieu of such taxes or special assessments, an authority may agree to make payments to the city or the county or any such political subdivision for improvements, services, and facilities furnished by such city, county, or political subdivision for the benefit of a housing project; but in no event shall such payments exceed the estimated cost to such city, county, or political subdivision of the improvements, services, or facilities to be so furnished.</p>
+          <p>(Ga. L. 1937, p. 210, § 21; Ga. L. 1996, p. 1417, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

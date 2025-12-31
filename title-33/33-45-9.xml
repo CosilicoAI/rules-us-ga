@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-45-9"/>
+          <FRBRuri value="/us-ga/act/ocga/33-45-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-45-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-45-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-45-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-45-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_45_9">
+        <num>33-45-9</num>
+        <content>
+          <p>No act, agreement, or statement of any resident, or of an individual purchasing continuing care or limited continuing care for a resident, under any continuing care agreement to furnish care to the resident shall constitute a valid waiver of any provision of this chapter intended for the benefit or protection of the resident or the individual purchasing care for the resident; provided, however, that nothing in this Code section shall be construed to prohibit a continuing care agreement from providing for a resident or prospective resident to agree to arbitration prior to bringing any action pursuant to Code Section 33-45-12.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

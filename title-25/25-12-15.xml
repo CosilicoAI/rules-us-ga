@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-12-15"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-12-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-12-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_12_15">
+        <num>25-12-15</num>
+        <content>
+          <p>The Commissioner may adopt rules and regulations setting forth the proper installation, inspection, recharging, repairing, servicing, or testing of fire suppression systems or portable fire extinguishers.The Commissioner may adopt by rule the applicable standards of the National Fire Protection Association or another nationally recognized organization, if the standards are judged by him to be suitable for the enforcement of this chapter.All fire suppression systems covered by Code Section 25-12-3 and all portable fire extinguishers covered by Code Section 25-12-4 shall be installed, inspected, recharged, repaired, serviced, or tested in compliance with this chapter and with the Commissioner's rules and regulations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

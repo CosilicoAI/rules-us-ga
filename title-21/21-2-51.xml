@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-51"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_51">
+        <num>21-2-51</num>
+        <content>
+          <p>Except when otherwise provided by law, the primary and election records of the Secretary of State, including registration statements, nomination petitions, affidavits, certificates, tally papers, returns, accounts, contracts, reports, and other documents in his or her custody shall be open to public inspection and may be inspected and copied by any elector of the state during usual business hours at any time when they are not necessarily being used by the Secretary of State or his or her employees having duties to perform in reference thereto; provided, however, that such public inspection thereof shall only be in the presence of the Secretary of State or his or her employee and shall be subject to proper regulation for the safekeeping of such documents and subject to the further provisions of this chapter.</p>
+          <p>(Code 1933, § 34-302, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Ga. L. 1998, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

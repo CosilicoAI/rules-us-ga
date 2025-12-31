@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-6-4"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-6-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-6-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_6_4">
+        <num>36-6-4</num>
+        <content>
+          <p>Within 30 days after his election or appointment, the county treasurer shall give a bond payable to the county governing authority with securities approved by such authority, in a sum which in its judgment will be ample to protect the county from any loss.</p>
+          <p>(Orig. Code 1863, § 523; Code 1868, § 587; Code 1873, § 549; Code 1882, § 549; Ga. L. 1889, p. 51, § 1; Civil Code 1895, § 455; Civil Code 1910, § 571; Ga. L. 1918, p. 109, § 1; Code 1933, § 23-1005.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

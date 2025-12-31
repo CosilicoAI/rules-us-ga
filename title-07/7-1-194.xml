@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-194"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-194"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-194/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-194/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-194/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-194/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_194">
+        <num>7-1-194</num>
+        <content>
+          <p>Creditors other than depositors shall not share in any distribution of the assets of the financial institution unless the creditor or his designated representative shall, within the time and in the manner specified by the department pursuant to this chapter, present to the department a statement of his claim, together with a copy of any book entries pertaining thereto, any evidence of indebtedness or other instrument received as evidence thereof, the details with respect to any collateral or agreement of pledge received in connection therewith, and a description of any insurance pertaining thereto. The department shall prescribe the form for the proof of claim of creditors and for affidavit as to the truth of statements therein to be included with the claim. However, the court may, upon petition and adequate cause shown, permit any creditor to file his claim upon a later date, but no claim shall in any event be allowed to be filed after the last day for the filing of exceptions to the first account of the department.</p>
+          <p>(Ga. L. 1919, p. 135, art. 7, § 18; Ga. L. 1925, p. 119, § 1; Code 1933, § 13-820; Code 1933, § 41A-805, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

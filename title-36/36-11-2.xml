@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-11-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-11-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-11-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-11-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-11-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-11-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_11_2">
+        <num>36-11-2</num>
+        <content>
+          <p>Except where otherwise provided by law, each county governing authority shall audit all claims against its respective county. Every such claim, or such part as may be allowed, must be registered. The county governing authority or its clerk must give the claimant an order on the treasurer for the same; in the order, it shall specifically designate upon what particular fund such order is drawn, out of which payment is to be made.</p>
+          <p>(Orig. Code 1863, § 478; Code 1868, § 540; Ga. L. 1871-2, p. 69, § 1; Code 1873, § 506; Code 1882, § 506; Civil Code 1895, § 361; Civil Code 1910, § 410; Code 1933, § 23-1601.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

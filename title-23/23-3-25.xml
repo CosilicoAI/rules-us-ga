@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-3-25"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-3-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-3-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_3_25">
+        <num>23-3-25</num>
+        <content>
+          <p>In cases of emergency, upon the affidavit of the complainant that he cannot obtain the sanction of the judge in time to remedy the mischief, the writ of ne exeat may issue at once, to continue until the first term of the court to which it is returnable, unless earlier heard by order of the judge.</p>
+          <p>(Orig. Code 1863, § 3152; Code 1868, § 3164; Code 1873, § 3231; Code 1882, § 3231; Civil Code 1895, § 4891; Civil Code 1910, § 5464; Code 1933, § 37-1406.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

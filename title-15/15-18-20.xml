@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-20"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_20">
+        <num>15-18-20</num>
+        <content>
+          <p>Notwithstanding any other provision of law, the governing authority of any county or municipality within the judicial circuit which provides additional personnel for the office of district attorney may contract with the Prosecuting Attorneys' Council of the State of Georgia to provide such additional personnel in the same manner as is provided for state paid personnel in this article. Any such personnel shall be considered state employees and shall be entitled to the same fringe benefits as other state paid personnel employed by the district attorney pursuant to this article. The governing authority of such county or municipality shall transfer to the council such funds as may be necessary to cover the compensation, benefits, travel, and other expenses for such personnel.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

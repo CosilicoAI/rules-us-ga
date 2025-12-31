@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-11-5"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-11-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-11-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_11_5">
+        <num>20-11-5</num>
+        <content>
+          <p>All moneys appropriated by the General Assembly for the establishment and operation of the Georgia Tech Research Institute, together with any sums which may be appropriated by the Congress or apportioned to the state from the Treasury of the United States for purposes substantially the same as specified in this chapter, shall be paid to the Board of Regents of the University System of Georgia for the conduct of the work of the research institute authorized by this chapter, provided that the board shall formally present to the Governor its acceptance of the conditions of this chapter.</p>
+          <p>(Ga. L. 1919, p. 367, § 4; Ga. L. 1931, p. 7, § 48; Code 1933, § 32-304; Code 1933, § 32-305, enacted by Ga. L. 1960, p. 1131, § 5; Ga. L. 1984, p. 1675, § 2; Ga. L. 1985, p. 149, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-61-6"/>
+          <FRBRuri value="/us-ga/act/ocga/36-61-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-61-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-61-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-61-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-61-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_61_6">
+        <num>36-61-6</num>
+        <content>
+          <p>For the purposes of this chapter, a municipality or county may formulate a workable program for utilizing appropriate private and public resources, including those specified in Code Section 36-61-11, to eliminate and prevent the development or spread of pockets of blight, to encourage needed urban rehabilitation, to provide for the redevelopment of pockets of blight, or to undertake such of the aforesaid activities or such other feasible municipal or county activities as may be suitably employed to achieve the objectives of such workable program. Such workable program may include, without limitation, provision for the prevention of the spread of pockets of blight into areas of the municipality or county which are free from pockets of blight, through diligent enforcement of housing, zoning, and occupancy controls and standards; the rehabilitation or conservation of pockets of blight or portions thereof by replanning, removing congestion, providing parks, playgrounds, and other public improvements, including without limitation surface transportation projects, encouraging voluntary rehabilitation, and compelling the repair and rehabilitation of deteriorated or deteriorating structures; and the clearance and redevelopment of pockets of blight or portions thereof.</p>
+          <p>(Ga. L. 1955, p. 354, § 4; Ga. L. 2015, p. 1318, § 4/HB 174; Ga. L. 2015, p. 1329, § 4/SB 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

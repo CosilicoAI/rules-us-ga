@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-421"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-421"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-421/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-421/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-421/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-421/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_421">
+        <num>48-5-421</num>
+        <content>
+          <p>Any property which is exempt from ad valorem taxation pursuant to subparagraphs (a)(1)(E) or (a)(1)(F) of Code Section 48-5-41 shall not constitute a special franchise for purposes of this article and shall not be subject to the provisions of this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

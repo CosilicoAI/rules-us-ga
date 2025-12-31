@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/39-2-14"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/39-2-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/39-2-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_39_2_14">
+        <num>39-2-14</num>
+        <content>
+          <p>The Commissioner of Labor may at any time revoke any employment certificate if in his or her judgment the employment certificate was improperly issued. The Commissioner shall be authorized to investigate the true age of any minor employed, hear evidence, and require the production of relevant books or documents. If the employment certificate of a minor is revoked, the employer of the minor at the time of the revocation shall be notified and the minor shall not be employed or permitted to work thereafter until a new and valid employment certificate shall have been obtained.</p>
+          <p>(Ga. L. 1925, p. 291, § 4; Code 1933, § 54-304; Ga. L. 1946, p. 67, § 7; Ga. L. 1981, p. 792, § 3; Ga. L. 2015, p. 943, § 4/HB 366.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

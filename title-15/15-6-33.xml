@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-6-33"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-6-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-6-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_6_33">
+        <num>15-6-33</num>
+        <content>
+          <p>The several judges of the superior courts may convene at the seat of government once each year, at such time as they or a majority of them may appoint, for the purpose of recommending to the General Assembly the establishment of uniform rules of practice throughout the several circuits. Such rules so recommended by the convention of judges shall not become operative and of force and effect until enacted into law by the General Assembly.</p>
+          <p>(Laws 1821, Cobb's 1851 Digest, p. 460; Code 1863, § 3170; Code 1868, § 3181; Code 1873, § 3246; Code 1882, § 3246; Civil Code 1895, § 4332; Civil Code 1910, § 4861; Code 1933, § 24-2628; Ga. L. 1937, p. 464, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

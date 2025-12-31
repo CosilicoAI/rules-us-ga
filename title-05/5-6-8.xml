@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-6-8"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-6-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-6-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_6_8">
+        <num>5-6-8</num>
+        <content>
+          <p>The decision in each case shall be entered on the minutes. It shall be within the power of the appellate court rendering the decision in a case to make such order and to give such direction as to the final disposition of the case by the lower court as may be consistent with the law and justice of the case.</p>
+          <p>(Orig. Code 1863, § 4180; Code 1868, § 4219; Code 1873, § 4284; Code 1882, § 4284; Civil Code 1895, § 5586; Penal Code 1895, § 1068; Civil Code 1910, § 6205; Penal Code 1910, § 1095; Code 1933, § 6-1610.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

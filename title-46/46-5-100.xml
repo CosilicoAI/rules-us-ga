@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-5-100"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-5-100/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-5-100/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_5_100">
+        <num>46-5-100</num>
+        <content>
+          <p>Each cooperative shall be charged by the Secretary of State the fees specified in Code Section 14-2-122 for the filing of documents and issuance of certificates.</p>
+          <p>(Ga. L. 1950, p. 192, § 41; Ga. L. 1981, p. 1396, § 17; Ga. L. 1987, p. 325, § 1; Ga. L. 1989, p. 946, § 112; Ga. L. 1991, p. 1324, § 10; Ga. L. 2010, p. 9, § 1-87/HB 1055.)</p>
+          <p>The 2010 amendment,
+      effective May 12, 2010, deleted former subsection (a), which read:
+   "Each cooperative shall be charged by the clerk of the superior court the fee as provided in subsection (g) of Code Section 15-6-77 for the filing of incorporation proceedings."
+   and deleted the former subsection (b) designation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

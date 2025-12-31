@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-55"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-55"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-55/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-55/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-55/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-55/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_55">
+        <num>40-1-55</num>
+        <content>
+          <p>Every officer, agent, or employee of any corporation and every person who violates or fails to comply with this article relating to the regulation of motor carriers and limousine carriers or any order, rule, or regulation of the Department of Public Safety, or who procures, aids, or abets therein, shall be guilty of a misdemeanor. Misdemeanor violations of this article may be prosecuted, handled, and disposed of in the manner provided for by Chapter 13 of this title.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

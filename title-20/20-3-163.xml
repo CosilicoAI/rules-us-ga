@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-163"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-163"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-163/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-163/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-163/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-163/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_163">
+        <num>20-3-163</num>
+        <content>
+          <p>Revenue bonds issued under this article shall not be deemed to constitute a debt of the state or a pledge of the faith and credit of the state, but such bonds shall be payable solely from the fund provided for in Code Section 20-3-166; and the issuance of such revenue bonds shall not directly, indirectly, or contingently obligate the state to levy or to pledge any form of taxation whatever therefor or to make any appropriation for their payment; and all such bonds shall contain recitals on their face covering substantially the foregoing provisions of this Code section; provided, however, such funds as may be received from state appropriations or from any other source are declared to be available and may be used by the board of regents for the performance of any lease contract entered into by the board.</p>
+          <p>(Ga. L. 1949, p. 1009, § 14.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

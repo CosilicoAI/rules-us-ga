@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-14-10"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-14-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-14-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_14_10">
+        <num>31-14-10</num>
+        <content>
+          <p>The county boards of health or their duly authorized agents shall, within their respective limits, enforce rules and regulations adopted by the department for the protection of the public against active tuberculosis.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 348, § 3; Code 1933, § 88-703, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1985, p. 620, § 4; Ga. L. 2005, p. 1513, § 1/SB 56.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

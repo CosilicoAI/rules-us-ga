@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-1-5"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-1-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-1-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_1_5">
+        <num>36-1-5</num>
+        <content>
+          <p>In all cases in which a county is a party defendant, service shall be sufficient if perfected upon a majority of the commissioners, in those counties in which the affairs of the county are committed to a county commissioner or a board of county commissioners.</p>
+          <p>(Ga. L. 1872, p. 39, § 1; Code 1873, § 492; Code 1882, § 492; Civil Code 1895, § 342; Civil Code 1910, § 385; Code 1933, § 23-1503; Ga. L. 1987, p. 1482, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

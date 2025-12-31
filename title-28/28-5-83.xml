@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-5-83"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-5-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-5-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_5_83">
+        <num>28-5-83</num>
+        <content>
+          <p>Upon receipt of a notice of claim, the board may begin its investigation thereof; or it may wait until the supporting information provided for in Code Section 28-5-80 has been furnished. After investigation of the claim by the board, after introduction of the resolution, and after a hearing thereon, if any, the board shall prepare a statement including its findings, its determination of the merits of the claim, its recommendation as to the payment thereof, and such other information as the board deems advisable. Such statement shall be immediately transmitted to the chairman of the House Appropriations Committee, who shall present the same to the full committee. The recommendations of the board shall be advisory in nature only and shall not be binding on the House of Representatives, the Senate, or any committee of either. The resolution shall be acted upon in the same manner as provided by law and the rules of the House and Senate for action upon bills.</p>
+          <p>(Ga. L. 1963, p. 624, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

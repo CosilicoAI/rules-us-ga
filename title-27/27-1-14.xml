@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-1-14"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-1-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-1-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_1_14">
+        <num>27-1-14</num>
+        <content>
+          <p>The proceeds from all fines and bond forfeitures arising from criminal prosecution for violation of the wildlife laws, rules, and regulations shall, except as otherwise specifically provided in this title, be applied initially to payment of the fees of the officers of the trial court and court costs as prescribed by law. Any money remaining after such disposition shall be remitted promptly by the clerk of the court in which the case is disposed of to the county treasurer of the county in which the fine is assessed, who shall deposit the funds in the general funds of the county.</p>
+          <p>(Ga. L. 1931, p. 173, § 4; Code 1933, § 45-127; Ga. L. 1935, p. 386, § 11; Ga. L. 1955, p. 483, § 17; Code 1933, § 45-115, enacted by Ga. L. 1977, p. 396, § 1; Ga. L. 1982, p. 1729, § 1; Ga. L. 1983, p. 3, § 20; Ga. L. 2015, p. 693, § 3-32/HB 233.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

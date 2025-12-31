@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-23-41"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-23-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-23-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_23_41">
+        <num>33-23-41</num>
+        <content>
+          <p>Any person who in this state acts, purports to act, or holds himself or herself out as an agent, limited subagent, counselor, or adjuster or as an employee of an agent, limited subagent, counselor, or adjuster of or for an insurer that has not obtained from the Commissioner a certificate of authority then in effect to do business in this state as required by this article or who has not obtained a certificate of authority as required by this article and any person who in this state collects or forwards any premium or portion of the premium for or to the insurer shall pay a sum equal to the state, county, and municipal taxes and license fees required to be paid by the insurance companies legally doing business in this state.It is the Commissioner's duty to report violators of this Code section to the district attorney for the county in which the violations occurred.Violators of this Code section shall also be personally liable to the same extent as the insurer upon every contract of insurance made by the insurer with reference to a risk having a situs in this state, if the violator participated in the solicitation, negotiation, or making of the contract or in any endorsement to the contract, in any modification of the contract, or in the collection or forwarding of any premium or portion of the premium relating to such contract.This Code section shall have no application to a contract of insurance entered into in accordance with Chapter 5 of this title.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-5-9"/>
+          <FRBRuri value="/us-ga/act/ocga/26-5-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-5-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-5-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-5-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-5-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_5_9">
+        <num>26-5-9</num>
+        <content>
+          <p>The department may issue a provisional license effective for a period not to exceed 90 days to each applicant who has substantially complied with all requirements for a regular license. Provisional licenses shall be renewed in the discretion of the department only in cases of extreme hardship and in no case for longer than 90 days. The obligations and conditions of a provisional license shall be the same as those of a regular license except as otherwise provided for in this article.</p>
+          <p>(Ga. L. 1972, p. 714, § 9; Ga. L. 1985, p. 476, § 8; Ga. L. 2017, p. 307, § 2/SB 88.)</p>
+          <p>The 2017 amendment,
+      effective May 4, 2017, substituted "article" for "chapter" at the end of the last sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

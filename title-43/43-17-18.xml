@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-17-18"/>
+          <FRBRuri value="/us-ga/act/ocga/43-17-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-17-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-17-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-17-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-17-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_17_18">
+        <num>43-17-18</num>
+        <content>
+          <p>Where a consent to service of process is required under this chapter, such consent to service of process shall be in the form prescribed by the Secretary of State, shall be irrevocable, and shall provide that actions arising out of or founded upon the solicitation of charitable contributions in violation of this chapter may be commenced against the person executing such consent in any court of competent jurisdiction and proper venue within this state by the service of process or pleadings upon the Secretary of State. Service of any such process or pleadings in any such action against a person who has filed a consent to service with the Secretary of State shall, if made on the Secretary of State, be by duplicate copies, one of which shall be filed in the office of the Secretary of State and the other shall immediately be forwarded by the Secretary of State by registered or certified mail or statutory overnight delivery to the persons against whom such process or pleadings are directed at his latest address on file in the office of the Secretary of State.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

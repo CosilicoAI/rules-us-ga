@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-12-9"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-12-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-12-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_12_9">
+        <num>25-12-9</num>
+        <content>
+          <p>The licenses and permits required by this chapter shall be issued by the Commissioner for each license year beginning January 1 and expiring the following December 31.The failure to renew a license or permit by December 31 will cause the license or permit to become inoperative.A license or permit which is inoperative because of the failure to renew it shall be restored upon payment of the applicable fee plus a penalty equal to the applicable fee if said fees are paid within 90 days of expiration.After 90 days, the firm and the employees thereof must apply for new licenses and permits as required for an initial license or permit.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-17-19"/>
+          <FRBRuri value="/us-ga/act/ocga/43-17-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-17-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-17-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-17-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-17-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_17_19">
+        <num>43-17-19</num>
+        <content>
+          <p>Notwithstanding any other law to the contrary, a solicitation shall be deemed to be a consumer act or practice or consumer transaction under Part 2 of Article 15 of Chapter 1 of Title 10, the "Fair Business Practices Act of 1975." Nothing contained in this chapter shall be construed to limit the authority of the Attorney General to take any action under the "Fair Business Practices Act of 1975" regarding unfair and deceptive acts or practices in a solicitation or in solicitations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

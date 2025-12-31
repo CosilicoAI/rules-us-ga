@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-6-24"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-6-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-6-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_6_24">
+        <num>2-6-24</num>
+        <content>
+          <p>The commission shall designate one of its members as chairperson and may, from time to time, change such designation. A member of the commission shall hold office so long as he or she retains the office by virtue of which he or she is serving on the commission. A majority of the commission shall constitute a quorum, and the concurrence of a majority shall be required for the determination of any matter within its duties. The members of the commission shall receive for each day of actual attendance of meetings of the commission a daily expense allowance in the amount specified in subsection (b) of Code Section 45-7-21 and shall be entitled to expenses, including traveling expenses, necessarily incurred in the discharge of their duties on the commission. The commission shall provide for the execution of surety bonds for all employees and officers who are entrusted with funds or property. It shall provide for the keeping of a full and accurate record of all proceedings and of all resolutions, regulations, and orders issued or adopted and shall provide for an annual audit of the accounts of receipts and disbursements.</p>
+          <p>(Ga. L. 1937, p. 377, § 4; Ga. L. 1988, p. 269, § 3; Ga. L. 2002, p. 951, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

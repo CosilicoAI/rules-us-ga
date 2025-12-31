@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-4-101"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-101"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-4-101/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-101/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-4-101/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-101/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_4_101">
+        <num>13-4-101</num>
+        <content>
+          <p>Accord and satisfaction occurs where the parties to an agreement, by a subsequent agreement, have satisfied the former agreement, and the latter agreement has been executed. The execution of a new agreement may itself amount to a satisfaction of the former agreement, where it is so expressly agreed by the parties; and, without such agreement, if the new promise is founded on a new consideration, the taking of it is a satisfaction of the former agreement.</p>
+          <p>(Orig. Code 1863, § 2819; Code 1868, § 2827; Code 1873, § 2878; Code 1882, § 2878; Civil Code 1895, § 3732; Civil Code 1910, § 4326; Code 1933, § 20-1201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

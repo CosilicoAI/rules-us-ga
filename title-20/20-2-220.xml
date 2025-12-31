@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-220"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-220/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-220/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_220">
+        <num>20-2-220</num>
+        <content>
+          <p>In any fiscal year in which school bus drivers or full-term school food service managers or food service employees receive any increase in state funds in their salaries, a local unit of administration shall not decrease any local salary supplement for such personnel below the local supplement amount received in the immediately preceding fiscal year by those personnel of that local unit of administration unless such local unit of administration has conducted at least one public hearing regarding such decrease, notice of which hearing the local unit shall cause to be published in the legal organ of the county which is the legal situs of such local unit one time at least seven days prior to the date such hearing is to be held.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

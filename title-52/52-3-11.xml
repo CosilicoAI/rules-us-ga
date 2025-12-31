@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-3-11"/>
+          <FRBRuri value="/us-ga/act/ocga/52-3-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-3-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-3-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-3-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-3-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_3_11">
+        <num>52-3-11</num>
+        <content>
+          <p>For the purpose of determining the lands, easements, and property necessary for the uses set out in this chapter, the Department of Transportation, the United States government, or the agents of either shall have the right to enter upon any lands along the general line of the rights of way for the purpose of locating definitely the specific lines of the rights of way and the land required for such purposes; and there shall be no claim against the State of Georgia or the United States for such acts as may be done in making such surveys.</p>
+          <p>(Ga. L. 1939, p. 331, § 7; Ga. L. 1981, p. 1017, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

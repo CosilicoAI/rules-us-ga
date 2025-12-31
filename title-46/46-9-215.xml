@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-9-215"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-215"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-9-215/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-215/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-9-215/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-215/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_9_215">
+        <num>46-9-215</num>
+        <content>
+          <p>All railroad companies in this state, at the terminus or at any intermediate point, shall receive from the connecting road all cars containing freight consigned to any point on the road to which the same is offered and shall transport the cars to their destination with reasonable diligence. Any failure or refusal to comply with this requirement shall give to the consignee, the shipper, or the owner of such goods and freight a right of action against the company so refusing; and the damages received in such action shall not be less than 10 percent nor more than 25 percent of the value of the goods so refused to be received.</p>
+          <p>(Ga. L. 1882-83, p. 145, § 1; Civil Code 1895, § 2302; Civil Code 1910, § 2756; Code 1933, § 18-504.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

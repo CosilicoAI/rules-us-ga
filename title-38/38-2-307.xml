@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-307"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-307"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-307/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-307/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-307/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-307/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_307">
+        <num>38-2-307</num>
+        <content>
+          <p>Members of the National Guard may, at the discretion of the Governor, have the same powers of arrest and apprehension as do law enforcement officers when called to active duty to respond to emergencies pursuant to Code Section 38-2-6, 38-2-7, 45-12-31, or 45-12-34 or pursuant to any other provision of state or federal law other than Title 10 of the United States Code.</p>
+          <p>(Ga. L. 1969, p. 228, § 5; Ga. L. 2004, p. 105, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

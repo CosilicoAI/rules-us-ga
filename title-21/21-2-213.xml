@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-213"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-213"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-213/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-213/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-213/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-213/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_213">
+        <num>21-2-213</num>
+        <content>
+          <p>In addition to any salary, fees, or expenses now or hereafter provided by law, the governing authority of each county is authorized to provide as contingent expenses for the operation of the office of the board of registrars, and payable from county funds, a monthly expense allowance for each registrar of not less than the amount fixed in the following schedule:</p>
+          <p>Population
+   Minimum Monthly Expenses
+   ----------
+   --------------
+   0 - 11,889
+   $ 100.00
+   11,890 - 74,999
+   200.00
+   75,000 - 249,999
+   300.00
+   250,000
+   -
+   499,999
+   400.00
+   500,000
+   or more
+   500.00</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-285"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-285"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-285/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-285/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-285/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-285/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_285">
+        <num>34-9-285</num>
+        <content>
+          <p>Where an occupational disease is aggravated by any other disease or infirmity not itself compensable or where disability or death from any other cause not itself compensable is aggravated, prolonged, accelerated, or in any other way contributed to by an occupational disease, the compensation payable shall be reduced and limited only to such proportion of the compensation that would be payable if the occupational disease were the sole cause of the disability or death as such occupational disease, as the causative factor, bears to all the causes of such disability or death. Compensation shall be adjusted by reducing the number of weekly payments or the amounts of such payments as, in the circumstances of the particular case, may be determined by the board.</p>
+          <p>(Code 1933, § 114-805, enacted by Ga. L. 1946, p. 103.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

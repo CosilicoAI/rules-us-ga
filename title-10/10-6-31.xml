@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-6-31"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-6-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-6-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_6_31">
+        <num>10-6-31</num>
+        <content>
+          <p>An agent who shall have discharged his duty shall be entitled to his commission and all necessary expenses incurred about the business of his principal. If he shall have violated his engagement, he shall be entitled to no commission.</p>
+          <p>(Orig. Code 1863, § 2168; Code 1868, § 2164; Code 1873, § 2190; Code 1882, § 2190; Civil Code 1895, § 3014; Civil Code 1910, § 3586; Code 1933, § 4-212.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

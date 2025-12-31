@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-32-60"/>
+          <FRBRuri value="/us-ga/act/ocga/50-32-60"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-32-60/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-32-60/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-32-60/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-32-60/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_32_60">
+        <num>50-32-60</num>
+        <content>
+          <p>The prohibition of expenditures or withholding of funds for public road or other public transportation purposes by the authority pursuant to any provision of this chapter shall not alter the Department of Transportation's budgeted or programmed allocation of state or federal funds among congressional districts pursuant to Code Section 32-5-30.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

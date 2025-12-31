@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-3-23"/>
+          <FRBRuri value="/us-ga/act/ocga/48-3-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-3-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-3-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-3-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-3-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_3_23">
+        <num>48-3-23</num>
+        <content>
+          <p>In order to preserve public funds and to limit efforts to collect debts or obligations barred by the statute of limitations, the commissioner is authorized to develop appropriate standards that comply with the policies prescribed by the state accounting officer which will provide a mechanism to administratively discharge any debt or obligation in favor of the department when the collection of any obligation or charge, regardless of amount, is barred by the applicable statute of limitations. Certificates identifying such uncollectable accounts shall be forwarded to the state accounting officer in a manner and at such times as are reflected in the standards developed by the state accounting officer and the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

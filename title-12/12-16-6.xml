@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-16-6"/>
+          <FRBRuri value="/us-ga/act/ocga/12-16-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-16-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-16-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-16-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-16-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_16_6">
+        <num>12-16-6</num>
+        <content>
+          <p>All government agencies shall review their present statutory authority, administrative regulations, and current policies and procedures for the purpose of determining whether there are any deficiencies or inconsistencies therein which prohibit or hinder full compliance with the intent, purposes, and provisions of this article, including the guidelines issued pursuant to Code Section 12-16-8, and shall propose to the Governor not later than January 1, 1992, such measures as may be necessary to bring their authority, regulations, policies, and procedures into conformity with the intent, purposes, and procedures set forth in this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-11-302"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-302"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-11-302/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-302/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-11-302/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-302/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_11_302">
+        <num>14-11-302</num>
+        <content>
+          <p>Limitations on the authority of any or all members or managers that are set forth in a limited liability company's articles of organization shall be conclusively presumed in favor of the limited liability company and against a grantee of the limited liability company, or a person claiming through such grantee, with respect to limited liability company real property located in a county of this state if a copy of the articles of organization certified by the Secretary of State is filed in the office of the clerk of the superior court of the county where the real property is located and recorded in the book kept by such clerk for statements of partnership pursuant to Code Section 14-8-10.1.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

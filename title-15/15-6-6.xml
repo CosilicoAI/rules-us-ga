@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-6-6"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-6-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-6-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_6_6">
+        <num>15-6-6</num>
+        <content>
+          <p>Before entering on the duties of their office, superior court judges must take the oath required of all civil officers and in addition they must take the following oath:</p>
+          <p>"I swear that I will administer justice without respect to person and do equal rights to the poor and the rich and that I will faithfully and impartially discharge and perform all the duties incumbent on me as judge of the superior courts of this state, according to the best of my ability and understanding, and agreeably to the laws and Constitution of this state and the Constitution of the United States. So help me God."</p>
+          <p>(Orig. Code 1863, § 229; Code 1868, § 223; Code 1873, § 237; Code 1882, § 237; Civil Code 1895, § 4311; Civil Code 1910, § 4835; Code 1933, § 24-2605.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

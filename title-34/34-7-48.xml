@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-7-48"/>
+          <FRBRuri value="/us-ga/act/ocga/34-7-48"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-7-48/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-7-48/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-7-48/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-7-48/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_7_48">
+        <num>34-7-48</num>
+        <content>
+          <p>No employee of any railroad company shall be deprived of his right to recover damages for personal injury by reason of the fact that at the time of such injury he was making a run of more than 13 hours, or making a run aggregating more than 13 hours in 24 hours, or had gone on duty after a 13 hour run, or runs aggregating 13 hours, before ten hours' rest.</p>
+          <p>(Ga. L. 1890-91, p. 186, § 1; Civil Code 1895, § 2240; Civil Code 1910, § 2693; Code 1933, § 66-410; Ga. L. 2017, p. 774, § 34/HB 323.)</p>
+          <p>The 2017 amendment,
+      effective May 9, 2017, part of an Act to revise, modernize, and correct the Code, deleted ", as prohibited by Code Section 46-8-152" following "rest" at the end of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

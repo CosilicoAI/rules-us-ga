@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-8-402"/>
+          <FRBRuri value="/us-ga/act/ocga/11-8-402"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-8-402/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-8-402/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-8-402/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-8-402/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_8_402">
+        <num>11-8-402</num>
+        <content>
+          <p>In the case of a fiduciary appointed or qualified by a court, a certificate issued by or under the direction or supervision of the court or an officer thereof and dated within 60 days before the date of presentation for transfer; or</p>
+          <p>In any other case, a copy of a document showing the appointment or a certificate issued by or on behalf of a person reasonably believed by an issuer to be responsible or, in the absence of that document or certificate, other evidence the issuer reasonably considers appropriate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

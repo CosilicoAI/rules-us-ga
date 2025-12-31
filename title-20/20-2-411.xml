@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-411"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-411"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-411/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-411/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-411/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-411/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_411">
+        <num>20-2-411</num>
+        <content>
+          <p>When the public school fund shall be received and receipted for, it shall be the duty of the officers authorized by law to receive such fund and keep it separate and distinct from other funds. The school funds shall be used for educational purposes and may be used to pay the salaries of personnel and to pay for the utilization of school facilities, including school buses, for extracurricular and interscholastic activities, including literary events, music and athletic programs within individual schools and between schools in the same or in different school systems when such activities are sponsored by local boards of education as an integral part of the total school program, and for no other purpose. When taxes are paid into the state treasury, the comptroller general shall in no case receipt a tax collector for them until that part of the tax so paid in which was raised for school purposes is separated in amount from the gross amount paid in. It shall be lawful to invest school funds in securities of the states, United States, or municipalities of this state or in certificates of deposit.</p>
+          <p>(Ga. L. 1919, p. 288, § 115; Code 1933, § 32-942; Ga. L. 1969, p. 721, § 1; Ga. L. 1975, p. 94, § 1; Ga. L. 1985, p. 149, § 20; Ga. L. 2013, p. 141, § 20/HB 79.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-7-30"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-7-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-7-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_7_30">
+        <num>48-7-30</num>
+        <content>
+          <p>(Ga. L. 1931, Ex. Sess., p. 24, § 15; Ga. L. 1931, p. 7, § 85; Code 1933, § 92-3112; Ga. L. 1957, p. 397, § 3; Code 1933, § 91A-3610, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1987, p. 191, § 2; Ga. L. 1994, p. 597, § 3; Ga. L. 2002, p. 372, § 4; Ga. L. 2008, p. 159, § 9/HB 1014; Ga. L. 2017, p. 774, § 48/HB 323.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

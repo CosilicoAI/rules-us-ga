@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-12-30"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-12-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-12-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_12_30">
+        <num>51-12-30</num>
+        <content>
+          <p>In all cases, a person who maliciously procures an injury to be done to another, whether an actionable wrong or a breach of contract, is a joint wrongdoer and may be subject to an action either alone or jointly with the person who actually committed the injury.</p>
+          <p>(Orig. Code 1863, § 2954; Code 1868, § 2961; Code 1873, § 3012; Code 1882, § 3012; Civil Code 1895, § 3873; Civil Code 1910, § 4469; Code 1933, § 105-1207.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

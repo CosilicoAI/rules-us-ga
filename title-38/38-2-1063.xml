@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1063"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1063"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1063/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1063/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1063/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1063/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_1063">
+        <num>38-2-1063</num>
+        <content>
+          <p>Each rehearing under this article shall take place before a court-martial composed of members who were not members of the court-martial which first heard the case. Upon a rehearing, the accused may not be tried for any offense of which the accused was found not guilty by the first court-martial, and no sentence in excess of or more severe than the original sentence may be approved, unless the sentence is based upon a finding of guilty of an offense not considered upon the merits in the original proceedings or unless the sentence prescribed for the offense is mandatory. If the sentence approved after the first court-martial was in accordance with a pretrial agreement and the accused at the rehearing changes a plea with respect to the charges or specifications upon which the pretrial agreement was based, or otherwise does not comply with the pretrial agreement, the approved sentence as to those charges or specifications may include any punishment not in excess of that lawfully adjudged at the first court-martial.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

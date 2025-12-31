@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-15-20"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-15-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-15-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_15_20">
+        <num>25-15-20</num>
+        <content>
+          <p>The examination for chief, deputy, special, or owner or user inspectors shall be in writing and shall be held by the office or by an examining board appointed in accordance with the requirements of the National Board of Boiler and Pressure Vessel Inspectors, with at least two members present at all times during the examination. Such examination shall be confined to questions the answers to which will aid in determining the fitness and competency of the applicant for the intended service and may be those prepared by the National Board of Boiler and Pressure Vessel Inspectors. In case an applicant fails to pass the examination, he or she may appeal to the office for another examination which shall be given by the office or the appointed examining board after 90 days. The record of an applicant's examination shall be accessible to the applicant and his or her employer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

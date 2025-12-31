@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-59"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-59"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-59/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-59/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-59/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-59/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_59">
+        <num>45-12-59</num>
+        <content>
+          <p>Where there is no messenger or where the duty cannot be performed by the person acting as messenger, the Governor, if necessary, may employ some person, for a reasonable compensation, to perform any service which is the duty of a messenger.</p>
+          <p>(Orig. Code 1863, § 122; Code 1868, § 117; Code 1873, § 126; Code 1882, § 126; Civil Code 1895, § 146; Civil Code 1910, § 169; Code 1933, § 40-309.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

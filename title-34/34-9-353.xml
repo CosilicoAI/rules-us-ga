@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-353"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-353"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-353/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-353/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-353/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-353/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_353">
+        <num>34-9-353</num>
+        <content>
+          <p>The administrator and the custodian, before entering upon the performance of their duties, shall each execute and file an official surety bond of not less than $50,000.00. The bonds shall be approved as to form and sufficiency by the Attorney General. The bonds shall be payable to the Subsequent Injury Trust Fund and conditioned upon the faithful performance of the respective duties of the administrator and custodian. The premium for the bonds shall be paid out of the moneys of the Subsequent Injury Trust Fund.</p>
+          <p>(Code 1933, § 114-902, enacted by Ga. L. 1977, p. 608, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

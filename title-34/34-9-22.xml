@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-22"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_22">
+        <num>34-9-22</num>
+        <content>
+          <p>Any physician, attorney, or hospital which receives any fee, other consideration, or any gratuity on account of services rendered under this chapter, unless such consideration or gratuity is approved by the board or, upon appeal, by the superior court, or any person who makes it a business to solicit employment for a lawyer or physician or for himself with respect to any claim or award for compensation under this chapter shall be guilty of a misdemeanor and, upon conviction thereof, shall be punished for each offense by a fine not to exceed $5,000.00 or by imprisonment not to exceed one year, or by both such fine and imprisonment.</p>
+          <p>(Ga. L. 1937, p. 528.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-17-28"/>
+          <FRBRuri value="/us-ga/act/ocga/33-17-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-17-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-17-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-17-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-17-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_17_28">
+        <num>33-17-28</num>
+        <content>
+          <p>Upon the liquidation of a domestic reciprocal insurer, its assets remaining after discharges of its indebtedness and policy obligations, the return of any contributions of the attorney or other persons to its surplus made as provided in Code Section 33-17-17, and the return of any unused premiums, savings, or credit then standing on subscribers' accounts shall be distributed to its subscribers who were such within the 12 months prior to the last termination of its certificate of authority, according to such reasonable formula as the Commissioner may approve.</p>
+          <p>(Code 1933, § 56-2128, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

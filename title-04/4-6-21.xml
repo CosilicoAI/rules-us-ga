@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-6-21"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-6-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-6-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_6_21">
+        <num>4-6-21</num>
+        <content>
+          <p>Every operator of a sales establishment for the sale of livestock at auction shall maintain a custodial account in a national or state-chartered bank located in this state and within 100 miles of the sales establishment. Every such operator shall deposit in such account the gross proceeds received from the sale of livestock handled on a commissioned or agency basis, which account shall be designated "Custodial Account for Shippers' Proceeds." Other funds of the depositor shall not be commingled in such account with funds required to be deposited in this account.</p>
+          <p>(Ga. L. 1966, p. 350, § 2; Ga. L. 1983, p. 1161, § 1; Ga. L. 1984, p. 22, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

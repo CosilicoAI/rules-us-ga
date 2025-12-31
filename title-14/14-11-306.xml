@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-11-306"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-306"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-11-306/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-306/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-11-306/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-306/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_11_306">
+        <num>14-11-306</num>
+        <content>
+          <p>Subject to such standards and restrictions, if any, as are set forth in the articles of organization or a written operating agreement, a limited liability company may, and shall have the power to, indemnify and hold harmless any member or manager or other person from and against any and all claims and demands whatsoever arising in connection with the limited liability company; provided, however, that no limited liability company shall have the power to indemnify any member or manager for any liability that may not be eliminated or limited by the articles of organization or a written operating agreement by reason of division (4)(A)(i) or (ii) of Code Section 14-11-305.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2-316"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-316"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2-316/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-316/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2-316/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-316/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2_316">
+        <num>11-2-316</num>
+        <content>
+          <p>Remedies for breach of warranty can be limited in accordance with the provisions of this article on liquidation or limitation of damages and on contractual modification of remedy (Code Sections 11-2-718 and 11-2-719).</p>
+          <p>The implied warranty of merchantability under Code Section 11-2-314 and the implied warranty of fitness for a particular purpose under Code Section 11-2-315 shall not be applicable to the procurement, processing, storage, distribution, or use of whole human blood, blood plasma, blood products, blood derivatives, or other human tissue or organs for the purpose of injecting, transfusing, incorporating, or transplanting any of them into the human body. The injection, transfusion, or other transfer of blood, blood plasma, blood products, or blood derivatives and the transplanting or other transfer of any tissue, bones, or organs into or unto the human body shall not be considered, for the purpose of this article, commodities subject to sale or barter, but shall be considered as medical services.</p>
+          <p>(Code 1933, § 109A-2 - 316, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 1971, p. 457, § 2; Ga. L. 1979, p. 756, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-21-3"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-21-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-21-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_21_3">
+        <num>43-21-3</num>
+        <content>
+          <p>A written statement prominently setting forth in bold type the time period during which a guest may occupy an assigned room, when separately signed or initialed by the guest, is a valid nonassignable contract.At the expiration of such time period, the guest may be restrained from entering such room and any property of the guest may be removed by the innkeeper to a secure place where the guest may recover his or her property without liability to the innkeeper, except for damages to or loss of such property attributable to its removal.If a guest vacates his or her room prior to the date contained in the written statement, that guest shall not be liable for charges for the time after the room is vacated unless the guest has agreed otherwise before occupying the room.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

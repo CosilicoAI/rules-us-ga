@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-3-25"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-3-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-3-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_3_25">
+        <num>36-3-25</num>
+        <content>
+          <p>Upon the making of a decision by the Secretary of State pursuant to Code Section 36-3-24 or in case no protest or exceptions are filed within the 30 days, the Secretary of State shall cause the survey and plat to be recorded in a book to be kept for that purpose, whereupon the same shall be final and conclusive as to the boundary line in dispute. When the boundary line in dispute has been established as final and conclusive as provided in this Code section, the same boundary line shall not again be subject to the procedures set forth in this article, and such boundary line may subsequently be changed only in accordance with Article 1 of this chapter, provided that nothing contained in this sentence shall affect any boundary line dispute in question on July 1, 1980, until the dispute is settled.</p>
+          <p>(Ga. L. 1899, p. 24, § 4; Civil Code 1910, § 476; Code 1933, § 23-406; Ga. L. 1980, p. 1178, § 1; Ga. L. 1982, p. 3, § 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

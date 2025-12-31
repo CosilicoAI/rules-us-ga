@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-16-121"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-121"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-16-121/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-121/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-16-121/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-121/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_16_121">
+        <num>47-16-121</num>
+        <content>
+          <p>If the board determines that the funds derived from the sources provided for in this chapter are not actuarially sufficient at any time to enable the board to pay in full each person determined to be entitled to benefits under this chapter and all contingent and other liabilities, then a pro rata percentage of such payments shall be made to each person entitled thereto until the funds are sufficiently replenished to enable the board to resume full payments in accordance with the terms of this chapter. Before resuming such payments in full, all persons who have received reduced payments shall be paid all deficiencies so that they shall have received full payment of their benefits. In no event shall any member of the board be held personally liable to any person for any deficiencies resulting from reduced payments under this Code section.</p>
+          <p>(Ga. L. 1963, p. 630, § 22.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

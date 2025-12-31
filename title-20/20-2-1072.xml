@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1072"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1072"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1072/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1072/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1072/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1072/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_1072">
+        <num>20-2-1072</num>
+        <content>
+          <p>No member of the Department of Education or county school superintendent or member of the county board of education shall be financially interested in procuring and operating means or facilities for school bus transportation or in selling school buses, school bus equipment, or school bus supplies to county boards of education.</p>
+          <p>(Ga. L. 1947, p. 1461, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

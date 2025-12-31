@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-115"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-115"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-115/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-115/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-115/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-115/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_9A_115">
+        <num>14-9A-115</num>
+        <content>
+          <p>The certificate and power of attorney in fact required under Code Section 14-9A-113, so acknowledged and certified, shall be filed in the office of the clerk of the superior court of the county in which the principal place of business of the partnership shall be situated and shall be recorded by the clerk at large in a book to be kept for that purpose, open to public inspection. If the partnership shall have places of business situated in different counties, a transcript of the certificate and power of attorney and of the acknowledgments thereof, duly certified by the clerk in whose office they shall be filed, under his official seal, shall be filed and recorded in like manner in the office of the clerk of the superior court in every such county. The clerk for each registry required by this article shall be entitled to the sum of $5.00.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

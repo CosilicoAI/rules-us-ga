@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-4"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_4">
+        <num>51-1-4</num>
+        <content>
+          <p>In general, slight diligence is that degree of care which every man of common sense, however inattentive he may be, exercises under the same or similar circumstances. As applied to the preservation of property, the term "slight diligence" means that care which every man of common sense, however inattentive he may be, takes of his own property. The absence of such care is termed gross negligence.</p>
+          <p>(Orig. Code 1863, § 2036; Code 1868, § 2037; Code 1873, § 2063; Code 1882, § 2063; Civil Code 1895, § 2900; Civil Code 1910, § 3473; Code 1933, § 105-203.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

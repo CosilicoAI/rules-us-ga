@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-14-39"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-14-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-14-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_14_39">
+        <num>20-14-39</num>
+        <content>
+          <p>The financial award system may be funded by donations, grants, or appropriation by the General Assembly or as otherwise provided. The State Board of Education may solicit and receive grants and donations for the purpose of making awards under this part. Award funds may be used by the State Board of Education to pay for the costs associated with sponsoring a ceremony to recognize or present awards to schools or school systems under this part. The donations, grants, or appropriations by the General Assembly shall be accounted for and distributed by the State Board of Education. The awards are subject to audit requirements established by the State Board of Education.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

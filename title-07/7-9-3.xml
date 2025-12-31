@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-9-3"/>
+          <FRBRuri value="/us-ga/act/ocga/7-9-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-9-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-9-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-9-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-9-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_9_3">
+        <num>7-9-3</num>
+        <content>
+          <p>A corporation that performs merchant acquiring activities or settlement activities in this state may elect to obtain a charter from the department. Those corporations chartered by the department shall be subject to the provisions of this chapter and any rules and regulations adopted by the department for purposes of regulating chartered merchant acquirer limited purpose banks. The department shall have no authority to regulate a corporation performing merchant acquiring activities or settlement activities that has not been chartered by the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

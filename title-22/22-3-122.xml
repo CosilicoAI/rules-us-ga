@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-3-122"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-122"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-3-122/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-122/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-3-122/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-122/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_3_122">
+        <num>22-3-122</num>
+        <content>
+          <p>If the parties representing the government of the United States and the owner of the property or of any interest therein pursuant to Code Section 22-3-121 cannot agree upon the amount of compensation to be paid for the property, the damages shall be assessed as provided in this title.</p>
+          <p>(Laws 1847, Cobb's 1851 Digest, p. 155; Code 1863, § 26; Code 1868, § 24; Code 1873, § 24; Code 1882, § 24; Civil Code 1895, § 28; Civil Code 1910, § 29; Code 1933, § 36-1103.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_2">
+        <num>20-2-2</num>
+        <content>
+          <p>The first State Board of Education appointed under this article shall hold office as follows: two for three years; four for five years; and four for seven years. All of such terms shall date from January 1, 1943. The Governor in making the appointments shall designate the holders of the respective terms. Successors to persons so appointed shall hold terms of office of seven years from the expiration of the previous term. All members of the state board appointed for a first or succeeding full term shall hold office until their successors are appointed and have qualified. Any appointment of a member of the state board for a full term made when the Senate is not in session shall be effective until the appointment is acted on by the Senate.</p>
+          <p>(Ga. L. 1919, p. 288, § 9; Code 1933, § 32-401; Ga. L. 1937, p. 864, § 1; Ga. L. 1943, p. 636, §§ 4, 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

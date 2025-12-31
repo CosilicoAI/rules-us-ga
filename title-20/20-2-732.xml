@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-732"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-732"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-732/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-732/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-732/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-732/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_732">
+        <num>20-2-732</num>
+        <content>
+          <p>No principal or teacher who shall administer corporal punishment to a pupil or pupils under his care and supervision in conformity with the policies and regulations of the area, county, or independent board of education employing him and in accordance also with this subpart shall be held accountable or liable in any criminal or civil action based upon the administering of corporal punishment where the corporal punishment is administered in good faith and is not excessive or unduly severe.</p>
+          <p>(Ga. L. 1964, p. 673, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

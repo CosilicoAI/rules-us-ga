@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-153"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-153"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-153/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-153/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-153/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-153/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_153">
+        <num>12-5-153</num>
+        <content>
+          <p>It shall be the duty of any person owning or having supervision of any real property affected by this part to comply with the requirements of this part by not later than January 1, 1970. Any such person failing to comply with such requirements by such date shall be guilty of a misdemeanor. After such date, each day of continuing failure to comply with such requirements shall constitute a separate offense.</p>
+          <p>(Ga. L. 1969, p. 669, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

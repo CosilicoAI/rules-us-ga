@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-7-70"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-7-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-7-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_7_70">
+        <num>53-7-70</num>
+        <content>
+          <p>The probate court shall carefully examine each return of a personal representative and its vouchers; and if the court finds it correct and no objection is filed within 30 days of the time it is filed and mailed to the heirs or beneficiaries, the court shall allow the return to be recorded, together with the original or copy vouchers attached. The return and copy vouchers shall be kept on file in the probate court. If the original vouchers are filed without copies, they shall when recorded be returned to the personal representative on demand. The return thus allowed and recorded shall be prima-facie evidence in favor of the personal representative of its correctness.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-51-7"/>
+          <FRBRuri value="/us-ga/act/ocga/43-51-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-51-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-51-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-51-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-51-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_51_7">
+        <num>43-51-7</num>
+        <content>
+          <p>Board approved examinations shall be used in determining the knowledge, ability, and judgment of applicants for certification as operators or laboratory analysts except for applications submitted prior to July 1, 2000, for Class IV level certifications. Such examinations shall be given at least six times annually.</p>
+          <p>(Ga. L. 1969, p. 272, § 7; Ga. L. 1980, p. 304, § 7; Ga. L. 1994, p. 1927, § 4; Ga. L. 2000, p. 879, § 1; Ga. L. 2010, p. 266, § 47/SB 195.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

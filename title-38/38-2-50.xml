@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-50"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_50">
+        <num>38-2-50</num>
+        <content>
+          <p>The State Defense Force may be created, established, maintained, or disbanded by the Governor at any time when such action is authorized under federal law. It shall be organized, armed, equipped, disciplined, governed, administered, and trained as prescribed by this chapter and the regulations issued thereunder, in conformance with the laws of the United States. Whenever such a state force shall be organized, it shall be commanded by a brigadier general.</p>
+          <p>(Ga. L. 1917, p. 91, § 1; Code 1933, § 86-1501; Ga. L. 1951, p. 311, § 27; Ga. L. 1955, p. 10, §§ 30, 55; Ga. L. 1985, p. 356, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

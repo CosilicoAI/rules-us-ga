@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-102"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-102"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-102/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-102/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-102/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-102/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_102">
+        <num>50-5-102</num>
+        <content>
+          <p>The Department of Administrative Services shall advertise for bids for supply of such items in the same manner followed for state purchases; provided, however, that the Department of Administrative Services shall inform prospective bidders that the bid requested is for the furnishing of the items to the designated political subdivisions at the times specified on the basis of a single state price applicable to all such local political subdivisions; that payment for the items as may be purchased by the political subdivisions shall be made by the respective political subdivision to the bidder; that no guarantee is made that any purchase will be made from the successful bidder as a result of such bid; and such other information as may be appropriate under the circumstances. The Department of Administrative Services shall, upon receipt of bids, process the same in the same manner followed for state purchases and promptly notify the governing authorities of the political subdivisions of the name of the successful bidder, the bid price, the terms of delivery guaranteed by the successful bidder, and any other pertinent information. The commissioner of administrative services shall prescribe regulations necessary for implementation and enforcement of this part and is authorized to establish minimum standards and uniform standard specifications and procedures for the purchase and distribution of equipment, supplies, services, and other expenses for the local political subdivisions of this state.</p>
+          <p>(Ga. L. 1968, p. 1352, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

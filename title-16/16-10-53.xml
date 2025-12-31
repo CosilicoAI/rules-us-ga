@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-10-53"/>
+          <FRBRuri value="/us-ga/act/ocga/16-10-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-10-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-10-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-10-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-10-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_10_53">
+        <num>16-10-53</num>
+        <content>
+          <p>(Laws 1833, Cobb's 1851 Digest, p. 807; Code 1863, §§ 4376, 4377, 4379; Code 1868, §§ 4414, 4415, 4417; Code 1873, §§ 4482, 4483, 4485; Ga. L. 1876, p. 112, § 2; Code 1882, §§ 4482, 4483, 4483b, 4485; Penal Code 1895, §§ 312, 313, 315, 317; Penal Code 1910, §§ 317, 318, 320, 322; Code 1933, §§ 26-4505, 26-4506, 26-4508, 26-4510; Ga. L. 1955, p. 578, § 2; Code 1933, § 26-2502, enacted by Ga. L. 1968, p. 1249, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

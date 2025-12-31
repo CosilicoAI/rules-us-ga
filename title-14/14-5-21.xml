@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-5-21"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-5-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-5-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_5_21">
+        <num>14-5-21</num>
+        <content>
+          <p>All fees collected by the Secretary of State shall be paid into the state treasury for the use of the state, and the Secretary of State shall include in his or her annual reports a full statement of all fees collected or received under Chapters 2 through 5 of this title and the disposition thereof. The Secretary of State shall be authorized to establish, by rule or regulation, a procedure by which his or her office shall refund fees collected in error or overpayment or to which the state is otherwise not entitled.</p>
+          <p>(Ga. L. 1906, p. 105, § 6; Civil Code 1910, § 2213; Ga. L. 1931, p. 7, § 86; Code 1933, § 22-1702; Code 1933, § 22-5202, enacted by Ga. L. 1968, p. 565, § 1; Ga. L. 2011, p. 558, § 3/SB 121.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

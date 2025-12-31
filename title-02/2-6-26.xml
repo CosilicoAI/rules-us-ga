@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-6-26"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-6-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-6-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_6_26">
+        <num>2-6-26</num>
+        <content>
+          <p>All employees of the State Soil and Water Conservation Commission, not including members of the commission, shall be subject to a merit system of employment as promulgated by the commission, under which all such employees shall be selected on a basis of merit, fitness, and efficiency, according to law. All such employees are authorized to become and be members of the Employees' Retirement System of Georgia, as established by Chapter 2 of Title 47. There shall be paid from the funds appropriated for the operation of the State Soil and Water Conservation Commission all employer contributions required by Chapter 2 of Title 47 creating the Employees' Retirement System of Georgia. All rights, credits, and funds in such retirement system which were possessed by persons at the time of their employment by the commission are continued and preserved, it being the intention of the General Assembly that such persons shall not lose any rights, credits, or funds to which they may be entitled prior to becoming employees of the commission.</p>
+          <p>(Ga. L. 1973, p. 908, § 1; Ga. L. 1988, p. 269, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

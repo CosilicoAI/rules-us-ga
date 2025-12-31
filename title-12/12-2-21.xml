@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-2-21"/>
+          <FRBRuri value="/us-ga/act/ocga/12-2-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-2-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-2-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-2-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-2-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_2_21">
+        <num>12-2-21</num>
+        <content>
+          <p>The Board of Natural Resources shall consist of one member from each congressional district in this state; one additional member from one of the following named counties: Chatham, Bryan, Liberty, McIntosh, Glynn, or Camden; and four members from the state at large. The members shall be appointed by the Governor and confirmed by the Senate. Except as otherwise specifically provided in this Code section, members shall be appointed for a term of seven years from the expiration of the previous term. The four members from the state at large shall be appointed initially for terms of one, three, five, and seven years, respectively, to be designated by the Governor; all succeeding appointments of at-large members shall be for a term of seven years. In as far as it is practical, the members of the Board of Natural Resources shall be representative of all areas and functions encompassed within the Department of Natural Resources. All members of the Board of Natural Resources shall hold office until their successors are appointed and qualified. Vacancies in office shall be filled by appointment by the Governor and submitted to the Senate for confirmation at the next session of the General Assembly after the making of the appointment. Any member so appointed shall serve until the expiration of the vacated term. No more than two members shall come from the same congressional district.</p>
+          <p>(Ga. L. 1943, p. 128, § 2; Ga. L. 1955, p. 483, §§ 3, 5, 6; Ga. L. 1972, p. 1015, § 1527; Ga. L. 1973, p. 139, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

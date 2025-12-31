@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-9-49"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-49"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-9-49/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-49/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-9-49/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-49/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_9_49">
+        <num>44-9-49</num>
+        <content>
+          <p>Private ways may be established by an agreement in writing between the parties concerned, which agreement may stipulate any damages to be paid. The agreement shall be entered on the official minutes of the county commission and the road deed file and, when so done, shall have the same effect as though established by Code Sections 44-9-40 through 44-9-48.</p>
+          <p>(Orig. Code 1863, § 698; Code 1868, § 760; Code 1873, § 726; Code 1882, § 726; Civil Code 1895, § 667; Civil Code 1910, § 813; Code 1933, § 83-107.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

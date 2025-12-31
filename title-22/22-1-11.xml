@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-1-11"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-1-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-1-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_1_11">
+        <num>22-1-11</num>
+        <content>
+          <p>Before the vesting of title in the condemnor and upon motion of the condemnee, or within ten days of the entry of the special master's award by entry of exception to the case, the court shall determine whether the exercise of the power of eminent domain is for a public use and whether the condemning authority has the legal authority to exercise the power of eminent domain and may stay other proceedings of the condemnation pending the decision of the court. The condemning authority shall bear the burden of proof by the evidence presented that the condemnation is for a public use as defined in Code Section 22-1-1. Nothing in this Code section shall be construed to require the condemnee to seek or obtain a special master's award prior to a hearing or decision by the court under this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

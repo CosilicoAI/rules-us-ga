@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-291"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-291"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-291/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-291/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-291/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-291/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_291">
+        <num>10-1-291</num>
+        <content>
+          <p>The intent of this article is to establish fair and open procedures for the bidding and negotiation for the right to exhibit motion pictures within the state in order to prevent unfair and deceptive acts or practices and unreasonable restraints of trade in the business of motion picture distribution within the state, to promote fair and effective competition in that business, and to ensure that exhibitors have the opportunity to view a motion picture and know its contents before committing themselves to exhibiting it in their municipalities or towns.</p>
+          <p>(Ga. L. 1979, p. 427, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

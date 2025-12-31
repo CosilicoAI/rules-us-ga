@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-3-11"/>
+          <FRBRuri value="/us-ga/act/ocga/53-3-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-3-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-3-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-3-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-3-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_3_11">
+        <num>53-3-11</num>
+        <content>
+          <p>Contain a certification by the probate court that the information in the certificate is correct.</p>
+        </content>
+        <subsection eId="sec_53_3_11__subsec_2">
+          <num>(2)</num>
+          <content>
+            <p>Identify the interest received;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_53_3_11__subsec_3">
+          <num>(3)</num>
+          <content>
+            <p>Contain a legal description sufficient under the laws of this state to pass title to the real property in which the interest was received, provided that the words "Also lands in ________________________ County(ies)," which accurately identifies other counties within which the real property is located, shall be sufficient to describe real property located outside the county to which the order or a copy of the order was sent; and</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

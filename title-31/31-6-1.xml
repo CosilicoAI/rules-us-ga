@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-6-1"/>
+          <FRBRuri value="/us-ga/act/ocga/31-6-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-6-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-6-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-6-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-6-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_6_1">
+        <num>31-6-1</num>
+        <content>
+          <p>The policy of this state and the purposes of this chapter are to ensure access to quality health care services and to ensure that health care services and facilities are developed in an orderly and economical manner and are made available to all citizens and that only those health care services found to be in the public interest shall be provided in this state. To achieve such public policy and purposes, it is essential that appropriate health planning activities be undertaken and implemented and that a system of mandatory review of new institutional health services be provided. Health care services and facilities should be provided in a manner that avoids unnecessary duplication of services, that is cost effective, that provides quality health care services, and that is compatible with the health care needs of the various areas and populations of the state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

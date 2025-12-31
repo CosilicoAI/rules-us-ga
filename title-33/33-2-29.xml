@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-2-29"/>
+          <FRBRuri value="/us-ga/act/ocga/33-2-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-2-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-2-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-2-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-2-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_2_29">
+        <num>33-2-29</num>
+        <content>
+          <p>The Commissioner shall promptly pay all taxes, fees, dues, charges, and penalties and interest which he is authorized to collect under this title to the Office of the State Treasurer to the credit of the general fund. The Commissioner, however, is authorized to make refunds of or to allow credits for any amounts which have been illegally or erroneously paid or collected pursuant to any provision of this title; and such payments to the Office of the State Treasurer shall be less the amount of any such refunds or credits, provided that no refunds or credits shall be allowed under this Code section unless a written request for such refund or credit is filed with the Commissioner within seven years from the date of payment or collection of the amount for which a refund or credit is claimed.</p>
+          <p>(Code 1933, § 56-228, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1976, p. 1080, § 1; Ga. L. 1993, p. 1402, § 18; Ga. L. 2010, p. 863, § 2/SB 296.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

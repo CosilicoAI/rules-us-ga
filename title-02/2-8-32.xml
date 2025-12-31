@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-32"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_32">
+        <num>2-8-32</num>
+        <content>
+          <p>Any person who violates any provision of this article or any marketing order duly issued by any commission and in effect under this article or who violates any rule or regulation issued by the Commissioner pursuant to this article or of any marketing order duly issued and effective under this article shall be civilly liable to such commission for a penalty in an amount not to exceed $500.00 for each and every violation thereof, the amount of such penalty to be fixed by the Commissioner after notice and hearing as provided by Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," for contested cases and recoverable by a civil action brought in the name of the Commissioner for the use and benefit of the affected commission or by execution issued in like manner as for assessments provided by Code Section 2-8-27. Any moneys recovered pursuant to this Code section shall be deposited and disbursed in accordance with subsection (e) of Code Section 2-8-27 as are other moneys.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

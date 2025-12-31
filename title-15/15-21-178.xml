@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-178"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-178"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-178/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-178/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-178/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-178/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_178">
+        <num>15-21-178</num>
+        <content>
+          <p>The commission may authorize the disbursement of available funds from moneys appropriated to the commission by the General Assembly for purposes of providing driver education and training to a person, entity, or program eligible pursuant to criteria to be set by the commission.Nothing in this Code section shall be construed to limit the authority of the Department of Driver Services under Chapter 13 of Title 43, "The Driver Training School and Commercial Driver Training School License Act."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

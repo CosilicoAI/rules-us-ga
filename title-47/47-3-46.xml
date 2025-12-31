@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-3-46"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-3-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-3-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_3_46">
+        <num>47-3-46</num>
+        <content>
+          <p>No contributions to the retirement system shall be made by the state, by employers, or by members prior to the commencement date, except the contribution of the state for an expense fund to pay the expenses of setting up and operating the retirement system prior to that date. On January 1, 1945, the board of trustees shall notify all employers and the employers shall notify the members that contributions will commence on that date; and thereupon this chapter with reference to such contributions will go into effect.</p>
+          <p>(Ga. L. 1943, p. 640, § 8; Ga. L. 1962, p. 723, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

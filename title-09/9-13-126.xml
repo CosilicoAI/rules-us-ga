@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-126"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-126"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-126/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-126/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-126/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-126/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_126">
+        <num>9-13-126</num>
+        <content>
+          <p>When an execution is levied on personal property and an affidavit of illegality is filed thereto and the party filing the illegality desires to take or keep possession of the property, he shall deliver to the sheriff or other levying officer a bond payable to the levying officer, with good security in a sum equal to double the value of the property so levied upon, to be judged of by the levying officer, conditioned for the delivery of the property levied upon at the time and place of sale in the event that the illegality is dismissed by the court or withdrawn, which bond shall be recoverable in any court having cognizance thereof.</p>
+          <p>(Orig. Code 1863, § 3598; Code 1868, § 3622; Code 1873, § 3672; Code 1882, § 3672; Civil Code 1895, § 5435; Civil Code 1910, § 6040; Code 1933, § 39-301.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

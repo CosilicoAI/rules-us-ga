@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-33"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_33">
+        <num>36-39-33</num>
+        <content>
+          <p>Bonds issued under this chapter after the judgment of the superior court shall have written or stamped thereon the words "Validated and confirmed by judgment of the superior court," specifying also the date when the judgment was rendered and the court in which it was rendered and shall be signed by the clerk of the superior court. Such entry shall be original prima-facie evidence of the fact of the judgment and shall be receivable as such in any court of this state.</p>
+          <p>(Ga. L. 1927, p. 321, § 16; Code 1933, § 69-433.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

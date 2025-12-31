@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-6-17"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-6-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-6-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_6_17">
+        <num>36-6-17</num>
+        <content>
+          <p>Any depository of state funds selected by the county treasurer to be a depository of the county funds shall, in addition to the bond given to the state as security for the money of the state deposited in such bank, give to the county treasurer a bond in an amount sufficient to protect him from any loss, which bond shall be payable to him and shall be conditioned to account fully to him for all county moneys that may be deposited by him as county treasurer under the terms of this article.</p>
+          <p>(Ga. L. 1917, p. 199, § 2; Code 1933, § 23-1018.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

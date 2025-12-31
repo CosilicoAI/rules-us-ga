@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-21-24"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-21-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-21-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_21_24">
+        <num>31-21-24</num>
+        <content>
+          <p>The board for distribution may employ a carrier or carriers for the conveyance of bodies described in Code Section 31-21-21, which bodies shall be well enclosed in suitable incasements and carefully deposited free from public observation. The carrier or carriers shall obtain receipts containing the deceased's name or, if the person is unknown, a description for each body delivered, and shall deposit such receipts with the secretary of the above board, who shall record and preserve them.</p>
+          <p>(Ga. L. 1887, p. 87, § 4; Civil Code 1895, § 1516; Civil Code 1910, § 1760; Code 1933, § 88-706; Code 1933, § 88-2706, enacted by Ga. L. 1964, p. 499, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

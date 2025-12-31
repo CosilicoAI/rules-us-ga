@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-6-6"/>
+          <FRBRuri value="/us-ga/act/ocga/25-6-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-6-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-6-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-6-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-6-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_6_6">
+        <num>25-6-6</num>
+        <content>
+          <p>Jurisdictions belonging to a pact may raise and appropriate money for the purpose of implementing and operating the pact. The pact may receive, hold, and use gifts, bequests, and devises, either outright or in trust, for purposes consistent with this chapter. A pact may enter into agreements with appropriate state and federal agencies to participate in programs which make assistance available to local fire departments.</p>
+          <p>(Ga. L. 1976, p. 742, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

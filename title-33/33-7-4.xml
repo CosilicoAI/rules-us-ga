@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-7-4"/>
+          <FRBRuri value="/us-ga/act/ocga/33-7-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-7-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-7-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-7-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-7-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_7_4">
+        <num>33-7-4</num>
+        <content>
+          <p>Life insurance is insurance on human lives and insurance appertaining to or connected with human lives. The transacting of life insurance includes the granting of endowment benefits, additional benefits in the event of death or dismemberment by accident or accidental means, additional benefits in the event of the disability of the insured, and optional modes of settlement of proceeds of life insurance. An insurer authorized to transact life insurance may also grant annuities.</p>
+          <p>(Code 1933, § 56-402, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1982, p. 3, § 33.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

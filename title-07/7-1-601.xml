@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-601"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-601"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-601/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-601/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-601/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-601/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_601">
+        <num>7-1-601</num>
+        <content>
+          <p>(Ga. L. 1919, p. 135, art. 1, § 3; Ga. L. 1920, p. 102, § 1; Ga. L. 1927, p. 195, § 1; Code 1933, § 13-203; Ga. L. 1960, p. 67, § 4; Ga. L. 1970, p. 954, § 3; Ga. L. 1975, p. 474, § 1; Ga. L. 1978, p. 1710, § 1; Ga. L. 1987, p. 1586, § 9; Ga. L. 1996, p. 181, § 9; Ga. L. 1996, p. 642, §§ 1, 2; Ga. L. 1996, p. 848, § 10; Ga. L. 1999, p. 674, § 17; Ga. L. 2007, p. 502, § 13/SB 70; Ga. L. 2016, p. 390, § 2-12/HB 811.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

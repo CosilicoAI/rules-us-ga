@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-1-202"/>
+          <FRBRuri value="/us-ga/act/ocga/11-1-202"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-1-202/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-1-202/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-1-202/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-1-202/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_1_202">
+        <num>11-1-202</num>
+        <content>
+          <p>(Code 1933, § 109A-1 - 202, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 2015, p. 996, § 3A-1/SB 65; Ga. L. 2016, p. 864, § 11/HB 737.)</p>
+          <p>The 2015 amendment,
+      effective January 1, 2016, substituted the present provisions of this Code section for the former provisions, which read: "A document in due form purporting to be a bill of lading, policy or certificate of insurance, official weigher's or inspector's certificate, consular invoice, or any other document authorized or required by the contract to be issued by a third party shall be prima facie evidence of its own authenticity and genuineness and of the facts stated in the document by the third party."</p>
+          <p>The 2016 amendment,
+      effective May 3, 2016, part of an Act to revise, modernize, and correct the Code, substituted "a notice or notification" for "notice or notification" in subsection (e).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

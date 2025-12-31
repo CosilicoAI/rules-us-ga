@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-8-39"/>
+          <FRBRuri value="/us-ga/act/ocga/42-8-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-8-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-8-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-8-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-8-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_8_39">
+        <num>42-8-39</num>
+        <content>
+          <p>In all criminal cases in which the defendant is found guilty or in which a plea of guilty or of nolo contendere is entered and in which the court after imposing sentence further provides that the execution of the sentence shall be suspended, such provision shall not have the effect of placing the defendant on probation as provided in this article.</p>
+          <p>(Ga. L. 1956, p. 27, § 13; Ga. L. 1960, p. 1148, § 2; Ga. L. 1965, p. 413, § 4; Ga. L. 2015, p. 422, § 4-1/HB 310.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "court" for "trial judge" in the middle of this Code section. See Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

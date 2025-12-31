@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-192"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-192"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-192/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-192/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-192/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-192/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_192">
+        <num>44-2-192</num>
+        <content>
+          <p>The moneys collected pursuant to Code Section 44-2-190, insofar as they are not required to satisfy any judgment certified against the assurance fund under Code Section 44-2-195, shall be invested by the state treasurer in state bonds or validated county or municipal bonds in trust for the uses and purposes set forth in this article until the fund amounts to the sum of $500,000.00. The income or so much thereof as may be required may be applied towards the payment of the expenses of the administration of this article and the satisfaction of any such judgment. Whenever and so long as the face value of the bonds purchased shall equal the sum of $500,000.00, other money thereafter coming into the fund together with any income not required for the purposes set forth in this Code section shall be transferred from the Land Registration Assurance Fund to the general fund.</p>
+          <p>(Ga. L. 1917, p. 108, § 76; Code 1933, § 60-703; Ga. L. 1982, p. 3, § 44; Ga. L. 1993, p. 1402, § 18; Ga. L. 2010, p. 863, § 3/SB 296.)</p>
+          <p>The 2010 amendment,
+      effective July 1, 2010, substituted "state treasurer" for "director of the Office of Treasury and Fiscal Services" in the middle of the first sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

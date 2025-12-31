@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-12-77"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-77"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-12-77/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-77/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-12-77/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-77/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_12_77">
+        <num>51-12-77</num>
+        <content>
+          <p>No direct or indirect transfer of structured settlement payment rights shall be effective, and no structured settlement obligor or annuity issuer shall be required to make any payment directly or indirectly to any transferee or assignee of structured settlement payment rights, unless the transfer has been approved in advance in a final court order based on express findings by such court that all of the following apply:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

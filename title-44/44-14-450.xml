@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-450"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-450/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-450/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_450">
+        <num>44-14-450</num>
+        <content>
+          <p>All persons, firms, or corporations engaged in the business of laundering, cleaning, tailoring, altering, repairing, or dyeing clothing, goods, wearing apparel, shoes, carpets, rugs, or other such articles shall, for the agreed price or the reasonable value of their services in laundering, cleaning, tailoring, altering, repairing, or dyeing any goods, clothing, wearing apparel, shoes, carpets, rugs, or other similar articles, have a lien upon the articles laundered, cleaned, tailored, altered, repaired, or dyed, whether the work of laundering, cleaning, tailoring, altering, repairing, or dyeing the articles is performed by themselves or by their employees.</p>
+          <p>(Ga. L. 1909, p. 151, § 1; Civil Code 1910, § 3336; Code 1933, § 67-1901; Ga. L. 1987, p. 382, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-6-25"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-6-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-6-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_6_25">
+        <num>2-6-25</num>
+        <content>
+          <p>The commission may employ an administrative officer and such technical experts and other agents and employees, permanent and temporary, as it may require. It shall determine their qualifications, duties, and compensation. The commission may call upon the Attorney General of this state for such legal services as it may require. It shall have authority to delegate, to one or more of its members or to one or more agents or employees, such powers and duties as it may deem proper. The commission is authorized to furnish information and to call upon any or all state or local agencies for cooperation in carrying out this article.</p>
+          <p>(Ga. L. 1937, p. 377, § 4; Ga. L. 1975, p. 724, § 1; Ga. L. 1988, p. 269, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

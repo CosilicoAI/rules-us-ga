@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-18-4"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-18-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-18-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_18_4">
+        <num>43-18-4</num>
+        <content>
+          <p>The practice of embalming or funeral directing, as defined in this article, is declared to be a business or profession affecting the public interest and involving the health and safety of the public. Such practice by a person who is not licensed to practice in this state is declared to be a public nuisance; and any citizen of this state, the board, or the appropriate prosecuting attorney where such practice is carried on by such unlicensed person may, on behalf of the public, bring an action in the superior court of the county where such nuisance exists or is carried on to restrain and abate the same. On satisfactory proof to the judge of the superior court that such illegal practice or business of funeral directing or embalming is being carried on, the judge shall issue a temporary injunction against the party or parties operating such practice or business until they have qualified and been licensed under the terms of this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-603"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-603"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-603/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-603/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-603/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-603/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_603">
+        <num>10-1-603</num>
+        <content>
+          <p>In addition to any other proceedings authorized by this article, the Attorney General may bring a civil action in the superior courts to enjoin any violation or threatened violation of any provision of this article or any rule, regulation, or order issued or enforced by the Attorney General pursuant to this article.</p>
+          <p>(Ga. L. 1975, p. 529, § 12; Ga. L. 1982, p. 1073, §§ 2, 4; Ga. L. 2015, p. 1088, § 6/SB 148.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "Attorney General" for "administrator" twice and inserted "or enforced".</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

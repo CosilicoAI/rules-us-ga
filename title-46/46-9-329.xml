@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-9-329"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-329"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-9-329/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-329/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-9-329/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-329/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_9_329">
+        <num>46-9-329</num>
+        <content>
+          <p>The provisions of this article shall be liberally construed to effect its stated purpose. The offer, sale, or issuance of bonds, notes, or other obligations by the authority shall not be subject to regulation under the Georgia laws regulating the sale of securities, as heretofore and hereafter amended. No notice, proceeding, or publication except those required by this article shall be necessary to the performance of any act authorized by this article, nor shall any such act be subject to referendum.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

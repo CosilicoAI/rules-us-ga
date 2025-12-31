@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-6-1"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-6-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-6-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_6_1">
+        <num>9-6-1</num>
+        <content>
+          <p>No appeal as to any ruling or decision in a mandamus or quo warranto proceeding or in a case involving a writ of prohibition may be taken until there has been a final judgment in the trial court. The grant of a new trial shall be treated as a final judgment in these cases and subject to review as in other cases.</p>
+          <p>(Ga. L. 1882-83, p. 103, § 3; Civil Code 1895, § 4874; Civil Code 1910, § 5447; Code 1933, § 64-110; Ga. L. 1946, p. 726, § 1; Ga. L. 2016, p. 865, § 3-4/HB 927.)</p>
+          <p>The 2016 amendment,
+      effective January 1, 2017, deleted "to the Supreme Court" following "may be taken" in the middle of the first sentence. See Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

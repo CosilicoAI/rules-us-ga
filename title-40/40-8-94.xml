@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-8-94"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-94"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-8-94/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-94/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-8-94/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-94/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_8_94">
+        <num>40-8-94</num>
+        <content>
+          <p>Any authorized emergency vehicle may be equipped with a siren, whistle, or bell capable of emitting sound audible under normal conditions from a distance of not less than 500 feet, but such siren shall not be used except when such vehicle is operated in response to an emergency call or in the immediate pursuit of an actual or suspected violator of the law, in which latter event the driver of such vehicle shall sound the siren when necessary to warn pedestrians and other drivers of the approach thereof.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 556, § 116.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

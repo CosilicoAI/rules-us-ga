@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-3-412"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-412"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-3-412/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-412/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-3-412/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-412/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_3_412">
+        <num>11-3-412</num>
+        <content>
+          <p>The issuer of a note or cashier's check or other draft drawn on the drawer is obliged to pay the instrument (i) according to its terms at the time it was issued or, if the instrument was not issued, at the time it first came into the possession of a holder; or (ii) if the issuer signed an incomplete instrument, according to the instrument's terms when completed, to the extent stated in Code Sections 11-3-115 and 11-3-407. The obligation is owed to a person entitled to enforce the instrument or to an indorser who paid the instrument under Code Section 11-3-415.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

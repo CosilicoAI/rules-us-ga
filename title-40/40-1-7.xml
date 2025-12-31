@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-7"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_7">
+        <num>40-1-7</num>
+        <content>
+          <p>Whenever pursuing a person in violation of a traffic related offense, a uniformed law enforcement officer who is assigned routinely or primarily to traffic law enforcement or other traffic safety duties on the roadways or highways of this state must place a visible blue light on the roof of his or her vehicle if such vehicle is not equipped with permanent exterior mounted roof blue lights; provided, however, that the provisions of this Code section shall not apply to law enforcement officers operating vehicles manufactured prior to 2001. This Code section shall not apply to any officer assigned to special operations activities or responding to an immediate threat to public safety as a result of an accident or other emergency. This Code section shall not apply to vehicles of the Georgia State Patrol or of a sheriff's office or police department which office or police department provides law enforcement services by certified peace officers 24 hours a day, seven days a week where the vehicles are marked in accordance with Code Section 40-8-91, with flashing or revolving colored lights visible under normal atmospheric conditions for a distance of 500 feet from the front and rear of such vehicle, and which also has an illuminating agency identifier reasonably visible to a driver of a vehicle subject to a traffic stop; provided, however, that the Georgia State Patrol shall not be permitted to have more than two vehicles per post without such exterior mounted roof lights; and provided, further, that a sheriff's office or police department shall not be permitted to have more than one vehicle per agency without such exterior mounted roof lights. An otherwise lawful arrest shall not be invalidated or in any manner affected by failure to comply with this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

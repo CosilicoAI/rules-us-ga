@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-76"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-76"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-76/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-76/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-76/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-76/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_76">
+        <num>45-12-76</num>
+        <content>
+          <p>The General Assembly shall not appropriate funds for any given fiscal year which, in aggregate, exceed a sum equal to the amount of unappropriated surplus expected to have accrued in the state treasury at the beginning of the fiscal year, together with an amount not greater than the total treasury receipts from existing revenue sources anticipated to be collected in the fiscal year, less refunds, as estimated in the budget report and amendments thereto. Supplementary appropriations, if any, shall be made in the manner provided in Article III, Section IX, Paragraph V of the Constitution of Georgia, but in no event shall a supplementary appropriations Act continue in force and effect beyond the expiration of the General Appropriations Act in effect when such supplementary appropriations Act was adopted and approved.</p>
+          <p>(Code 1933, § 40-407, enacted by Ga. L. 1962, p. 17, § 1; Ga. L. 1983, p. 3, § 61.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

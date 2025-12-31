@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-12-56"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-56"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-12-56/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-56/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-12-56/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-56/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_12_56">
+        <num>16-12-56</num>
+        <content>
+          <p>Notwithstanding the other provisions of this part, the Secretary of State upon receiving written application therefor shall be authorized to issue a one-time license to a nonprofit, tax-exempt school which will allow it to operate a bingo game one day annually. In such cases, the Secretary of State shall have the power to waive the license fee provided for in Code Section 16-12-53, to waive the annual report provided for in Code Section 16-12-59, and otherwise promulgate rules and regulations to carry out this Code section.</p>
+          <p>(Ga. L. 1977, p. 1164, § 11; Ga. L. 1980, p. 422, § 11; Ga. L. 2021, p. 394, § 6/HB 410.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, substituted "Secretary of State" for "director" in the first and second sentences of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-8B-8"/>
+          <FRBRuri value="/us-ga/act/ocga/43-8B-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-8B-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-8B-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-8B-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-8B-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_8B_8">
+        <num>43-8B-8</num>
+        <content>
+          <p>Any complaints received by the board shall be investigated within 30 days of receipt. If such investigation shows that there may be a violation of Code Section 10-14-17 or 10-14-18 or any felony violation of state or federal criminal law, there shall be an affirmative obligation on behalf of the board to provide notice of such potential illegalities within seven days to the Attorney General's office and to the sheriff's office in the county in which any of the illegalities are believed to have occurred in whole or in part. Upon receiving such notification, the Attorney General shall within a reasonable time period not to exceed 60 days conduct a review of such complaint and provide the appropriate prosecuting attorney within any jurisdiction in which any illegalities are believed to have occurred, in whole or in part, with relevant information uncovered during the course of the investigation that the prosecuting attorney requests.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

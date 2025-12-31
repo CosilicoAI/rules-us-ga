@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-154"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-154"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-154/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-154/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-154/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-154/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_154">
+        <num>10-1-154</num>
+        <content>
+          <p>Any person purchasing any gasoline or illuminating or heating oils from any manufacturer, refiner, jobber, or vendor for his own use may submit fair samples of said gasoline or illuminating or heating oils to the Commissioner of Agriculture to be tested or analyzed by the state oil chemist. In order to protect the manufacturer or vendor from the submission of spurious samples, the person selecting the same shall do so in the presence of two or more disinterested persons, which samples shall be not less than one pint in quantity and shall be bottled, corked, and sealed in the presence of said witnesses and the sample shall be placed in the hands of a disinterested person, who shall forward the same at the expense of the purchaser to the Commissioner of Agriculture. Upon the receipt by the Commissioner of any such sample he shall have the state oil chemist promptly test and analyze the sample. The Commissioner shall return to such purchaser or purchasers a certificate of analysis, which, when verified by the affidavit of the state oil chemist, shall be competent evidence in any court of law or equity.</p>
+          <p>(Ga. L. 1927, p. 279, § 7; Code 1933, § 73-215; Ga. L. 1960, p. 1043, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

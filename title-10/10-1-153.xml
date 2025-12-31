@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-153"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-153"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-153/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-153/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-153/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-153/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_153">
+        <num>10-1-153</num>
+        <content>
+          <p>When gasoline or kerosene or other petroleum products used for heating, cooking, illuminating, power, or lubricating purposes are shipped into this state in any manner whatsoever, the manufacturer, refiner, or jobber shall promptly give notice to the Commissioner of Agriculture of the date of shipment and shall furnish a sample of such size as designated by the Commissioner of Agriculture, but not in excess of 16 ounces, of the gasoline or kerosene and other petroleum products used for heating, cooking, illuminating, power, or lubricating purposes shipped and labeled, giving the tank car number, truck number, or other container number, with the name and address of the person, company, firm, or corporation to whom it is sent and the number of gallons contained in the shipment made. In each instance where gasoline or kerosene and other petroleum products used for heating, cooking, illuminating, power, or lubricating purposes are shipped in tank cars, the record of the capacity of each tank car furnished by the railroad company shall be accepted.</p>
+          <p>(Ga. L. 1927, p. 279, § 6; Code 1933, § 73-214; Ga. L. 1960, p. 1043, §§ 1, 9; Ga. L. 1979, p. 981, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

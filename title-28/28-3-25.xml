@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-3-25"/>
+          <FRBRuri value="/us-ga/act/ocga/28-3-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-3-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-3-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-3-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-3-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_3_25">
+        <num>28-3-25</num>
+        <content>
+          <p>The Secretary of the Senate and the Clerk of the House of Representatives, before entering on the discharge of their duties, shall take an oath before the respective presiding officers of the two houses to discharge their duties faithfully and to the best of their skill and knowledge. Said oath should be entered in the journals of the respective houses.</p>
+          <p>(Orig. Code 1863, § 189; Code 1868, § 183; Code 1873, § 195; Code 1882, § 195; Civil Code 1895, § 316; Civil Code 1910, § 359; Code 1933, § 47-202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-7-6"/>
+          <FRBRuri value="/us-ga/act/ocga/49-7-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-7-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-7-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-7-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-7-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_7_6">
+        <num>49-7-6</num>
+        <content>
+          <p>Any employee of the agencies engaged in the administration of this chapter may refuse to accept the duty of offering family-planning services to the extent that such duty is contrary to such employee's personal religious beliefs; and such refusal shall not be grounds for any disciplinary action, for dismissal, for any interdepartmental transfer, for any other discrimination in his employment, for suspension from employment, or for any loss in pay or other benefits. The directors or supervisors of such agencies shall be authorized, however, to reassign the duties of any such employees in order to carry out this chapter effectively.</p>
+          <p>(Ga. L. 1966, p. 228, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

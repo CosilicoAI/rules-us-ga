@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-486"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-486"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-486/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-486/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-486/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-486/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_486">
+        <num>21-2-486</num>
+        <content>
+          <p>The superintendent, in computing the votes cast at any election, shall compute and certify only those write-in votes properly cast for candidates who have given proper notice of intent to be write-in candidates pursuant to Code Section 21-2-133 exactly as such names were written by the elector.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

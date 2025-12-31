@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-4-213"/>
+          <FRBRuri value="/us-ga/act/ocga/11-4-213"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-4-213/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-4-213/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-4-213/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-4-213/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_4_213">
+        <num>11-4-213</num>
+        <content>
+          <p>With respect to tender of settlement by cash, a cashier's check, or a teller's check, when the cash or check is sent or delivered;</p>
+          <p>With respect to tender of settlement by credit in an account in a federal reserve bank, when the credit is made;</p>
+          <p>With respect to tender of settlement by a credit or debit to an account in a bank, when the credit or debit is made or, in the case of tender of settlement by authority to charge an account, when the authority is sent or delivered; or</p>
+          <p>With respect to tender of settlement by a funds transfer, when payment is made pursuant to subsection (a) of Code Section 11-4A-406 to the person receiving settlement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

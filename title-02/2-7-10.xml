@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-7-10"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-7-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-7-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_7_10">
+        <num>2-7-10</num>
+        <content>
+          <p>The Commissioner may inspect or cause to be inspected by duly authorized employees or agents any plants, plant products, or other articles, things, or substances that may in the Commissioner's opinion be capable of disseminating or carrying plant pests. For this purpose the Commissioner or the Commissioner's employees and agents shall have the power to enter into or upon any place and to open any bundle, package, or other container containing or thought to contain plants or plant products or other things capable of disseminating or carrying plant pests.</p>
+          <p>(Ga. L. 1937, p. 659, § 4; Ga. L. 1996, p. 329, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

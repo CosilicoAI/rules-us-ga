@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-2-62"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-2-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-2-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_2_62">
+        <num>9-2-62</num>
+        <content>
+          <p>A retraxit differs from a dismissal or discontinuance in that a retraxit is the open, public, and voluntary renunciation by the plaintiff in open court of his action or cause of action. It is positive and conclusive of the plaintiff's right of action. Where a retraxit is entered by the plaintiff and a judgment is entered thereon by the defendant, the plaintiff's right of action shall be forever gone. A dismissal or discontinuance is negative, and the plaintiff may recommence his action on the payment of costs.</p>
+          <p>(Orig. Code 1863, §§ 3378, 3379; Code 1868, §§ 3397, 3398; Code 1873, §§ 3445, 3446; Code 1882, §§ 3445, 3446; Civil Code 1895, §§ 5042, 5043; Civil Code 1910, §§ 5624, 5625; Code 1933, §§ 3-507, 3-508; Ga. L. 1967, p. 226, § 38.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

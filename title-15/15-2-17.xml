@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-2-17"/>
+          <FRBRuri value="/us-ga/act/ocga/15-2-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-2-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-2-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-2-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-2-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_2_17">
+        <num>15-2-17</num>
+        <content>
+          <p>The Supreme Court shall have full power and authority to make all rules, not in conflict with the Constitution or laws of this state, as may be necessary for carrying the Constitution into effect and regulating the court's proceedings thereunder. To these ends it may, by rules, provide and declare when the court shall sit, how its minutes shall be kept, and how the cases upon its dockets shall be apportioned; and it generally may make all regulations as to practice and procedure which experience may show to be convenient and expedient for the proper transaction of its business, with due regard to the rights of the parties and counsel concerned.</p>
+          <p>(Ga. L. 1896, p. 42, § 4; Civil Code 1910, § 6117; Code 1933, § 24-4016; Ga. L. 1983, p. 956, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

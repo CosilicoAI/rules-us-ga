@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-8-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-8-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-8-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-8-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-8-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-8-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_8_2">
+        <num>36-8-2</num>
+        <content>
+          <p>The terms for which county police shall be elected or appointed shall be left to the discretion of the county governing authority. Such county police or any member thereof may be removed from office at any time, at the will of the county governing authority, with or without cause.A resolution or ordinance authorizing the creation of a county police force adopted by a county governing authority and approved by the qualified electors of the county in a special election as provided in subsection (b) of Code Section 36-8-1 shall not affect the power of the county governing authority to abolish a county police force at any time.</p>
+          <p>(Ga. L. 1909, p. 156, § 7; Civil Code 1910, § 855; Ga. L. 1914, p. 142, § 7; Code 1933, § 23-1407; Ga. L. 1992, p. 324, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

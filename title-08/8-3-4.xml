@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-4"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_4">
+        <num>8-3-4</num>
+        <content>
+          <p>In each city and in each county of the state there is created a public body corporate and politic to be known as the "housing authority" of the city or county; provided, however, that such authority shall not transact any business or exercise its powers under this article until or unless the governing body of the city or the county, as the case may be, by proper resolution shall declare at any time hereafter that there is need for an authority to function in such city or county. The determination as to whether there is such need for an authority to function may be made by the governing body on its own motion or shall be made by the governing body upon the filing of a petition signed by 25 residents of the city or county, as the case may be, asserting that there is need for an authority to function in such city or county and requesting that the governing body so declare.</p>
+          <p>(Ga. L. 1937, p. 210, § 4; Ga. L. 1939, p. 126, § 1; Ga. L. 1951, p. 127, § 1; Ga. L. 1959, p. 141, § 1; Ga. L. 1962, p. 734, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-3-71"/>
+          <FRBRuri value="/us-ga/act/ocga/42-3-71"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-3-71/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-3-71/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-3-71/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-3-71/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_3_71">
+        <num>42-3-71</num>
+        <content>
+          <p>The court in which a person is charged with a felony for which bond is permissible under the law may, upon the application by the person so charged, at its discretion release the person prior to conviction and upon recognizance to the supervision of a pretrial release or diversion program established and operated by DCS after an investigation and upon recommendation of the staff of the pretrial release or diversion program. In no case, however, shall any person be so released unless after consultation with his or her attorney or an attorney made available to the person if he or she is indigent that person has voluntarily agreed to participate in the pretrial release or diversion program and knowingly and intelligently has waived his or her right to a speedy trial for the period of pretrial release or diversion.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

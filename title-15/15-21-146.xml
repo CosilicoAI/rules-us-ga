@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-146"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-146"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-146/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-146/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-146/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-146/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_146">
+        <num>15-21-146</num>
+        <content>
+          <p>The commission may recommend to the Governor and the General Assembly changes in state programs, statutes, policies, budgets, and standards relating to the care and rehabilitation of persons with brain or spinal cord injuries, improve coordination among state agencies that provide care and rehabilitative services, and improve the condition of citizens who are in need of rehabilitative services.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

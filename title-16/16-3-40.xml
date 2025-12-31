@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-3-40"/>
+          <FRBRuri value="/us-ga/act/ocga/16-3-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-3-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-3-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-3-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-3-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_3_40">
+        <num>16-3-40</num>
+        <content>
+          <p>The defense of alibi involves the impossibility of the accused's presence at the scene of the offense at the time of its commission. The range of the evidence in respect to time and place must be such as reasonably to exclude the possibility of presence.</p>
+          <p>(Penal Code 1895, § 992; Penal Code 1910, § 1018; Code 1933, § 38-122.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

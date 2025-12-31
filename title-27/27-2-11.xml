@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-2-11"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-2-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-2-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_2_11">
+        <num>27-2-11</num>
+        <content>
+          <p>It shall be unlawful for any person to hold or possess any game animal or game bird for the purpose of propagation or to hold such animal or bird as a pet without first obtaining a valid game-holding permit as provided in Code Section 27-2-23. The department may grant such a permit when, in its discretion, it determines that the issuance of the permit is in the best interest of the game animal or game bird and in the best interest of the wildlife and the citizens of this state. If such a permit is issued, the department shall prescribe the term for each permit and may impose conditions as it determines necessary. Any game animal or game bird held under such permit may not be sold by the holder but must be retained, consumed, or disposed of without charge, in accordance with this title, provided that holders of valid commercial shooting preserve licenses may charge a fee to users of such preserves who take or attempt to take such species. Nothing in this Code section shall be construed to authorize the holding or possession of the progeny of any game bird or game animal under the permit under which a parent is held or possessed, unless specifically so stated on the game-holding permit.</p>
+          <p>(Ga. L. 1968, p. 497, § 13; Code 1933, § 45-312, enacted by Ga. L. 1977, p. 396, § 1; Ga. L. 1978, p. 816, § 31; Ga. L. 1979, p. 678, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

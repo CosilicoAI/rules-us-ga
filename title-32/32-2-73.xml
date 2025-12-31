@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-2-73"/>
+          <FRBRuri value="/us-ga/act/ocga/32-2-73"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-2-73/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-2-73/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-2-73/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-2-73/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_2_73">
+        <num>32-2-73</num>
+        <content>
+          <p>The department shall be authorized to execute supplemental agreements to the original contract covering changes or revised or new unit prices and items and supplementing the original contract not to exceed a 20 percent increase in cost of the project and to execute extension agreements affecting the length of the project which may be increased by adding sections to said project or by relocation of said project not to exceed 20 percent of the total length of the project or 20 percent of total contract cost.</p>
+          <p>(Ga. L. 1949, p. 373, § 4; Code 1933, § 95A-814, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

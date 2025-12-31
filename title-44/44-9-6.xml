@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-9-6"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-9-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-9-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_9_6">
+        <num>44-9-6</num>
+        <content>
+          <p>An easement may be lost by abandonment or forfeited by nonuse if the abandonment or nonuse continues for a term sufficient to raise the presumption of release or abandonment.</p>
+          <p>(Civil Code 1895, § 3068; Civil Code 1910, § 3644; Code 1933, § 85-1403.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-3-66"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-66"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-3-66/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-66/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-3-66/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-66/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_3_66">
+        <num>23-3-66</num>
+        <content>
+          <p>Upon reasonable notice to the parties, after proof of serving notice as required by this article has been filed and after the appointment of the disinterested person as representative where required, the special master shall have complete jurisdiction within the scope of the pleadings to ascertain and determine the validity, nature, or extent of petitioner's title and all other interests in the land, or any part thereof, which may be adverse to the title claimed by the petitioner, or to remove any particular cloud or clouds upon the title to the land and to make a report of his findings to the judge of the court; provided, however, any party to this proceeding may demand a trial by a jury of any question of fact; provided, further, that the master on his own initiative may require a trial by a jury of any question of fact.</p>
+          <p>(Ga. L. 1966, p. 443, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

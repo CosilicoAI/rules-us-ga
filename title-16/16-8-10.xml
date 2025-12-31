@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-8-10"/>
+          <FRBRuri value="/us-ga/act/ocga/16-8-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-8-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-8-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-8-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-8-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_8_10">
+        <num>16-8-10</num>
+        <content>
+          <p>It is an affirmative defense to a prosecution for violation of Code Sections 16-8-2 through 16-8-9 that the person:</p>
+          <p>(Code 1933, § 26-1810, enacted by Ga. L. 1968, p. 1249, § 1; Ga. L. 2017, p. 435, § 3-2/HB 221.)</p>
+          <p>The 2017 amendment,
+      effective July 1, 2017, substituted "16-8-9" for "16-8-7" in the introductory paragraph; substituted the present provisions of paragraph (2) for the former provisions, which read: "Acted under an honest claim of right to the property or service involved or under a right to acquire or dispose of it as he did; or"; added present paragraph (3); and redesignated former paragraph (3) as present paragraph (4).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

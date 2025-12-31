@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/1-1-3"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/1-1-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/1-1-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_1_3">
+        <num>1-1-3</num>
+        <content>
+          <p>Except as otherwise specifically provided in this Code or in an Act or resolution of the General Assembly, in the event any title, chapter, article, part, subpart, Code section, subsection, paragraph, subparagraph, item, sentence, clause, phrase, or word of this Code or of any Act or resolution of the General Assembly is declared or adjudged to be invalid or unconstitutional, such declaration or adjudication shall not affect the remaining portions of this Code or of such Act or resolution, which shall remain of full force and effect as if such portion so declared or adjudged invalid or unconstitutional were not originally a part of this Code or of such Act or resolution. The General Assembly declares that it would have enacted the remaining parts of this Code if it had known that such portion hereof would be declared or adjudged invalid or unconstitutional. The General Assembly further declares that it would have enacted the remaining parts of any other Act or resolution if it had known that such portion thereof would be declared or adjudged invalid or unconstitutional unless such Act or resolution contains an express provision to the contrary.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

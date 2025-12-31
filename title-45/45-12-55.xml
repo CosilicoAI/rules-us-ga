@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-55"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-55"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-55/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-55/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-55/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-55/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_55">
+        <num>45-12-55</num>
+        <content>
+          <p>The Governor shall be authorized to appoint attorneys to serve as his or her executive counsel for such periods of time as he or she deems advisable. The salaries, expenses, and all other remunerations of the attorneys appointed by the Governor as his or her executive counsel shall be determined by the Governor and paid from funds appropriated to or otherwise made available to the office of the Governor.</p>
+          <p>(Ga. L. 1967, p. 102, § 3; Ga. L. 1975, p. 879, § 2; Ga. L. 1999, p. 797, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

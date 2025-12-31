@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-2"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_2">
+        <num>51-1-2</num>
+        <content>
+          <p>In general, ordinary diligence is that degree of care which is exercised by ordinarily prudent persons under the same or similar circumstances. As applied to the preservation of property, the term "ordinary diligence" means that care which every prudent man takes of his own property of a similar nature. The absence of such diligence is termed ordinary negligence.</p>
+          <p>(Orig. Code 1863, § 2034; Code 1868, § 2035; Code 1873, § 2061; Code 1882, § 2061; Civil Code 1895, § 2898; Civil Code 1910, § 3471; Code 1933, § 105-201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

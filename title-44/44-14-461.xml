@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-461"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-461"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-461/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-461/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-461/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-461/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_461">
+        <num>44-14-461</num>
+        <content>
+          <p>Any persons, firms, or corporations shall have the right to retain possession of the equipment repaired by them until their charges have been paid; but, if any equipment is delivered to the person for whom the service or repair was performed without collecting the agreed price or reasonable value of servicing or repairing the equipment, the lien shall be lost upon the equipment so delivered.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

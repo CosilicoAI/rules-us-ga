@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-24"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_24">
+        <num>44-12-24</num>
+        <content>
+          <p>Except for those situations governed by Code Sections 11-2-210 and 11-9-406, a right of action is assignable if it involves, directly or indirectly, a right of property. A right of action for personal torts, for legal malpractice, or for injuries arising from fraud to the assignor may not be assigned.</p>
+          <p>(Civil Code 1895, § 3079; Civil Code 1910, § 3655; Code 1933, § 85-1805; Ga. L. 2001, p. 362, § 33; Ga. L. 2013, p. 634, § 1/HB 160; Ga. L. 2013, p. 636, § 1/HB 359.)</p>
+          <p>The 2001 amendment,
+      effective July 1, 2001, substituted "11-9-406" for "11-9-402" in the first sentence.</p>
+          <p>The 2013 amendments.
+      The first 2013 amendment, effective May 6, 2013, inserted ", for legal malpractice," in the last sentence of this Code section. The second 2013 amendment, effective May 6, 2013, made identical changes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

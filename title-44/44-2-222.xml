@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-222"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-222"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-222/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-222/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-222/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-222/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_222">
+        <num>44-2-222</num>
+        <content>
+          <p>The following is prescribed as the form of process to be attached to the petition:
+   IN THE SUPERIOR COURT OF ________ COUNTY
+   STATE OF GEORGIA
+   To the sheriffs of said state and their lawful deputies:
+   The respondents __________________________________________________________
+   and all other persons whom it may concern are required to show cause before said court, on the ________ day of ________________________, ________, (not less than 40 nor more than 50 days from date of process) why the prayers of the foregoing petition should not be granted, and why the court should not proceed to judgment in such cause.
+   Witness the Honorable ______________, judge of said court, this the ________ day of ________________________, ________.
+   ___________________________________________________________________
+   Clerk</p>
+          <p>(Ga. L. 1917, p. 108, § 87; Code 1933, § 60-603; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-382"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-382"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-382/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-382/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-382/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-382/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_382">
+        <num>31-7-382</num>
+        <content>
+          <p>The department may establish and maintain a central caregiver registry which shall be accessible to employers as a data base operated by the department that contains information on eligible and ineligible applicants and employees as determined by the department from criminal background checks and registry checks conducted on behalf of facilities as provided in Article 14 of this chapter and criminal background checks and registry checks conducted on behalf of employers as provided in this article. If the department is participating in the program described in subparagraph (a)(1)(F) of Code Section 35-3-33, the Georgia Bureau of Investigation and the Federal Bureau of Investigation shall be authorized to retain fingerprints obtained pursuant to this Code section for such program and the department shall notify the individual whose fingerprints were taken of the parameters of such retention.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

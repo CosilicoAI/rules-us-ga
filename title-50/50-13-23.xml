@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-13-23"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-13-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-13-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_13_23">
+        <num>50-13-23</num>
+        <content>
+          <p>Notwithstanding any provision of law to the contrary, any document required by law, rule, or regulation to be received by or filed with any agency pursuant to the requirements of this chapter shall be deemed to be received by or filed with such agency on the earlier of: (1) the date such document is actually received by such agency; (2) the official postmark date such document was mailed, properly addressed with postage prepaid, by registered or certified mail; or (3) the date on which such document was delivered to a commercial delivery company for statutory overnight delivery as provided in Code Section 9-10-12 as evidenced by the receipt provided by the commercial delivery company.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

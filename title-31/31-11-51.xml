@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-11-51"/>
+          <FRBRuri value="/us-ga/act/ocga/31-11-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-11-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-11-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-11-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-11-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_11_51">
+        <num>31-11-51</num>
+        <content>
+          <p>(Code 1933, § 88-3112.1, enacted by Ga. L. 1977, p. 281, § 2; Ga. L. 2001, p. 1145, § 2; Ga. L. 2011, p. 539, § 2/SB 76; Ga. L. 2012, p. 83, § 4/HB 247; Ga. L. 2013, p. 141, § 31/HB 79; Ga. L. 2021, p. 782, § 3/SB 46.)</p>
+          <p>The 2021 amendment,
+      effective May 10, 2021, substituted "Except as otherwise provided for in this chapter, the board" for "The board" at the beginning of subsection (b); added subsection (e); and redesignated former subsections (e) and (f) as present subsections (f) and (g), respectively.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

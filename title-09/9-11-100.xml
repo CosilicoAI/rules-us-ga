@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-11-100"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-11-100/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-11-100/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_11_100">
+        <num>9-11-100</num>
+        <content>
+          <p>IN THE __________ COURT OF __________ COUNTY
+   STATE OF GEORGIA
+   A.B.,
+   )
+   Plaintiff
+   )
+   )
+   v.
+   )
+   Civil action
+   )
+   File no. __________
+   C.D.,
+   )
+   (Clerk will insert
+   Defendant
+   )
+   number.)
+   SUMMONS
+   To the above-named defendant:
+   You are hereby summoned and required to file with the clerk of said court and serve upon __________, plaintiff's attorney, whose address is __________, an answer to the complaint which is herewith served upon you, within 30 days after service of this summons upon you, exclusive of the day of service. If you fail to do so, judgment by default will be taken against you for the relief demanded in the complaint.
+   __________________________________
+   Clerk of court</p>
+          <p>(Ga. L. 1966, p. 609, § 101.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

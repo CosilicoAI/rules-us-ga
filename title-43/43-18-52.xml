@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-18-52"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-52"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-18-52/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-52/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-18-52/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-52/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_18_52">
+        <num>43-18-52</num>
+        <content>
+          <p>All apprentices shall be under the supervision and control of the board and shall upon application for licensure submit to the board proof of having served the required number of hours on forms provided by the board. After completing the 3,120 hours for apprenticeship within the specified period, they shall send the last report to the board regardless of the date. The information contained in the report shall be certified as correct by the funeral director in full and continuous charge and by the supervising funeral director and embalmer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

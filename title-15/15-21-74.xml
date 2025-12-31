@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-74"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-74"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-74/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-74/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-74/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-74/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_74">
+        <num>15-21-74</num>
+        <content>
+          <p>The sums provided for under paragraph (1) of subsection (a) of Code Section 15-21-73 shall be assessed and collected by the court officer charged with the duty of collecting moneys arising from fines and shall be paid over to the Georgia Superior Court Clerks' Cooperative Authority by the last day of the month there following, to be deposited by the authority into the general treasury. The sums provided for under paragraph (2) of subsection (a) of Code Section 15-21-73 shall be assessed and collected by the court officer charged with the duty of collecting moneys arising from forfeited bonds and shall be paid over to the Georgia Superior Court Clerks' Cooperative Authority by the last day of the month there following for remittance to the Office of the State Treasurer; provided, however, that if the local governing authority has an approved procedure to verify the applicant's income as set forth in Code Section 17-12-80, the court officer shall remit 50 percent of such funds to the Georgia Superior Court Clerks' Cooperative Authority, and the remaining 50 percent shall be remitted to the local governing authority and reported to the Georgia Superior Court Clerks' Cooperative Authority. The authority shall, on a quarterly basis, make a report and accounting of all funds collected and disbursed pursuant to this article and shall submit such report and accounting to the Office of Planning and Budget, the House Budget and Research Office, and the Senate Budget and Evaluation Office no later than 60 days after the last day of the preceding quarter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

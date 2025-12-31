@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-5-42"/>
+          <FRBRuri value="/us-ga/act/ocga/16-5-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-5-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-5-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-5-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-5-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_5_42">
+        <num>16-5-42</num>
+        <content>
+          <p>When the arrest, confinement, or detention of a person by warrant, mandate, or process is manifestly illegal and shows malice and oppression, an officer issuing or knowingly and maliciously executing the same shall, upon conviction thereof, be removed from office and punished by imprisonment for not less than one nor more than ten years.</p>
+          <p>(Laws 1833, Cobb's 1851 Digest, p. 788; Code 1863, § 4265; Code 1868, § 4300; Code 1873, § 4366; Code 1882, § 4366; Ga. L. 1895, p. 63, §§ 1, 2; Penal Code 1895, § 108; Penal Code 1910, § 108; Code 1933, § 26-1503; Code 1933, § 26-1309, enacted by Ga. L. 1968, p. 1249, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

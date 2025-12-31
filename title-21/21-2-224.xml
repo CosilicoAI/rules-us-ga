@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-224"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-224"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-224/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-224/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-224/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-224/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_224">
+        <num>21-2-224</num>
+        <content>
+          <p>(c.1)An individual or organization shall promptly transmit all completed voter registration applications to the Secretary of State or the appropriate board of registrars within ten days after receiving such application or by the close of registration, whichever period is earlier. If an individual or organization receives a completed voter registration application 14 or fewer days before the close of registration, the individual or organization shall transmit the application to the Secretary of State or the appropriate board of registrars within 72 hours of the date of the execution of the application or by midnight on the close of registration, whichever period is earlier.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

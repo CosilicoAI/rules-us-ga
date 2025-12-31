@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-30"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_30">
+        <num>9-10-30</num>
+        <content>
+          <p>All actions seeking equitable relief shall be filed in the county of the residence of one of the defendants against whom substantial relief is prayed, except in cases of injunctions to stay pending proceedings, when the action may be filed in the county where the proceedings are pending, provided no relief is prayed as to matters not included in such litigation, and except in divorce cases, venue in which is governed by Article VI, Section II, Paragraph I of the Constitution of this state.</p>
+          <p>(Orig. Code 1863, § 4095; Code 1868, § 4124; Code 1873, § 4183; Code 1882, § 4183; Civil Code 1895, § 4950; Civil Code 1910, § 5527; Code 1933, § 3-202; Ga. L. 1962, p. 659, § 1; Ga. L. 1983, p. 3, § 48.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

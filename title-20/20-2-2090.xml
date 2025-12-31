@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2090"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2090"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2090/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2090/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2090/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2090/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_2090">
+        <num>20-2-2090</num>
+        <content>
+          <p>The commission shall work in collaboration with the department on all matters related to authorizing state charter schools and shall be assigned to the department for administrative purposes only, as prescribed in Code Section 50-4-3. For administrative purposes, including data reporting, student enrollment counting procedures, student achievement reporting, funding allocations, and related purposes as defined by the State Board of Education, each state charter school, including any students receiving education services through a state charter school pursuant to Code Section 20-2-2084.1, shall, consistent with department rules and regulations, be treated as a single local education agency.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-51"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_51">
+        <num>15-21-51</num>
+        <content>
+          <p>Any claimant against the fine and bond forfeiture fund or the heirs, administrators, executors, personal representatives, or assigns of any officer holding any valid claim against the fund may extend the period of limitation for an additional seven years by filing with the clerk of the superior court of the county in which the claims arose another statement or claim setting forth the amount claimed and that the claimant has been unable to collect the claim or balance of the claim out of the fine and bond forfeiture fund. The statement shall be approved by the judge of the superior court of the county in which the claim arose and recorded on the minutes of the court by the clerk. The claim shall show on its face that it is made for the purpose of extending the period of limitation. The claim shall be made and recorded within the original seven-year period in order for the period of limitation to be extended. The extension of the period of limitation shall be for a period of seven years after the claim made for the purpose of extending the limitation period has been filed and recorded. The original period of limitation may be extended only once.</p>
+          <p>(Ga. L. 1949, p. 1168, § 2A.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

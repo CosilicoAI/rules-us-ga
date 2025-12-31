@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-6-8"/>
+          <FRBRuri value="/us-ga/act/ocga/19-6-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-6-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-6-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-6-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-6-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_6_8">
+        <num>19-6-8</num>
+        <content>
+          <p>In cases of voluntary separation or in cases where one spouse, against the will of that spouse, is abandoned or driven off by the other spouse, a party voluntarily, by contract or other written agreement made with his spouse, may make an adequate provision for the support and maintenance of such spouse, consistent with the means of the party and the former circumstances of the spouse. Such an agreement shall be a bar to the right of the spouse to permanent alimony.</p>
+          <p>(Orig. Code 1863, § 1694; Code 1868, § 1737; Code 1873, § 1745; Code 1882, § 1745; Civil Code 1895, § 2465; Civil Code 1910, § 2984; Code 1933, § 30-211; Ga. L. 1979, p. 466, § 16.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-40-3"/>
+          <FRBRuri value="/us-ga/act/ocga/33-40-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-40-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-40-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-40-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-40-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_40_3">
+        <num>33-40-3</num>
+        <content>
+          <p>A risk retention group seeking to be chartered in this state must be chartered and licensed as a casualty or liability insurance company as provided in this title or as a risk retention group captive insurance company under Chapter 41 of this title and, except as provided elsewhere in this chapter or in Chapter 41, as applicable, must comply with all of the laws, rules, regulations, and requirements applicable to such insurers chartered and licensed in this state and with Code Section 33-40-4 to the extent such requirements are not a limitation on laws, rules, regulations, or requirements of this state. Before it may offer insurance in any state, each risk retention group shall also submit for approval to the Commissioner a plan of operation or a feasibility study and revisions of such plan or study if the group intends to offer any additional lines of casualty or liability insurance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

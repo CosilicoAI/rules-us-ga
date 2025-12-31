@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-21-21"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-21-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-21-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_21_21">
+        <num>33-21-21</num>
+        <content>
+          <p>The commissioner of community health, in carrying out his obligations under subsection (b) of Code Section 33-21-3, paragraph (4) of subsection (a) of Code Section 33-21-5, and subsection (b) of Code Section 33-21-17, may contract with qualified persons to make recommendations concerning the determinations required to be made by him. Such recommendations may be accepted in full or in part by the commissioner of community health.</p>
+          <p>(Code 1933, § 56-3626, enacted by Ga. L. 1979, p. 1148, § 1; Ga. L. 2009, p. 453, § 1-6/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-3-845"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-845"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-3-845/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-845/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-3-845/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-845/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_3_845">
+        <num>14-3-845</num>
+        <content>
+          <p>Any contract or other instrument in writing executed or entered into between a corporation and any other person is not invalidated as to the corporation by any lack of authority of the signing officers in the absence of actual knowledge on the part of the other person that the signing officers had no authority to execute the contract or other instrument if it is signed by any two officers in category 1 below or by one officer in category 1 below and one officer in category 2 below.Categories shall be as follows:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

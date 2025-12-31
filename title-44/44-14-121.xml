@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-121"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-121"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-121/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-121/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-121/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-121/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_121">
+        <num>44-14-121</num>
+        <content>
+          <p>When an order for the payment of the sums demanded in the petition has been granted and published or served as provided in Code Section 44-14-120, the maker of the deed sought to be enforced or his special agent or attorney may appear on or before the first day of the term of the court at which the money is directed to be paid and file his objection to the enforcement of the deed and may set up and avail himself of any defense which he might lawfully set up in an ordinary action on the debts or demands secured by the deed and which defense shows that the petitioner is not entitled to enforce the demands or debts or that the amounts claimed are not due; provided, however, the facts of the defense shall be verified by the affidavit of the maker of the deed or his special agent or attorney at the time of filing the defense.</p>
+          <p>(Ga. L. 1896, p. 76, § 2; Civil Code 1910, § 3312; Code 1933, § 67-1202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

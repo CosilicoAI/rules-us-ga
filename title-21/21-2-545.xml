@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-545"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-545"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-545/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-545/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-545/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-545/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_545">
+        <num>21-2-545</num>
+        <content>
+          <p>Any other provision of law to the contrary notwithstanding, in the event there is no opposed candidate in a precinct in a special primary, no special primary shall be held in such precinct. The proper officials of the unopposed candidate's political party shall certify him or her as the party nominee for the office involved for the purpose of having his or her name placed upon the special election ballots or ballot labels. Where feasible, the superintendent shall provide notice reasonably calculated to inform the affected electorate that no special primary election is to be conducted. Each such unopposed candidate shall be deemed to have voted for himself or herself. The superintendent shall certify any such unopposed candidate as nominated in the same manner as he or she certifies other candidates nominated pursuant to Code Section 21-2-493.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

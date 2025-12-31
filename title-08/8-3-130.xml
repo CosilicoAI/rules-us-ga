@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-130"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-130/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-130/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_130">
+        <num>8-3-130</num>
+        <content>
+          <p>The preparation for national defense requires a great migration of persons to engage in national defense industries and activities which would be jeopardized unless housing is available for such persons. An acute shortage of housing for such persons exists or impends in localities in the state. It is therefore of vital importance that all agencies qualified to do so have the powers and authority to develop and administer projects to provide housing for persons engaged in war or national defense activities and to aid and cooperate with the federal government in making such housing available for such persons.</p>
+          <p>(Ga. L. 1943, p. 161, § 1; Ga. L. 1951, p. 607, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

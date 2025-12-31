@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-279"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-279"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-279/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-279/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-279/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-279/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_279">
+        <num>20-3-279</num>
+        <content>
+          <p>It shall not be permissible for any stockholder, director, officer, employee, agent, commissioned salesman, consultant, or other person in the employment of, or who for a valuable consideration serves the interests of, a lender or a school in this state or the corporation, the commission, or the authority to be engaged in this state in the business of providing, or to have any financial interest in any corporation, association, partnership, or other organization that is engaged in this state in the business of providing, in consideration of the receipt of a fee, commission, charge, or other valuable consideration from any source, contingent or otherwise, to students or parents of students information about or assistance in applying for or obtaining educational loan assistance under this part.</p>
+          <p>(Code 1933, § 32-3321, enacted by Ga. L. 1980, p. 835, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

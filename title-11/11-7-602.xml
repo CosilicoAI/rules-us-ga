@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-7-602"/>
+          <FRBRuri value="/us-ga/act/ocga/11-7-602"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-7-602/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-7-602/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-7-602/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-7-602/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_7_602">
+        <num>11-7-602</num>
+        <content>
+          <p>Unless a document of title was originally issued upon delivery of the goods by a person that did not have power to dispose of them, a lien does not attach by virtue of any judicial process to goods in the possession of a bailee for which a negotiable document of title is outstanding unless possession or control of the document is first surrendered to the bailee or the document's negotiation is enjoined. The bailee may not be compelled to deliver the goods pursuant to process until possession or control of the document is surrendered to the bailee or to the court. A purchaser of the document for value without notice of the process or injunction takes free of the lien imposed by judicial process.</p>
+          <p>(Code 1933, § 109A-7 - 602, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 2010, p. 481, § 1-1/HB 451.)</p>
+          <p>The 2010 amendment,
+      effective May 27, 2010, substituted "Judicial process against goods covered by negotiable document of title" for "Attachment of goods covered by a negotiable document" in the catchline; and rewrote this Code section. See the Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

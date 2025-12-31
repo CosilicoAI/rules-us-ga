@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-3-119"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-119"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-3-119/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-119/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-3-119/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-119/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_3_119">
+        <num>11-3-119</num>
+        <content>
+          <p>In an action for breach of an obligation for which a third person is answerable over pursuant to this article or Article 4 of this title, the defendant may give the third person written notice of the litigation, and the person notified may then give similar notice to any other person who is answerable over. If the notice states that (i) the person notified may come in and defend; and (ii) failure to do so will bind the person notified in an action later brought by the person giving the notice as to any determination of fact common to the two litigations, the person notified is so bound unless after seasonable receipt of the notice the person notified does come in and defend.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

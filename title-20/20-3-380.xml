@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-380"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-380/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-380/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_380">
+        <num>20-3-380</num>
+        <content>
+          <p>The General Assembly finds that many attorneys graduate from law school with substantial education debt; that the debt that saddles law school graduates prohibits many from considering public interest work; that Georgia law firms, on average, pay first year associates more than twice the entry level salary for public interest work; that a need exists for public interest entities to hire competent attorneys; that the public is better served by competent and qualified attorneys working in the area of public interest; and that programs providing for education loan forgiveness to encourage law students and other attorneys to seek employment in the area of public interest would better enable public interest entities to attract and retain experienced and qualified attorneys.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-20-29"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-20-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-20-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_20_29">
+        <num>33-20-29</num>
+        <content>
+          <p>It shall be unlawful for any person except a health care corporation established in accordance with this chapter and operating in accordance with authority from the Commissioner to establish, maintain, or operate a health care plan or to solicit subscribers to or enter into contracts with respect to a health care plan, provided that nothing in this chapter shall be construed as preventing a person from furnishing medical services for the prevention of disease among his employees or from furnishing such medical services as are required under the workers' compensation law or other laws of this state, as preventing any duly licensed insurance company from writing medical indemnity insurance or otherwise operating in accordance with this title, as preventing any duly authorized corporation from operating in accordance with Chapter 18 or 19 of this title, or as preventing any other duly authorized person or entity from operating in accordance with any other provisions of this title.</p>
+          <p>(Code 1933, § 56-1708a, enacted by Ga. L. 1976, p. 1461, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

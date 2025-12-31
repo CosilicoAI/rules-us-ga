@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-194"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-194"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-194/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-194/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-194/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-194/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_194">
+        <num>38-2-194</num>
+        <content>
+          <p>All armories and other facilities defined in Code Section 38-2-190 owned, leased, or maintained by the state or by the United States for use of the organized militia and all activities conducted therein shall be under the general charge and control of the adjutant general. Unless otherwise designated by the adjutant general, the unit commander shall be the officer in charge of the armory and other facilities occupied by his unit; provided, however, that, where two or more units occupy the same armory or facility, the senior unit commander shall be the officer in charge. The officer in charge shall be directly responsible to the adjutant general for carrying out this part and regulations issued pursuant thereto.</p>
+          <p>(Ga. L. 1955, p. 10, § 73.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

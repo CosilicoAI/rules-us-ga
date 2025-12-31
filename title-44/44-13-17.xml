@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-17"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_17">
+        <num>44-13-17</num>
+        <content>
+          <p>Whenever any property has been set apart for the debtor's minor children or dependents and they desire the same to be sold for reinvestment but the debtor fails or refuses to join with them in the application to have such property sold for reinvestment or whenever a divorce has been granted to the spouse of the debtor and the property exempted by this article and sought to be sold for reinvestment has been awarded to that spouse, the proceedings for reinvestment shall be in all respects as binding upon all parties as if the debtor had joined with the minor children, dependents, or spouse, respectively, in the application.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

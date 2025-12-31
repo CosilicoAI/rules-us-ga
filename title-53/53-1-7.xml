@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-1-7"/>
+          <FRBRuri value="/us-ga/act/ocga/53-1-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-1-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-1-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-1-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-1-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_1_7">
+        <num>53-1-7</num>
+        <content>
+          <p>A surviving spouse who is under the age of 18 years is entitled to apply for, take, and hold any share in the deceased spouse's estate to which the surviving spouse is entitled by virtue of being an heir or a beneficiary or being eligible for year's support without the intervention of a guardian or other trustee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

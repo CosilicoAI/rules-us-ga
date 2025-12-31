@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-13-1"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-13-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-13-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_13_1">
+        <num>15-13-1</num>
+        <content>
+          <p>All sheriffs, deputy sheriffs, coroners, jailers, constables, and other officers of court shall be liable to all actions and disabilities which they incur in respect of any matter or thing relating to or concerning their respective offices.</p>
+          <p>(Laws 1792, Cobb's 1851 Digest, p. 576; Code 1863, § 3852; Code 1868, § 3872; Code 1873, § 3948; Code 1882, § 3948; Civil Code 1895, § 4769; Civil Code 1910, § 5341; Code 1933, § 24-201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

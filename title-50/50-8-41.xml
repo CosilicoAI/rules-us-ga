@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-41"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_41">
+        <num>50-8-41</num>
+        <content>
+          <p>Each regional development center in existence as of June 30, 2009, shall automatically be succeeded by the regional commission for the same region as of July 1, 2009, and each such regional commission shall be governed, from and after July 1, 2009, by this article. All contractual obligations, obligations to employees, other duties, rights, and benefits of such regional development center shall automatically become duties, obligations, rights, and benefits of their respective successor regional commissions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

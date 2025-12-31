@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-14-35"/>
+          <FRBRuri value="/us-ga/act/ocga/15-14-35"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-14-35/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-14-35/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-14-35/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-14-35/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_14_35">
+        <num>15-14-35</num>
+        <content>
+          <p>On the verified complaint of any person or by motion of the board that any person, firm, or corporation has violated any provision of this article, the board, with the consent of the Judicial Council, may file a complaint seeking equitable relief in its own name in the superior court of any county in this state having jurisdiction of the parties, alleging the facts and praying for a temporary restraining order and temporary injunction or permanent injunction against such person, firm, or corporation, restraining them from violating this article. Upon proof thereof, the court shall issue the restraining order, temporary injunction, or permanent injunction without requiring allegation or proof that the board has no adequate remedy at law. The right of injunction provided for in this Code section shall be in addition to any other remedy which the board has and shall be in addition to any right of criminal prosecution provided by law.</p>
+          <p>(Ga. L. 1974, p. 345, § 15; Ga. L. 1993, p. 1315, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

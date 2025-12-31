@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-6-8"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-6-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-6-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_6_8">
+        <num>45-6-8</num>
+        <content>
+          <p>Upon retiring from office, all judicial officers, ministerial officers, or state's attorneys who receive any books, papers, or other office property from the state shall deliver those materials over to their successors.</p>
+          <p>(Orig. Code 1863, § 170; Code 1868, § 165; Code 1873, § 176; Code 1882, § 176; Civil Code 1895, § 273; Civil Code 1910, § 308; Code 1933, § 89-606.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-27"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-27"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-27/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-27/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-27/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-27/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_27">
+        <num>51-1-27</num>
+        <content>
+          <p>A person professing to practice surgery or the administering of medicine for compensation must bring to the exercise of his profession a reasonable degree of care and skill. Any injury resulting from a want of such care and skill shall be a tort for which a recovery may be had.</p>
+          <p>(Orig. Code 1863, § 2915; Code 1868, § 2922; Code 1873, § 2973; Code 1882, § 2973; Civil Code 1895, § 3831; Civil Code 1910, § 4427; Code 1933, § 84-924.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

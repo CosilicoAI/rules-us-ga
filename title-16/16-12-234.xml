@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-12-234"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-234"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-12-234/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-234/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-12-234/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-234/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_12_234">
+        <num>16-12-234</num>
+        <content>
+          <p>It shall be unlawful to ingest low THC oil or products in a manner that employs a heating element, power source, electronic circuit, or other electronic, chemical, or mechanical means, regardless of shape or size, that can be used to produce vapor in a solution or other form, including but not limited to any electronic cigarette, electronic cigar, electronic cigarillo, electronic pipe, or similar product or device and any vapor cartridge or other container of low THC oil or product in a solution or other form that is intended to be used with or in an electronic cigarette, electronic cigar, electronic cigarillo, electronic pipe, or similar product or device.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

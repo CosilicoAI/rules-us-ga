@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-468"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-468"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-468/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-468/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-468/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-468/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_468">
+        <num>20-2-468</num>
+        <content>
+          <p>The county authorities, in levying and assessing taxes for the purpose of paying the interest and retiring and paying off the bonds shall, in the event that the entire county is not embraced within the area or territory in which the election is held, levy and assess such taxes only against the property located within the area or territory within which the election is held. For the purpose of taking care of and paying the principal and interest of such refunding schoolhouse bonds, the county board of education shall recommend and the board of county commissioners or judge of the probate court, as the case may be, shall levy upon the property subject to taxation in the entire county or in the area or territory within which the election is held, such tax as may be necessary to provide a sinking fund for the retirement of the bonds and for paying the principal thereof and the interest thereon, this to be in addition to the general tax for the maintenance of the schools of the county or territory.</p>
+          <p>(Ga. L. 1937, p. 869, § 4; Ga. L. 1992, p. 6, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

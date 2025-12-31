@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-448"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-448"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-448/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-448/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-448/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-448/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_448">
+        <num>12-5-448</num>
+        <content>
+          <p>Any person aggrieved by any final determination, cease and desist order, other order, or other final action of the commission or a governing authority under this part and who has exhausted any administrative remedies may take an appeal to the superior court of the county in which all or part of the land affected lies. The appeal shall be filed within 30 days from the date of the final determination, cease and desist order, other order, or other final action of the governing authority or committee of such governing authority or of the commission. Upon failure to file an appeal within 30 days, the decision of the governing authority or committee of such governing authority or of the commission shall be final. The appeal shall be heard by the judge of the superior court without a jury.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

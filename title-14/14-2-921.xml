@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-2-921"/>
+          <FRBRuri value="/us-ga/act/ocga/14-2-921"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-2-921/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-2-921/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-2-921/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-2-921/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_2_921">
+        <num>14-2-921</num>
+        <content>
+          <p>The articles of incorporation or a bylaw adopted by the shareholders of a statutory close corporation may confer upon holders of any class or series of shares the right to elect one or more directors who shall serve for such term and have such voting powers as shall be stated in the articles of incorporation or a bylaw adopted by the shareholders. The terms of office and voting powers of the directors elected in the manner so provided in the articles of incorporation or a bylaw adopted by the shareholders may be greater than or less than those of any other director or class of directors.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

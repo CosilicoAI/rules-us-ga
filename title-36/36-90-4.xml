@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-90-4"/>
+          <FRBRuri value="/us-ga/act/ocga/36-90-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-90-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-90-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-90-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-90-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_90_4">
+        <num>36-90-4</num>
+        <content>
+          <p>On and after January 1, 2000, each public provider shall prepare and maintain records in accordance with generally accepted governmental accounting principles which record the full cost accounting of providing service. Such records shall show the amount and source of capital, including working capital, utilized in providing service. Nothing contained in this chapter shall preclude a public provider utilizing capital from any lawful source, including the public provider's general funds, provided that the reasonable cost of such capital is accounted for as a cost of providing the service. No public provider shall cross-subsidize the costs of providing service. A public provider shall impute into its indirect costs of providing service an amount for franchise fees, regulatory fees, occupation taxes, pole attachment fees, and ad valorem property taxes, calculated in the same manner as such amounts are calculated for any private provider paying such costs to the public provider in the same service area.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

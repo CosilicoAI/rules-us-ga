@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-70"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_70">
+        <num>15-12-70</num>
+        <content>
+          <p>All grand jurors in the courts of this state shall be disqualified to act or serve in any case or matter when such jurors are related by consanguinity or affinity to any party interested in the result of the case or matter within the third degree as computed according to the civil law. Relationship more remote shall not be a disqualification.</p>
+          <p>(Ga. L. 1935, p. 396, § 1; Ga. L. 2016, p. 242, § 5/SB 262.)</p>
+          <p>The 2016 amendment,
+      effective July 1, 2016, substituted "third degree" for "sixth degree" near the end of the first sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

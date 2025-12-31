@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-1-6"/>
+          <FRBRuri value="/us-ga/act/ocga/52-1-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-1-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-1-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-1-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-1-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_1_6">
+        <num>52-1-6</num>
+        <content>
+          <p>Any person in possession of the structure or any person claiming ownership of or an interest in the structure which is the subject of an order issued pursuant to Code Section 52-1-5 or Code Section 52-1-10 shall, upon petition in writing within 30 days after service of such order, have a right to a hearing before an administrative law judge appointed by the board. Such petition must be filed with the administrative law judge and must be received by the administrative law judge within such 30 day period.The hearing before the administrative law judge shall be conducted in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," and the rules and regulations adopted by the board pursuant thereto. Unless waived by the commissioner, any person seeking a hearing has the burden of going forward with evidence regarding possession or ownership of or an interest in the structure, and the administrative law judge shall take evidence and hear arguments on this issue and thereafter make a ruling on this issue before continuing with the hearing. Any decision of the administrative law judge shall constitute the final decision of the board, and any party to the hearing, including the commissioner, shall have the right of judicial review thereof in accordance with Chapter 13 of Title 50. The hearing and review procedure provided for the petitioner in this Code section is to the exclusion of all other means of hearing or review.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/3-3-2"/>
+          <FRBRuri value="/us-ga/act/ocga/3-3-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/3-3-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/3-3-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/3-3-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/3-3-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_3_2">
+        <num>3-3-2</num>
+        <content>
+          <p>Notwithstanding the limitations imposed by subparagraph (a)(2)(C) of Code Section 36-35-6 or any other provision of general law, in the case of a county or municipality which issues more than 300 licenses for consumption of alcoholic beverages on the premises, the maximum fine for violations of local alcoholic beverages licensing ordinances referenced in Code Section 3-3-2 pertaining to licenses issued to sell alcoholic beverages by the drink for consumption on the premises shall be $2,500.00. Nothing in this Code section shall prohibit the governing authority of a county or municipality from imposing a penalty that is otherwise allowed by law, unless such law is a local law in conflict with this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

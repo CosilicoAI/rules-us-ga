@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-58"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-58"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-58/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-58/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-58/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-58/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_58">
+        <num>9-13-58</num>
+        <content>
+          <p>Upon demand by any sheriff, constable, or other levying officer having in his hands any execution against any person who is the owner of any shares of stock of a bank or corporation upon the president, superintendent, manager, or other officer having access to the books of the bank or corporation, the president, superintendent, manager, or other officer aforesaid shall disclose to the levying officer the number of shares and the par value thereof owned by the defendant in execution and, on refusal to do so, shall be considered in contempt of court and punished accordingly.</p>
+          <p>(Laws 1822, Cobb's 1851 Digest, p. 511; Code 1863, § 2582; Code 1868, § 2584; Code 1873, § 2626; Code 1882, § 2626; Ga. L. 1890-91, p. 73, § 1; Ga. L. 1894, p. 45, § 1; Civil Code 1895, § 5430; Civil Code 1910, § 6035; Code 1933, § 39-123.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

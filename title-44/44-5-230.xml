@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-5-230"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-5-230/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-5-230/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_5_230">
+        <num>44-5-230</num>
+        <content>
+          <p>After an owner dedicates land to public use either expressly or by his actions and the land is used by the public for such a length of time that accommodation of the public or private rights may be materially affected by interruption of the right to use such land, the owner may not afterwards appropriate the land to private purposes.</p>
+          <p>(Orig. Code 1863, § 2643; Code 1868, § 2642; Code 1873, § 2684; Code 1882, § 2684; Civil Code 1895, § 3591; Civil Code 1910, § 4171; Code 1933, § 85-410.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

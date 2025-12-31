@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-125"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-125"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-125/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-125/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-125/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-125/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_125">
+        <num>34-9-125</num>
+        <content>
+          <p>Every policy insuring the payment of compensation provided for in this article or insuring against liability for payment of such compensation, including all contracts of mutual, reciprocal, or interinsurance, shall be deemed to be made subject to this chapter. No corporation, association, or organization and no mutual, reciprocal, or interinsurers shall enter into or make any such policy or contract of insurance unless its form shall have been approved by the board. This chapter shall not apply to policies of insurance against loss from explosion of boilers or flywheels or other similar catastrophic hazards.</p>
+          <p>(Ga. L. 1920, p. 167, § 72; Code 1933, § 114-608.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

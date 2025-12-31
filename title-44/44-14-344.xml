@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-344"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-344"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-344/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-344/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-344/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-344/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_344">
+        <num>44-14-344</num>
+        <content>
+          <p>Whenever any written contract for rent is transferred by the landlord by written assignment before the maturity of the crops on the lands rented, the special lien in favor of the landlord shall, on the maturity of the crops, arise in favor of the transferee of such rent contract in the same manner as it would have done in favor of the landlord had no transfer been made.</p>
+          <p>(Ga. L. 1882-83, p. 109, § 1; Civil Code 1895, § 2798; Civil Code 1910, § 3343; Code 1933, § 61-206.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

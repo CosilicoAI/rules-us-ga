@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-120"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-120/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-120/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_9A_120">
+        <num>14-9A-120</num>
+        <content>
+          <p>Every renewal or continuance of a limited partnership beyond the time fixed for its duration shall be certified, acknowledged, and recorded; an affidavit of a general partner shall be made and filed; notice shall be given in the manner required in this article for its original formation; and every such partnership which shall be otherwise renewed or continued shall be deemed a general partnership.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

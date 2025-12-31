@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-20-15"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-20-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-20-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_20_15">
+        <num>43-20-15</num>
+        <content>
+          <p>(Code 1933, § 84-5613, enacted by Ga. L. 1978, p. 1728, § 1; Ga. L. 1984, p. 1119, § 4; Ga. L. 1994, p. 1715, § 1; Ga. L. 2015, p. 1326, § 3/HB 232.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted the present provisions of this Code section for the former provisions, which read: "As a prerequisite for the renewal of a dispenser's license, the dispenser must provide proof to the board that the dispenser has successfully completed 14 hours of continuing education in a program approved by the board. The board may promulgate such rules and regulations as are necessary to implement the continuing education requirement."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

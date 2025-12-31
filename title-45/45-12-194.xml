@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-194"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-194"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-194/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-194/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-194/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-194/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_194">
+        <num>45-12-194</num>
+        <content>
+          <p>A succeeding Governor is authorized to provide, upon request, to each former Governor, for a period not to exceed three months from the date of the expiration of his term of office as Governor, for use in connection with winding up the affairs of his office, necessary services and facilities of the same general character as authorized by this article to be provided to a Governor-elect. Any person appointed or detailed to serve a former Governor under authority of this Code section shall be appointed or detailed in accordance with and shall be subject to Code Section 45-12-193.</p>
+          <p>(Ga. L. 1971, p. 769, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

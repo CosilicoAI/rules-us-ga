@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-20-31"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-20-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-20-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_20_31">
+        <num>47-20-31</num>
+        <content>
+          <p>No retirement bill may be introduced by any member of the General Assembly unless, at the time of its introduction, the bill has printed thereon in the upper right portion of each page of the bill an LC number. Once a retirement bill is presented by the Office of Legislative Counsel to a member of the General Assembly, neither the Office of Legislative Counsel nor any person shall make any change in the retirement bill prior to its introduction into the General Assembly unless the bill is returned to the Office of Legislative Counsel and that office assigns a new LC number to the bill.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

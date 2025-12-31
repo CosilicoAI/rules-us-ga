@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-3"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_3">
+        <num>10-4-3</num>
+        <content>
+          <p>Within the police powers of the state and for the general welfare, there is established as provided in this article a warehouse system for the State of Georgia as a section of the Marketing Division of the Department of Agriculture under the supervision and control of the Commissioner of Agriculture. The Commissioner is authorized to appoint a supervisor of such section, subject to the provisions of Chapter 20 of Title 45. The supervisor shall give bond in such amount as the Commissioner shall determine for the faithful performance of his duties and the proper accounting of all funds coming into his hands.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 412, § 4; Ga. L. 1959, p. 246, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

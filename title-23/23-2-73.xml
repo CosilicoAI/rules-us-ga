@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-2-73"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-73"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-2-73/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-73/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-2-73/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-73/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_2_73">
+        <num>23-2-73</num>
+        <content>
+          <p>Where several persons are interested in an estate as tenants for years, or for life, or in remainder or reversion, and encumbrances are to be discharged, the equitable division of the burden, according to the several interests, shall be a question for equitable interference.</p>
+          <p>(Orig. Code 1863, § 3066; Code 1868, § 3078; Code 1873, § 3133; Code 1882, § 3133; Civil Code 1895, § 3992; Civil Code 1910, § 4589; Code 1933, § 37-304.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

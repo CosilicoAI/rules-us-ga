@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-2-93"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-93"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-2-93/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-93/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-2-93/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-93/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_2_93">
+        <num>47-2-93</num>
+        <content>
+          <p>Any other provisions of this law to the contrary notwithstanding, any member of this retirement system who received compensation from the state for services rendered by him after December 31, 1953, but who did not become a member until a later date, may receive credit for any service rendered after December 31, 1953, and before the date he became a member of this retirement system by paying the employee contributions that would have been paid by him if he had been a member during that time. No such credit shall be given except for full-time state employment. The board of trustees is authorized to promulgate rules and regulations necessary to carry out this Code section.</p>
+          <p>(Ga. L. 1971, p. 93, § 1; Ga. L. 1971, p. 96, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

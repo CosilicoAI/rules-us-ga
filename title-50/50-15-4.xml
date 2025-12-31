@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-15-4"/>
+          <FRBRuri value="/us-ga/act/ocga/50-15-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-15-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-15-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-15-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-15-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_15_4">
+        <num>50-15-4</num>
+        <content>
+          <p>After a public lawsuit is commenced, no other action relating to the same subject matter shall be commenced, and no trial court shall have jurisdiction of any such subsequent action. This provision, however, shall not diminish any right of intervention of any person or the right of any person to become a named party in a public lawsuit; and nothing herein contained shall be construed as adversely affecting the constitutional rights of any citizen or taxpayer.</p>
+          <p>(Ga. L. 1969, p. 815, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

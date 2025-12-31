@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-24-96"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-96"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-24-96/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-96/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-24-96/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-96/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_24_96">
+        <num>33-24-96</num>
+        <content>
+          <p>An insurer shall indemnify, defend, and hold agents harmless from and against all liability, fees, and costs arising out of or relating to the actions, errors, or omissions of an agent or a producer who obtains or uses credit information or insurance scores for an insurer, provided the agent or producer follows the instructions and procedures established by the insurer and complies with any applicable law or regulation. Nothing in this Code section shall be construed to provide a consumer or other insured with a cause of action that does not exist in the absence of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

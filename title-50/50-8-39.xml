@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-39"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_39">
+        <num>50-8-39</num>
+        <content>
+          <p>Upon a regional commission's ceasing operations, the local government members of the regional commission shall, within 30 days of cessation of the regional commission's operations, appoint a receiver of the assets of the regional commission for the protection of creditors. The receiver shall be authorized to marshal, sell, or transfer assets, pay liabilities, and assess counties and municipalities which were members of the regional commission. After the completion of such liquidation, a distribution shall be made to the local government members on a pro rata basis according to the amount of contributions such members made to the regional commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

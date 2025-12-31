@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-3-312"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-312"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-3-312/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-312/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-3-312/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-312/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_3_312">
+        <num>11-3-312</num>
+        <content>
+          <p>The declarer lost possession of a check;</p>
+          <p>The declarer is the drawer or payee of the check, in the case of a certified check, or the remitter or payee of the check, in the case of a cashier's check or teller's check;</p>
+          <p>The loss of possession was not the result of a transfer by the declarer or a lawful seizure; and</p>
+          <p>The declarer cannot reasonably obtain possession of the check because the check was destroyed, its whereabouts cannot be determined, or it is in the wrongful possession of an unknown person or a person that cannot be found or is not amenable to service of process; and</p>
+          <p>The time the claim is asserted;</p>
+          <p>The ninetieth day following the date of the check in the case of a cashier's check or teller's check; or</p>
+          <p>The ninetieth day following the date of the acceptance in the case of a certified check;</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

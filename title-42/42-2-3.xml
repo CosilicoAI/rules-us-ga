@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-2-3"/>
+          <FRBRuri value="/us-ga/act/ocga/42-2-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-2-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-2-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-2-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-2-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_2_3">
+        <num>42-2-3</num>
+        <content>
+          <p>The board shall meet once each month in the office of the commissioner, unless in the discretion of a majority of the board it is necessary or convenient to meet elsewhere to carry out the duties of the board. Special meetings may be held at such times and places as shall be specified by the call of the chairman of the board or by the commissioner. The secretary of the board shall give written notice of the time and place of all meetings of the board to each member of the board and to the commissioner. Meetings of the board shall be open to the public. However, the board may hold executive sessions pursuant to Chapter 14 of Title 50 whenever it, in its discretion, deems advisable. A majority of the board shall constitute a quorum for the transaction of business.</p>
+          <p>(Ga. L. 1956, p. 161, § 7; Ga. L. 1987, p. 457, § 1; Ga. L. 2002, p. 1426, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

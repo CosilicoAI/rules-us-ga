@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-2"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_2">
+        <num>40-2-2</num>
+        <content>
+          <p>Except as otherwise provided in this chapter, any person who violates any provision of this chapter shall be guilty of a misdemeanor.</p>
+          <p>(Ga. L. 1925, p. 315, § 2; Ga. L. 1927, p. 226, § 26; Ga. L. 1931, p. 7, § 84; Code 1933, §§ 68-9902, 68-9908; Ga. L. 1953, Jan.-Feb. Sess., p. 366, § 5; Ga. L. 1990, p. 2048, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

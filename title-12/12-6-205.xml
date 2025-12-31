@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-205"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-205/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-205/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_205">
+        <num>12-6-205</num>
+        <content>
+          <p>Any pine straw obtained or offered for sale in violation of this article shall be subject to seizure on the complaint of the director to the superior court of the county in which the pine straw is found. If the court finds the pine straw to be in violation of this article, and orders its condemnation, the pine straw shall be disposed of in any manner consistent with its quantity, the interests of the parties, and the laws of this state, provided that in no instance shall the pine straw be ordered by the court to be disposed of without first giving the person claiming the pine straw an opportunity to apply to the court for release of the pine straw in such manner as to bring it into compliance with this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

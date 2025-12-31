@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-15-221"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-221"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-15-221/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-221/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-15-221/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-221/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_15_221">
+        <num>34-15-221</num>
+        <content>
+          <p>A Form WC-3 shall not be used to suspend benefits where the only issue is length of disability. In these cases, suspend benefits by filing a Form WC-2 or follow procedure outlined in Rule 240. If liability is denied subsequent to commencement of payment, but within 60 days of due date of first payment of compensation, file Form WC-3 in addition to a Form WC-2.</p>
+          <p>If income benefits have been continued for more than 60 days after the due date of first payment of compensation, benefits may be suspended only on the grounds of a change in condition or newly discovered evidence. File Forms WC-2 or WC-2A. When controverting a claim based on newly discovered evidence, file Form WC-3 also.</p>
+          <p>The date of filing with the Board, in the absence of compelling evidence to the contrary, shall be considered the date of notice.</p>
+          <p>The date affixed by the Board to Forms WC-2 or WC-2A, in the absence of compelling evidence to the contrary, shall be considered the date of notice.</p>
+          <p>The revision effective July 1, 2007, substituted "date of notice" for "date of filing" at the end of paragraphs (i)(2) and (i)(3), and in paragraph (i)(4), substituted "without restrictions" for "without restriction" and "who must have" for "provided that the physician has".</p>
+          <p>The revision effective July 1, 2009, designated the existing provisions of paragraph (i)(4) as subparagraph (i)(4)(a), and added subparagraph (i)(4)(b).</p>
+          <p>The revision effective July 1, 2011, inserted "funds" in the first sentence of subsection (a).</p>
+        </content>
+        <subsection eId="sec_34_15_221__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>When suspending benefits for release to return to work without restrictions, the employer/insurer shall attach to the Form WC-2 a copy of the supporting medical report from employee's authorized treating physician, who must have examined the employee within sixty days of the effective date of the release.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

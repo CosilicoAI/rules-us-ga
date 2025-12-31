@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-3-13"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-3-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-3-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_3_13">
+        <num>45-3-13</num>
+        <content>
+          <p>The oath prescribed in Code Section 45-3-11 shall be in the following form:</p>
+          <p>"I, ________________________ (Name) a citizen of ______________ and being an employee of ________________________ and the recipient of public funds for services rendered as such employee, do hereby solemnly swear and affirm that I will support the Constitution of the United States and the Constitution of Georgia."</p>
+          <p>(Ga. L. 1949, p. 960, § 3; Ga. L. 1950, p. 282, § 1; Ga. L. 2015, p. 385, § 5-4/HB 252.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, deleted "and that I am not a member of the Communist Party" following "the Constitution of Georgia" at the end of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

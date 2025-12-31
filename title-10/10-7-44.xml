@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-7-44"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-7-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-7-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_7_44">
+        <num>10-7-44</num>
+        <content>
+          <p>If the principal executes any mortgage or gives other security to the surety or endorser to indemnify him against loss by reason of his suretyship, the surety or endorser may proceed to foreclose such mortgage or enforce such other lien or security as soon as judgment shall be rendered against him on his contract.</p>
+          <p>(Orig. Code 1863, § 2142; Code 1868, § 2137; Code 1873, § 2164; Code 1882, § 2164; Civil Code 1895, § 2983; Civil Code 1910, § 3555; Code 1933, § 103-305.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

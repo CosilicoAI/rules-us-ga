@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-106"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-106"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-106/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-106/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-106/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-106/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_106">
+        <num>44-13-106</num>
+        <content>
+          <p>The property exempt under this article shall be for the use and benefit of the family of the debtor from whose estate the property has been exempted and allowed. Upon the death of the wife or her subsequent marriage, the property shall remain for the support and benefit of the minor children of the debtor during their minority.</p>
+          <p>(Orig. Code 1863, § 2021; Ga. L. 1865-66, p. 29, § 2; Code 1868, § 2021; Code 1873, § 2048; Ga. L. 1880-81, p. 69, § 1; Code 1882, § 2048a; Civil Code 1895, § 2874; Civil Code 1910, § 3424; Code 1933, § 51-1503; Ga. L. 1982, p. 3, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

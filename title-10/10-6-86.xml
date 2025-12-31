@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-6-86"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-86"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-6-86/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-86/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-6-86/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-86/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_6_86">
+        <num>10-6-86</num>
+        <content>
+          <p>An instrument signed by one as agent, trustee, conservator, guardian, administrator, executor, or the like, without more, shall be the individual undertaking of the maker, except as otherwise provided by Code Sections 11-3-402, 13-5-30, 29-2-21, 29-3-21, 29-4-22, 29-5-22, 53-8-14, and 53-12-308, such words being generally words of description.</p>
+          <p>(Civil Code 1895, § 2998; Civil Code 1910, § 3570; Code 1933, § 4-401; Ga. L. 1997, p. 143, § 10; Ga. L. 2020, p. 377, § 2-9/HB 865.)</p>
+          <p>The 2020 amendment,
+      effective January 1, 2021, inserted "conservator," and substituted "by Code Sections 11-3-402, 13-5-30, 29-2-21, 29-3-21, 29-4-22, 29-5-22, 53-8-14, and 53-12-308" for "with regard to negotiable instruments by Code Section 11-3-402".</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

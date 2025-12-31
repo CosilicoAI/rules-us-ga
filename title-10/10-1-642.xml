@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-642"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-642"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-642/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-642/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-642/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-642/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_642">
+        <num>10-1-642</num>
+        <content>
+          <p>Notwithstanding the terms, provisions, or conditions of any agreement of franchise, a manufacturer or distributor selling motor vehicles to dealers is liable for all damages to such motor vehicles before delivery to a carrier or transporter. If a dealer selects the carrier, the risk of loss passes to the dealer upon delivery of the vehicle to the carrier. In every other instance, the risk of loss remains with the franchisor until such time as the dealer or his designee accepts the vehicle from the carrier.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-18"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_18">
+        <num>44-2-18</num>
+        <content>
+          <p>If a deed is neither attested by nor acknowledged before one of the officers named in Code Section 44-2-15, it may be recorded upon the affidavit of a subscribing witness, which affidavit shall be made before any one of the officers named in Code Section 44-2-15 and shall testify to the execution of the deed and its attestation according to law. A substantial compliance with the requirements of this Code section shall be held sufficient in the absence of all suspicion of fraud.</p>
+          <p>(Laws 1850, Cobb's 1851 Digest, p. 181; Code 1863, § 2669; Code 1868, § 2665; Code 1873, § 2707; Code 1882, § 2707; Civil Code 1895, § 3623; Civil Code 1910, § 4205; Code 1933, § 29-410.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

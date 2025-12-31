@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-59"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-59"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-59/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-59/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-59/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-59/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_59">
+        <num>31-8-59</num>
+        <content>
+          <p>The state ombudsman shall prepare and distribute to each long-term care facility in the state a written notice describing the long-term care ombudsman program and the procedure to follow in making a complaint, including the address and telephone number of the state ombudsman and community ombudsman, if any. The administrator shall give the written notice required by this Code section to each resident and his legally appointed guardian, if any, upon admission. The administrator shall also post such written notice in conspicuous public places in the facility in accordance with procedures provided by the state ombudsman and shall give such notice to any resident and his legally appointed guardian, if any, who did not receive it upon admission. The failure to provide the notices required by this Code section shall be a ground upon which the department may revoke any permit issued to a long-term care facility under Code Section 31-7-1.</p>
+          <p>(Code 1933, § 88-1910a, enacted by Ga. L. 1979, p. 1240, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

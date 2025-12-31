@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-10-2"/>
+          <FRBRuri value="/us-ga/act/ocga/35-10-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-10-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-10-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-10-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-10-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_10_2">
+        <num>35-10-2</num>
+        <content>
+          <p>It is declared to be contrary to the health, safety, and public welfare of the people of this state for any individual or organization to act in a manner which would mislead the public into believing that a member of the public is dealing with any municipal or county police department or with a member thereof when in fact the individual or organization is not the municipal or county police department or a member thereof. Furthermore, the municipal or county police department, which has provided quality law enforcement services to the citizens of this state, has established a name for excellence in its field. This name should be protected for the department, its members, and the citizens of this state. Therefore, no person or organization should be allowed to use any municipal or county police department's name or any term used to identify the department or its members without the expressed permission of the local governing authority. The provisions of this chapter are in furtherance of the promotion of this policy.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

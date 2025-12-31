@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-4-42"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-4-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-4-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_4_42">
+        <num>13-4-42</num>
+        <content>
+          <p>When a payment is made by a debtor to a creditor holding several demands against him, the debtor shall have the right to direct the claim to which it shall be appropriated. If the debtor fails to do so, the creditor shall have the right to appropriate the payment at his election. If neither party exercises the privilege, the law shall direct the application in such manner as shall be reasonable and equitable, both as to the parties and third persons, provided that, as a general rule, the oldest lien and the oldest item in an account shall be paid first, the presumption of law being that such is the intention of the parties.</p>
+          <p>(Orig. Code 1863, § 2810; Code 1868, § 2818; Code 1873, § 2869; Code 1882, § 2869; Civil Code 1895, § 3722; Civil Code 1910, § 4316; Code 1933, § 20-1006; Ga. L. 1982, p. 3, § 13.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

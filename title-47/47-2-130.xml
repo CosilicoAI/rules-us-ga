@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-2-130"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-2-130/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-2-130/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_2_130">
+        <num>47-2-130</num>
+        <content>
+          <p>If a member ceases to be an employee other than by death or by retirement on an allowance under this retirement system, the amount of his accumulated contributions to this retirement system shall be payable to him upon his request. If a member dies before becoming eligible to retire and before completing 15 years of creditable service, the amount of his accumulated contributions shall be paid to the living person, if any, nominated by him by written designation duly executed and filed with the board of trustees, provided that such beneficiary is alive at the member's death. Otherwise, the accumulated contributions shall become part of the member's estate.</p>
+          <p>(Ga. L. 1949, p. 138, § 5; Ga. L. 1951, p. 394, § 7; Ga. L. 1967, p. 751, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-36-15"/>
+          <FRBRuri value="/us-ga/act/ocga/33-36-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-36-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-36-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-36-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-36-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_36_15">
+        <num>33-36-15</num>
+        <content>
+          <p>The pool shall be deemed a company or insurer within the scope of Code Section 33-2-11 relating to examinations. Notwithstanding the provisions of Code Section 33-2-11 or this Code section, whether such examinations shall be conducted and the frequency of any such examinations shall be at the sole discretion of the Commissioner.</p>
+          <p>(Ga. L. 1970, p. 700, § 13; Ga. L. 2005, p. 563, § 22/HB 407.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

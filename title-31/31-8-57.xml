@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-57"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-57"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-57/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-57/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-57/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-57/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_57">
+        <num>31-8-57</num>
+        <content>
+          <p>Any person who has reasonable cause to believe that a resident of a long-term care facility is being, or has been, abused, neglected, exploited, or abandoned or is in a condition which is the result of abuse, neglect, exploitation, or abandonment may report such information or cause a report to be made in any reasonable manner to the state ombudsman or community ombudsman, if any.</p>
+          <p>(Code 1933, § 88-1909a, enacted by Ga. L. 1979, p. 1240, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

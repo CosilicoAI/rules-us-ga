@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-130"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-130/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-130/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_130">
+        <num>50-5-130</num>
+        <content>
+          <p>The General Assembly recognizes that the preservation and expansion of the American economic system of private enterprise is through free competition, but it also recognizes that the security and well-being brought about by such competition cannot be realized unless the actual and potential capacity of minority business enterprises is encouraged and developed.Therefore, it is the intent of the General Assembly that the state define a "minority business enterprise" for purposes of representation in the area of procurement of state contracts for construction, services, equipment, and goods.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

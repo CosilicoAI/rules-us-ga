@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-9A-7"/>
+          <FRBRuri value="/us-ga/act/ocga/31-9A-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-9A-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-9A-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-9A-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-9A-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_9A_7">
+        <num>31-9A-7</num>
+        <content>
+          <p>In any civil proceeding or action relating to this chapter or a breach of duty under this chapter, the court shall rule whether the anonymity of any female upon whom an abortion has been performed shall be preserved from public disclosure if she does not give her consent to such disclosure. The court, upon motion or sua sponte, shall make such a ruling and, upon determining that her anonymity should be preserved, shall issue orders to the parties, witnesses, and counsel and shall direct the sealing of the record and exclusion of individuals from courtrooms or hearing rooms to the extent necessary to safeguard her identity from public disclosure. Each such order shall be accompanied by specific written findings explaining why the anonymity of the female should be preserved from public disclosure, why the order is essential to that end, how the order is narrowly tailored to serve that interest, and why no reasonable less restrictive alternative exists. This Code section may not be construed to conceal the identity of the plaintiff or of witnesses from the defendant.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

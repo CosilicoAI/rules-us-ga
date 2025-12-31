@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-6-3"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-6-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-6-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_6_3">
+        <num>45-6-3</num>
+        <content>
+          <p>The year for official reports shall be coincident with the fiscal year, and it shall be the duty of the public officers of this state to make and publish in print or electronically annually their official reports for the period commencing on July 1 and ending on June 30 of each year, inclusive. All public officers shall conform to the fiscal year as established in Code Section 45-6-2 in reporting and recording the financial operations of their respective offices and departments.</p>
+          <p>(Ga. L. 1880-81, p. 29, § 2; Code 1882, § 79a; Civil Code 1895, § 233; Ga. L. 1903, p. 25, § 1; Civil Code 1910, § 268; Code 1933, § 89-902; Ga. L. 1937, p. 456, §§ 2, 4; Ga. L. 2010, p. 838, § 10/SB 388.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

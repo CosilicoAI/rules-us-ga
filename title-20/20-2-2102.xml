@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2102"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2102"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2102/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2102/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2102/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2102/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_2102">
+        <num>20-2-2102</num>
+        <content>
+          <p>All high school athletic associations in this state shall cooperate with the committee, its authorized personnel, the Attorney General, the Department of Education, and other state agencies in order that the charges of the committee may be timely and efficiently discharged. The associations shall submit to the committee such reports and data as the committee shall reasonably require in order that the committee may adequately perform its functions. The Attorney General is authorized to bring appropriate legal actions to enforce any laws specifically or generally relating to the associations. The committee shall, on or before the first day of January of each year, and at such other times as it deems necessary, submit to the General Assembly a report of its findings and recommendations based upon the review of the high school athletic associations, as set forth in this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

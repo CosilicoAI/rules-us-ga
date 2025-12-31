@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-2-52"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-52"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-2-52/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-52/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-2-52/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-52/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_2_52">
+        <num>47-2-52</num>
+        <content>
+          <p>Each employer responsible for the payment of compensation to contributing members shall deduct and collect from each member's salary the employee contributions required under the retirement system and shall make a monthly report of such actions in such manner and form as are required by the chief fiscal officer of his employer. Such deductions may be made from future payments or reimbursement check to the employer. It shall be the duty of the chief fiscal officer of each employer to make monthly remittance of employees' contributions to the board of trustees. Should any employer fail to collect employee contributions or to make reports as required in this Code section, the appropriate employer shall withhold all funds allotted to such employer until he has fully complied with this Code section.</p>
+          <p>(Ga. L. 1949, p. 138, § 13.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

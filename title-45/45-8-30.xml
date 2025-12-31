@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-8-30"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-8-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-8-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_8_30">
+        <num>45-8-30</num>
+        <content>
+          <p>The judge of the probate court, sitting for county purposes, or the board of county commissioners, or such other county governing authority in this state has the discretionary power and authority to release a given portion of the property of a municipal or county treasurer, tax collector, or tax commissioner from the lien of the state or county or municipality in question against the property of such officers on their respective bonds.</p>
+          <p>(Ga. L. 1951, p. 751, § 1; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-7-31"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-7-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-7-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_7_31">
+        <num>44-7-31</num>
+        <content>
+          <p>Except as provided in Code Section 44-7-32, whenever a security deposit is held by a landlord or such landlord's agent on behalf of a tenant, such security deposit shall be deposited in an escrow account established only for that purpose in any bank or lending institution subject to regulation by this state or any agency of the United States government. The security deposit shall be held in trust for the tenant by the landlord or such landlord's agent except as provided in Code Section 44-7-34. Tenants shall be informed in writing of the location of the escrow account required by this Code section.</p>
+          <p>(Code 1933, § 61-602, enacted by Ga. L. 1976, p. 1372, § 6; Ga. L. 2006, p. 656, § 1/HB 1273.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-4-36"/>
+          <FRBRuri value="/us-ga/act/ocga/23-4-36"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-4-36/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-4-36/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-4-36/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-4-36/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_4_36">
+        <num>23-4-36</num>
+        <content>
+          <p>A decree shall be transferable like other judgments and, when for money, shall constitute a like lien.</p>
+          <p>(Orig. Code 1863, § 4126; Code 1868, § 4158; Code 1873, § 4217; Code 1882, § 4217; Civil Code 1895, § 4859; Civil Code 1910, § 5432; Code 1933, § 37-1209.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

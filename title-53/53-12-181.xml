@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-12-181"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-181"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-12-181/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-181/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-12-181/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-181/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_12_181">
+        <num>53-12-181</num>
+        <content>
+          <p>Any corporation which is a private foundation may amend its articles of incorporation expressly to exclude the application of Code Section 53-12-180 or any portion thereof in the manner provided by Article 10 of Chapter 2 of Title 14 or Article 8 of Chapter 3 of Title 14, whichever is applicable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

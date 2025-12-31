@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-324"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-324"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-324/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-324/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-324/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-324/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_324">
+        <num>12-3-324</num>
+        <content>
+          <p>The authority shall determine the form of the bonds, including any interest coupons to be attached thereto, and shall fix the denomination or denominations of the bonds and the place or places of payment of principal and interest thereof, which may be at any bank or trust company within or without the state. The bonds may be issued in coupon or registered form, or both, as the authority may determine, and provision may be made for the registration of any coupon bond as to principal alone and also as to both principal and interest.</p>
+          <p>(Ga. L. 1962, p. 736, § 13; Ga. L. 1969, p. 397, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

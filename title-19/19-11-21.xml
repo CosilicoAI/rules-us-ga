@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-11-21"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-11-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-11-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_11_21">
+        <num>19-11-21</num>
+        <content>
+          <p>Payment of support pursuant to an administrative determination or a voluntary agreement shall be made to the department. In non-TANF cases, where the department deems it appropriate, it may authorize distribution of the actual payment by other individuals, agencies, or entities and utilize certification schedules reflecting such payments or distributions which the department requires, in accordance with the federal Social Security Act, as amended. Child support which is ordered by a court pursuant to a divorce decree or in any other proceeding in which the responsible parent is required to pay support for his or her child or children, whether the proceeding is civil or criminal, shall be paid by the responsible parent, the clerk of court, the juvenile probation officer, the community supervision officer, the child support receiver, or a similar official who is collecting support to the department upon the department's certification that the child is a recipient of public assistance or upon the department's certification that an application has been filed with the department for enforcement of support in accordance with the provisions of the federal Social Security Act.</p>
+          <p>(Ga. L. 1973, p. 192, § 16; Ga. L. 1976, p. 1537, § 14; Ga. L. 1982, p. 1207, §§ 3, 6; Ga. L. 1997, p. 1021, § 8; Ga. L. 2015, p. 422, § 5-44/HB 310.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

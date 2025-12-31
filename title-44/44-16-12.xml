@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-16-12"/>
+          <FRBRuri value="/us-ga/act/ocga/44-16-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-16-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-16-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-16-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-16-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_16_12">
+        <num>44-16-12</num>
+        <content>
+          <p>The agency may establish and maintain a registry that contains all environmental covenants and any amendment or termination of such covenants. The registry may also contain any other information concerning environmental covenants and the real property subject to them which the agency considers appropriate. The registry, if established, shall be a public record for purposes of Article 4 of Chapter 18 of Title 50.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

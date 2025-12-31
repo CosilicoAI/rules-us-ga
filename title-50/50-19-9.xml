@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-19-9"/>
+          <FRBRuri value="/us-ga/act/ocga/50-19-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-19-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-19-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-19-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-19-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_19_9">
+        <num>50-19-9</num>
+        <content>
+          <p>Any person violating any provision of this article or any other general law relating to purchase of automobiles with state funds or use of automobiles by state officers or employees shall be guilty of a misdemeanor and, upon conviction thereof, also shall be removed from office.</p>
+          <p>(Ga. L. 1933, p. 106, § 10; Code 1933, § 40-9902; Ga. L. 2005, p. 117, § 23/HB 312.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

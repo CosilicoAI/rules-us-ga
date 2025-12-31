@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-21-25"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-21-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-21-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_21_25">
+        <num>31-21-25</num>
+        <content>
+          <p>No school or college shall be allowed or permitted to receive any body or bodies described in Code Section 31-21-21 until a bond shall have been given to the Department of Community Health by or in behalf of the school or college by its authorized officers, to be approved by the clerk of the superior court of the county in which the school or college is situated and to be filed in the office of such clerk. The bond shall be in the sum of $5,000.00 and shall be conditioned that the body or bodies received thereafter by the school or college shall be used only in the manner specified in this article and solely for the promotion of medical science in this state. Actions thereon shall be in the name of the Department of Community Health, and any sums recovered shall be deposited in the state treasury.</p>
+          <p>(Ga. L. 1887, p. 87, § 5; Civil Code 1895, § 1517; Civil Code 1910, § 1761; Code 1933, § 88-707; Code 1933, § 88-2707, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 2007, p. 472, § 2/SB 204; Ga. L. 2009, p. 453, § 1-4/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

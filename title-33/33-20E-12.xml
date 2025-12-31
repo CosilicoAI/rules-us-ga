@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-12"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_20E_12">
+        <num>33-20E-12</num>
+        <content>
+          <p>The Commissioner shall promulgate rules implementing an arbitration process requiring the Commissioner to select one or more resolution organizations to arbitrate certain claim disputes between insurers and out-of-network providers or facilities. Prior to proceeding with such arbitration, the Commissioner shall allow the parties 30 days from the date the Commissioner received the request for arbitration to negotiate a settlement. The parties shall timely notify the Commissioner of the result of such negotiation. If the parties have not notified the Commissioner of such result within 30 days of the date that the Commissioner received the request for arbitration, the Commissioner shall refer the dispute to a resolution organization within five days. The department shall contract with one or more resolution organizations by July 1, 2021, to review and consider claim disputes between insurers and out-of-network providers or facilities as such disputes are referred by the Commissioner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

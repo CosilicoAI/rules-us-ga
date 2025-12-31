@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-105"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-105"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-105/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-105/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-105/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-105/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_105">
+        <num>11-2A-105</num>
+        <content>
+          <p>Subject to the provisions of Code Sections 11-2A-304(3) and 11-2A-305(3), with respect to goods covered by a certificate of title issued under a statute of this State or of another jurisdiction, compliance and the effect of compliance or noncompliance with a certificate of title statute are governed by the law (including the conflict of laws rules) of the jurisdiction issuing the certificate until the earlier of (a) surrender of the certificate, or (b) four months after the goods are removed from that jurisdiction and thereafter until a new certificate of title is issued by another jurisdiction.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

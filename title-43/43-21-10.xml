@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-21-10"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-21-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-21-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_21_10">
+        <num>43-21-10</num>
+        <content>
+          <p>The innkeeper may provide a safe or other place of deposit for valuable articles and, by posting a notice thereof, may require guests of the innkeeper to place such valuable articles therein or the innkeeper shall be relieved from responsibility for such articles. For all valuable articles placed by a guest with an innkeeper for safekeeping, the innkeeper shall give a receipt therefor to evidence the fact of such deposit. No guest shall recover from the innkeeper more than $750.00 for loss of valuable articles deposited with the innkeeper for safekeeping unless such guest shall possess a receipt of the innkeeper for the valuable articles claimed to have been lost.</p>
+          <p>(Orig. Code 1863, § 2098; Code 1868, § 2093; Code 1873, § 2119; Code 1882, § 2119; Civil Code 1895, § 2937; Civil Code 1910, § 3510; Ga. L. 1922, p. 52, § 1; Code 1933, § 52-110; Ga. L. 1984, p. 924, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

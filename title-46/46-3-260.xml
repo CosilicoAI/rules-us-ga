@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-260"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-260/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-260/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_260">
+        <num>46-3-260</num>
+        <content>
+          <p>All persons who may lawfully receive service from an electric membership corporation and who are receiving or have agreed to receive such service shall be members therein, subject to complying with such additional conditions and requirements for membership as are set forth in the articles of incorporation or bylaws of the electric membership corporation. The articles of incorporation or bylaws may also provide criteria for, procedures for, and limitations upon the transfer, classification, and termination of memberships in an electric membership corporation.</p>
+          <p>(Ga. L. 1937, p. 644, § 10; Code 1933, § 34C-501, enacted by Ga. L. 1981, p. 1587, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

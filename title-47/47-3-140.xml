@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-3-140"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-3-140/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-3-140/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_3_140">
+        <num>47-3-140</num>
+        <content>
+          <p>Except as specifically provided in this chapter, no other provision of law which provides wholly or partly at the expense of this state for pensions or retirement benefits for teachers in the state, their surviving spouses, or their dependents shall apply to members or beneficiaries of this retirement system, their surviving spouses, or their dependents, provided that nothing in this chapter shall prevent the governing boards of the public school systems of the state and the Board of Regents of the University System of Georgia from making provision for supplementing the retirement and pension allowances of members of the retirement system.</p>
+          <p>(Ga. L. 1943, p. 640, § 13; Ga. L. 1949, p. 1197, § 2; Ga. L. 1981, p. 698, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

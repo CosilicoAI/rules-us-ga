@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-21-28"/>
+          <FRBRuri value="/us-ga/act/ocga/50-21-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-21-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-21-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-21-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-21-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_21_28">
+        <num>50-21-28</num>
+        <content>
+          <p>All tort actions against the state under this article shall be brought in the state or superior court of the county wherein the tort giving rise to the loss occurred; provided, however, that wrongful death actions may be brought in the county wherein the tort giving rise to the loss occurred or the county wherein the decedent died, and provided, further, that in any case in which an officer or employee of the state may be included as a defendant in his or her individual capacity, the action may be brought in the county of residence of such officer or employee. All actions against the state for losses sustained in any other state shall be brought in the county of residence of any officer or employee residing in this state upon whose actions or omissions the claim against the state is based.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

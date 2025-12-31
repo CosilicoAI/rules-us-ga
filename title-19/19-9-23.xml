@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-9-23"/>
+          <FRBRuri value="/us-ga/act/ocga/19-9-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-9-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-9-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-9-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-9-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_9_23">
+        <num>19-9-23</num>
+        <content>
+          <p>(Ga. L. 1978, p. 1957, § 4; Ga. L. 1983, p. 3, § 52; Ga. L. 2019, p. 904, § 2/SB 190.)</p>
+          <p>The 2019 amendment,
+      effective July 1, 2019, rewrote this Code section, which read: "(a) Except as otherwise provided in this Code section, after a court has determined who is to be the legal custodian of a child, any complaint seeking to obtain a change of legal custody of the child shall be brought as a separate action in the county of residence of the legal custodian of the child.</p>
+          <p>"(b) A complaint by the legal custodian seeking a change of legal custody or visitation rights shall be brought as a separate action in compliance with Article VI, Section II, Paragraph VI of the Constitution of this state.</p>
+          <p>"(c) No complaint specified in subsection (a) or (b) of this Code section shall be made:</p>
+          <p>"(1) As a counterclaim or in any other manner in response to a petition for a writ of habeas corpus seeking to enforce a child custody order; or</p>
+          <p>"(2) In response to any other action or motion seeking to enforce a child custody order.</p>
+          <p>"(d) The use of a complaint in the nature of habeas corpus seeking a change of child custody is prohibited."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

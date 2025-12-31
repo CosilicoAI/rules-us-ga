@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-136"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-136"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-136/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-136/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-136/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-136/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_136">
+        <num>44-12-136</num>
+        <content>
+          <p>Municipal authorities may license pawnbrokers, define their powers and privileges by ordinance, impose taxes upon them, revoke their licenses, and exercise such general supervision as will ensure fair dealing between the pawnbroker and his customers.</p>
+          <p>(Ga. L. 1868, p. 136, § 1; Code 1873, § 2137; Code 1882, § 2137; Civil Code 1895, §§ 755, 2955; Civil Code 1910, §§ 904, 3527; Code 1933, § 12-611.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

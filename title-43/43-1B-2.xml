@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-1B-2"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1B-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-1B-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1B-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-1B-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1B-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_1B_2">
+        <num>43-1B-2</num>
+        <content>
+          <p>It is recognized by the General Assembly that the referral of a patient by a health care provider to a provider of designated health care services in which the health care provider has an investment interest represents a potential conflict of interest.The General Assembly finds that these referral practices may limit or eliminate competitive alternatives in the health care services market, may result in overutilization of health care services, may increase costs to the health care system, and may adversely affect the quality of health care. The General Assembly also recognizes, however, that it may be appropriate for health care providers to own entities providing health care services, and to refer patients to such entities, as long as certain safeguards are present in the arrangement.It is the intent of the General Assembly to provide guidance to health care providers regarding prohibited patient referrals between health care providers and entities providing health care services and to protect the citizens of Georgia from unnecessary and costly health care expenditures.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

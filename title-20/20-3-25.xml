@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-25"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_25">
+        <num>20-3-25</num>
+        <content>
+          <p>The board of regents shall elect a secretary, not a member thereof, for such term and salary as it may establish. The secretary shall maintain his office in the state capital and shall devote to the board his entire time. He shall give good and sufficient bond, payable to the Governor, for the faithful performance of his duties and for the faithful accounting for all funds coming into his hands as such secretary. The surety on such bond shall be a surety company duly qualified to do business in this state. The board may pay premiums for such bond out of funds coming into its hands.</p>
+          <p>(Ga. L. 1931, p. 7, § 54; Code 1933, § 32-108.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

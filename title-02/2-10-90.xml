@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-10-90"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-90"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-10-90/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-90/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-10-90/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-90/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_10_90">
+        <num>2-10-90</num>
+        <content>
+          <p>Under the terms and conditions prescribed in its bylaws, an association may admit as members or issue common stock only to persons, associations, or corporations composed solely of persons engaged in the production of the agricultural products to be handled by or through the association, including the lessees and tenants of land used for the production of such products and any lessors and landlords who receive as rent all or part of the crop raised on the leased premises. Any such persons, associations of persons, or corporations may be citizens of or organized under the laws of this state or any other state of the United States. If a member of a nonstock association is other than a natural person, such member may be represented by any individual, associate, officer, or member thereof duly authorized in writing.</p>
+          <p>(Ga. L. 1921, p. 139, § 5; Ga. L. 1925, p. 150, § 1; Ga. L. 1929, p. 222, § 2; Code 1933, § 65-205.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

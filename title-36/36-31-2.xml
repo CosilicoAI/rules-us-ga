@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-31-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-31-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-31-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-31-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-31-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-31-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_31_2">
+        <num>36-31-2</num>
+        <content>
+          <p>When a municipal corporation is created by local Act as authorized in this chapter, the provisions of Code Section 36-30-7.1 shall not apply for two years from the date the first elected officials of such municipal corporation take office. No later than July 1 following the expiration of such two-year period, the governing authority of the municipal corporation shall file a certification with the Department of Community Affairs stating whether the municipal corporation does or does not meet the standards for an active municipality under subsection (b) of Code Section 36-30-7.1.</p>
+          <p>(Ga. L. 1963, p. 251, § 2; Ga. L. 1967, p. 718, § 1; Ga. L. 1971, p. 90, § 1; Ga. L. 1996, p. 399, § 1; Ga. L. 2005, p. 185, § 1/HB 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

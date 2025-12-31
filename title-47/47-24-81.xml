@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-24-81"/>
+          <FRBRuri value="/us-ga/act/ocga/47-24-81"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-24-81/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-24-81/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-24-81/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-24-81/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_24_81">
+        <num>47-24-81</num>
+        <content>
+          <p>In addition to the creditable service allowed pursuant to Code Section 47-24-80, any member shall receive creditable service for any past service as a member of the United States Army, Army Reserve, Army National Guard, Navy, Navy Reserve, Marine Corps, Air Force, Air Force Reserve, Air National Guard, or Coast Guard if such service meets the same requirement for creditable time served as set forth for nonregular service retirement under Chapter 67 of Title 10 of the United States Code.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

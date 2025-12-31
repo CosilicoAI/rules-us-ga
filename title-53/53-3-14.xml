@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-3-14"/>
+          <FRBRuri value="/us-ga/act/ocga/53-3-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-3-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-3-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-3-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-3-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_3_14">
+        <num>53-3-14</num>
+        <content>
+          <p>If year's support is set apart for the benefit of any individual in or with respect to real property on which there is a recorded option to purchase or contract to sell outstanding at the time the same is so set apart, the individual and any purchasers or lessees of the real property, after the same has been so set apart, shall take the real property or any interest therein subject to all of the rights and privileges of the grantee of the option or contract and of any assignees of the option or contract if the assignment or assignments are also recorded.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-554"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-554"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-554/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-554/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-554/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-554/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_554">
+        <num>20-2-554</num>
+        <content>
+          <p>All of the rights, powers, and functions of the Vocational Trade School Building Authority and the School Building Authority for the Deaf and Blind shall be transferred to and conferred upon the authority. Upon such transfer of the rights, powers, and functions to the authority, the Vocational Trade School Building Authority and the State School Building Authority for the Deaf and Blind shall be abolished.</p>
+          <p>(Ga. L. 1956, p. 806, §§ 1, 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

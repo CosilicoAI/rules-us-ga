@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-358"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-358"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-358/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-358/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-358/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-358/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_358">
+        <num>48-5-358</num>
+        <content>
+          <p>Each municipality may enforce the collection of any amount due or to become due for paving streets or alleys, laying sewers and drains, or cleaning or repairing privy vaults by execution issued by the municipal finance officer against the persons who owe the debts. The execution may be levied by the marshal on the real property of the owners and, after proceedings as in cases of sales for municipal taxes, the property may be sold at public auction. All sales under execution made by municipalities shall be subject to both purchase by the municipality and the right of redemption by the owner after sale.</p>
+          <p>(Ga. L. 1884-85, p. 148, § 1; Civil Code 1895, § 723; Civil Code 1910, § 869; Code 1933, § 92-4201; Code 1933, § 91A-1508, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

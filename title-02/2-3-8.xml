@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-3-8"/>
+          <FRBRuri value="/us-ga/act/ocga/2-3-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-3-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-3-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-3-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-3-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_3_8">
+        <num>2-3-8</num>
+        <content>
+          <p>The authority is authorized to contract for or to provide for and maintain a security force with respect to the facilities and property owned, leased, operated, or under the control of the authority and within the territory thereof. The security force shall have the duty to protect persons and property, disperse unlawful or dangerous assemblages, control pedestrian and vehicular traffic, and otherwise preserve and protect the public peace, health, and safety. For these purposes, a member of such force shall be a peace officer and, as such, shall have authority equivalent to the authority of a policeman or law enforcement officer of the county in which he is discharging his duties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

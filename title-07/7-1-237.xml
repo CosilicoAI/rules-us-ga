@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-237"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-237"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-237/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-237/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-237/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-237/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_237">
+        <num>7-1-237</num>
+        <content>
+          <p>Any financial institution shall be reimbursed by the requesting party for costs which are reasonably necessary and which have been directly incurred in searching for, reproducing, or transporting books, papers, records, or other data of a customer required or requested to be produced pursuant to a lawful subpoena, summons, warrant, garnishment, attachment, request for the production of documents, or court order where the financial institution is not a party to the action. Except as may otherwise be ordered by a judge of the court issuing the same, a financial institution shall have five business days from service of a subpoena within which to produce any books, papers, or records ordered produced pursuant to such subpoena. In the case of a garnishment or attachment of funds held by the financial institution, such reimbursement may be deducted prior to remission of such funds in response to the garnishment or attachment. Rates and conditions under which reimbursement may be made under this Code section shall be prescribed by regulations of the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

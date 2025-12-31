@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-63"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-63"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-63/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-63/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-63/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-63/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_63">
+        <num>15-12-63</num>
+        <content>
+          <p>In any term of court when the public interest requires it, the court, on application of the district attorney, may empanel one or more concurrent grand juries.</p>
+          <p>(Ga. L. 1871-72, p. 47, § 3; Code 1873, § 3936; Code 1882, § 3936; Ga. L. 1884-85, p. 41, § 1; Penal Code 1895, § 862; Penal Code 1910, § 866; Code 1933, § 59-204; Ga. L. 2011, p. 59, § 1-30/HB 415; Ga. L. 2014, p. 862, § 11/HB 1078.)</p>
+          <p>The 2014 amendment,
+      effective April 29, 2014, substituted the present provisions of this Code section for the former provisions, which read: "When the superior court is held for longer than one week, the presiding judge may direct the clerk to choose separate grand juries for each week."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

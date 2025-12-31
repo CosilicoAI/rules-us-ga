@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-361"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-361"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-361/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-361/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-361/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-361/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_361">
+        <num>20-3-361</num>
+        <content>
+          <p>Subject to appropriations, the commission shall establish a needs based financial aid program to provide grants to eligible students for postsecondary education at qualified institutions. The commission may provide for individualized eligibility criteria and grant amounts as determined to be the most appropriate for the particular qualified institution and its student population. The commission shall also establish criteria necessary to retain and continue to receive such grants.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-252"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-252"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-252/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-252/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-252/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-252/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_252">
+        <num>44-2-252</num>
+        <content>
+          <p>The holder of an uncanceled owner's certificate of title may at any time present it to the clerk and have the clerk enter on the owner's certificate all entries and notations of every kind which appear on the certificate of title which have not already been entered on the owner's certificate. The clerk shall thereupon endorse on the owner's certificate the words "Valid, with all entries noted to this date. This ________ day of ________________________, ________, at _: _ _. M." and shall officially sign the endorsement.</p>
+          <p>(Ga. L. 1917, p. 108, § 118; Code 1933, § 60-633; Ga. L. 1982, p. 3, § 44; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

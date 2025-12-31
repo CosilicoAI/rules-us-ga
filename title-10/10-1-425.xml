@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-425"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-425"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-425/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-425/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-425/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-425/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_425">
+        <num>10-1-425</num>
+        <content>
+          <p>It shall be unlawful for any person, firm, association, or corporation to misrepresent the true ownership of a business for the purpose of carrying on a liquidation sale, auction sale, or other sale which represents that the firm is going out of business; and any person, firm, association, or corporation which advertises in any manner whatever a liquidation sale, auction sale, or going-out-of-business sale shall clearly state the true name and permanent address of the actual owner or owners of such business in any and all such advertising.</p>
+          <p>(Ga. L. 1962, p. 129, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

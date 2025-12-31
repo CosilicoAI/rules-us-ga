@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-1-9"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-1-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-1-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_1_9">
+        <num>27-1-9</num>
+        <content>
+          <p>The consent of the General Assembly is given to the making by the Congress of the United States or under its authority of all such rules and regulations as the federal government shall determine to be needed in respect to game animals, game and nongame birds, and fish on such lands in the northern part of Georgia as shall have been or may hereafter be purchased by the United States under the terms of the act of Congress of March 1, 1911, entitled "An Act to Enable any state to Cooperate with any other state or states, or with the United States, for the Protection of the Watersheds of Navigable Streams, and to Appoint a Commission for the Acquisition of Lands for the Purpose of Conserving the Navigability of Navigable Rivers" (36 United States Statutes at Large, page 961), and acts of Congress supplementary thereto and amendatory thereof, and in or on the waters thereof.</p>
+          <p>(Ga. L. 1922, p. 106, § 1; Code 1933, § 45-336; Ga. L. 1955, p. 483, § 24; Code 1933, § 45-110, enacted by Ga. L. 1977, p. 396, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-5-46"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-5-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-5-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_5_46">
+        <num>14-5-46</num>
+        <content>
+          <p>All deeds of conveyance executed before April 1, 1969, or thereafter for any lots of land within this state to any person or persons, to any church or religious society, or to trustees for the use of any church or religious society for the purpose of erecting churches or meeting houses shall be deemed to be valid and available in law for the intents, uses, and purposes contained in the deeds of conveyance. All lots of land so conveyed shall be fully and absolutely vested in such church or religious society or in their respective trustees for the uses and purposes expressed in the deed to be held by them or their trustees for their use by succession, according to the mode of church government or rules of discipline exercised by such churches or religious societies.</p>
+          <p>(Laws 1805, Cobb's 1851 Digest, p. 899; Code 1873, § 2343; Code 1882, § 2343; Civil Code 1895, § 2353; Civil Code 1910, § 2826; Code 1933, § 22-409; Code 1933, § 22-5507, enacted by Ga. L. 1968, p. 565, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

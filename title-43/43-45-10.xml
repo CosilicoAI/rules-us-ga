@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-45-10"/>
+          <FRBRuri value="/us-ga/act/ocga/43-45-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-45-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-45-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-45-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-45-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_45_10">
+        <num>43-45-10</num>
+        <content>
+          <p>The license holder shall register with the secretary the names of all employees and agents within 30 days of their employment. Upon submission by the license holder of application and the appropriate fee established by the commission, registration certificates shall be issued by the secretary. Such certificates shall be carried on the person of the registered employee at all times during performance of work and shall be displayed upon request to any person for whom work is being performed. The license holder shall be responsible for training the registered employee in the work he is to perform. Employees covered by this Code section include servicemen, salesmen, estimators, and other employees. Such registration cards shall be effective only while the employee shall remain in the employment of the license holder by whom registration was obtained, and only for such time as the license of the license holder remains valid.</p>
+          <p>(Ga. L. 1955, p. 564, § 14; Ga. L. 1957, p. 299, § 7; Ga. L. 1960, p. 813, § 10; Ga. L. 1983, p. 739, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

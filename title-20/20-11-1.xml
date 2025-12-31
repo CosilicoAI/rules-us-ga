@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-11-1"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-11-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-11-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_11_1">
+        <num>20-11-1</num>
+        <content>
+          <p>To aid in the promotion of scientific, engineering, and industrial research; to encourage the more complete development and utilization of the natural resources of this state; to advance science, technology, and education; to encourage further industrial and economic development; to provide technical advice and assistance to business and industry; to provide an industrial extension service to meet the technical, informational, and other needs of industry and local development groups; and in order to promote the general welfare of the people of this state through a program of scientific, engineering, and industrial research, there is created at and in connection with the Georgia Institute of Technology a department to be known and designated as the "Georgia Tech Research Institute." The department shall be composed of a research institute to be located at the Georgia Institute of Technology and such field offices or substations as provided in this chapter.</p>
+          <p>(Ga. L. 1919, p. 367, § 1; Code 1933, § 32-301, enacted by Ga. L. 1960, p. 1131, § 1; Ga. L. 1984, p. 1675, § 2; Ga. L. 1985, p. 149, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

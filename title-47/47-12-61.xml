@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-12-61"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-12-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-12-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_12_61">
+        <num>47-12-61</num>
+        <content>
+          <p>In computing years of service as a district attorney for any purpose under this chapter, any time served by a district attorney as a judge of any city court from which appeals can be taken directly to the Court of Appeals of Georgia may be counted in computing the required number of years of service, provided that he pays into the fund the maximum payment provided for by this chapter for each year of service actually served as such a judge, plus interest on each such payment at the rate of 6 percent per annum. Such payment shall be made within six months after March 7, 1966, or within six months after taking office as a district attorney, whichever is later. A district attorney who claims credit for such service shall not be entitled to any retirement benefits under this chapter until he has reached the age of 60 years, provided that this limitation shall not otherwise affect his eligibility to become a district attorney emeritus prior to reaching the age of 60.</p>
+          <p>(Ga. L. 1966, p. 210, § 1; Ga. L. 1982, p. 3, § 47.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

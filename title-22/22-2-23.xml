@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-2-23"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-2-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-2-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_2_23">
+        <num>22-2-23</num>
+        <content>
+          <p>If the owner of the property or of any interest therein or the guardian of any owner resides out of the state, notice shall be served on the person in possession of the property or interest. Notice shall also be served on the nonresident owner or owners or the nonresident guardian as provided in Code Section 32-3-9. If the address of the owner or owners or of the guardian is not known, the judge of the probate court of the county where the property or interest is located shall act for such nonresident owners in the manner provided for unrepresented minors in Code Section 22-2-21.</p>
+          <p>(Ga. L. 1894, p. 95, § 9; Civil Code 1895, § 4665; Civil Code 1910, § 5214; Code 1933, § 36-309; Ga. L. 2004, p. 161, § 4.2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

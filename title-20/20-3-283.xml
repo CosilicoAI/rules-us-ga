@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-283"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-283"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-283/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-283/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-283/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-283/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_283">
+        <num>20-3-283</num>
+        <content>
+          <p>Notwithstanding any general or special law or any certificate of incorporation, charter, or other articles of organization, all domestic or domesticated corporations, associations, and other taxable entities carrying on business in this state and any person are authorized to make contributions of money, property, or other thing of value to the corporation for any of its corporate purposes; and the value thereof shall be allowed as a deduction in computing the taxable income of the donor for the purpose of any income tax imposed by the state or by any political subdivision of the state.</p>
+          <p>(Ga. L. 1964, p. 735, § 10; Ga. L. 1965, p. 217, § 11; Code 1933, § 32-3326, enacted by Ga. L. 1980, p. 835, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

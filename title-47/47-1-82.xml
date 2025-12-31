@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-1-82"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-82"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-1-82/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-82/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-1-82/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-82/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_1_82">
+        <num>47-1-82</num>
+        <content>
+          <p>Notwithstanding any other provisions of this title to the contrary, the maximum annual additions and maximum benefit payable to any active or retired member or beneficiary of a public retirement or pension system subject to this title shall be limited to such extent as may be necessary to conform to the requirements of subsections (b) and (c) of Section 415 of the federal Internal Revenue Code for a qualified retirement plan.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

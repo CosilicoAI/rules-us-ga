@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3A-6"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3A-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3A-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3A-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3A-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3A-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3A_6">
+        <num>46-3A-6</num>
+        <content>
+          <p>Upon application of a utility or upon its own motion, the commission may reexamine any certificate granted under this chapter to determine whether new forecasts of future requirements require the modification of the construction, purchase, sale, or expenditure for a certificated capacity resource.If upon such reexamination the commission finds that the certificated capacity resource is no longer needed or that any additional certificated capacity resource is needed to assure a reliable supply of electric power and energy for the utility's Georgia retail customers, the commission may modify or revoke the certificate.If the utility cancels, abandons, or increases some or all of the capacity resource as a result of such modification or revocation of the certificate, it may recover through any rate-making vehicle over a reasonable period of time, absent fraud, concealment, failure to disclose a material fact, imprudence, or criminal misconduct, the amount of its investment in such capacity resource, along with the cost of carrying the unamortized portion of that investment, net of actual salvage value, to the extent such investment is verified as made pursuant to the certificate.The commission shall disallow such investment and costs resulting from fraud, concealment, failure to disclose a material fact, imprudence, or criminal misconduct.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

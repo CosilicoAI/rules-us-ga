@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-12"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_12">
+        <num>50-5-12</num>
+        <content>
+          <p>The Department of Administrative Services shall formulate and initiate a sound program of self-insurance for workers' compensation benefits for all employees of the state, including employees of authorities. In formulating the self-insurance program, the department is directed to establish a return to work program that promotes the return of an employee to employment by creating transitional employment prior to full recovery by providing temporary assignments for an employee that are meaningful and medically approved until the employee can return to his or her regularly assigned duties. If an agency or authority does not allow an employee to engage in transitional employment under the return to work program, the number of authorized positions in the budget for the agency or authority shall be decreased by the number of employees collecting workers' compensation not engaged in return to work employment for whom return to work plans have been developed.</p>
+          <p>(Ga. L. 1969, p. 234, § 1; Ga. L. 1972, p. 1015, § 406; Ga. L. 2008, p. 245, § 5/SB 425.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-3-7"/>
+          <FRBRuri value="/us-ga/act/ocga/4-3-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-3-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-3-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-3-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-3-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_3_7">
+        <num>4-3-7</num>
+        <content>
+          <p>If there is no bidder for the livestock at the sale provided for in Code Section 4-3-5, the sheriff shall have the livestock killed and shall dispose of the carcass thereof; and, if there is any money received by him from the disposal, the same shall be disbursed in the manner provided for in Code Section 4-3-8. If there is no ready sale for the carcass, the sheriff shall deliver the carcass to a public institution of the county, state, or municipality within the county or to any private charitable institution, in this order, according to their needs.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 380, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

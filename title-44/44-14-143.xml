@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-143"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-143"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-143/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-143/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-143/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-143/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_143">
+        <num>44-14-143</num>
+        <content>
+          <p>The notice given by the filing of any mortgage, bill of sale to secure debt, retention of title contract, or other security instrument creating a lien on, retaining title to, or conveying an interest in personal property which is filed or recorded prior to March 31, 1937, shall not extend more than seven years from March 31, 1937, unless within seven years from March 31, 1937, an affidavit is filed, the instrument reindexed, and the marginal reference made on the record thereof as provided in Code Section 44-14-142.</p>
+          <p>(Ga. L. 1937, p. 760, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

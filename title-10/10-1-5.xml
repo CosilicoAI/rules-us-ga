@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-5"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_5">
+        <num>10-1-5</num>
+        <content>
+          <p>Retail installment contracts negotiated and entered into by mail or telephone without personal solicitation by salesmen or other representatives of the seller, where a catalogue of the seller or other printed solicitation of business which is distributed and made available generally to the public clearly sets forth the cash price and other terms of sales to be made through such medium, may be made as provided in this Code section. All of the provisions of this article relating to contracts shall apply to such sales, except that the seller shall not be required to deliver a copy of the contract to the buyer as provided in subsection (e) of Code Section 10-1-3; and, if the contract when received by the seller contains any blank spaces, the seller may insert in the appropriate blank space the amounts of money and other terms which are set forth in the seller's catalogue or other printed solicitation which is then in effect. In lieu of presenting the buyer with a copy of the contract as provided in subsection (e) of Code Section 10-1-3, the seller shall furnish to the buyer a written statement of any items inserted in the blank spaces in the contract received from the buyer.</p>
+          <p>(Ga. L. 1967, p. 659, § 5; Ga. L. 2017, p. 774, § 10/HB 323.)</p>
+          <p>The 2017 amendment,
+      effective May 9, 2017, part of an Act to revise, modernize, and correct the Code, revised language twice in this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

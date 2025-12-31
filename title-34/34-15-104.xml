@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-15-104"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-15-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-15-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_15_104">
+        <num>34-15-104</num>
+        <content>
+          <p>The revision effective July 1, 2009, added subsection (c).</p>
+          <p>The revision effective January 1, 2014,
+   in subsection (a), in the first sentence, inserted "file a Form WC-104 with the Board and shall" and substituted "the Form WC-104" for "a Form WC-104", and in the second sentence, inserted "supporting", and "from employee's authorized treating physician" near the middle; in subsection (b), inserted "filing the Form WC-104 with the Board and" in the first sentence, deleted the former second sentence, which read: "When filing the Form WC-2, the employer/insurer shall attach the Form WC-104 and attached medical report.", and in the last sentence inserted "and supporting documents"; in subsection (c), deleted the former first sentence, which read: "If filing via EDI, section (b) shall be followed and the employer/insurer shall simultaneously mail to, or electronically file with, the Board the filed Subsequent Report of Injury (SROI) or Form WC-2 and a copy of the served Form WC-104 and supporting medical report from employee's authorized treating physician." and deleted the former last sentence, which read: "Copies of all filings shall be served on the employee and the employee's attorney, if represented."</p>
+          <p>The revision effective July 1, 2016, added subsection (d).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

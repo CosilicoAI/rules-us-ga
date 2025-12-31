@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-37-48"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-48"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-37-48/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-48/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-37-48/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-48/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_37_48">
+        <num>33-37-48</num>
+        <content>
+          <p>The superior court may, as it deems desirable, cause audits to be made of the books of the Commissioner relating to any receivership established under this chapter, and a report of each audit shall be filed with the Commissioner and with the court.The books, records, and other documents of the receivership shall be made available to the auditor at any time without notice. The expense of each audit shall be considered a cost of administration of the receivership.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

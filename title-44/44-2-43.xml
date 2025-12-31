@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-43"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-43"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-43/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-43/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-43/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-43/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_43">
+        <num>44-2-43</num>
+        <content>
+          <p>Any person who: (1) fraudulently obtains or attempts to obtain a decree of registration of title to any land or interest therein; (2) knowingly offers in evidence any forged or fraudulent document in the course of any proceedings with regard to registered lands or any interest therein; (3) makes or utters any forged instrument of transfer or instrument of mortgage or any other paper, writing, or document used in connection with any of the proceedings required for the registration of lands or the notation of entries upon the register of titles; (4) steals or fraudulently conceals any owner's certificate, creditor's certificate, or other certificate of title provided for under this article; (5) fraudulently alters, changes, or mutilates any writing, instrument, document, record, registration, or register provided for under this article; (6) makes any false oath or affidavit with respect to any matter or thing provided for in this article; or (7) makes or knowingly uses any counterfeit of any certificate provided for by this article shall be guilty of a felony and shall be punished by imprisonment for not less than one nor more than ten years.</p>
+          <p>(Ga. L. 1917, p. 108, § 85; Code 1933, § 60-9901; Ga. L. 1982, p. 3, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

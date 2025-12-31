@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-23-32"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-23-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-23-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_23_32">
+        <num>33-23-32</num>
+        <content>
+          <p>Except when required in retaliation pursuant to Code Section 33-3-26, insurance contracts on risks or property located or having a situs in this state need not be countersigned by an agent duly licensed in accordance with Code Section 33-23-5; but, if a licensed nonresident agent participates in the effectuation of such contract and a countersignature is so required, the countersigning agent licensed in accordance with Code Section 33-23-5 shall be entitled to the same commission as allowed by the state of residence of the licensed nonresident but, in any event, to not more than 50 percent of the commission. Nothing contained in this Code section shall be construed to require a company to make additional compensation in the way of commissions or otherwise to a person who is paid on a salary basis.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

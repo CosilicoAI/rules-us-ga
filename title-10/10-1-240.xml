@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-240"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-240/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-240/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_240">
+        <num>10-1-240</num>
+        <content>
+          <p>This article shall apply to all marketing agreements as defined in paragraph (4) of Code Section 10-1-232 that are granted, renewed, or amended to extend the lease period on or after July 1, 2009.</p>
+          <p>(Ga. L. 1973, p. 438, §§ 6, 9; Ga. L. 1978, p. 2249, § 11; Ga. L. 2009, p. 201, § 3/SB 30.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

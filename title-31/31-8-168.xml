@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-168"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-168"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-168/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-168/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-168/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-168/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_168">
+        <num>31-8-168</num>
+        <content>
+          <p>No later than July 1, 2003, the department shall prepare and submit to the Centers for Medicare and Medicaid Services of the United States Department of Health and Human Services a request for approval of a waiver pursuant to 42 C.F.R. Section 433.68(e) of the uniform fee requirement. Upon approval of such waiver, the department shall take action to reduce the provider fee imposed pursuant to Code Section 31-8-164 allowed by such waiver for those providers who qualify for such reduction.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

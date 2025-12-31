@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-13-3"/>
+          <FRBRuri value="/us-ga/act/ocga/40-13-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-13-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-13-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-13-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-13-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_13_3">
+        <num>40-13-3</num>
+        <content>
+          <p>Except for offenses tried in the superior courts, all other courts having jurisdiction of the offense may proceed with the adjudication of the offenses contained within the complaint without the necessity of filing an indictment or other accusation in order to bring the accused to trial. The judge or clerk of each court before whom a person accused of such an offense is brought shall promptly report the final disposition of the case to the Department of Driver Services. Notwithstanding the reporting requirements of this Code section, the Department of Driver Services may by rule or regulation relieve the judge or clerk of each such court of the responsibility of reporting those offenses which do not result in convictions or adjudications of guilt or pleas of nolo contendere.</p>
+          <p>(Ga. L. 1972, p. 1148, §§ 2, 4; Ga. L. 1992, p. 1118, § 2; Ga. L. 1992, p. 2785, § 29; Ga. L. 2000, p. 951, § 7A-1; Ga. L. 2005, p. 334, § 22-2/HB 501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-201"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-201"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-201/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-201/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-201/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-201/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_201">
+        <num>11-2A-201</num>
+        <content>
+          <p>Any description of leased goods or of the lease term is sufficient and satisfies subsection (1)(b), whether or not it is specific, if it reasonably identifies what is described.</p>
+          <p>A writing is not insufficient because it omits or incorrectly states a term agreed upon, but the lease contract is not enforceable under subsection (1)(b) beyond the lease term and the quantity of goods shown in the writing.</p>
+          <p>A lease contract that does not satisfy the requirements of subsection (1), but which is valid in other respects, is enforceable:</p>
+          <p>If the goods are to be specially manufactured or obtained for the lessee and are not suitable for lease or sale to others in the ordinary course of the lessor's business, and the lessor, before notice of repudiation is received and under circumstances that reasonably indicate that the goods are for the lessee, has made either a substantial beginning of their manufacture or commitments for their procurement;</p>
+          <p>If the party against whom enforcement is sought admits in that party's pleading, testimony or otherwise in court that a lease contract was made, but the lease contract is not enforceable under this provision beyond the quantity of goods admitted; or</p>
+          <p>The lease term under a lease contract referred to in subsection (4) is:</p>
+          <p>If there is a writing signed by the party against whom enforcement is sought or by that party's authorized agent specifying the lease term, the term so specified;</p>
+          <p>If the party against whom enforcement is sought admits in that party's pleading, testimony, or otherwise in court a lease term, the term so admitted; or</p>
+          <p>A reasonable lease term.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

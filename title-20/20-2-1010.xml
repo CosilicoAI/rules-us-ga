@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1010"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1010"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1010/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1010/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1010/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1010/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_1010">
+        <num>20-2-1010</num>
+        <content>
+          <p>(Ga. L. 1937, p. 896, § 1; Ga. L. 1994, p. 1667, § 1; Ga. L. 2010, p. 547, § 1/SB 319; Ga. L. 2011, p. 752, § 20/HB 142; Ga. L. 2015, p. 1031, § 2-2/SB 89.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, in subsection (a), substituted the present provisions of subsection (a) for the former provisions, which read: "The State Board of Education is authorized to prescribe, by regulation, the definition of the term 'textbook' to include but not be limited to systematically designed material in any medium, whether print, nonprint, or digital including any computer hardware, software, and technical equipment necessary to support such material, that constitutes the principal source of study for a state funded course and to prescribe the textbooks to be used in the various grades in the public schools of this state, including the elementary grades and high school grades. The state board may provide, by regulation, for multiple listings of textbooks for use in the various grades and may, in its discretion, authorize the local school superintendents to exercise a choice as between textbooks so listed or adopted for any particular grade."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

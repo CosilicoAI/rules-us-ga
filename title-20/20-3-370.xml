@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-370"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-370"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-370/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-370/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-370/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-370/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_370">
+        <num>20-3-370</num>
+        <content>
+          <p>The General Assembly finds that students and parents are not always able to obtain educational loan assistance from a commercial lender under the Georgia Higher Education Loan Program provided for in Part 2 of this article; that a need exists to make additional educational loan funds available to students and parents; and that shortages exist within the state in the supply of trained personnel in certain paramedical and other professional and educational fields and other areas, which might possibly be alleviated by providing educational loan assistance to students in those fields and areas together with an option whereby such students can repay such educational loans through services rendered in lieu of cash repayment. The purpose of the General Assembly, as provided for in this subpart, is to enable the authority to make additional educational loans to students and parents and to make service cancelable loans to students in certain fields of study and other areas as provided in this subpart.</p>
+          <p>(Code 1933, § 32-3746, enacted by Ga. L. 1980, p. 835, § 3; Ga. L. 1981, p. 735, § 38.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

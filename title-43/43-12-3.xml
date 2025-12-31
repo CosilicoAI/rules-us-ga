@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-12-3"/>
+          <FRBRuri value="/us-ga/act/ocga/43-12-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-12-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-12-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-12-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-12-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_12_3">
+        <num>43-12-3</num>
+        <content>
+          <p>All persons within the groups enumerated in Code Section 43-12-1 seeking a certificate of exemption from the payment of occupation taxes, administrative fees, or regulatory fees for peddling, conducting a business, or practicing a profession or semiprofession must first make application to the judge of the probate court of the county in which he or she resides for a certificate of eligibility. Each applicant shall make an affidavit before the judge of the probate court that he or she is not subject to payment of any income taxes to this state. Upon receipt of the evidence required in Code Section 43-12-2 and the execution of the affidavit required by this Code section, the judge of the probate court shall issue a certificate of eligibility stating that the applicant has furnished the proof required for the issuance of a certificate of exemption required by the commissioner of veterans service. Such certificate of eligibility shall be valid for a period of ten years from the date of issue.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 431, § 4; Ga. L. 1971, p. 348, § 1; Ga. L. 1983, p. 1401, § 14; Ga. L. 1996, p. 1268, § 1; Ga. L. 2010, p. 202, § 1/HB 128.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

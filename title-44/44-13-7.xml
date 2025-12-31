@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-7"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_7">
+        <num>44-13-7</num>
+        <content>
+          <p>When the schedule has been filed and the application has been made, the judge of the probate court, in order that all persons may know when action will be taken on the petition, shall publish in the newspaper in which the legal advertisements of the county are published, not more than twice, a notice as follows:</p>
+          <p>"A.B. has applied for exemption of personalty, and setting apart and valuation of realty exempt from levy and sale under Article 1 of Chapter 13 of Title 44 of the Official Code of Georgia Annotated, and I will pass upon the same at ____ M., on the ____ day of ________________________, ________, at my office. C.D., Judge of the Probate Court."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

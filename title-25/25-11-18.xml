@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-11-18"/>
+          <FRBRuri value="/us-ga/act/ocga/25-11-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-11-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-11-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-11-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-11-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_11_18">
+        <num>25-11-18</num>
+        <content>
+          <p>The failure to renew a certificate or license by the expiration date as set forth in this chapter will cause the certificate or license to become inoperative. A certificate or license which is inoperative because of the failure to renew it shall be restored upon payment of the applicable fee plus a penalty of not more than $250.00 if said fees are paid within 90 days of expiration. After 90 days new certificates and licenses must be applied for as required for an initial certificate or license.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

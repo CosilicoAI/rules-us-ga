@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-3-6"/>
+          <FRBRuri value="/us-ga/act/ocga/5-3-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-3-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-3-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-3-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-3-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_3_6">
+        <num>5-3-6</num>
+        <content>
+          <p>The security, if any, of the party appealing shall be bound for the judgment on the appeal; and, in case the security is compelled to pay off the debt or damages for which judgment is entered in the case, he shall have recourse only against the party for whom he became security.</p>
+          <p>(Laws 1823, Cobb's 1851 Digest, p. 498; Laws 1839, Cobb's 1851 Digest, p. 500; Code 1863, § 3541; Code 1868, § 3564; Code 1873, § 3621; Code 1882, § 3621; Civil Code 1895, § 4463; Civil Code 1910, § 5008; Code 1933, § 6-112.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

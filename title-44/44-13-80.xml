@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-80"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_80">
+        <num>44-13-80</num>
+        <content>
+          <p>Whenever any person makes an application for an exemption of realty under this article and it appears by the return of the surveyor that the applicant is the owner of more real estate than is allowed to be exempt under this article, it shall be the duty of the judge of the probate court to appoint a receiver to take charge of the excess and to sell the same for the benefit of the creditors of the applicant under regulations set forth in this part.</p>
+          <p>(Ga. L. 1872, p. 44, § 1; Code 1873, § 2033; Code 1882, § 2033; Civil Code 1895, § 2855; Civil Code 1910, § 3405; Code 1933, § 51-1001; Ga. L. 1983, p. 1170, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

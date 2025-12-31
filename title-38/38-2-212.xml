@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-212"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-212"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-212/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-212/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-212/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-212/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_212">
+        <num>38-2-212</num>
+        <content>
+          <p>Commissioned officers may be assigned, reassigned, transferred, or detailed to and from units within the Army National Guard, to and from units within the Air National Guard, and to and from units within the Georgia Naval Militia as prescribed by the laws of the United States and by this chapter and by the regulations issued thereunder.</p>
+          <p>(Ga. L. 1916, p. 158, § 3; Code 1933, § 86-605; Ga. L. 1955, p. 10, § 42.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-9-54"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-54"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-9-54/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-54/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-9-54/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-54/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_9_54">
+        <num>10-9-54</num>
+        <content>
+          <p>The authority shall be authorized to utilize the financial advisory and construction related services of the Georgia State Financing and Investment Commission with respect to the issuance of revenue bonds and the investment and disposition of the proceeds thereof and the acquisition, design, planning, and construction of the facilities designated in the resolution authorizing the issuance of the revenue bonds. The reimbursement by the authority of the commission for services provided by the commission shall be considered as part of the costs of the project. Chapter 22 of Title 50 shall be applicable to the selection of persons to provide professional services for any project or any portion thereof constructed in whole or in part with any proceeds from the sale of revenue bonds authorized by this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

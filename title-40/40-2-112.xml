@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-112"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-112"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-112/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-112/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-112/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-112/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_112">
+        <num>40-2-112</num>
+        <content>
+          <p>In addition to the permit fee provided in Code Section 40-2-111, a person operating a motor truck on the highways of this state, which truck is registered in a state or province which imposes upon motor trucks registered in this state a tax, fee, or toll for the privilege of operating such truck upon the highways of such state or province, which is in addition to any tax, fee, or toll imposed upon gasoline or other motor fuel purchased within such state or province, or registration fee, shall pay a fee of not more than $25.00, as determined under the rules and regulations of the commissioner, using a comparison of such taxes, fees, or tolls charged by the state or province of registration of the motor truck, for each round trip into this state in lieu of a tax computed and applied in the same manner as the tax, fee, or toll of such other state or province so long as such tax, fee, or toll imposed by such other state or province shall remain in force.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 343, Part 2, § 2; Ga. L. 1984, p. 1199, § 2; Ga. L. 1990, p. 2048, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

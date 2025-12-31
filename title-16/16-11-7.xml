@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-11-7"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-11-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-11-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_11_7">
+        <num>16-11-7</num>
+        <content>
+          <p>The Governor, with the concurrence of the Attorney General, is authorized and directed to appoint a special assistant attorney general for investigating and prosecuting subversive activities, whose responsibility it shall be, under the supervision of the Attorney General, to assemble, arrange, and deliver to the district attorney of any county, together with a list of necessary witnesses for presentation to the next grand jury in the county, all information and evidence of matters within the county which have come to his or her attention relating in any manner to the acts prohibited by this part and relating generally to the purpose, processes, and activities of subversive organizations, associations, groups, or persons. Such evidence may be presented by the Attorney General or the special assistant attorney general to the grand jury of any county directly, and he or she may represent the state on the trial of such a case, should he or she feel the ends of justice would be best served thereby, and the special assistant attorney general may testify before any grand jury as to matters referred to in this part as to which he or she may have information.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 216, § 6; Ga. L. 1953, Nov.-Dec. Sess., p. 73, § 3; Ga. L. 2015, p. 385, § 5-1/HB 252.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

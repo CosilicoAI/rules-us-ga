@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-400"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-400"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-400/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-400/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-400/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-400/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_400">
+        <num>48-5-400</num>
+        <content>
+          <p>The governing authority of each county may levy and collect taxes for educational purposes in such amounts as the county governing authority shall determine. Amounts collected from such levies shall be appropriated to the use of the county board of education and to the educational work directed by the county board of education.</p>
+          <p>(Ga. L. 1922, p. 81, § 1; Code 1933, § 32-1127; Code 1933, § 91A-1701, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

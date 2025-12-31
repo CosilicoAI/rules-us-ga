@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-12-16"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-12-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-12-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_12_16">
+        <num>2-12-16</num>
+        <content>
+          <p>The Commissioner is authorized to revoke the license and cancel registrations of any licensee or to refuse to register products or issue a plant food license upon satisfactory evidence that the licensee or person has used fraudulent or deceptive practices in the evasion or attempted evasion of this article or of any rules and regulations promulgated under this article. No license shall be revoked or denied or no registration shall be canceled or refused until the licensee or person has been notified by certified mail or statutory overnight delivery, return receipt requested, of the time and place of the hearing and has been given an opportunity to appear and be heard according to the provisions of Chapter 13 of Title 50, the "Georgia Administrative Procedure Act."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

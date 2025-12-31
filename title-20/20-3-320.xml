@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-320"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-320"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-320/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-320/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-320/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-320/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_320">
+        <num>20-3-320</num>
+        <content>
+          <p>The state auditor shall make an annual financial audit of the books, accounts, and records of the authority. The state auditor shall maintain a copy of the audit report on file in his or her office, make copies of the report available for inspection by the general public, and furnish a copy of the report to the authority, to members of the board of directors of the authority, to the Governor, and to such other persons as may be required pursuant to Subpart 2 of this part and shall notify the members of the General Assembly of the availability of the report in the manner which he or she deems to be most effective and efficient. The authority is further authorized to have independent audits made of such books, accounts, and records of the authority as may be required pursuant to Subpart 2 of this part.</p>
+          <p>(Ga. L. 1969, p. 683, § 46; Code 1933, § 32-3725, enacted by Ga. L. 1980, p. 835, § 3; Ga. L. 2005, p. 1036, § 17/SB 49.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

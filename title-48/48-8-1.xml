@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-1"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_1">
+        <num>48-8-1</num>
+        <content>
+          <p>It is the intention of the General Assembly in enacting this article to exercise its full and complete power to tax the retail purchase, retail sale, rental, storage, use, and consumption of tangible personal property and the services described in this article except to the extent prohibited by the Constitutions of the United States and of this state and except to the extent of specific exemptions provided in this article.</p>
+          <p>(Ga. L. 1951, p. 360, § 4; Ga. L. 1965, p. 13, § 2; Code 1933, § 91A-4506, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1979, p. 5, § 93.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-19-8"/>
+          <FRBRuri value="/us-ga/act/ocga/2-19-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-19-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-19-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-19-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-19-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_19_8">
+        <num>2-19-8</num>
+        <content>
+          <p>No indemnity payments shall be paid pursuant to this chapter unless the General Assembly appropriates not less than $5 million of state funds to the Georgia Cotton Producers Indemnity Fund of 1999, and such appropriated state funds become available to the fund on or before July 1, 1999, for the purpose of making indemnity payments. This chapter shall be repealed on July 1, 1999, if the General Assembly has not appropriated $5 million or more of state funds on or before such date to match the $5 million in federal funds made available for the purpose of making indemnity payments pursuant to the federal act. If this chapter is repealed pursuant to the provisions of this Code section, all moneys received from the United States pursuant to the federal act shall be repaid to the secretary of agriculture as provided in the federal act. If this chapter is repealed as provided in this Code section, the Commissioner and the department shall be authorized to assist the secretary of agriculture in determining eligibility of Georgia cotton producers for indemnity payments by the secretary.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

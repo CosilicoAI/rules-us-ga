@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-5-81"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-81"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-5-81/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-81/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-5-81/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-81/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_5_81">
+        <num>28-5-81</num>
+        <content>
+          <p>It shall be the duty of each state department and agency to file with the Claims Advisory Board a notice of possibility of claim covering any occurrence which would be the subject of a notice of claim as provided in Code Section 28-5-80. Such notice of possibility of claim shall be filed on forms provided by the Claims Advisory Board and furnished to each state department and agency upon request. It shall be the duty of each state department and agency to file a notice of possibility of claim within 30 days after the date of any such occurrence. If filed within the same time limitations provided relative to the filing of notices of claim as provided in Code Section 28-5-80, a notice of possibility of claim shall be sufficient for action to be taken thereon; and the fact that no notice of claim has been filed within the time provided shall not prevent the introduction of a resolution and action thereon as provided in this part.</p>
+          <p>(Ga. L. 1969, p. 824, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

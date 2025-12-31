@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-32-14"/>
+          <FRBRuri value="/us-ga/act/ocga/50-32-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-32-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-32-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-32-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-32-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_32_14">
+        <num>50-32-14</num>
+        <content>
+          <p>In any case where a development of regional impact, as determined by the Department of Community Affairs pursuant to Article 1 of Chapter 8 of this title, is planned within the geographic area over which the authority has jurisdiction which requires the expenditure of state or federal funds by the state or any political subdivision, agency, authority, or instrumentality thereof to create land transportation services or access to such development, any expenditure of such funds shall be prohibited unless and until the plan for such development and such expenditures is reviewed and approved by the authority. The decision of the authority to allow or disallow the expenditure of such funds shall be final and nonreviewable, except that such decision shall be reversed where a resolution for such purpose is passed by vote of three-fourths of the authorized membership of the county commission of the county in which the development of regional impact is planned or, if such development is within a municipality, by vote of three-fourths of the authorized membership of the city council. Such a vote shall not constitute failure or refusal by the local government for purposes of Code Section 50-32-53.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

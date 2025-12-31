@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-121"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-121"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-121/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-121/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-121/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-121/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_121">
+        <num>50-5-121</num>
+        <content>
+          <p>For the purposes of this part, the term:</p>
+          <p>(Ga. L. 1975, p. 1619, § 3; Ga. L. 1982, p. 3, § 50; Ga. L. 2012, p. 760, § 1-3/HB 863; Ga. L. 2015, p. 1284, § 5/HB 259; Ga. L. 2021, p. 271, § 1/HB 611.)</p>
+          <p>The 2012 amendment,
+      effective July 1, 2012, and repealed effective July 1, 2015, added paragraph (2); redesignated former paragraph (2) as present paragraph (3); and, in paragraph (3), inserted "Georgia resident" in the first sentence, and in the second sentence, substituted "300" for "100" and "$30 million" for "$1 million".</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, deleted "Georgia resident" preceding "business" near the beginning of paragraph (3).</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, rewrote paragraph (3), which read: " ‘Small business' means a business which is independently owned and operated. In addition, such business must have either fewer than 300 employees or less than $30 million in gross receipts per year."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

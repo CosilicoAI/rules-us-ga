@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-4-6"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-4-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-4-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_4_6">
+        <num>52-4-6</num>
+        <content>
+          <p>When all the capital stock has been subscribed for and 10 percent thereof paid in, notice of that fact shall be published three times in the public newspaper in which the sheriff's sales are advertised in the county in which is situated the principal office of the corporation. When this has been done, the corporation is authorized to begin the transaction of business, but not before. The directors and stockholders of the corporation shall be personally liable for all obligations incurred prior to a compliance with the requirements provided in this Code section.</p>
+          <p>(Ga. L. 1893, p. 81, § 2; Civil Code 1895, § 1988; Civil Code 1910, § 2369; Code 1933, § 17-104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

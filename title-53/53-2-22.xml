@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-2-22"/>
+          <FRBRuri value="/us-ga/act/ocga/53-2-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-2-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-2-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-2-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-2-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_2_22">
+        <num>53-2-22</num>
+        <content>
+          <p>Any individual claiming to be an heir or any person in any way interested as a distributee in any property under the laws of intestacy may apply to either the probate court or the superior court specified in Code Section 53-2-20 to have the claim of heirship and quantity of interest established. The petition in such a case shall contain the same averments as to all parties at interest required of persons filing under Code Section 53-2-21 with the person charged with the duty of distribution being named as a party.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

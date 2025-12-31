@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-9-48"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-48"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-9-48/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-48/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-9-48/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-48/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_9_48">
+        <num>10-9-48</num>
+        <content>
+          <p>The revenue bonds may be issued without any other proceedings or the happening of any other conditions or things than those proceedings, conditions, and things which are specified or required by this article and Article 1 of this chapter. In the discretion of the authority, revenue bonds of a single issue may be issued for the purpose of paying the cost of any one or more, including a combination of, facilities described in Code Section 10-9-40 and in the resolution authorizing the issuance of such bonds. Any resolution providing for the issuance of revenue bonds under this article shall become effective immediately upon its passage and need not be published or posted, and any such resolution may be passed at any regular, special, or adjourned meeting of the board of governors of the authority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

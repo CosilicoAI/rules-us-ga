@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-9-210"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-9-210/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-9-210/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_9_210">
+        <num>46-9-210</num>
+        <content>
+          <p>No railroad company having an office or agency within this state shall refuse to put on sale or refuse to sell any ticket of any other railroad company with which the same may be directly or indirectly connected, at the price or rate fixed by the commission, for passage over lines of such connecting roads, less such amount as may be directed to be deducted from such rate by any one or more of said connecting lines. It shall be unlawful, after the sale of such ticket, to refuse to issue checks for baggage over such connecting lines, to the extent that the baggage may be allowed to be checked under the ordinary rules and regulations of said companies.</p>
+          <p>(Ga. L. 1890-91, p. 155, § 1; Civil Code 1895, § 2299; Civil Code 1910, § 2753; Code 1933, § 18-501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

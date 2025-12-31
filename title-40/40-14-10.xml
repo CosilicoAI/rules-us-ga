@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-14-10"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-14-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-14-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_14_10">
+        <num>40-14-10</num>
+        <content>
+          <p>It shall be unlawful for speed detection devices to be used in any county or municipality or on any campus for which a permit authorizing such use has not been issued or for which a permit authorizing such use has been suspended or revoked and not reissued. It shall be unlawful for any official of such county, municipality, college, or university to order such speed detection devices to be used. It shall be unlawful for any law enforcement officer of any such county, municipality, college, or university to use any such speed detection devices. Any such official or law enforcement officer violating this Code section shall be guilty of a misdemeanor.</p>
+          <p>(Ga. L. 1977, p. 800, § 4; Ga. L. 1985, p. 149, § 40; Ga. L. 1989, p. 586, § 1; Ga. L. 1996, p. 1281, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

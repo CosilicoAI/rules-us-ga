@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-12-17"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-12-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-12-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_12_17">
+        <num>2-12-17</num>
+        <content>
+          <p>The Commissioner may issue and enforce a written or printed stop sale, stop use, or removal order to the owner or custodian of any lot of fertilizer and order such person to hold such lot at a designated place when the Commissioner finds said fertilizer is being offered or exposed for sale in violation of any of the provisions of this article until the law has been complied with and said fertilizer is released in writing by the Commissioner or said violation has been otherwise legally disposed of by written authority. The Commissioner shall release the fertilizer so withdrawn when the requirements of the provisions of this article have been complied with and all costs and expenses incurred in connection with the withdrawal have been paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

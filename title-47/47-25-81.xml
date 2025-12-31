@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-25-81"/>
+          <FRBRuri value="/us-ga/act/ocga/47-25-81"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-25-81/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-25-81/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-25-81/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-25-81/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_25_81">
+        <num>47-25-81</num>
+        <content>
+          <p>Population
+   Maximum Average Final
+   Monthly Expenses
+   ----------
+   --------------
+   500,000 or more
+   $ 7,247.87
+   400,000 -
+   499,999
+   6,975.70
+   300,000 -
+   399,999
+   6,703.53
+   250,000 -
+   299,999
+   6,072.65
+   200,000 -
+   249,999
+   5,594.17
+   150,000 -
+   199,999
+   5,132.49
+   100,000 -
+   149,999
+   4,797.70
+   75,000 - 99,999
+   4,490.76
+   50,000 - 74,999
+   4,183.47
+   39,000 - 49,999
+   3,732.53
+   29,000 - 38,999
+   3,512.80
+   20,000 - 28,999
+   3,293.34
+   11,890 - 19,999
+   3,073.88
+   6,000 - 11,889
+   2,713.53
+   0 - 5,999
+   1,975.98</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

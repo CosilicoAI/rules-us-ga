@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-571"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-571"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-571/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-571/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-571/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-571/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_571">
+        <num>21-2-571</num>
+        <content>
+          <p>Any person who votes or attempts to vote at any primary or election, knowing that such person does not possess all the qualifications of an elector at such primary or election, as required by law, or who votes or attempts to vote at any primary in violation of Code Section 21-2-223 or who knowingly gives false information to poll officers in an attempt to vote in any primary or election shall be guilty of a felony and, upon conviction thereof, shall be sentenced to imprisonment for not less than one nor more than ten years or to pay a fine not to exceed $100,000.00, or both.</p>
+          <p>(Code 1933, § 34-1929, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Ga. L. 1994, p. 1443, § 12; Ga. L. 1998, p. 295, § 1; Ga. L. 2007, p. 536, § 8/SB 40.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

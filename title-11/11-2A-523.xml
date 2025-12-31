@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-523"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-523"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-523/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-523/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-523/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-523/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_523">
+        <num>11-2A-523</num>
+        <content>
+          <p>If a lessor does not fully exercise a right or obtain a remedy to which the lessor is entitled under subsection (1), the lessor may recover the loss resulting in the ordinary course of events from the lessee's default as determined in any reasonable manner, together with incidental damages, less expenses saved in consequence of the lessee's default.</p>
+          <p>If a lessee is otherwise in default under a lease contract, the lessor may exercise the rights and pursue the remedies provided in the lease contract, which may include a right to cancel the lease.In addition, unless otherwise provided in the lease contract:</p>
+          <p>If the default substantially impairs the value of the lease contract to the lessor, the lessor may exercise the rights and pursue the remedies provided in subsections (1) or (2); or</p>
+          <p>If the default does not substantially impair the value of the lease contract to the lessor, the lessor may recover as provided in subsection (2).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

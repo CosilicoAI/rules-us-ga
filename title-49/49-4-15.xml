@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-4-15"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-4-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-4-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_4_15">
+        <num>49-4-15</num>
+        <content>
+          <p>The department may examine any books, papers, or memoranda reflecting the income of, or financial records bearing upon the determination of the eligibility of, recipients in instances of alleged fraud by recipients of food stamps and public assistance. This process may be implemented by means of a subpoena which may be issued by the commissioner of human services, upon the advice of the State Department of Law. In order to consider the issuance of such subpoenas, the director of the department's office of fraud and abuse must personally make application in writing to the commissioner of human services specifying why such information is necessary. If issued, such subpoenas shall compel the production of relevant documents. Subpoenas shall be served in the same manner as if issued by a superior court. If any person fails to obey a subpoena issued and served under this Code section with respect to any matter germane to the department's investigation, on application of the department, through the commissioner of human services or the commissioner's duly authorized representative, the superior court of the county in which the documents were required to be produced may issue an order requiring the person to comply with the subpoena and to produce the relevant documents.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-20-30"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-20-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-20-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_20_30">
+        <num>45-20-30</num>
+        <content>
+          <p>Each state, county, and municipal officer and employee in this state shall be allowed a leave of absence, without loss of pay, of not more than eight hours in each calendar year for the purpose of donating blood. This absence shall be computed at two hours per donation, up to four times per year. However, any such officer or employee who donates blood platelets or granulocytes through the plasmapheresis process shall be allowed a leave of absence, without loss of pay, of not more than 16 hours in each calendar year which shall be computed at four hours per donation, up to four times per year.</p>
+          <p>(Ga. L. 1976, p. 165, § 1; Ga. L. 1982, p. 845, §§ 1, 2; Ga. L. 1983, p. 3, § 34; Ga. L. 2012, p. 446, § 1-1/HB 642.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

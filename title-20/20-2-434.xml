@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-434"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-434"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-434/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-434/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-434/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-434/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_434">
+        <num>20-2-434</num>
+        <content>
+          <p>When the contract has been made and approved as provided in Code Sections 20-2-432 and 20-2-433, then the authorities of the county and municipality having charge of their fiscal affairs may issue bonds for their proportion of the cost of such buildings, as agreed on, in the manner provided by law for the issuance of bonds by a county or municipality; and the call for election shall provide that if the other contracting party shall fail to carry an election for bonds for the same purpose, the election for bonds provided for in the call, even if carried, shall not be effective and that all previous acts in connection with the issuance of the bonds shall, in such event, be void and of no effect.</p>
+          <p>(Ga. L. 1923, p. 98, § 3; Code 1933, § 32-1406.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

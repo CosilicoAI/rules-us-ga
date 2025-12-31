@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-13-1"/>
+          <FRBRuri value="/us-ga/act/ocga/40-13-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-13-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-13-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-13-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-13-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_13_1">
+        <num>40-13-1</num>
+        <content>
+          <p>The commissioner of driver services shall develop a uniform traffic citation and complaint form for use by all law enforcement officers who are empowered to enforce the traffic laws and ordinances in effect in this state. Such form shall serve as the citation, summons, accusation, or other instrument of prosecution of the offense or offenses for which the accused is charged, and as the record of the disposition of the matter by the court before which the accused is brought, and shall contain such other matter as the commissioner shall provide. Each such form shall have a unique identifying number which shall serve as the docket number for the court having jurisdiction of the accused.</p>
+          <p>(Ga. L. 1972, p. 1148, § 1; Ga. L. 1985, p. 149, § 40; Ga. L. 2005, p. 334, § 22-1/HB 501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

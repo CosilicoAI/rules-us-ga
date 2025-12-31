@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-2"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_2">
+        <num>9-10-2</num>
+        <content>
+          <p>Any verdict, decision, judgment, decree, order, ruling, or other judicial action by any court in this state in any matter in which this state or an official of this state in his official capacity is a party defendant, intervenor, respondent, appellee, or plaintiff in fi. fa. shall be void unless it affirmatively appears as a matter of record either:</p>
+          <p>(Ga. L. 1956, p. 625, § 1; Ga. L. 2007, p. 47, § 9/SB 103.)</p>
+          <p>The 2007 amendment,
+      effective May 11, 2007, part of an Act to revise, modernize, and correct the Code, deleted "or" at the end of paragraph (1).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

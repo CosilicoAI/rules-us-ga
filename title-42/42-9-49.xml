@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-9-49"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-49"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-9-49/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-49/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-9-49/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-49/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_9_49">
+        <num>42-9-49</num>
+        <content>
+          <p>After proper documentation is received from the county, the board shall reimburse the county, pursuant to rules and regulations adopted by the board and in the amount appropriated for this purpose by the General Assembly, for the cost of incarceration of any person who is arrested pursuant to any warrant issued in accordance with Code Section 42-9-48. To the extent that funds are appropriated by the General Assembly for the purpose of reimbursement of medical expenses, the board may reimburse counties for the cost of medical services provided to persons so arrested. The liability of the board for such costs of incarceration shall begin when the person is incarcerated and shall end upon revocation of parole or conditional release of the person. This Code section shall apply only to cases in which the board's warrant is the sole basis for incarceration.</p>
+          <p>(Ga. L. 1979, p. 798, § 1; Ga. L. 1987, p. 428, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

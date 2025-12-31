@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-1-14"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-1-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-1-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_1_14">
+        <num>43-1-14</num>
+        <content>
+          <p>The Governor is authorized to appoint any person who is otherwise qualified as provided by law to serve as a member of any professional licensing board for a regular term or for an unexpired term, notwithstanding the fact that the law creating such board requires the Governor to appoint members from a list of nominees submitted by a private organization or association.</p>
+          <p>(Ga. L. 1980, p. 1162, § 1; Ga. L. 2000, p. 1706, § 19.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

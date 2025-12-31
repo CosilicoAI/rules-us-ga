@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-51"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_51">
+        <num>40-1-51</num>
+        <content>
+          <p>The General Assembly finds that the for-hire transportation of persons and property are a privilege that require close regulation and control to protect public welfare, provide for a competitive business environment, and provide for consumer protection. To that end, the provisions of this article are enacted. This is a remedial law and shall be liberally construed. The Department of Public Safety is designated as the agency to implement and enforce this article. Exceptions contained in this article shall have no effect on the applicability of any other provision of law applicable to motor vehicles, commercial motor vehicles, operators of motor vehicles, or carrier operations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

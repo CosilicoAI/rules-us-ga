@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-83"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_83">
+        <num>48-8-83</num>
+        <content>
+          <p>Notwithstanding any distribution certificate filing deadline otherwise required under Code Section 48-8-89, for each special district in which the tax provided for by Code Section 48-8-82 was levied and collected immediately prior to June 4, 2010, such tax shall continue to be levied and collected; and the most recent distribution certificate which was executed on behalf of the county and on behalf of one or more qualified municipalities within the special district whose combined population within the special district is at least one-half of the combined total population of all qualified municipalities located within the special district and which was filed with the commissioner between June 4, 2010, and October 18, 2013, shall be valid and shall continue in force and effect until superseded by a subsequent distribution certificate properly executed and filed with the commissioner in accordance with Code Section 48-8-89 or Code Section 48-8-89.1, as applicable, or until such tax is subsequently discontinued and terminated pursuant to subsection (c) of Code Section 48-8-89 or pursuant to a referendum under Code Section 48-8-92.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

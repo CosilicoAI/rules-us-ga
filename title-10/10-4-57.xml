@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-57"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-57"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-57/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-57/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-57/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-57/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_57">
+        <num>10-4-57</num>
+        <content>
+          <p>The commissioner shall insure against fire all buildings, machinery, or other property owned by the commissioner in the name of the state. The commissioner shall have insured all buildings or machinery leased, owned, or in his possession other than the state's property when requested to do so by the owners thereof. Further, he shall effect fire insurance on cotton that may be insured in such warehouses when so requested by the owner or owners thereof in the name of the owner. All insurance obtained by the commissioner under this Code section shall be placed in fire insurance companies authorized by law to do business in this state, provided that the commissioner shall not act in any capacity for any insurance company or receive any compensation from any insurance company, insurance agent, broker, or any person representing any insurance company as aforesaid, by division of commission or otherwise, in connection with the placing of any insurance.</p>
+          <p>(Ga. L. 1918, p. 246, § 23; Ga. L. 1920, p. 282, § 1; Code 1933, § 5-317.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

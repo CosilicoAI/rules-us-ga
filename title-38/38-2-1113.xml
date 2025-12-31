@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1113"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1113"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1113/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1113/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1113/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1113/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_1113">
+        <num>38-2-1113</num>
+        <content>
+          <p>Any sentinel or lookout who is found under the influence of alcohol sufficient to impair the rational and full exercise of his or her mental or physical faculties or sleeping upon his or her post or leaves it before being regularly relieved shall be punished, if the offense is committed in time of war, by confinement of not more than ten years or other punishment as a court-martial may direct, but if the offense is committed at any time other than in time of war, by such punishment as a court-martial may direct.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

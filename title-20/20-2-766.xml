@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-766"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-766"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-766/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-766/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-766/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-766/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_766">
+        <num>20-2-766</num>
+        <content>
+          <p>The local board of education may, by petition to the juvenile court, proceed against a parent or guardian as provided in this Code section. If the court finds that the parent or guardian has willfully and unreasonably failed to attend a conference requested by a principal pursuant to Code Section 20-2-765 or 20-2-766, the court may order the parent or guardian to attend such a conference, order the parent or guardian to participate in such programs or such treatment as the court deems appropriate to improve the student's behavior, or both. After notice and opportunity for hearing, the court may impose a fine, not to exceed $500.00, on a parent or guardian who willfully disobeys an order of the court entered under this Code section. The court may use its contempt and other powers specified in Code Section 15-11-31 to enforce any order entered under this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

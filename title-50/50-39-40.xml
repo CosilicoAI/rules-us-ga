@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-39-40"/>
+          <FRBRuri value="/us-ga/act/ocga/50-39-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-39-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-39-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-39-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-39-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_39_40">
+        <num>50-39-40</num>
+        <content>
+          <p>No bonded indebtedness of any kind shall be incurred by the authority or on behalf of the authority by the Georgia Environmental Finance Authority at any time when the highest aggregate annual debt service requirements of the state for the then current fiscal year or any subsequent fiscal year for outstanding general obligation debt and guaranteed revenue debt, including the proposed debt and treating it as state general obligation debt or guaranteed revenue debt for purposes of calculating debt limitations under this Code section, and the highest aggregate annual payments for the then current fiscal year or any subsequent fiscal year of the state under all contracts then in force to which the provisions of the second paragraph of Article IX, Section VI, Paragraph I(a) of the Constitution of 1976 are applicable, exceed 7.5 percent of the total revenue receipts, less refunds of the state treasury in the fiscal year immediately preceding the fiscal year in which any such debt is to be incurred.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

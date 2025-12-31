@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-1"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_1">
+        <num>8-2-1</num>
+        <content>
+          <p>The General Assembly finds that an adequate supply of clean drinking water is a precious and essential resource upon which life depends.The General Assembly further finds that the average annual per capita consumption of potable water due to indoor water-using activities in the United States exceeds 18,000 gallons and that the demand for clean water supplies continues to increase despite the limitations of availability and affordability of such supplies.The General Assembly further finds that technology is available to improve the efficiency of plumbing products.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

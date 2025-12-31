@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-142"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-142"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-142/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-142/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-142/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-142/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_142">
+        <num>48-8-142</num>
+        <content>
+          <p>If general obligation debt is to be issued in conjunction with the imposition of the sales tax for educational purposes authorized by Article VIII, Section VI, Paragraph IV of the Constitution, the resolution or concurrent resolutions imposing such tax shall specify the principal amount of the debt to be issued, the purpose for which the debt is to be issued, the interest rate or rates or the maximum interest rate or rates which such debt is to bear, and the amount of principal to be paid in each year during the life of the debt. If such general obligation debt is to be issued, the ballot shall have written or printed thereon, in addition to the descriptions required by Article VIII, Section VI, Paragraph IV(c) of the Constitution, the following:</p>
+          <p>"If imposition of the tax is approved by the voters, such vote shall also constitute approval of the issuance of general obligation debt of ____________ in the principal amount of $____________ for the above purpose."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

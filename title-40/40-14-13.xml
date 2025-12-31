@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-14-13"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-14-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-14-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_14_13">
+        <num>40-14-13</num>
+        <content>
+          <p>Any county, municipality, college, or university aggrieved by a decision of the commissioner or deputy commissioner of public safety suspending or revoking its speed detection device permit may appeal that decision within 30 days of its effective date to the Board of Public Safety, which shall schedule a hearing with respect thereto before the board. Following a hearing before the board, the county, municipality, college, or university affected shall be served with a written decision announcing whether the permit shall remain revoked or whether it shall be reinstated. An adverse decision of the board may be appealed by the county, municipality, college, or university to the superior court with appropriate jurisdiction, but the municipality, county, college, or university shall be denied the use of the speed detection device until after such appeal is decided by the court.</p>
+          <p>(Ga. L. 1968, p. 425, § 10; Ga. L. 1977, p. 800, § 3; Ga. L. 1989, p. 586, § 1; Ga. L. 1996, p. 1281, § 13.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

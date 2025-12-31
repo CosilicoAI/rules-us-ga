@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-38-16"/>
+          <FRBRuri value="/us-ga/act/ocga/43-38-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-38-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-38-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-38-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-38-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_38_16">
+        <num>43-38-16</num>
+        <content>
+          <p>Any person who engages in the private detective business or private security business or offers, pretends, or holds himself out as eligible to engage in the private detective business or private security business and who is not legally licensed or registered under this chapter shall be guilty of a misdemeanor. Each day or fraction of a day that he practices in violation of this chapter shall constitute a separate offense.</p>
+          <p>(Ga. L. 1973, p. 40, § 16; Ga. L. 1981, p. 1828, § 15; Ga. L. 1984, p. 1338, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

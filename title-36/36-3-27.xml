@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-3-27"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-27"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-3-27/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-27/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-3-27/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-27/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_3_27">
+        <num>36-3-27</num>
+        <content>
+          <p>It shall be the duty of the governing authorities of each of the counties affected by such survey to pay that proportion of the fee established under Code Section 36-3-26 that such county bears to the total number of counties directly affected by the survey. The payment of such fees is declared to be a public purpose. The governing authority of each county affected is authorized and directed to pay such fees and to levy such taxes as may be necessary for the payment of such fees.</p>
+          <p>(Ga. L. 1887, p. 106, § 4; Civil Code 1895, § 389; Civil Code 1910, § 478; Code 1933, § 23-408; Ga. L. 1977, p. 248, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

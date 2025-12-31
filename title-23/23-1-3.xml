@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-1-3"/>
+          <FRBRuri value="/us-ga/act/ocga/23-1-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-1-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-1-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-1-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-1-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_1_3">
+        <num>23-1-3</num>
+        <content>
+          <p>Equity jurisdiction is established and allowed for the protection and relief of parties where, from any peculiar circumstances, the operation of the general rules of law would be deficient in protecting from anticipated wrong or relieving for injuries done.</p>
+          <p>(Orig. Code 1863, § 3014; Code 1868, § 3026; Code 1873, § 3081; Code 1882, § 3081; Civil Code 1895, § 3922; Civil Code 1910, § 4519; Code 1933, § 37-102.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

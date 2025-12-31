@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-2-40"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-2-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-2-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_2_40">
+        <num>48-2-40</num>
+        <content>
+          <p>Except as otherwise expressly provided by law, taxes owed the state or any local taxing jurisdiction shall bear interest at an annual rate equal to the bank prime loan rate as posted by the Board of Governors of the Federal Reserve System in statistical release H. 15 or any publication that may supersede it, plus 3 percent, to accrue monthly. Such annual interest rate shall be determined for each calendar year based on the first weekly posting of statistical release H. 15 on or after January 1 of each calendar year. Interest shall begin to accrue from the date the tax is due until the date the tax is paid. For the purposes of this Code section, any period of less than one month shall be considered to be one month. This Code section shall also apply to alcoholic beverage taxes.</p>
+          <p>(Code 1933, § 91A-239.2, enacted by Ga. L. 1980, p. 10, § 4; Ga. L. 1980, p. 1759, § 1; Ga. L. 2016, p. 574, § 3/HB 960.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

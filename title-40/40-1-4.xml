@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-4"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_4">
+        <num>40-1-4</num>
+        <content>
+          <p>No person owning, operating, or using a motor vehicle in this state shall knowingly affix or attach to any part of such motor vehicle any sticker, decal, emblem, or other device containing profane or lewd words describing sexual acts, excretory functions, or parts of the human body.Any person who violates any part of this Code section shall be guilty of a misdemeanor and shall be punished by a fine not to exceed $100.00.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

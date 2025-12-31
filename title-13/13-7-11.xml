@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-7-11"/>
+          <FRBRuri value="/us-ga/act/ocga/13-7-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-7-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-7-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-7-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-7-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_7_11">
+        <num>13-7-11</num>
+        <content>
+          <p>If a plaintiff resides outside this state or is insolvent, the defendant may set off against him a debt not due under such equitable terms as may be prescribed by the court.</p>
+          <p>(Orig. Code 1863, § 2849; Code 1868, § 2857; Code 1873, § 2908; Code 1882, § 2908; Civil Code 1895, § 3755; Civil Code 1910, § 4349; Code 1933, § 20-1309.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

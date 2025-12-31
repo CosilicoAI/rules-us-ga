@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-8-53"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-8-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-8-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_8_53">
+        <num>40-8-53</num>
+        <content>
+          <p>Feet to Stop
+   From 20 Miles
+   Deceleration in
+   Per Hour
+   Feet Per Second
+   -------------
+   ---------------
+   Vehicles or combinations of
+   vehicles having brakes on all
+   wheels
+   30
+   14
+   Vehicles or combinations of
+   vehicles not having brakes on all
+   wheels
+   40
+   10.7</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

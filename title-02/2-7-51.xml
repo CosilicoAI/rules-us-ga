@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-7-51"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-7-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-7-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_7_51">
+        <num>2-7-51</num>
+        <content>
+          <p>The purpose of this article is to regulate, in the public interest, the labeling, distribution, storage, transportation, use, and disposal of pesticides. The General Assembly finds that pesticides are valuable to this state's agricultural production and to the protection of man and the environment from insects, rodents, weeds, and other forms of life which may be pests but that it is essential to the public health and welfare that they be regulated to prevent adverse effects on human life and on the environment. New pesticides which are valuable to the control of pests and for use as defoliants, desiccants, and plant regulators are continually being discovered or synthesized. The dissemination of accurate scientific information as to the proper use of any pesticide is vital to the public health and welfare and to the environment, both immediately and in the future. Therefore, it is deemed necessary to provide for regulation of such pesticides.</p>
+          <p>(Ga. L. 1976, p. 282, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

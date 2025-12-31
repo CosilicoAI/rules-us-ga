@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-195"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-195"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-195/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-195/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-195/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-195/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_195">
+        <num>21-2-195</num>
+        <content>
+          <p>The state executive committee of each political party or body shall determine the method and procedures by which delegates and delegate alternates to the national nominating conventions are to be selected as well as adopt any other rule not inconsistent with this article. The state executive committee of the political party or body shall establish, at least 90 days prior to the presidential preference primary, procedures to be followed in the nomination of candidates for delegates and delegate alternates to the nominating convention of the political party or body. A copy of any rule or regulation adopted by the state executive committee shall be sent to the Secretary of State within seven days after its adoption, to become a public record.</p>
+          <p>(Code 1933, § 34-1005A, enacted by Ga. L. 1973, p. 221, § 1; Ga. L. 1975, p. 1223, § 2; Ga. L. 1979, p. 1316, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

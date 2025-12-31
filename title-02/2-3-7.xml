@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-3-7"/>
+          <FRBRuri value="/us-ga/act/ocga/2-3-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-3-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-3-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-3-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-3-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_3_7">
+        <num>2-3-7</num>
+        <content>
+          <p>The authority is authorized to exercise such of the police powers of the state as may be necessary to maintain peace and order and to enforce any and all zoning, use, and personal conduct restrictions upon the properties, facilities, and persons under its jurisdiction to the extent that such is lawful under the laws of the United States and this state. The authority may delegate all or any part of the performance of these functions temporarily or permanently to the state or to the county in which its facilities are located.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

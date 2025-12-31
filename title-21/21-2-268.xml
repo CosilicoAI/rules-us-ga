@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-268"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-268"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-268/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-268/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-268/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-268/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_268">
+        <num>21-2-268</num>
+        <content>
+          <p>The superintendent or county or municipal governing authority shall fix the compensation for rent, heat, light, and janitorial services to be paid for the use of polling places for primaries and elections; provided, however, that no compensation for rent, heat, or light shall be paid in the case of schoolhouses, municipal buildings or rooms, or other public buildings used as polling places.</p>
+          <p>(Code 1933, § 34-709, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Ga. L. 1998, p. 295, § 1; Ga. L. 2005, p. 253, § 32/HB 244.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-737"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-737"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-737/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-737/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-737/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-737/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_737">
+        <num>10-1-737</num>
+        <content>
+          <p>The provisions of this article shall be deemed to be incorporated into every agreement subject to this article and shall supersede and control all other provisions of any agreement inconsistent with this article.No supplier shall require any multiline dealer to waive compliance with any provision of this article.Any provision or agreement purporting to do so is void and unenforceable to the extent of the waiver or variance.Nothing in this article shall be construed to limit or prohibit good faith settlements of disputes voluntarily entered into between the parties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

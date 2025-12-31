@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-215"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-215"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-215/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-215/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-215/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-215/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_215">
+        <num>8-2-215</num>
+        <content>
+          <p>Minor alterations or repairs to an existing building which do not adversely affect the performance or safety of the building may be made with the same or like materials. Existing buildings which, in part or as a whole, exceed the requirements of any applicable construction or fire safety code, may, in the course of compliance with this article, have reduced or removed, in part or total, features not required by such code for new construction; provided, however, that such features were not a condition of prior approval. Existing buildings and structures which, in part or as a whole, do not meet the requirements of the applicable code for new construction may be altered or repaired without further compliance to any such code by utilizing the provisions of this article, provided that their present degree of compliance to any applicable construction or fire safety code is not reduced. Any new mechanical systems installed in an existing building shall conform to applicable codes for new construction to the fullest extent practical as approved by the authorized enforcement authorities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

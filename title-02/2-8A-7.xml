@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8A-7"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8A-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8A-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8A-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8A-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8A-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8A_7">
+        <num>2-8A-7</num>
+        <content>
+          <p>Repayment of an interest loan made from the fund shall be deferred for a period of time not more than five years or the time when the emerging crop should reach maturity, whichever is later. The schedule for repayment of the interest loan shall be a period of time equal to two times the period that interest is paid on the loan from the fund for that emerging crop. No interest shall be charged on interest loans from the fund, and only the amount actually loaned from the fund shall be required to be repaid. Repayment of interest loans from the fund shall be made to the lender, which shall remit the amounts collected to the Georgia Development Authority for deposit into the fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

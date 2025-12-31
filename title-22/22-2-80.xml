@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-2-80"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-2-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-2-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_2_80">
+        <num>22-2-80</num>
+        <content>
+          <p>In case either party is dissatisfied with the amount of the assessors' award, he or they may, within ten days from the time the award is filed, enter in writing an appeal from the award to the superior court of the county where the award is filed. At the term succeeding the filing of the appeal, it shall be the duty of the judge to cause an issue to be made and tried by a jury as to the value of the property or interest taken or the amount of damage done, with the same right to move for a new trial and file an appeal as in other cases at law.</p>
+          <p>(Ga. L. 1894, p. 95, § 22; Civil Code 1895, § 4678; Civil Code 1910, § 5228; Code 1933, § 36-601.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

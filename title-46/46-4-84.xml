@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4-84"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-84"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4-84/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-84/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4-84/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-84/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4_84">
+        <num>46-4-84</num>
+        <content>
+          <p>Each member of the authority shall be a resident of one of the political subdivisions represented on the election committee; provided, however, that an employee of the gas department or utility commission of a political subdivision represented on the election committee shall be qualified to be a member of the authority even though not a resident of one of the political subdivisions so represented for so long as he or she remains such an employee; but, insofar as is mathematically possible, no two members shall be residents or employees of the same political subdivision.Representatives to the election committee shall be eligible for membership on the authority. Members shall be eligible to succeed themselves.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

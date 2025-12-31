@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-39-6"/>
+          <FRBRuri value="/us-ga/act/ocga/31-39-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-39-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-39-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-39-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-39-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_39_6">
+        <num>31-39-6</num>
+        <content>
+          <p>"DO NOT RESUSCITATE ORDER</p>
+          <p>Patient's name: ___________________________________________________________
+   Authorized person's name and telephone number, if applicable: _____________
+   Patient's physician's printed name and telephone number: __________________
+   Date of order not to resuscitate: _______________________________________"</p>
+          <p>Any physician, health care professional, nurse, physician assistant, caregiver, or emergency medical technician shall be authorized to regard such a bracelet, necklace, or notice as a legally sufficient order not to resuscitate in the same manner as an order issued pursuant to this chapter unless such person has actual knowledge that such order has been canceled or consent thereto revoked as provided in this chapter.</p>
+          <p>Any order not to resuscitate evidenced pursuant to subsection (a) or (b) of this Code section may be revoked as provided in Code Section 31-39-6 and may be canceled as provided in Code Section 31-39-5.</p>
+        </content>
+        <subsection eId="sec_31_39_6__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In addition to those orders not to resuscitate authorized elsewhere in this chapter, any physician, health care professional, nurse, physician assistant, caregiver, or emergency medical technician shall be authorized to effectuate an order not to resuscitate for a person who is not a patient in a hospital, nursing home, or licensed hospice if the order is evidenced in writing containing the patient's name, date of the form, printed name of the attending physician, and signature of the attending physician on a form substantially similar to the following:
+   "DO NOT RESUSCITATE ORDER
+   NAME OF PATIENT: __________________________________________________________
+   THIS CERTIFIES THAT AN ORDER NOT TO RESUSCITATE HAS BEEN ENTERED ON THE ABOVE-NAMED PATIENT.
+   SIGNED: __________________________________________________________
+   ATTENDING PHYSICIAN
+   PRINTED OR TYPED NAME OF ATTENDING PHYSICIAN: _____________________________
+   ATTENDING PHYSICIAN'S TELEPHONE NUMBER: ___________________________________
+   DATE: ________________________"</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_31_39_6__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A person who is not a patient in a hospital, nursing home, or licensed hospice and who has an order not to resuscitate pursuant to this Code section may wear an identifying bracelet on either the wrist or the ankle or an identifying necklace and shall post or place a prominent notice in such person's home. The bracelet shall be substantially similar to identification bracelets worn in hospitals. The bracelet, necklace, or notice shall provide the following information in boldface type:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

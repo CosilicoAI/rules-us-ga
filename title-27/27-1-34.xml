@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-1-34"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-34"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-1-34/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-34/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-1-34/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-34/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_1_34">
+        <num>27-1-34</num>
+        <content>
+          <p>In any prosecution for the violation of any of the provisions of the wildlife laws, it shall not be a defense that the person taking, possessing, selling, transporting, or storing wildlife was mistaken as to the species, sex, age, size, or any other fact regarding such wildlife or that the person lacked criminal intent, it being one of the purposes of the wildlife laws to penalize recklessness resulting in the violation of the wildlife laws.</p>
+          <p>(Ga. L. 1955, p. 483, § 52; Code 1933, § 45-204, enacted by Ga. L. 1977, p. 396, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

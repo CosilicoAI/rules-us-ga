@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-11-50"/>
+          <FRBRuri value="/us-ga/act/ocga/2-11-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-11-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-11-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-11-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-11-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_11_50">
+        <num>2-11-50</num>
+        <content>
+          <p>The General Assembly declares that for the purpose of fostering improved agricultural methods, promoting advances in agricultural fields, and giving legal status to an existing practice and for the general welfare of the people it is necessary to establish as a policy of this state a method for protecting the public in the guarantee of the high quality of seeds and plants for various agricultural pursuits. It is the intent of the General Assembly to carry out that policy by this article, protecting the public from false claims and unwarranted statements as to genetic identity, varietal purity, and germinating viability of seeds and plants presented and claimed to be foundation, registered, or certified.</p>
+          <p>(Ga. L. 1956, p. 16, § 2; Ga. L. 1996, p. 1151, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

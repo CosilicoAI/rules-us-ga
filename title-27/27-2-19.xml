@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-2-19"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-2-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-2-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_2_19">
+        <num>27-2-19</num>
+        <content>
+          <p>It shall be unlawful to import any wildlife other than fish, pen raised duck, pen raised turkey, and pen raised quail without obtaining, at no cost, a wildlife importation permit from the department. The department shall only issue such a permit when it has determined that the issuance of the permit is in the best interest of the wildlife of this state. If such a permit is issued, the department shall prescribe the term for each such permit and may impose any conditions it determines necessary to ensure adequate public safety and the best interests of the wildlife of this state.</p>
+          <p>(Code 1933, § 45-325, enacted by Ga. L. 1978, p. 816, § 37; Ga. L. 1979, p. 678, § 23; Ga. L. 1987, p. 663, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

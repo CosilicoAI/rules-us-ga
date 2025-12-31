@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-38-11"/>
+          <FRBRuri value="/us-ga/act/ocga/33-38-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-38-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-38-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-38-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-38-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_38_11">
+        <num>33-38-11</num>
+        <content>
+          <p>Records shall be kept of all negotiations and meetings in which the association or its representatives are involved to discuss the activities of the association in carrying out its powers and duties under Code Section 33-38-7. The records of the association with respect to an impaired or insolvent insurer shall not be disclosed prior to the termination of a liquidation, rehabilitation, or conservation proceeding involving the impaired or insolvent insurer, except (a) upon the termination of the impairment or insolvency of the insurer, or (b) upon the order of a court of competent jurisdiction. Nothing in this Code section shall limit the duty of the association to render a report of its activities under Code Section 33-38-12.</p>
+          <p>(Code 1933, § 56-2211, enacted by Ga. L. 1981, p. 1336, § 1; Ga. L. 2012, p. 701, § 1/HB 786.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

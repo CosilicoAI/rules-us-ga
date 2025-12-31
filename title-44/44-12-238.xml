@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-238"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-238"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-238/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-238/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-238/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-238/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_238">
+        <num>44-12-238</num>
+        <content>
+          <p>Any person making a claim for the United States savings bonds escheated to the state under Code Section 44-12-237, or for the proceeds from such bonds, may file a claim in accordance with the provisions of Code Section 44-12-190, et seq., the "Disposition of Unclaimed Property Act." Upon providing sufficient proof of the validity of such person's claim, the commissioner may pay such claim in accordance with the provisions of Code Section 44-12-190, et seq.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

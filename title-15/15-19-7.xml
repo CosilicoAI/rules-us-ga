@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-19-7"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-19-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-19-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_19_7">
+        <num>15-19-7</num>
+        <content>
+          <p>The presiding judge or justice, on motion of either party and on showing reasonable grounds therefor, may require any attorney who assumes the right to appear in a case to produce or prove the authority under which he appears and to disclose, whenever pertinent to any issue, the name of the person who employed him and may grant any order that justice may require on such investigation. However, prima facie, attorneys shall be held authorized to represent properly any case in which they may appear.</p>
+          <p>(Orig. Code 1863, § 387; Code 1868, § 448; Code 1873, § 413; Code 1882, § 413; Civil Code 1895, § 4423; Civil Code 1910, § 4961; Code 1933, § 9-604.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-2"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_2">
+        <num>2-8-2</num>
+        <content>
+          <p>It is the intent and purpose of this chapter to implement Article VII, Section III, Paragraph II(b) of the Constitution of Georgia, providing for the promotion of the production, marketing, sale, use and utilization, processing, and improvement of agricultural products. The provisions of this chapter which provide for the financing of the cost of programs authorized under this chapter are expressly found, determined, and declared to be an exercise of the authority vested in the General Assembly by this provision of the Constitution. It is the purpose of this chapter to promote agricultural products and commodities, provide education related to such agricultural products and commodities, and promote research concerning such agricultural products and commodities.</p>
+          <p>(Ga. L. 1961, p. 301, § 1; Ga. L. 1969, p. 763, § 2; Ga. L. 1983, p. 3, § 46; Ga. L. 1989, p. 1420, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

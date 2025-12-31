@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-300"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-300"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-300/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-300/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-300/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-300/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_300">
+        <num>44-14-300</num>
+        <content>
+          <p>Any person having a mortgage on personal property to secure a debt not exceeding $100.00 in principal and desiring to foreclose the mortgage may, by himself, his agent, or his attorney, make an affidavit of the amount of the principal and the interest due on the mortgage, which affidavit shall be annexed to the mortgage. When the mortgage or verified copy with the affidavit annexed thereto shall be filed with any magistrate in the county where the mortgagor resides, if a resident of this state, or, if not a resident of this state, in the county where the mortgaged property is located, it shall be the duty of the magistrate to issue an execution directed to all and singular the sheriffs, the marshals, their deputies, and the constables of this state commanding the sale of the property to satisfy the principal, the interest, and the costs of the proceedings to foreclose the mortgage.</p>
+          <p>(Ga. L. 1878-79, p. 152, § 1; Code 1882, § 3974a; Ga. L. 1882-83, p. 67, § 1; Civil Code 1895, § 2760; Civil Code 1910, § 3293; Code 1933, § 67-901; Ga. L. 1983, p. 884, § 4-1; Ga. L. 1984, p. 22, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

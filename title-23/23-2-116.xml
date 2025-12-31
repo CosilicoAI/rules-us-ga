@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-2-116"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-116"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-2-116/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-116/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-2-116/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-116/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_2_116">
+        <num>23-2-116</num>
+        <content>
+          <p>Unless expressly limited in an instrument creating a power of sale or unless specifically otherwise provided in the instrument, the power of sale conferred upon an executor, trustee, or guardian may be exercised and executed by an administrator with the will annexed or by a successor administrator, trustee, or guardian. If the power is conferred upon more than one executor, trustee, or guardian, the surviving or remaining executor or executors, trustee or trustees, or guardian or guardians may exercise and execute the power.</p>
+          <p>(Ga. L. 1955, p. 430, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-11-12"/>
+          <FRBRuri value="/us-ga/act/ocga/40-11-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-11-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-11-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-11-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-11-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_11_12">
+        <num>40-11-12</num>
+        <content>
+          <p>The intent of the General Assembly is to provide a comprehensive and streamlined process for businesses removing motor vehicles from public rights of way and private or public property to recover the costs associated with this work while balancing the rights of a motor vehicle owner, when a motor vehicle has been abandoned or unclaimed. Businesses removing motor vehicles from public rights of way and private property without the consent of an owner are regulated by the Department of Public Safety pursuant to Code Section 44-1-13 and, as such, the recoverable fees for these businesses are limited. When executed at the request of law enforcement, these businesses perform an essential public function of keeping highways in this state free from obstructions that could cause a threat to public health or safety or cause traffic congestion. As a result of licensure, these businesses often incur great costs in performing this service but are unable to recover the full amounts expended. The intent of the General Assembly is to allow such businesses to continue to remove abandoned vehicles at the request of law enforcement and private property owners, by providing a method for obtaining excess funds from the sale of abandoned and unclaimed vehicles and applying those funds as reimbursements for unrecovered expenses of such businesses, which will allow them to remain viable and to minimize any financial loss in performing this important public safety function.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

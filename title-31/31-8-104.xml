@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-104"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_104">
+        <num>31-8-104</num>
+        <content>
+          <p>Each resident and his guardian or representative, if the resident does not have a guardian, shall be given by the facility a written and oral explanation of the rights, grievance procedures, and enforcement provisions provided for by this article before or at the time of admission to a long-term care facility. Written acknowledgment of the receipt of such explanation by the resident and his guardian or representative shall be made a part of the resident's file. In addition, each facility shall post written notices of such rights in conspicuous locations in the facility. Such written notices shall be prepared by the department. The notices shall be prepared in type and format which is easily readable by residents and shall describe residents' rights, grievance procedures, and enforcement provisions provided for by this article.</p>
+          <p>(Code 1933, § 88-1906B, enacted by Ga. L. 1981, p. 149, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

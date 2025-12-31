@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-46"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_46">
+        <num>34-8-46</num>
+        <content>
+          <p>As used in this chapter, the term "temporary help contracting firm" means any person who is in the business of employing individuals and, for compensation from a third party, providing those individuals to perform work for the third party under the general or direct supervision of the third party. Employment with a temporary help contracting firm is characterized by a series of limited-term assignments of an employee to a third party, based on a contract between the temporary help contracting firm and the third party.A separate employment contract exists between the temporary help contracting firm and each individual it hires as an employee. Completion of an assignment for a third party by an employee employed by a temporary help contracting firm does not, in itself, terminate the employment contract between the temporary help contracting firm and the employee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

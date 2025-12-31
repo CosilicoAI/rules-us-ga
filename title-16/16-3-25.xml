@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-3-25"/>
+          <FRBRuri value="/us-ga/act/ocga/16-3-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-3-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-3-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-3-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-3-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_3_25">
+        <num>16-3-25</num>
+        <content>
+          <p>A person is not guilty of a crime if, by entrapment, his conduct is induced or solicited by a government officer or employee, or agent of either, for the purpose of obtaining evidence to be used in prosecuting the person for commission of the crime. Entrapment exists where the idea and intention of the commission of the crime originated with a government officer or employee, or with an agent of either, and he, by undue persuasion, incitement, or deceitful means, induced the accused to commit the act which the accused would not have committed except for the conduct of such officer.</p>
+          <p>(Code 1933, § 26-905, enacted by Ga. L. 1968, p. 1249, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

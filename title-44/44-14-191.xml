@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-191"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-191"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-191/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-191/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-191/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-191/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_191">
+        <num>44-14-191</num>
+        <content>
+          <p>If the mortgage is given to secure a debt due by installments and is foreclosed before any one of the installments falls due and there is a surplus of funds as provided in Code Section 44-14-190, the court may retain the funds or order them to be invested to meet the unpaid installments.</p>
+          <p>(Orig. Code 1863, § 3874; Code 1868, § 3894; Code 1873, § 3970; Code 1882, § 3970; Civil Code 1895, § 2752; Civil Code 1910, § 3285; Code 1933, § 67-502.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

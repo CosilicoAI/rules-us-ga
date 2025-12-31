@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-8-23"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-8-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-8-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_8_23">
+        <num>45-8-23</num>
+        <content>
+          <p>Authority is conferred upon the official or county or municipal authority having jurisdiction in the matter to issue subpoenas and to compel the attendance of witnesses and production of books and documents on behalf of any party. If any person shall disobey any such subpoena or order to produce, the official or county or municipal authority shall certify the refusal to the judge of the superior court of the county where the hearing is held, who shall punish the offender as for contempt of the superior court.</p>
+          <p>(Ga. L. 1933, p. 78, § 9d; Code 1933, § 89-821; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

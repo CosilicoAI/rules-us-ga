@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-14"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_20E_14">
+        <num>33-20E-14</num>
+        <content>
+          <p>The parties shall have ten days after the selection of the arbitrator to submit in writing to the resolution organization each party's final offer and each party's argument in support of such offer. The parties' initial arguments shall be limited to written form and shall consist of no more than 20 pages per party. The parties may submit documents in support of their arguments. The arbitrator may require the parties to submit such additional written argument and documentation as the arbitrator determines necessary, but the arbitrator may require such additional filing no more than once. Such additional written argument shall be limited to no more than ten pages per party. The arbitrator may set filing times and extend such filing times as appropriate. Failure of either party to timely submit the supportive documentation described herein may result in a default against the party failing to make such timely submission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

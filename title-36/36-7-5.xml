@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-7-5"/>
+          <FRBRuri value="/us-ga/act/ocga/36-7-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-7-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-7-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-7-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-7-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_7_5">
+        <num>36-7-5</num>
+        <content>
+          <p>In addition to the oath required of all public officers, the county surveyor must take the following oath before entering on the duties of his office:</p>
+          <p>"I, ________, swear that I will, to the best of my skill and knowledge, discharge the duties of surveyor of ________ County and that I will not admeasure, survey, or lay out any land, in my capacity as such, or knowingly permit or cause it to be done, without a warrant first obtained for that purpose. So help me God."</p>
+          <p>At the same time, he shall give bond and security in the sum of $1,000.00.</p>
+          <p>(Laws 1847, Cobb's 1851 Digest, p. 217; Code 1863, § 546; Code 1868, § 610; Code 1873, § 569; Code 1882, § 569; Civil Code 1895, § 476; Civil Code 1910, § 594; Code 1933, § 23-1104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

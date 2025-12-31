@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-9-122"/>
+          <FRBRuri value="/us-ga/act/ocga/19-9-122"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-9-122/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-9-122/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-9-122/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-9-122/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_9_122">
+        <num>19-9-122</num>
+        <content>
+          <p>A parent of a child may delegate caregiving authority regarding such child to an individual who is an adult, who resides in this state, and who is the grandparent, great-grandparent, stepparent, former stepparent, step-grandparent, aunt, uncle, great aunt, great uncle, cousin, or sibling of such child or is a nonrelative who is approved as an agent by a child-placing agency or a nonprofit entity or faith based organization for a period not to exceed one year, except as provided in Code Section 19-9-132, by executing a power of attorney that substantially complies with this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-61"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_61">
+        <num>44-2-61</num>
+        <content>
+          <p>The proceedings under any petition for the registration of land and all proceedings in the court in relation to registered land shall be proceedings in rem against the land; and the decree of the court shall operate directly on the land and shall vest and establish title thereto in accordance with this article upon all persons who are parties to said proceedings, whether by name or under the general designation of "whom it may concern."</p>
+          <p>(Ga. L. 1917, p. 108, § 4; Ga. L. 1931, p. 190, § 1; Code 1933, § 60-202; Ga. L. 1939, p. 341, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

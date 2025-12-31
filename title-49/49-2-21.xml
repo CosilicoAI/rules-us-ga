@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-2-21"/>
+          <FRBRuri value="/us-ga/act/ocga/49-2-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-2-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-2-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-2-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-2-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_2_21">
+        <num>49-2-21</num>
+        <content>
+          <p>The commissioner or the commissioner's designee, in addition to other procedures now or hereafter provided, may obtain an inspection warrant under the conditions specified in this article. Such warrant shall authorize the commissioner or the commissioner's designee to conduct a search or inspection of property either with or without the consent of the person whose property is to be searched or inspected if such search or inspection is one that is elsewhere authorized under the rules and regulations duly promulgated pursuant to a residential child care licensing law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

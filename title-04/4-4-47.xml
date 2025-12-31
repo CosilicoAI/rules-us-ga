@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-4-47"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-4-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-4-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_4_47">
+        <num>4-4-47</num>
+        <content>
+          <p>The Governor is authorized to make available to the department the funds necessary to provide an inspection system for those slaughtering establishments in this state which are unable to qualify for federal inspection. The department is authorized to adopt appropriate grading standards to be used in the inspection of such establishments so as to indicate on each carcass inspected the grade and quality thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

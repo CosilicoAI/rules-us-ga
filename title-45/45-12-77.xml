@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-77"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-77"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-77/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-77/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-77/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-77/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_77">
+        <num>45-12-77</num>
+        <content>
+          <p>In order to provide for the emergency needs of the state agencies, which needs were not ascertainable at the time of the submission of the budget report to the General Assembly or at the time of the enactment of the General Appropriations Act, the General Appropriations Act shall contain a specific sum as an emergency appropriation. The manner of allocation of such emergency appropriation shall be as follows: the head of the budget unit desiring an allotment of funds from the appropriation shall present such request to the Governor, in such form and with such explanation as he may require, and the Governor may allow or disallow the request at his discretion. No allotment shall be made from this appropriation to a purpose which creates a continuing obligation for the state.</p>
+          <p>(Code 1933, § 40-408, enacted by Ga. L. 1962, p. 17, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-11-71"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-71"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-11-71/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-71/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-11-71/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-71/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_11_71">
+        <num>9-11-71</num>
+        <content>
+          <p>Unless local conditions make it impracticable, each court shall establish regular times and places, at intervals sufficiently frequent for the prompt dispatch of business, at which motions requiring notice and hearing may be heard and disposed of; but the judge at any time or place and on such notice, if any, as is reasonable may make orders for the advancement, conduct, and hearing of actions.</p>
+          <p>(Ga. L. 1966, p. 609, § 78.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

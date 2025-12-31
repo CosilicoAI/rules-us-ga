@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-9-9"/>
+          <FRBRuri value="/us-ga/act/ocga/48-9-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-9-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-9-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-9-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-9-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_9_9">
+        <num>48-9-9</num>
+        <content>
+          <p>(Code 1933, § 92-1410, enacted by Ga. L. 1978, p. 186, § 1; Code 1933, §§ 91A-5010, 91A-5011, 91A-5012, enacted by Ga. L. 1978, p. 309, § 2; Code 1933, § 91A-5009, enacted by Ga. L. 1979, p. 5, § 102; Ga. L. 1981, p. 1019, § 1; Ga. L. 1981, p. 1857, § 42; Ga. L. 1993, p. 1502, §§ 5, 6; Ga. L. 2007, p. 309, § 12/HB 219; Ga. L. 2017, p. 774, § 48/HB 323.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

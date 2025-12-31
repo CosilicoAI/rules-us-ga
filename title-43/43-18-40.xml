@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-18-40"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-18-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-18-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_18_40">
+        <num>43-18-40</num>
+        <content>
+          <p>Any person desiring to engage in the practice of embalming or in the business or practice of funeral directing and who has not been licensed to do so shall make written application to the board through the division director for such license. Such application shall be upon such form and shall be submitted in such manner as shall be prescribed by the board and the applicant shall pay such fee as may be fixed by the board. Before being issued a license to practice funeral directing or embalming in this state, all applicants shall pass an examination approved by the board which tests their qualifications and skill in either funeral directing or embalming, or both, as the case may be; and such examination shall be made in the manner provided for in this article and by the board through rules and regulations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

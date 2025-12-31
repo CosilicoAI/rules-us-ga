@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-207"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-207"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-207/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-207/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-207/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-207/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_207">
+        <num>10-1-207</num>
+        <content>
+          <p>When any manufacturer, packer, or distributor applies to the Commissioner of Agriculture for a license or permit to sell antifreeze in this state, the Commissioner may require the manufacturer, packer, or distributor to furnish to the state oil chemist a statement of the formula or contents of the antifreeze, which statements shall conform to rules and regulations established by the Commissioner, provided that the statement of the formula or contents need not include the inhibitor ingredients if such inhibitor ingredients total less than 5 percent by weight of the antifreeze and if in lieu thereof the manufacturer, packer, or distributor furnishes to the state oil chemist satisfactory evidence, other than by disclosure of the inhibitor ingredients, that the antifreeze is not adulterated as defined in Code Section 10-1-201. All statements of contents, formula, or trade secrets furnished under this Code section shall be privileged and confidential and shall not be subject to subpoena nor shall the same be exhibited or disclosed before any administrative or judicial tribunal by virtue of any order or subpoena of such tribunal unless with the consent of the person, firm, association, or corporation owning or furnishing to the state oil chemist such statement of contents.</p>
+          <p>(Ga. L. 1975, p. 706, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

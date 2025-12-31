@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-46-16"/>
+          <FRBRuri value="/us-ga/act/ocga/33-46-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-46-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-46-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-46-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-46-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_46_16">
+        <num>33-46-16</num>
+        <content>
+          <p>The Commissioner shall issue an annual report to the Governor and the General Assembly concerning the conduct of utilization review in this state. Such report shall include a description of utilization review programs and the services they provide, an analysis of complaints filed against private review agents and utilization review entities by patients or providers, and an evaluation of the impact of utilization review programs on patient access to care. The Commissioner shall not be required to distribute copies of the annual report to legislators in the General Assembly but shall notify such legislators of the availability of the report in the manner which he or she deems to be most effective and efficient.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

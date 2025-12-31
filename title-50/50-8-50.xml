@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-50"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_50">
+        <num>50-8-50</num>
+        <content>
+          <p>There is created the Commission on Regional Planning. The Commission on Regional Planning shall coordinate state contract terms, identify appropriate state and federal funding for commissions in the pursuit of shared service delivery goals, coordinate planning of state and federal resource allocation and state service delivery, and identify issues and opportunities requiring state, regional, or local action. This Code section shall not apply to or affect aging programs and services that are under the authority of the Division of Aging Services of the Department of Human Services for planning and administration purposes pursuant to the federal Older Americans Act of 1965.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-30"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_30">
+        <num>31-8-30</num>
+        <content>
+          <p>The General Assembly finds that there is an inequitable distribution of the public costs incurred in providing health care for indigent persons who receive such care outside their counties of residence. The publicly supported hospitals providing such health care are frequently not reimbursed for the costs thereby incurred, which either increases the tax burden of citizens supporting such hospitals or increases the charges made to paying patients or causes a combination of both types of such increases. It is the purpose of this article to recognize and provide for the state's responsibility to assist in the payment of cost of care for nonresident indigent patients by providing procedures for the reimbursement of such costs from state funds.</p>
+          <p>(Code 1933, § 88-2301a, enacted by Ga. L. 1979, p. 1234, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

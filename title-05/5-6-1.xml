@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-6-1"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-6-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-6-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_6_1">
+        <num>5-6-1</num>
+        <content>
+          <p>When a case is set for a hearing before the Supreme Court or the Court of Appeals and there are parties besides the plaintiffs and defendants, whether shown by the record or not, who have a direct interest in its result, upon the interest being made to appear the court shall allow the other parties to appear by counsel on equal terms with the parties directly before the court.</p>
+          <p>(Ga. L. 1870, p. 47, § 5; Code 1873, § 4275; Code 1882, § 4275; Civil Code 1895, § 5581; Civil Code 1910, § 6196; Code 1933, § 6-1506.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

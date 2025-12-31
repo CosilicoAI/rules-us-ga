@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-44-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-44-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-44-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-44-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-44-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-44-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_44_2">
+        <num>36-44-2</num>
+        <content>
+          <p>It is found and declared that economically and socially depressed areas exist within counties and municipalities of this state and that these areas contribute to or cause unemployment, limit the tax resources of counties and municipalities, and create a greater demand for governmental services and, in general, have a deleterious effect upon the public health, safety, morals, and welfare. It is, therefore, in the public interest that such areas be redeveloped to the maximum extent practicable to improve economic and social conditions therein in order to abate or eliminate such deleterious effects. To encourage such redevelopment, it is essential that the counties and municipalities of this state have additional powers to form a more effective partnership with private enterprise to overcome economic limitations that have previously impeded or prohibited redevelopment of such areas. It is the purpose of this chapter, therefore, to grant such additional powers to the counties and municipalities of this state, and it is the intention of the General Assembly that this chapter be liberally construed to carry out such purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

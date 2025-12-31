@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-15-10"/>
+          <FRBRuri value="/us-ga/act/ocga/16-15-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-15-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-15-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-15-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-15-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_15_10">
+        <num>16-15-10</num>
+        <content>
+          <p>There shall be established as part of the Prosecuting Attorneys' Council of the State of Georgia the Criminal Street Gang Reward Fund. The chief of police, sheriff, or chairperson of any county governing authority may request the posting of up to a $5,000.00 reward for information leading to the arrest and conviction of any person involved in criminal gang activity that leads to the death or maiming of another person or property damage in the amount of $2,500.00 or more.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-613"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-613"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-613/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-613/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-613/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-613/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_613">
+        <num>20-3-613</num>
+        <content>
+          <p>The trust, in its discretion, may contract with others, public or private, for the provision of all or a portion of the services necessary for the management and operation of the trust.The trust shall also endeavor to work with private sector investment managers, state institutions of higher education, and independent degree-granting colleges and universities in this state to study the feasibility of instituting programs among these parties that ensure full tuition payment upon purchase of a prepayment plan.The trust shall evaluate the feasibility and actuarial soundness of a prepayment plan exclusively for community and junior colleges.The board shall submit a report to the legislature before December 31, 1991, regarding its success at instituting programs among private sector investment managers, state institutions of higher education, and independent degree-granting colleges and universities of the state that ensure full tuition prepayment plans.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

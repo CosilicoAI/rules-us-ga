@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-3-104"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-3-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-3-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_3_104">
+        <num>35-3-104</num>
+        <content>
+          <p>Any person wishing permission to use either bureau nomenclature or symbols may request such permission in writing to the director. The director shall serve notice on the requesting party within 15 calendar days after receipt of the request of his or her decision on whether the person may use the nomenclature or the symbol. If the director does not respond within the 15 day time period, then the request is presumed to have been denied. The grant of permission under Code Section 35-3-102 or 35-3-103 shall be in the discretion of the director under such conditions as the director may impose. If the director denies such request and the person making such request reasonably believes that the director has acted in bad faith or based on an illegal motive, then the person may, within 15 days after the person's request was denied or granted on limited terms, file an appeal with the Board of Public Safety. The matter will then be considered before the board, but the burden will be with the person making the request to show that the request was improperly denied or limited.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-9-5"/>
+          <FRBRuri value="/us-ga/act/ocga/51-9-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-9-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-9-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-9-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-9-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_9_5">
+        <num>51-9-5</num>
+        <content>
+          <p>If two persons claim to have actual possession of the same land, the person having legal title shall be deemed to be in possession and the other person shall be considered a trespasser.</p>
+          <p>(Orig. Code 1863, § 2959; Code 1868, § 2966; Code 1873, § 3017; Code 1882, § 3017; Civil Code 1895, § 3878; Civil Code 1910, § 4474; Code 1933, § 105-1405.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

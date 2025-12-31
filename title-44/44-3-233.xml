@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-233"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-233"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-233/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-233/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-233/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-233/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_233">
+        <num>44-3-233</num>
+        <content>
+          <p>The provisions of this article and of an instrument recorded pursuant thereto shall be liberally construed in favor of the valid establishment of property owners' association pursuant to this article with respect to the submitted property. Substantial compliance with the requirements of this article for the establishment of a property owners' association shall suffice to being property described in an instrument recorded pursuant to this article within the purview and application of this article; and any defects in such instrument or want of conformity with this article may be cured by an amendment thereto duly executed by the association and recorded or, upon application of any lot owner, with notice to the declarant, the association, and all other lot owners, by decree of the court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

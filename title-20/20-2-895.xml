@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-895"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-895"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-895/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-895/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-895/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-895/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_895">
+        <num>20-2-895</num>
+        <content>
+          <p>The board is authorized to contract with local employers for the inclusion of the teachers or employees of local employers within any health insurance plan or plans established under this subpart. Local employers are authorized to contract with the board as provided in this Code section. In the event that any contract is entered into, it shall be the duty of any local employers so contracting to deduct from the salary or other compensation of their teachers or employees such payment as may be required under any health insurance plan and to remit the funds to the board for inclusion in the health insurance fund. In addition, it shall be the duty of such local employers to make the employer contributions required for the operation of such plan or plans. For the purposes of this Code section, the term "teachers" shall mean certificated personnel and the term "employees" shall mean all other personnel.</p>
+          <p>(Ga. L. 1975, p. 37, § 13; Ga. L. 1977, p. 991, § 7; Ga. L. 1986, p. 291, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

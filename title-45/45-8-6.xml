@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-8-6"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-8-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-8-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_8_6">
+        <num>45-8-6</num>
+        <content>
+          <p>Where any collecting officer, officer to hold public funds, bank, or depository gives an additional bond or adds new security during his term, the bond in force at the time and securities thereon shall be liable for defaults occurring prior to the time the additional bond or security is given; and the existing bond or security and the additional bond or security shall be jointly, severally, and concurrently liable for subsequent defaults. If the order requiring a new bond so provides, the sureties on the old bond or bonds shall be discharged from future liability and the new bond alone shall be liable therefor. However, if the new bond so provides, it may assume concurrent liability with the old bond as to defaults occurring prior to the date of its being given, or, if the officer having the duty of approving the bond so consents, the new bond may assume sole liability from a date prior to the time of its being filed and the old bond or bonds may be discharged from liability from the date as of which such new bond is operative.</p>
+          <p>(Ga. L. 1933, p. 78, § 14; Code 1933, § 89-835.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

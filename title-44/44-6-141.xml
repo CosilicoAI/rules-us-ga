@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-141"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-141"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-141/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-141/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-141/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-141/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_141">
+        <num>44-6-141</num>
+        <content>
+          <p>In every case, the court will mold its decree to meet the general justice and equity of each cotenant and in its discretion may postpone or deny either a partition or a sale if it appears that the present or prospective interest of any cotenant may not be protected thereby.</p>
+          <p>(Orig. Code 1863, § 3117; Code 1868, § 3129; Code 1873, § 3185; Code 1882, § 3185; Civil Code 1895, § 4785; Civil Code 1910, § 5357; Code 1933, § 85-1502.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

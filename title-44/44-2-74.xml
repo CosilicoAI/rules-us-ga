@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-74"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-74"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-74/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-74/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-74/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-74/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_74">
+        <num>44-2-74</num>
+        <content>
+          <p>If the report of the examiner discloses that persons other than those who have been notified are entitled to notice, a copy of the petition shall be served upon such persons in the same manner as other persons named as defendants in the petition are required to be served by this article; and, in addition to the copy of the petition, there shall be attached a notice from the clerk directed to such person informing him that he shall appear and show cause against the judgment being rendered in the case, if any, within ten days from the date of the service of the notice. However, nothing in this Code section shall be construed to require the giving of additional notice by publication other than the published notice provided for in this article to nonresidents or persons who, by reason of absence from the state or by reason of their whereabouts being unknown, cannot be found and served with process.</p>
+          <p>(Ga. L. 1917, p. 108, § 17; Code 1933, § 60-215.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

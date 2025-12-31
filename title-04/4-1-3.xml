@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-1-3"/>
+          <FRBRuri value="/us-ga/act/ocga/4-1-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-1-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-1-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-1-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-1-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_1_3">
+        <num>4-1-3</num>
+        <content>
+          <p>The duties of the state veterinarian are to administer the business and affairs of the Animal Industry Division of the department. This includes enforcing the regulations and directing the programs designed to control and eradicate animal disease, directing the proper interstate movement of livestock, enforcing Article 3 of Chapter 2 of Title 26, the "Georgia Meat Inspection Act," promoting livestock marketing, and licensing and bonding livestock markets, dealers, and meat packers.</p>
+          <p>(Ga. L. 1910, p. 125, § 2; Ga. L. 1931, p. 7, § 97; Code 1933, § 62-901; Ga. L. 1935, p. 167, §§ 2, 4; Ga. L. 1937, p. 850, § 2; Ga. L. 1941, p. 238, §§ 1, 4; Ga. L. 1984, p. 22, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

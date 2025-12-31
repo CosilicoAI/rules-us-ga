@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-50"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_50">
+        <num>20-2-50</num>
+        <content>
+          <p>Each county of this state, exclusive of any independent school system in existence in a county, shall compose one school district and shall be confined to the control and management of a county board of education, except to the extent that area school systems are created pursuant to Article VIII, Section V, Paragraph I of the Constitution of Georgia.</p>
+          <p>(Ga. L. 1919, p. 288, §§ 76, 117; Code 1933, §§ 32-901, 32-1101; Ga. L. 1946, p. 206, § 8; Ga. L. 1983, p. 3, § 53.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

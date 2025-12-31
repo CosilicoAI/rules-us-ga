@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-11-1104"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-1104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-11-1104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-1104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-11-1104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-1104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_11_1104">
+        <num>14-11-1104</num>
+        <content>
+          <p>Each limited liability company and foreign limited liability company shall be classified as a partnership for Georgia income tax purposes unless classified otherwise for federal income tax purposes, in which case the limited liability company or foreign limited liability company shall be classified for Georgia income tax purposes in the same manner as it is classified for federal income tax purposes. A member or an assignee of a member of a limited liability company or foreign limited liability company shall be treated for Georgia income tax purposes as either a resident or nonresident partner in the limited liability company or foreign limited liability company unless classified otherwise for federal income tax purposes, in which case the member or assignee of a member shall have the same status for Georgia income tax purposes as such member or assignee of a member has for federal income tax purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

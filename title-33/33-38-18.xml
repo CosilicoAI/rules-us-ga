@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-38-18"/>
+          <FRBRuri value="/us-ga/act/ocga/33-38-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-38-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-38-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-38-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-38-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_38_18">
+        <num>33-38-18</num>
+        <content>
+          <p>All proceedings in any court in this state in which the insolvent insurer is a party shall be stayed 180 days from the date of a final order of liquidation, rehabilitation, or conservation to permit proper legal action by the association on any matters germane to its powers or duties. As to judgment entered under any decision, order, verdict, or finding based on default, the association may apply to have such judgment set aside by the same court that made such judgment and shall be permitted to defend against such action on the merits.</p>
+          <p>(Code 1933, § 56-2215, enacted by Ga. L. 1981, p. 1336, § 1; Ga. L. 2012, p. 701, § 1/HB 786.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

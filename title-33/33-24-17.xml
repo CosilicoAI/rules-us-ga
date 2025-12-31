@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-24-17"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-24-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-24-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_24_17">
+        <num>33-24-17</num>
+        <content>
+          <p>A policy may be assignable or not assignable, as provided by its terms. Subject to its terms relating to assignability, any life or accident and sickness policy issued under the terms of which the beneficiary may be changed upon the sole request of the policy owner may be assigned either by pledge or by transfer of title by an assignment executed by the policy owner alone and delivered to the insurer, whether or not the pledgee or assignee is the insurer. Any assignment shall entitle the insurer to deal with the assignee as the owner or pledgee of the policy in accordance with the terms of the assignment until the insurer has received at its home office written notice of termination of the assignment or pledge or written notice by or on behalf of some other person claiming some interest in the policy in conflict with the assignment.</p>
+          <p>(Code 1933, § 56-2423, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

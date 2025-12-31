@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-1-10"/>
+          <FRBRuri value="/us-ga/act/ocga/33-1-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-1-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-1-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-1-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-1-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_1_10">
+        <num>33-1-10</num>
+        <content>
+          <p>It shall be unlawful for any insurer to designate in any policy, contract, certificate, or otherwise the person, firm, or corporation to conduct the funeral of the insured; or to organize, promote, or operate any enterprise or plan; or to enter into any contract with such insured or with any other person, which plan or contract tends to limit or restrict the freedom of choice in the open market of the person or persons having the legal right of such choice regarding contracts, purchases, and arrangements with reference to any part of a funeral service for such insured.</p>
+          <p>(Code 1933, § 56-9902, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 2000, p. 136, § 33.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

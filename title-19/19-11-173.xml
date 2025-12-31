@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-11-173"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-173"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-11-173/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-173/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-11-173/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-173/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_11_173">
+        <num>19-11-173</num>
+        <content>
+          <p>Within 30 days after issuance of a modified child support order, the party obtaining the modification shall file a certified copy of the order with the issuing tribunal that had continuing, exclusive jurisdiction over the earlier order and in each tribunal in which the party knows the earlier order has been registered. A party who obtains the order and fails to file a certified copy is subject to appropriate sanctions by a tribunal in which the issue of failure to file arises. The failure to file does not affect the validity or enforceability of the modified order of the new tribunal having continuing, exclusive jurisdiction.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

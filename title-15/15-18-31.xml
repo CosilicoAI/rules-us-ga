@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-31"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_31">
+        <num>15-18-31</num>
+        <content>
+          <p>When a prosecuting attorney determines that prosecution of a traffic offense, or municipal ordinance involving a traffic offense, is or is not warranted, and regardless of whether a court order is entered for such offense or a referral is made to a pretrial intervention, pretrial release, pretrial diversion program, or other similar pretrial program, a prosecuting attorney may condition any other action regarding such offense upon the satisfactory completion of a defensive driving course or defensive driving program approved by the Department of Driver Services but shall not be authorized to mandate the completion of any other driving program.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

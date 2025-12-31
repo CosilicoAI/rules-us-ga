@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-90-8"/>
+          <FRBRuri value="/us-ga/act/ocga/36-90-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-90-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-90-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-90-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-90-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_90_8">
+        <num>36-90-8</num>
+        <content>
+          <p>The immunity from antitrust liability afforded to local governments by the provisions of Code Sections 36-65-1 and 36-65-2 shall not apply to public providers in the offering and providing of services as defined in this chapter; and public providers shall be subject to applicable antitrust liabilities, subject, however, to the provisions of the federal Local Government Antitrust Act of 1984, 15 U.S.C. Sections 34-36.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

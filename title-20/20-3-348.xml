@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-348"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-348"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-348/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-348/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-348/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-348/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_348">
+        <num>20-3-348</num>
+        <content>
+          <p>Any holder of obligations issued by the authority under this subpart or of any coupons appertaining thereto and any trustee under any resolution authorizing the issuance of such obligations or trust indenture securing such obligations, except to the extent the rights given in this Code section may be restricted by such resolution or trust indenture, may, by action, mandamus, or other proceeding, protect and enforce any and all rights under the laws of the state, including those granted under this Code section, under such resolution or trust indenture, or under any other contract executed by the authority pursuant to this subpart and may enforce and compel the performance of all duties required by this subpart or by such resolution or trust indenture to be performed by the authority or by any officer thereof.</p>
+          <p>(Ga. L. 1969, p. 683, § 37; Code 1933, § 32-3734, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

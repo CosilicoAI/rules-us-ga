@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-40-61"/>
+          <FRBRuri value="/us-ga/act/ocga/50-40-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-40-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-40-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-40-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-40-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_40_61">
+        <num>50-40-61</num>
+        <content>
+          <p>In order to encourage economic development and attract technology enabled growth in Georgia, the Department of Community Affairs shall, with the assistance of the Department of Economic Development, create and administer the "Georgia Broadband Ready Community Site Designation Program." Such program shall designate facilities and developments that offer broadband services at a rate of not less than 1 gigabit per second in the downstream to end users that can be accessed for business, education, health care, government, and other public purposes as a Georgia Broadband Ready Community Site.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-187"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-187"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-187/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-187/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-187/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-187/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_187">
+        <num>21-2-187</num>
+        <content>
+          <p>Political bodies shall hold their conventions in accordance with Code Section 21-2-172, and candidates nominated for state-wide public office in convention shall file a notice of candidacy no earlier than 9:00 A.M. on the fourth Monday in June immediately prior to the election and no later than 12:00 Noon on the Friday following the fourth Monday in June as prescribed in Code Section 21-2-132; provided, however, that the political body must file its qualifying petition no later than 12:00 Noon on the second Tuesday in July following the convention as prescribed in Code Section 21-2-172 in order to qualify its candidates to be listed on the general election ballot.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

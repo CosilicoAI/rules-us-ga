@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-457"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-457"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-457/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-457/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-457/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-457/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_457">
+        <num>20-2-457</num>
+        <content>
+          <p>Where an election held in the manner provided in Code Sections 20-2-451 through 20-2-455 results favorably to the issue of such bonds, the county board of education or corresponding body of independent school districts, as the case may be, shall recommend, and the board of county commissioners or judge of the probate court or municipal tax levying authorities, as the case may be, shall annually levy upon the property subject to taxation in the school district in which the election was held, such tax as may be necessary to provide a sinking fund for the retirement of the bonds and for paying the principal thereof and the interest thereon, this to be in addition to the general tax for the maintenance of the schools of the district.</p>
+          <p>(Ga. L. 1937, p. 869, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-144"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-144"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-144/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-144/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-144/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-144/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_144">
+        <num>8-2-144</num>
+        <content>
+          <p>The Commissioner of Insurance shall file a report on or before December 15 of each year accounting for all fees received by the Commissioner under this part and Part 3 of this article for the preceding 12 month period and for the actual costs of the inspection programs under this part and Part 3 of this article for the preceding 12 month period. Such report shall be provided to the chairpersons of the House Appropriations Committee, the Senate Appropriations Committee, the House Governmental Affairs Committee, and the Senate Regulated Industries and Utilities Committee, the director of the Office of Planning and Budget, the director of the Senate Budget and Evaluation Office, and the director of the House Budget and Research Office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

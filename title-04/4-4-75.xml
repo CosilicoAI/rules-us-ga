@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-4-75"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-75"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-4-75/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-75/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-4-75/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-75/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_4_75">
+        <num>4-4-75</num>
+        <content>
+          <p>Any person who shall forcibly resist, oppose, assault, prevent, impede, or interfere with the Commissioner or any duly authorized livestock inspector in the execution of his duties or on account of the execution of such duty shall be guilty of a misdemeanor.</p>
+          <p>(Ga. L. 1909, p. 131, § 6; Penal Code 1910, § 583; Code 1933, § 62-9911.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

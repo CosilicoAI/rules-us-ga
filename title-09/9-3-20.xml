@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-3-20"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-3-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-3-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_3_20">
+        <num>9-3-20</num>
+        <content>
+          <p>All actions upon judgments obtained outside this state, except judgments for child support or spousal support, or both, shall be brought within five years after such judgments have been obtained.</p>
+          <p>(Laws 1805, Cobb's 1851 Digest, p. 564; Ga. L. 1855-56, p. 233, § 7; Code 1863, § 2854; Code 1868, § 2862; Code 1873, § 2913; Code 1882, § 2913; Civil Code 1895, § 3760; Civil Code 1910, § 4354; Code 1933, § 3-701; Ga. L. 1997, p. 1613, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

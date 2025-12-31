@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-373"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-373"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-373/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-373/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-373/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-373/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_373">
+        <num>21-2-373</num>
+        <content>
+          <p>In elections, electors shall be permitted to cast write-in votes. The design of the ballot shall permit the superintendents, in counting the write-in votes, to determine readily whether an elector has cast any write-in vote not authorized by law. The Secretary of State, in specifying the form of the ballot, and the State Election Board, in promulgating rules and regulations respecting the conduct of elections, shall provide for ballot secrecy in connection with write-in votes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

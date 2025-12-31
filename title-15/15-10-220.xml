@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-10-220"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-220"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-10-220/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-220/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-10-220/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-220/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_10_220">
+        <num>15-10-220</num>
+        <content>
+          <p>There is created the office of senior magistrate.Subject to the approval of the governing authority, any chief magistrate of this state may appoint to the office of senior magistrate any retired chief magistrate, magistrate, or judge who prior to retirement served at least eight consecutive years as chief magistrate or magistrate, or a combination of such offices, or served eight consecutive years as a judge of a court of record or juvenile court, or a combination of such offices.A senior magistrate need not be a member of the State Bar of Georgia, unless required by local law.The term of an appointment made pursuant to this Code section shall not exceed the current term of the appointing officer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-23-124"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-124"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-23-124/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-124/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-23-124/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-124/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_23_124">
+        <num>47-23-124</num>
+        <content>
+          <p>It is the intention of the General Assembly that except as is expressly provided in an Act approved April 2, 1998 (Ga. L. 1998, p. 513), creating this retirement system, the benefits and conditions precedent to receiving benefits as provided by this chapter shall apply to all covered positions equally, and no legislation shall be enacted modifying or repealing any provision of this chapter which would create a contrary result.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

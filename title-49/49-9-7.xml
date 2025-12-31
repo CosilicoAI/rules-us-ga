@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-9-7"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-9-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-9-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_9_7">
+        <num>49-9-7</num>
+        <content>
+          <p>The agency is empowered and directed to cooperate, pursuant to agreements with the federal government, in carrying out the purposes of any federal statutes pertaining to the purposes of this chapter. The agency is authorized to adopt such methods of administration as are found by the federal government to be necessary for the proper and efficient operation of such agreements and to comply with such conditions as may be necessary to secure the full benefits of such federal statutes and appropriations, to administer any legislation pursuant thereto enacted by this state, to direct the disbursement and administer the use of all funds provided by the federal government or this state for the purposes of this chapter, and to do all things necessary to ensure the vocational rehabilitation of persons with disabilities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1074"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1074"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1074/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1074/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1074/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1074/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_1074">
+        <num>20-2-1074</num>
+        <content>
+          <p>Notwithstanding any other provisions of law to the contrary, including Code Section 20-2-411, county and independent school systems may use school buses to provide transportation for the elderly, persons with disabilities, and 4-H activities if the cost of such transportation is reimbursed in full from federal, state, local, or funds other than school funds.</p>
+          <p>(Code 1933, § 32-942.1, enacted by Ga. L. 1978, p. 1446, § 2; Ga. L. 1982, p. 1693, §§ 1, 2; Ga. L. 1986, p. 10, § 20; Ga. L. 1986, p. 149, § 1; Ga. L. 1987, p. 3, § 20; Ga. L. 1995, p. 1302, § 15.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

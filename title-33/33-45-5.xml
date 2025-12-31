@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-45-5"/>
+          <FRBRuri value="/us-ga/act/ocga/33-45-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-45-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-45-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-45-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-45-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_45_5">
+        <num>33-45-5</num>
+        <content>
+          <p>No person may engage in the business of providing continuing care or limited continuing care or issuing continuing care agreements in this state without a certificate of authority therefor obtained from the department as provided in this chapter. For purposes of this Code section, the term "engage in the business of" shall include the development or construction of a facility subject to regulation under this chapter or the holding of oneself out to the public as a provider. The application for approval or renewal of a certificate of authority shall be on such forms as provided by the department. The department shall issue such certificate of authority if the applicant pays the required fees, and the continuing care agreement for the applicant meets the requirements of Code Section 33-45-7. The department shall renew a certificate of authority if the provider pays the required fees and furnishes the annual disclosure statement required by Code Section 33-45-6 and is otherwise not in violation of this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

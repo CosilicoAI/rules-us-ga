@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-17-66"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-66"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-17-66/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-66/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-17-66/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-66/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_17_66">
+        <num>50-17-66</num>
+        <content>
+          <p>No officer of this state shall be allowed to receive any commission, interest, compensation, or reward for himself from any source for the depositing of the state's money in depositories or for continuing such deposits. Any officer of this state who receives any such commission, interest, compensation, or reward for himself shall, upon conviction thereof, be punished by imprisonment for not less than seven nor more than 20 years and shall be disqualified to hold office.</p>
+          <p>(Ga. L. 1878-79, p. 88, § 2; Code 1882, § 943b; Ga. L. 1895, p. 22, § 1; Civil Code 1895, § 984; Penal Code 1895, § 201; Civil Code 1910, § 1251; Penal Code 1910, § 199; Code 1933, §§ 100-103, 100-9901.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

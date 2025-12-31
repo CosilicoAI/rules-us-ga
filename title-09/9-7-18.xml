@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-7-18"/>
+          <FRBRuri value="/us-ga/act/ocga/9-7-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-7-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-7-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-7-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-7-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_7_18">
+        <num>9-7-18</num>
+        <content>
+          <p>In all cases where exceptions of fact are submitted to the jury, the same shall be determined upon the testimony reported by the auditor. Only so much of the evidence as is material and pertinent to the issue then on trial shall be read to the jury. Admissible material evidence introduced and not reported and evidence improperly excluded shall also be submitted to the jury and all inadmissible evidence shall be excluded from their consideration.</p>
+          <p>(Ga. L. 1894, p. 123, §§ 18, 20; Civil Code 1895, §§ 4598, 4600; Civil Code 1910, §§ 5144, 5146; Code 1933, §§ 10-404, 10-406.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-18-70"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-18-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-18-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_18_70">
+        <num>45-18-70</num>
+        <content>
+          <p>Notwithstanding any other provisions of law, the commissioner of administrative services in conjunction with the Georgia Building Authority is authorized by contract or otherwise to establish, equip, and operate a child care learning center as a capitol hill pilot program for the purpose of serving children who are members of households of employees of state government in and around the state capitol. The commissioner of administrative services in conjunction with the Georgia Building Authority is authorized to establish or provide for the establishment of appropriate fees and charges to be chargeable against the state employees who are beneficiaries of services provided by such facility to pay for the cost of their operation and to accept money, equipment, or other property donated for use in connection with the facility.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

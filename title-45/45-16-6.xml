@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-16-6"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-16-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-16-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_16_6">
+        <num>45-16-6</num>
+        <content>
+          <p>During every calendar year they are in office, every coroner and deputy coroner shall be required, as a condition of continuing to serve as coroner, to take a training course approved by the Georgia Coroner's Training Council pursuant to Code Section 45-16-66.Any coroner or deputy coroner taking the approved training course provided by the Georgia Police Academy shall receive the same expense allowance per day as that received by a member of the General Assembly, plus reimbursement of actual transportation costs while traveling by public carrier or the legal mileage rate for the use of a personal automobile and registration fees for such training course.Such expense allowance and reimbursements shall be paid by the county governing authority from county funds.In the event, however, that a coroner or deputy is prevented in any calendar year from taking such training by sickness or other providential cause, the requirement of training for that year may be waived by the Georgia Coroner's Training Council.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

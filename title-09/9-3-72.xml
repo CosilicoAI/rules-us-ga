@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-3-72"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-72"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-3-72/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-72/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-3-72/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-72/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_3_72">
+        <num>9-3-72</num>
+        <content>
+          <p>The limitations of Code Section 9-3-71 shall not apply where a foreign object has been left in a patient's body, but in such a case an action shall be brought within one year after the negligent or wrongful act or omission is discovered. For the purposes of this Code section, the term "foreign object" shall not include a chemical compound, fixation device, or prosthetic aid or device.</p>
+          <p>(Code 1933, § 3-1103, enacted by Ga. L. 1976, p. 1363, § 1; Ga. L. 1985, p. 556, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

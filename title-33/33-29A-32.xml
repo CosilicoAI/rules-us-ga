@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-29A-32"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29A-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-29A-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29A-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-29A-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29A-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_29A_32">
+        <num>33-29A-32</num>
+        <content>
+          <p>The Commissioner shall approve for sale in Georgia any individual accident and sickness insurance policy that is currently approved for issuance in another state where the insurer or the insurer's affiliate or subsidiary is authorized to transact insurance so long as the insurer or the insurer's affiliate or subsidiary filing and issuing such policy in Georgia is also authorized to transact insurance in this state pursuant to Chapter 3 of this title and provided that any such policy meets the requirements set forth in this article. Additionally, any insurer authorized to transact insurance in this state can offer an individual accident and sickness insurance policy with benefits equivalent to those in any policy approved for sale in Georgia under this article, provided that any such offered policy meets the requirements set forth in this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

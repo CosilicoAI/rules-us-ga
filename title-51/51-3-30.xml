@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-3-30"/>
+          <FRBRuri value="/us-ga/act/ocga/51-3-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-3-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-3-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-3-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-3-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_3_30">
+        <num>51-3-30</num>
+        <content>
+          <p>A landowner who allows wildlife to traverse the owner's property, or a person hunting game on such property with permission, shall be immune from civil liability for damage and injuries which may be caused by wildlife which traverse the landowner's property and enter a public roadway or right of way, provided that the conduct of the landowner or person hunting game does not constitute gross negligence or willful and wanton misconduct.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-37-43"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-43"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-37-43/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-43/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-37-43/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-43/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_37_43">
+        <num>33-37-43</num>
+        <content>
+          <p>Under the direction of the court, the liquidator shall pay distributions in a manner that will assure the proper recognition of priorities and a reasonable balance between the expeditious completion of the liquidation and the protection of unliquidated and undetermined claims, including third-party claims.Distribution of assets in kind may be made at valuations set by agreement between the liquidator and the creditor and approved by the court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

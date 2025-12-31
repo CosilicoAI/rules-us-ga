@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-576"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-576"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-576/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-576/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-576/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-576/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_576">
+        <num>20-2-576</num>
+        <content>
+          <p>All moneys received pursuant to this part, whether as proceeds from the sale of revenue bonds, as grants or other contributions, or as revenues, rents, and earnings, shall be deemed to be trust funds to be held and applied solely as provided in this part.</p>
+          <p>(Ga. L. 1951, p. 241, § 26.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

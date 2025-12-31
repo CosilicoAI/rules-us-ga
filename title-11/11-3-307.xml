@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-3-307"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-307"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-3-307/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-307/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-3-307/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-307/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_3_307">
+        <num>11-3-307</num>
+        <content>
+          <p>Taken in payment of or as security for a debt known by the taker to be the personal debt of the fiduciary;</p>
+          <p>Taken in a transaction known by the taker to be for the personal benefit of the fiduciary; or</p>
+          <p>Deposited to an account other than an account of the fiduciary, as such, or an account of the represented person;</p>
+          <p>Taken in payment of or as security for a debt known by the taker to be the personal debt of the fiduciary;</p>
+          <p>Taken in a transaction known by the taker to be for the personal benefit of the fiduciary; or</p>
+          <p>Deposited to an account other than an account of the fiduciary, as such, or an account of the represented person.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

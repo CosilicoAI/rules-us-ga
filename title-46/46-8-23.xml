@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-23"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_23">
+        <num>46-8-23</num>
+        <content>
+          <p>The commission is vested with full power and authority to make, prescribe, and enforce all such reasonable rules, regulations, and orders as may be necessary to compel and require the several railroad companies in this state to receive, receipt for, forward, and deliver promptly to destination all freight of every character which may be tendered or received by them for transportation. In addition, the commission shall have full power and authority to make, prescribe, and enforce such reasonable rules, regulations, and orders as may be necessary to compel and require prompt delivery to the consignee of all freights on arrival at destination.</p>
+          <p>(Ga. L. 1905, p. 120, § 1; Civil Code 1910, § 2634; Code 1933, § 93-302.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

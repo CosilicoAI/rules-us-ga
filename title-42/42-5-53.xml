@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-5-53"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-5-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-5-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_5_53">
+        <num>42-5-53</num>
+        <content>
+          <p>(Ga. L. 1956, p. 161, § 16; Ga. L. 1964, p. 491, § 1; Ga. L. 1970, p. 318, § 1; Ga. L. 1975, p. 908, § 1; Ga. L. 1980, p. 470, § 1; Ga. L. 1982, p. 3, § 42; Ga. L. 1985, p. 283, § 1; Ga. L. 1991, p. 94, § 42; Ga. L. 1995, p. 10, § 42; Ga. L. 2009, p. 303, § 3/HB 117; Ga. L. 2013, p. 141, § 42/HB 79.)</p>
+          <p>The 2013 amendment,
+      effective April 24, 2013, part of an Act to revise, modernize, and correct the Code, substituted "House Committee on State Properties" for "State Institutions and Property Committee of the House of Representatives" in paragraph (e)(3).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

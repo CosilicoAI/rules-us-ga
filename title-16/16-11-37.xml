@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-11-37"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-37"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-11-37/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-37/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-11-37/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-37/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_11_37">
+        <num>16-11-37</num>
+        <content>
+          <p>It shall be unlawful for any person knowingly to furnish or disseminate through a computer or computer network any picture, photograph, drawing, or similar visual representation or verbal description of any information designed to encourage, solicit, or otherwise promote terroristic acts as defined in Code Section 16-11-37. Any person convicted for violation of this Code section shall be guilty of a misdemeanor of a high and aggravated nature; provided, however, that if such act is in violation of paragraph (1) of subsection (e) of Code Section 16-11-37, the person convicted shall be guilty of a felony and shall be punished by imprisonment for not less than one nor more than ten years or by a fine not to exceed $100,000.00 or both.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

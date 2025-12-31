@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-3-26"/>
+          <FRBRuri value="/us-ga/act/ocga/43-3-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-3-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-3-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-3-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-3-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_3_26">
+        <num>43-3-26</num>
+        <content>
+          <p>The executive director shall be authorized to provide to any licensing authority of this or any other state, upon inquiry by such authority, information regarding a past or pending investigation of or disciplinary sanction against any applicant for licensure by the board or licensee of the board notwithstanding the provisions of subsection (b) of Code Section 43-3-20 or any other law to the contrary regarding the confidentiality of that information; provided, however, that such information shall only be shared after receiving written confirmation from the recipient authority that it assures preservation of confidentiality and the licensee has been given reasonable notice that the information shall be provided to another entity. Nothing in this chapter shall be construed to prohibit or limit the authority of the executive director to disclose to any person or entity information concerning the existence of any investigation for unlicensed practice being conducted against any person who is neither licensed nor an applicant for licensure by the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

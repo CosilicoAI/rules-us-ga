@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-117"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-117"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-117/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-117/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-117/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-117/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_117">
+        <num>8-2-117</num>
+        <content>
+          <p>Whenever the commissioner has reason to believe that any person is or has been violating provisions of this part, the commissioner may issue and deliver to such person an order to cease and desist such violation.In addition, the commissioner may impose a penalty not to exceed $1,000.00 for each day the violation exists.A separate violation shall be deemed to have occurred with respect to each industrialized building or component involved. Decisions made pursuant to this Code section may be appealed as provided for in Chapter 13 of Title 50, the "Georgia Administrative Procedure Act."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

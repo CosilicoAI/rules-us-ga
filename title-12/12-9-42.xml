@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-9-42"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-9-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-9-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_9_42">
+        <num>12-9-42</num>
+        <content>
+          <p>It is declared to be the public policy of the State of Georgia as expressed in this article to preserve, protect, and improve air quality in those counties or areas of the state where the ambient air levels of ozone or carbon monoxide or both are in excess of the NAAQS, as designated by the USEPA and such levels, according to the criteria established by the USEPA, are directly related to the emissions of hydrocarbons, nitrogen oxides, and carbon monoxide from responsible motor vehicles registered in such counties or areas of the state; and to that end to provide a legally enforceable mechanism for the attainment and maintenance of the NAAQS of such pollutants in such counties or areas of the state by requiring that emissions of hydrocarbons, nitrogen oxides, and carbon monoxide from responsible motor vehicles registered in such counties or areas of the state; shall be subject to inspection of exhaust emissions, evaporative emissions, inspection and maintenance of emission control equipment, and inspection and maintenance of on-board diagnostics to ensure compliance with such emission standards.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

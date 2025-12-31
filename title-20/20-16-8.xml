@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-16-8"/>
+          <FRBRuri value="/us-ga/act/ocga/20-16-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-16-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-16-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-16-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-16-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_16_8">
+        <num>20-16-8</num>
+        <content>
+          <p>The authority may sell its bonds in such manner and for such price as it may determine to be for the best interests of the authority. Whenever the authority shall determine to issue its bonds, it shall request the Georgia State Financing and Investment Commission to approve the bonds and carry out other services for the authority as provided by Article 2 of Chapter 17 of Title 50.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

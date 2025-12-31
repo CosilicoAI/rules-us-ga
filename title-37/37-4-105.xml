@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-4-105"/>
+          <FRBRuri value="/us-ga/act/ocga/37-4-105"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-4-105/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-4-105/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-4-105/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-4-105/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_4_105">
+        <num>37-4-105</num>
+        <content>
+          <p>If a client wishes to be employed outside a facility and if such employment will aid in the client's habilitation, he shall be assisted in his efforts to secure suitable employment and all benefits flowing from such employment. The department shall encourage such employment of clients and shall promote the training of clients for gainful employment after discharge. All benefits of such employment shall accrue solely to the client.</p>
+          <p>(Code 1933, § 88-2503.10, enacted by Ga. L. 1978, p. 1826, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

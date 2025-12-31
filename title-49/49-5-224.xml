@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-5-224"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-224"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-5-224/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-224/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-5-224/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-224/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_5_224">
+        <num>49-5-224</num>
+        <content>
+          <p>Thecommissioner of behavioral health and developmental disabilities shall submit an annual report to the House and Senate Appropriations Committees, the House Education Committee, the Senate Education and Youth Committee, the House Health and Human Services Committee, the Senate Health and Human Services Committee, the Governor, and the Governor's Office for Children and Families. The report shall contain a copy of the updated State Plan for the Coordinated System of Care. The report shall also contain the following information on severely and emotionally disturbed children and adolescents receiving services directly or indirectly through the Department of Behavioral Health and Developmental Disabilities, the Department of Education, or any other state agency:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

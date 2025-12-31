@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-37-7"/>
+          <FRBRuri value="/us-ga/act/ocga/36-37-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-37-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-37-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-37-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-37-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_37_7">
+        <num>36-37-7</num>
+        <content>
+          <p>Municipalities are empowered and authorized, if they so desire, to sell, lease, or otherwise dispose of any or all electric, water, gas, or other municipally owned public utility plants or properties, on such terms and conditions as such municipalities deem proper, and to transfer title to such public utility properties by warranty deed, bill of sale, contract, or lease, in the manner provided by law; provided, however, that nothing contained in this Code section and Code Sections 36-37-8 through 36-37-10 shall be held or construed to affect the powers of any municipal corporation in the charter of which there is now contained any provision either authorizing or prohibiting the sale, lease, or other disposition of such properties by the municipality, so long as such provision remains in the charter of the municipality.</p>
+          <p>(Ga. L. 1925, p. 177, § 1; Code 1933, § 91-901.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

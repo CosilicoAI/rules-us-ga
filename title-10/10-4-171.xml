@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-171"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-171"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-171/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-171/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-171/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-171/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_171">
+        <num>10-4-171</num>
+        <content>
+          <p>In the event there are two such warehousemen in a municipality and in the event the two cannot agree as to the organization of any such board, or cannot agree as to any matter authorized under this part, it shall be the duty of each, upon notice or request by the other, to appoint one disinterested person; and the two persons so appointed shall appoint a third disinterested person; and the three persons so appointed, with the two warehousemen, shall determine the questions involved in the controversy, on failure to agree, by a majority vote.</p>
+          <p>(Ga. L. 1962, p. 102, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

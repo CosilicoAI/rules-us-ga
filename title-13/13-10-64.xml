@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-10-64"/>
+          <FRBRuri value="/us-ga/act/ocga/13-10-64"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-10-64/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-10-64/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-10-64/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-10-64/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_10_64">
+        <num>13-10-64</num>
+        <content>
+          <p>The official who has the custody of the bond or security deposit required by this article is authorized and directed to furnish to any person making application therefor a copy of the bond or security deposit agreement and the contract for which it was given, certified by the official who has custody of the bond or security deposit. With his or her application, such person shall also submit an affidavit that he or she has supplied labor or materials for such work and that payment therefor has not been made or that he or she is being sued on any such bond or security deposit. Such copy shall be primary evidence of the bond or security deposit and contract and shall be admitted in evidence without further proof. Applicants shall pay for such certified copies and such certified statements such fees as the official fixes to cover the cost of preparation thereof, provided that in no case shall the fee fixed exceed the fees which the clerks of the superior courts are permitted to charge for similar copies.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

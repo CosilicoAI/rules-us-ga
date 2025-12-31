@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-5-7"/>
+          <FRBRuri value="/us-ga/act/ocga/27-5-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-5-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-5-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-5-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-5-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_5_7">
+        <num>27-5-7</num>
+        <content>
+          <p>It shall be unlawful for any person to release from captivity any wild animal as defined in paragraph (75) of Code Section 27-1-2 or to import, transport, sell, transfer, or possess such a wild animal in such a manner so as to cause its release or escape from captivity.In the event a person imports, transports, sells, transfers, or possesses a wild animal in such a manner so as to pose a reasonable possibility that such wild animal may be released accidentally or escape from captivity, the department may revoke the license or permit, or both, of such person pursuant to the procedure set forth in Code Section 27-2-25.</p>
+          <p>(Code 1933, § 45-1104, enacted by Ga. L. 1977, p. 396, § 1; Ga. L. 1979, p. 1094, § 13; Ga. L. 1994, p. 1742, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-61"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_61">
+        <num>40-2-61</num>
+        <content>
+          <p>The commissioner shall design and issue distinctive license plates to each United States Senator and Congressman elected from the State of Georgia, the Governor, the Lieutenant Governor, the Speaker of the House of Representatives, and each Justice of the Supreme Court and each Judge of the Court of Appeals to be placed on such official's personal motor vehicle. Each such distinctive license plate shall indicate the individual's elected office and no county name decal need be affixed to such plate. The special license plate authorized by this Code section shall be issued to such elected official upon application and payment of a manufacturing fee of $25.00 and upon compliance with the state laws relating to registration and licensing of motor vehicles and shall be transferred as provided in Code Section 40-2-80. Distinctive license plates issued pursuant to this Code section shall be renewed annually, and revalidation decals shall be issued upon compliance with the laws relating to registration and licensing and upon payment of an additional registration fee of $35.00 which shall be collected by the county tag agent at the time for collection of other registration fees and shall be remitted to the state as provided in Code Section 40-2-34.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

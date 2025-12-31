@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-169"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-169"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-169/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-169/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-169/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-169/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_169">
+        <num>20-2-169</num>
+        <content>
+          <p>The Department of Education is designated as the sole state agency to receive federal funds allotted to Georgia under acts of Congress appropriating federal funds for career, occupational, or technical education; provided, however, those funds appropriated for the operation and management of postsecondary technical, adult, and industrial programs shall be placed under the jurisdiction and control of the State Board of the Technical College System of Georgia; provided, further, a proportionate share of those federal funds appropriated for planning, evaluation, program improvement, and other administrative and discretionary purposes shall be placed under the jurisdiction and control of such board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

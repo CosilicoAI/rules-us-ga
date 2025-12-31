@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-77"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-77"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-77/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-77/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-77/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-77/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_77">
+        <num>44-2-77</num>
+        <content>
+          <p>While the cause is pending before the examiner of titles or at any time before final decree, the judge, or the examiner with the approval of the judge, may require the land to be surveyed by some competent surveyor and may order durable bounds to be set and a plat thereof to be filed among the papers of the suit. Before such survey is made, all adjoining landowners shall be given at least five days' notice. The petitioner or any adjoining owner dissatisfied with the survey may file a protest with the court within ten days from the time the plat is filed; and thereupon an issue shall be made up and tried as in case of protest to the return of land processioners.</p>
+          <p>(Ga. L. 1917, p. 108, § 22; Code 1933, § 60-217.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-18-78"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-78"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-18-78/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-78/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-18-78/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-78/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_18_78">
+        <num>43-18-78</num>
+        <content>
+          <p>In the event any funeral establishment or crematory is temporarily destroyed by fire, flood, or other natural catastrophe, upon notice by the funeral establishment or crematory to the board within five days following the destruction, the board may grant the funeral establishment or crematory a 90 day grace period to use a board approved temporary location while reconstructing the previous location, provided the funeral establishment or crematory complies with all other provisions of this article and the rules of the board.The board may, in its discretion, upon application by the funeral establishment or crematory, grant additional 90 day grace periods upon showing of good cause.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-60-22"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-60-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-60-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_60_22">
+        <num>36-60-22</num>
+        <content>
+          <p>Any other provision of law to the contrary notwithstanding, if the director of the Environmental Protection Division of the Department of Natural Resources determines after a scientific analysis that such a quarry location has significant adverse impact on the water system, no person may commence the operation of a limestone or dolostone rock quarry within eight miles of any well or spring accessing an underground source of water which provides water to any county or municipality in an amount of at least 50 percent of such county's or municipality's water supply or two million gallons per day, whichever is less.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

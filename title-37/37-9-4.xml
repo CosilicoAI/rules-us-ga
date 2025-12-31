@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-9-4"/>
+          <FRBRuri value="/us-ga/act/ocga/37-9-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-9-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-9-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-9-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-9-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_9_4">
+        <num>37-9-4</num>
+        <content>
+          <p>Each patient receiving services from a state hospital shall be legally responsible for, and shall pay to the department, the cost of his care received from a state hospital. Payments for cost of care shall be payable following the receipt of services in accordance with standards and procedures established by the board. In the event the department is unable to collect the assessment from the patient or in the event the patient's assessment is less than the full cost of care for such patient, all other persons liable for the cost of care for such patient shall pay to the department their respective assessments as provided by Code Section 37-9-5.</p>
+          <p>(Ga. L. 1960, p. 1138, §§ 4, 5; Ga. L. 1966, p. 143, §§ 3, 4; Ga. L. 1979, p. 834, § 5; Ga. L. 1982, p. 3, § 37.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

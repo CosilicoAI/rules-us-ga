@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-8"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_8">
+        <num>15-12-8</num>
+        <content>
+          <p>If in any county no grand jury is impaneled in the fall of any year, then, as to such county, the expense allowance provided for in Code Section 15-12-7 shall remain as fixed by the grand jury for the preceding year.</p>
+          <p>(Orig. Code 1863, § 3846; Code 1868, § 3866; Ga. L. 1871-72, p. 47, § 4; Code 1873, § 3940; Ga. L. 1878-79, p. 190, § 2; Code 1882, § 3940; Penal Code 1895, § 873; Penal Code 1910, § 878; Code 1933, § 59-121; Ga. L. 1974, p. 325, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

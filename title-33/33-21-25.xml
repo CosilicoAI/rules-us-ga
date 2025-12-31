@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-21-25"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-21-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-21-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_21_25">
+        <num>33-21-25</num>
+        <content>
+          <p>Notwithstanding any other law which may be inconsistent with this Code section, an insurer or a health care corporation licensed in this state may directly or through a subsidiary or affiliate organize and operate a health maintenance organization.</p>
+          <p>(Code 1933, § 56-3615, enacted by Ga. L. 1979, p. 1148, § 1; Ga. L. 1986, p. 676, § 11; Ga. L. 1995, p. 745, § 2.5; Ga. L. 2017, p. 164, § 13/HB 127.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

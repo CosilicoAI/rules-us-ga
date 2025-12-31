@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-9-216"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-216"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-9-216/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-216/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-9-216/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-216/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_9_216">
+        <num>46-9-216</num>
+        <content>
+          <p>For every violation of any of the provisions of Code Section 46-9-210 or 46-9-211, the railroad company shall be subject to a civil penalty of $1,000.00, which may be recovered in any superior or city court of the county in which such violation may occur. An action may be brought by the railroad company whose road may be discriminated against or by the person offering to buy a ticket over such road. The penalty provided for in this Code section may be recovered by each of these parties; and recovery by one shall not be a bar to recovery by the other.</p>
+          <p>(Ga. L. 1890-91, p. 155, § 3; Civil Code 1895, § 2301; Civil Code 1910, § 2755; Code 1933, § 18-503.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

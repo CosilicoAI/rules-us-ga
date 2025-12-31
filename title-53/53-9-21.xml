@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-9-21"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-9-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-9-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_9_21">
+        <num>53-9-21</num>
+        <content>
+          <p>If an individual domiciled outside this state is possessed of any interest in or claim to or against any real or personal property or cause of action located in this state and would, if a domiciliary, be deemed to be missing in accordance with the provisions of Code Section 53-9-10 or if a conservator or any person serving in a similar capacity shall have been authorized to handle the property of the individual in the jurisdiction in which the individual is domiciled, the probate court may appoint a conservator of all of the interests or claims or causes of action located in this state and give direction as to the conservation of the property and its use in the interest of the missing individual or that individual's dependents, obligees, or successors in interest. The court shall mold such order in aid of any similar orders from the jurisdiction in which the individual is domiciled, may appoint the domiciliary conservator as the conservator in this state, and may authorize delivery of property to the domiciliary conservator. Except as the court may otherwise direct, the proceedings shall conform to the provisions of Article 2 of this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

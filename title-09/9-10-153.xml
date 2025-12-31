@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-153"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-153"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-153/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-153/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-153/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-153/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_153">
+        <num>9-10-153</num>
+        <content>
+          <p>It shall be the duty of any judge of a court of this state, on or without motion, to continue any case in the court when the case is reached and any party thereto or his leading counsel is absent from the court by reason of his service in the armed forces when such service directly prevents his attendance in court or by reason of his attendance as a member of the National Guard upon any duty prescribed by the Governor or the adjutant general, unless the party, in the absence of his leading counsel, or the leading counsel, in the absence of the party, on the call of the case, announces ready for trial. If counsel is absent it shall be necessary for his client to make oath that he cannot safely go to trial without the absent counsel; and, if the party plaintiff or defendant is absent, his counsel shall state in his place that he cannot safely go to trial without the client.</p>
+          <p>(Ga. L. 1925, p. 149, § 1; Code 1933, § 81-1406; Ga. L. 1991, p. 404, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

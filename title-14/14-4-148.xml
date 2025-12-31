@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-148"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-148"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-148/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-148/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-148/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-148/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_148">
+        <num>14-4-148</num>
+        <content>
+          <p>Each stockholder in either of the consolidating or merging corporations at the time the merger or consolidation becomes effective who is entitled to vote but who does not vote against the merger or consolidation and object thereto in writing, as provided in Code Section 14-4-143, and each stockholder in each of the constituent corporations at the time the merger or consolidation becomes effective who is not entitled to vote and who does not object thereto in writing, as provided in Code Section 14-4-143, shall cease to be a stockholder in such constituent corporation and shall be deemed to have assented to the consolidation or merger. Such stockholders together with the stockholders voting in favor of the consolidation or merger shall be entitled to receive certificates of stock in the surviving or resulting corporation or other securities or property in the manner and on the terms specified in the agreement.</p>
+          <p>(Code 1933, § 22-4409, enacted by Ga. L. 1968, p. 565, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

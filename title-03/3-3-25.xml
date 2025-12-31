@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/3-3-25"/>
+          <FRBRuri value="/us-ga/act/ocga/3-3-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/3-3-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/3-3-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/3-3-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/3-3-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_3_25">
+        <num>3-3-25</num>
+        <content>
+          <p>(Ga. L. 1874, p. 92, § 1; Ga. L. 1875, p. 328, § 1; Code 1882, § 1374a; Penal Code 1895, § 437; Penal Code 1910, § 437; Code 1933, § 58-607; Ga. L. 1977, p. 183, § 1; Ga. L. 1977, p. 1247, § 1; Code 1933, § 5A-512, enacted by Ga. L. 1980, p. 1573, § 1; Ga. L. 2015, p. 81, § 2/HB 85.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

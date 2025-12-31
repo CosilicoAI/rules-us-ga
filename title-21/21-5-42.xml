@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-5-42"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-5-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-5-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_5_42">
+        <num>21-5-42</num>
+        <content>
+          <p>For purposes of this article, a contribution to a campaign committee of a candidate for any public office shall be deemed to be a contribution to such candidate. If during any calendar year there occur both a special election including a special primary, special primary runoff, and special election runoff as appropriate and a general election for the same public office and if the same person is a candidate for nomination or election at both such special election including a special primary, special primary runoff, and special election runoff as appropriate and such general election, then this Code section shall apply. Where this Code section applies, a person, corporation, political committee, or political party may contribute up to the maximum amount otherwise allowable under this article to such person or such person's campaign committee for the purpose of influencing such candidate's nomination or election at the special primary, special primary runoff, special election, or special election runoff; and the same person, corporation, political committee, or political party may contribute up to the maximum amount otherwise allowable under this article for the purpose of influencing such candidate's election at the general election or general election runoff. This Code section shall be construed according to the following rules:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

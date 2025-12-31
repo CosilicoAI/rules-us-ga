@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-7-6"/>
+          <FRBRuri value="/us-ga/act/ocga/37-7-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-7-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-7-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-7-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-7-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_7_6">
+        <num>37-7-6</num>
+        <content>
+          <p>If, during the period of involuntary hospitalization pursuant to any valid physician's certificate, court order, or order by the hearing examiner authorized by this chapter, a patient escapes or otherwise leaves a facility without permission, the facility may advise any peace officer that the patient has escaped or otherwise left the facility without permission; and the peace officer shall be authorized to take such patient into custody and return him to such facility.</p>
+          <p>(Code 1933, § 88-407.9, enacted by Ga. L. 1979, p. 744, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

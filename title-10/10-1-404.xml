@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-404"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-404"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-404/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-404/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-404/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-404/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_404">
+        <num>10-1-404</num>
+        <content>
+          <p>(Ga. L. 1975, p. 376, § 14; Ga. L. 1984, p. 441, § 1; Ga. L. 1988, p. 1659, § 5; Ga. L. 2015, p. 1088, § 2/SB 148.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "Attorney General" for "administrator" throughout this Code section; substituted "him or her by this part, may issue" for "him by this part, may, with the consent of the Attorney General, issue" in subsection (a); in subsection (b), added the present first sentence, deleted the former second sentence, which read: "Such person may object to the investigative demand or subpoena on grounds that it fails to comply with this part or upon any constitutional or other legal right or privilege of such person.", and, in the fourth sentence, deleted "modifying or setting aside such demand or subpoena or" following "an order" and inserted "or modifying or setting aside such demand or subpoena based on any objection that was raised before the Attorney General"; in subsection (d), inserted "or her" in paragraph (d)(1), and, in paragraph (d)(2), in the first sentence, inserted "or her" and substituted "sought pursuant to an investigative demand or subpoena" for "subpoenaed".</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

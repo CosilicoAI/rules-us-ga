@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-60-14"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-60-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-60-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_60_14">
+        <num>36-60-14</num>
+        <content>
+          <p>The governing body of each county or municipal corporation of this state is authorized to enter into one year, or less, contracts with private nonprofit organizations which are exempt from federal income taxes pursuant to Section 501(c)(3) or 501(c)(6) of the Internal Revenue Code to utilize such organizations to identify, attract, and locate new business and industry into the county or municipality for the purposes of increasing trade, industry, agribusiness, commerce, and tourism and the improvement of employment opportunities within the county or municipality and to otherwise promote the general welfare of the county or municipality; provided, however, that the authority provided under this Code section shall not affect or in any way apply to any contract under Code Section 48-13-51 regarding the expenditure of proceeds collected under Article 3 of Chapter 13 of Title 48 unless that contract is executed by the governing body of a county in which is imposed, prior to January 1, 2001, the homestead option sales and use tax authorized under Code Section 48-8-102.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

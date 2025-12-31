@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-155"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-155"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-155/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-155/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-155/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-155/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_155">
+        <num>9-10-155</num>
+        <content>
+          <p>The illness or absence, from providential cause, of counsel where there is but one, or of the leading counsel where there are more than one, shall be a sufficient ground for continuance, provided that the party making the application for a continuance will swear that he cannot go safely to trial without the services of the absent counsel, that he expects his services at the next term, and that the application is not made for delay only.</p>
+          <p>(Orig. Code 1863, § 3454; Code 1868, § 3474; Code 1873, § 3525; Code 1882, § 3525; Civil Code 1895, § 5132; Penal Code 1895, § 964; Civil Code 1910, § 5718; Penal Code 1910, § 990; Code 1933, § 81-1413.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-4-26"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-4-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-4-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_4_26">
+        <num>45-4-26</num>
+        <content>
+          <p>Any person who claims damages of any principal officer for the act of his deputy may, at his option, bring an action on the deputy's bond instead of on that of the principal, in the same manner as an action may be brought on the principal's bond.</p>
+          <p>(Orig. Code 1863, § 158; Code 1868, § 153; Code 1873, § 164; Code 1882, § 164; Civil Code 1895, § 260; Civil Code 1910, § 295; Code 1933, § 89-427.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

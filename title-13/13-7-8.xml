@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-7-8"/>
+          <FRBRuri value="/us-ga/act/ocga/13-7-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-7-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-7-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-7-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-7-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_7_8">
+        <num>13-7-8</num>
+        <content>
+          <p>A debt of a testator or intestate is not a proper setoff against a debt contracted with the representative of the estate unless both were contracted during the lifetime of the decedent.</p>
+          <p>(Orig. Code 1863, § 2846; Code 1868, § 2854; Code 1873, § 2905; Code 1882, § 2905; Civil Code 1895, § 3751; Civil Code 1910, § 4345; Code 1933, § 20-1306.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

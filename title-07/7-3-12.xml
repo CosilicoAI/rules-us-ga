@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-3-12"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-3-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-3-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_3_12">
+        <num>7-3-12</num>
+        <content>
+          <p>No licensee shall charge, contract for, or receive any other or further amount in connection with any loans authorized by this chapter in addition to those provided in Code Section 7-3-11, except the actual lawful fees paid to a public official or agency of the state for filing, recording, or, on loans over $100.00, the amount of the lawful premiums, no greater than such fees, actually paid for insurance against the risk of nonrecording or releasing any instrument securing the loan; the court costs and attorney fees authorized by law incurred in the collection of any contract in default; and the actual and reasonable expenses of repossessing, storing, and selling any collateral pledged as security for any contract in default. No licensee shall divide into separate parts any contract for the purpose or with the effect of obtaining charges in excess of those authorized by this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

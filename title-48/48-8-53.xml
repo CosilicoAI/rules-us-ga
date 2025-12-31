@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-53"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_53">
+        <num>48-8-53</num>
+        <content>
+          <p>Each wholesale dealer or jobber in this state shall keep a record of all sales of tangible personal property made in this state whether the sales are for cash or on terms of credit. The record shall contain the name and address of the purchaser, the date of the purchase, the article purchased, and the price at which the article is sold to the purchaser. These records shall be kept for a period of three years and shall be open to inspection by the commissioner or his duly authorized deputies, agents, and assistants at all reasonable hours during the day.</p>
+          <p>(Ga. L. 1951, p. 360, § 16; Code 1933, § 91A-4526, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+          <p>OPINIONS OF THE ATTORNEY GENERAL</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

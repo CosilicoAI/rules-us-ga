@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-15-1"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-15-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-15-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_15_1">
+        <num>45-15-1</num>
+        <content>
+          <p>There shall be an Attorney General of the state who shall be elected at the same time, for the same term, and in the same manner as the Governor.</p>
+          <p>(Orig. Code 1863, § 341; Code 1868, § 402; Code 1873, § 367; Code 1882, § 367; Civil Code 1895, § 219; Civil Code 1910, § 253; Code 1933, § 40-1601.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-6-41"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-6-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-6-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_6_41">
+        <num>9-6-41</num>
+        <content>
+          <p>The writ of prohibition may be granted at any time, on proper showing made. The return must be in term. Any issue of fact made thereon must be tried as in equity cases.</p>
+          <p>(Code 1863, §§ 3133, 3136; Code 1868, §§ 3145, 3148; Code 1873, §§ 3201, 3209a; Code 1882, §§ 3201, 3209a; Civil Code 1895, §§ 4876, 4885; Civil Code 1910, §§ 5449, 5458; Code 1933, §§ 64-301, 64-302.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

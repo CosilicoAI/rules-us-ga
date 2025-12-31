@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-7-40"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-7-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-7-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_7_40">
+        <num>48-7-40</num>
+        <content>
+          <p>(d.1) (1)If, on July 1, 2019, the commissioner has not preapproved tax credits in the amount of $200 million in aggregate pursuant to this Code section, a second round of preapproval applications shall be reviewed by the commissioner. Preapproval applications for the second round shall be submitted on or after July 1, 2019, and on or before December 31, 2019.</p>
+          <p>In the event that properly completed and timely submitted preapproval applications are submitted during the second round for an amount that exceeds the amount of funds available to fully fund the tax credits requested, the commissioner shall prorate the available funds between or among the applicants.</p>
+          <p>The commissioner shall approve all properly completed and timely submitted preapproval applications during the second round and issue a preapproval certificate to the taxpayer by January 31, 2020, certifying the amount of credits such taxpayer is eligible to claim if the taxpayer meets the conditions of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

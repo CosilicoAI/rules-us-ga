@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/30-3-5"/>
+          <FRBRuri value="/us-ga/act/ocga/30-3-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/30-3-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/30-3-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/30-3-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/30-3-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_30_3_5">
+        <num>30-3-5</num>
+        <content>
+          <p>All government buildings, public buildings, and facilities receiving permits for construction or renovation after July 1, 1987, but before July 1, 1995, shall comply with the American National Standards Institute specifications A117.1-1986 for making buildings and facilities accessible to and usable by individuals with disabilities, except as otherwise provided in paragraph (10) and subparagraph (C) of paragraph (11) of Code Section 30-3-2 and except that nothing in this Code section is intended to require the addition of an elevator where none exists or is planned, solely for the purpose of providing an accessible route between floor levels and, without limiting the generality of the foregoing, shall provide the following amenities for persons with disabilities, as appropriate:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

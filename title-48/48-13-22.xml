@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-13-22"/>
+          <FRBRuri value="/us-ga/act/ocga/48-13-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-13-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-13-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-13-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-13-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_13_22">
+        <num>48-13-22</num>
+        <content>
+          <p>When any person commences business on or after July 1 in any year, the business or occupation tax for the remaining portion of the year shall be 50 percent of the tax imposed for the entire year, except that (1) local governments which tax according to the criterion described in paragraph (3) of subsection (a) of Code Section 48-13-10 are authorized to levy their customary rate on the gross receipts of the business or practitioner from the commencement of the business; (2) the administrative fee authorized as a component of an occupation tax by subsection (e) of Code Section 48-13-10 shall not be reduced; and (3) a practitioner of a profession or occupation who elects as his or her occupation tax the amount described in paragraph (2) of subsection (g) of Code Section 48-13-10 shall receive no reduction in such amount.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

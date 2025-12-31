@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-101"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-101"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-101/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-101/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-101/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-101/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_101">
+        <num>50-5-101</num>
+        <content>
+          <p>The governing authorities of each of the local political subdivisions in this state shall have the right, from time to time, to determine through study whether an overall substantial price advantage will result to a political subdivision by the means of a local political subdivision either alone or in conjunction with another political subdivision bidding through the Department of Administrative Services on standard items of equipment, supplies, or services or other standard expenses ordinarily needed, procured, or incurred by such governments without a sacrifice of safety or quality. If the governing authority of any political subdivision shall determine that such a price advantage may be obtained by such means on any one or more of such items or expenses, the governing authority or authorities shall make this fact known to the Department of Administrative Services. After receipt of such notice from the political subdivisions, the Department of Administrative Services shall, after consultation with the governing authorities, establish sets of uniform standard specifications for such item or items as may be reasonably required in order to meet the needs and requirements of the requesting political subdivision. The governing authorities of the requesting political subdivision shall, at such times as the Department of Administrative Services shall prescribe, report its probable annual requirements for the standard items to the Department of Administrative Services and the requested time for delivery of the items. The Department of Administrative Services shall compile the requirements together with such other information as may be needed for the purpose of advertising for bids for a uniform state price on the items.</p>
+          <p>(Ga. L. 1968, p. 1352, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

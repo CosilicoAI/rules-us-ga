@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-993"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-993"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-993/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-993/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-993/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-993/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_993">
+        <num>20-2-993</num>
+        <content>
+          <p>In lieu of obtaining the insurance or indemnity referred to in Code Section 20-2-991 or in addition thereto, such boards may, as part of the compensation and terms of employment of the members thereof and of the officials and employees thereof, adopt policies whereby the board will undertake to defend all or specified civil, criminal, or quasi-criminal actions brought or maintained against such members or such officials and employees arising out of the performance of their duties or in any way connected therewith, whether based upon negligence, violation of contract rights, or violation of civil, constitutional, common-law, or other statutory rights, whether state or federal. Such board may expend state, county, federal, and local funds, or any combination thereof, for such purposes, including, but not limited to attorney's fees, court costs, deposition costs, witness fees and compensation, and all other like costs, expenses, and fees; provided, however, that any and all legal representation of the State Board of Education, the State School Superintendent, and employees of the state board shall be through the office of the Attorney General.</p>
+          <p>(Ga. L. 1973, p. 1267, § 4; Ga. L. 1975, p. 1181, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

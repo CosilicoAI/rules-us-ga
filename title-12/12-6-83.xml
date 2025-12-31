@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-83"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_83">
+        <num>12-6-83</num>
+        <content>
+          <p>All forest fire protection work shall be under the direction and supervision of the State Forestry Commission, through the director of the commission, subject to this part and the laws of this state relative to forestry and forest fire prevention and suppression. The commission shall have power to make and enforce all rules and regulations necessary for the administration of forest fire protection.</p>
+          <p>(Ga. L. 1925, p. 199, § 3; Ga. L. 1931, p. 7, § 21; Code 1933, § 43-206; Ga. L. 1949, p. 937, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

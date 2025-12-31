@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-560"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-560"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-560/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-560/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-560/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-560/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_560">
+        <num>20-3-560</num>
+        <content>
+          <p>It is the intention of the General Assembly that the Georgia Military College be a state-wide institution dedicated to providing a high-quality military education to the youth of this state, but not beyond the level of the second year of postsecondary study except for Bachelor of Applied Science degree programs which assist graduates of institutions under the Technical College System of Georgia in the attainment of a four-year bachelor's degree; provided, however, that no branch of the Georgia Military College shall offer any Bachelor of Applied Science degree program that is currently being offered by an institution of the Board of Regents of the University System of Georgia which is located in the same county as such branch; provided, further, that the level of such educational programs shall be subject to the availability of funds appropriated by the General Assembly. The student enrollment of the college shall reflect as closely as possible the racial and demographic makeup of the state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

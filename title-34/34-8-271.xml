@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-271"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-271"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-271/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-271/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-271/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-271/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_271">
+        <num>34-8-271</num>
+        <content>
+          <p>The General Assembly finds and declares that a public purpose is served by the waiver of interest on unemployment tax, penalties, and criminal prosecution in return for the immediate reporting and payment of previously underreported, unreported, or unpaid unemployment contributions liabilities. The General Assembly further finds and declares that the benefits gained through this program include, among other things, increased collection of certain currently owed unemployment contributions, permanently bringing into the unemployment insurance system employers who have been evading payment of unemployment contributions and providing an opportunity for such employers to satisfy unemployment contributions obligations before stepped-up unemployment tax enforcement programs take effect.It is the intention of the General Assembly in enacting this article that the unemployment tax amnesty program provided under this article be a one-time occurrence which shall not be repeated in the future because employers' expectations of any future amnesty programs could have a counterproductive effect on compliance under this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

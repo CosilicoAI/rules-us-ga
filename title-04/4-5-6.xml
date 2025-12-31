@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-5-6"/>
+          <FRBRuri value="/us-ga/act/ocga/4-5-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-5-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-5-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-5-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-5-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_5_6">
+        <num>4-5-6</num>
+        <content>
+          <p>For the purpose of putting a speedy end to the suffering of hopelessly diseased and disabled animals, any person finding any abandoned domestic animal which is diseased or injured past recovery may apply to any magistrate of the county, who may summarily decide whether such animal should be destroyed, after giving notice to the owner, if known, whenever such notice can be given without defeating the object of this Code section. The order authorizing the destruction of such animal shall not defeat the owner's claim for damages against the person destroying or procuring the destruction of such animal.</p>
+          <p>(Ga. L. 1878-79, p. 183, § 2; Code 1882, § 4612(b); Civil Code 1895, § 1755; Civil Code 1910, § 2014; Code 1933, § 62-211; Ga. L. 1983, p. 884, § 4-1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

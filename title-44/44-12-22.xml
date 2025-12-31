@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-22"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_22">
+        <num>44-12-22</num>
+        <content>
+          <p>Except as may be otherwise provided in Title 11, all choses in action arising upon contract may be assigned so as to vest the title in the assignee, but he takes it, except negotiable instruments subject to the equities existing between the assignor and debtor at the time of the assignment, and until notice of the assignment is given to the person liable.</p>
+          <p>(Orig. Code 1863, § 2224; Code 1868, § 2218; Code 1873, § 2244; Code 1882, § 2244; Civil Code 1895, § 3077; Civil Code 1910, § 3653; Code 1933, § 85-1803; Ga. L. 1943, p. 263, § 1; Ga. L. 1952, p. 225, § 9; Ga. L. 1982, p. 3, § 44; Ga. L. 1987, p. 3, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

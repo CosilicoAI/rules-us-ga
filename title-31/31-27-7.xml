@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-27-7"/>
+          <FRBRuri value="/us-ga/act/ocga/31-27-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-27-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-27-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-27-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-27-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_27_7">
+        <num>31-27-7</num>
+        <content>
+          <p>In the event the commissioner of public health determines that the various facilities appropriate for security of life or health are inadequate due to the unprecedented size of the mass gathering, failure of the person or persons responsible for providing facilities, services, and other requirements of this chapter, or for any other reason, the commissioner shall immediately inform the Governor who shall have general direction and control of the Civil Defense Division of the Department of Defense and may take whatever immediate action he deems necessary under the authority of Articles 1 through 3 of Chapter 3 of Title 38, as amended. Upon order of the Governor, the director of the Civil Defense Division shall, subject to the direction and control of the Governor, coordinate the activities of all organizations, agencies, and persons required to protect the health, safety, and general welfare of the public in the manner prescribed by Articles 1 through 3 of Chapter 3 of Title 38, as amended.</p>
+          <p>(Code 1933, § 88-1207a, enacted by Ga. L. 1971, p. 252, § 1; Ga. L. 2009, p. 453, § 1-6/HB 228; Ga. L. 2011, p. 705, § 6-5/HB 214.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

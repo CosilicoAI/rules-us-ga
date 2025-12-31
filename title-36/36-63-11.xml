@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-63-11"/>
+          <FRBRuri value="/us-ga/act/ocga/36-63-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-63-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-63-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-63-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-63-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_63_11">
+        <num>36-63-11</num>
+        <content>
+          <p>(Code 1933, § 69-1509a, enacted by Ga. L. 1978, p. 1898, § 1; Ga. L. 1984, p. 22, § 36; Ga. L. 1984, p. 1694, § 3; Ga. L. 1987, p. 1021, § 1; Ga. L. 1993, p. 91, § 36; Ga. L. 2008, p. 381, § 11/SB 358; Ga. L. 2020, p. 493, § 36/SB 429.)</p>
+          <p>The 2020 amendment,
+      effective July 29, 2020, part of an Act to revise, modernize, and correct the Code, substituted "'The Georgia Cogeneration and Distributed Generation Act of 2001'" for "'The Georgia Cogeneration Act of 1979'" at the end of the third sentence of subsection (a).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

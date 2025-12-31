@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-19-2"/>
+          <FRBRuri value="/us-ga/act/ocga/43-19-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-19-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-19-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-19-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-19-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_19_2">
+        <num>43-19-2</num>
+        <content>
+          <p>In order to safeguard life, health, and property and to promote the public welfare, the practice of geology in this state is declared to be subject to regulation in the public interest. This chapter is intended to introduce qualifying criteria into a previously unregulated professional field. Such action recommends itself through benefits to the safety, health, and property of the people of this state and to the promotion of the public welfare. These benefits are in the fields of geology as related to engineering, ground water, mineral exploration and development, geologic hazards, the further development of the science of geology, and other geologic matters of concern to the people of the state.</p>
+          <p>(Code 1933, § 84-2102A, enacted by Ga. L. 1975, p. 163, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

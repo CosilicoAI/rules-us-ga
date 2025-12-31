@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-156"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-156"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-156/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-156/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-156/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-156/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_156">
+        <num>44-12-156</num>
+        <content>
+          <p>When a verdict for damages is rendered in favor of a plaintiff in trover and a judgment is entered thereon, the verdict and judgment shall not have the effect of changing the property which is the subject matter of the action or of vesting the same in the defendant in the action until after the damages and costs recovered by the plaintiff in the action are paid off and discharged. However, the verdict and judgment shall subject the property to sale under and by virtue of an execution issuing upon the judgment in the action of trover and shall make the property liable to the payment of the damages and costs recovered in the action in preference to any other judgment, order, or decree against the defendant in such action.</p>
+          <p>(Laws 1830, Cobb's 1851 Digest, p. 499; Code 1863, § 3504; Code 1868, § 3527; Code 1873, § 3585; Code 1882, § 3585; Civil Code 1895, § 5358; Civil Code 1910, § 5953; Code 1933, § 110-514.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

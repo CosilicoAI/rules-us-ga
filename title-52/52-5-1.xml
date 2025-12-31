@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-5-1"/>
+          <FRBRuri value="/us-ga/act/ocga/52-5-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-5-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-5-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-5-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-5-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_5_1">
+        <num>52-5-1</num>
+        <content>
+          <p>All corporate powers and privileges to navigation companies shall be issued and granted by the Secretary of State upon the terms, liabilities, and restrictions and subject to all the provisions of this chapter and the Constitution of Georgia.</p>
+          <p>(Ga. L. 1894, p. 71, § 1; Civil Code 1895, § 2147; Civil Code 1910, § 2565; Code 1933, § 17-201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

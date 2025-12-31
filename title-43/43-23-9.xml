@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-23-9"/>
+          <FRBRuri value="/us-ga/act/ocga/43-23-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-23-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-23-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-23-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-23-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_23_9">
+        <num>43-23-9</num>
+        <content>
+          <p>The board may certify an applicant for registration without examination if such applicant is legally registered as a landscape architect in any state, country, or political entity whose requirements for registration are substantially equivalent to the requirements provided in this chapter and which state, country, or political entity extends the same privilege of reciprocity to landscape architects registered in this state. Such application shall be accompanied by the same licensing fee as required of other landscape architects, provided that such fee shall be returned if the license is not granted.</p>
+          <p>(Code 1933, § 84-4013, enacted by Ga. L. 1976, p. 1730, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-50"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_50">
+        <num>31-8-50</num>
+        <content>
+          <p>The General Assembly finds that a significant number of older citizens of this state reside in long-term care facilities in this state and, because of their isolated and vulnerable condition, are more dependent on others for their protection and care. It is the intent of the General Assembly to protect and improve the quality of care and life for residents through the promotion of community involvement in long-term care facilities and by the establishment of a process to resolve complaints and problems of residents. It is the further intent of the General Assembly that the department, within available resources and pursuant to its duties under the Older Americans Act of 1965, as amended, ensure that the quality of care and life for such residents is maintained, that necessary reports are made and that, where necessary, corrective action is taken at the departmental level.</p>
+          <p>(Code 1933, § 88-1902a, enacted by Ga. L. 1979, p. 1240, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

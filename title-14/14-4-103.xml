@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-103"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-103/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-103/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_103">
+        <num>14-4-103</num>
+        <content>
+          <p>After the filing of an application for an amended charter under Code Section 14-4-100 and the issuance of the certificate prescribed in Code Section 14-4-101 or 14-4-102, the corporation shall be conclusively presumed to have accepted the amendment specified and shall have, enjoy, and exercise all the corporate powers and privileges set out in the Act or the particular section of the Act specified in the application and certificate.</p>
+          <p>(Ga. L. 1893, p. 89, § 2; Civil Code 1895, § 1842; Civil Code 1910, § 2199; Code 1933, § 22-508; Code 1933, § 22-4309, enacted by Ga. L. 1968, p. 565, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

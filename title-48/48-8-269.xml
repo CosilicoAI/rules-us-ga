@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-269"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-269"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-269/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-269/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-269/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-269/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_269">
+        <num>48-8-269</num>
+        <content>
+          <p>Not later than December 31 of each year, the governing authority of the county receiving any proceeds from the tax under this part shall publish annually, in a newspaper of general circulation in the boundaries of such county, a simple, nontechnical report which shows for each transit project in the resolution calling for the imposition of the tax the original estimated cost, the current estimated cost if it is not the original estimated cost, amounts expended in prior years, and amounts expended in the current year. The report shall also include a statement of what corrective action the county intends to implement with respect to each project which is underfunded or behind schedule and a statement of any surplus funds which have not been expended for a purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-4"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_4">
+        <num>40-2-4</num>
+        <content>
+          <p>(Ga. L. 1921, p. 255, § 11; Code 1933, §§ 68-216, 68-9905; Ga. L. 1990, p. 2048, § 2; Ga. L. 2021, p. 124, § 2/SB 210.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, substituted "Except as otherwise provided for in Article 2B of this chapter, it shall" for "It shall" at the beginning of subsection (a).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

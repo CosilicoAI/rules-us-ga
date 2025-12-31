@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-6-53"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-6-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-6-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_6_53">
+        <num>52-6-53</num>
+        <content>
+          <p>Pilots for their respective ports shall be honorably retired at age 65 and no pilot who has been so retired shall thereafter be entitled to act as a licensed pilot, provided that no pilot shall be compulsorily retired at age 65 unless there is in effect a pension system for pilots of the port at which he serves.</p>
+          <p>(Ga. L. 1945, p. 279, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

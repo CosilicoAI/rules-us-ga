@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-422"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-422"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-422/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-422/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-422/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-422/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_422">
+        <num>20-3-422</num>
+        <content>
+          <p>The authority shall establish and promulgate, consistent with this subpart, criteria for the eligibility and award of such scholarships. The authority shall, on or before February 1 of each year, select and nominate six persons from each congressional district in Georgia from a list of persons recommended to the authority by members of the General Assembly. From the persons so nominated, three persons from each congressional district shall be selected as scholarship recipients as provided in Code Section 20-3-423.</p>
+          <p>(Ga. L. 1980, p. 1292, § 4; Code 1933, § 32-3785, enacted by Ga. L. 1981, p. 735, § 51; Ga. L. 1984, p. 721, § 1; Ga. L. 1987, p. 468, § 1; Ga. L. 1990, p. 1903, § 3; Ga. L. 2013, p. 1048, § 1/SB 82.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

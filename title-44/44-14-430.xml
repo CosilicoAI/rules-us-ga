@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-430"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-430"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-430/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-430/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-430/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-430/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_430">
+        <num>44-14-430</num>
+        <content>
+          <p>In order to enforce his lien for materials furnished and work done, any jeweler or any other person, firm, or corporation engaged in the business of repairing watches, clocks, jewelry, and other articles of similar character may sell those articles upon which charges for repairs, including work done and materials furnished, have not been paid and which have remained in the possession of the jeweler, person, firm, or corporation for a period of one year following the completion of the repairs.</p>
+          <p>(Ga. L. 1927, p. 218, § 1; Code 1933, § 67-2101.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

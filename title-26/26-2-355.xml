@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-2-355"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-355"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-2-355/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-355/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-2-355/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-355/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_2_355">
+        <num>26-2-355</num>
+        <content>
+          <p>The Commissioner or his authorized representatives shall have access, at any reasonable hour, to any building, area, structure, plant, or vehicle used in the manufacture, bottling, or distribution of a bottled soft drink or soft drink syrup to inspect sanitary conditions therein.</p>
+          <p>(Ga. L. 1956, p. 611, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

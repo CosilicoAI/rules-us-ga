@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-254"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-254"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-254/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-254/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-254/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-254/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_254">
+        <num>40-6-254</num>
+        <content>
+          <p>No person shall operate any motor vehicle with a load on or in such vehicle unless the load on or in such vehicle is adequately secured to prevent the dropping or shifting of such load onto the roadway in such a manner as to create a safety hazard. For purposes of this Code section, a load shall include, but not be limited to, a trailer required to be registered under Chapter 2 of this title. Any person who operates a vehicle in violation of this Code section shall be guilty of a misdemeanor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

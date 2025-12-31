@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/3-7-41"/>
+          <FRBRuri value="/us-ga/act/ocga/3-7-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/3-7-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/3-7-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/3-7-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/3-7-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_7_41">
+        <num>3-7-41</num>
+        <content>
+          <p>"[ ] YES
+   Shall alcoholic beverages by the drink, for
+   [ ] NO
+   consumption on the premises only, be allowed in private clubs?"</p>
+          <p>No election under this Code section shall be held within two years after the date of the declaration of the result of a previous election held under this Code section.</p>
+          <p>The local governing authority must approve any license within its jurisdiction before issuance of the license.</p>
+          <p>(Ga. L. 1978, p. 1155, § 6; Code 1933, § 5A-6108, enacted by Ga. L. 1980, p. 1573, § 1.)</p>
+        </content>
+        <subsection eId="sec_3_7_41__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>The ballot in the election shall have written or printed thereon:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

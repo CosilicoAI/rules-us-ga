@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-169"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-169"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-169/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-169/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-169/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-169/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_169">
+        <num>44-6-169</num>
+        <content>
+          <p>Upon the sale of lands and tenements as provided for in Code Section 44-6-167, the parties in interest shall execute a title to the purchaser; and, if any of them shall fail or refuse to do so, the commissioners or any two of them shall execute a deed of conveyance to such lands and tenements to the purchaser at such sale, which deed shall be as valid and binding as if made by the parties themselves.</p>
+          <p>(Laws 1837, Cobb's 1851 Digest, p. 584; Code 1863, § 3905; Code 1868, § 3929; Code 1873, § 4005; Code 1882, § 4005; Civil Code 1895, § 4795; Civil Code 1910, § 5367; Code 1933, § 85-1513.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

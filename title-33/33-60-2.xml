@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-60-2"/>
+          <FRBRuri value="/us-ga/act/ocga/33-60-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-60-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-60-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-60-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-60-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_60_2">
+        <num>33-60-2</num>
+        <content>
+          <p>The General Assembly recognizes the need for employers and individuals in this state to have the opportunity to choose among group and individual health insurance plans that are more affordable and flexible than standard market policies of accident and sickness insurance and the need to increase the availability of health insurance coverage by authorizing the transaction of this type of plan or policy by accident and sickness insurers licensed to transact business in this state. This chapter shall require insurers which provide major medical coverage to offer policies that contain all state mandated health benefits as well as policies that contain the limited selection of state mandated health benefits set forth in Code Section 33-60-3; provided, however, that employees in group plans or individuals may choose pursuant to this chapter among new health insurance plans offered by insurers that either include all state mandated health benefits or include the limited state mandated health benefits set forth in Code Section 33-60-3.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

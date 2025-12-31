@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-98"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-98"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-98/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-98/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-98/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-98/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_98">
+        <num>9-13-98</num>
+        <content>
+          <p>When an execution issued from a court is levied upon personal property and claimed by a person not a party to the execution, it shall be the duty of the levying officer to return the same, together with the execution, to the next term of the court from which the execution issued. Where an execution is levied upon real property and the same is claimed in the manner aforesaid, it shall be the duty of the officer making the levy to return the same, together with the execution and claim, to the next term of the superior court of the county in which the land so levied upon lies.</p>
+          <p>(Laws 1821, Cobb's 1851 Digest, p. 532; Code 1863, § 3658; Code 1868, § 3683; Code 1873, § 3736; Code 1882, § 3736; Civil Code 1895, § 4621; Civil Code 1910, § 5167; Code 1933, § 39-901.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-126"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-126"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-126/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-126/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-126/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-126/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_126">
+        <num>46-8-126</num>
+        <content>
+          <p>In all cases where a railroad crosses a highway and the cutting makes a change in the route of any such highway or a change is desirable with a view to easier ascent or descent, the railroad company may take such additional lands for the construction of such highway upon a new route as may be deemed necessary by the directors. In taking property under this Code section, the railroad company shall proceed in the manner provided in Title 22 for condemning rights of way and other property.</p>
+          <p>(Ga. L. 1892, p. 37, § 12; Civil Code 1895, § 2172; Civil Code 1910, § 2590; Code 1933, § 94-310.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

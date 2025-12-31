@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-15-91"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-15-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-15-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_15_91">
+        <num>25-15-91</num>
+        <content>
+          <p>The owner of the carnival ride shall report to the office any accident incurred during the operation of any carnival ride resulting in a fatality or an injury requiring medical attention from a licensed medical facility. The report shall be in writing, shall describe the nature of the occurrence and injury, and shall be delivered in person or mailed by first-class mail no later than the close of the next business day following the accident. Accidents resulting in a fatality shall also be reported immediately to the office in person or by phone in accordance with regulations adopted by the office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

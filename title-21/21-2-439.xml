@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-439"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-439"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-439/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-439/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-439/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-439/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_439">
+        <num>21-2-439</num>
+        <content>
+          <p>Decisions concerning questionable marks on ballots or defacing or mutilation of ballots and the count to be recorded thereon shall be made by the assistant managers; and, if they disagree, the chief manager shall make the decision.</p>
+          <p>(Code 1933, § 34-1323, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Code 1933, § 34-1325, as redesignated by Ga. L. 1969, p. 308, § 25; Ga. L. 1998, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

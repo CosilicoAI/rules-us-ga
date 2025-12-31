@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-261"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-261"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-261/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-261/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-261/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-261/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_261">
+        <num>44-14-261</num>
+        <content>
+          <p>Any person seeking to foreclose an interest in personal property arising out of a commercial transaction under this subpart may seek an immediate writ of possession from the court before which the petition is filed if the petition contains a statement of facts, under oath, by the petitioner or his agent or attorney which sets forth the basis of the petitioner's claim and a sufficient ground for the issuance of an immediate writ of possession. No such writ shall issue on an interest arising out of a consumer transaction; provided, however, that an immediate writ of possession may issue for merchandise or services rendered on merchandise which was paid for, in whole or in part, by a bad check as the term "bad check" is defined in Code Section 44-14-516.</p>
+          <p>(Code 1933, § 67-709, enacted by Ga. L. 1975, p. 1213, § 3; Ga. L. 1989, p. 803, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

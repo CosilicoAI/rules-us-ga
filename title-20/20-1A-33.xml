@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-1A-33"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1A-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-1A-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1A-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-1A-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1A-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_1A_33">
+        <num>20-1A-33</num>
+        <content>
+          <p>After being furnished the required records check application under Code Section 20-1A-32, the department shall notify the license, commission, or change of ownership applicant and the records check applicant in writing whether the department's determination as to a potential director or potential employee is satisfactory or unsatisfactory. If the comprehensive records check determination was satisfactory as to the potential director and each potential employee of a license applicant's facility, that applicant may be issued a license or commission for that facility if the applicant otherwise qualifies for a license or commission under Article 1 of this chapter. If the comprehensive records check determination for a potential director or any potential employee revealed a criminal record, such potential director or potential employee shall not be allowed to be present at the facility while any child is present for care or to reside in the facility until he or she either has obtained a satisfactory comprehensive records check determination or has had the unsatisfactory determination reversed in accordance with Code Section 20-1A-43, notwithstanding Code Section 20-1A-45. The department shall revoke the license or commission of an early care and education program if the early care and education program fails to comply with the requirements of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

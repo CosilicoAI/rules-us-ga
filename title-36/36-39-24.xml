@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-24"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_24">
+        <num>36-39-24</num>
+        <content>
+          <p>No action shall be sustained (1) to set aside any assessment, (2) to enjoin the governing body from making, fixing, or collecting the assessment or issuing or levying executions therefor or issuing bonds or providing for their payment, or (3) contesting the validity thereof on any grounds or for any reason other than the failure of the governing body to adopt and publish the preliminary resolution provided for in Code Section 36-39-3 in cases requiring such resolution and its publication or to give notice of the hearing of the return of the appraisers as provided for in Code Section 36-39-14, unless such action is commenced within 30 days after the passage of the ordinance making the assessment final.</p>
+          <p>(Ga. L. 1927, p. 321, § 12; Code 1933, § 69-424.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

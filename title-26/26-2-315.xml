@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-2-315"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-315"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-2-315/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-315/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-2-315/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-315/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_2_315">
+        <num>26-2-315</num>
+        <content>
+          <p>The Commissioner of Agriculture is authorized to regulate and prescribe rules and regulations with respect to the proper method of sanitation, distribution, and transportation of all fish and seafoods in this state and, as well, all fish and seafood transported from all other states. To this end the Commissioner may require that all fish and seafoods transported into and in and through this state shall be in refrigerated cars or by refrigerated trucks with insulated bodies or in containers disconnected from the body of the truck or by express or in boxes or other containers adequately iced. When fish and seafoods are transported from this state by truck, they shall be equipped with enclosed insulated bodies or containers disconnected from the body of the truck with proper refrigeration to carry the fish and seafood in good condition with 50 percent weight of ice to weight of fish or seafoods.</p>
+          <p>(Ga. L. 1937-38, Ex. Sess., p. 332, § 7; Ga. L. 1992, p. 6, § 26.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

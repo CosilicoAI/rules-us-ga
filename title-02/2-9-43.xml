@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-9-43"/>
+          <FRBRuri value="/us-ga/act/ocga/2-9-43"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-9-43/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-9-43/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-9-43/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-9-43/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_9_43">
+        <num>2-9-43</num>
+        <content>
+          <p>In addition to the other remedies provided in this article and notwithstanding the existence of any adequate remedy at law, the Commissioner is authorized to apply to the superior court, which court shall have jurisdiction, upon hearing and for cause shown, to grant a temporary or permanent injunction, or both, restraining any person from violating or continuing to violate this article or from failing or refusing to comply with this article or any rule or regulation adopted by the Commissioner as provided in this article. Such injunction shall be issued without bond.</p>
+          <p>(Ga. L. 1976, p. 512, § 16.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

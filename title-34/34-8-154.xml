@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-154"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-154"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-154/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-154/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-154/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-154/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_154">
+        <num>34-8-154</num>
+        <content>
+          <p>Except as provided in Code Section 34-8-161, the Commissioner shall maintain a separate account for each employer and shall credit such account with all the contributions paid by that employer. Nothing in this chapter shall be construed to grant any employer or individuals in the service of such employer prior claims or rights to the amounts paid by the employer into the fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

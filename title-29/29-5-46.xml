@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/29-5-46"/>
+          <FRBRuri value="/us-ga/act/ocga/29-5-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/29-5-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/29-5-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/29-5-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/29-5-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_5_46">
+        <num>29-5-46</num>
+        <content>
+          <p>The conservator and any surety shall be held and deemed joint and several obligors and may be subjected jointly and severally to liability in the same action. When a conservator moves beyond the limits of this state, dies, and leaves an unrepresented estate, or is in a position that an attachment may be issued as against a debtor, any party in interest or any person having demands against that conservator in the conservator's representative capacity may institute an action against any one or more of the sureties on the bond of the conservator in the first instance, without first obtaining a judgment against the conservator in that person's representative capacity.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

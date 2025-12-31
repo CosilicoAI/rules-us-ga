@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-60-7"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-60-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-60-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_60_7">
+        <num>36-60-7</num>
+        <content>
+          <p>When any county or municipal corporation of this state has voted, issued, and sold, or hereafter votes, issues, and sells bonds with the proceeds of which to match state and federal allocations and contributions and to build and equip a hospital in such county or municipal corporation, and because of increased contributions thereto by the state or the federal government the cost thereof is less than the architects or engineers estimate, or for other reasons there is an excess over the cost to such county or municipal corporation in the proceeds of the sale of such bonds, such county or municipal corporation, acting by and through its governing authority, may apply such excess to the cost of supplies for and of opening and operating such hospital or to the cost of constructing and equipping a nurses' home to be used in connection therewith. Such excess of bond issues may be used and so applied whether the hospital is built and equipped through a contract made by the county or municipal corporation directly or is made through a hospital authority under Article 4 of Chapter 7 of Title 31, of which such county or municipal corporation is a participating unit.</p>
+          <p>(Ga. L. 1952, p. 151, §§ 1, 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

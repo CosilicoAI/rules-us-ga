@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-40-13"/>
+          <FRBRuri value="/us-ga/act/ocga/43-40-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-40-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-40-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-40-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-40-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_40_13">
+        <num>43-40-13</num>
+        <content>
+          <p>All fees collected pursuant to this chapter shall be deposited by the commission into the state treasury. Out of the funds thus arising shall be paid the expenses contemplated in this chapter for the administration and enforcement of this chapter. All expenditures authorized by the commission shall be paid from the funds received pursuant to this chapter. The expenses of the commission and the commissioner must always be kept within the income collected and deposited in accordance with this chapter; and the expense thereof shall not be supported or paid from any other state fund.</p>
+          <p>(Code 1933, § 84-1413, enacted by Ga. L. 1973, p. 100, § 1; Ga. L. 1980, p. 1398, § 4; Ga. L. 1982, p. 1001, §§ 5, 13.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

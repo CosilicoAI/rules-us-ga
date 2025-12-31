@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-4-6"/>
+          <FRBRuri value="/us-ga/act/ocga/34-4-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-4-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-4-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-4-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-4-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_4_6">
+        <num>34-4-6</num>
+        <content>
+          <p>If any employer pays any employee a lesser amount than the minimum wage provided in this chapter, the employee, at any time within three years, may bring a civil action in superior court for the recovery of the difference between the amount paid and the minimum wage provided in this chapter, plus an additional amount equal to the original claim, which shall be allowed as liquidated damages, together with costs and such reasonable attorney's fees as may be allowed by the court. No contract or agreement between any employer and his employees nor any acceptance of a lesser wage by any employee shall bar the action.</p>
+          <p>(Ga. L. 1970, p. 153, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

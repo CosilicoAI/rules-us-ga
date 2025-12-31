@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-811"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-811"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-811/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-811/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-811/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-811/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_811">
+        <num>20-2-811</num>
+        <content>
+          <p>Whoever, with intent to defraud the state or any county, town, or city or any person, shall falsely and fraudulently make, forge, alter, or counterfeit or cause or procure to be falsely and fraudulently made, forged, altered, or counterfeited or shall willingly aid or assist in falsely and fraudulently making, forging, altering, or counterfeiting any certificate or license issued by any county school superintendent or the executive officer of any local school board to a teacher shall be guilty of a felony and shall be punished as prescribed by Code Sections 16-9-1 and 16-9-2.</p>
+          <p>(Ga. L. 1919, p. 288, § 165; Code 1933, § 32-9905.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

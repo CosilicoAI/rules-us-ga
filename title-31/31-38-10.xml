@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-38-10"/>
+          <FRBRuri value="/us-ga/act/ocga/31-38-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-38-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-38-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-38-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-38-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_38_10">
+        <num>31-38-10</num>
+        <content>
+          <p>In addition to any other rights or remedies otherwise provided to consumers by law, any consumer who is damaged by any violation of this chapter may bring an action in superior court to recover a penalty fee of no less than $1,000.00 and to recover any actual, consequential, or punitive damages the court deems appropriate.Any recovery under this Code section shall also include attorney's fees and court costs.It is the intent of the General Assembly in this Code section to provide consumers with an additional remedy to encourage enforcement of this chapter through private rights of action.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

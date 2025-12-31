@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-35-1"/>
+          <FRBRuri value="/us-ga/act/ocga/31-35-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-35-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-35-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-35-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-35-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_35_1">
+        <num>31-35-1</num>
+        <content>
+          <p>The General Assembly finds and declares that, by reason of their employment, firefighters, emergency medical technicians, and public safety officers are required to work in the midst of and are subject to exposure to infectious diseases, especially hepatitis B and hepatitis C; that the United States Centers for Disease Control and Prevention have estimated that 200,000 persons in the United States are infected each year with hepatitis B and of that number 25 percent become ill, 10,000 require hospitalization, and 5,000 die; that it is estimated that there are from 500,000 to 1,000,000 infectious hepatitis B carriers in the United States, of which up to 80 percent of such chronic carriers are unaware that they have hepatitis B and are capable of spreading it; that 3.9 million Americans are infected with chronic hepatitis C; that 350,000 to 450,000 new cases of chronic hepatitis C occur each year; that there is no known cure for hepatitis B or hepatitis C and for firefighters, emergency medical technicians, and public safety officers, there is no way of knowing who among those being helped at an accident, a fire, or any incident are hepatitis B or hepatitis C carriers. The General Assembly further finds and declares that all the aforementioned conditions exist and arise out of or in the course of such employment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

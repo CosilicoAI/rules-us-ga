@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-22"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_22">
+        <num>36-39-22</num>
+        <content>
+          <p>The defendant shall have the right to file an affidavit denying that the whole or any part of the amount for which the execution issued is due and stating what amount he admits to be due, which amount so admitted to be due shall be paid and collected before the affidavit is received and the affidavit shall be received for the balance. All affidavits, including those filed by railroads or street railways against whom execution is issued for the cost and expense of paving, shall set out in detail the reasons why the affiant claims the amount is not due. When received by the municipal marshal or chief of police, such affidavits shall be returned to the superior court of the county wherein the municipal corporation is located. They shall be tried and the issue shall be determined as in cases of illegality, subject to all the pains and penalties provided for in other cases of illegality for delay under the laws of this state.</p>
+          <p>(Ga. L. 1927, p. 321, § 11; Code 1933, § 69-423.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

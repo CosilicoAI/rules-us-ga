@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-359"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-359"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-359/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-359/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-359/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-359/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_359">
+        <num>7-1-359</num>
+        <content>
+          <p>No person shall charge a fee or solicit any other form of compensation for the purpose of conducting a search for dormant, abandoned, or unclaimed deposit accounts or other abandoned properties whether held by a financial institution or escheated to any governmental agency. Notwithstanding the foregoing, a commission or finder's fee not to exceed 10 percent of actual sums recovered by the owner of such accounts may be agreed to by the parties. All moneys and properties located by a person to be compensated by the payment of such a commission or finder's fee shall be paid directly to the owner and may not be paid over to the person to receive the commission or finder's fee whether pursuant to a duly executed power of attorney or otherwise.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

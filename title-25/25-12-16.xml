@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-12-16"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-12-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-12-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_12_16">
+        <num>25-12-16</num>
+        <content>
+          <p>The Commissioner shall make and promulgate specifications as to the number, type, size, shape, color, and information and data contained thereon of service tags to be attached to all portable fire extinguishers and fire suppression systems covered by this chapter when they are installed, inspected, recharged, repaired, serviced, or tested.It shall be unlawful to install, inspect, recharge, repair, service, or test any portable fire extinguisher or fire suppression system without attaching the required tag or tags completed in detail, including the actual month, day, and year the work was performed, or to use a tag not meeting the specifications set forth by the Commissioner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

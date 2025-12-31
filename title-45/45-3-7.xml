@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-3-7"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-3-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-3-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_3_7">
+        <num>45-3-7</num>
+        <content>
+          <p>Before proceeding to act, all deputies shall take the same oaths as their principals take and the oaths shall be filed and entered on the minutes of the same office with the same endorsement thereon; but this Code section shall not apply to any deputy who may be employed in particular cases only. A deputy sheriff may take his oaths before the sheriff and the oaths may be filed in and entered in the records of the sheriff's office.</p>
+          <p>(Orig. Code 1863, § 140; Code 1868, § 135; Code 1873, § 145; Code 1882, § 145; Civil Code 1895, § 240; Civil Code 1910, § 275; Code 1933, § 89-308; Ga. L. 1980, p. 527, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

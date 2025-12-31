@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-6-22"/>
+          <FRBRuri value="/us-ga/act/ocga/20-6-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-6-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-6-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-6-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-6-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_6_22">
+        <num>20-6-22</num>
+        <content>
+          <p>There is established the Georgia Education Council, which shall be composed of the members of the Education Commission of the States representing this state and such other persons appointed by the Governor at his discretion to serve at his pleasure. Such other persons shall be selected so as to be broadly representative of professional and lay interest within this state having the responsibilities for, and interest in, the improvement of education. The Governor, or a member of the council designated by the Governor, shall serve as chairman of the council. The council shall meet on the call of the Governor or a majority of its members, but in any event the council shall meet not less than three times in each year. The council may consider any and all matters relating to recommendations of the Education Commission of the States and the activities of the members in representing this state thereon.</p>
+          <p>(Ga. L. 1977, p. 975, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-2-245"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-245"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-2-245/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-245/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-2-245/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-245/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_2_245">
+        <num>26-2-245</num>
+        <content>
+          <p>Any milk or milk product shipped into this state or produced, processed, or delivered in this state in violation of the laws of this state or the rules and regulations promulgated by the Commissioner pursuant thereto shall be condemned by the Commissioner and may be rendered unfit for marketing by the addition of a pyoktanin solution or other approved harmless coloring matter to notify the consuming public that the milk or milk product is ungraded and unfit for human consumption.</p>
+          <p>(Code 1933, § 42-618, enacted by Ga. L. 1937, p. 725, § 1; Ga. L. 1961, p. 501, § 8; Ga. L. 1980, p. 981, § 18.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

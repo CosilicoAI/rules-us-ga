@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-1-8"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-1-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-1-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_1_8">
+        <num>20-1-8</num>
+        <content>
+          <p>Any lottery funds appropriated for purposes of new capital construction shall be placed in a Construction Reserve Trust Fund to be maintained by the appropriate fiscal officers of state government. Funds so placed in the Construction Reserve Trust Fund shall be deemed to be committed for educational purposes and programs in compliance with subsection (d) of Code Section 50-27-13. Any such funds must be designated by project by the appropriate educational agency no later than June 30 of the fiscal year for which the funds were appropriated. Any such funds must be contractually obligated no later than June 30 of the fiscal year following the fiscal year for which the funds were appropriated. Any funds not designated or contractually obligated within such time periods shall lapse; and additionally any funds not expended as originally designated and obligated within 24 months after the close of the fiscal year for which such funds were originally appropriated shall lapse. Any funds so lapsing shall lapse to the general fund of the state treasury and shall be credited to the Lottery for Education Account.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

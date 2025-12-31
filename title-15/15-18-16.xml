@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-16"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_16">
+        <num>15-18-16</num>
+        <content>
+          <p>Upon the death or resignation of a district attorney, the chief assistant district attorney or, if there is no chief assistant district attorney, the assistant district attorney senior in time of service shall perform the duties of the deceased or resigned district attorney in his or her name until such official's successor is appointed or elected and qualified. An assistant district attorney performing the duties of a deceased or resigned district attorney shall be compensated as provided for acting district attorneys in subsection (b) of Code Section 15-18-15.</p>
+          <p>(Code 1933, § 24-2919, enacted by Ga. L. 1977, p. 1257, § 8; Ga. L. 1979, p. 639, § 2; Ga. L. 2006, p. 414, § 3/HB 268.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

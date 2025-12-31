@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-221"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-221"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-221/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-221/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-221/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-221/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_221">
+        <num>11-2A-221</num>
+        <content>
+          <p>If a lease contract requires goods identified when the lease contract is made, and the goods suffer casualty without fault of the lessee, the lessor or the supplier before delivery, or the goods suffer casualty before risk of loss passes to the lessee pursuant to the lease agreement or Code Section 11-2A-219, then:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

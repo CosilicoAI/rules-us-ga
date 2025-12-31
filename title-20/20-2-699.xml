@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-699"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-699"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-699/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-699/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-699/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-699/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_699">
+        <num>20-2-699</num>
+        <content>
+          <p>Any person assuming temporary custody of a child pursuant to Code Section 20-2-698 shall immediately deliver the child either to the parent, guardian, or other person having control or charge of the child or to the school from which the child is absent, or if the child is found to have been adjudged a delinquent child or a child in need of services, the person shall cause the child to be brought before the juvenile probation officer or community supervision officer of the county having jurisdiction over such child.</p>
+          <p>(Ga. L. 1976, p. 768, § 1; Ga. L. 1994, p. 97, § 20; Ga. L. 2013, p. 294, § 4-36/HB 242; Ga. L. 2015, p. 422, § 5-51/HB 310.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "before the juvenile probation officer or community supervision officer of the county" for "before the probation officer of the county" near the end of this Code section. See Editor's note for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

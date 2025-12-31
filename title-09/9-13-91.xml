@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-91"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_91">
+        <num>9-13-91</num>
+        <content>
+          <p>The person claiming the property levied on, or his agent or attorney, shall give bond to the sheriff or other levying officer, with good and sufficient security in a sum not larger than double the amount of the execution levied, made payable to the plaintiff in execution. Where the property levied on is of less value than the execution, the amount of the bond shall be double the value of the property levied upon, at a reasonable valuation to be judged by the levying officer, conditioned to pay the plaintiff in execution all damages which the jury on the trial of the claim may assess against the person claiming the property in case it appears that the claim was made for the purpose of delay only.</p>
+          <p>(Laws 1821, Cobb's 1851 Digest, p. 533; Code 1863, §§ 3651, 3654; Code 1868, §§ 3676, 3679; Ga. L. 1872, p. 41, § 1; Code 1873, §§ 3726, 3729; Code 1882, §§ 3726, 3729; Civil Code 1895, §§ 4612, 4615; Civil Code 1910, §§ 5158, 5161; Code 1933, § 39-802.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

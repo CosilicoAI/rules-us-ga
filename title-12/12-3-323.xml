@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-323"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-323"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-323/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-323/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-323/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-323/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_323">
+        <num>12-3-323</num>
+        <content>
+          <p>The authority, or any authority or body which has succeeded or which may in the future succeed to the powers, duties, and liabilities vested in the authority, shall have power and is authorized at one time, or from time to time, to provide by resolution for the issuance of negotiable revenue bonds for the purpose of paying all or any part of the cost, as defined in this part, of any one project or a combination of projects. The principal and interest of such revenue bonds shall be payable solely from the special fund provided in Code Section 12-3-334 for such payment. The bonds of each issue shall be dated and shall mature at such times and bear interest at such rates as may be determined by the authority, payable in such medium of payment as to both principal and interest as may be determined by the authority, and may be made redeemable before maturity, at the option of the authority, at such price or prices and under such terms and conditions as may be fixed by the authority in the resolution providing for the issuance of the bonds.</p>
+          <p>(Ga. L. 1962, p. 736, §§ 11, 13; Ga. L. 1969, p. 397, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

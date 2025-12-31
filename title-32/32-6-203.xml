@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-203"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-203"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-203/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-203/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-203/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-203/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_203">
+        <num>32-6-203</num>
+        <content>
+          <p>Any judgment, decision, or order of the department upon any question involving the advisability or necessity of eliminating any grade crossing, of installing any protective device, of improving any grade crossing structure, or involving any other question concerning the public roads arising under this part shall be subject to judicial review in such manner as is provided by law for judicial review of contested cases under Chapter 13 of Title 50, the "Georgia Administrative Procedure Act." Pending the final determination of any judicial proceedings so instituted, the department, without prejudice to it or the railroad involved and at its own risk, may proceed with the work involved in such litigation, subject to final judgment of the court as to all questions involved in such litigation.</p>
+          <p>(Ga. L. 1927, p. 299, § 11; Code 1933, § 95-1911; Code 1933, § 95A-1018, enacted by Ga. L. 1973, p. 947, § 1; Ga. L. 2002, p. 1050, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

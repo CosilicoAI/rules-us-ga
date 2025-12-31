@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-19-30"/>
+          <FRBRuri value="/us-ga/act/ocga/45-19-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-19-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-19-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-19-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-19-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_19_30">
+        <num>45-19-30</num>
+        <content>
+          <p>It is an unlawful practice for an employer controlling apprenticeship or other training or retraining including on-the-job training programs to discriminate against an individual because of such individual's race, color, religion, national origin, sex, disability, or age in admission to or employment in any program established to provide apprenticeship or other training or to discriminate by allowing admission or promotion to an apprenticeship or training program solely because of race, color, religion, national origin, sex, disability, or age.</p>
+          <p>(Ga. L. 1978, p. 859, § 4; Ga. L. 1983, p. 1097, § 1; Ga. L. 1995, p. 1302, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-6-22"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-6-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-6-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_6_22">
+        <num>53-6-22</num>
+        <content>
+          <p>Notice of the petition for letters of administration shall be served by the court by first-class mail on each heir with a known address at least 30 days prior to the date on or before which any objection is required to be filed. If there is any heir whose current address is unknown or any heir who is unknown, notice shall be served on any such heir by being published in the official newspaper of the county in which the petition is made once each week for four weeks prior to the week that includes the date on or before which any objection must be filed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

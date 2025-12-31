@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-111"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-111/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-111/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_111">
+        <num>38-2-111</num>
+        <content>
+          <p>The Governor's personal staff shall consist of one chief of aides-de-camp, with rank of brigadier general; two assistant chiefs of aides-de-camp, with rank of colonel; all other aides-de-camp shall be appointed with the rank of lieutenant colonel. The selection of aides-de-camp shall be without regard to previous military service, sex, or age limit; and the commissions of all of these officers shall expire with the expiration of the term of the Governor making the appointment. All appointments will be in either the army or air force. Officers of the National Guard shall be eligible to appointment to any of the ranks or the offices of aide-de-camp provided for, but such appointments shall not vacate or affect their status as commissioned officers in the National Guard in which they are serving. The aides-de-camp shall perform such personal and ceremonial duties pertaining to their office as may be required of them by the Governor.</p>
+          <p>(Ga. L. 1916, p. 158, § 1; Ga. L. 1921, p. 195, § 1; Ga. L. 1931, p. 198, § 1; Code 1933, §§ 86-103, 86-104; Ga. L. 1951, p. 311, § 4; Ga. L. 1955, p. 10, § 12; Ga. L. 1963, p. 10, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

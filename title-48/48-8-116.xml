@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-116"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-116"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-116/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-116/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-116/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-116/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_116">
+        <num>48-8-116</num>
+        <content>
+          <p>Where a local sales or use tax has been paid with respect to tangible personal property by the purchaser either in another local tax jurisdiction within the state or in a tax jurisdiction outside the state, the tax may be credited against the tax authorized to be imposed by this part upon the same property. If the amount of sales or use tax so paid is less than the amount of the use tax due under this part, the purchaser shall pay an amount equal to the difference between the amount paid in the other tax jurisdiction and the amount due under this part. The commissioner may require such proof of payment in another local tax jurisdiction as he deems necessary and proper. No credit shall be granted, however, against the tax imposed under this part for tax paid in another jurisdiction if the tax paid in such other jurisdiction is used to obtain a credit against any other local sales and use tax levied in the county or in a special district which includes the county; and taxes so paid in another jurisdiction shall be credited first against the tax levied under Article 2 of this chapter, if applicable, and then against the tax levied under this part.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

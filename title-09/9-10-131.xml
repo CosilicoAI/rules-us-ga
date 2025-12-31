@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-131"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-131"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-131/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-131/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-131/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-131/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_131">
+        <num>9-10-131</num>
+        <content>
+          <p>All bonds taken under requirement of law in the course of a judicial proceeding may be amended and new security given if necessary.</p>
+          <p>(Orig. Code 1863, § 3434; Code 1868, § 3454; Code 1873, § 3505; Code 1882, § 3505; Civil Code 1895, § 5123; Civil Code 1910, § 5707; Code 1933, § 81-1204.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

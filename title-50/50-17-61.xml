@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-17-61"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-17-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-17-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_17_61">
+        <num>50-17-61</num>
+        <content>
+          <p>Any surety desiring to be relieved from the bond of a state depository may give notice in writing to the Governor of such desire with the reasons therefor; and the Governor shall have authority, in his discretion, to relieve the surety. The consent of the cosureties first must be obtained in writing; and the principal must furnish a new surety to take the place of the surety relieved, which new surety will assume all the liabilities for past and future transactions.</p>
+          <p>(Ga. L. 1882-83, p. 138, § 3; Civil Code 1895, § 988; Civil Code 1910, § 1255; Code 1933, § 100-107.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

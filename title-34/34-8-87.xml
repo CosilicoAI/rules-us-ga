@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-87"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-87"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-87/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-87/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-87/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-87/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_87">
+        <num>34-8-87</num>
+        <content>
+          <p>The Commissioner is authorized to borrow funds from the United States Treasury in accordance with standards and regulations promulgated by the United States Department of Labor and pursuant to laws of the United States. Such authority is granted only to be used if and when the Unemployment Compensation Fund should be depleted; and all funds so borrowed shall be used only for the purpose of paying benefits to those persons eligible to receive such benefits.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

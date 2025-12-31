@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-191"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-191"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-191/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-191/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-191/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-191/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_191">
+        <num>7-1-191</num>
+        <content>
+          <p>All claims against the financial institution, action upon which has not been commenced prior to the time the department took possession, shall be presented in the regular manner provided by this chapter for the presentation of claims. Neither a depositor or other creditor of the financial institution nor any other claimant may maintain any action at law or in equity upon such claim, except by regular method provided by this chapter for exceptions to the accounting of the department as receiver. However, an action for the return of specific property or property with respect to which the plaintiff holds a perfected security interest or security title which could have been recovered by the plaintiff from the financial institution in receivership may be maintained in the principal court against the department in its name as receiver of the financial institution. All actions pending against the financial institution when the department takes possession shall be automatically stayed during the receivership, provided that all such actions, except those specified in subsection (b) of Code Section 7-1-190, may proceed with prior approval of the principal court.</p>
+          <p>(Code 1933, § 41A-802, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

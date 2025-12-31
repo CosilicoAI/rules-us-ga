@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-255"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-255"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-255/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-255/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-255/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-255/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_255">
+        <num>12-6-255</num>
+        <content>
+          <p>Any saw palmetto berries obtained or offered for sale in violation of this article shall be subject to seizure on the complaint of the director or law enforcement to the superior court of the county in which the saw palmetto berries are found. If the court finds the status of the saw palmetto berries to be in violation of this article, and orders condemnation of such saw palmetto berries, the saw palmetto berries shall be disposed of in any manner consistent with their quantity, the interests of the parties, and the laws of this state; provided, however, that in no instance shall the saw palmetto berries be ordered by the court to be disposed of without first giving the person claiming to own the saw palmetto berries an opportunity to apply to the court for release of the saw palmetto berries in such manner as to bring the matter into compliance with this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

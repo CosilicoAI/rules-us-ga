@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-1-9"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-1-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-1-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_1_9">
+        <num>43-1-9</num>
+        <content>
+          <p>Any applicant taking an examination required by any professional licensing board except the Georgia Board of Nursing shall receive points in the following manner:</p>
+          <p>(Ga. L. 1960, p. 1172, § 1; Ga. L. 1964, p. 761, § 1; Ga. L. 1968, p. 1213, § 1; Ga. L. 1982, p. 3, § 43; Ga. L. 2000, p. 1706, § 19; Ga. L. 2007, p. 483, § 1/SB 114; Ga. L. 2010, p. 266, § 9/SB 195; Ga. L. 2014, p. 136, § 1-1/HB 291.)</p>
+          <p>The 2014 amendment,
+      effective July 1, 2014, deleted "the State Board of Accountancy and" following "licensing board except" in the introductory paragraph.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

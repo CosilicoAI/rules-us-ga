@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-5-5"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-5-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-5-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_5_5">
+        <num>44-5-5</num>
+        <content>
+          <p>In all cases where errors in issuing or recording grants are sought to be corrected, an application shall be made in writing to the Governor showing that notice in writing of the nature and time of the application has been served upon every person who may be in any manner interested in the question. If no objection is filed and satisfactory evidence of the error or mistake is produced and submitted in writing, the Governor may pass an order requiring the error to be corrected and, if necessary, requiring a new grant to be issued upon delivery of the first grant for cancellation.</p>
+          <p>(Laws 1828, Cobb's 1851 Digest, p. 657; Laws 1843, Cobb's 1851 Digest, p. 658; Laws 1845, Cobb's 1851 Digest, p. 659; Code 1863, § 2325; Code 1868, § 2322; Code 1873, § 2353; Code 1882, § 2353; Civil Code 1895, § 3213; Civil Code 1910, § 3801; Code 1933, § 85-304.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-4-3"/>
+          <FRBRuri value="/us-ga/act/ocga/23-4-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-4-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-4-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-4-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-4-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_4_3">
+        <num>23-4-3</num>
+        <content>
+          <p>A defendant to any action in the superior court or in the Georgia State-wide Business Court, whether the action is for legal or equitable relief, may claim legal or equitable relief, or both, by framing proper pleadings for that purpose and sustaining them by sufficient evidence.</p>
+          <p>(Ga. L. 1884-85, p. 36, § 2; Civil Code 1895, § 4837; Civil Code 1910, § 5410; Code 1933, § 37-905; Ga. L. 2019, p. 845, § 3-5/HB 239.)</p>
+          <p>The 2019 amendment,
+      effective May 7, 2019, inserted "or in the Georgia State-wide Business Court" in the middle of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

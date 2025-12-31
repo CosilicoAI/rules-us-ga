@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-170"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-170/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-170/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_170">
+        <num>38-2-170</num>
+        <content>
+          <p>The General Assembly shall appropriate from time to time a sufficient sum of money, based on estimates and recommendations made by the adjutant general and approved by the Governor, for the purpose of paying the expenses incident to carrying out this chapter. All money so appropriated by the General Assembly shall continue and be kept in the state treasury as a separate fund to be known as the "military fund." None of the moneys placed in the military fund shall be converted into the general fund of the state treasury, and no part of the military fund shall be used for any purpose except as shall be authorized by law.</p>
+          <p>(Ga. L. 1916, p. 158, § 3; Code 1933, § 86-901; Ga. L. 1951, p. 311, § 10; Ga. L. 1955, p. 10, § 62.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

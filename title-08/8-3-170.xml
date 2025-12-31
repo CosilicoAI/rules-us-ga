@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-170"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-170/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-170/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_170">
+        <num>8-3-170</num>
+        <content>
+          <p>The General Assembly finds and declares that housing is an issue of paramount concern to this state which affects the health, welfare, and safety of the citizens of this state and the economic viability and planned growth of its communities. The General Assembly further finds and declares that the provision of and planning for housing and housing related matters are issues that are intrinsically intertwined with the ability to provide for the financing of housing activities. For this reason, the General Assembly designates the Georgia Housing and Finance Authority as the State Office of Housing and assigns it the following powers and duties:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

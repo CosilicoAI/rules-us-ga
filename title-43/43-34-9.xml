@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-9"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_9">
+        <num>43-34-9</num>
+        <content>
+          <p>Proceedings before the board wherein a licensee's, certificate holder's, or permit holder's right to practice pursuant to this chapter in this state is terminated, suspended, or limited or wherein a public reprimand is administered shall require prior notice to the licensee and an opportunity for hearing; and such proceedings shall be considered contested cases within the meaning of Chapter 13 of Title 50, the "Georgia Administrative Procedure Act." Neither refusal of a license, certificate, or permit nor a private reprimand nor a letter of concern shall be considered a contested case within the meaning of Chapter 13 of Title 50, and notice and hearing within the meaning of such chapter shall not be required; provided, however, that the applicant shall be allowed to appear before the board, if the applicant so requests, prior to the board making a final decision regarding the issuance of the license, certificate, or permit. The power to subpoena as set forth in Chapter 13 of Title 50 shall include the power to subpoena any book, writing, paper, or document. If any licensee, certificate holder, or permit holder fails to appear at any hearing after reasonable notice, the board may proceed to hear the evidence against such licensee, certificate holder, or permit holder and take action as if such licensee, certificate holder, or permit holder had been present.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

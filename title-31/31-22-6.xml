@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-22-6"/>
+          <FRBRuri value="/us-ga/act/ocga/31-22-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-22-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-22-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-22-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-22-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_22_6">
+        <num>31-22-6</num>
+        <content>
+          <p>In addition to powers conferred elsewhere in this chapter, the board shall promulgate rules and regulations for the implementation of this chapter.</p>
+          <p>(Ga. L. 1970, p. 531, § 4; Ga. L. 1972, p. 1257, § 2; Ga. L. 2012, p. 1132, § 3/SB 407; Ga. L. 2021, p. 472, § 1/HB 93.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, substituted the present provisions of this Code section for the former provisions, which read: "In addition to powers conferred elsewhere in this chapter, the board shall:</p>
+          <p>"(1) Promulgate rules and regulations for the implementation of this chapter;</p>
+          <p>"(2) Establish and enforce standards governing the safety and sanitary requirements pertaining to clinical laboratories to the extent that they are not otherwise subject to requirements imposed by law or municipal ordinance; and</p>
+          <p>"(3) Promulgate rules and regulations relating to the qualifications and performance of all personnel."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

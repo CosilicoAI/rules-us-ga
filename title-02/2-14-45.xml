@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-14-45"/>
+          <FRBRuri value="/us-ga/act/ocga/2-14-45"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-14-45/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-14-45/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-14-45/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-14-45/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_14_45">
+        <num>2-14-45</num>
+        <content>
+          <p>Whenever bees, hives, or other equipment are ordered destroyed pursuant to Code Section 2-14-44, the Commissioner shall appraise the property to be destroyed. If the Commissioner and the owner are unable to agree on the value, the Commissioner and the owner shall each appoint one disinterested appraiser. These two appraisers shall appoint a third disinterested appraiser. The three appraisers thus appointed shall appraise the property. When the property is destroyed, the Commissioner shall pay any Georgia resident beekeeper whose property is destroyed a sum equal to 50 percent of the appraised value of the property destroyed from any funds appropriated for that specific purpose, provided that in no event shall the compensation paid to any such owner exceed $25.00 per colony. For the purposes of this Code section, the term "property" shall include bees, hives, frames, and other equipment.</p>
+          <p>(Code 1933, § 5-908, enacted by Ga. L. 1970, p. 197, § 1; Ga. L. 1975, p. 705, § 1; Ga. L. 1980, p. 713, § 1; Ga. L. 1990, p. 373, § 5; Ga. L. 1992, p. 1121, § 1; Ga. L. 1996, p. 797, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

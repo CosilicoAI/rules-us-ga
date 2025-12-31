@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-134"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-134"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-134/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-134/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-134/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-134/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_134">
+        <num>15-12-134</num>
+        <content>
+          <p>In all civil cases it shall be good cause of challenge that a juror has expressed an opinion as to which party ought to prevail or that he has a wish or desire as to which shall succeed. Upon challenge made by either party upon either of these grounds, it shall be the duty of the court to hear the competent evidence respecting the challenge as shall be submitted by either party, the juror being a competent witness. The court shall determine the challenge according to the opinion it entertains of the evidence adduced thereon.</p>
+          <p>(Penal Code 1895, § 855; Penal Code 1910, § 859; Code 1933, § 59-705; Ga. L. 1949, p. 1082, § 2; Ga. L. 1951, p. 214, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

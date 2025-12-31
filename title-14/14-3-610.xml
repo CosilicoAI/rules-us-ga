@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-3-610"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-3-610/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-3-610/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_3_610">
+        <num>14-3-610</num>
+        <content>
+          <p>Members as defined in paragraph (22) of Code Section 14-3-140 shall have no voting rights, other than to elect directors, except as specifically provided in the articles or bylaws. All members shall have the same rights and obligations with respect to any other matters, except as set forth in or authorized by the articles or bylaws. Except for the rights specified in Code Sections 14-3-740 through 14-3-747, members of any corporation existing on July 1, 1991, shall be limited to having the same voting and other rights as before such date, until changed by amendment of its articles of incorporation or bylaws.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

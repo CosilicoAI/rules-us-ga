@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-153"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-153"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-153/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-153/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-153/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-153/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_153">
+        <num>12-6-153</num>
+        <content>
+          <p>It shall be unlawful for any person disposing of any ginseng harvested in Georgia to fail to report such disposition by January 31 of each year to the Department of Natural Resources. Such report shall be certified by the department and shall include, but shall not be limited to, the amount, by weight, of the ginseng exported; the Georgia county or counties from which the ginseng was harvested; whether the harvested roots were taken from wild or cultivated ginseng; and the location, by state, in which such person disposed of the harvested roots.</p>
+          <p>(Ga. L. 1979, p. 919, § 4; Ga. L. 1996, p. 327, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

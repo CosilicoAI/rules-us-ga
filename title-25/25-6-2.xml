@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-6-2"/>
+          <FRBRuri value="/us-ga/act/ocga/25-6-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-6-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-6-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-6-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-6-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_6_2">
+        <num>25-6-2</num>
+        <content>
+          <p>Whenever two or more jurisdictions, as defined by Code Section 25-6-1, within or adjacent to this state, by written resolution authorize their respective fire departments to render aid and assistance in the extinguishment of fires or other immediate response emergencies outside of their respective jurisdictions, they may, if they so desire, form a district mutual aid system or pact, which shall be a public corporation. It is the primary intent that such system or pact be established for fire emergencies; however, due to the diverse emergency services expected of fire departments, mutual aid systems or pacts may include responses for any form of immediate response emergency as specified by members of the system or pact. Members of fire departments of member jurisdictions shall be considered as officers of a public municipal corporation and shall enjoy the privileges, rights, exemptions, immunities, and duties of such; and this shall apply to paid, volunteer, or private members when responding to or returning from rendering aid in an emergency under a mutual aid system or a pact. As used in this chapter, "pact" means a mutual aid resource pact.</p>
+          <p>(Ga. L. 1976, p. 742, § 1; Ga. L. 1982, p. 955, §§ 1, 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

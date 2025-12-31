@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-3-15"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-3-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-3-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_3_15">
+        <num>7-3-15</num>
+        <content>
+          <p>In addition to any applicable disclosure requirements, at the time the installment loan is made, each licensee under this chapter shall deliver to the borrower or, if there are multiple borrowers, to one of the borrowers a copy of the loan contract or a written itemized statement in the English language showing in clear terms the date and amount of the loan, a schedule of the payments or a description thereof, the type of security for the loan, the licensee's name, unique identifier, business address, the actual amount of cash advanced to or on behalf of the borrower, the amount of each class of insurance carried and the premiums paid thereon, and the amount of interest and fees. Each licensee shall give a receipt for every cash payment made.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-2-25"/>
+          <FRBRuri value="/us-ga/act/ocga/49-2-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-2-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-2-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-2-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-2-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_2_25">
+        <num>49-2-25</num>
+        <content>
+          <p>The Department of Human Services is empowered to institute appropriate proceedings for injunction in the courts of competent jurisdiction in this state for the purpose of enjoining a violation of any provision of a residential child care licensing law as now existing or as may be hereafter amended or of any regulation or order duly issued by the board or department. The department is also empowered to maintain action for injunction to abate any public nuisance which is injurious to the public health, safety, or comfort. Such actions may be maintained notwithstanding the fact that such violation also constitutes a crime and notwithstanding that other adequate remedies at law exist. Such actions may be instituted in the name of the department in the county in which a violation of any provision of this title occurs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

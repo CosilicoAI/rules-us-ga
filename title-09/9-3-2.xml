@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-3-2"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-3-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-3-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_3_2">
+        <num>9-3-2</num>
+        <content>
+          <p>Any claim or demand held by any municipality not in the nature of a special contract or not reduced to execution shall be barred by the general statutes of limitation of force, and all executions issued by any municipality shall be subject to the same laws relating to the statutes of limitation governing other executions.</p>
+          <p>(Ga. L. 1899, p. 60, § 1; Civil Code 1910, § 4372; Code 1933, § 3-716.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

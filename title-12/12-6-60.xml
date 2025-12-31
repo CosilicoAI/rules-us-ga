@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-60"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-60"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-60/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-60/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-60/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-60/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_60">
+        <num>12-6-60</num>
+        <content>
+          <p>In addition to any other remedy or criminal prosecution, whenever it shall appear to the board that any person, firm, company, partnership, association, or corporation, or their agents, officers, or directors, is or has been holding himself, itself, or themselves out to the public as a registered forester when not so registered, the board may, on its own motion or on the verified complaint in writing of any person, file an equitable petition in its own name in the superior court in any county of this state having jurisdiction of the parties, alleging the facts and praying for a temporary restraining order, a temporary injunction, or a permanent injunction against such person, firm, company, partnership, association, or corporation, or their agents, officers, and directors, restraining him, it, or them from violating such law. Upon proof of the facts as alleged, the court shall issue such restraining order, temporary injunction, or permanent injunction without requiring allegation or proof that the petitioner therefor has no adequate remedy at law.</p>
+          <p>(Ga. L. 1964, p. 409, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

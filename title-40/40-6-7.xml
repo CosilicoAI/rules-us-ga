@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-7"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_7">
+        <num>40-6-7</num>
+        <content>
+          <p>Notwithstanding any other provisions of law, it shall be lawful to operate motor vehicles and motorcycles in parades although such motor vehicles and motorcycles and their operators and passengers do not meet the necessary requirements of law, especially with respect to flashing lights, sirens, and safety equipment. This Code section shall be applicable only in the event that the local authority which has the power to issue parade permits, at its discretion, authorizes the operation of such motor vehicles and motorcycles after it has been determined that the operation of such motor vehicles and motorcycles will not endanger the lives, safety, or property of other participants in the parade, bystanders, or other persons. The authorization for vehicles to be operated in parades as exceptions to otherwise required provisions of law shall extend to only such time as the vehicles are actually engaged in the parade and in the return to the marshaling area. At all times, such vehicles shall be operated by a person properly licensed to operate such vehicles. Such motor vehicles and motorcycles covered under this Code section shall be operated in accordance with all provisions of law when traveling to and from a parade site and at all other times when not directly participating in a parade.</p>
+          <p>(Ga. L. 1974, p. 446, § 1; Ga. L. 1990, p. 2048, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

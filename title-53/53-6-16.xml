@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-6-16"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-6-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-6-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_6_16">
+        <num>53-6-16</num>
+        <content>
+          <p>The oath or affirmation of an executor or administrator with the will annexed as provided in subsection (a) of this Code section may be subscribed before the judge or clerk of any probate court of this state. The probate court appointing the executor or administrator with the will annexed shall have the authority to grant a commission to a judge or clerk of any court of record of any other state to administer the oath or affirmation.</p>
+        </content>
+        <subsection eId="sec_53_6_16__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Every executor and every administrator with the will annexed, upon qualification, shall take and subscribe an oath or affirmation in substantially the following form:
+   "I do solemnly swear (or affirm) that this writing contains the true last will of __________________ , deceased, so far as I know or believe, and that I will well and truly execute the same in accordance with the laws of Georgia. So help me God."</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

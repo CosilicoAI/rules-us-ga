@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-785"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-785"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-785/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-785/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-785/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-785/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_785">
+        <num>20-2-785</num>
+        <content>
+          <p>In the event that a child is withdrawn from a public school without a declaration filed pursuant to Code Section 20-2-690 and that child stops attending a public school for a period of 45 days, the school shall refer the matter to the Division of Family and Children Services of the Department of Human Services to conduct an assessment. The purpose of such referral and assessment shall be limited to determining whether such withdrawal was to avoid educating the child. Presentation of a copy of such filed declaration shall satisfy the assessment, and the Division shall immediately terminate the assessment under this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

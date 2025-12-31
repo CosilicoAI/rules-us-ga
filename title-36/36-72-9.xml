@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-72-9"/>
+          <FRBRuri value="/us-ga/act/ocga/36-72-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-72-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-72-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-72-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-72-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_72_9">
+        <num>36-72-9</num>
+        <content>
+          <p>The governing authority of any county whose population is in excess of 290,000 as established by the United States decennial census of 1980 or any such future census shall be authorized to establish or empower a new or existing commission or board to hear and review any application filed pursuant to Code Section 36-72-5.The board or commission shall conduct a public hearing within 60 days of the filing of an application and shall make a written recommendation to the governing authority no later than 15 days following the public hearing with respect to the sufficiency of the notice to descendants, the plan for mitigation, the disturbance and adverse effects on the cemetery or burial ground, the survey of the cemetery, and plans for disinterment and reinterment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

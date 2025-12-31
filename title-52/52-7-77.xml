@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-7-77"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-77"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-7-77/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-77/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-7-77/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-77/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_7_77">
+        <num>52-7-77</num>
+        <content>
+          <p>The clerk of the court shall retain the remaining balance of the proceeds of a sale conducted under Code Section 52-7-75, after satisfaction of liens, security interests, and debts, for a period of 12 months; and, if no claim has been filed against such proceeds by the owner of the abandoned vessel or any interested party, then he shall pay such remaining balance as follows:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

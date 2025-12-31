@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-9-9"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-9-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-9-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_9_9">
+        <num>33-9-9</num>
+        <content>
+          <p>Members and subscribers of rating or advisory organizations may use the rating systems, underwriting rules, or policy or bond form of the organizations and the rates filed by such organizations for all lines of insurance covered by the provisions of this chapter, either consistently or intermittently, but, except as provided in Code Sections 33-9-3, 33-9-7, 33-9-19, and 33-9-20, shall not agree with each other or rating organizations or others to adhere to such rates, rating systems, underwriting rules, or policy or bond form. The fact that two or more admitted insurers, whether or not members or subscribers of a rating or advisory organization, use, either consistently or intermittently, the rates or rating systems made or adopted by a rating organization, or the underwriting rules or policy or bond forms prepared by a rating or advisory organization shall not be sufficient in itself to support a finding that an agreement so to adhere exists and may be used only for the purpose of supplementing or explaining any competent evidence of the existence of the agreement.</p>
+          <p>(Code 1933, § 56-510, enacted by Ga. L. 1967, p. 684, § 1; Ga. L. 1982, p. 644, § 2; Ga. L. 1983, p. 629, §§ 1, 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

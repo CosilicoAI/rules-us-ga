@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-245"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-245"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-245/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-245/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-245/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-245/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_245">
+        <num>12-3-245</num>
+        <content>
+          <p>The leasing of the subdivided lots shall be for not more than 99 years. Such leases as the authority shall designate may be made freely assignable, subject to all the liabilities, obligations, and duties imposed upon the lessee by the authority in its original lease. In its leasehold conveyance or rental contracts, the authority may create and provide for the preservation of such rights and privileges in the present or future security grantees, mortgagees, or other lenders upon the security of the lessee's or tenant's rights, as the authority may deem wise. Such rights and privileges, when created, may also provide for their continuance or survival after termination or forfeiture of the original leasehold or rental contract.</p>
+          <p>(Ga. L. 1950, p. 152, § 11; Ga. L. 1951, p. 782, § 4; Ga. L. 1952, p. 276, § 2; Ga. L. 1953, Jan.-Feb. Sess., p. 261, § 3; Ga. L. 1957, p. 608, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

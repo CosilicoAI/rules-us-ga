@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-5-85"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-85"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-5-85/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-85/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-5-85/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-85/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_5_85">
+        <num>44-5-85</num>
+        <content>
+          <p>The exclusive possession by a child of lands which originally belonged to the parent or parents, without payment of rent, for the space of seven years, creates a rebuttable presumption of a gift and conveys title to the child. The presumption may be rebutted by evidence of a loan, of a claim of dominion by the parent or parents acknowledged by the child, of a disclaimer of title by the child, or similar evidence.</p>
+          <p>(Orig. Code 1863, § 2622; Code 1868, § 2622; Code 1873, § 2664; Code 1882, § 2664; Civil Code 1895, § 3571; Civil Code 1910, § 4151; Code 1933, § 48-106; Ga. L. 1998, p. 1304, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

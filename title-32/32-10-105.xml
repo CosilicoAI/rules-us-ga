@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-10-105"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-105"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-10-105/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-105/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-10-105/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-105/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_10_105">
+        <num>32-10-105</num>
+        <content>
+          <p>The bonds authorized in paragraph (8) of Code Section 32-10-63 and in Code Section 32-10-90 are deemed securities in which (1) all public officers and bodies of this state and all municipalities and all municipal subdivisions, (2) all insurance companies and associations and other persons carrying on an insurance business, (3) all banks, bankers, trust companies, savings banks and savings associations, including savings and loan associations, building and loan associations, investment companies, and other persons carrying on a banking business, (4) all administrators, guardians, executors, trustees, and other fiduciaries, and (5) all other persons whatsoever who are now or may hereafter be authorized to invest in bonds or other obligations of the state may properly and legally invest funds, including capital in their control or belonging to them. The bonds are also deemed securities which may be deposited with and shall be received by all public officers and bodies of this state and all municipalities and municipal subdivisions for any purpose for which the deposit of the bonds or other obligations of this state is now or may hereafter be authorized.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 302, § 27; Code 1933, § 95A-1264, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

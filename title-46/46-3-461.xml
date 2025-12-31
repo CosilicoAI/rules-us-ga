@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-461"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-461"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-461/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-461/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-461/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-461/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_461">
+        <num>46-3-461</num>
+        <content>
+          <p>Whenever a foreign electric cooperative authorized to transact business in this state is a party to a statutory merger permitted by the laws of its jurisdiction of incorporation and such foreign electric cooperative is the surviving entity, it shall, within 30 days after such merger becomes effective, file with the Secretary of State a copy of the articles or agreement of merger duly certified by the proper officer of the jurisdiction under the laws of which such statutory merger was effected; and it shall not be necessary for such foreign electric cooperative to procure either a new or amended certificate of authority to transact business in this state unless the name of such foreign electric cooperative is changed thereby or unless the foreign electric cooperative desires to pursue in this state other or additional purposes than those which it is then authorized to transact in this state.</p>
+          <p>(Code 1933, § 34C-1712, enacted by Ga. L. 1981, p. 1587, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

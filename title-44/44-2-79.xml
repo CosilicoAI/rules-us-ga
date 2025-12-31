@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-79"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-79"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-79/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-79/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-79/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-79/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_79">
+        <num>44-2-79</num>
+        <content>
+          <p>Amendments to petitions or other pleadings, including joinder, substitution, or discontinuance of parties, the severance of pleadings, and the omission or severance of any portion or parcel of the land may be ordered or allowed by the court at any time before the final decree upon terms that may be just and reasonable. The court may require facts to be stated in the petition in addition to those prescribed by this article. The examiner shall have the same powers subject to review by exception to his reports.</p>
+          <p>(Ga. L. 1917, p. 108, § 24; Code 1933, § 60-219.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-228"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-228"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-228/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-228/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-228/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-228/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_228">
+        <num>44-2-228</num>
+        <content>
+          <p>The examiner is required to take the following oath, to be filed along with the order of his appointment in the office of the clerk of the superior court of his residence:
+   "I, ____________, do swear that I will faithfully, well, and truly perform the duties of examiner under the Land Registration Law, according to law to the best of my skill and ability.
+   _____________________________________________________________________
+   Sworn to and subscribed
+   before me, this ________________________, ________.
+   __________________"</p>
+          <p>(Ga. L. 1917, p. 108, § 93; Code 1933, § 60-609; Ga. L. 1992, p. 6, § 44; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

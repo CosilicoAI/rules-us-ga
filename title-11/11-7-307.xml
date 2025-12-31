@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-7-307"/>
+          <FRBRuri value="/us-ga/act/ocga/11-7-307"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-7-307/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-7-307/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-7-307/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-7-307/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_7_307">
+        <num>11-7-307</num>
+        <content>
+          <p>(Code 1933, § 109A-7 - 307, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 2010, p. 481, § 1-1/HB 451.)</p>
+          <p>The 2010 amendment,
+      effective May 27, 2010, redesignated former subsections (1) through (3) as present subsections (a) through (c), respectively; rewrote present subsection (a); in present subsection (b), substituted "subsection (a)" for "subsection (1)" twice, in the first sentence, substituted "that" for "which" and substituted "those" for "such", and, in the second sentence, substituted "that" for "who" and deleted "such" preceding "authority" at the end. See the Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

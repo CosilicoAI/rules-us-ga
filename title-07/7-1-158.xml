@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-158"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-158"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-158/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-158/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-158/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-158/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_158">
+        <num>7-1-158</num>
+        <content>
+          <p>The department may appoint one or more official agents, to be known as deputy receivers, to assist it in the management, reorganization, consolidation, liquidation, or distribution of the assets and affairs of any financial institution of which it has taken possession as receiver. The department may delegate to each deputy receiver any duty imposed upon or any right or power granted to it as receiver. The department may also employ such other assistants as it deems necessary, including such assistant attorneys general or other attorneys as may be appointed by the Attorney General or independently retained by the department in connection with the receivership. The department may also retain, to assist it in the management, reorganization, consolidation, liquidation, or distribution, any officer or other employee of the financial institution of which it has taken possession.</p>
+          <p>(Ga. L. 1919, p. 135, art. 7, § 9; Ga. L. 1931, p. 7, § 91; Code 1933, §§ 13-811, 13-812; Code 1933, § 41A-709, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

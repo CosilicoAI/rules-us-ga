@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-64-9"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-64-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-64-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_64_9">
+        <num>36-64-9</num>
+        <content>
+          <p>Upon the adoption of the proposition at an election conducted pursuant to Code Section 36-64-8, the governing body of the municipality or county, by resolution or ordinance, shall provide for the establishment, maintenance, and conduct of the supervised recreation system as they may deem it advisable and practicable to provide and maintain out of the tax money thus voted. The governing body, by appropriate resolution or ordinance, may designate the board or commission to be vested with the powers, duties, and obligations necessary for the establishment, maintenance, and conduct of such recreation system, as provided in this chapter.</p>
+          <p>(Ga. L. 1923, p. 106, § 9; Code 1933, § 69-609; Ga. L. 1946, p. 152, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

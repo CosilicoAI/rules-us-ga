@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-149"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-149"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-149/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-149/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-149/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-149/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_149">
+        <num>46-3-149</num>
+        <content>
+          <p>All funds received pursuant to authority of this article, whether as proceeds from the sale of revenue bonds or as revenues, fees, tolls, charges, or other earnings or as gifts, grants, or other contributions, shall be deemed to be trust funds to be held and applied solely as provided in this article. The bond owners entitled to receive the benefits of such funds shall have a lien on all such funds until applied as provided in any such resolution, trust agreement, or indenture of the authority.</p>
+          <p>(Ga. L. 1975, p. 107, § 23.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

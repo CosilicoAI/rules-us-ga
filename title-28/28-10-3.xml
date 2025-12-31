@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-10-3"/>
+          <FRBRuri value="/us-ga/act/ocga/28-10-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-10-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-10-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-10-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-10-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_10_3">
+        <num>28-10-3</num>
+        <content>
+          <p>The state auditor and the Attorney General shall make available to the committee the services of their staff, facilities, and powers in order to assist the committee in the discharge of its duties. The committee may employ staff and secure the services of independent accountants, engineers, and consultants, provided that both the employment and the amount of compensation to be received by such personnel is authorized by a joint resolution of the General Assembly. Upon authorization by joint resolution of the General Assembly, the committee shall have the power to compel the attendance of witnesses and the production of documents in aid of its duties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

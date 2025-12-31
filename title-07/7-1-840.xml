@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-840"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-840"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-840/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-840/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-840/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-840/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_840">
+        <num>7-1-840</num>
+        <content>
+          <p>(Ga. L. 1919, p. 135, art. 20, § 37; Code 1933, § 13-9936; Code 1933, § 41A-9901, enacted by Ga. L. 1974, p. 705, § 1; Ga. L. 1989, p. 1211, § 16; Ga. L. 1991, p. 1374, § 1; Ga. L. 2016, p. 390, § 5-1/HB 811; Ga. L. 2019, p. 828, § 30/HB 185.)</p>
+          <p>The 2019 amendment,
+      effective July 1, 2019, in subsection (d), substituted "department, the Federal Deposit Insurance Corporation, the National Credit Union Administration, or any other federal financial institution" for "department or the Federal Deposit Insurance Corporation, or any other federal bank" and substituted "entity" for "agency" near the middle.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

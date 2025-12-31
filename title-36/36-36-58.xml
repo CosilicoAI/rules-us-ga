@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-36-58"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-58"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-36-58/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-58/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-36-58/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-58/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_36_58">
+        <num>36-36-58</num>
+        <content>
+          <p>The municipal corporation shall issue a call for a referendum to ratify or reject the adoption of the annexation resolution. The referendum shall be held not less than 30 days nor more than 60 days after the date of the public hearing required by Code Section 36-36-57. The referendum shall be held, insofar as possible, under the procedures set forth in Chapter 2 of Title 21 for special elections. Only those persons registered to vote for members of the General Assembly residing, on the date of the adoption of the resolution, in the proposed area to be annexed shall vote in the referendum. If a majority of those voting vote in favor of annexation, the area shall become a part of the corporate limits of the municipality, but not otherwise. If a majority of those voting vote against the annexation, a period of two years must elapse before annexation of the same area or any portion thereof may be attempted again under authority of this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

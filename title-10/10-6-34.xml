@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-6-34"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-34"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-6-34/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-34/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-6-34/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-34/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_6_34">
+        <num>10-6-34</num>
+        <content>
+          <p>Every creditor or other person advancing money upon the pledge of a certificate of stock or other scrip representing an ownership or interest in corporations in Georgia shall have such an irrevocable interest in such certificate of stock or other scrip as not to be affected by the death, insanity, or legal disability thereafter of the person in whose name such stock or other scrip stands upon the books of any corporation in Georgia; but such pledgee or holder of such stock or scrip assigned in blank, coupled with the power of attorney, shall have the same right after the death, insanity, or legal disability of the person in whose name the stock stands upon the books of the corporation as before the death, insanity, or legal disability of such person.</p>
+          <p>(Ga. L. 1894, p. 44, § 1; Civil Code 1895, § 3003; Civil Code 1910, § 3575; Code 1933, § 4-214.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

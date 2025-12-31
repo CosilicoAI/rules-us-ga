@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-126"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-126"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-126/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-126/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-126/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-126/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_126">
+        <num>15-9-126</num>
+        <content>
+          <p>For services rendered in jury trials, in the probate court's exercise of concurrent jurisdiction pursuant to Code Section 15-9-127, and in appeals to the Supreme Court or Court of Appeals, if a fee is not prescribed by Code Section 15-9-60, the judge or clerk of the probate court shall be entitled to charge and collect the same sums as those of the clerk of the superior court provided in Code Section 15-6-77 or other applicable law for similar services in superior court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

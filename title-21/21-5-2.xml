@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-5-2"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-5-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-5-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_5_2">
+        <num>21-5-2</num>
+        <content>
+          <p>It is declared to be the policy of this state, in furtherance of its responsibility to protect the integrity of the democratic process and to ensure fair elections for constitutional offices; state offices; district attorneys; members of the Georgia House of Representatives and Georgia Senate; all constitutional judicial officers; and all county and municipal elected officials, to institute and establish a requirement of public disclosure of campaign contributions and expenditures relative to the seeking of such offices, to the recall of public officers holding elective office, and to the influencing of voter approval or rejection of a proposed constitutional amendment, a state-wide referendum, or a proposed question which is to appear on the ballot in any county or municipal election. Further, it is the policy of this state that the state's public affairs will be best served by disclosures of significant private interests of public officers and officials which may influence the discharge of their public duties and responsibilities. The General Assembly further finds that it is for the public to determine whether significant private interests of public officers have influenced the state's public officers to the detriment of their public duties and responsibilities and, in order to make that determination and hold the public officers accountable, the public must have reasonable access to the disclosure of the significant private interests of the public officers of this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

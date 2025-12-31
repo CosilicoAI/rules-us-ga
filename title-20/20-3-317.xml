@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-317"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-317"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-317/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-317/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-317/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-317/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_317">
+        <num>20-3-317</num>
+        <content>
+          <p>The authority shall maintain a system of accounts in accordance with generally accepted accounting procedures and standard accounting procedures and systems established by the state, where applicable, which shall, among other things, properly identify and account for all funds received by the authority, the source of such funds, and all expenditures of the authority. Agency, federal, and other funds of the authority determined to be available for such purposes may be used to pay expenses and operating costs incurred by the authority or incurred by the corporation under Part 3 of this article, including payment to the commission to defray expenses and operating costs of the authority or of the corporation paid or to be paid by the commission for or on behalf of the authority or the corporation. No funds of the authority shall lapse to the state as of the close of any fiscal year.</p>
+          <p>(Code 1933, § 32-3708, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

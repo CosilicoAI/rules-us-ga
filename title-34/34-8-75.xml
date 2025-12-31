@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-75"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-75"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-75/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-75/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-75/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-75/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_75">
+        <num>34-8-75</num>
+        <content>
+          <p>The Commissioner shall designate an experience rating committee.The committee shall be composed of one representative of employers, one representative of employees, and one representative of the department. The committee shall be constituted as a continuing committee for the purpose of conducting studies of experience rating and from time to time making recommendations to the Commissioner and the advisory council as to desirable modifications and improvements of the law, procedures, and regulations adopted in connection with the experience rating program.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

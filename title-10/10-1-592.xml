@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-592"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-592"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-592/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-592/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-592/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-592/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_592">
+        <num>10-1-592</num>
+        <content>
+          <p>No buying service or club nor any officer, official, employee, or agent thereof shall sell, advertise, or solicit the sale or purchase of memberships or contracts within this state without having first obtained a license to do business in this state from the Attorney General.</p>
+          <p>(Ga. L. 1975, p. 529, § 3; Ga. L. 1982, p. 1073, §§ 2, 4; Ga. L. 2015, p. 1088, § 6/SB 148.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "Attorney General" for "administrator" at the end of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

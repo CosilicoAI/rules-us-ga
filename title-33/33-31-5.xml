@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-31-5"/>
+          <FRBRuri value="/us-ga/act/ocga/33-31-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-31-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-31-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-31-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-31-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_31_5">
+        <num>33-31-5</num>
+        <content>
+          <p>The term of any credit life insurance or credit accident and sickness insurance shall commence, subject to acceptance by the insurer, on the date when the debtor becomes obligated to the creditor, except that, where a group policy provides coverage with respect to existing obligations, the insurance on a debtor with respect to the indebtedness shall commence on the effective date of the policy. In no event, however, in the case of a contract obligation involving future delivery or performance, must the insurance become effective before the date of such delivery or completion of such performance or before the date when all of the terms of the indebtedness are set forth in the contract or instrument creating the indebtedness. The term of the insurance shall not extend more than 15 days beyond the scheduled maturity date of the indebtedness, except when extended without additional cost to the debtor. If the indebtedness is discharged due to renewal or refinancing prior to the scheduled maturity date, the insurance in force shall be terminated before any new insurance may be issued in connection with the renewed or refinanced indebtedness. In all cases of termination prior to scheduled maturity, a refund shall be paid or credited as provided in Code Section 33-31-9.</p>
+          <p>(Code 1933, § 56-3305, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1990, p. 8, § 33.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

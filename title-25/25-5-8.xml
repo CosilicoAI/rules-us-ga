@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-5-8"/>
+          <FRBRuri value="/us-ga/act/ocga/25-5-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-5-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-5-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-5-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-5-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_5_8">
+        <num>25-5-8</num>
+        <content>
+          <p>Within five days from the expiration of the 30 day period referred to in Code Section 25-5-7, the bargaining agent and the corporate authorities shall each select and name one mediator and shall immediately thereafter notify each other in writing of the name and address of the person so selected. The bargaining agent may name as its mediator a working firefighter who shall be an active member of the Professional Firefighters of Georgia; and the corporate authorities may name as its mediator a member of the Georgia Municipal Association. The two mediators so selected and named shall, within ten days from and after the expiration of the five-day period mentioned in this Code section, agree upon the selection of a third mediator. If, on the expiration of the period allowed therefor, the mediators are unable to agree upon the selection of a third mediator, the American Arbitration Association shall select him upon request in writing from either the bargaining agent or the corporate authorities. The third mediator, whether selected as a result of agreement between the two mediators previously selected or selected by the American Arbitration Association, shall act as chairman of the mediation board.</p>
+          <p>(Ga. L. 1971, p. 565, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

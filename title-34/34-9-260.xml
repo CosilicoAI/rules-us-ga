@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-260"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-260"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-260/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-260/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-260/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-260/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_260">
+        <num>34-9-260</num>
+        <content>
+          <p>Except as otherwise provided in this chapter, the average weekly wages of the injured employee at the time of the injury shall be taken as the basis upon which to compute compensation and shall be determined, subject to limitations as to the maximum and minimum amounts provided for in Code Sections 34-9-261 and 34-9-265, as follows:</p>
+          <p>(Ga. L. 1920, p. 167, § 2; Ga. L. 1922, p. 185, § 1; Code 1933, § 114-402; Ga. L. 1945, p. 486, § 1; Ga. L. 1981, p. 842, § 2; Ga. L. 1981, p. 1585, § 2; Ga. L. 1984, p. 816, § 2; Ga. L. 1998, p. 264, § 1; Ga. L. 2000, p. 794, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

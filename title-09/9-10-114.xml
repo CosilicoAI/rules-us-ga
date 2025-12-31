@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-114"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-114"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-114/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-114/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-114/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-114/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_114">
+        <num>9-10-114</num>
+        <content>
+          <p>The defendant shall always have the privilege of filing an answer under oath for the purpose of using the same as evidence on any motion to dissolve an injunction or to set aside any extraordinary process or remedy granted. A sworn answer may be amended at any time, by leave of the court, as other pleadings; but an admission made in the answer shall always be evidence when offered by the other party.</p>
+          <p>(Orig. Code 1863, § 4105; Code 1868, § 4136; Code 1873, § 4195; Code 1882, § 4195; Civil Code 1895, § 5056; Civil Code 1910, § 5639; Code 1933, § 81-402.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

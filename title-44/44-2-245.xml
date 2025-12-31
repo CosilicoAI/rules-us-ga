@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-245"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-245"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-245/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-245/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-245/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-245/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_245">
+        <num>44-2-245</num>
+        <content>
+          <p>If only a part or undivided interest is mortgaged, the word "all" shall be stricken and a particular description of the portion or interest mortgaged shall be inserted.</p>
+          <p>Mortgages executed pursuant to this Code section may be registered as regular instruments as provided in this article. Mortgages in other forms and with other provisions may be registered but shall also be recorded in accordance with the provisions of this article regulating the registration of irregular instruments.</p>
+          <p>(Ga. L. 1917, p. 108, § 111; Code 1933, § 60-626; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+        <subsection eId="sec_44_2_245__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The regular form of mortgaging shall be as follows:
+   The undersigned ______________________________________________________ to
+   secure the following indebtedness ________________________________________
+   __________________________________________________________________________
+   __________________________________________________________________________
+   mortgages to _____________________________________________________________
+   the estate, title, and interest of the undersigned in and to all of the
+   tracts of land described in the certificate of title No. ___________________,
+   herewith shown, registered as Registered Title No. __________ in the office
+   of the clerk of the Superior Court of ________________________________________
+   County, Georgia.
+   ________________________________________________________________________
+   This ________ day of ________________________, ________.
+   Signed, sealed, and delivered, in the presence of:
+   __________________________________
+   __________________________________
+   __________________________________</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

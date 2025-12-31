@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-6-1"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-6-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-6-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_6_1">
+        <num>45-6-1</num>
+        <content>
+          <p>As used in this chapter, the term "books, papers, and other office property" shall include, but not be limited to, all books, plates, pictures, photographs, films, engravings, paintings, drawings, maps, newspapers, magazines, pamphlets, broadsides, personal papers, organization records, documents, letters, public records, and microforms; sound recordings; audiovisual materials in any format; magnetic or other tapes; electronic data processing records; artifacts; or other documentary, written, or printed material, regardless of physical form or characteristics belonging to, on loan to, or otherwise in the custody of any public office.</p>
+          <p>(Code 1933, § 89-605.1, enacted by Ga. L. 1977, p. 567, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

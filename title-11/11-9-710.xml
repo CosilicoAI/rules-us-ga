@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-9-710"/>
+          <FRBRuri value="/us-ga/act/ocga/11-9-710"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-9-710/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-9-710/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-9-710/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-9-710/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_9_710">
+        <num>11-9-710</num>
+        <content>
+          <p>From July 1, 2001, until July 1, 2006, any search company shall not be liable to its customer as a result of failing to disclose the existence of a filed financing statement in any filing office or index maintained by the authority searched in good faith by such search company to the extent such failure is attributable either to the failure of such filing office or the authority, as the case may be, to have properly indexed such filed financing statement or to the failure of the search logic used by such filing office or the authority, as the case may be, to disclose such filed financing statement in response to a search in the appropriate records of such filing office or of such index in the name provided to such search company by its customer. As used in this Code section, "search company" shall mean any person engaged in the business of conducting or arranging searches of public records of filed financing statements. On and after July 1, 2006, the liability of a search company shall be determined by law other than this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

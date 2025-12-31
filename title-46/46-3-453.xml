@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-453"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-453"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-453/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-453/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-453/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-453/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_453">
+        <num>46-3-453</num>
+        <content>
+          <p>Whenever a foreign electric cooperative which is authorized to transact business in this state changes its name, such foreign electric cooperative shall, within 30 days after such change becomes effective, file an application for an amended certificate of authority in accordance with Code Section 46-3-462. If the foreign electric cooperative fails to file this application or if the name to which it has changed would be unavailable to the foreign electric cooperative on an original application for a certificate of authority, the certificate of authority of such foreign electric cooperative shall be suspended and it shall not thereafter transact any business in this state until it has filed the application or has changed its name to a name which is available to it under the laws of this state.</p>
+          <p>(Code 1933, § 34C-1704, enacted by Ga. L. 1981, p. 1587, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

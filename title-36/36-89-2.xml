@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-89-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-89-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-89-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-89-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-89-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-89-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_89_2">
+        <num>36-89-2</num>
+        <content>
+          <p>In each year, the General Assembly shall appropriate funds for homeowner tax relief grants to counties, municipalities, and county or independent school districts in order to provide for more effective regulation and management of the finance and fiscal administration of the state and pursuant to and in furtherance of the provisions of Article III, Section IX, Paragraph II(c) of the Constitution; Article VII, Section III, Paragraph III of the Constitution; Article VIII, Section I, Paragraph I of the Constitution; and other provisions of the Constitution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

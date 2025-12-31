@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-2-9"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-2-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-2-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_2_9">
+        <num>48-2-9</num>
+        <content>
+          <p>The commissioner is authorized and empowered, subject to the law provided in such cases, to act in the name and in behalf of the state to institute any action or judicial proceeding to collect delinquent state taxes, to cause property not listed to be assessed, to cause by mandamus the performance of any act required by law pursuant to the administration of any state revenue, or to collect any claim or obligation of any person, including any public official, which may be due the state. The commissioner is authorized to act as relator in any and all such actions or judicial proceedings. The Attorney General shall provide legal advice and assistance as may be necessary to enable the commissioner to perform the duties required by this Code section.</p>
+          <p>(Ga. L. 1937-38, Ex. Sess., p. 77, § 8; Ga. L. 1975, p. 722, § 1; Code 1933, § 91A-216, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 2017, p. 774, § 48/HB 323.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

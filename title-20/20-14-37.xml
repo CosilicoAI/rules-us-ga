@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-14-37"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-37"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-14-37/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-37/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-14-37/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-37/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_14_37">
+        <num>20-14-37</num>
+        <content>
+          <p>The Office of Student Achievement shall develop and the State Board of Education shall approve a Georgia schools awards system to recognize those schools and school systems that demonstrate progress or success in achieving the education goals of the state and achieving excellence on the school rating system as provided for in Code Section 20-14-33.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

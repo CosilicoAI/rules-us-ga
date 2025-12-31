@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-162"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-162"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-162/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-162/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-162/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-162/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_162">
+        <num>40-1-162</num>
+        <content>
+          <p>The State of Georgia fully occupies and preempts the entire field of regulation over limousine carriers as regulated by this part; provided, however, that the governing authority of any county or municipal airport shall be authorized to permit any limousine carrier doing business at any such airport and may establish fees as part of such permitting process; provided, further, that such fees shall not exceed the airport's approximate cost of permitting and regulating limousine carriers; and provided, further, that such governing authorities of such airports shall accept a chauffeur's endorsement issued by the Department of Driver Services to the driver and evidence of a certificate issued to the limousine carrier by the Department of Public Safety as adequate evidence of sufficient criminal background investigations and shall not require any fee for any further criminal background investigation. The list of licensed limousine carriers on the website of the Department of Public Safety shall be sufficient evidence that a limousine carrier has a certificate issued by the Department of Public Safety.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

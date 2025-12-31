@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-125"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-125"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-125/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-125/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-125/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-125/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_125">
+        <num>46-3-125</num>
+        <content>
+          <p>The purpose of the authority shall be to acquire or construct, or to acquire and construct, and to operate and maintain, or to cause to be constructed, operated, and maintained, electric generation and transmission facilities. In addition, it shall be the purpose of the authority to take all other necessary or desirable action in order to provide or make available an adequate, dependable, and economical supply of electric power and energy and related services to those political subdivisions of this state identified in Code Section 46-3-130 which may desire the same and, incidentally and so as to take advantage of economies of scale in the generation and transmission of electric power and energy, to other persons and entities.</p>
+          <p>(Ga. L. 1975, p. 107, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

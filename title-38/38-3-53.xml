@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-3-53"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-3-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-3-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_3_53">
+        <num>38-3-53</num>
+        <content>
+          <p>The General Assembly shall meet at the new location provided for in Code Section 38-3-52 either upon the call of the Governor or, if no call is issued, through the initiative of the members thereof following an emergency or disaster resulting from manmade or natural causes or enemy attack impending or affecting this state. At such time the General Assembly shall not be limited by any constitutional provisions relating to length of sessions, and it may suspend the operation of any and all constitutional rules governing the procedure of both the House of Representatives and the Senate as it deems necessary during the period of emergency or disaster.</p>
+          <p>(Ga. L. 1962, p. 473, § 1; Ga. L. 1973, p. 74, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

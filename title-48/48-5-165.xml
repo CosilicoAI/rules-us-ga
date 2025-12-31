@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-165"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-165"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-165/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-165/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-165/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-165/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_165">
+        <num>48-5-165</num>
+        <content>
+          <p>It shall be the duty of each tax collector, whether acting on behalf of the county, municipality, board of education, or as an agent of the state, to instruct the taxpayers that any check, money order, or other similar bankable paper for the payment of taxes shall be made payable to the county tax office to which the taxes are due, rather than to the tax collector.The tax collector shall not be required, however, to return to the taxpayer a check or money order for the payment of taxes that is not made payable to the taxing entity in strict conformity with the instructions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-154"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-154"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-154/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-154/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-154/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-154/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_154">
+        <num>12-6-154</num>
+        <content>
+          <p>It shall be unlawful for any ginseng dealer or grower to fail to register with the department, on a form provided by the department, by July 15 of each year. It shall also be unlawful for any ginseng dealer or grower to fail to submit to the department by January 31 of each year certain information on forms provided by the department. Such information shall include, but shall not be limited to, the amount, by weight, of ginseng purchased or grown and sold during the season; the county or counties from which the ginseng was harvested; and whether the harvested roots were taken from wild or cultivated ginseng.</p>
+          <p>(Ga. L. 1979, p. 919, § 5; Ga. L. 1996, p. 327, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

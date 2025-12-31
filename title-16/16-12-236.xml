@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-12-236"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-236"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-12-236/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-236/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-12-236/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-236/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_12_236">
+        <num>16-12-236</num>
+        <content>
+          <p>The Georgia Department of Agriculture shall not regulate any activity authorized under this article.To the extent that the Department of Agriculture is authorized under any other law of this state to regulate any activity authorized by this article, including, but not limited to, the production process and seeds used by growers, such activities shall be exempt from regulation by the Department of Agriculture; provided, however, that all use of artificial pesticides regulated by the Department of Agriculture shall be banned.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

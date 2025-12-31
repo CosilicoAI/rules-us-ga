@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-13-29"/>
+          <FRBRuri value="/us-ga/act/ocga/40-13-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-13-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-13-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-13-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-13-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_13_29">
+        <num>40-13-29</num>
+        <content>
+          <p>In all counties except those having city, county, or state courts, the judge of the probate court shall have exclusive jurisdiction of all traffic misdemeanor cases originating in the county outside of municipal corporations, and the judge of the municipal court in each municipal corporation shall have exclusive jurisdiction of traffic misdemeanor cases originating inside the corporate limits of municipalities.</p>
+          <p>(Ga. L. 1937-38, Ex. Sess., p. 558, § 11; Ga. L. 1987, p. 3, § 40; Ga. L. 1992, p. 2785, § 29.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

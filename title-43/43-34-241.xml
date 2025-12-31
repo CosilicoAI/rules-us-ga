@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-241"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-241"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-241/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-241/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-241/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-241/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_241">
+        <num>43-34-241</num>
+        <content>
+          <p>This article is enacted for the purpose of safeguarding the public health, safety, and welfare by providing for state administrative control, supervision, and regulation of the practice of providing cosmetic laser services. It is the intention of the General Assembly that cosmetic laser services be made available and affordable to the people of this state in a safe, reliable manner. Unregulated cosmetic laser services do not adequately meet the needs or serve the interests of the public. Licensure of those performing cosmetic laser services and required education and training of such practitioners will help ensure the health and safety of consumers. The practice of providing cosmetic laser services is declared to be affected with the public interest; and this article shall be liberally construed so as to accomplish the purpose stated in this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-11-203"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-203"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-11-203/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-203/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-11-203/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-203/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_11_203">
+        <num>16-11-203</num>
+        <content>
+          <p>The testimony of any officer, employee, or agent of the federal government having confirmed that a person is an illegal alien shall be admissible to prove that the federal government has verified such person to be present in the United States in violation of federal immigration law. Verification that a person is present in the United States in violation of federal immigration law may also be established by any document authorized by law to be recorded or filed and in fact recorded or filed in a public office where items of this nature are kept.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-212"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-212"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-212/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-212/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-212/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-212/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_212">
+        <num>2-8-212</num>
+        <content>
+          <p>A dealer can opt out of this article only once per year between September 1 and September 30. Any dealer who opts out of this article in accordance with this Code section shall not be eligible to receive the benefit of any marketing order for a period of one year following the date of his or her request to opt out under this Code section and shall not be entitled to the payment of any interest by the commission on the amount refunded.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

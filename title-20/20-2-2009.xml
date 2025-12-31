@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2009"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2009"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2009/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2009/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2009/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2009/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_2009">
+        <num>20-2-2009</num>
+        <content>
+          <p>Each board of education shall be jointly and severally liable for all legal obligations of a fund which arise out of an event which occurred while such board was a member of such fund; provided, however, that a fund shall not assume a risk greater than an amount to be determined by the Commissioner; and provided, further, that this legal obligation may be enforced by an assessment against such member as provided in the bylaws of the agency.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

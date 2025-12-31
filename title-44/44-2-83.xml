@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-83"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_83">
+        <num>44-2-83</num>
+        <content>
+          <p>Every decree rendered as provided in this article shall bind the land and bar all persons claiming title thereto or interest therein, shall quiet the title thereto, and shall be forever binding and conclusive upon and against all persons, including this state, whether mentioned by name in the order of publication or included under the general description "whom it may concern." It shall not be an exception to the conclusiveness of the decree that the person is a minor, is incompetent by reason of mental illness or intellectual disability, or is under any other disability; but said person may have an action against the assurance fund provided for in Part 6 of this article.</p>
+          <p>(Ga. L. 1917, p. 108, § 27; Code 1933, § 60-223; Ga. L. 2015, p. 385, § 4-8/HB 252.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, in the last sentence, substituted "intellectual disability" for "retardation" and inserted "other".</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

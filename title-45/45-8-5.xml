@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-8-5"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-8-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-8-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_8_5">
+        <num>45-8-5</num>
+        <content>
+          <p>The amount of the bonds of collecting officers and officers to hold public funds shall be in the amount fixed by the proper authority, unless the amount is fixed by existing general laws, and shall be approved by the proper authority and filed as required by law. Except as otherwise provided in this Code section, the proper authority to fix the amount of bonds and to approve the same is the officer or officers upon whom those duties are imposed by existing laws. Where the law does not designate what officer shall perform these duties, the proper authority shall be the officer, board, bureau, or commission having supervision over the particular office or officer. Municipality or county authorities shall be deemed the proper authorities as to fixing the amount and approving bonds of municipality or county treasurers and those acting as substitutes for municipality or county treasurers under local laws and as to all other collecting officers and officers holding public funds, so far as relates to municipality or county taxes or revenue, and shall be deemed the proper authority as to requiring additional bonds or strengthening security on bonds, as to allowing reduction or substitution of bonds, and as to discharging bonds from future liability, so far as relates to such officers.</p>
+          <p>(Ga. L. 1933, p. 78, § 5; Code 1933, § 89-809.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

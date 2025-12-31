@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-10"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_10">
+        <num>10-1-10</num>
+        <content>
+          <p>When any goods have been repossessed after default in accordance with Part 6 of Article 9 of Title 11, the seller or holder shall not be entitled to recover a deficiency against the buyer unless within ten days after said repossession he forwards by registered or certified mail or statutory overnight delivery to the address of the buyer shown on the contract or later designated by the buyer a notice of the seller's or holder's intention to pursue a deficiency claim against the buyer. The notice shall also advise the buyer of his rights of redemption, as well as his right to demand a public sale of the repossessed goods. In the event the buyer exercises his right to demand a public sale of the goods, he shall in writing so advise the seller or holder of his election by registered or certified mail or statutory overnight delivery addressed to the seller or holder at the address from which the seller's or holder's notice emanated, within ten days after the posting of the original seller's or holder's notice.</p>
+          <p>In the event of election of such public sale by the buyer, the seller or holder shall dispose of the repossessed goods at a public sale as provided by law, to be held in the state and county where the original sale took place or the state and county of the buyer's residence, at the seller's election.</p>
+          <p>This Code section is cumulative of Part 6 of Article 9 of Title 11 and provides cumulative additional rights and remedies which must be fulfilled before any deficiency claim will lie against a buyer, and nothing in this Code section shall be deemed to repeal said part.</p>
+          <p>(Ga. L. 1967, p. 659, § 9; Ga. L. 2000, p. 1589, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

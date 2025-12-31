@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-13-93"/>
+          <FRBRuri value="/us-ga/act/ocga/16-13-93"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-13-93/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-13-93/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-13-93/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-13-93/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_13_93">
+        <num>16-13-93</num>
+        <content>
+          <p>No person shall sell or transfer possession of any model glue to another person under 18 years of age, nor shall any person under 18 years of age possess or buy any model glue unless the purchase is for model building or other lawful use and the person under 18 years of age has in his possession and exhibits to the seller or transferor the written consent of his parent or legal guardian to make such purchase or take possession of the model glue, provided any minor who shall transfer possession of model glue to another minor for model building or other lawful purpose shall not be held criminally liable for failing to require exhibition of the written consent of the transferee-minor's parents or for failing to keep same available for inspection by law enforcement officials.</p>
+          <p>(Ga. L. 1968, p. 1194, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

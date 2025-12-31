@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-7-85"/>
+          <FRBRuri value="/us-ga/act/ocga/51-7-85"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-7-85/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-7-85/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-7-85/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-7-85/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_7_85">
+        <num>51-7-85</num>
+        <content>
+          <p>On and after April 3, 1989, no claim other than as provided in this article or in Code Section 9-15-14 shall be allowed, whether statutory or common law, for the torts of malicious use of civil proceedings, malicious abuse of civil process, nor abusive litigation, provided that claims filed prior to such date shall not be affected. This article is the exclusive remedy for abusive litigation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

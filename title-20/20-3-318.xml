@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-318"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-318"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-318/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-318/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-318/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-318/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_318">
+        <num>20-3-318</num>
+        <content>
+          <p>The authority shall maintain an administration fund for itself and of the corporation as provided for in this Code section to which shall be credited state moneys, federal moneys, other moneys, and earned income of the authority available for and determined by the authority to be applied for the purpose of paying administration costs of the authority. The authority is authorized to pay from the fund administration costs incurred by the authority and to pay to the commission such amounts as may be necessary to cover administration costs of the authority paid or to be paid by the commission for or on behalf of the authority. Unless otherwise prohibited by state or federal law or by the terms of any trust agreement entered into or resolution providing for the issuance of obligations pursuant to Subpart 2 of this part or by the terms of any other agreement entered into by the authority, the authority is authorized to pay from the fund administration costs incurred by the corporation and pay to the commission such amounts as may be necessary to cover administration costs of the corporation paid or to be paid by the commission for or on behalf of the corporation.</p>
+          <p>(Code 1933, § 32-3709, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

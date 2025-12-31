@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-10-7"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-10-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-10-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_10_7">
+        <num>32-10-7</num>
+        <content>
+          <p>All contracts of the authority for the construction of any project authorized by this article shall be let to the reliable bidder submitting the lowest sealed bid upon plans and specifications approved by the department, as set forth in Code Sections 32-2-64 through 32-2-72. However, subject to the restriction on the subletting of negotiated contracts as contained in Code Section 32-2-61, the authority may contract with any county or other political subdivision of the state for the construction of any project situated wholly or partly within such subdivision, upon agreed terms; but the work provided for by such contract shall be at unit prices which shall not exceed the average of the unit prices submitted in the immediately preceding 60 days by competitive bidders for similar work to the department or the authority, whichever may be lower, as determined and averaged by the chief engineer or his or her designated subordinate.</p>
+          <p>(Ga. L. 1955, p. 124, § 9; Ga. L. 1961, p. 3, § 5; Ga. L. 1967, p. 385, § 5; Code 1933, § 95A-1205, enacted by Ga. L. 1973, p. 947, § 1; Ga. L. 1982, p. 3, § 32; Ga. L. 1994, p. 591, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

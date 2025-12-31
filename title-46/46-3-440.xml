@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-440"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-440"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-440/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-440/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-440/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-440/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_440">
+        <num>46-3-440</num>
+        <content>
+          <p>An electric membership corporation that has been dissolved by the expiration of its period of duration but which has continued in business in ignorance of such expiration may revive its corporate existence by amending its articles of incorporation at any time during a period of 15 years immediately following the expiration date fixed by the articles of incorporation so as to extend its period of duration. As of the effective date of the amendment, the corporate existence shall be deemed to have continued without interruption from the expiration date. If during the period between expiration and revival the name of the electric membership corporation has been assumed, reserved, or registered by any other electric membership corporation, the revived electric membership corporation shall not engage in business until it has amended its articles of incorporation to change its name.</p>
+          <p>(Code 1933, § 34C-1221, enacted by Ga. L. 1981, p. 1587, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

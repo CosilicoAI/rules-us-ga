@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-231"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-231"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-231/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-231/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-231/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-231/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_231">
+        <num>38-2-231</num>
+        <content>
+          <p>Every person who enlists or reenlists in any force of the organized militia shall sign an enlistment contract and shall take and subscribe such oath or affirmation of enlistment as may be prescribed by the applicable laws of the United States and by regulations issued pursuant to this chapter. The oath shall be taken and subscribed before any officer authorized by Code Section 38-2-213 to administer the oath of office to a commissioned officer. A person making a false oath as to any statement contained in the enlistment contract commits the offense of false swearing.</p>
+          <p>(Ga. L. 1916, p. 158, § 3; Code 1933, §§ 86-604, 86-9905; Ga. L. 1951, p. 311, § 53; Ga. L. 1955, p. 10, § 51.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

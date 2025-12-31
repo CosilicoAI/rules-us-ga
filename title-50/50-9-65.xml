@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-9-65"/>
+          <FRBRuri value="/us-ga/act/ocga/50-9-65"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-9-65/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-9-65/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-9-65/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-9-65/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_9_65">
+        <num>50-9-65</num>
+        <content>
+          <p>All moneys received by the committee shall be set aside as a special fund to be used by the committee to carry out the purposes of this article. All other personal property, tangible or intangible, which is acquired by the committee subsequent to March 26, 1975, shall become the property of the state upon such acquisition. The personal property may be sold or exchanged by the committee as agent for the state, notwithstanding any other provision of law concerning the sale or exchange of personal property of the state, provided that nothing contained in this Code section shall be construed to permit the committee to make a gift of any such personal property.</p>
+          <p>(Ga. L. 1975, p. 212, § 1; Ga. L. 1982, p. 3, § 50.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

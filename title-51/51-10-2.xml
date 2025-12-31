@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-10-2"/>
+          <FRBRuri value="/us-ga/act/ocga/51-10-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-10-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-10-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-10-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-10-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_10_2">
+        <num>51-10-2</num>
+        <content>
+          <p>Interference with the mere possession of a chattel, even if the possession is without title or is wrongful, shall give a right of action to the possessor, except as against the true owner or the person wrongfully deprived of possession.</p>
+          <p>(Orig. Code 1863, § 2966; Code 1868, § 2973; Code 1873, § 3027; Code 1882, § 3027; Civil Code 1895, § 3886; Civil Code 1910, § 4482; Code 1933, § 105-1702.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

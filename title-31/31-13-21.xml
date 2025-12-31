@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-13-21"/>
+          <FRBRuri value="/us-ga/act/ocga/31-13-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-13-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-13-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-13-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-13-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_13_21">
+        <num>31-13-21</num>
+        <content>
+          <p>Whenever, in the judgment of the director, any person has engaged in or is about to engage in any act or practice which constitutes or will constitute any violation of this chapter, the director may apply to the superior court of the county where such person resides or, if such person is a nonresident of the state, to the superior court of the county where such person is engaged in or is about to engage in such act or practice for an order restraining and enjoining such act or practice. Upon a showing by the director that such person has engaged in or is about to engage in any such act or practice, a temporary or permanent injunction, restraining order, or other order shall be granted without the necessity of showing lack of an adequate remedy at law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

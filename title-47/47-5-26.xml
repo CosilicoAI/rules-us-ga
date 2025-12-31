@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-5-26"/>
+          <FRBRuri value="/us-ga/act/ocga/47-5-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-5-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-5-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-5-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-5-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_5_26">
+        <num>47-5-26</num>
+        <content>
+          <p>The board of trustees shall file with each member employer an annual written report showing pertinent transactions affecting its respective retirement fund account, workers' compensation fund account, or employee benefit fund account since the last previous such report. Within 90 days of the receipt of such report, a member employer may file written objections with the board of trustees with respect to any transactions regarding its account as shown in such report.</p>
+          <p>(Ga. L. 1965, p. 421, § 22; Ga. L. 1984, p. 1041, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

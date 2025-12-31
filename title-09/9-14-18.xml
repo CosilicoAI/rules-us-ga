@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-14-18"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-14-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-14-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_14_18">
+        <num>9-14-18</num>
+        <content>
+          <p>If a person is arrested on suspicion of the commission of an offense in another state and the suspicion is reasonable, the person shall not be discharged until a sufficient time has been given for a demand to be made on the Governor for his rendition.</p>
+          <p>(Orig. Code 1863, § 3926; Code 1868, § 3949; Code 1873, § 4025; Code 1882, § 4025; Penal Code 1895, § 1228; Penal Code 1910, § 1309; Code 1933, § 50-118.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

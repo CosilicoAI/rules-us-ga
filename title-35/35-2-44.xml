@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-2-44"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-2-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-2-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_2_44">
+        <num>35-2-44</num>
+        <content>
+          <p>It shall be the duty of the commissioner, subject to the laws of this state, to arrange for the enlistment and examination of applicants for service as troopers or officers of the Uniform Division of the Department of Public Safety, to provide the necessary preliminary training and subsequent instruction of troopers and recruits as peace officers of this state, and to make all necessary rules and regulations for the discipline, conduct, and control of all officers, troopers, and other employees of the department.</p>
+          <p>(Ga. L. 1937, p. 322, art. 2, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

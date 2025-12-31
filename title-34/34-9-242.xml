@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-242"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-242"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-242/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-242/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-242/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-242/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_242">
+        <num>34-9-242</num>
+        <content>
+          <p>In the event an accident occurs while the employee is employed elsewhere than in this state, which accident would entitle him or his dependents to compensation if it had occurred in this state, the employee or his dependents shall be entitled to compensation if the contract of employment was made in this state and if the employer's place of business or the residence of the employee is in this state unless the contract of employment was expressly for service exclusively outside of this state. If an employee shall receive compensation or damages under the laws of any other state, nothing contained in this Code section shall be construed so as to permit a total compensation for the same injury greater than is provided for in this chapter.</p>
+          <p>(Ga. L. 1920, p. 167, § 37; Code 1933, § 114-411.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

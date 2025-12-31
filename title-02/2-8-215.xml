@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-215"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-215"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-215/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-215/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-215/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-215/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_215">
+        <num>2-8-215</num>
+        <content>
+          <p>Any person who violates any provision of this article or any marketing order duly issued and effective under this article shall be civilly liable to the commission for a penalty in an amount not to exceed $500.00 for each and every violation thereof, the amount of such penalty to be fixed by the commission after notice and hearing as provided by Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," for contested cases and recoverable by a civil action brought in the name of the commission. Any moneys recovered pursuant to this Code section shall be applied for the use of the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

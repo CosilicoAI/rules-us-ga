@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-176"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-176"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-176/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-176/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-176/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-176/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_176">
+        <num>38-2-176</num>
+        <content>
+          <p>The governing authorities of the counties and municipal corporations of the state are authorized to make appropriations from the funds of such counties and municipal corporations and to donate property, both real and personal, of the counties and municipal corporations for the support and maintenance of local forces of the organized militia as, in their discretion, they may deem meet and proper. A force of the organized militia shall be deemed to be a local force although its headquarters may be located in a county adjoining the county or adjoining the county in which the municipal corporation may be located, the governing authority of which desires to make any such appropriations, provided that a substantial number of its personnel are residents of such county or municipal corporation.</p>
+          <p>(Ga. L. 1916, p. 158, § 3; Code 1933, § 86-905; Ga. L. 1951, p. 311, § 21; Ga. L. 1955, p. 10, § 67.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

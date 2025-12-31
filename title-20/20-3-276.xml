@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-276"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-276"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-276/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-276/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-276/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-276/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_276">
+        <num>20-3-276</num>
+        <content>
+          <p>No school and no class, type, or group of "eligible institutions," as such term is defined in the federal act, shall have a vested right to be approved by the corporation as a "school" for purposes of the program, except in accordance with rules and regulations prescribed by the corporation.</p>
+          <p>(Code 1933, § 32-3318, enacted by Ga. L. 1980, p. 835, § 2; Ga. L. 1981, p. 735, § 25.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

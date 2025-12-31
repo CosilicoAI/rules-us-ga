@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-21-15"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-21-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-21-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_21_15">
+        <num>43-21-15</num>
+        <content>
+          <p>It shall be the duty of every hotel keeper, innkeeper, boarding house keeper, and eating house keeper to keep a copy of Code Sections 43-21-13 and 43-21-14 printed in distinct type, posted in the lobby, public waiting room, or that portion of his establishment most frequented by the guests thereof; and no conviction shall be had under this law until it shall be made to appear that such copy was posted, as above provided, in the hotel, inn, boarding house, or eating house, the owner or keeper of which shall claim to have been defrauded, at the time such food, lodging, or other accommodation was obtained.</p>
+          <p>(Ga. L. 1910, p. 137, § 3; Code 1933, § 52-9905.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

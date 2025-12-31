@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-213"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-213"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-213/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-213/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-213/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-213/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_213">
+        <num>8-2-213</num>
+        <content>
+          <p>Where an existing building or structure falls within the jurisdiction of both state level and local level enforcement authorities, the final review of any part of the project which is under the jurisdiction of both such enforcement authorities shall occur with the state authority; provided, however, that the local fire and building authorities must agree in writing with any compliance alternatives before such can be approved by the state authority. It is the intent of this Code section that the state enforcement authority be very liberal in the consideration and approval of compliance alternatives which have the documented support of local enforcement authorities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

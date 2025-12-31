@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-3-150"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-3-150/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-3-150/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_3_150">
+        <num>38-3-150</num>
+        <content>
+          <p>The General Assembly recognizes the extreme dangers present when the safety of our citizens requires first responders such as police and firefighters to evacuate or secure a building. To better prepare for responding to disasters, criminal acts, and acts of terrorism, the General Assembly intends to create a state-wide first responder building mapping information system that will provide first responders with information they need to be successful when disaster strikes. The first responder building mapping information system shall be developed for this limited and specific purpose and does not impose standards or system requirements on any other mapping systems used for any other purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

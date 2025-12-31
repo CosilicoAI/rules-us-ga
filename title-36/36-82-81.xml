@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-81"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-81"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-81/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-81/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-81/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-81/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_81">
+        <num>36-82-81</num>
+        <content>
+          <p>When a governmental body passes a resolution for the issuance of revenue bonds and notice is duly served upon the district attorney or the Attorney General under the authority of such governmental body, for the purpose of securing a judicial validation of such bonds and the security therefor, but the district attorney or Attorney General fails to proceed within the time specified in Code Section 36-82-75, it shall be competent for such governmental body to represent such facts in writing to the court and to represent further that the failure has been without fault on the part of the governmental body. In such case, it shall be the duty of the court and he shall have the power and authority to inquire into the facts and, upon being satisfied that the failure has not arisen from any fault or neglect on the part of the governmental body, to pass an order authorizing and directing the district attorney or Attorney General to proceed within ten days to file the petition authorized by Code Section 36-82-75. Thereafter, the proceedings shall be had in the same manner as would have been followed had such petition been duly and promptly filed in the first instance.</p>
+          <p>(Ga. L. 1937, p. 761, § 17.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

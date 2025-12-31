@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-12"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_12">
+        <num>50-16-12</num>
+        <content>
+          <p>In order to finance the continuing liability established with other agencies of state government, the state insurance and hazard reserve fund is authorized to retain all moneys paid into the fund as premiums on policies of insurance, all moneys received as interest, and all moneys received from other sources as a reserve for the payment of such liability and the expenses necessary to the proper conduct of such insurance program administered by the fund. Any amounts held by the state insurance and hazard reserve fund which are available for investment shall be paid over to the Office of the State Treasurer. The state treasurer shall deposit such funds in a trust account for credit only to the state insurance and hazard reserve fund. The state treasurer shall invest such funds subject to the limitations of Code Section 50-5A-7 and Chapter 17 of this title. All income derived from such investments shall accrue to the state insurance and hazard reserve fund. When moneys are paid over to the Office of the State Treasurer, as provided in this Code section, the commissioner shall submit an estimate of the date such funds shall no longer be available for investment. When the commissioner wishes to withdraw funds from the trust account provided for in this Code section, he or she shall submit a request for such withdrawal, in writing, to the state treasurer.</p>
+          <p>(Ga. L. 1972, p. 296, § 1; Ga. L. 2000, p. 1474, § 10; Ga. L. 2010, p. 863, §§ 2, 3/SB 296.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

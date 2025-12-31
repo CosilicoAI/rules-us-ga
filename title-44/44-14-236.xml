@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-236"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-236"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-236/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-236/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-236/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-236/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_236">
+        <num>44-14-236</num>
+        <content>
+          <p>Whenever a writ of possession is granted pursuant to a petition filed in accordance with Code Section 44-14-231, a levy may be made on the secured property by the sheriff, the deputy, the marshal, the constable, or a duly qualified levying officer of the court pursuant to the writ of possession. At the option of the plaintiff, the sheriff, the deputy, the marshal, the constable, or a duly qualified levying officer of the court shall either surrender the secured property to the plaintiff for retention or disposition in accordance with Article 9 of Title 11 or shall advertise and sell the same as in the case of levy and sale under execution.</p>
+          <p>(Code 1933, § 67-707, enacted by Ga. L. 1974, p. 398, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

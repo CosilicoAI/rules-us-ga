@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-5-10"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-5-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-5-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_5_10">
+        <num>21-5-10</num>
+        <content>
+          <p>The provisions of this chapter, so far as they are the same as those of existing laws, are intended as a continuation of such laws and not as new enactments. The repeal by this chapter of any Act of the General Assembly, or part thereof, shall not revive any Act, or part thereof, heretofore repealed or superseded. This chapter shall not affect any act done, liability or penalty incurred, or right accrued or vested prior to the taking effect of this chapter; nor shall this chapter affect any actions or prosecution then pending, or to be instituted, to enforce any right or penalty then accrued or to punish any offense theretofore committed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

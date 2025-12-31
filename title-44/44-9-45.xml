@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-9-45"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-45"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-9-45/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-45/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-9-45/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-45/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_9_45">
+        <num>44-9-45</num>
+        <content>
+          <p>Upon the final condemnation of the private way, it shall become the duty of the condemnor or his successors in title to maintain the private way and to keep it open and in a state of good repair. Failure to comply with this requirement for a period of one year shall constitute an abandonment of the private way; and the title thereto shall revert to the owner of the property over which the private way was condemned or his successors in title.</p>
+          <p>(Code 1933, § 83-105-A, enacted by Ga. L. 1967, p. 143, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

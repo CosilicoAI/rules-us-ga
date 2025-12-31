@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-603"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-603"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-603/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-603/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-603/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-603/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_603">
+        <num>21-2-603</num>
+        <content>
+          <p>A person commits the offense of conspiracy to commit election fraud when he or she conspires or agrees with another to commit a violation of this chapter. The crime shall be complete when the conspiracy or agreement is effected and an overt act in furtherance thereof has been committed, regardless of whether the violation of this chapter is consummated. A person convicted of the offense of conspiracy to commit election fraud involving a violation of this chapter which is a felony shall be punished by imprisonment for not less than one year nor more than one-half the maximum period of time for which he or she could have been sentenced if he or she had been convicted of the crime conspired to have been committed, by one-half the maximum fine to which he or she could have been subjected if he or she had been convicted of such crime, or both. A person convicted of the offense of conspiracy to commit election fraud involving a violation of this chapter which is a misdemeanor shall be punished as for a misdemeanor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

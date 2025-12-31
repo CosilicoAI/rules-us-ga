@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-4A-9"/>
+          <FRBRuri value="/us-ga/act/ocga/43-4A-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-4A-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-4A-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-4A-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-4A-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_4A_9">
+        <num>43-4A-9</num>
+        <content>
+          <p>The Secretary of State may issue a temporary certificate of registration while an application for registration or renewal of registration is pending, upon receipt by the Secretary of State of a completed application for registration, surety bond, and fee and after approval by the Secretary of State. The Secretary of State may in his or her discretion issue a temporary registration to the applicant, which registration shall have the same force and effect as a permanent registration for such period of time prescribed by the Secretary of State, after which the temporary registration shall become void. A temporary registration may be voided by the Secretary of State at any time.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

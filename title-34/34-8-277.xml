@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-277"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-277"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-277/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-277/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-277/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-277/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_277">
+        <num>34-8-277</num>
+        <content>
+          <p>The Commissioner shall promulgate administrative regulations as necessary, issue forms and instructions, and take all actions necessary to implement the provisions of this article.The Commissioner shall publicize the unemployment tax amnesty program in order to maximize the public awareness of and participation in the program.The Commissioner may, for the purpose of publicizing the unemployment tax amnesty program, contract with any advertising agency within or outside this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/30-9-11"/>
+          <FRBRuri value="/us-ga/act/ocga/30-9-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/30-9-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/30-9-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/30-9-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/30-9-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_30_9_11">
+        <num>30-9-11</num>
+        <content>
+          <p>Notwithstanding any other provision of state or local law or regulation that requires consideration of the financial circumstances of an applicant for local, state, or federal public assistance or a benefit provided under that law, the agency or entity making the determination of eligibility for such assistance or benefit may not consider the amount in the applicant's ABLE account or in an applicant's ABLE account established pursuant to an ABLE program in another state, including earnings on that amount, and any distribution for qualified disability expenses in determining the applicant's eligibility to receive the amount of the assistance or benefit with respect to the period during which the individual maintains any such ABLE account.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

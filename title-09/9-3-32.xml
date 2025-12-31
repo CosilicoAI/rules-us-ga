@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-3-32"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-3-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-3-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_3_32">
+        <num>9-3-32</num>
+        <content>
+          <p>Actions for the recovery of personal property, or for damages for the conversion or destruction of the same, shall be brought within four years after the right of action accrues, and actions involving the unauthorized cutting or cutting and carrying away of timber from the property of another shall be brought within four years after the cutting or cutting and carrying away of timber.</p>
+          <p>(Ga. L. 1855-56, p. 233, § 2; Code 1933, § 3-1003; Ga. L. 2014, p. 695, § 1/HB 790.)</p>
+          <p>The 2014 amendment,
+      effective July 1, 2014, added ", and actions involving the unauthorized cutting or cutting and carrying away of timber from the property of another shall be brought within four years after the cutting or cutting and carrying away of timber" at the end of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

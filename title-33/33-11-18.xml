@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-11-18"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-11-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-11-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_11_18">
+        <num>33-11-18</num>
+        <content>
+          <p>An insurer may invest in obligations issued, assumed, or guaranteed by the Inter-American Development Bank. The investments authorized by this Code section shall not be counted as an investment of reserves of paragraph (4) of Code Section 33-11-5 at any one time in an amount greater than 5 percent of the insurer's admitted assets.</p>
+          <p>(Code 1933, § 56-1018, enacted by Ga. L. 1962, p. 664, § 1; Ga. L. 1999, p. 592, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

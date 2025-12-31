@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-41-9"/>
+          <FRBRuri value="/us-ga/act/ocga/36-41-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-41-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-41-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-41-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-41-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_41_9">
+        <num>36-41-9</num>
+        <content>
+          <p>Each authority may pledge for the payment of its bonds such assets, funds, contract rights, and properties as the resolution providing for the issuance of its bonds may provide. Any such pledge made by the authority shall be valid and binding from the time when the pledge is made. The moneys or properties so pledged shall immediately be subject to the lien of such pledge without any physical delivery thereof or further act; and the lien of any such pledge shall be valid and binding as against all parties having claims of any kind against the authority, irrespective of whether such parties have notice thereof. No resolution or any other instrument by which a pledge is created need be recorded.</p>
+          <p>(Ga. L. 1979, p. 4662, § 9; Ga. L. 1985, p. 391, § 8; Ga. L. 1987, p. 150, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

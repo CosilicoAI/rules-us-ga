@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-1-5"/>
+          <FRBRuri value="/us-ga/act/ocga/46-1-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-1-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-1-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-1-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-1-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_1_5">
+        <num>46-1-5</num>
+        <content>
+          <p>By March 2, 1982, the Department of Human Resources (now known as the Department of Human Services) shall develop a program to identify those low or fixed income consumers of gas and electric utility service who, in the department's opinion, should benefit from public assistance in paying their bills for gas and electric service. The department shall also establish an efficient and economical method for distributing to such consumers all public assistance funds which will be made available, whether by appropriations of state or federal funds, grants, or otherwise. All gas and electric utilities shall cooperate fully with the department in developing and implementing its program. Nothing in this Code section shall limit the commission's authority to order regulatory alternatives which assist low or fixed income ratepayers.</p>
+          <p>(Ga. L. 1981, p. 121, § 8; Ga. L. 2009, p. 453, § 2-20/HB 228.)</p>
+          <p>The 2009 amendment,
+      effective July 1, 2009, inserted "(now known as the Department of Human Services)" in the first sentence of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

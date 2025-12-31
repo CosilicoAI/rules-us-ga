@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-540"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-540"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-540/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-540/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-540/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-540/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_540">
+        <num>20-2-540</num>
+        <content>
+          <p>Each and every lot or parcel of land which has been or may hereafter be obtained by any county board of education or independent school district, together with any buildings erected thereon for school purposes and all school furniture, shall be exempt from levy and sale under any execution or other writ or order in the nature of an execution, provided that the lot of land so exempted shall not exceed ten acres; and if there is any excess over that number of acres, then that portion not to exceed ten acres most convenient for school purposes shall be exempt as provided in this Code section, the exempted portion to be set off by order of the county board or the boards of trustees of the independent school system.</p>
+          <p>(Ga. L. 1919, p. 288, § 116; Ga. L. 1926, Ex. Sess., p. 17, § 1; Code 1933, § 32-943; Ga. L. 1946, p. 206, § 7; Ga. L. 1992, p. 6, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

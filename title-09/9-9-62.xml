@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-9-62"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-9-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-9-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_9_62">
+        <num>9-9-62</num>
+        <content>
+          <p>If the parties to a medical malpractice claim agree in writing to arbitrate the claim pursuant to this article, they shall file a petition in the superior court of the county where any party resides for an order authorizing the arbitration of the claim in accordance with this article and for the appointment of a referee for the arbitration. If the judge determines that the claim is a medical malpractice claim subject to this article, within 30 days of the filing of the petition for such order he shall issue an order authorizing the arbitration and appointing a referee. However, no agreement to arbitrate shall be enforceable unless the agreement was made subsequent to the alleged malpractice and after a dispute or controversy has occurred and unless the claimant is represented by an attorney at law at the time the agreement is entered into.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

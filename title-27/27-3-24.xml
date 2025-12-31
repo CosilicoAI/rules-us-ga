@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-3-24"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-3-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-3-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_3_24">
+        <num>27-3-24</num>
+        <content>
+          <p>(a.1) (1)The board may by rule or regulation restrict the feeding, baiting, or hunting of feral hogs upon, over, around, or near feed or bait in any county wherein there is a documented occurrence of a communicable disease in deer and in any county adjoining such county. Such restriction may be imposed in such county and any adjoining county for a period of up to and including one year and may be extended for additional periods of up to and including two years each upon documentation that the communicable disease is still present in deer in such county. No person shall feed, bait, or hunt feral hogs in violation of any restriction imposed pursuant to this paragraph.</p>
+          <p>The department shall give notice of such restriction by mail or electronic means to each person holding a current license to hunt whose last known address is within a restricted county. The department may place or designate the placement of signs and markers so as to give notice of such restriction.</p>
+          <p>(a.2)Nothing in this Code section shall prohibit any person from placing, exposing, depositing, distributing, or scattering any corn, wheat, or other grains, salts, apples, or other feed or bait so as to constitute a lure, attraction, or enticement for feral hogs; provided, however, that any such lure, attraction, or enticement shall not be placed, exposed, deposited, distributed, or scattered so as to cause hunting any species of wildlife on any adjoining property to be prohibited under this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-380"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-380/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-380/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_380">
+        <num>48-5-380</num>
+        <content>
+          <p>(a.1)If property owners have been billed and have remitted property tax payments to either a county or a municipality based on the fair market value of the land and subsequently the fair market value of such land is reduced on an appeal, then the county or the municipality shall reimburse the property owner the difference between tax remitted and the final tax owed for each year in which the incorrect fair market value of the land was used in the calculations.</p>
+          <p>(Code 1933, §§ 92-3901a, 92-3902a, 92-3903a, 92-3904a, 92-3905a, enacted by Ga. L. 1975, p. 774, § 1; Ga. L. 1978, p. 928, § 1; Code 1933, § 91A-1601, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1979, p. 5, § 46; Ga. L. 1980, p. 463, § 2; Ga. L. 2010, p. 1104, § 7-1/SB 346; Ga. L. 2014, p. 672, § 5/HB 755.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

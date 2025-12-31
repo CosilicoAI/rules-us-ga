@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-61"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_61">
+        <num>50-16-61</num>
+        <content>
+          <p>The Governor shall have general supervision over all property of the state with power to make all necessary regulations for the protection thereof, when not otherwise provided for. He shall assign rooms in the capitol to all officers who are required to hold their offices there and, in the absence of any legislative provision, designate the purpose to which other rooms shall be applied.</p>
+          <p>(Orig. Code 1863, § 71; Code 1868, § 65; Code 1873, § 62; Code 1882, § 62; Civil Code 1895, § 123; Civil Code 1910, § 146; Code 1933, § 91-402.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

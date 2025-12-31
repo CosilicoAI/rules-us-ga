@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-2-157"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-157"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-2-157/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-157/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-2-157/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-157/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_2_157">
+        <num>26-2-157</num>
+        <content>
+          <p>No horse meat shall be sold or offered for sale in this state for human consumption unless at the place of sale there shall be posted in a conspicuous location a sign bearing the words "HORSE MEAT FOR SALE." No sausage, ground meat, canned, or processed meat containing horse meat shall be sold for human consumption unless the package bears a label stating the proportionate amount of horse meat contained therein and unless there is likewise kept and maintained in a conspicuous place a sign showing that the meat offered for sale contains horse meat.</p>
+          <p>(Ga. L. 1943, p. 475, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

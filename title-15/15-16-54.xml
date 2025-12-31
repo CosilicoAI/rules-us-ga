@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-16-54"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-54"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-16-54/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-54/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-16-54/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-54/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_16_54">
+        <num>15-16-54</num>
+        <content>
+          <p>The sheriff, at his or her sole discretion, shall determine any symbol, seal, badge, or other nomenclature to be used by the sheriff's office so long as the use of any such nomenclature is not in violation of any other state or federal law. Any person who uses or displays any current or historical symbol, including any emblem, seal, or badge, used by the sheriff's office in connection with the planning, conduct, or execution of any solicitation; advertisement, circular, political endorsement, book, pamphlet, or other publication; or play, motion picture, broadcast, telecast, telemarketing, or other production in a manner reasonably calculated to convey the impression that such solicitation; advertisement, circular, political endorsement, book, pamphlet, or other publication; or play, motion picture, broadcast, telecast, telemarketing, or other production is approved, endorsed, or authorized by or associated with the office without written permission from the sheriff shall be in violation of this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

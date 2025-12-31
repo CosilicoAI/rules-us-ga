@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-5-4"/>
+          <FRBRuri value="/us-ga/act/ocga/40-5-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-5-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-5-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-5-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-5-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_5_4">
+        <num>40-5-4</num>
+        <content>
+          <p>The Governor of the State of Georgia, or his or her designee, is authorized to delay compliance with certain provisions of the federal Real ID Act, H.R. 1268, P.L. 109-13, enacted by Congress in 2005, until it is expressly guaranteed by the Department of Homeland Security, through adequately defined safeguards, that implementation of the Real ID Act will not compromise the economic privacy or biological sanctity of any citizen or resident of the State of Georgia. This Code section shall not be interpreted as limiting the Governor's discretion or authority to delay compliance with certain provisions of the Real ID Act for any other reason.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

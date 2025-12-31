@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-6-9"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-6-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-6-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-6-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_6_9">
+        <num>2-6-9</num>
+        <content>
+          <p>The Cooperative Extension Service, by regulation, shall provide for the organization within each community of a voluntary association in which all agricultural producers who are citizens of this state and residents in such community shall be entitled to equal participation; for the selection by each such association of a community committee, which shall be composed of three members of such association; and for a chairman to be chosen for each such community committee. The Cooperative Extension Service shall also provide for the selection by the members of such community committees within each county of a county committee for such county, to be composed of three members of such community committees, and for the selection of a chairman of each such county committee.</p>
+          <p>(Ga. L. 1937, p. 538, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

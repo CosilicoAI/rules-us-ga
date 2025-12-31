@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-10-153"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-153"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-10-153/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-153/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-10-153/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-153/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_10_153">
+        <num>15-10-153</num>
+        <content>
+          <p>When acting as officers of the municipal court all judges and other officers of the magistrate court shall be styled as judges and officers of the municipal court; and all pleadings, process, and papers of the municipal court shall be styled as such and not as pleadings, process, and papers of the magistrate court. The dockets and other records of the municipal court shall be kept separately from those of the magistrate court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

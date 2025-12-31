@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-55"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-55"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-55/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-55/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-55/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-55/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_55">
+        <num>38-2-55</num>
+        <content>
+          <p>Serving members of the State Defense Force are authorized to use and operate state property of the Georgia Department of Defense and other state agencies, including without limitation vehicles, as may be necessary for the accomplishment of training and fulfillment of assigned missions; provided, however, that the use of such property shall not be allowed if such use will interfere with the function and training of the National Guard or any state agency.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-11-479"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-479"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-11-479/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-479/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-11-479/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-479/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_11_479">
+        <num>15-11-479</num>
+        <content>
+          <p>Voluntary statements made in the course of intake screening of a child alleged to be or adjudicated as a delinquent child or in the course of his or her treatment, any evaluation, or any other related services shall be inadmissible in any adjudication hearing in which such child is the accused and shall not be considered by the court except such statement shall be admissible as rebuttal or impeachment evidence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

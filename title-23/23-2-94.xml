@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-2-94"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-94"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-2-94/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-94/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-2-94/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-94/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_2_94">
+        <num>23-2-94</num>
+        <content>
+          <p>In marshaling assets, the court shall look to the equities of the creditors and, where cases arise for election, shall compel the parties to elect.</p>
+          <p>(Orig. Code 1863, § 3078; Code 1868, § 3090; Code 1873, § 3147; Code 1882, § 3147; Civil Code 1895, § 4002; Civil Code 1910, § 4599; Code 1933, § 37-406.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

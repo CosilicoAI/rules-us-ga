@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-38-21"/>
+          <FRBRuri value="/us-ga/act/ocga/36-38-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-38-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-38-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-38-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-38-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_38_21">
+        <num>36-38-21</num>
+        <content>
+          <p>Where there are outstanding bonds and coupons of any municipal corporation of this state, whether such bonds or coupons are due or to become due, the authorities may issue new bonds with coupons attached, to be exchanged and to stand in the place of such outstanding bonds and coupons, provided that the new bonds so issued shall not exceed in amount the previously existing total bonded debt, with interest thereon, of such municipal corporation.</p>
+          <p>(Ga. L. 1878-79, p. 85, § 2; Code 1882, § 508m(3); Civil Code 1895, § 759; Civil Code 1910, § 906; Code 1933, § 87-502.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-17-5"/>
+          <FRBRuri value="/us-ga/act/ocga/2-17-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-17-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-17-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-17-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-17-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_17_5">
+        <num>2-17-5</num>
+        <content>
+          <p>Within 90 days of the conclusion of the state's fiscal year, any entity with which the department has contracted for the operation of the program shall submit to the department an annual report which shall account fully for and shall specify the expenditure of funds made pursuant to the program, the dollar value of Georgia products distributed, the number of people and households served in each county, and the type and weight of food purchased. Within 180 days of the end of the state's fiscal year, the Commissioner shall submit an annual report to the Governor, the President of the Senate, and the Speaker of the House of Representatives. Such report shall include, but not be limited to, relevant information concerning the operation of the program for the preceding fiscal year, the quantity and dollar value of Georgia products distributed, the number of people and households served in each county, and the type and weight of food purchased.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

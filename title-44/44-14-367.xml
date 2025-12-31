@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-367"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-367"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-367/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-367/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-367/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-367/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_367">
+        <num>44-14-367</num>
+        <content>
+          <p>Failure of a lien claimant to commence a lien action to collect the amount of his or her claim within 365 days from the date of filing the lien, or failure of the lien claimant to file the statutory notice of commencement of lien action in the county where the property is located, renders the claim of lien unenforceable. A claim of lien may be disregarded if no notice of commencement of lien action was filed within 395 days from the date the claim of lien was filed. Any lien filed after March 31, 2009, shall include on the face of the lien the following statement in at least 12 point bold font: "This claim of lien expires and is void 395 days from the date of filing of the claim of lien if no notice of commencement of lien action is filed in that time period." Failure to include such language shall invalidate the lien and prevent it from being filed. No release or voiding of such liens shall be required. A lien shall expire sooner and be disregarded once it is determined that no notice of commencement was timely filed in response to a notice of contest pursuant to Code Section 44-14-368.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4-103"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4-103/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4-103/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4_103">
+        <num>46-4-103</num>
+        <content>
+          <p>In all cases where the authority has adopted a resolution for the issuance of revenue bonds, and where notice has been duly served upon the district attorney for the purpose of securing a judicial validation of such bonds and the security therefor, and where, in such case, there has been a failure on the part of such district attorney or other officer to proceed within the time prescribed by this article, it shall be competent for the authority to represent such facts in writing to the court and to represent further that such failure has been without fault on the part of the authority. In such case, the Superior Court of Fulton County shall have power and authority to inquire into the facts; and, upon being satisfied that such failure has not arisen from any fault or neglect on the part of the authority, it shall be the duty of the court to pass an order directing such district attorney to proceed within ten days to file a complaint as authorized by this article. Thereafter, the proceedings shall be held in the same manner as would have been followed had such petition been duly and promptly filed in the first instance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

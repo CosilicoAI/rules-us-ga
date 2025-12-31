@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-16-42"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-16-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-16-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_16_42">
+        <num>47-16-42</num>
+        <content>
+          <p>Membership in this retirement fund shall not be affected by membership or participation in any other fund or retirement system. There shall be no reduction in benefits predicated solely upon eligibility of the member to benefits from another independent source of retirement or pension. The benefits under this chapter are to be in addition to any other retirement benefits. There shall be no reduction in benefits otherwise payable to any member under any other state or quasi-state sponsored or sanctioned fund or retirement system because of membership and participation in this retirement fund.</p>
+          <p>(Ga. L. 1963, p. 630, § 23; Ga. L. 1974, p. 1194, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-10-6"/>
+          <FRBRuri value="/us-ga/act/ocga/33-10-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-10-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-10-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-10-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-10-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_10_6">
+        <num>33-10-6</num>
+        <content>
+          <p>Term for Which Policy
+   Reserve for Unearned
+   Was Written
+   Premium
+   ---------------------
+   --------------------
+   1 year or less
+   1/2
+   2 years
+   First year 3/4
+   Second year 1/4
+   3 years
+   First year 5/6
+   Second year 1/2
+   Third year 1/6
+   4 years
+   First year 7/8
+   Second year 5/8
+   Third year 3/8
+   Fourth year 1/8
+   5 years
+   First year 9/10
+   Second year 7/10
+   Third year 1/2
+   Fourth year 3/10
+   Fifth year 1/10
+   Over 5 years
+   Pro rata</p>
+          <p>(Code 1933, § 56-906, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

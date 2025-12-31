@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-4-13"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-4-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-4-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_4_13">
+        <num>45-4-13</num>
+        <content>
+          <p>The official bonds given for county taxes by the clerks of the superior courts, chief magistrates, magistrates, sheriffs, coroners, county surveyors, county treasurers, county tax collectors, and county tax receivers shall be approved by the judge of the probate court, filed in his office, and recorded by him. The bonds of tax collectors and tax receivers for state taxes, after being likewise approved, shall be recorded by the judge of the probate court; and the original bond shall be transmitted by him to the Governor for deposit in the comptroller general's office.</p>
+          <p>(Orig. Code 1863, § 155; Code 1868, § 150; Code 1873, § 161; Code 1882, § 161; Civil Code 1895, § 257; Civil Code 1910, § 292; Code 1933, § 89-405; Ga. L. 1989, p. 247, § 1; Ga. L. 2013, p. 141, § 45/HB 79.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

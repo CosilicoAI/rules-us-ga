@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-24-61"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-24-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-24-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_24_61">
+        <num>33-24-61</num>
+        <content>
+          <p>It is the intent of the General Assembly to encourage health care cost containment while preserving the quality of care offered to citizens of this state. The General Assembly finds that there is an increasing number of proposals which mandate that certain health insurance benefits be provided by insurers as components of individual and group accident and sickness insurance policies. The General Assembly further finds that many of these health insurance benefits provide beneficial social and health consequences which may be in the public interest. However, the General Assembly also recognizes that most mandated health insurance benefits contribute to the increasing cost of accident and sickness insurance premiums. Therefore, it is the intent of the General Assembly to conduct a systematic review of proposed mandated or mandatorily offered health insurance benefits and to establish guidelines for such a review. This review will assist the General Assembly in determining whether mandating a certain health insurance benefit is in the public interest.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-9-15"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-9-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-9-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_9_15">
+        <num>33-9-15</num>
+        <content>
+          <p>Notwithstanding Code Section 33-9-14, each rating organization possessing a license of indefinite term pursuant to such Code section shall owe and pay to the Commissioner an annual fee as provided in Code Section 33-8-1 in advance on account of such license until its final termination.Such fee shall be for periods commencing on July 1 of each year and ending on June 30 and shall be due and payable on March 1 of each year and shall be delinquent on April 1 of each year.</p>
+          <p>(Code 1933, § 56-517, enacted by Ga. L. 1967, p. 684, § 1; Ga. L. 1992, p. 2725, § 14.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

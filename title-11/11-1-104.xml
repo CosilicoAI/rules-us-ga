@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-1-104"/>
+          <FRBRuri value="/us-ga/act/ocga/11-1-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-1-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-1-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-1-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-1-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_1_104">
+        <num>11-1-104</num>
+        <content>
+          <p>This title being a general act intended as a unified coverage of its subject matter, no part of it shall be deemed to be impliedly repealed by subsequent legislation if such construction can reasonably be avoided.</p>
+          <p>(Code 1933, § 109A-1 - 104, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 2015, p. 996, § 3A-1/SB 65.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

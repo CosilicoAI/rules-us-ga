@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-20"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_20E_20">
+        <num>33-20E-20</num>
+        <content>
+          <p>On or before July 1, 2022, and each July 1 thereafter, the Commissioner shall provide a written report to the House Committee on Insurance and the Senate Insurance and Labor Committee, or their successor committees, and shall post the report on the department's website summarizing the number of arbitrations filed, settled, arbitrated, defaulted, and dismissed during the previous calendar year; and a description of whether the arbitration decisions were in favor of the insurer or the provider or facility.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

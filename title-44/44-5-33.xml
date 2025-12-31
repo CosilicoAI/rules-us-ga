@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-5-33"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-5-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-5-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_5_33">
+        <num>44-5-33</num>
+        <content>
+          <p>No prescribed form is essential to the validity of a deed to lands or personalty. If the deed is sufficient in itself to make known the transaction between the parties, no want of form will invalidate it.</p>
+          <p>(Laws 1768, Cobb's 1851 Digest, p. 163; Laws 1785, Cobb's 1851 Digest, p. 164; Code 1863, § 2651; Code 1868, § 2650; Code 1873, § 2692; Code 1882, § 2692; Civil Code 1895, § 3602; Civil Code 1910, § 4182; Code 1933, § 29-104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

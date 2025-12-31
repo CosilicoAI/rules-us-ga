@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-404"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-404"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-404/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-404/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-404/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-404/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_404">
+        <num>31-7-404</num>
+        <content>
+          <p>Within ten working days after receipt of notice under this article, the Attorney General shall publish notice of the proposed transaction in a newspaper of general circulation in the county where the main campus of the hospital is located and shall notify in writing the governing authority of such county. The published notice required by this Code section shall state that the Attorney General has received notice of a proposed transaction, the names of the parties to the proposed transaction, the date, time, and place of the public hearing regarding the transaction, and the means by which a person may submit written comments about the proposed transaction to the Attorney General.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-343"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-343"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-343/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-343/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-343/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-343/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_343">
+        <num>44-14-343</num>
+        <content>
+          <p>A landlord's special lien for rent shall be enforced by a distress warrant in the same manner as general liens for rent are enforced; and no further allegations in the affidavit to procure a distress warrant to enforce a special lien for rent shall be necessary than are necessary to enforce the landlord's general lien for rent.</p>
+          <p>(Ga. L. 1887, p. 34, § 1; Civil Code 1895, § 2797; Civil Code 1910, § 3342; Code 1933, § 61-205.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-12-101"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-101"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-12-101/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-101/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-12-101/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-101/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_12_101">
+        <num>16-12-101</num>
+        <content>
+          <p>The General Assembly finds that the sale, loan, and exhibition of harmful materials to minors has become a matter of increasingly grave concern to the people of this state. The elimination of such sales, loans, and exhibition and the consequent protection of minors from harmful materials are in the best interest of the morals and general welfare of the citizens of this state in general and of minors in this state in particular. The accomplishment of these ends can best be achieved by providing public prosecutors with an effective power to commence criminal proceedings against persons who engage in the sale, loan, or exhibition of harmful materials to minors.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

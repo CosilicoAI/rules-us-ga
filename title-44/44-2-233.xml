@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-233"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-233"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-233/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-233/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-233/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-233/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_233">
+        <num>44-2-233</num>
+        <content>
+          <p>"Entered and registered this ________ day of ________________________, ________, at ____: ____ ____. M. and certificate of title No. ______ issued thereon.
+   ____________________________________________________________________
+   Clerk"
+   and
+   (5) At the top of the page and preceding the copy of the decree should be the words, "Registered Title No. ______." The first decree entered is numbered "Registered Title No. 1," the second "Registered Title No. 2," and so on in continuous, consecutive order. The registered title number of a registered tract never changes though any number of subsequent certificates may be issued thereon; therefore, the registered title number and the certificate number will usually be different.</p>
+          <p>(Ga. L. 1917, p. 108, § 98; Code 1933, § 60-614; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+        <subsection eId="sec_44_2_233__subsec_4">
+          <num>(4)</num>
+          <content>
+            <p>At the bottom of the page should be the words:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

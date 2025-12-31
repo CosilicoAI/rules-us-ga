@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-15-4"/>
+          <FRBRuri value="/us-ga/act/ocga/31-15-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-15-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-15-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-15-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-15-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_15_4">
+        <num>31-15-4</num>
+        <content>
+          <p>The commissioner shall appoint a cancer control officer. The cancer control officer shall be a physician licensed to practice medicine under Chapter 34 of Title 43 and shall be knowledgeable in the field of medicine covered by this chapter. He or she shall administer the cancer program for the Department of Public Health in compliance with this chapter. He or she shall be provided an office with clerical and administrative assistance to carry out this program.</p>
+          <p>(Code 1933, § 88-2504a, enacted by Ga. L. 1977, p. 753, § 1; Ga. L. 2009, p. 453, § 1-39/HB 228; Ga. L. 2011, p. 705, § 6-1/HB 214.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

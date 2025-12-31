@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-272"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-272"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-272/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-272/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-272/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-272/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_272">
+        <num>48-8-272</num>
+        <content>
+          <p>The General Assembly finds and declares that the general welfare and material well-being of the citizens of this state depend in large measure upon the development of tourism in the state; that it is in the best interest of this state to induce the creation of tourism attractions or expansion of existing tourism attractions within this state in order to advance the public purposes of relieving unemployment by preserving and creating jobs that would not exist if not for the sales and use tax refund offered by the State of Georgia to approved companies and preserving and creating sources of tax revenues for the support of public services provided by the state; that the purposes to be accomplished under the provisions of this article are proper governmental and public purposes for which public moneys may be expended; and that the inducement of the creation of tourism attraction projects is of paramount importance to the economy of the state, mandating that the provisions of this article are to be liberally construed and applied in order to advance public purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

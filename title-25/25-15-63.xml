@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-15-63"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-63"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-15-63/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-63/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-15-63/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-63/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_15_63">
+        <num>25-15-63</num>
+        <content>
+          <p>If any person would incur practical difficulties or unnecessary hardships in complying with the standards and regulations adopted pursuant to this article, or if any person is aggrieved by any order issued by the office, the person may make a written application to the office stating his or her grounds and applying for a variance. The office may grant such a variance in the spirit of the provisions of this article with due regard to public safety. The granting or denial of a variance by the office shall be in writing and shall describe the conditions under which the variance is granted or the reasons for denial. A record shall be kept of all variances granted by the office and such record shall be open to inspection by the public.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

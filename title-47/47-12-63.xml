@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-12-63"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-63"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-12-63/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-63/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-12-63/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-63/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_12_63">
+        <num>47-12-63</num>
+        <content>
+          <p>In computing years of service as a district attorney for any purpose under this chapter, up to three years of service as a member of the General Assembly and any time served as an attorney for the state or any authority thereof on a salary basis may be counted in computing the number of years of service required of a district attorney, provided that he pays into the fund the maximum payment provided for by this chapter for each year of such service as a member of the General Assembly, and any time served as an attorney for the state or any authority thereof on a salary basis, plus interest on such payment at the rate of 6 percent per annum. Such payment shall be made on or before June 30, 1974. In computing such credit, any such district attorney shall be credited for a full year for each year of membership in the General Assembly and a full year for each year he served as an attorney for the state or any authority thereof on a salary basis.</p>
+          <p>(Ga. L. 1972, p. 220, § 1; Ga. L. 1974, p. 1180, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

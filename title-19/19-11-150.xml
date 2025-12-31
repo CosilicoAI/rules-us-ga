@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-11-150"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-11-150/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-11-150/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_11_150">
+        <num>19-11-150</num>
+        <content>
+          <p>An income-withholding order issued in another state may be sent by or on behalf of the obligee, or by the support enforcement agency, to the person defined as the obligor's employer pursuant to Code Sections 19-6-32 through 19-6-33.1 without first filing a petition or comparable pleading or registering the order with a tribunal of this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

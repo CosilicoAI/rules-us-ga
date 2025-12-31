@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-382"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-382"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-382/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-382/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-382/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-382/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_382">
+        <num>10-1-382</num>
+        <content>
+          <p>In addition to any amount owed under a judgment rendered under Code Section 10-1-381 or 10-1-397, a delinquent party shall be responsible by operation of law for a collection fee equal to 40 percent of the amount of the judgment as if such collection fee had been included as part of the judgment. The Attorney General may contract with collection attorneys to collect all or any remaining part of such amounts due under a judgment rendered under Code Section 10-1-381 or 10-1-397. All funds collected by any such collection attorneys shall be remitted to the Attorney General for disbursement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

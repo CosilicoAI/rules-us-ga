@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-10-61"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-10-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-10-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_10_61">
+        <num>15-10-61</num>
+        <content>
+          <p>There shall be no jury trials in the magistrate court. Any defendant who is charged with one or more ordinance violations may, at any time before trial, demand that the case be removed for a jury trial to the state court of the county or to the superior court of the county if there is no state court. Such a demand shall be written. Upon such a demand the court shall grant the demand. Failure to so demand removal of the case shall constitute a waiver of any right to trial by jury which the defendant may otherwise have.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

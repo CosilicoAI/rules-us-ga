@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-127"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-127"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-127/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-127/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-127/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-127/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_127">
+        <num>9-13-127</num>
+        <content>
+          <p>When levy has been made and affidavit and bond delivered to the levying officer, it shall be the duty of the officer to suspend further proceedings on the execution and to return the execution, affidavit, and bond to the next term of the court from which the execution issued. It shall be the duty of the court to make a determination thereon at the first term thereof unless the plaintiff or his attorney desires to controvert the facts contained in the affidavit, in which case an issue shall be joined and tried by a jury at the same term unless good cause is shown for a continuance.</p>
+          <p>(Orig. Code 1863, § 3593; Code 1868, § 3616; Code 1873, § 3666; Code 1882, § 3666; Civil Code 1895, § 4738; Civil Code 1910, § 5307; Code 1933, § 39-1006.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

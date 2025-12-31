@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-11-1013"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-1013"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-11-1013/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-1013/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-11-1013/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-1013/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_11_1013">
+        <num>14-11-1013</num>
+        <content>
+          <p>No action by any dissenter to enforce dissenters' rights shall be brought more than three years after the limited liability company action was taken, regardless of whether notice of the limited liability company action and of the right of dissent was given by the limited liability company in compliance with the provisions of Code Section 14-11-1003 and Code Section 14-11-1005.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-131"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-131"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-131/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-131/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-131/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-131/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_131">
+        <num>31-8-131</num>
+        <content>
+          <p>The General Assembly finds that persons residing within personal care homes are often isolated from the community and often lack the means to assert fully their rights as individual citizens.The General Assembly also recognizes that in order for the rights of residents of personal care homes to be fully protected, residents must be afforded a means of recourse when such rights have been denied.It is therefore the intent of the General Assembly to preserve the dignity and personal integrity of residents of personal care homes by providing access to a legal process to hear and redress the grievances of such residents regarding their individual rights.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

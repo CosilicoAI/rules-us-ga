@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-7-54"/>
+          <FRBRuri value="/us-ga/act/ocga/16-7-54"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-7-54/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-7-54/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-7-54/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-7-54/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_7_54">
+        <num>16-7-54</num>
+        <content>
+          <p>Whenever any egregious litter which is dumped in violation of Code Section 16-7-52 is discovered to contain any article or articles, including but not limited to letters, bills, publications, or other writings which display the name of a person thereon, addressed to such person or in any other manner indicating that the article belongs or belonged to such person, the trier of fact may in its discretion and in consideration of the totality of the circumstances infer that such person has violated this part.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-340"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-340/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-340/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_340">
+        <num>20-3-340</num>
+        <content>
+          <p>The General Assembly finds that students and parents are not always able to obtain educational loan assistance from a commercial lender under the Georgia Higher Education Loan Program provided for in Part 2 of this article; that a need exists to make additional educational loan funds available to students and parents; and that a need exists to provide for secondary financing and servicing of educational loans made by other lenders in order to enable such lenders to maintain or expand their participation in the Georgia Higher Education Loan Program. The purpose of the General Assembly, as provided for in this subpart, is to enable the authority to make additional educational loan funds available for students and parents and to make secondary financing and servicing of educational loans available to other commercial lenders.</p>
+          <p>(Code 1933, § 32-3726, enacted by Ga. L. 1980, p. 835, § 3; Ga. L. 1981, p. 735, § 35.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

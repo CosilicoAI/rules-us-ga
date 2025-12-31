@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-8-64"/>
+          <FRBRuri value="/us-ga/act/ocga/47-8-64"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-8-64/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-8-64/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-8-64/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-8-64/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_8_64">
+        <num>47-8-64</num>
+        <content>
+          <p>Senior judges may serve as judges of the superior courts as provided for in Chapter 1 of Title 15 or as otherwise provided by law. A senior judge serving as judge of the superior court shall be compensated as provided for in Code Section 15-1-9.2 or as otherwise provided by laws enacted after July 1, 1989; and such compensation for such service shall not affect, diminish, or otherwise impair the payment or receipt of any retirement or pension benefits of such judge.</p>
+          <p>(Ga. L. 1962, p. 547, §§ 1-3; Ga. L. 1970, p. 204, §§ 1-4; Ga. L. 1973, p. 911, § 4; Ga. L. 1976, p. 586, § 37; Ga. L. 1981, p. 1386, § 2; Ga. L. 1989, p. 832, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

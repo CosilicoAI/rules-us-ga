@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-12-7"/>
+          <FRBRuri value="/us-ga/act/ocga/40-12-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-12-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-12-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-12-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-12-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_12_7">
+        <num>40-12-7</num>
+        <content>
+          <p>The Secretary of State is authorized and empowered to designate such of his employees as he deems necessary for the purposes of accepting service as provided in this chapter and performing all other duties and functions as provided in this chapter for the Secretary of State. Such designation shall be in writing, and all actions by any such person designated shall be as valid and binding as though performed by the Secretary of State himself. The power and authority of any such person so designated shall cease immediately upon such person's ceasing to be an employee of the Secretary of State.</p>
+          <p>(Ga. L. 1957, p. 65, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

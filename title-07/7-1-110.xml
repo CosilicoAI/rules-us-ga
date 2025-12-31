@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-110"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-110/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-110/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_110">
+        <num>7-1-110</num>
+        <content>
+          <p>Except in the case of an emergency closing, before a financial institution may close a banking location, it must post at such location in a conspicuous place at least 30 days in advance of such closing a notice of intent to close. Such notice must remain posted for at least 30 consecutive days. Customers of a banking location shall be considered to have received notice if the requirements of this Code section have been met.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

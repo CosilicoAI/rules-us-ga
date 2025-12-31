@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-10-41"/>
+          <FRBRuri value="/us-ga/act/ocga/45-10-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-10-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-10-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-10-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-10-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_10_41">
+        <num>45-10-41</num>
+        <content>
+          <p>Any member of the Board of Regents of the University System of Georgia or of the Board of Human Services or any trustee or other officer of any institution supported wholly or in part by state funds who violates Code Section 45-10-40 shall be guilty of a misdemeanor and, upon conviction thereof, shall be punished as prescribed in Code Section 17-10-3. If any member of the Board of Regents of the University System of Georgia or of the Board of Human Services is found guilty of violating Code Section 45-10-40, his office shall become vacant; and it is the duty of the Governor, where the power to fill the vacancy is lodged in the Governor, to appoint some other person to fill the vacancy. If any trustee or other officer of such institution is found guilty of violating Code Section 45-10-40, he shall be discharged from his office in such institution and shall not be eligible to be reelected or reappointed to such office; and the vacancy shall be filled by the board or the authority which, under the law, has the right to fill such vacancy.</p>
+          <p>(Ga. L. 1918, p. 266, § 2; Code 1933, § 89-9915; Ga. L. 1990, p. 8, § 45; Ga. L. 2009, p. 453, § 2-3/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

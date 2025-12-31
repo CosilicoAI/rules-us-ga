@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-29-21"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-29-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-29-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_29_21">
+        <num>33-29-21</num>
+        <content>
+          <p>Every policy which contains a provision for termination of coverage of a dependent upon the reaching of a certain age shall contain a provision to the effect that, upon the date of the dependent reaching the age at which coverage would terminate under the provisions of the policy, the dependent shall be entitled to have issued to him or her, without evidence of insurability, upon application made to the company within 45 days following the date the dependent reaches the age at which coverage would terminate and upon the payment of the appropriate premium, an individual or family policy of accident and sickness insurance then being issued by the insurer which provides coverage most nearly similar to the coverage contained in the policy which was terminated by reason of such dependent reaching a certain age or any similar individual or family policy then being issued by the insurer which contains lesser coverage.Any and all probationary or waiting periods set forth in such an individual or family policy shall be considered as being met to the extent coverage was in force under the prior policy.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-9-42"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-9-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-9-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_9_42">
+        <num>49-9-42</num>
+        <content>
+          <p>For the purpose of providing blind persons or other persons with disabilities with remunerative employment, enlarging their economic opportunities, and stimulating them to greater effort in striving to make themselves self-supporting, such blind persons or other persons with disabilities who are licensed by the Georgia Vocational Rehabilitation Agency shall be authorized to operate vending facilities on any state property where such vending facilities may be properly and satisfactorily operated by blind persons or other persons with disabilities. In authorizing the operation of vending facilities on state property, preference shall be given, so far as feasible, to blind persons or other persons with disabilities licensed by the Georgia Vocational Rehabilitation Agency as provided in this article; and the head of each department or agency in control of the maintenance, operation, and protection of state property shall, after consultation with the board and with the approval of the Governor, prescribe regulations designed to assure such preference (including assignment of vending machine income to achieve and protect such preference) for such licensed blind persons or other persons with disabilities without unduly inconveniencing such departments and agencies or adversely affecting the interests of the state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

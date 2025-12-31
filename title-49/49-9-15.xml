@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-9-15"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-9-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-9-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_9_15">
+        <num>49-9-15</num>
+        <content>
+          <p>Where a person with disabilities who receives vocational rehabilitation services is covered by a hospitalization or medical insurance policy, the Georgia Vocational Rehabilitation Agency shall be subrogated to the rights of such person with disabilities to recover in an amount not to exceed the cost of vocational rehabilitation services rendered by the Georgia Vocational Rehabilitation Agency, exclusive of those services for which eligibility is not predicated on the need for financial assistance. Where the person with disabilities receives vocational rehabilitation services without disclosing that he or she is covered by a hospitalization or medical insurance policy, he or she shall be liable therefor to the Georgia Vocational Rehabilitation Agency in an amount not to exceed the cost of rehabilitation services rendered, exclusive of those services for which eligibility is not predicated on the need for financial assistance, or in an amount not to exceed the insurance reimbursement received, whichever is the lesser.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

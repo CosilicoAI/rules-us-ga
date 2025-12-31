@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-20-56"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-56"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-20-56/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-56/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-20-56/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-56/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_20_56">
+        <num>45-20-56</num>
+        <content>
+          <p>Deductions from salaries of employees and transmittal of funds to charitable organizations may be offered as a privilege for the convenience of employees and no right of action shall accrue to the employee or to any charitable organization for errors, omissions, or decisions of administrative employees or officials regarding such deductions. The board is the sole judge of charitable organizations approved for participation in the program. Charitable organizations may be disapproved without any liability on the part of any state official or employee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

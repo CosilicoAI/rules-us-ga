@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-11-11"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-11-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-11-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_11_11">
+        <num>16-11-11</num>
+        <content>
+          <p>It shall be unlawful for any subversive organization or foreign subversive organization to exist or function in this state. Any organization which by a court of competent jurisdiction is found to have violated this Code section shall be dissolved and, if it is a corporation organized and existing under the laws of this state, a finding by a court of competent jurisdiction that it has violated this Code section shall constitute legal cause for revocation of its charter and its charter shall be revoked. All funds, books, records, and files of every kind and all other property of any organization found to have violated this Code section shall be seized by and for this state, the funds to be deposited in the state treasury and the books, records, files, and other property to be turned over to the Attorney General.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 216, § 5; Ga. L. 2015, p. 693, § 2-11/HB 233.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-3-14"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-3-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-3-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_3_14">
+        <num>35-3-14</num>
+        <content>
+          <p>To the extent permitted by federal law, the bureau shall post on its public website the information of persons who are aliens and who have been released from federal custody within the boundaries of this state, as such information is presented within the Law Enforcement Notification System of the Enforcement Integrated Database of the United States Department of Homeland Security or the National Law Enforcement Telecommunications System as received by the Georgia Information Sharing and Analysis Center within the bureau or any replacement agency. Within 12 hours of receiving such information, the bureau shall post such information as required by this Code section and electronically send a copy of such information to the Georgia Sheriffs' Association. The bureau shall promulgate rules and regulations for the implementation of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

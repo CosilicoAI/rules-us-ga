@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-12-2"/>
+          <FRBRuri value="/us-ga/act/ocga/20-12-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-12-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-12-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-12-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-12-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_12_2">
+        <num>20-12-2</num>
+        <content>
+          <p>The board of regents shall establish and operate one or more marine resources extension centers and an institute for oceanographic studies, known as the Oceanographic Research Center. The board of regents may delegate to one or more of its members or to its officers, agents, and employees such powers and duties as it may deem proper to carry out the purposes of this chapter. The board of regents may contract with any department, board, or agency of the state, local, or federal government; public or private colleges and universities not component units of the university system; nonprofit organizations; foundations; corporations; private business firms; and individuals as shall be consonant with all the purposes of this chapter.</p>
+          <p>(Ga. L. 1967, p. 12, § 1; Ga. L. 1969, p. 754, § 1; Ga. L. 1972, p. 1015, § 2203.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

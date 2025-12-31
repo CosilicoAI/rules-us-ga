@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-20-2"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-20-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-20-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_20_2">
+        <num>47-20-2</num>
+        <content>
+          <p>It is the purpose of this chapter to comply with the provisions of Article III, Section X, Paragraph V of the Constitution of Georgia requiring the General Assembly to enact legislation to define funding standards to assure the actuarial soundness of any retirement or pension system supported wholly or partially from public funds and to control legislative procedures so that no bill or resolution creating or amending any such retirement or pension system shall be passed by the General Assembly without concurrent provisions for funding in accordance with the defined funding standards.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

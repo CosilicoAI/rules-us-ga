@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-4-141"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-141"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-4-141/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-141/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-4-141/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-141/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_4_141">
+        <num>12-4-141</num>
+        <content>
+          <p>The State of Georgia finds that caves are uncommon geologic phenomena and that the minerals deposited therein may be rare and occur in unique forms of great beauty which are irreplaceable if destroyed. It is also found that the wildlife which have evolved to live in caves are unusual and of limited numbers, and many are rare and endangered species, and that caves are a natural conduit for ground-water flow and are highly subject to water pollution, which has far-reaching effects transcending man's property boundaries. It is therefore declared to be the policy of this state and the intent of this article to protect these unique natural resources.</p>
+          <p>(Ga. L. 1977, p. 833, § 2; Ga. L. 1986, p. 10, § 12; Ga. L. 1992, p. 6, § 12.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

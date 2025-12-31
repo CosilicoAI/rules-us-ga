@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-7-92"/>
+          <FRBRuri value="/us-ga/act/ocga/16-7-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-7-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-7-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-7-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-7-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_7_92">
+        <num>16-7-92</num>
+        <content>
+          <p>In any case where there is reason to believe that a destructive device, detonator, explosive, or hoax device has been manufactured, possessed, transported, distributed, or used in violation of this article or Title 25 or that there has been an attempt or a conspiracy to commit such a violation, the Attorney General, any district attorney, the director, or such persons as may be designated in writing by such officials shall have the same power to compel the attendance of witnesses and the production of evidence before such official in the same manner as the state fire marshal as provided in Code Sections 25-2-27, 25-2-28, and 25-2-29.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

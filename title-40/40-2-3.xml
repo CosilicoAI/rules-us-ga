@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-3"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_3">
+        <num>40-2-3</num>
+        <content>
+          <p>Any person who shall make any false statement in any application for the registration of any vehicle, or in transferring any certificate of registration, or in applying for a new certificate of registration, shall be guilty of false swearing, whether or not an oath is actually administered to him, if such statement shall purport to be under oath. On conviction of such offense, such person shall be punished as provided by Code Section 16-10-71.</p>
+          <p>(Ga. L. 1925, p. 315, § 2; Ga. L. 1931, p. 7, § 84; Code 1933, § 68-9902; Ga. L. 1953, Jan.-Feb. Sess., p. 366, § 5; Ga. L. 1990, p. 2048, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

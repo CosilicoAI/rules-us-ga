@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-5-63"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-63"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-5-63/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-63/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-5-63/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-63/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_5_63">
+        <num>53-5-63</num>
+        <content>
+          <p>A security may be registered in beneficiary form if the form is authorized by this or a similar statute of the state of organization of the issuer or registering entity, the location of the registering entity's principal office, the office of its transfer agent or its office making the registration, or by this or a similar statute of the state listed as the owner's address at the time of registration. A registration governed by the law of a jurisdiction in which this or a similar statute is not in force or was not in force when a registration in beneficiary form was made is nevertheless presumed to be valid and authorized as a matter of contract law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

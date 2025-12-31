@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-4-77"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-77"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-4-77/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-77/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-4-77/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-77/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_4_77">
+        <num>12-4-77</num>
+        <content>
+          <p>An operator whose permit has been revoked pursuant to this part shall be denied a new permit or a renewal of the old permit to engage in surface mining until he gives assurance satisfactory to the director of the division of his ability and intent to comply fully with this part with respect to the affected land under the revoked permit and the new or renewed permit. Mining by a permitted operator on an unauthorized site while holding other valid surface mining permits shall constitute prima-facie evidence of violation of approved mining land use plans, and any and all surface mining permits which an operator may hold may be suspended or revoked by the director or his authorized representative.</p>
+          <p>(Ga. L. 1968, p. 9, § 8; Ga. L. 1972, p. 996, § 3; Ga. L. 1976, p. 527, § 5; Ga. L. 1992, p. 1098, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

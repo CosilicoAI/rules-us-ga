@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/18-2-48"/>
+          <FRBRuri value="/us-ga/act/ocga/18-2-48"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/18-2-48/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/18-2-48/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/18-2-48/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/18-2-48/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_18_2_48">
+        <num>18-2-48</num>
+        <content>
+          <p>The list referred to in Code Section 18-2-47 shall remain on file for ten days in the clerk of the court's office in the county in which the assignment was filed, subject to examination by any interested person.</p>
+          <p>(Ga. L. 1894, p. 90, § 8; Civil Code 1895, § 2705; Civil Code 1910, § 3238; Code 1933, § 28-309.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

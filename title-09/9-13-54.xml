@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-54"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-54"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-54/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-54/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-54/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-54/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_54">
+        <num>9-13-54</num>
+        <content>
+          <p>No sheriff or other officer shall levy on any growing crop of corn, wheat, oats, rye, rice, cotton, potatoes, or any other crop usually raised or cultivated by planters or farmers nor sell the same until the crop has matured and is fit to be gathered. However, this Code section shall not prevent any levying officer from levying on and selling crops in cases where the defendant in execution absconds or removes himself from the county or state, or from selling growing crops with the land.</p>
+          <p>(Laws 1836, Cobb's 1851 Digest, p. 514; Code 1863, § 3571; Code 1868, § 3594; Code 1873, § 3642; Code 1882, § 3642; Civil Code 1895, § 5425; Civil Code 1910, § 6030; Code 1933, § 39-119.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

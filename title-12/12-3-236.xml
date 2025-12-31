@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-236"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-236"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-236/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-236/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-236/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-236/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_236">
+        <num>12-3-236</num>
+        <content>
+          <p>All of the provisions of any ordinances and resolutions adopted by the authority and which, as of April 13, 1981, are in force and effect and which are not inconsistent with nor repugnant to Code Section 12-3-236.1 and not in conflict with the Constitution or the general laws of Georgia or the Constitution of the United States shall remain in full force and effect, provided that the authority may at any time repeal, alter, or amend any of such ordinances and resolutions.</p>
+          <p>(Ga. L. 1981, p. 1436, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

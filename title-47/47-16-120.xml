@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-16-120"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-16-120/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-16-120/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_16_120">
+        <num>47-16-120</num>
+        <content>
+          <p>All rights and benefits under this chapter shall be subject to future legislative change or revision, and no beneficiary shall be deemed to have any vested right to any benefits under this chapter, except for the right of withdrawal and payment to the surviving spouse or the member's estate of the difference between amounts paid and benefits received as set forth in Code Sections 47-16-102 and 47-16-103 and except for retirement benefits under Code Section 47-16-101, after approval of such benefits under Code Section 47-16-100, provided that benefits deemed vested under this Code section shall be subject to reduction under Code Section 47-16-121.</p>
+          <p>(Ga. L. 1963, p. 630, § 21; Ga. L. 1981, p. 694, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

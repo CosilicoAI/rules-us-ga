@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-59"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-59"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-59/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-59/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-59/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-59/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_59">
+        <num>9-13-59</num>
+        <content>
+          <p>Where, in an action against two or more joint contractors, joint and several contractors, or partners, service is perfected on only part of the contractors or partners and the officer serving the writ returns that the others are not to be found, the judgment obtained shall bind, and execution may be levied on, the joint or partnership property as well as the individual property, real and personal, of the defendant or defendants who have been served with a copy of the process. However, the judgment shall not bind nor shall execution be levied on the individual property of the defendant or defendants not served with process.</p>
+          <p>(Laws 1820, Cobb's 1851 Digest, p. 485; Code 1863, §§ 3263, 3264; Code 1868, §§ 3274, 3275; Code 1873, §§ 3350, 3351; Code 1882, §§ 3350, 3351; Civil Code 1895, §§ 5009, 5010; Civil Code 1910, §§ 5591, 5592; Code 1933, § 39-117.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

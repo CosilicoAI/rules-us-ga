@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-156"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-156"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-156/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-156/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-156/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-156/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_156">
+        <num>10-1-156</num>
+        <content>
+          <p>Whenever the Commissioner of Agriculture shall find any person willfully marketing petroleum products in this state which are regulated by this part and which do not comply with the prescribed specifications therefor or otherwise willfully marketing petroleum products in violation of this part and rules and regulations promulgated pursuant to this part, the Commissioner shall be authorized to apply to the superior court having jurisdiction over the offender for an injunction against the continuance of any such violations. The appropriate superior court shall have jurisdiction, upon hearing and for cause shown, to grant such temporary or permanent injunction restraining further violations as the circumstances appear to require.</p>
+          <p>(Ga. L. 1960, p. 1043, § 11; Ga. L. 1979, p. 981, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

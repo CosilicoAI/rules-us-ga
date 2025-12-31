@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-7-55"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-55"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-7-55/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-55/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-7-55/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-55/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_7_55">
+        <num>44-7-55</num>
+        <content>
+          <p>(Code 1933, § 61-305, enacted by Ga. L. 1970, p. 968, § 4; Ga. L. 1994, p. 1150, § 2; Ga. L. 1998, p. 1380, § 3; Ga. L. 2004, p. 151, § 1; Ga. L. 2019, p. 682, § 2/HB 492.)</p>
+          <p>The 2019 amendment,
+      effective July 1, 2019, added subsections (d) and (e).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

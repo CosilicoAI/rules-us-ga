@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-454"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-454"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-454/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-454/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-454/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-454/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_454">
+        <num>44-14-454</num>
+        <content>
+          <p>Before any sale shall be made as provided in subsection (a) of Code Section 44-14-453, the person, firm, or corporation making the sale shall give ten days' notice thereof by mail to the last known address of the owner if known, or otherwise to the last known address of the person from whom the goods were received. Such notice shall give the name of the owner of the goods, if known, and, if not known, the name of the person from whom the goods were received; a description of the goods to be sold; the time and place of the sale; the amount of the charges for which the goods or articles will be sold; and the name of the person, firm, or corporation having possession of the goods or articles and proposing to make the sale.</p>
+          <p>(Ga. L. 1925, p. 217, § 2; Code 1933, § 67-1905; Ga. L. 1982, p. 3, § 44; Ga. L. 1987, p. 382, § 1; Ga. L. 1991, p. 1137, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

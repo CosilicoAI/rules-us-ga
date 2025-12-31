@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-2-27"/>
+          <FRBRuri value="/us-ga/act/ocga/52-2-27"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-2-27/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-2-27/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-2-27/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-2-27/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_2_27">
+        <num>52-2-27</num>
+        <content>
+          <p>While any of the bonds issued by the authority remain outstanding, the powers, duties, or existence of the authority or of its officers, employees, or agents shall not be diminished or impaired in any manner that will affect adversely the interest and rights of the holders of such bonds; and no other entity, department, agency, or authority will be created which will compete with the authority to such an extent as to affect adversely the interests and rights of the holders of the bonds nor will the state itself so compete with the authority. This chapter shall be for the benefit of the state, the authority, and the holders of any such bonds and, upon the issuance of bonds under this chapter, shall constitute a contract with the holders of the bonds.</p>
+          <p>(Ga. L. 1945, p. 464, § 17.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

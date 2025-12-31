@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-113"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-113"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-113/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-113/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-113/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-113/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_113">
+        <num>15-21-113</num>
+        <content>
+          <p>The sums provided for in Code Section 15-21-112 shall be assessed and collected by the court officer charged with the duty of collecting moneys arising from fines and shall be paid over by the last day of the following month to the Georgia Superior Court Clerks' Cooperative Authority for remittance to the Georgia Crime Victims Compensation Board, to be deposited into the Georgia Crime Victims Emergency Fund. The authority shall, on a quarterly basis, make a report and accounting of all funds collected pursuant to this article and shall submit such report and accounting to the Office of Planning and Budget, the House Budget and Research Office, and the Senate Budget and Evaluation Office no later than 60 days after the last day of the preceding quarter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-13"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_13">
+        <num>44-13-13</num>
+        <content>
+          <p>Upon an objection being made as provided for in Code Section 44-13-12, unless the applicant shall so alter the schedule or plat or both as to remove the objections, the judge of the probate court shall appoint three disinterested appraisers to examine the property concerning which the objections are made and to value the same. On the appraisers' return under oath, if either the schedule or the plat shall be found to be too large, such alterations shall be made in the schedule and in the plat as the judge may deem proper to bring them within the limits of the value allowed by this article. Thereafter, the judge shall approve the schedule and the plat as required by Code Section 44-13-11 and shall cause the same to be delivered to the clerk of superior court of his or her county who shall record the schedule and plat as required by Code Section 44-13-11. Either party dissatisfied with the judgment shall have the right to appeal under the same rules, regulations, and restrictions as are provided by law in cases of appeals from the probate court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-4-23"/>
+          <FRBRuri value="/us-ga/act/ocga/40-4-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-4-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-4-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-4-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-4-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_4_23">
+        <num>40-4-23</num>
+        <content>
+          <p>An identification number may be placed on a vehicle or engine by its manufacturer in the regular course of business or placed or restored on a vehicle or engine by authority of the commissioner without violating this article. An identification number so placed or restored is not falsified.</p>
+          <p>(Ga. L. 1961, p. 68, § 34.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1134"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1134"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1134/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1134/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1134/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1134/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_1134">
+        <num>38-2-1134</num>
+        <content>
+          <p>Though not specifically mentioned in this article, all disorders and neglects to the prejudice of good order and discipline in the organized militia and all conduct of a nature to bring discredit upon the organized militia shall be taken cognizance of by a court-martial and punished at the discretion of a military court. However, where a crime constitutes an offense that violates both this article and the criminal laws of the state where the offense occurs or criminal laws of the United States, jurisdiction of the military court shall be determined in accordance with subsection (b) of Code Section 38-2-1002.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

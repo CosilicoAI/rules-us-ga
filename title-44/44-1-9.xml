@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-1-9"/>
+          <FRBRuri value="/us-ga/act/ocga/44-1-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-1-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-1-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-1-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-1-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_1_9">
+        <num>44-1-9</num>
+        <content>
+          <p>Anything deposited on realty by wild animals, birds, and fish except wildlife as defined by Code Section 27-1-2 shall belong to the owner of the realty. Honey deposited in a tree by bees shall belong to the owner of the tree even if the bees were hived by another person. The eggs and young of birds and the offspring of other animals and fish for as long as they remain unable to leave the land shall belong to the owner of the land.</p>
+          <p>(Orig. Code 1863, § 2221; Code 1868, § 2215; Code 1873, § 2241; Code 1882, § 2241; Civil Code 1895, § 3074; Civil Code 1910, § 3650; Code 1933, § 85-1704; Ga. L. 1982, p. 3, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

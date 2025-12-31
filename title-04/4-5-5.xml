@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-5-5"/>
+          <FRBRuri value="/us-ga/act/ocga/4-5-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-5-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-5-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-5-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-5-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_5_5">
+        <num>4-5-5</num>
+        <content>
+          <p>Methods which can be used for disposal of dead animals are burning, incineration, burial, rendering, or any method using appropriate disposal technology which has been approved by the Commissioner of Agriculture. Disposal of dead animals by any of the approved methods must be completed within 24 hours after death or discovery. Dead animals that are buried must be buried at least three feet below the ground level, have not less than three feet of earth over the carcass, and must not contaminate ground water or surface water.</p>
+          <p>(Ga. L. 1969, p. 1018, § 5; Ga. L. 2000, p. 1297, § 1; Ga. L. 2002, p. 1397, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-3-30"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-3-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-3-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_3_30">
+        <num>45-3-30</num>
+        <content>
+          <p>The commissions of the following officers shall have annexed thereto the great seal of the state, and shall be signed by the Governor and countersigned by the Secretary of State, namely: senators and representatives in Congress; Justices of the Supreme Court; Judges of the Court of Appeals, superior courts, and juvenile courts; the Attorney General; district attorneys; reporters of the Supreme Court and Court of Appeals; the Secretary of State; the Commissioner of Insurance; and all military officers of the grade of general. The commissions of all federal and judicial officers enumerated above shall be on parchment.</p>
+          <p>(Orig. Code 1863, § 129; Code 1868, § 124; Code 1873, § 133; Code 1882, § 133; Civil Code 1895, § 227; Civil Code 1910, § 262; Code 1933, § 89-201; Ga. L. 1984, p. 565, § 3; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-6-1"/>
+          <FRBRuri value="/us-ga/act/ocga/13-6-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-6-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-6-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-6-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-6-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_6_1">
+        <num>13-6-1</num>
+        <content>
+          <p>Damages are given as compensation for the injury sustained as a result of the breach of a contract.</p>
+          <p>(Orig. Code 1863, § 2881; Code 1868, § 2889; Code 1873, § 2940; Code 1882, § 2940; Civil Code 1895, § 3794; Civil Code 1910, § 4390; Code 1933, § 20-1402.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

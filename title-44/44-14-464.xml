@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-464"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-464"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-464/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-464/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-464/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-464/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_464">
+        <num>44-14-464</num>
+        <content>
+          <p>Before any sale shall be made as provided in Code Section 44-14-463, the person, firm, or corporation making the sale shall give ten days' notice thereof by certified mail or statutory overnight delivery evidenced by return receipt to the last known address of the owner if known, or otherwise to the last known address of the person from whom the equipment was received. Such notice shall give the name of the owner of the equipment, if known, and, if not known, the name of the person from whom the equipment was received; a description of the equipment to be sold; the time and place of the sale; the amount of the charges for which the equipment will be sold; and the name of the person, firm, or corporation having possession of the equipment and proposing to make the sale. If such equipment is not claimed during the ten days following the date that notice was mailed, the equipment may be sold.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

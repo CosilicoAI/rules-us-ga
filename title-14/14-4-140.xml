@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-140"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-140/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-140/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_140">
+        <num>14-4-140</num>
+        <content>
+          <p>Any two or more corporations incorporated by the Secretary of State under provisions other than Chapter 2 of this title, except banks and trust companies, may merge into a single corporation or enter into a share exchange in the manner set forth in Article 11 of Chapter 2 of this title.</p>
+          <p>(Code 1933, § 22-4401, enacted by Ga. L. 1968, p. 565, § 1; Ga. L. 1976, p. 1102, § 33; Ga. L. 1989, p. 946, § 104; Ga. L. 1993, p. 1231, § 30.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

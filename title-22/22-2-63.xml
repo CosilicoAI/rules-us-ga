@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-2-63"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-63"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-2-63/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-63/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-2-63/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-63/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_2_63">
+        <num>22-2-63</num>
+        <content>
+          <p>The assessors, or a majority of them, shall assess the value of the property or interest taken or used, or the damage done, shall assess the consequential damages to the property or interests not taken, and shall deduct from such consequential damages the consequential benefits to be derived by the owner from the operation of the franchise by the condemnor or from the carrying on of the business of the condemnor, provided that the consequential benefits assessed shall in no case exceed the consequential damages assessed; provided, further, that nothing in this Code section shall be so construed as to deprive the owner of the actual value of his property or interest so taken or used.</p>
+          <p>(Ga. L. 1894, p. 95, § 19; Civil Code 1895, § 4675; Civil Code 1910, § 5225; Code 1933, § 36-504.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

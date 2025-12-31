@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-193"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-193"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-193/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-193/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-193/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-193/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_193">
+        <num>21-2-193</num>
+        <content>
+          <p>On a date set by the Secretary of State, but not later than 60 days preceding the date on which a presidential preference primary is to be held, the state executive committee of each party which is to conduct a presidential preference primary shall submit to the Secretary of State a list of the names of the candidates of such party to appear on the presidential preference primary ballot. Such lists shall be published on the website of the Secretary of State during the fourth week immediately preceding the date on which the presidential preference primary is to be held.</p>
+          <p>(Code 1933, § 34-1003A, enacted by Ga. L. 1973, p. 221, § 1; Ga. L. 1980, p. 5, § 1; Ga. L. 1987, p. 1360, § 10; Ga. L. 1993, p. 118, § 1; Ga. L. 1994, p. 1406, § 7; Ga. L. 1997, p. 590, § 19; Ga. L. 2007, p. 544, § 3/SB 194; Ga. L. 2011, p. 630, § 2/HB 454.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

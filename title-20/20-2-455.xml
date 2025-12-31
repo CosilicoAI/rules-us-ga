@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-455"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-455"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-455/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-455/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-455/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-455/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_455">
+        <num>20-2-455</num>
+        <content>
+          <p>In addition to the manner provided in Code Sections 20-2-451 through 20-2-454 for calling such an election, should as many as one-fourth of the qualified voters of any such school district file a petition with the county board of education for any local tax school district or consolidated school district or the board of education or corresponding body in an independent school district, requesting that an election be called for the purpose of submitting the issue as to whether the schoolhouse bonded indebtedness of such district be refunded, retired, or refinanced, it shall become the duty of such board or body to call an election in the same manner as provided in Code Sections 20-2-451 through 20-2-454.</p>
+          <p>(Ga. L. 1937, p. 869, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

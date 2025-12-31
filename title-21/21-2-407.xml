@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-407"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-407"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-407/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-407/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-407/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-407/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_407">
+        <num>21-2-407</num>
+        <content>
+          <p>The registrars shall meet at their main office during each primary or election for the purpose of considering the qualification of electors whose names may have been omitted by inadvertence or mistake from the list of electors. The registrars shall be authorized to place the names of such electors on the registration list or make other corrections to the list as necessary.</p>
+          <p>(Ga. L. 1943, p. 353, § 3; Ga. L. 1949, p. 1204, § 52; Ga. L. 1958, p. 269, § 42; Code 1933, § 34-1305, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Ga. L. 1998, p. 295, § 1; Ga. L. 2001, p. 240, § 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

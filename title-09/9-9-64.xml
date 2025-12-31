@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-9-64"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-64"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-9-64/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-64/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-9-64/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-64/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_9_64">
+        <num>9-9-64</num>
+        <content>
+          <p>The judge of the superior court of the county in which was issued the order authorizing arbitration shall appoint a reporter to attend the proceedings of the medical malpractice arbitration panel and to record exactly and truly the testimony and proceedings in the case being arbitrated, except the arguments of counsel. All provisions relating to court reporter fees, compensation, contingent expenses, and travel allowance, as well as those relating to the furnishing of transcripts and the style and form of transcripts, shall be the same for reporters appointed to attend the arbitration panel proceedings as those applicable to reporters of the superior court of the county in which the arbitration was authorized.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

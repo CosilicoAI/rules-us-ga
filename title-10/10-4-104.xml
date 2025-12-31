@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-104"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_104">
+        <num>10-4-104</num>
+        <content>
+          <p>In the event sales opportunity shall be designated or allocated to this state by any regulatory group or committee, the Commissioner of Agriculture shall be authorized to allocate such sales opportunity among the warehouses operating under license issued under this part in such manner as to effectuate the expressed intent and purpose of this part. The Commissioner may consider, among other factors, the history factor used by the regulatory group or committee for assigning sales opportunity for cross-belt tobacco, the previous five-year sales history of such licensees, and the previous five-year sales history of such licensees of selling Georgia grown tobacco in order to effectuate an allocation which will eliminate or reduce discrimination against producers in this state in the entry and sale of their tobacco in commerce. In recognition of the unique characteristics of the marketing of tobacco by auction, and the necessity of immediate response to marketing conditions, such allocation of sales time need not be effected by the promulgation of regulations but may be issued and published in such manner as the Commissioner deems necessary and expedient, provided that no such allocation shall be effective upon less than 24 hours' actual notice to the affected licensee.</p>
+          <p>(Ga. L. 1974, p. 518, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

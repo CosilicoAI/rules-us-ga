@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-4-133"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-133"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-4-133/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-133/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-4-133/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-133/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_4_133">
+        <num>20-4-133</num>
+        <content>
+          <p>Any military community may submit an application to the commissioner of the Technical College System of Georgia for a grant to assist in the pursuance of a grant goal. Such application shall be submitted on a form and in a manner to be prescribed by the commissioner of the Technical College System of Georgia. Each application shall, at a minimum, include a statement from the military community applying for such grant as to how such grant goal will contribute to the economic viability of the military installation within such military community.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

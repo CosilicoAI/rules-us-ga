@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-10-9"/>
+          <FRBRuri value="/us-ga/act/ocga/40-10-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-10-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-10-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-10-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-10-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_10_9">
+        <num>40-10-9</num>
+        <content>
+          <p>The governing authorities of the various counties and municipalities are empowered to contract with the state, federal, and other local public and private agencies and organizations and exercise other necessary powers to participate to the fullest extent possible in the highway safety programs of this state, the National Highway Safety Act of 1966, and similar federal programs of highway safety.</p>
+          <p>(Ga. L. 1967, p. 708, § 7; Ga. L. 1985, p. 149, § 40.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

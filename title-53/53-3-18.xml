@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-3-18"/>
+          <FRBRuri value="/us-ga/act/ocga/53-3-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-3-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-3-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-3-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-3-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_3_18">
+        <num>53-3-18</num>
+        <content>
+          <p>Whenever a tenant dies owing a landlord for rent or for supplies for which the landlord has a special lien on the crops made on the lands rented from the landlord in the year the rent accrued or supplies were furnished, neither the surviving spouse nor spouse and minor children nor minor child or children only of the tenant shall be entitled to year's support out of the crops so planted or grown in that year as against the landlord until the accounts for the rent and supplies are fully paid, provided that the surviving spouse shall be entitled to year's support in such part of the crop as may remain after the landlord's lien for rent and supplies shall have been discharged.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

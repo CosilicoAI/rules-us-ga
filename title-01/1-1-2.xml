@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/1-1-2"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/1-1-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/1-1-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_1_2">
+        <num>1-1-2</num>
+        <content>
+          <p>The enactment of this Code is intended as a recodification, revision, modernization, and reenactment of the general laws of the State of Georgia which are currently of force and is intended, where possible, to resolve conflicts which exist in the law and to repeal those laws which are obsolete as a result of the passage of time or other causes, which have been declared unconstitutional or invalid, or which have been superseded by the enactment of later laws. Except as otherwise specifically provided by particular provisions of this Code, the enactment of this Code by the General Assembly is not intended to alter the substantive law in existence on the effective date of this Code.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

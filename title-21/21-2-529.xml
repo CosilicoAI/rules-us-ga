@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-529"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-529"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-529/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-529/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-529/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-529/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_529">
+        <num>21-2-529</num>
+        <content>
+          <p>The contestant and the defendant shall be liable to the officers and witnesses for the costs made by them, respectively. If the result of the primary or election is confirmed, the petition dismissed, or the prosecution fails, judgment shall be rendered against the contestant for costs; and, if the judgment is against the defendant or the result of the primary or election is set aside, he or she shall pay the costs at the discretion of the court. After entry of judgment, the costs may be collected by attachment or otherwise.</p>
+          <p>(Code 1933, § 34-1710, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Ga. L. 1998, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

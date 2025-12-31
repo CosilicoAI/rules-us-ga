@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-62"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_62">
+        <num>20-2-62</num>
+        <content>
+          <p>Power is conferred upon the county tax levying authorities of the several counties, as well as the county boards of education, to carry on educational work for the promotion of the extension work in agriculture and home economics under the Act of Congress approved May 8, 1914 (7 U.S.C.A., Sections 341 to 348), and resolution of the General Assembly, under the date of August 14, 1914 (Ga. L. 1914, p. 1243), giving assent of the state to such Act of Congress, by employing county agricultural agents and home demonstration agents and supervising their work and paying therefor. The boards of education of the several counties may employ and pay county agents and home demonstration agents to carry on such extension work.</p>
+          <p>(Ga. L. 1922, p. 82, § 2; Ga. L. 1923, p. 88, § 1; Code 1933, § 32-944.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-7-52"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-52"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-7-52/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-52/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-7-52/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-52/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_7_52">
+        <num>10-7-52</num>
+        <content>
+          <p>A surety suing for contribution must first account for all money or other things received from the principal to indemnify him against loss; and, if he has paid the entire debt, he may compel his cosurety to transfer to him any mortgage or other security taken from the principal for the protection of such cosurety, by relieving him of all liability for contribution.</p>
+          <p>(Orig. Code 1863, § 2153; Code 1868, § 2148; Code 1873, § 2175; Code 1882, § 2175; Civil Code 1895, § 2994; Civil Code 1910, § 3566; Code 1933, § 103-403.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

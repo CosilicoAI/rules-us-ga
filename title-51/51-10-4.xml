@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-10-4"/>
+          <FRBRuri value="/us-ga/act/ocga/51-10-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-10-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-10-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-10-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-10-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_10_4">
+        <num>51-10-4</num>
+        <content>
+          <p>Where the possession of personalty is in a bailee, a trespass committed during the existence of the bailment shall give a right of action to the bailee for the interference with his special property and a concurrent right of action to the bailor for the interference with his general property.</p>
+          <p>(Orig. Code 1863, § 2969; Code 1868, § 2976; Code 1873, § 3030; Code 1882, § 3030; Civil Code 1895, § 3889; Civil Code 1910, § 4486; Code 1933, § 105-1704.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-628"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-628"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-628/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-628/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-628/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-628/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_628">
+        <num>10-1-628</num>
+        <content>
+          <p>Whenever any person brings an action or complaint to enforce any provision of this article in any court of competent jurisdiction and prevails or substantially prevails in such action or complaint, the court may award the person bringing such action or complaint his reasonable attorney's fees.Such attorney's fees shall be taxed and collected as part of the costs and shall be in addition to any other costs or penalties imposed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

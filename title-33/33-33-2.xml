@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-33-2"/>
+          <FRBRuri value="/us-ga/act/ocga/33-33-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-33-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-33-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-33-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-33-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_33_2">
+        <num>33-33-2</num>
+        <content>
+          <p>The Fair Access to Insurance Requirements Plan and articles of association shall make provision for an underwriting association having authority on behalf of its members to cause to be issued property insurance policies, to reinsure in whole or in part any such policies, and to cede any such reinsurance. The plan and articles of association shall provide, among other things, for the perils to be covered; geographical area of coverage; compensation and commissions; assessments of members; the sharing of expenses, income, and losses on an equitable basis; cumulative weighted voting for the board of directors of the association; the administration of the plan and association; and any other matter necessary or convenient for the purpose of assuring fair access to insurance requirements.</p>
+          <p>(Ga. L. 1970, p. 282, § 3; Ga. L. 1975, p. 22, § 3; Ga. L. 1995, p. 629, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

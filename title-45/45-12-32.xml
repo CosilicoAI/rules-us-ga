@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-32"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_32">
+        <num>45-12-32</num>
+        <content>
+          <p>The Governor is authorized to promulgate and enforce such emergency rules and regulations as are necessary to prevent, control, or quell violence, threatened or actual, during any emergency lawfully declared by him to exist. In order to protect the public welfare, to protect the persons and property of citizens against violence, to prevent damage to public property, and to maintain peace, tranquility, and good order in the state, such rules and regulations may control public parks, public buildings, public utilities, or any other public facility in Georgia and shall regulate the manner of use, the time of use, and the persons using the facility during any emergency. Such rules and regulations shall have the force and effect of law during any emergency and shall remain in effect during a period of time and in such manner and shall affect such persons, public buildings, public utilities, and public facilities as in the judgment of the Governor shall best provide a safeguard for protection of persons and property where danger and violence exist or are threatened among the citizens of Georgia.</p>
+          <p>(Ga. L. 1957, p. 44, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

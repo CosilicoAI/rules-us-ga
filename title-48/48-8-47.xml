@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-47"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_47">
+        <num>48-8-47</num>
+        <content>
+          <p>In the event any dealer is delinquent in the payment of the tax imposed by this article, the commissioner may give notice of the amount of the delinquency by registered or certified mail or statutory overnight delivery to all persons having in their possession or under their control any credits or other personal property belonging to the dealer and to all persons owing any debts to the dealer at the time of receipt by them of the notice. In lieu of registered or certified mail or statutory overnight delivery, the notice may be served and the recipient may acknowledge service thereof by telephonic facsimile transmission or by other means of instantaneous electronic transmission. Thereafter, no person so notified shall transfer or make any other disposition of the credits, other personal property, or debts until the commissioner has consented to a transfer or disposition or until 30 days have elapsed after the receipt of the notice. Each person so notified must advise the commissioner within five days after receipt of the notice of any and all credits, other personal property, or debts in such person's possession, under such person's control, or owing by such person as provided in this Code section.</p>
+          <p>(Ga. L. 1951, p. 360, § 15; Code 1933, § 91A-4520, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1996, p. 780, § 4; Ga. L. 2000, p. 1589, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

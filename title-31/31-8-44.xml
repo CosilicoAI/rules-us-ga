@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-44"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_44">
+        <num>31-8-44</num>
+        <content>
+          <p>No physician, nurse, or other such medical assistant, nor the hospital or any of its agents or employees shall be guilty of malpractice or civilly liable therefor for treatment rendered under this article unless the physician, nurse, or other medical assistant, or the hospital, its agent, or employee has been grossly negligent in the provision of such services or has willfully failed to comply with the provisions of this article. No action shall be brought in connection with treatment rendered under this article without a specific allegation of gross negligence or willful failure to comply.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

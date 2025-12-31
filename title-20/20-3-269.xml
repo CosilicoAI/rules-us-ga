@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-269"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-269"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-269/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-269/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-269/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-269/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_269">
+        <num>20-3-269</num>
+        <content>
+          <p>Loan guaranties issued under this part shall not be deemed to constitute a debt, liability, or obligation of, or a pledge of the faith and credit of, the state but shall be payable solely from revenues or assets of the corporation provided for such payment pursuant to paragraph (1) of Code Section 20-3-275. No director or officer of the corporation shall be subject to any personal liability or accountability by reason of the issuance of loan guaranties by the corporation.</p>
+          <p>(Code 1933, § 32-3309, enacted by Ga. L. 1980, p. 835, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

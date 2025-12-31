@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2-705"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-705"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2-705/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-705/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2-705/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-705/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2_705">
+        <num>11-2-705</num>
+        <content>
+          <p>After such notification the bailee shall hold and deliver the goods according to the directions of the seller but the seller is liable to the bailee for any ensuing charges or damages.</p>
+          <p>If a negotiable document of title has been issued for goods the bailee is not obliged to obey a notification to stop until surrender of possession or control of the document.</p>
+          <p>A carrier who has issued a nonnegotiable bill of lading is not obliged to obey a notification to stop received from a person other than the consignor.</p>
+          <p>(Code 1933, § 109A-2 - 705, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 2010, p. 481, § 2-12/HB 451.)</p>
+          <p>The 2010 amendment,
+      effective May 27, 2010, substituted "a warehouse" for "warehouseman" in paragraph (2)(c); substituted "shall" for "must" in paragraphs (3)(a) and (3)(b); and inserted "of possession or control" in paragraph (3)(c). See the Editor's notes for applicability.</p>
+        </content>
+        <subsection eId="sec_11_2_705__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>To stop delivery the seller shall so notify as to enable the bailee by reasonable diligence to prevent delivery of the goods.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-191"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-191"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-191/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-191/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-191/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-191/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_191">
+        <num>20-2-191</num>
+        <content>
+          <p>Subject to appropriations by the General Assembly, the State Board of Education shall provide grants to local school systems for the purpose of purchasing supplies for school health nurse programs, as required pursuant to Code Section 20-2-771.2. The grant funds shall be distributed to local school systems on a full-time equivalent basis. The state board shall establish regulations as to the manner in which such grant funds may be used.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

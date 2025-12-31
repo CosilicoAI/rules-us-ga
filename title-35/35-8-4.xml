@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-8-4"/>
+          <FRBRuri value="/us-ga/act/ocga/35-8-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-8-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-8-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-8-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-8-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_8_4">
+        <num>35-8-4</num>
+        <content>
+          <p>The business of the council shall be conducted in the following manner:</p>
+          <p>(Ga. L. 1970, p. 208, § 4; Ga. L. 2018, p. 336, § 1/HB 867.)</p>
+          <p>The 2018 amendment,
+      effective July 1, 2018, substituted "chairperson, vice chairperson" for "chairman,
+   vice-chair-
+   man" in paragraph (1); and substituted "Eleven" for "Seven" at the beginning of paragraph (2).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

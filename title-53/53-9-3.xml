@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-9-3"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-9-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-9-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_9_3">
+        <num>53-9-3</num>
+        <content>
+          <p>At the hearing the probate court shall hear such evidence as shall be offered for the purpose of ascertaining whether a diligent and reasonable effort has been made to locate the missing individual and, if appropriate, such evidence that is offered to show that the missing individual is dead or alive. No person shall be disqualified from testifying by reason of being the spouse of the missing individual or having an interest in the estate of the missing individual. If the court finds that a diligent and reasonable effort has been made to locate the missing individual and that a presumption of death has been established and has not been rebutted as provided under subsection (a) of Code Section 53-9-1 or that death has been proved by a preponderance of the evidence as provided in subsection (b) of Code Section 53-9-1, the court shall enter an order finding that the missing individual is dead and specifying the date of death.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

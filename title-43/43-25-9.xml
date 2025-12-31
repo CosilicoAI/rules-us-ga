@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-25-9"/>
+          <FRBRuri value="/us-ga/act/ocga/43-25-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-25-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-25-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-25-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-25-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_25_9">
+        <num>43-25-9</num>
+        <content>
+          <p>The owner or lessee of any real property upon which exists a motor vehicle racetrack or other place subject to this chapter shall inform the Safety Fire Commissioner within ten days of any damage caused to any guardrail, post, or other device which has for its purpose the prevention of injury or loss of life to spectators at the racetrack or other place. Until any such damage is repaired and the repairs are approved by fire inspectors, there shall be no racing or endurance event permitted on such racetrack or other place.</p>
+          <p>(Ga. L. 1971, p. 562, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

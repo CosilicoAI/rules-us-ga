@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-25-40"/>
+          <FRBRuri value="/us-ga/act/ocga/47-25-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-25-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-25-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-25-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-25-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_25_40">
+        <num>47-25-40</num>
+        <content>
+          <p>Before any person shall be eligible to participate in the fund, he or she must be serving as a duly qualified and commissioned chief magistrate of a county of the State of Georgia or as the secretary-treasurer. Any qualified person who desires to participate in the fund shall make application to the board for membership in the fund on a form to be furnished by the board for that purpose, giving such information, together with verification and proof thereof, as may be required by the board. Such application shall be made not later than July 1, 2007, or within six months after becoming eligible for membership, whichever is later.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

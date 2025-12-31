@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-16-80"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-16-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-16-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_16_80">
+        <num>47-16-80</num>
+        <content>
+          <p>In addition to listing and claiming credit for prior services as a sheriff under paragraph (4) of Code Section 47-16-40, the applicant may elect to list and claim credit for service in the armed forces of the United States, not to exceed four years, and service as a peace officer other than as a sheriff, not to exceed four years, provided that he was employed during such period as a peace officer by the state, a municipality, or any other political subdivision of this state and was required by the terms of such employment, whether by election or appointment, to devote his full time to the duties of a peace officer. Upon approval or acceptance of such claims by the board, the applicant shall be credited with such service as a basis for future contemplated retirement, provided that credit for such service shall be available only if the applicant shall have served as a sheriff for a minimum of eight years subsequent to December 31, 1960, and subsequent to periods of service for which credit under this Code section is claimed; provided, further, that amounts due under paragraph (5) of Code Section 47-16-40 have been paid for such periods.</p>
+          <p>(Ga. L. 1963, p. 630, § 12; Ga. L. 1968, p. 1203, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

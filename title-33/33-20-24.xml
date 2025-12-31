@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-20-24"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-20-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-20-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_20_24">
+        <num>33-20-24</num>
+        <content>
+          <p>Every health care corporation shall on or before March 1 in each year after it shall have commenced to do business pursuant to a certificate of authority make and file with the Commissioner a report of its affairs and operations during the year ending December 31 of the preceding year. The annual report shall be made in such form and contain such information as the Commissioner may by regulation from time to time prescribe and require in protecting the public interest and the interest of the subscribers of any health care corporation. The Commissioner may by regulation require such additional periodic reports as he may from time to time prescribe as necessary or appropriate to protect the policyholders and the public and to ensure the solvency of any health care corporation. The Commissioner may require that the reports be verified under oath by such appropriate officers or agents as he may designate by regulation and may require the reports to be published. Compliance with this Code section shall be a condition to the renewal of a certificate of authority under Code Section 33-20-10.</p>
+          <p>(Code 1933, § 56-1721a, enacted by Ga. L. 1976, p. 1461, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

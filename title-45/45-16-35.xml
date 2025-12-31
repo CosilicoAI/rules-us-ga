@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-16-35"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-35"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-16-35/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-35/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-16-35/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-35/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_16_35">
+        <num>45-16-35</num>
+        <content>
+          <p>If the inquest discloses facts which lead or may lead to the prosecution of any person for the homicide of the person for whom the inquest is held, the coroner shall require all witnesses who testify to facts material to the issues involved in such prosecution to enter into a recognizance to appear in the superior court of the county in which the inquest is held and to give evidence against the defendant in such prosecution; and he shall also petition for the issuance of a warrant for the arrest of the person suspected of the homicide, which warrant shall be returnable as other warrants.</p>
+          <p>(Laws 1823, Cobb's 1851 Digest, p. 539; Code 1863, § 4008; Code 1868, § 4036; Code 1873, § 4107; Code 1882, § 4107; Penal Code 1895, § 1264; Penal Code 1910, § 1346; Code 1933, § 21-208; Ga. L. 1953, Jan.-Feb. Sess., p. 602, § 12; Ga. L. 1990, p. 1735, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

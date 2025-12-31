@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/3-5-35"/>
+          <FRBRuri value="/us-ga/act/ocga/3-5-35"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/3-5-35/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/3-5-35/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/3-5-35/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/3-5-35/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_5_35">
+        <num>3-5-35</num>
+        <content>
+          <p>The General Assembly reaffirms the policy of this state of strict enforcement of laws and regulations applicable to the manufacture or sale of beer, including without limitation those establishing the three-tier distribution system with prohibitions against ownership and employment interests between the three tiers but creates a limited exception for the operation of "brewpubs" as such term is defined in Code Section 3-1-2.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

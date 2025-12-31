@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-6-20"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-6-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-6-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_6_20">
+        <num>15-6-20</num>
+        <content>
+          <p>The judges of the superior courts may, in their discretion, hold special terms of court in any county within their respective circuits when the business requires it to close the dockets and may, in the exercise of a sound discretion, cause new juries to be drawn for the same or may order the juries drawn for the regular term to give their attendance upon such special terms. The judges are authorized to hold special terms of court for the trial of criminal cases or for the disposition of civil business, or both, in any county of their circuits, at their discretion, and either to compel the attendance of grand or trial jurors of a previous term or to draw new jurors, according to law.</p>
+          <p>(Ga. L. 1861, p. 56, §§ 1, 2; Code 1863, § 3167; Ga. L. 1865-66, p. 59, § 1; Code 1868, § 3178; Code 1873, § 3245; Code 1882, § 3245; Ga. L. 1890-91, p. 74, § 1; Civil Code 1895, § 4345; Penal Code 1895, § 796; Civil Code 1910, § 4876; Penal Code 1910, § 796; Code 1933, § 24-3009.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

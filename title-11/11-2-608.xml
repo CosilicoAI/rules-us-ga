@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2-608"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-608"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2-608/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-608/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2-608/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-608/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2_608">
+        <num>11-2-608</num>
+        <content>
+          <p>Revocation of acceptance must occur within a reasonable time after the buyer discovers or should have discovered the ground for it and before any substantial change in condition of the goods which is not caused by their own defects. It is not effective until the buyer notifies the seller of it.</p>
+          <p>A buyer who so revokes has the same rights and duties with regard to the goods involved as if he had rejected them.</p>
+          <p>(Code 1933, § 109A-2 - 608, enacted by Ga. L. 1962, p. 156, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

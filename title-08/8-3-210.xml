@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-210"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-210/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-210/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_210">
+        <num>8-3-210</num>
+        <content>
+          <p>Wherever a local fair housing law provides rights and remedies for alleged discriminatory housing practices which are substantially equivalent, as certified by the Secretary of Housing and Urban Development as provided in Section 810 of the federal Fair Housing Amendments Act of 1988, to the rights and remedies provided under this article, the administrator shall notify the appropriate local agency of any complaint filed which appears to constitute a violation of the local fair housing law, and the administrator shall take no further action with respect to such complaint if the local law enforcement official has, within 30 days from the date the alleged offense was brought to his attention, commenced proceedings in the matter.In no event shall the administrator take further action unless the administrator certifies that, in the administrator's judgment under the circumstances of the particular case, the protection of the rights of the parties or the interests of justice require such action.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

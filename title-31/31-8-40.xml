@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-40"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_40">
+        <num>31-8-40</num>
+        <content>
+          <p>The General Assembly finds that Georgia's high rates of infant mortality and morbidity are costly to the state in terms of human suffering and of expenditures for long-term institutionalization, special education, and medical care. It is well documented that appropriate care during pregnancy and delivery can prevent many of the expensive, disabling problems our children experience. The State of Georgia is making progress in improving services and funding. However, the General Assembly is concerned that some women continue to be refused service for financial reasons at hospitals when they request admission after labor has begun. It is the purpose of this article to assure that:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

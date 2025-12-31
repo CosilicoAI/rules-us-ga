@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-17-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-17-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-17-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-17-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-17-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-17-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_17_2">
+        <num>36-17-2</num>
+        <content>
+          <p>To the extent that funds are made available by the budget authorities pursuant to the general appropriations Acts or any other laws for the purposes set out in Code Section 36-17-1, except for the grants to counties which are appropriated as a part of the appropriation to the Department of Transportation designated "For grants to counties for aid in county road construction and maintenance," the Office of the State Treasurer is authorized and directed to grant such funds to the counties of this state in the same proportion which the total public road mileage of each county bears to the total public road mileage in the state, as such mileage information is furnished by the Department of Transportation. The computation of individual county grants, as provided for in this Code section, shall be prepared and certified by the state treasurer, who shall make such payments.</p>
+          <p>(Ga. L. 1967, p. 888, § 2; Ga. L. 1993, p. 1402, § 18; Ga. L. 2010, p. 863, §§ 2, 3/SB 296.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

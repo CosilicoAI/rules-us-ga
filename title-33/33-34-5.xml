@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-34-5"/>
+          <FRBRuri value="/us-ga/act/ocga/33-34-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-34-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-34-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-34-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-34-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_34_5">
+        <num>33-34-5</num>
+        <content>
+          <p>Number of Vehicles
+   Required Security
+   1-50
+   $150,000.00
+   51-100
+   $200,000.00
+   101-150
+   $300,000.00
+   151-200
+   $350,000.00
+   201-250
+   $400,000.00
+   251-350
+   $500,000.00
+   351 or more
+   $600,000.00</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

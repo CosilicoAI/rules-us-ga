@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-450"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-450"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-450/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-450/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-450/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-450/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_450">
+        <num>20-3-450</num>
+        <content>
+          <p>The General Assembly finds that certain citizens are called upon to enforce the criminal laws of this state and to protect persons and properties within the state and that they provide a valuable and vital public service to the state and to citizens and properties within the state at a great personal sacrifice and risk to their own lives and well-being. The purpose of the General Assembly, as provided for in this subpart, is to enable the authority to provide educational grant assistance to the children of such persons who are killed or permanently disabled in line of duty.</p>
+          <p>(Code 1933, § 32-3774, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-2-43"/>
+          <FRBRuri value="/us-ga/act/ocga/10-2-43"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-2-43/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-2-43/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-2-43/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-2-43/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_2_43">
+        <num>10-2-43</num>
+        <content>
+          <p>After reasonable notice and opportunity for a hearing before the Commissioner, in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," any license permit as a certified public weigher may be revoked by the Commissioner for malfeasance in office or for the violation of this article or for violation of any rule or regulation promulgated under the terms of this article.</p>
+          <p>(Ga. L. 1949, p. 1179, § 12.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-12"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_12">
+        <num>44-14-12</num>
+        <content>
+          <p>Any person who defrauds another in the sale or disposition of any property, either real or personal, by falsely representing that the property is not subject to any lien while knowing that the property is subject to a lien or any person who fraudulently makes a second deed of conveyance to any land or real estate shall be guilty of a misdemeanor.</p>
+          <p>(Laws 1755, Cobb's 1851 Digest, p. 160; Ga. L. 1859, p. 59, § 1; Code 1863, § 4467; Ga. L. 1865-66, p. 235, § 1; Code 1868, § 4511; Code 1873, § 4599; Code 1882, § 4599; Penal Code 1895, § 669; Penal Code 1910, § 714; Code 1933, § 67-9909.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

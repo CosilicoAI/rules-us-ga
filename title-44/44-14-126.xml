@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-126"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-126"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-126/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-126/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-126/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-126/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_126">
+        <num>44-14-126</num>
+        <content>
+          <p>If the deed is given to secure debts due by installments and is enforced before any one of the installments falls due and there is a surplus of funds as stated in Code Section 44-14-125, the court may retain the funds or order them to be invested to meet the unpaid installments.</p>
+          <p>(Ga. L. 1896, p. 76, § 7; Civil Code 1910, § 3317; Code 1933, § 67-1207.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

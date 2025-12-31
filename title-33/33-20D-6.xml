@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-20D-6"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20D-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-20D-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20D-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-20D-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20D-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_20D_6">
+        <num>33-20D-6</num>
+        <content>
+          <p>Any person or entity that is not duly licensed or that should be licensed by the department or that is not duly registered or that should be registered with the department pursuant to Code Section 33-20D-2 and acts as a rental preferred provider network, as defined in paragraph (7) of Code Section 33-20D-1, shall be subject to penalties set forth in subsection (g) of Code Section 33-2-24. The Commissioner shall have the authority, in addition to any other remedies and damages allowed by law, to seek to restrain or enjoin any person or entity, whether or not such person or entity is licensed or registered pursuant to this title, that is determined to be in violation of Code Section 33-20D-2 or 33-20D-3, and such person or entity shall be liable for attorney fees and litigation expenses incurred in the action to restrain or enjoin such violation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

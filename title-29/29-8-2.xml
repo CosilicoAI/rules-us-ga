@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/29-8-2"/>
+          <FRBRuri value="/us-ga/act/ocga/29-8-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/29-8-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/29-8-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/29-8-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/29-8-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_8_2">
+        <num>29-8-2</num>
+        <content>
+          <p>In addition to the bond required in Code Section 53-6-41, county guardians shall give another bond with good security, to be judged by the court, in the sum of $5,000.00. The bond shall be payable to the court for the benefit of all concerned. It shall be attested by the judge or clerk of the court and shall be conditioned upon the faithful discharge of the county guardian's duty as such, as required by law. Actions on the bond may be brought by any person aggrieved by the misconduct of the county guardian, as provided by law for actions on the bonds of other guardians.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

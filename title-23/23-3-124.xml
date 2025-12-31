@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-3-124"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-124"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-3-124/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-124/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-3-124/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-124/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_3_124">
+        <num>23-3-124</num>
+        <content>
+          <p>All civil actions brought under this article in a court of this state shall be brought in the county where the defendant or any one defendant, in the case of multiple defendants or defendants who are not residents of the State of Georgia, resides, can be found, transacts business, or commits an act in furtherance of the submittal of a false or fraudulent claim to the state or local government. Civil actions under this article may be brought in courts of the United States and other states if there is pendent jurisdiction.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

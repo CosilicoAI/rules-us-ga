@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-14-11"/>
+          <FRBRuri value="/us-ga/act/ocga/43-14-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-14-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-14-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-14-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-14-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_14_11">
+        <num>43-14-11</num>
+        <content>
+          <p>Whenever it shall appear to a division of the board or to the executive director or to a county or municipal inspection authority that any person is or has been violating this chapter or any of the lawful rules, regulations, or orders of the board, the division of the board, the local inspection authority, or the appropriate prosecuting attorney may file a petition for an injunction in the proper superior court of this state against such person for the purpose of enjoining any such violation. It shall not be necessary to allege or prove that there is no adequate remedy at law. The right of injunction provided for in this Code section shall be in addition to any other legal remedy which the board has and shall be in addition to any right of criminal prosecution provided for by law.</p>
+          <p>(Ga. L. 1971, p. 583, § 18; Ga. L. 1980, p. 1299, § 12; Ga. L. 1981, p. 1703, § 4; Ga. L. 1983, p. 424, § 1; Ga. L. 1994, p. 97, § 43.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

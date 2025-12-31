@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-15"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_15">
+        <num>50-5-15</num>
+        <content>
+          <p>Any other provision of this chapter notwithstanding, the Department of Administrative Services is authorized to provide any administrative service which it normally provides to the various departments, agencies, and institutions of the state under the authority of this chapter to any local political subdivision within the state. The provision of one or more such administrative services to any or all political subdivisions shall be at the sole discretion of the commissioner of administrative services and such services shall only be rendered after a request for such services from the governing body of the local political subdivision.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

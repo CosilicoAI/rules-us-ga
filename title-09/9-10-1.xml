@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-1"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_1">
+        <num>9-10-1</num>
+        <content>
+          <p>Where civil cases are pending in the superior courts, the Court of Appeals, or the Supreme Court in which the state is a party plaintiff, preference shall be given to such cases over all other cases so pending; and the judges or Justices, as the case may be, shall use all the power vested in them by law to bring the cases to a speedy trial and, whenever required to do so by counsel for the state, shall take up the cases for trial and proceed to try the same, unless the defendant shows some good cause for continuance, when the case shall be continued to a future time in the same term, or to the next term, in the discretion of the court. Nothing in this Code section shall affect the right of the state to a continuance on a proper showing.</p>
+          <p>(Ga. L. 1876, p. 104, § 1; Code 1882, § 22a; Civil Code 1895, § 24; Civil Code 1910, § 24; Code 1933, § 81-1005; Ga. L. 1984, p. 22, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

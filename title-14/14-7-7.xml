@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-7-7"/>
+          <FRBRuri value="/us-ga/act/ocga/14-7-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-7-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-7-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-7-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-7-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_7_7">
+        <num>14-7-7</num>
+        <content>
+          <p>Nothing contained in this chapter shall limit the authority and duty of any regulating board to regulate the several professions including the right to establish and enforce standards of practice, and nothing contained in this chapter shall change the law or existing standards applicable to the relationship between the person furnishing a professional service and the person receiving such service, including, but not by way of limitation, the rules of privileged communication and the contract, tort, and other legal liabilities and professional relationships between such persons.</p>
+          <p>(Ga. L. 1970, p. 243, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

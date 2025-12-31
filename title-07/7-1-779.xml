@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-779"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-779"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-779/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-779/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-779/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-779/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_779">
+        <num>7-1-779</num>
+        <content>
+          <p>No person or corporation, except a savings and loan association actually engaged in carrying on a savings and loan business as contemplated by this article or the laws of the United States, shall transact business under any name or title which contains the term "savings and loan" or combination of the words used in said phrase or use any sign or any letterhead or billhead, circular, or paper of any kind or advertise in any manner which indicates that his or its business is the character or kind of business carried on or transacted by a savings and loan association or which is likely to lead the public to believe that his or its business is that of a savings and loan association.</p>
+          <p>(Ga. L. 1937-38, Ex. Sess., p. 307, § 10; Code 1933, § 41A-3510, enacted by Ga. L. 1974, p. 705, § 1; Ga. L. 2016, p. 390, § 7-4/HB 811; Ga. L. 2017, p. 774, § 7/HB 323.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

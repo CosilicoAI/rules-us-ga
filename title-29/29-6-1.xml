@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/29-6-1"/>
+          <FRBRuri value="/us-ga/act/ocga/29-6-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/29-6-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/29-6-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/29-6-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/29-6-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_6_1">
+        <num>29-6-1</num>
+        <content>
+          <p>The judges of the probate courts are, in their discretion, made the legal custodians and distributors of all moneys up to $15,000.00 due and owing to any minor or incapacitated adult who is in need of a conservator but who has no legal and qualified conservator; and the judges are authorized to receive and collect all such moneys arising from insurance policies, benefit societies, legacies, inheritances, or any other source. Without any appointment or qualifying order, the judge is authorized to take charge of the moneys or funds of the minor or adult by virtue of the judge's office as judge of the probate court in the county of residence of the minor or adult; provided, however, that notice shall be given to the living parents of a minor, if any, or the guardian of an adult, if any. The certificate of the judge that no legally qualified conservator has been appointed shall be conclusive and shall be sufficient authority to justify any debtor in making payment on claims made by the judge.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

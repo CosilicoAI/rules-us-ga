@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-229"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-229"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-229/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-229/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-229/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-229/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_229">
+        <num>44-2-229</num>
+        <content>
+          <p>Upon the clerk's notifying the judge that a petition has been filed, the judge shall promptly refer the petition to an examiner in substantially the following form:
+   IN THE SUPERIOR COURT OF ________ COUNTY
+   STATE OF GEORGIA
+   )
+   In re petition
+   )
+   Civil action
+   of ________
+   )
+   File no. ______
+   )
+   ORDER
+   Application having been filed to register _________________________________
+   ________________________________ land, it is hereby ordered that this matter be and is referred to __________________________, as examiner for proceedings in conformity with the Land Registration Law.
+   This ________ day of ________________________, ________.
+   ____________________________________________________________________
+   Judge</p>
+          <p>(Ga. L. 1917, p. 108, § 94; Code 1933, § 60-610; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

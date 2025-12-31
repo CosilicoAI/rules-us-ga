@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-9-60"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-60"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-9-60/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-60/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-9-60/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-60/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_9_60">
+        <num>45-9-60</num>
+        <content>
+          <p>In the event that a public officer or official has a money judgment returned against him in an action or is otherwise subjected to monetary liability by an aggrieved party, by his bond carrier, or both as a result of an act of omission or commission of a subordinate employee of the public officer or official and in the event that said public officer or official shall, as a result of such action, be required to expend his personal moneys, said officer or official shall be indemnified out of funds otherwise available to the public official's or officer's department or office, provided that authorization for such indemnification payment by the department or office shall be contingent on issuance of an official opinion of the Attorney General declaring that the judgment against or liability of the public officer or official was not due to an act of omission or commission of the public officer or official which constituted a breach of a duty imposed by law on the officer or official. In the event that the Attorney General is the public official seeking indemnification under this article, the Governor shall make the determination as to whether or not the liability of the Attorney General was due to an act of omission or commission of the Attorney General which constituted a breach of a duty imposed by law.</p>
+          <p>(Ga. L. 1975, p. 674, § 2; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-3-3"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-3-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-3-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_3_3">
+        <num>45-3-3</num>
+        <content>
+          <p>When not otherwise provided by law and when not directed in the dedimus potestatem, the oaths of office may be taken before any officer authorized by law to administer an oath. Such oaths shall be written and subscribed by the persons taking them and accompanied by the certificate of such officer, which shall specify the day and year taken.</p>
+          <p>(Orig. Code 1863, § 136; Code 1868, § 131; Code 1873, § 141; Code 1882, § 141; Civil Code 1895, § 236; Civil Code 1910, § 271; Code 1933, § 89-304.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

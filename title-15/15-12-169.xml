@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-169"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-169"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-169/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-169/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-169/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-169/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_169">
+        <num>15-12-169</num>
+        <content>
+          <p>On and after July 1, 2012, alternate jurors shall be chosen from the same county master jury list and in the same manner and have the same qualifications as the jurors already sworn. They shall be subject to the same examination and challenges. The number of alternate jurors shall be determined by the court. The state and the accused shall be entitled to as many peremptory challenges to alternate jurors as there are alternate jurors called. The peremptory challenges allowed to the state and to the accused in such event shall be in addition to the regular number of peremptory challenges allowed in criminal cases to the accused and to the state as provided by law. When two or more accused are tried jointly, the number and manner of exercising peremptory challenges shall be determined as provided in Code Section 17-8-4.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

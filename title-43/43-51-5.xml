@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-51-5"/>
+          <FRBRuri value="/us-ga/act/ocga/43-51-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-51-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-51-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-51-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-51-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_51_5">
+        <num>43-51-5</num>
+        <content>
+          <p>The board shall have the authority to adopt such rules and regulations as may be necessary to administer this chapter and effectuate the purposes expressed in this chapter. The rules and regulations shall include, but are not limited to, provisions establishing qualifications of applicants and procedures for examination of candidates.</p>
+          <p>(Ga. L. 1969, p. 272, § 10; Ga. L. 1975, p. 1074, § 3; Ga. L. 1994, p. 97, § 43.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

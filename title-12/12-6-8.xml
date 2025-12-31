@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-8"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_8">
+        <num>12-6-8</num>
+        <content>
+          <p>The commission shall be the designated agency to expend through the department all federal-aid funds available under the Cooperative Forestry Assistance Act of 1978, Public Law 95-313, for fire prevention and nursery work and for farm forestry or forest farming and nursery work. The commission shall also be the designated agency to expend through the department all other federal funds now in existence or to be created for the purpose of assisting private timber landowners in Georgia in the planting, management, and protection of their forests, and in the marketing of their forest products. All such funds shall be expended through regular Office of Planning and Budget channels, provided that those federal funds that may be appropriated or allocated to the Georgia Cooperative Extension Service under the Cooperative Forestry Assistance Act of 1978, or any other act of Congress, or any other source or allocation of federal funds for the purpose of carrying on agricultural or forestry extension work shall be made available directly to the Georgia Cooperative Extension Service.</p>
+          <p>(Ga. L. 1931, p. 7, § 24; Code 1933, § 43-104; Ga. L. 1937, p. 264, § 9; Ga. L. 1945, p. 390, § 1; Ga. L. 1946, p. 28, § 1; Ga. L. 1955, p. 309, § 27; Ga. L. 1982, p. 3, § 12; Ga. L. 2001, p. 4, § 12.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-4-15"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-4-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-4-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_4_15">
+        <num>5-4-15</num>
+        <content>
+          <p>In all cases pending in the superior courts upon certiorari from any inferior judicatory or any person exercising judicial powers, if the judge or other officer before whom the case was tried dies before answering the writ of certiorari or answers that he cannot or does not remember or recollect what occurred at the trial of the case and he therefore cannot or does not make answer to the same, it shall be the duty of the judge who granted the writ of certiorari forthwith to order a new trial of the case in the court below.</p>
+          <p>(Ga. L. 1861, p. 63, § 1; Code 1868, § 3996; Code 1873, § 4068; Code 1882, § 4068; Civil Code 1895, § 4653; Ga. L. 1899, p. 38, § 1; Civil Code 1910, § 5202; Code 1933, § 19-502; Ga. L. 1933, p. 113, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

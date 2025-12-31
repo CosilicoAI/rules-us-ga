@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-35-4"/>
+          <FRBRuri value="/us-ga/act/ocga/43-35-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-35-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-35-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-35-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-35-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_35_4">
+        <num>43-35-4</num>
+        <content>
+          <p>The State Board of Podiatry Examiners which existed on January 1, 1994, is continued in existence on and after that date. The members serving on the board on January 1, 1994, and any person appointed to fill a vacancy in such office shall continue to serve out their respective terms of office and until their successors are appointed and qualified.Their successors shall be appointed as provided by this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-15"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_15">
+        <num>10-4-15</num>
+        <content>
+          <p>In addition to the general powers conferred by Code Section 10-4-5, the Commissioner and his or her duly authorized agents or employees shall have full power and authority to inspect public warehouses operated under this article, to inventory, and to check the agricultural products stored so as to ascertain the conditions of such products and to determine whether or not the business is conducted in such a manner as to protect the interest of persons who are storing or may store such products. The inspectors shall make sworn reports of their findings to the Commissioner, who shall hold and keep such reports in the records of his or her office. Such inspections shall be made as often as deemed necessary by the Commissioner, but not less than twice during any license period and, in addition, as often as requested by the warehouseman.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 412, § 9; Ga. L. 2011, p. 99, § 16/HB 24.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

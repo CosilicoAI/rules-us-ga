@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-122"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-122"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-122/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-122/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-122/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-122/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_122">
+        <num>48-8-122</num>
+        <content>
+          <p>The governing authority of the county and the governing authority of each municipality receiving any proceeds from the tax under this part or under Article 4 of this chapter shall maintain a record of each and every project for which the proceeds of the tax are used. Not later than 180 days following the close of each fiscal year, the governing authority of each local government receiving any proceeds from the tax under this part shall publish annually, in a newspaper of general circulation in the boundaries of such local government and in a prominent location on the local government website, if such local government maintains a website, a simple, nontechnical report which shows for each project or purpose in the resolution or ordinance calling for imposition of the tax the original estimated cost, the current estimated cost if it is not the original estimated cost, amounts expended in prior fiscal years, amounts expended in the most recently completed fiscal year, any excess proceeds which have not been expended for a project or purpose, estimated completion date, and the actual completion cost of a project completed during the most recently completed fiscal year. In the case of road, street, and bridge purposes, such information shall be in the form of a consolidated schedule of the total original estimated cost, the total current estimated cost if it is not the original estimated cost, and the total amounts expended in prior fiscal years and the most recently completed fiscal year for all such projects and not a separate enumeration of such information with respect to each such individual road, street, or bridge project. The report shall also include a statement of what corrective action the local government intends to implement with respect to each project which is underfunded or behind schedule.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-5-20"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-5-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-5-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_5_20">
+        <num>49-5-20</num>
+        <content>
+          <p>Nothing in this article shall be deemed to revoke any charter of incorporation of any orphans' home or charitable or benevolent institution incorporated and established under the Act of the General Assembly approved December 18, 1894 (Ga. L. 1894, p. 80), as amended by the Act of the General Assembly approved December 16, 1898 (Ga. L. 1898, p. 104), notwithstanding the repeal of such Acts by Ga. L. 1963, p. 81, Section 24, or to impair or diminish the rights, powers, or privileges of such corporation as provided in its charter of incorporation.</p>
+          <p>(Ga. L. 1963, p. 81, § 22; Ga. L. 1994, p. 97, § 49.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

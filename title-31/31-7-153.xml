@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-153"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-153"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-153/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-153/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-153/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-153/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_153">
+        <num>31-7-153</num>
+        <content>
+          <p>The department shall promulgate regulations which define standards for the care, treatment, health, safety, welfare, and comfort of patients served by home health agencies and for the maintenance and operation of home health agencies which will promote safe and adequate care and treatment of the patients. These regulations shall be no less stringent than those required for participation of home health agencies in the Title XVIII medicare program and shall include, but not be limited to, a provision requiring the agency to have policies established by a professional group which includes at least one physician and one registered nurse and appropriate representation from other professional disciplines; provisions governing the services the agency provides; provisions for the supervision of services by a physician or registered nurse, as appropriate, and maintenance of clinical records on all patients, including a plan of treatment prescribed by a physician. The department is authorized to issue, deny, suspend, or revoke licenses in accordance with regulations promulgated pursuant to this Code section. Such regulations shall also include hearing procedures related to denial, suspension, or revocation of licenses.</p>
+          <p>(Ga. L. 1980, p. 1790, § 5; Ga. L. 1985, p. 149, § 31.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

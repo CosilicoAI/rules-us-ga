@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-13"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_13">
+        <num>12-6-13</num>
+        <content>
+          <p>The director shall take oath of office and give bond in the sum of $10,000.00 in the usual form required of state officials. The director shall have offices at the site of the state capitol or at such other place as may be recommended by the commission and approved by the Governor. The office of the director shall be the office of the commission.</p>
+          <p>(Ga. L. 1949, p. 1079, § 8; Ga. L. 1955, p. 309, § 22.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

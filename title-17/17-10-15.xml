@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/17-10-15"/>
+          <FRBRuri value="/us-ga/act/ocga/17-10-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/17-10-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/17-10-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/17-10-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/17-10-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_10_15">
+        <num>17-10-15</num>
+        <content>
+          <p>The 2020 amendment,
+      effective July 1, 2020, substituted "subsection (f)" for "subsection (g)" in the first sentence of subsection (b); deleted the former second sentence of subsection (c) which read: "The clerk of the court in such case shall mail, within three days following the date of that verdict or plea, a copy of that verdict or plea to the Department of Public Health."; deleted former subsection (d), which read: "The Department of Public Health, within 30 days following receipt of the court's order under subsection (b) of this Code section or within 30 days following receipt of the copy of the verdict or plea under subsection (c) of this Code section, shall arrange for the HIV test for the person required to submit thereto."; redesignated former subsections (e) through (h) as present subsections (d) through (g), respectively; and deleted "arranged pursuant to subsection (d) of this Code section" following "to the test" near the beginning of subsection (d).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

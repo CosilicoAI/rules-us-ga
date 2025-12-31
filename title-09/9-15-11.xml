@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-15-11"/>
+          <FRBRuri value="/us-ga/act/ocga/9-15-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-15-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-15-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-15-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-15-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_15_11">
+        <num>9-15-11</num>
+        <content>
+          <p>When a case is disposed of, the costs, including fees of witnesses, shall be included in the judgment against the party voluntarily dismissing, being involuntarily dismissed, or cast in the action. It shall be the duty of the clerk of the court, of the magistrate, or of any other officer who may issue an execution to endorse on the execution at the time it is issued the date and amount of the judgment, the items of the bill of cost, written in words, and the amount of each item distinctly stated in figures. No costs or items of costs shall in any case be demanded by any officer unless they are itemized and endorsed as provided in this Code section.</p>
+          <p>(Orig. Code 1863, § 3610; Code 1868, § 3635; Ga. L. 1870, p. 67, § 1; Code 1873, § 3685; Code 1882, § 3685; Civil Code 1895, § 5394; Civil Code 1910, § 5992; Code 1933, § 24-3410; Ga. L. 1983, p. 884, § 4-1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

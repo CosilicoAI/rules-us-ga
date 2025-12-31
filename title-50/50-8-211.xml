@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-211"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-211"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-211/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-211/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-211/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-211/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_211">
+        <num>50-8-211</num>
+        <content>
+          <p>The General Assembly finds that in recent years rural Georgia has undergone a severe economic recession. It is evident that an investment in the economic situation of the state's most distressed counties would result not only in an improvement in the quality of life for the citizens of those counties but also in the economic health of the entire state by increasing the state's total economic growth.There is a serious need in those less developed counties for jobs and for many fundamental community facilities which are essential to an improved quality of life and an equal opportunity for economic development.The facilities needs of each less developed county are individually specific and the citizens of each such community will as a part of the growth strategies program determine which needs are of most importance and worth to their community.Those economically distressed counties in many cases have exhausted all available funding resources in an attempt to help themselves but still do not have the economic ability to supply their facilities needs without substantial assistance from the state.It is therefore essential that the General Assembly provide funding assistance to make possible the construction of such facilities as each county may determine necessary, based on need, priorities, merit, and planning, to improve the quality of life and economic development in the most economically distressed counties of this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

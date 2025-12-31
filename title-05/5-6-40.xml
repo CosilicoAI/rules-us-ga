@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-6-40"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-6-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-6-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_6_40">
+        <num>5-6-40</num>
+        <content>
+          <p>The appellant and cross appellant shall file with the clerk of the appellate court, at such time as may be prescribed by its rules, an enumeration of the errors which shall set out separately each error relied upon. The enumeration shall be concise and need not set out or refer to portions of the record on appeal. It shall be served upon the appellee or cross appellee in the manner prescribed in Code Section 5-6-32, need not have approval of the trial court, and when filed shall become a part of the record on appeal. The appellate court, by rule, may permit the enumeration to be made a part of the brief.</p>
+          <p>(Ga. L. 1965, p. 18, § 14; Ga. L. 1965, p. 240, § 2; Ga. L. 1968, p. 1072, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

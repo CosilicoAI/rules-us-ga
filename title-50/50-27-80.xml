@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-27-80"/>
+          <FRBRuri value="/us-ga/act/ocga/50-27-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-27-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-27-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-27-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-27-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_27_80">
+        <num>50-27-80</num>
+        <content>
+          <p>If an owner purchases or receives additional bona fide coin operated amusement machines during the calendar year, the applicable annual permit fee shall be paid to the corporation and the sticker shall be affixed to the machine before the machine may be legally operated. A penalty fee equal to twice the applicable annual permit fee shall be assessed by the corporation for every machine in operation without a permit sticker.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

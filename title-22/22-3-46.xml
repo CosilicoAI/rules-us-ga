@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-3-46"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-3-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-3-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_3_46">
+        <num>22-3-46</num>
+        <content>
+          <p>Before any public road or highway condemned under this part may be used by the condemnor, any new road or highway to be constructed pursuant to Code Section 22-3-41, including any and all bridges and culverts that may be necessary as a part thereof, shall be laid out, constructed, and made ready for public use by the condemnor. All of this new construction shall first be approved by the authorities having control of the condemned road or highway.</p>
+          <p>(Ga. L. 1927, p. 370, § 4; Code 1933, § 36-810.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

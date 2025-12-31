@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-12-3"/>
+          <FRBRuri value="/us-ga/act/ocga/40-12-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-12-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-12-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-12-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-12-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_12_3">
+        <num>40-12-3</num>
+        <content>
+          <p>All actions brought under this chapter relating to the use of the highways of this state by nonresident motorists shall be brought in the county in which the accident or injury occurred or the cause of action originated, or in the county of the residence of the plaintiff, as the plaintiff in such action may elect, if the plaintiff in such action is a resident of the State of Georgia; and, if the plaintiff in such action is a nonresident of the State of Georgia, the action shall be brought in the county in this state in which the accident or injury occurred or the cause of action originated; and the courts in such counties having jurisdiction of tort actions shall have jurisdiction of all such nonresident users in actions arising under this chapter. Where an action for damages is brought against a resident of this state, any nonresident involved in the same accident or collision and who is suable under this chapter may be joined as a defendant in the county wherein the resident defendant is suable, and the jurisdiction of the court of and over such nonresident joint defendant shall not be affected or lost by reason of the fact that the jury returns a verdict in favor of such resident joint defendant although the accident, injury, or cause of action did not originate in the county wherein the action is brought.</p>
+          <p>(Ga. L. 1937, p. 732, § 3; Ga. L. 1947, p. 305, § 2; Ga. L. 1955, p. 650, § 1; Ga. L. 1959, p. 120, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

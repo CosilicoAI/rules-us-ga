@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-164"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-164"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-164/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-164/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-164/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-164/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_164">
+        <num>34-8-164</num>
+        <content>
+          <p>Applications for an adjustment or a refund of contributions, payments in lieu of contributions, or interest thereon, shall be submitted no later than three years from the date such amounts were assessed. Applications must be in writing. The Commissioner shall determine what amounts, if any, were erroneously collected. Adjustments shall be made against subsequent payments. Refunds will be issued, without interest thereon, when adjustments cannot be made. At the option of the Commissioner, the Commissioner may make any adjustments or refunds deemed appropriate for any amounts erroneously collected where no written request for a refund or an adjustment has been received, provided that such amounts were assessed within the last seven years. Amounts shall be refunded from the fund into which they were deposited.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-169"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-169"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-169/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-169/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-169/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-169/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_169">
+        <num>9-10-169</num>
+        <content>
+          <p>Continuances of cases in the superior, state, county, and city courts and the dates thereof shall be entered on the docket. Upon the call of the calendar which includes such case, the judge shall announce the continuance.</p>
+          <p>(Ga. L. 1895, p. 41, § 1; Civil Code 1895, § 5140; Penal Code 1895, § 968; Civil Code 1910, § 5726; Penal Code 1910, § 994; Code 1933, § 81-1421.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

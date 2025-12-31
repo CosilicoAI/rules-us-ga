@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-12-156"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-156"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-12-156/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-156/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-12-156/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-156/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_12_156">
+        <num>53-12-156</num>
+        <content>
+          <p>In addition to investments in any property, the trustee of a trust created under Code Section 53-12-151 may invest any funds of the trust estate in investments authorized by trustees under the laws of this state; provided, however, that the deed creating the estate may further limit or expand the powers and authority of the trustee with respect to investments, including the power to invest in property located outside this state. The trustee shall be authorized and empowered, in accordance with the terms of the deed creating the estate, from corpus or from income or from both, to repurchase or redeem any issued and outstanding certificates of beneficial interest.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-36-13"/>
+          <FRBRuri value="/us-ga/act/ocga/33-36-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-36-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-36-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-36-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-36-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_36_13">
+        <num>33-36-13</num>
+        <content>
+          <p>With respect to insolvent insurers incorporated in this state, the receiver, liquidator, or statutory successor shall allow as a proper claim on the assets of the insolvent insurer amounts paid under this chapter by or on behalf of the pool or paid by an insolvency fund or its equivalent in another state on or with respect to covered claims, notwithstanding provisions to the contrary in any statute of this state relating to the rights and duties of such receiver, liquidator, or statutory successor. As a condition of an insurer doing business in this state, all property and casualty insurance policies issued or renewed shall be deemed to provide that the insurer appoints the pool as its agent with respect to investigation, adjustment, compromise, and settlement of covered claims and to reimburse the pool for any payment made under the terms of this chapter, and that such appointment and obligation shall be binding on any receiver, liquidator, or statutory successor appointed to liquidate or wind up its affairs.</p>
+          <p>(Ga. L. 1970, p. 700, § 10; Ga. L. 2005, p. 563, § 19/HB 407.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

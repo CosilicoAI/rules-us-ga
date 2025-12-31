@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-10-6"/>
+          <FRBRuri value="/us-ga/act/ocga/35-10-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-10-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-10-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-10-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-10-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_10_6">
+        <num>35-10-6</num>
+        <content>
+          <p>Any person wishing permission to use the nomenclature or a symbol of a department may submit a written request for such permission to the chief of police or director of public safety. Within 15 calendar days after receipt of the request, the chief of police or director of public safety shall send a notice with his or her recommendation to the local governing authority stating whether the person may use the requested nomenclature or symbol. Within 30 calendar days after receipt of a recommendation from the chief of police or director of public safety, the local governing authority shall send a notice to the requesting party of their decision on whether or not the person may use the requested nomenclature or symbol. If the local governing authority does not respond within the 30 day time period, then the request is presumed to have been approved. The grant of permission under Code Section 35-10-4 or 35-10-5 shall be in the discretion of the local governing authority under such conditions as the local governing authority may impose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

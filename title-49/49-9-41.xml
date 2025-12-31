@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-9-41"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-9-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-9-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_9_41">
+        <num>49-9-41</num>
+        <content>
+          <p>To effectuate the purposes of this article, it is declared to be public policy of the state that on any state property where the board determines it to be feasible to establish a vending facility to be operated by a licensed operator as provided in this article and where the agency or department or custodian of such property determines that such facility can be established without undue inconvenience to the operation being carried on in such state building or property, the preference accorded in this article shall require that such vending facility site not be deemed available for letting to competitive bidders for revenue-producing purposes unless the board declines to establish on such site a vending facility for blind persons or other persons with disabilities. The income to the agency or department or custodian controlling the space for such facility sites shall generally not be expected to exceed reimbursement for the cost of providing such facility site space and the services connected therewith; but in any case where such income exceeds those purposes, it shall be paid into the state treasury, subject to certification and audit.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

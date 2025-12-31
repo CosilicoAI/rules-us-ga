@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-7-41"/>
+          <FRBRuri value="/us-ga/act/ocga/50-7-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-7-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-7-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-7-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-7-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_7_41">
+        <num>50-7-41</num>
+        <content>
+          <p>In addition to its authority and duties provided under Code Section 10-9-5, the department shall have the authority with the approval of the State Properties Commission to lease any improved or unimproved land or other property acquired by it under Code Section 50-7-40 to the Geo. L. Smith II Georgia World Congress Center Authority for a term not to exceed 50 years but upon such other terms and conditions as the department may determine necessary or convenient. Any such lease shall be for and in consideration of $1.00 annually for each calendar year or portion thereof paid in kind to and receipted for by the Office of the State Treasurer and in further consideration of the reasonable compliance by the authority with the requirement that such property be held, constructed, operated, maintained, expanded, or improved for the purposes for which the department was authorized to acquire such property. It is determined that such consideration is good and valuable and sufficient consideration for such lease and in the interest of the public welfare of the State of Georgia and its citizens.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

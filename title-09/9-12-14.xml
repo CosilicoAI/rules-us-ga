@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-12-14"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-12-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-12-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_12_14">
+        <num>9-12-14</num>
+        <content>
+          <p>A judgment may be amended by order of the court to conform to the verdict upon which it is predicated, even after an execution issues.</p>
+          <p>(Orig. Code 1863, § 3424; Code 1868, § 3444; Code 1873, § 3494; Code 1882, § 3494; Civil Code 1895, § 5113; Ga. L. 1902, p. 55, § 1; Civil Code 1910, § 5697; Code 1933, § 110-311.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-11-35"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-35"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-11-35/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-35/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-11-35/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-35/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_11_35">
+        <num>15-11-35</num>
+        <content>
+          <p>In all cases of final judgments of the juvenile court, appeals shall be taken to the Court of Appeals or the Supreme Court in the same manner as appeals from the superior court. However, no such judgment or order shall be superseded or modified except in the discretion of the trial court; rather, the judgment or order of the court shall stand until reversed or modified by the reviewing court. The appeal of an order granting a petition to terminate parental rights shall stay an adoption proceeding related to the child who is the subject of such order until such order becomes final by the conclusion of appellate proceedings or the expiration of the time for seeking such review. Except for proceedings in connection with an adoption, the court shall continue to conduct hearings and issue orders in accordance with this chapter while an appeal in a case is pending.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

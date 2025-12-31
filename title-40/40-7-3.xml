@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-7-3"/>
+          <FRBRuri value="/us-ga/act/ocga/40-7-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-7-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-7-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-7-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-7-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_7_3">
+        <num>40-7-3</num>
+        <content>
+          <p>As used in this chapter, the term "off-road vehicle" means any motorized vehicle designed for or capable of cross-country travel on or immediately over land, water, snow, ice, marsh, swampland, or other natural terrain and not intended for use predominantly on public roads. The term includes, but is not limited to, four-wheel drive vehicles, low-pressure tire vehicles, two-wheel vehicles, nonhighway tire vehicles, amphibious machines, ground effect or air cushion vehicles, and any other means of transportation deriving power from any source other than muscle or wind. The term shall exclude any motorboat; any military, fire, law enforcement, or other government vehicle being used for official purposes; any vehicles used exclusively on airports; all farm machinery, farm tractors, and other vehicles used exclusively for agricultural purposes; any self-propelled equipment for harvesting and transportation of forest products, for clearing land for planting, for utility services and maintenance, for earth moving, construction, or mining; and self-propelled lawnmowers, snowblowers, garden or lawn tractors, or golf carts, while such vehicles are being used exclusively for their designed purposes.</p>
+          <p>(Ga. L. 1976, p. 330, § 3; Ga. L. 2010, p. 98, § 1-1/HB 207; Ga. L. 2012, p. 726, § 4/HB 795.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

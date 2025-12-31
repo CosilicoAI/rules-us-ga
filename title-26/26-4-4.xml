@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-4-4"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-4-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-4-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_4_4">
+        <num>26-4-4</num>
+        <content>
+          <p>The "practice of pharmacy" means the interpretation, evaluation, or dispensing of prescription drug orders in the patient's best interest; participation in drug and device selection, drug administration, drug regimen reviews, and drug or drug related research; provision of patient counseling and the provision of those acts or services necessary to provide pharmacy care; performing capillary blood tests and interpreting the results as a means to screen for or monitor disease risk factors and facilitate patient education, and a pharmacist performing such functions shall report the results obtained from such blood tests to the patient's physician of choice; and the responsibility for compounding and labeling of drugs and devices.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

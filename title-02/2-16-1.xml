@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-16-1"/>
+          <FRBRuri value="/us-ga/act/ocga/2-16-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-16-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-16-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-16-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-16-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_16_1">
+        <num>2-16-1</num>
+        <content>
+          <p>The General Assembly finds, determines, and declares that the production of agricultural and aquacultural food products and commodities constitutes an important and significant portion of the state economy and that it is imperative to protect the vitality of the agricultural and aquacultural economy for the citizens of this state by providing a cause of action for producers, marketers, or sellers to recover damages for the disparagement of any perishable product or commodity.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-92"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_92">
+        <num>44-12-92</num>
+        <content>
+          <p>Depositories for hire are bound to exercise ordinary care and diligence and are liable as in other cases of bailment for hire.</p>
+          <p>(Orig. Code 1863, § 2089; Code 1868, § 2084; Code 1873, § 2110; Code 1882, § 2110; Civil Code 1895, § 2928; Civil Code 1910, § 3501; Code 1933, § 12-404.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

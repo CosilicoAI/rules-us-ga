@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-8-3"/>
+          <FRBRuri value="/us-ga/act/ocga/52-8-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-8-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-8-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-8-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-8-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_8_3">
+        <num>52-8-3</num>
+        <content>
+          <p>Upon receipt by the Board of Pilotage Commissioners of satisfactory evidence of the offense specified in Code Section 52-8-1, it shall be the duty of the board to proceed to recover the forfeiture provided for in that Code section by process of attachment in the name of the state, which may be issued as other attachments on the oath of the informer or of one of the commissioners and may be levied on the vessel from which the offense was committed. The vessel may be replevied by the master, owner, or consignee by giving bond, payable to the state, in double the amount of the penalty, with the condition to have the vessel forthcoming to satisfy such judgment as may be rendered in the action.</p>
+          <p>(Orig. Code 1863, § 1487; Code 1868, § 1544; Code 1873, § 1538; Code 1882, § 1538; Civil Code 1895, § 1686; Civil Code 1910, § 1932; Code 1933, § 98-104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

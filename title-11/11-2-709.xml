@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2-709"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-709"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2-709/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-709/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2-709/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-709/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2_709">
+        <num>11-2-709</num>
+        <content>
+          <p>Where the seller sues for the price he must hold for the buyer any goods which have been identified to the contract and are still in his control except that if resale becomes possible he may resell them at any time prior to the collection of the judgment. The net proceeds of any such resale must be credited to the buyer and payment of the judgment entitles him to any goods not resold.</p>
+          <p>After the buyer has wrongfully rejected or revoked acceptance of the goods or has failed to make a payment due or has repudiated (Code Section 11-2-610), a seller who is held not entitled to the price under this Code section shall nevertheless be awarded damages for nonacceptance under Code Section 11-2-708.</p>
+          <p>(Code 1933, § 109A-2 - 709, enacted by Ga. L. 1962, p. 156, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-18-3"/>
+          <FRBRuri value="/us-ga/act/ocga/31-18-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-18-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-18-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-18-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-18-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_18_3">
+        <num>31-18-3</num>
+        <content>
+          <p>Every public and private health and social agency, every hospital or facility that has a valid permit or provisional permit issued by the Department of Community Health under Chapter 7 of this title, and every physician licensed to practice medicine in this state, if such physician has not otherwise reported such information to another agency, hospital, and facility, shall report to the Brain and Spinal Injury Trust Fund Commission such information concerning the identity of the person such agency, hospital, facility, or physician has identified as having a traumatic brain or spinal cord injury as defined in this chapter. The report shall be made within 45 days after identification of the person with the traumatic brain or spinal cord injury. The report shall contain the name, age, address, type and extent of injury, and such other information concerning the person with the injury as the Brain and Spinal Injury Trust Fund Commission, which is administratively assigned to the department, may require.</p>
+          <p>(Code 1933, § 88-3403, enacted by Ga. L. 1980, p. 1245, § 1; Ga. L. 1981, p. 1027, § 1; Ga. L. 1985, p. 871, § 1; Ga. L. 2004, p. 1107, § 1; Ga. L. 2006, p. 175, § 1/SB 208; Ga. L. 2008, p. 12, § 2-29/SB 433.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

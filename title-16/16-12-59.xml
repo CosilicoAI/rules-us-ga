@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-12-59"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-59"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-12-59/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-59/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-12-59/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-59/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_12_59">
+        <num>16-12-59</num>
+        <content>
+          <p>On or before April 15 of each year, every nonprofit, tax-exempt organization engaged in operating bingo games shall file with the Secretary of State a report disclosing all receipts and expenditures relating to the operation of bingo games in the previous year. The report shall be in addition to all other reports required by law. The report shall be prepared and signed by a certified public accountant competent to prepare such a report and shall be deemed a public record subject to public inspection.</p>
+          <p>(Ga. L. 1977, p. 1164, § 6; Ga. L. 1980, p. 422, § 6; Ga. L. 2005, p. 1030, § 15/SB 55; Ga. L. 2021, p. 394, § 7/HB 410.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, substituted "Secretary of State" for "director" in the first sentence of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

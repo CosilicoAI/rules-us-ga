@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-42"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_42">
+        <num>44-13-42</num>
+        <content>
+          <p>Every debtor seeking the benefit of Code Section 44-13-41 shall make out a schedule of the debtor's household and kitchen furniture and provisions which shall set out the items and value thereof claimed to be exempt and shall return the schedule to the judge of the probate court of the county in which the applicant resides. It shall not be necessary to make any application for such exemption or to publish the schedule in a newspaper. The judge shall record the schedule in a book to be kept by him for that purpose.</p>
+          <p>(Ga. L. 1924, p. 57, § 1; Code 1933, § 51-1103; Ga. L. 1983, p. 1170, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

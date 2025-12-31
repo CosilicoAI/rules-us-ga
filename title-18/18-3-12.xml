@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/18-3-12"/>
+          <FRBRuri value="/us-ga/act/ocga/18-3-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/18-3-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/18-3-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/18-3-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/18-3-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_18_3_12">
+        <num>18-3-12</num>
+        <content>
+          <p>No person shall be taken as security or surety on any attachment bond who is an attorney for the plaintiff or a nonresident, except such nonresident who is possessed of real estate in the county where the attachment issues which is the value of the amount of such bond.</p>
+          <p>(Ga. L. 1873, p. 29, § 1; Code 1873, § 3268; Code 1882, § 3268; Civil Code 1895, § 4514; Civil Code 1910, § 5059; Code 1933, § 8-112.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

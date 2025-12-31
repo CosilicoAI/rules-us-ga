@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-5-44"/>
+          <FRBRuri value="/us-ga/act/ocga/5-5-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-5-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-5-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-5-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-5-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_5_44">
+        <num>5-5-44</num>
+        <content>
+          <p>In all motions for a new trial the opposite party shall be served with a copy of the rule nisi unless such copy is waived. The clerks of the courts shall not be required, except by order of the presiding judge, to enter upon the minutes of the courts motions for new trial in cases tried therein; but the motions shall be filed in the clerk's office as are other papers and shall be recorded together with the other pleadings in the cases when the same are finally disposed of as required by law.</p>
+          <p>(Orig. Code 1863, § 3648; Code 1868, § 3673; Code 1873, § 3723; Ga. L. 1878-79, p. 138, § 1; Code 1882, § 3723; Civil Code 1895, § 5475; Penal Code 1895, § 1065; Civil Code 1910, § 6080; Penal Code 1910, § 1092; Code 1933, § 70-306.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

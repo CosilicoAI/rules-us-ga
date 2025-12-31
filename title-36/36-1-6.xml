@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-1-6"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-1-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-1-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_1_6">
+        <num>36-1-6</num>
+        <content>
+          <p>All boards of county commissioners, county commissioners, county managers, or other persons or bodies having charge of receipts and expenditures of county moneys shall publish a financial statement once each calendar year in the paper in which sheriff's advertisements are published in their respective counties. A copy of this statement shall also be posted twice each year for a period of not less than 30 days on the bulletin boards of the various county courthouses. The statement shall set forth the source of all income and a summary of all expenditures in a plain and simple manner that can be easily understood by all taxpaying citizens. The statement shall also contain a report of all money owed by the county, current bills excepted, of the number of tax delinquents, and the total amount of tax delinquency.</p>
+          <p>(Ga. L. 1952, p. 337, §§ 1, 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

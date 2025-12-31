@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-126"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-126"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-126/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-126/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-126/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-126/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_126">
+        <num>15-12-126</num>
+        <content>
+          <p>On and after July 1, 2012, when the regular panels of trial jurors cannot be furnished to make up panels of the correct number from which to take juries in misdemeanor cases because of the absence of any of such panels, where jurors, or any part of a panel, are engaged in the consideration of a case, the presiding judge may cause the panels to be filled by summoning such numbers of persons who are competent jurors as may be necessary to fill the panels. Such panels shall be used as the regular panels are used. The clerk shall choose and cause to be summoned additional prospective trial jurors.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

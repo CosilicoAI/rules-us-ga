@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-29-8"/>
+          <FRBRuri value="/us-ga/act/ocga/31-29-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-29-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-29-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-29-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-29-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_29_8">
+        <num>31-29-8</num>
+        <content>
+          <p>It is declared to be the specific intent of Code Section 31-29-1 that the employees of the Central State Hospital, Northwest Georgia Regional Hospital, and Reidsville State Prison be covered by Code Sections 31-29-1 through 31-29-7. This Code section shall not be construed to exclude the employees of any other state institution, agency, or department charged with the care, treatment, or diagnosis of persons infected with tuberculosis or infectious hepatitis who are subject to occupational exposure to tuberculosis or infectious hepatitis.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 513, § 10; Code 1933, § 88-2410, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1970, p. 737, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

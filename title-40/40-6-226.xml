@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-226"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-226"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-226/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-226/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-226/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-226/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_226">
+        <num>40-6-226</num>
+        <content>
+          <p>(a.1)It shall be unlawful for any person to stop, stand, or park any vehicle in a parking place for persons with disabilities which is designated "For Persons With Disabled Ambulatory Assistive Devices Only" unless:</p>
+          <p>(c.1)It shall be unlawful for any person to knowingly and willfully make a false or misleading statement in an application for a parking permit for persons with disabilities or in the affidavit of a practitioner of the healing arts stating that an applicant is a disabled person.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

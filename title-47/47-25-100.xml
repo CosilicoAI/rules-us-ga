@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-25-100"/>
+          <FRBRuri value="/us-ga/act/ocga/47-25-100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-25-100/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-25-100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-25-100/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-25-100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_25_100">
+        <num>47-25-100</num>
+        <content>
+          <p>If the board determines that the funds derived from the sources provided for in this chapter are not actuarially sufficient at any time to enable the board to pay in full each person determined to be entitled to the benefits provided for, plus all contingent and other liabilities, then a prorated percentage of such payments shall be made to each person entitled thereto until the funds shall be replenished actuarially sufficient to enable the board to resume such payments in accordance with the terms of this chapter. In no event shall the board or any member thereof be liable to any person for any deficiency in payments made under this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

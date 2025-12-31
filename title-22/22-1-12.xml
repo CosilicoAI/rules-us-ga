@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-1-12"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-1-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-1-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_1_12">
+        <num>22-1-12</num>
+        <content>
+          <p>In all actions where a condemning authority exercises the power of eminent domain, the court having jurisdiction of a proceeding instituted by a condemnor to acquire real property by condemnation shall award the owner of any right or title to or interest in such real property such sum as will in the opinion of the court reimburse such owner for his or her reasonable costs and expenses, including reasonable attorney, appraisal, and engineering fees, actually incurred because of the condemnation proceedings, if:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

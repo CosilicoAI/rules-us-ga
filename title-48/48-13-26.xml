@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-13-26"/>
+          <FRBRuri value="/us-ga/act/ocga/48-13-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-13-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-13-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-13-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-13-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_13_26">
+        <num>48-13-26</num>
+        <content>
+          <p>In addition to the other remedies available to the state, counties, and municipalities for the collection of special taxes, occupation taxes, and regulatory fees due the state, counties, and municipalities from persons subject to the tax or fee who fail or refuse to pay the tax or fee, the officer charged with the collection of the tax or fee shall issue executions against the delinquent taxpayers for any or all of the following: the amount of the taxes or fees due when the taxes or fees become due; any penalty imposed by subsection (a) of Code Section 48-13-21; and any interest imposed by the local ordinance in accordance with subsection (b) of Code Section 48-13-21. The court of competent jurisdiction for the enforcement of ordinances of the local government which has levied the tax or imposed the fee may, if authorized by the local ordinance, impose a civil fine for failure to pay the occupation tax or regulatory fee. Such a civil fine shall not exceed $500.00 and may be enforced by the contempt power of the court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

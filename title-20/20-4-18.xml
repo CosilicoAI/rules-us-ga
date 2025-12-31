@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-4-18"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-4-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-4-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_4_18">
+        <num>20-4-18</num>
+        <content>
+          <p>Subject to the provisions of Code Section 20-4-20, any other Code section of this article to the contrary notwithstanding, all decisions regarding the delivery of adult literacy and postsecondary technical education programs and services to business, industry, and individuals who are 16 years of age or older and who have completed or left the public schools, to include the awarding of high school equivalency certificates and diplomas, shall be made by the Technical College System of Georgia. Commensurate with this authority, the system shall exercise state level management and operational control over adult literacy education programs, postsecondary technical schools, and adult vocational centers.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

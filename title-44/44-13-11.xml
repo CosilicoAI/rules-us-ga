@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-11"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_11">
+        <num>44-13-11</num>
+        <content>
+          <p>If, at the time and place appointed for passing upon the application, no objection is raised by any creditor of the applicant, the judge of the probate court shall endorse upon the schedule and upon the plat: "Approved this the ____ day of ________________________, ________," filling the blanks, and shall sign the schedule and plat officially and hand such application to the clerk of the superior court of the clerk's county; and, when land out of the clerk's county is exempted, the judge shall transmit a certified copy of the exempted real property to the clerk of the superior court of each county in which exempted land is located. Each clerk of the superior court of a county in which exempted land is located shall record the exempted real property in a book to be kept for that purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

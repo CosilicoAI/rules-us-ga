@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-3-23"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-3-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-3-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_3_23">
+        <num>36-3-23</num>
+        <content>
+          <p>The survey with plat, made and returned to the Secretary of State, shall be filed in his office, and entry of filing shall be made thereon; but the survey and plat shall not be recorded within the space of 30 days from the date of its reception in such office, for the purpose of allowing the authorities of either county dissatisfied therewith to file a protest or exceptions thereto within that time.</p>
+          <p>(Ga. L. 1899, p. 24, § 2; Civil Code 1910, § 474; Code 1933, § 23-404.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

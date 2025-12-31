@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-12-16"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-12-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-12-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_12_16">
+        <num>9-12-16</num>
+        <content>
+          <p>The judgment of a court having no jurisdiction of the person or the subject matter or which is void for any other cause is a mere nullity and may be so held in any court when it becomes material to the interest of the parties to consider it.</p>
+          <p>(Orig. Code 1863, § 3513; Code 1868, § 3536; Code 1873, § 3594; Code 1882, § 3594; Civil Code 1895, § 5369; Civil Code 1910, § 5964; Code 1933, § 110-709.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

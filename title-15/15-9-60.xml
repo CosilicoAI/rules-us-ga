@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-60"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-60"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-60/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-60/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-60/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-60/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_60">
+        <num>15-9-60</num>
+        <content>
+          <p>In addition to any fees required in Code Section 15-9-60 for receiving marriage applications, issuing marriage licenses, and recording relative thereto, the judge of the probate court shall charge an additional fee of $15.00 for issuing a marriage license. No amount of this additional fee shall be paid into the Judges of the Probate Courts Retirement Fund of Georgia provided for in Chapter 11 of Title 47 or be used for the purpose of calculating retirement benefits for judges of the probate courts. Each judge of the probate court shall collect the additional fees for issuing marriage licenses as provided in this Code section and shall pay such moneys over to the Georgia Superior Court Clerks' Cooperative Authority by the last day of the month there following, to be deposited by the authority into the general treasury. The authority shall, on a quarterly basis, make a report and accounting of all funds collected pursuant to this Code section and shall submit such report and accounting to the Office of Planning and Budget, the House Budget and Research Office, and the Senate Budget and Evaluation Office no later than 60 days after the last day of the preceding quarter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

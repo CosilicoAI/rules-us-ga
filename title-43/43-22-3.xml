@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-22-3"/>
+          <FRBRuri value="/us-ga/act/ocga/43-22-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-22-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-22-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-22-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-22-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_22_3">
+        <num>43-22-3</num>
+        <content>
+          <p>The registration fee provided for in Code Section 43-22-2 shall be $1.00, which shall be paid to the judge of the probate court at the time of registration by each person, firm, or corporation and by the individual agent and employee of any person, firm, or corporation engaged in the business of purchasing junk in such county. After the initial payment, a registration fee of $1.00 shall be paid annually by each junk dealer. All fees paid to the judge of the probate court under this chapter shall be and remain the property of the judge of the probate court, and the judge of the probate court shall issue to the person making such payment a proper receipt therefor.</p>
+          <p>(Ga. L. 1939, p. 337, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

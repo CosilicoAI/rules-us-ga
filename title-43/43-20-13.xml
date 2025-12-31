@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-20-13"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-20-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-20-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_20_13">
+        <num>43-20-13</num>
+        <content>
+          <p>Any person who dispenses hearing aid devices or instruments shall deliver to each person supplied with a hearing aid device or instrument a written receipt or bill of sale in such form as may be prescribed by the board, which receipt or bill of sale shall contain, as a minimum, the dealer's name, license number, address, and schedule of office hours, as well as the dispenser's name, signature, and license number, together with specification as to the make and model and serial number of the hearing aid device or instrument furnished. The receipt or bill of sale shall also clearly state the full terms of sale, including guarantees, if any, and shall also contain such other information as the board may determine to be necessary in the public interest. If a hearing aid device or instrument which is not new is sold, the receipt therefor must be clearly marked "used" or "reconditioned," whichever is applicable, with the terms of the guarantee, if any, clearly stated.</p>
+          <p>(Ga. L. 1970, p. 653, § 4; Code 1933, § 84-5605, enacted by Ga. L. 1978, p. 1728, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

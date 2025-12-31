@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-7-19"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-7-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-7-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_7_19">
+        <num>2-7-19</num>
+        <content>
+          <p>When two reputable citizens of any county in this state notify the Commissioner, from belief, that noxious insects or plant diseases exist in their county, the Commissioner shall ascertain as speedily as possible the nature and extent of the condition reported. If, after such investigation, it is determined by the Commissioner that it is necessary or desirable for the public interest, he shall act with all due diligence to control or eradicate such insects or plant diseases by giving notice to the owner, tenant, or agent of the owner of such premises to treat such affected plants or other things or substances according to the methods he may prescribe or to destroy them within the period set forth in such notice. If, after the expiration of the period set forth in the notice, the affected materials or other things or substances have not been destroyed or treated as prescribed in the notice or the treatment has not been properly applied or is not effectual in ridding the affected materials, things, or substances of the pests, the Commissioner shall cause such affected materials, things, or substances to be properly treated or destroyed, as his judgment warrants. The cost of the work shall be assessed against the owner of the premises and shall be collected in the same manner as that provided in Code Section 2-7-17.</p>
+          <p>(Ga. L. 1898, p. 94, § 14; Civil Code 1910, § 2132; Code 1933, § 5-714; Ga. L. 1937, p. 659, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

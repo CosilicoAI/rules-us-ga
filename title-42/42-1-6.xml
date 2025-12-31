@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-1-6"/>
+          <FRBRuri value="/us-ga/act/ocga/42-1-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-1-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-1-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-1-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-1-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_1_6">
+        <num>42-1-6</num>
+        <content>
+          <p>If any inmate of any state or county correctional institution, county or municipal jail, or other similar facility, while such inmate is in custody or in the process of being taken into custody, injures or has injured or contacts or has contacted a law enforcement officer, correctional officer, firefighter, emergency medical technician, or other person in such a manner as to present a possible threat of transmission of a communicable disease to the person so injured or contacted, then the warden, jailer, or other official having charge of such inmate may take all reasonable steps to determine whether the inmate has a communicable disease capable of being transmitted by the injury or contact involved. Such steps may include, but shall not be limited to, any appropriate medical examination of or collection of medical specimens from the inmate. In the event an inmate refuses to cooperate in any such procedures, the warden, jailer, or other official may apply to the superior court of the county for an order authorizing the use of any degree of force reasonably necessary to complete such procedures. Upon a showing of probable cause that the injury presents the threat of transmission of a communicable disease, the court shall issue an order authorizing the petitioner to use reasonable measures to perform any medical procedures reasonably necessary to ascertain whether a communicable disease has been transmitted. In addition to any other grounds sufficient to show probable cause for the issuance of such an order, such probable cause may be conclusively established by evidence of the injury or contact in question and a statement by a licensed physician that the nature of the injury or contact is such as to present a threat of transmission of a communicable disease if the inmate has such a disease. The cost of any procedures carried out under this Code section shall be borne by the jurisdiction having custody of the inmate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

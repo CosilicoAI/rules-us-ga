@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-123"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-123"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-123/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-123/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-123/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-123/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_123">
+        <num>48-8-123</num>
+        <content>
+          <p>"(
+   ) YES
+   Shall the capital outlay project consisting of ________ approved for use of proceeds of the special 1 percent sales and use tax imposed in the special district
+   of
+   "(
+   ) NO
+   ________ County in a referendum on ________
+   be modified so as to authorize use of such proceeds for the purpose of (reducing debt, reducing ad valorem taxes, or reducing debt and ad valorem taxes) of the (county) (municipality)?"</p>
+          <p>If there are multiple projects to be submitted to the electors for approval of modified purpose, there shall be one question for all projects of the county or its authorities, one question for all projects of municipalities, and one question for joint projects.</p>
+          <p>All persons desiring to vote in favor of modifying the project or projects shall vote "Yes," and all persons opposed to modifying the project or projects shall vote "No." If more than one-half of the votes cast are in favor of modifying the project or projects, then the proceeds of the tax imposed as provided in this part shall be used for such modified purpose; otherwise, the proceeds of the tax shall not be used for such modified purpose. The election superintendent shall hold and conduct the election under the same rules and regulations as govern special elections. The superintendent shall canvass the returns, declare the result of the election, and certify the result to the Secretary of State and to the commissioner. The expense of the election shall be paid from county funds.</p>
+        </content>
+        <subsection eId="sec_48_8_123__subsec_3">
+          <num>(3)</num>
+          <content>
+            <p>The ballot submitting a question of the approval of the modified purpose for a levy previously approved by the electors of the county within the special district as authorized by this Code section shall have written or printed thereon the following:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

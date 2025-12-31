@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-13-11"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-13-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-13-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_13_11">
+        <num>50-13-11</num>
+        <content>
+          <p>Each agency shall provide by rule for the filing and prompt disposition of petitions for declaratory rulings as to the applicability of any statutory provision or of any rule or order of the agency, provided that nothing herein shall limit or impair the right of an agency to seek the opinion of the Attorney General on any question of law connected with the duties of the agency pursuant to Code Section 45-15-3 or any other applicable statutory or constitutional provision. Rulings disposing of petitions have the same status as agency decisions or orders in contested cases.</p>
+          <p>(Ga. L. 1964, p. 338, § 12; Ga. L. 1965, p. 283, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

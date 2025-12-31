@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-12-33"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-12-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-12-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_12_33">
+        <num>16-12-33</num>
+        <content>
+          <p>A person who gives, offers, or promises any reward, money, or other thing of value to anyone who participates or expects to participate in any amateur or professional athletic contest, sporting event, or exhibition or to any coach, trainer, manager or official in such athletic contest, sporting event, or exhibition with intent to influence such person to lose, try to lose, or cause to be lost or to affect the margin of victory or defeat in such athletic contest, sporting event, or exhibition commits the offense of bribery of a contestant and, upon conviction thereof, shall be punished by a fine of not less than $1,000.00 nor more than $5,000.00 or by imprisonment for not less than one nor more than five years, or both.</p>
+          <p>(Ga. L. 1947, p. 1139, § 2; Ga. L. 1952, p. 303, § 1; Code 1933, § 26-2711, enacted by Ga. L. 1968, p. 1249, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

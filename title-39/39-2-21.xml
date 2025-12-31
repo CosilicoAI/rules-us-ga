@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/39-2-21"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/39-2-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/39-2-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_39_2_21">
+        <num>39-2-21</num>
+        <content>
+          <p>Any person, firm, or corporation or agent thereof violating any of the provisions of this chapter may be enjoined from employing the minor involved in such violation upon the complaint of the Commissioner of Labor in the superior court of any county in which the employer may be doing business or employing such minor; provided, however, that any court order under this Code section shall be narrowly drawn and narrowly construed so as to provide the minimum possible disruption of the ongoing business affairs of the employer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

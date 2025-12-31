@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-21-33"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-21-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-21-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_21_33">
+        <num>43-21-33</num>
+        <content>
+          <p>Any proprietor, lessee, manager, or agent of an inn or hotel covered by this article who is authorized to control the conditions of such inn or hotel and who violates any provision of this article shall be guilty of a misdemeanor.</p>
+          <p>(Ga. L. 1910, p. 88, § 6; Code 1933, § 52-9902.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

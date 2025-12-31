@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-20-8"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-20-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-20-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_20_8">
+        <num>43-20-8</num>
+        <content>
+          <p>(Ga. L. 1970, p. 653, § 7; Code 1933, § 84-5607, enacted by Ga. L. 1978, p. 1728, § 1; Ga. L. 1984, p. 1119, § 1; Ga. L. 1991, p. 401, § 2; Ga. L. 2010, p. 266, § 27/SB 195; Ga. L. 2015, p. 1326, § 2/HB 232.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "such applicant has" for "he has" in the middle of subsection (a); and substituted the present provisions of subsection (b) for the former provisions, which read: "The board may issue a dispenser's license to an applicant only when the applicant has satisfactorily completed a board approved examination and when proof of age has been verified. The license shall authorize the holder to dispense hearing aids under the general supervision of a licensed dealer."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

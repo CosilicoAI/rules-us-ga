@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-39"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_39">
+        <num>51-1-39</num>
+        <content>
+          <p>A person who engages in a criminal act on property owned or leased by a political subdivision of this state and who suffers an injury as a result of said criminal act which is not inflicted by an officer, employee, or agent of such political subdivision shall not have a cause of action against such political subdivision for any injury sustained. The provisions of this Code section shall not have the effect of waiving the sovereign immunity of any political subdivision.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

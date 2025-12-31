@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-2-39"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-2-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-2-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_2_39">
+        <num>48-2-39</num>
+        <content>
+          <p>When the date prescribed by or imposed pursuant to law for the making of any return, the filing of any paper or document, or the payment of any tax or license fee pursuant to this title or any law relating to the taxation and licensing of automobiles, trucks, or trailers falls on a Saturday, Sunday, legal holiday, or day on which the Federal Reserve Bank is closed, the making of the return, the filing of the paper or document, or the payment of the tax or license fee shall be postponed by the person required to take such action until the first day following which is not a Saturday, Sunday, legal holiday, or day on which the Federal Reserve Bank is closed.</p>
+          <p>(Code 1933, § 91A-236, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1980, p. 712, § 1; Ga. L. 2015, p. 888, § 1/HB 234.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

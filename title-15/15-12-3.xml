@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-3"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_3">
+        <num>15-12-3</num>
+        <content>
+          <p>No person shall be allowed to serve on the trial jury of the superior court or on any trial jury in other courts for more than four weeks in any one year unless he or she is actually engaged in the trial of a case when the four weeks expire, in which case he or she shall be discharged as soon as the case is decided.</p>
+          <p>(Ga. L. 1872, p. 15, § 1; Code 1873, § 3938; Code 1882, § 3938; Penal Code 1895, § 865; Penal Code 1910, § 869; Code 1933, § 59-118; Ga. L. 2011, p. 59, § 1-6/HB 415; Ga. L. 2014, p. 862, § 3/HB 1078.)</p>
+          <p>The 2014 amendment,
+      effective April 29, 2014, deleted the former first sentence, which read: "No person shall be compellable to serve on the grand or trial jury of the superior court or on any jury in other courts for more than four weeks in any year.", and inserted "trial" near the middle of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

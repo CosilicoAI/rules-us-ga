@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-12-10"/>
+          <FRBRuri value="/us-ga/act/ocga/12-12-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-12-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-12-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-12-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-12-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_12_10">
+        <num>12-12-10</num>
+        <content>
+          <p>From and after April 1, 1986, no contractor shall engage in a project prior to notifying the director of such activity at least seven calendar days prior to commencement of same. Such prior notice need not be provided for an emergency project; provided, however, that the contractor shall notify the director of the activity within seven calendar days after the commencement of such emergency project. The notification shall be made in the manner and form required by the director and shall be accompanied by a project fee established by the board not to exceed $50.00 for asbestos abatement in a residential dwelling or any small project or $1,000.00 for any other project. The notification shall state the location of the project, the owner's name and address, the expected dates on which the project will begin and end, and any other information as may be required by the director. The contractor shall comply with this chapter, regulations promulgated pursuant to this chapter, and any regulation pertaining to asbestos removal promulgated under Article 1 of Chapter 9 of this title. Upon completion of the project, the contractor shall certify to the director, on forms specified by the director, that the project was conducted in accordance with this chapter and the rules and regulations promulgated pursuant to this chapter and Article 1 of Chapter 9 of this title.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-340"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-340"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-340/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-340/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-340/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-340/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_340">
+        <num>46-8-340</num>
+        <content>
+          <p>Any street, suburban, or interurban railroad company may furnish free transportation, over its lines operated in any city, to the members of that city's police force and fire, sanitary, and water departments, if that city has a regularly organized police force and fire, sanitary, and water departments; to city marshals and their deputies; and to police officers of the county in which that city is located. Nothing in this Code section shall authorize any such company to grant individual members of such municipal and county forces and departments any transportation or other special privilege not participated in by all of the members thereof on like terms and under like conditions. All grants or concessions made pursuant to this Code section shall be made to the governing authority of such city, for and in behalf of the members of such municipal and county forces and departments and shall be formally accepted by such authority.</p>
+          <p>(Ga. L. 1909, p. 168, § 1; Civil Code 1910, § 2605; Code 1933, § 94-1009; Ga. L. 1982, p. 3, § 46.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

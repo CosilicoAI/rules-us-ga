@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-42-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-42-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-42-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-42-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-42-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-42-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_42_2">
+        <num>36-42-2</num>
+        <content>
+          <p>The revitalization and redevelopment of the central business districts of the municipal corporations of this state develop and promote for the public good and general welfare trade, commerce, industry, and employment opportunities and promote the general welfare of this state by creating a climate favorable to the location of new industry, trade, and commerce and the development of existing industry, trade, and commerce within the municipal corporations of this state. Revitalization and redevelopment of central business districts by financing projects under this chapter will develop and promote for the public good and general welfare trade, commerce, industry, and employment opportunities and will promote the general welfare of this state. It is, therefore, in the public interest and is vital to the public welfare of the people of this state, and it is declared to be the public purpose of this chapter, so to revitalize and redevelop the central business districts of the municipal corporations of this state. No bonds, notes, or other obligations, except refunding bonds, shall be issued by an authority under this chapter unless its board of directors adopts a resolution finding that the project for which such bonds, notes, or other obligations are to be issued will promote the foregoing objectives.</p>
+          <p>(Ga. L. 1981, p. 1744, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

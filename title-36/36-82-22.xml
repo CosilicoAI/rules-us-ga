@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-22"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_22">
+        <num>36-82-22</num>
+        <content>
+          <p>Prior to the hearing provided for in Code Section 36-82-21, the clerk of the superior court of the county in which the hearing is to be held shall publish in a newspaper, once during each of the two successive weeks immediately preceding the week in which the hearing is to be held, a notice to the public that on the day specified in the order providing for the hearing the same will be heard. Such newspaper shall be the official organ of the county in which the sheriff's advertisements appear.</p>
+          <p>(Ga. L. 1897, p. 82, § 6; Civil Code 1910, § 450; Code 1933, § 87-303; Ga. L. 1966, p. 76, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

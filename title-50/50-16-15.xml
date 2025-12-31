@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-15"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_15">
+        <num>50-16-15</num>
+        <content>
+          <p>The adjutant general is authorized to empower service contract security guards employed by the Department of Defense with the power and authority to make summary arrests of persons violating the laws of this state or the United States upon and surrounding any Georgia Air National Guard or Georgia Army National Guard facility. In case of such arrests, the service contract security guard shall as soon as possible deliver the arrested person or persons to the custody of the sheriff of the county wherein the offense was committed. The adjutant general shall also have the power and authority to authorize service contract security guards to carry firearms in the official performance of their duties.</p>
+          <p>(Ga. L. 1976, p. 471, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

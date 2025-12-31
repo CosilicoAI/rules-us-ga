@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-6-2"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-6-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-6-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_6_2">
+        <num>45-6-2</num>
+        <content>
+          <p>The fiscal year for this state and for all units of the state government shall commence on July 1 and end on June 30 of each year, and all public officers of this state shall keep their official accounts in accordance therewith. The fiscal year shall be uniform for all state departments, boards, bureaus, commissions, institutions, and other agencies.</p>
+          <p>(Ga. L. 1880-81, p. 29, § 1; Code 1882, § 79a; Civil Code 1895, § 202; Civil Code 1910, § 231; Code 1933, § 89-901; Ga. L. 1937, p. 456, §§ 1, 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

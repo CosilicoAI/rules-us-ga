@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-124"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-124"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-124/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-124/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-124/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-124/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_124">
+        <num>50-16-124</num>
+        <content>
+          <p>Beginning July 1, 2005, each state entity shall compile information on all state facilities, real property, and state leases under the custody or control of such state entity necessary for the compilation of an inventory of all state owned or leased facilities and real property; provided, however, that all improvements acquired for public works that will ultimately be disposed of are excluded from the requirements of this part. On or before October 1, 2005, and as changes occur, but by no later than such date annually, each state entity shall send such information to the commission. The commission shall develop the format for the compilation and reporting of the inventory.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-8-6"/>
+          <FRBRuri value="/us-ga/act/ocga/15-8-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-8-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-8-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-8-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-8-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_8_6">
+        <num>15-8-6</num>
+        <content>
+          <p>Any judge of any city court or like court may, when authorized to do so by the governing authorities of any city having a population of more than 350,000 according to the United States decennial census of 1950 or any future such census, preside in the municipal court, by whatever name called, of such city. When so presiding, such judge shall have full power and authority in all matters pending in the court, including the trial of all offenses against the ordinances of the city.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

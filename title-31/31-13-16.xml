@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-13-16"/>
+          <FRBRuri value="/us-ga/act/ocga/31-13-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-13-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-13-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-13-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-13-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_13_16">
+        <num>31-13-16</num>
+        <content>
+          <p>Whenever the director has reason to believe that a violation of any provision of this chapter or any rule or regulation adopted pursuant to this chapter has occurred, he shall attempt to obtain a remedy with the violator or violators by conference, conciliation, or persuasion.In the case of failure of such conference, conciliation, or persuasion to effect a remedy to such violation, the director may issue an order directed to such violator or violators.The order shall specify the provisions of this chapter or rule or regulation alleged to have been violated and shall order that necessary corrective action be taken within a reasonable time to be prescribed in such order.Any order issued by the director under this chapter shall be signed by the director.Any such order shall become final unless the person or persons named therein request in writing a hearing before the director no later than 30 days after such order is served on such person or persons.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

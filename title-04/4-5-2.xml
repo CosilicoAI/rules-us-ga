@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-5-2"/>
+          <FRBRuri value="/us-ga/act/ocga/4-5-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-5-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-5-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-5-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-5-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_5_2">
+        <num>4-5-2</num>
+        <content>
+          <p>As used in this chapter, the term "dead animals" means the carcasses, parts of carcasses, fetuses, embryos, effluent, or blood of livestock, including, without limitation, cattle, swine, sheep, goats, poultry, ratites, equine, and alternative livestock; pet animals associated with pet dealers, kennels, animal shelters, or bird dealers licensed by the Georgia Department of Agriculture; animals processed by commercial facilities which process animals for human consumption; and animals associated with wildlife exhibitions.</p>
+          <p>(Ga. L. 1969, p. 1018, § 2; Ga. L. 1973, p. 569, § 1; Ga. L. 1995, p. 244, § 7; Ga. L. 2002, p. 1397, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-64-6"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-64-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-64-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_64_6">
+        <num>36-64-6</num>
+        <content>
+          <p>A park or recreation board or other authority in which is vested the power to provide, establish, maintain, and conduct a recreation program may accept any grant or devise of real estate or any gift or bequest of money or other personal property or any donation, the principal or income of which is to be applied for either temporary or permanent use for playgrounds or recreation purposes. If the acceptance thereof for such purposes will subject the county or municipality to additional expense for improvements, maintenance, or renewal, the acceptance of any grant or devise of real estate shall be subject to the approval of the governing body of the county or municipality. Money received for such purposes, unless otherwise provided by the terms of the gift or bequest, shall be deposited with the treasurer of the county or municipality to the account of the recreation board or commission or other body having charge of such work or shall be deposited directly with the recreation board; it shall be withdrawn and paid out by such body in the same manner as money appropriated for recreation purposes.</p>
+          <p>(Ga. L. 1923, p. 106, § 6; Code 1933, § 69-606; Ga. L. 1946, p. 152, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

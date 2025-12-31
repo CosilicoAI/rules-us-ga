@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-37-39"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-37-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-37-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_37_39">
+        <num>33-37-39</num>
+        <content>
+          <p>Whenever a creditor whose claim against an insurer is secured, in whole or in part, by the undertaking of another person fails to prove and file that claim, the other person may do so in the creditor's name, and shall be subrogated to the rights of the creditor, whether the claim has been filed by the creditor or by the other person in the creditor's name, to the extent that he discharges the undertaking.In the absence of an agreement with the creditor to the contrary, the other person shall not be entitled to any distribution; however, until the amount paid to the creditor on the undertaking plus the distributions paid on the claim from the insurer's estate to the creditor equals the amount of the entire claim of the creditor.Any excess received by the creditor shall be held by him in trust for such other person. The term"other person," as used in this Code section, is not intended to apply to a guaranty association or foreign guaranty association.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

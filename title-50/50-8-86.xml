@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-86"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-86"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-86/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-86/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-86/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-86/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_86">
+        <num>50-8-86</num>
+        <content>
+          <p>A quorum for taking action at a meeting of a commission may be set in such manner as the bylaws of the commission shall provide, but it shall not consist of less than one-half of the total number of authorized members of the commission. The vote of any member of the commission shall be equal to the vote of any other member in considering or acting upon any question, proposal, or other matter before the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

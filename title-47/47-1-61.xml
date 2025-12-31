@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-1-61"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-1-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-1-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_1_61">
+        <num>47-1-61</num>
+        <content>
+          <p>Any qualified returning veteran shall be eligible to establish creditable service with his or her retirement system or fund for not more than five years of qualified service by complying with the provisions of this article; provided, however, that such five-year period shall be extended by any period of mandatory service imposed by the uniformed service recognized by paragraph (4) of subsection (C) of Section 4312 of federal Public Law 103-353, the Uniformed Service Employment and Reemployment Rights Act of 1994. Notwithstanding any provisions of the law to the contrary, contributions, benefits, and service credits with respect to qualified uniformed service will be provided under each retirement or pension system in accordance with Section 414(u) of the federal Internal Revenue Code.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

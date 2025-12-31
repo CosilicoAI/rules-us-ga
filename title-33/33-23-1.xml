@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-23-1"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-23-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-23-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_23_1">
+        <num>33-23-1</num>
+        <content>
+          <p>As used in paragraph (6) of subsection (a) of Code Section 33-23-1, the definition of counselor, the term "transaction" refers to coverage or services in the same line or subline of insurance; provided, however, that additional ancillary services for commercial risks in excess of acquisition services shall be considered a separate transaction when such additional ancillary services are disclosed in writing to the insured and approved in advance by the insured. Additional ancillary services shall include, but not be limited to, the following: risk identification; loss measurement; gathering and analysis of loss information; verification of workers' compensation experience modifiers; setting of risk retention levels; development of retention financing plans; development of insurance specifications; negotiation with insurers regarding coverages, costs, and payment options; implementation of retained and transferred risk programs; monitoring of annual program; and insurance audit services.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

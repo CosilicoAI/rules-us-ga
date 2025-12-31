@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/39-2-1"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/39-2-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/39-2-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_39_2_1">
+        <num>39-2-1</num>
+        <content>
+          <p>No minor under 16 years of age shall be employed by or permitted to work in or about any mill, factory, laundry, manufacturing establishment, or workshop nor in any occupation which has been designated as hazardous in accordance with Code Section 39-2-2.</p>
+          <p>(Ga. L. 1925, p. 291, § 1; Code 1933, § 54-301; Ga. L. 1946, p. 67, § 1; Ga. L. 1981, p. 792, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

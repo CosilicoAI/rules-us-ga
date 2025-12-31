@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-133"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-133"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-133/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-133/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-133/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-133/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_133">
+        <num>15-12-133</num>
+        <content>
+          <p>In all civil cases, the parties thereto shall have the right to an individual examination of the panel of prospective jurors from which the jury is to be selected, without interposing any challenge. In all criminal cases, both the state and the accused shall have the right to an individual examination of each prospective juror from which the jury is to be selected prior to interposing a challenge. The examination shall be conducted after the administration of a preliminary oath to the panel or in criminal cases after the usual voir dire questions have been put by the court. In the examination, the counsel for either party shall have the right to inquire of the individual prospective jurors examined touching any matter or thing which would illustrate any interest of the prospective juror in the case, including any opinion as to which party ought to prevail, the relationship or acquaintance of the prospective juror with the parties or counsel therefor, any fact or circumstance indicating any inclination, leaning, or bias which the prospective juror might have respecting the subject matter of the action or the counsel or parties thereto, and the religious, social, and fraternal connections of the prospective juror.</p>
+          <p>(Ga. L. 1949, p. 1082, § 2; Ga. L. 1951, p. 214, § 2; Ga. L. 2011, p. 59, § 1-53/HB 415.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-14-5"/>
+          <FRBRuri value="/us-ga/act/ocga/51-14-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-14-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-14-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-14-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-14-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_14_5">
+        <num>51-14-5</num>
+        <content>
+          <p>Notwithstanding any other provision of law, with respect to any asbestos claim or silica claim not barred as of May 1, 2007, the limitations period shall not begin to run until the exposed person, or any plaintiff making an asbestos claim or silica claim based on the exposed person's exposure to asbestos or silica, obtains, or through the exercise of reasonable diligence should have obtained, prima-facie evidence of physical impairment, as defined in paragraph (17) or (18) of Code Section 51-14-3.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

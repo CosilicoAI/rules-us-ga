@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-5-6"/>
+          <FRBRuri value="/us-ga/act/ocga/34-5-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-5-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-5-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-5-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-5-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_5_6">
+        <num>34-5-6</num>
+        <content>
+          <p>In the event any dispute should arise between any employer and employee covered by this chapter in relation to any subject matter which is covered by this chapter, either of the parties shall have the right to request arbitration of the dispute. The party requesting arbitration shall file written notice of his request with the opposite party by either registered or certified mail or statutory overnight delivery. Within 30 days after receipt of such notice, the other party shall either accept or reject the arbitration offer. If the offer is accepted, the employer and the employee shall each select and appoint one arbitrator within ten days after acceptance. The arbitrators so selected shall then select a county adjoining the county in which the business of the employer is located and in which the dispute arose and the judge of the superior court or the senior judge thereof in terms of length of service on the bench of the judicial circuit in which such selected county shall be located shall appoint a third arbitrator who shall act as the chairman of the arbitration committee. The arbitration committee shall meet at such time as shall be fixed by the chairman and, after giving notice of the hearing to the parties concerned and affording them an opportunity to appear and be heard on the matters in dispute, shall proceed to resolve all matters contained within the request for arbitration. The decision of the arbitration committee shall be binding upon the parties affected, except that either party may appeal such decision to any court of competent jurisdiction within 30 days from publication of the decision.</p>
+          <p>(Ga. L. 1966, p. 582, § 6; Ga. L. 2000, p. 1589, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

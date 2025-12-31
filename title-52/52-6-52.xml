@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-6-52"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-52"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-6-52/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-52/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-6-52/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-52/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_6_52">
+        <num>52-6-52</num>
+        <content>
+          <p>The owner, master, consignee, or charterer of any vessel who carries any pilot against his consent to any foreign or other port shall be liable to such pilot in an action on the case for the payment of his reasonable expenses and $10.00 a day during his necessary absence, provided the carrying away of the pilot is not owing to his own misconduct or negligence; and, if a pilot is detained on board, wind and weather permitting the vessel to go to sea, the owner, master, consignee, or charterer shall be liable to pay the pilot $10.00 a day for every day he is so detained.</p>
+          <p>(Orig. Code 1863, § 1467; Code 1868, § 1524; Code 1873, § 1518; Code 1882, § 1518; Civil Code 1895, § 1667; Civil Code 1910, § 1913; Code 1933, § 80-309; Ga. L. 1945, p. 279, § 14.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

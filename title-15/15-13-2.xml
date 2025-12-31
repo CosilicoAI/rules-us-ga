@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-13-2"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-13-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-13-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_13_2">
+        <num>15-13-2</num>
+        <content>
+          <p>Any sheriff shall be liable to an action for damages or an attachment for contempt of court, at the option of the party, whenever it appears that the sheriff has injured the party by:</p>
+          <p>(Laws 1799, Cobb's 1851 Digest, p. 576; Code 1863, § 3853; Code 1868, § 3873; Code 1873, § 3949; Code 1882, § 3949; Civil Code 1895, § 4770; Civil Code 1910, § 5342; Code 1933, § 24-202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

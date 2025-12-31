@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-350"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-350"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-350/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-350/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-350/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-350/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_350">
+        <num>20-3-350</num>
+        <content>
+          <p>Obligations issued by the authority under this subpart are made securities in which all public officers and public bodies of the state and its political subdivisions and all insurance companies, trust companies, banking associations, investment companies, executors, administrators, trustees, and other fiduciaries may properly and legally invest funds, including capital in their control or belonging to them. Such obligations are made securities which may properly and legally be deposited with and received by any state or municipal officer or any agency or political subdivision of the state for any purpose for which the deposit of bonds, notes, or obligations of the state is now or may hereafter be authorized by law and may constitute proper and legal collateral for any deposit made by any such officer, agency, or subdivision for which collateral must be pledged according to law.</p>
+          <p>(Ga. L. 1969, p. 683, § 26; Code 1933, § 32-3736, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

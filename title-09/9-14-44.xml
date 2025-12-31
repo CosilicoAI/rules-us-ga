@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-14-44"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-14-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-14-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_14_44">
+        <num>9-14-44</num>
+        <content>
+          <p>A petition brought under this article shall identify the proceeding in which the petitioner was convicted, give the date of rendition of the final judgment complained of, clearly set forth the respects in which the petitioner's rights were violated, and state with specificity which claims were raised at trial or on direct appeal, providing appropriate citations to the trial or appellate record. The petition shall have attached thereto affidavits, records, or other evidence supporting its allegations or shall state why the same are not attached. The petition shall identify any previous proceedings that the petitioner may have taken to secure relief from his or her conviction and, in the case of prior habeas corpus petitions, shall state which claims were previously raised. Argument and citations of authorities shall be omitted from the petition; however, a brief may be submitted in support of the petition setting forth any applicable argument. The petition must be verified by the oath of the applicant or of some other person in his or her behalf.</p>
+          <p>(Code 1933, § 50-127, enacted by Ga. L. 1967, p. 835, § 3; Ga. L. 1995, p. 381, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

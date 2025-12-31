@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-3-96"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-96"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-3-96/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-96/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-3-96/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-96/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_3_96">
+        <num>9-3-96</num>
+        <content>
+          <p>If the defendant or those under whom he claims are guilty of a fraud by which the plaintiff has been debarred or deterred from bringing an action, the period of limitation shall run only from the time of the plaintiff's discovery of the fraud.</p>
+          <p>(Ga. L. 1855-56, p. 233, § 30; Code 1863, § 2872; Code 1868, § 2880; Code 1873, § 2931; Code 1882, § 2931; Civil Code 1895, § 3785; Civil Code 1910, § 4380; Code 1933, § 3-807.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

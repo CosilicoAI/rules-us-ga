@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-16-53"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-16-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-16-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_16_53">
+        <num>15-16-53</num>
+        <content>
+          <p>Whoever, except with the express written permission of the sheriff, knowingly uses words pertaining to such sheriff's office in connection with the planning, conduct, or execution of any solicitation; advertisement, circular, political endorsement, book, pamphlet, or other publication; or play, motion picture, broadcast, telecast, telemarketing, or other production in a manner reasonably calculated to convey the impression that such solicitation; advertisement, circular, political endorsement, book, pamphlet, or other publication; or play, motion picture, broadcast, telecast, telemarketing, or other production is approved, endorsed, or authorized by or associated with the sheriff's office shall be in violation of this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

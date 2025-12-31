@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/30-10-5"/>
+          <FRBRuri value="/us-ga/act/ocga/30-10-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/30-10-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/30-10-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/30-10-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/30-10-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_30_10_5">
+        <num>30-10-5</num>
+        <content>
+          <p>Each community trust shall have a board of trustees appointed by the governing body of the nonprofit organization forming the trust, which shall include persons with expertise in business and investments and persons with expertise regarding the care, support, habilitation, rehabilitation, and treatment of persons with impairments. The members of the board of trustees shall serve without compensation but shall be reimbursed by the community trust for their actual expenses relating to the trust. The board of trustees shall administer the community trust and establish policies and rules and regulations necessary to exercise its powers in accordance with this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-5-22"/>
+          <FRBRuri value="/us-ga/act/ocga/47-5-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-5-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-5-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-5-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-5-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_5_22">
+        <num>47-5-22</num>
+        <content>
+          <p>At its first meeting following July 1 in each year, the board of trustees shall elect a chairman, secretary, treasurer, and such other officers as provided in the bylaws of the board. The secretary and the treasurer need not be members of the board; and such offices may, in the discretion of the board of trustees, be combined in one person. The secretary and the treasurer, whether or not members of the board of trustees, may receive such compensation as may be fixed by the board of trustees for the performance of their duties. The treasurer shall give good and sufficient bond in such amount as is required by the board of trustees, and the premium on such bond shall be paid from the administrative funds of the board.</p>
+          <p>(Ga. L. 1965, p. 421, § 7; Ga. L. 1984, p. 1041, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

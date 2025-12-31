@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-36-21"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-36-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-36-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_36_21">
+        <num>36-36-21</num>
+        <content>
+          <p>Authority is granted to the governing bodies of the several municipal corporations of this state to annex to the existing corporate limits thereof unincorporated areas contiguous to the existing corporate limits at the time of such annexation, in accordance with the procedures provided in this article and in Article 1 of this chapter, upon the written and signed applications of all of the owners of all of the land, except the owners of any public street, road, highway, or right of way, proposed to be annexed, containing a complete description of the lands to be annexed. Lands to be annexed at any one time shall be treated as one body, regardless of the number of owners, and all parts shall be considered as adjoining the limits of the municipal corporation when any one part of the entire body abuts such limits. When such application is acted upon by the municipal authorities and the land is, by ordinance, annexed to the municipal corporation, an identification of the property so annexed shall be filed with the Department of Community Affairs and with the governing authority of the county in which the property is located in accordance with Code Section 36-36-3. When so annexed, such lands shall constitute a part of the lands within the corporate limits of the municipal corporation as completely and fully as if the limits had been marked and defined by local Act of the General Assembly. Except as provided in subsection (c) of Code Section 36-36-20, nothing in this article shall be construed to authorize annexation of the length of any public right of way except to the extent that such right of way adjoins private property otherwise annexed by the municipal corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

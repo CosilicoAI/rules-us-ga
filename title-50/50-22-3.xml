@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-22-3"/>
+          <FRBRuri value="/us-ga/act/ocga/50-22-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-22-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-22-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-22-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-22-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_22_3">
+        <num>50-22-3</num>
+        <content>
+          <p>Public notice shall be required for each proposed project which requires professional services. Such public notice shall be given at least 15 days prior to the selection of the three or more most highly qualified persons by the principal representative or the principal representative's designee pursuant to subsection (b) of Code Section 50-22-4. Such public notice shall be given by publication at least once in the Georgia Procurement Registry established under subsection (b) of Code Section 50-5-69 and in addition may be given by publication in one or more daily newspapers of general circulation in this state, shall contain a general description of the proposed project, and shall indicate what selection method shall be used and the procedure by which interested persons may apply for consideration for the contract.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

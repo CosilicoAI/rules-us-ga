@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-38-22"/>
+          <FRBRuri value="/us-ga/act/ocga/36-38-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-38-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-38-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-38-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-38-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_38_22">
+        <num>36-38-22</num>
+        <content>
+          <p>When the authorities of a municipal corporation desire to avail themselves of the benefit of Code Sections 36-38-20 and 36-38-21 and this Code section, they are authorized and empowered to pass any ordinance or ordinances to provide for the issuance and exchange of new bonds to stand in the place and stead of outstanding bonds and coupons, to determine the mode and method of such issuance and exchange, and to fix the length of time such new bonds shall run and the rate of interest they shall bear. Such ordinance or ordinances shall have the force and effect of contracts between the municipal corporation and those who may receive or hold such new bonds so issued and exchanged.</p>
+          <p>(Ga. L. 1878-79, p. 85, § 3; Code 1882, § 508m(4); Civil Code 1895, § 760; Civil Code 1910, § 907; Code 1933, § 87-503.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

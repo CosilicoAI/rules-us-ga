@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-4-131"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-131"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-4-131/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-131/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-4-131/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-131/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_4_131">
+        <num>26-4-131</num>
+        <content>
+          <p>The examination of specimens of foods, drugs, and cosmetics shall be made by the state chemist or under direction of that chemist and supervision for the purpose of determining from such examination whether such articles are adulterated or misbranded within the meaning of this title; and, in the case of drugs and cosmetics, if it shall appear from any such examination that any such specimens are adulterated or misbranded within the meaning of this title, a copy of the results of the analysis of the examination of such article, duly authenticated by the analyst or officer making such examination under the oath of such analyst or officer, shall be forwarded to the board without delay. If it shall appear to the satisfaction of the board and the Attorney General, in the case of adulterated or misbranded drugs, that the article involved was shipped in interstate commerce or the act complained of comes under the supervision and jurisdiction of the United States, the board shall certify the case to the United States district attorney in whose district the violation may have been committed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

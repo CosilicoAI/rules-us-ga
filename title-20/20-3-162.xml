@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-162"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-162"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-162/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-162/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-162/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-162/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_162">
+        <num>20-3-162</num>
+        <content>
+          <p>Revenue bonds may be issued without any other proceedings or the happening or any other conditions or things than those proceedings, conditions, and things which are specified or required by this article. In the discretion of the authority, revenue bonds of a single issue may be issued for the purpose of paying the cost of any one or more, including a combination of, projects at any one institution or any number of institutions. Any resolution providing for the issuance of revenue bonds under this article shall become effective immediately upon its passage and need not be published or posted. Any such resolution may be passed at any regular or special or adjourned meeting of the authority by a majority of its members.</p>
+          <p>(Ga. L. 1949, p. 1009, § 13.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

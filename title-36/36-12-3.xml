@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-12-3"/>
+          <FRBRuri value="/us-ga/act/ocga/36-12-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-12-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-12-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-12-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-12-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_12_3">
+        <num>36-12-3</num>
+        <content>
+          <p>The father, mother, or child of any pauper contemplated by Code Section 36-12-2, if sufficiently able, shall support the pauper. Any county having provided for such pauper upon the failure of such relatives to do so may bring an action against such relatives of full age and recover for the provisions so furnished. The certificate of the judge of the probate court that the person was poor and was unable to sustain himself and that he was maintained at the expense of the county shall be presumptive evidence of such maintenance and the costs thereof.</p>
+          <p>(Orig. Code 1863, §§ 716, 717; Code 1868, §§ 786, 787; Code 1873, §§ 764, 765; Code 1882, §§ 764, 765; Civil Code 1895, §§ 439, 440; Civil Code 1910, §§ 554, 555; Code 1933, §§ 23-2302, 23-2303.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

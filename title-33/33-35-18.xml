@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-35-18"/>
+          <FRBRuri value="/us-ga/act/ocga/33-35-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-35-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-35-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-35-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-35-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_35_18">
+        <num>33-35-18</num>
+        <content>
+          <p>If the Commissioner finds that any prepaid legal services plan or its sponsor: (1) has failed to comply with any provision of this chapter; (2) is fraudulently operated; (3) is in such condition as to render further plan operations hazardous to the public interest or the interest of subscribers; (4) is financially unable to meet its obligations and claims as they come due; or (5) has violated any other law, he may apply to the Superior Court of Fulton County for an injunction. The court may immediately issue a temporary injunction restraining the transaction of any business by the plan; and it may after a full hearing make the injunction permanent and appoint one or more receivers to take possession of the books, papers, moneys, and other assets of the plan to settle its affairs and distribute its funds to those entitled to such funds, subject to such rules and orders as the court may prescribe. If it appears that a crime has been committed in connection with the sale, advertisement, administration, or management of any prepaid legal services plan, the Attorney General of this state may pursue the appropriate criminal action.</p>
+          <p>(Code 1933, § 56-3516, enacted by Ga. L. 1975, p. 1268, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

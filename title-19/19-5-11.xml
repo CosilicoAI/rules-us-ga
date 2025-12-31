@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-5-11"/>
+          <FRBRuri value="/us-ga/act/ocga/19-5-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-5-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-5-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-5-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-5-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_5_11">
+        <num>19-5-11</num>
+        <content>
+          <p>The confessions of a party to acts of adultery or cruel treatment shall be received with great caution; if unsupported by corroborating circumstances and if made with a view to be evidence in the case, such confessions shall not be deemed sufficient to grant a divorce.</p>
+          <p>(Orig. Code 1863, § 1674; Code 1868, § 1715; Code 1873, § 1716; Code 1882, § 1716; Civil Code 1895, § 2430; Civil Code 1910, § 2949; Code 1933, § 30-110.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

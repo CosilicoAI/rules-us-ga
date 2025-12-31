@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-2-103"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-2-103/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-2-103/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-2-103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_2_103">
+        <num>22-2-103</num>
+        <content>
+          <p>The special master provided for in this article shall be appointed by the judge or judges of the superior courts of each judicial circuit and shall discharge the duties provided for in this article. Nothing contained in this article shall be construed as limiting the number of special masters for the circuit, and any judge of the superior court may appoint a special master for any particular case or cases. The special master so appointed must be a competent attorney at law, be of good standing in his profession, and have at least three years' experience in the practice of law. His relation and accountability to the court shall be that of an auditor or master in the general practice existing in this state. He shall hold office at the pleasure of the judge and shall be removable at any time with or without cause. Each special master shall take and file in the office of the clerk of the superior court of the county in which the property or interest to be condemned is situated, along with the order of his appointment, an oath or affidavit substantially in the form prescribed in Code Section 22-2-105.</p>
+          <p>(Ga. L. 1957, p. 387, § 6; Ga. L. 1984, p. 682, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

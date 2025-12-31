@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-291"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-291"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-291/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-291/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-291/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-291/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_291">
+        <num>46-8-291</num>
+        <content>
+          <p>No person shall recover damages from a railroad company for injury to himself or his property where the same is done by his consent or is caused by his own negligence, provided that if the complainant and the agents of the company are both at fault, the former may recover, but the damages shall be diminished by the jury in proportion to the amount of fault attributable to him.</p>
+          <p>(Orig. Code 1863, § 2979; Code 1868, § 2980; Code 1873, § 3034; Code 1882, § 3034; Civil Code 1895, § 2322; Civil Code 1910, § 2781; Code 1933, § 94-703.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

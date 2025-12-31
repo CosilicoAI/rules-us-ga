@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-12-421"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-421"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-12-421/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-421/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-12-421/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-421/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_12_421">
+        <num>53-12-421</num>
+        <content>
+          <p>To the extent that a trustee accounts for receipts from rental property pursuant to this Code section, the trustee shall allocate to income an amount received as rent of real or personal property, including an amount received for cancellation or renewal of a lease. An amount received as a refundable deposit, including a security deposit or a deposit that is to be applied as rent for future periods, shall be added to principal and held subject to the terms of the lease and shall not be available for distribution to a beneficiary until the trustee's contractual obligations have been satisfied with respect to such amount.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

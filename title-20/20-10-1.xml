@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-10-1"/>
+          <FRBRuri value="/us-ga/act/ocga/20-10-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-10-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-10-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-10-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-10-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_10_1">
+        <num>20-10-1</num>
+        <content>
+          <p>The Board of Regents of the University System of Georgia shall have conducted throughout the state each year, during the season most convenient to the agriculturists, a series of farmers' institutes for the instruction of the citizens of this state in better methods of agriculture in its various branches. These institutes shall be held at such times and places as the board may direct. The board shall make such rules and regulations as it may deem proper for organizing and conducting such institutes. In selecting lecturers for said institutes, preference shall be given to practical, successful farmers possessing aptitude for the work. The programs of such institutes shall be so arranged as to present the results of the most recent investigations in practical agriculture.</p>
+          <p>(Ga. L. 1889, p. 166, § 1; Civil Code 1895, § 1302; Civil Code 1910, § 1399; Ga. L. 1931, p. 7, § 45; Code 1933, § 32-201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

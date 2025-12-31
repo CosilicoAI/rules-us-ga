@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-14"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_14">
+        <num>21-2-14</num>
+        <content>
+          <p>Unless otherwise stated in a specific Code section of this chapter, time periods under this chapter include Saturdays, Sundays, and legal holidays. When the last day for the exercise of any privilege or the discharge of any duty prescribed or required by this chapter shall fall on a Saturday, Sunday, or legal holiday, the next succeeding business day shall be the last day for the exercise of such privilege or the discharge of such duty.</p>
+          <p>(Code 1933, § 34-105, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Ga. L. 1969, p. 329, § 1; Ga. L. 1997, p. 590, § 3; Ga. L. 1998, p. 295, § 1; Ga. L. 1999, p. 52, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

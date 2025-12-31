@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-1-23"/>
+          <FRBRuri value="/us-ga/act/ocga/37-1-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-1-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-1-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-1-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-1-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_1_23">
+        <num>37-1-23</num>
+        <content>
+          <p>The board is directed to prescribe rules of practice and procedure in order to implement this chapter. The department is directed to make the board's and the department's rules available for distribution.</p>
+          <p>(Code 1933, § 88-308, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1993, p. 1445, § 9; Ga. L. 2002, p. 1324, § 1-6; Ga. L. 2009, p. 453, § 3-1/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

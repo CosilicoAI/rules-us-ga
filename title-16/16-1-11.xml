@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-1-11"/>
+          <FRBRuri value="/us-ga/act/ocga/16-1-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-1-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-1-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-1-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-1-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_1_11">
+        <num>16-1-11</num>
+        <content>
+          <p>The repeal, repeal and reenactment, or amendment of any law of this state which prohibits any act or omission to act and which provides for any criminal penalty therefor, whether misdemeanor, misdemeanor of a high and aggravated nature, or felony, shall not affect or abate the status as a crime of any such act or omission which occurred prior to the effective date of the Act repealing, repealing and reenacting, or amending such law, nor shall the prosecution of such crime be abated as a result of such repeal, repeal and reenactment, or amendment unless the General Assembly expressly declares otherwise in the Act repealing, repealing and reenacting, or amending such law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

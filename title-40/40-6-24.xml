@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-24"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_24">
+        <num>40-6-24</num>
+        <content>
+          <p>When lane direction control signals are placed over the individual lanes of a street or road, vehicular traffic may travel in any lane over which a green signal is shown but shall not enter or travel in any lane over which a red signal is shown, provided that a vehicle may enter a lane over which a yellow or amber signal is shown for purposes of making a left turn only.</p>
+          <p>(Ga. L. 1966, p. 183, § 3; Code 1933, § 68A-204.1, enacted by Ga. L. 1974, p. 633, § 1; Ga. L. 1985, p. 149, § 40; Ga. L. 1990, p. 2048, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

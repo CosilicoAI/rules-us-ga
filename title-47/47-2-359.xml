@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-2-359"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-359"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-2-359/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-359/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-2-359/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-359/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_2_359">
+        <num>47-2-359</num>
+        <content>
+          <p>The provisions of this article shall control over conflicting or inconsistent provisions of this chapter or any other law of this state. It is the intention of the General Assembly that this article has not been and may not be repealed, superseded, or modified by implication through the enactment of any other law or through the amendment of any other provision of this chapter or any other existing law, and any modification or repeal of any provision of this article may be accomplished only by reference or amendment to or repeal of this specific article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

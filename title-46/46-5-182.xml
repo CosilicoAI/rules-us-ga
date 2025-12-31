@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-5-182"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-182"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-5-182/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-182/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-5-182/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-182/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_5_182">
+        <num>46-5-182</num>
+        <content>
+          <p>No telecommunications company shall bill for intrastate telecommunications services or solicit intrastate telecommunications services within this state without a certificate of authority from the Georgia Public Service Commission; provided, however, that a certificate is not required for a telecommunications company to bill for or solicit commercial mobile services. If a telecommunications company which is certificated in Georgia uses a rebiller or other entity to render a final bill, then the name of the telecommunications company which is actually providing the telecommunications service, as the name appears on its Georgia certificate, shall appear on the bill, subject to space limitations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

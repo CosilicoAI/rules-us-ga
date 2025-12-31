@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-11-4"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-11-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-11-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_11_4">
+        <num>33-11-4</num>
+        <content>
+          <p>An insurer shall not make any investment or loan other than policy loans or annuity contract loans of a life insurer unless the same is authorized or approved by the insurer's board of directors or by a committee authorized by the board and charged with the supervision or making of the investment or loan. The minutes of the committee shall be recorded and regular reports of the committee shall be submitted to the board of directors.</p>
+          <p>(Code 1933, § 56-1004, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1999, p. 592, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

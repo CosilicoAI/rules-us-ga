@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-61-11"/>
+          <FRBRuri value="/us-ga/act/ocga/36-61-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-61-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-61-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-61-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-61-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_61_11">
+        <num>36-61-11</num>
+        <content>
+          <p>Any municipality or county may, by ordinance, require the repair, closing, or demolition of dwellings or other structures intended for human habitation which are, as defined in the ordinance, unfit for human habitation or which may imperil the health, safety, or morals of the occupants thereof or of surrounding areas. Such ordinances may include the following:</p>
+          <p>(Ga. L. 1955, p. 354, § 18; Ga. L. 1960, p. 1052, § 1; Ga. L. 1987, p. 3, § 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

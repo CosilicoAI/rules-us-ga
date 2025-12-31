@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-70"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_70">
+        <num>44-2-70</num>
+        <content>
+          <p>Any person entitled to notice or service of process under this article may waive such notice or service by a written acknowledgment of service or written waiver of service entered upon the petition or entitled in the cause and signed by such person in the presence of the judge of the superior court, the clerk of the superior court of the county, the examiner, or any other person or official authorized by law to administer oaths, to take acknowledgments, or to act as a notary public or official witness. His signature shall be attested by such officer.</p>
+          <p>(Ga. L. 1917, p. 108, § 12; Code 1933, § 60-212; Ga. L. 1945, p. 140, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

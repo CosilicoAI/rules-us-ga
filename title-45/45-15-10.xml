@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-15-10"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-15-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-15-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_15_10">
+        <num>45-15-10</num>
+        <content>
+          <p>The Attorney General, as the head of the Department of Law and the chief legal officer of the state, is authorized to prosecute in the criminal courts of this state any official, person, firm, or corporation which violates any criminal statute while dealing with or for the state or any official, employee, department, agency, board, bureau, commission, institution, or appointee thereof; and the Attorney General is authorized to call upon the district attorney or the prosecuting officer of any state court to assist in or to conduct such prosecution; and, when so requested by the Attorney General, it shall be the duty of any such district attorney or prosecuting officer of this state to assist in or to conduct such prosecution for and on behalf of the Attorney General and the state. The Attorney General shall be authorized to commence civil forfeiture proceedings, as such term is defined in Code Section 9-16-2, pursuant to Code Section 16-14-7 whenever he or she is authorized to prosecute a case pursuant to this Code section.</p>
+          <p>(Ga. L. 1943, p. 284, § 6; Ga. L. 2002, p. 415, § 45; Ga. L. 2015, p. 693, § 3-26/HB 233.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, added the last sentence in this Code section. See editor's note for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

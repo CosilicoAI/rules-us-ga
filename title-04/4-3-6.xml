@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-3-6"/>
+          <FRBRuri value="/us-ga/act/ocga/4-3-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-3-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-3-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-3-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-3-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_3_6">
+        <num>4-3-6</num>
+        <content>
+          <p>The owner of any impounded livestock shall have the right at any time before sale thereof to redeem the livestock by paying to the sheriff all impounding expenses, including fees, keeping charges, and advertising or other costs incurred, which sum shall be deposited by the sheriff with the clerk of the superior court who shall pay all fees and costs as allowed in Code Section 4-3-10. In the event there is a dispute as to the amount of such costs and expenses, the owner may provide bond, with sufficient sureties to be approved by the sheriff, in an amount to be determined by the sheriff, but not exceeding the fair cash value of such livestock, conditioned to pay such costs and damages. Within ten days thereafter the owner shall institute an action to have the dispute adjudicated by the court or referred to a jury if requested by either party to the action.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 380, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

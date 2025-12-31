@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-27-28"/>
+          <FRBRuri value="/us-ga/act/ocga/50-27-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-27-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-27-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-27-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-27-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_27_28">
+        <num>50-27-28</num>
+        <content>
+          <p>No person shall knowingly or intentionally make a material false statement in any application for a license or proposal to conduct lottery activities or make a material false entry in any book or record which is compiled or maintained or submitted to the board pursuant to the provisions of this chapter. Any person who violates the provisions of this Code section shall be punished by a fine not to exceed $25,000.00 or the dollar amount of the false entry or statement, whichever is greater, or by imprisonment for not longer than five years or both.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

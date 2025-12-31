@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-203"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-203"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-203/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-203/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-203/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-203/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_203">
+        <num>8-2-203</num>
+        <content>
+          <p>The provisions of this article shall be mandatory and binding on the state fire marshal, the Safety Fire Commissioner, and other state officials responsible for state building code, fire code, life safety code, or other construction code enforcement. This article is not mandatory or binding on local enforcement authorities; provided, however, that any local building, fire, life safety, plumbing, electrical, mechanical, or other construction code enforcement authority may apply the applicable provisions of this article to any existing building whenever the local governing authority has adopted this article by reference and whenever such local code enforcement authority determines the need to utilize compliance alternatives to any provisions of the rules, regulations, codes, or standards he or she is empowered to interpret, apply, or enforce under authority of any state law or local ordinance. This article is a tool for use of code enforcement authorities to use as deemed appropriate in attempting to resolve problems encountered while enforcing codes and standards with regard to existing buildings and structures. Enforcement authorities should advise appropriate appeals boards of the provisions, purposes, and intent of this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

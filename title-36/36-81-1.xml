@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-81-1"/>
+          <FRBRuri value="/us-ga/act/ocga/36-81-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-81-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-81-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-81-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-81-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_81_1">
+        <num>36-81-1</num>
+        <content>
+          <p>The intent of this article is to provide minimum budget, accounting, and auditing requirements for local governments so as to provide local taxpayers with an opportunity to gain information concerning the purposes for which local revenues are proposed to be spent and are actually spent and to assist local governments in generally improving local financial management practices while maintaining, preserving, and encouraging the principle of home rule over local matters. It is the further intent of this article to provide a mechanism through which appropriate information may be collected to assist state and local policy makers in carrying out their lawful responsibilities. It is also the intent of this article to provide for the collection and reporting of information so as to assist local taxpayers and local policy makers in understanding and evaluating local government service delivery and operations.</p>
+          <p>(Ga. L. 1980, p. 1738, § 1; Ga. L. 1987, p. 3, § 36; Ga. L. 1997, p. 1575, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

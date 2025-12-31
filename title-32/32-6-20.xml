@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-20"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_20">
+        <num>32-6-20</num>
+        <content>
+          <p>No vehicle or load shall be operated or moved upon the public roads of Georgia if a dimension or the weight of such vehicle or load exceeds the limitations specified in Code Sections 32-6-22 through 32-6-24 or in Code Section 32-6-26 unless exempted in Code Section 32-6-25 or authorized to do so by a permit issued pursuant to Code Section 32-6-28.</p>
+          <p>(Ga. L. 1927, p. 226, § 15; Code 1933, § 68-401; Code 1933, § 95A-953, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

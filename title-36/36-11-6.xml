@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-11-6"/>
+          <FRBRuri value="/us-ga/act/ocga/36-11-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-11-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-11-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-11-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-11-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_11_6">
+        <num>36-11-6</num>
+        <content>
+          <p>All county orders are transferable by delivery or endorsement; and the endorser shall be liable according to the terms of his endorsement, as in commercial paper, provided that no transfer can take place so as to prevent a treasurer from setting off any sum that the payee may owe the county at the date of the order.</p>
+          <p>(Orig. Code 1863, § 534; Code 1868, § 598; Code 1873, § 560; Code 1882, § 560; Civil Code 1895, § 467; Civil Code 1910, § 583; Code 1933, § 23-1606.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

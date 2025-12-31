@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-39-1"/>
+          <FRBRuri value="/us-ga/act/ocga/31-39-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-39-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-39-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-39-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-39-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_39_1">
+        <num>31-39-1</num>
+        <content>
+          <p>The General Assembly finds that although cardiopulmonary resuscitation has proved invaluable in the reversal of sudden, unexpected death, it is appropriate for an attending physician, in certain circumstances, to issue an order not to attempt cardiopulmonary resuscitation of a patient where appropriate consent or authorization has been obtained.The General Assembly further finds that there is a need to establish and clarify the rights and obligations of patients, their families or representatives, and health care providers regarding cardiopulmonary resuscitation and the issuance of orders not to resuscitate.The General Assembly further finds that, in the interest of protecting individual autonomy, cardiopulmonary resuscitation in some circumstances may cause loss of patient dignity and unnecessary pain and suffering. In recognition of the considerable uncertainty in the medical and legal professions as to the legality of implementing orders not to resuscitate, in recognition of the request of the Supreme Court of Georgia for legislative guidance in this area, and in recognition of the dignity and privacy which patients have a right to expect, the General Assembly declares that the laws of the State of Georgia shall recognize the right of patients or other authorized persons to instruct physicians and other health care personnel to refrain from cardiopulmonary resuscitation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

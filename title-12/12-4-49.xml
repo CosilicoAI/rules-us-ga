@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-4-49"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-49"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-4-49/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-49/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-4-49/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-49/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_4_49">
+        <num>12-4-49</num>
+        <content>
+          <p>In the administration and enforcement of this part, all hearings before an administrative law judge shall be subject to Chapter 13 of Title 50, the "Georgia Administrative Procedure Act." Any party to said hearings (including the director) shall have the right of judicial review in accordance with Chapter 13 of Title 50.</p>
+          <p>(Ga. L. 1975, p. 966, § 11; Ga. L. 1984, p. 398, § 7; Ga. L. 2018, p. 953, § 1/HB 205.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

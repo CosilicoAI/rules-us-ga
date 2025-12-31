@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-39-9"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-39-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-39-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_39_9">
+        <num>43-39-9</num>
+        <content>
+          <p>Applicants shall take a board approved examination to test the applicant's qualifications. The examination shall be written or oral or both.</p>
+          <p>(Ga. L. 1951, p. 408, § 8; Ga. L. 1984, p. 503, § 1; Ga. L. 1986, p. 473, § 1; Ga. L. 1994, p. 224, § 4; Ga. L. 2010, p. 266, § 41/SB 195.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

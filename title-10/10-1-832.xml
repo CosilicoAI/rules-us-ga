@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-832"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-832"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-832/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-832/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-832/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-832/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_832">
+        <num>10-1-832</num>
+        <content>
+          <p>Except for operators who are exempt from the requirements of this Code section, in accordance with Code Section 10-1-833, each operator shall maintain a bond in the amount of $10,000.00 with a surety company duly authorized to do business in this state or post a cash bond in such amount, payable to the Governor of this state.Such bond shall be for the use and benefit of any person who has paid any entrant's fee for a beauty pageant. Such bond shall be conditioned to pay all losses, damages, and expenses that may be sustained by such person by reason of any violation of this title. Any person who complies with the requirements of Code Section 10-1-837 shall not be required to post the bond required by this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

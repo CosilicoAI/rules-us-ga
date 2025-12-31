@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-711"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-711"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-711/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-711/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-711/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-711/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_711">
+        <num>7-1-711</num>
+        <content>
+          <p>International bank agencies shall be subject to all the provisions of Articles 1 and 2 of this chapter, except where it may appear, from the context or otherwise, that such provisions are clearly applicable only to banks or trust companies organized under the laws of this state or the United States. An international bank agency shall have no greater right under or by virtue of this article and amendments thereto than is granted to banks organized under the laws of this state. Legal and financial terms used herein shall be deemed to refer to equivalent terms used by the country in which the international banking corporation is organized.</p>
+          <p>(Ga. L. 1972, p. 1140, § 2; Code 1933, § 41A-3302, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

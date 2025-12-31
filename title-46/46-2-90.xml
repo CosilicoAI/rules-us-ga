@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-2-90"/>
+          <FRBRuri value="/us-ga/act/ocga/46-2-90"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-2-90/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-2-90/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-2-90/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-2-90/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_2_90">
+        <num>46-2-90</num>
+        <content>
+          <p>If any company under the jurisdiction of the commission does, causes to be done, or permits to be done any act which is prohibited, forbidden, or declared to be unlawful, or fails to do any act which is required either by a law of this state or by an order of the commission, such company shall be liable to the persons affected thereby for all loss, damage, or injury caused thereby or resulting therefrom. An action to recover for such loss, damage, or injury may be brought in any court of competent jurisdiction by any such person. In case of recovery, if the jury finds that such act or failure to act was willful, it may fix a reasonable attorney's fee, which shall be taxed and collected as part of the costs of the case.</p>
+          <p>(Ga. L. 1907, p. 72, § 9; Civil Code 1910, § 2666; Code 1933, § 93-415.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

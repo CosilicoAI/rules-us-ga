@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-289"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-289"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-289/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-289/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-289/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-289/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_289">
+        <num>34-9-289</num>
+        <content>
+          <p>Whenever an employer and employee are subject to this chapter, the liability of the employer under this article for the disablement or death of the employee from an occupational disease in any way incurred by such employee in the course of or because of his employment shall be exclusive and in place of any and all other civil liability whatsoever at common law or otherwise to such employee or to his personal representative, next of kin, spouse, parents, guardian, or any others.</p>
+          <p>(Code 1933, § 114-811, enacted by Ga. L. 1946, p. 103; Ga. L. 1987, p. 1474, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

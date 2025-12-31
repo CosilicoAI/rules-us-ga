@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-17-28"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-17-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-17-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_17_28">
+        <num>50-17-28</num>
+        <content>
+          <p>The state and all institutions, departments, and agencies of the state are prohibited from entering into any contract, except contracts pertaining to guaranteed revenue debt, with any public agency, public corporation, authority, or similar entity if the contract is intended to constitute security for bonds or other obligations issued by any such public agency, public corporation, or authority; and, from and after September 1, 1974, in the event any contract between the state, or any institution, department, or agency of the state, and any public agency, public corporation, authority, or similar entity, or any revenues from any such contract, is pledged or assigned as security for the repayment of bonds or other obligations, then and in either such event the appropriation or expenditure of any funds of the state for the payment of obligations under any such contract shall likewise be prohibited; provided, however, that all contracts entered into prior to September 1, 1974, shall continue to have the benefit of the protection afforded by the second paragraph of Article IX, Section VI, Paragraph I(a) of the Constitution of Georgia of 1976 as fully and completely as though this article had not been adopted and for as long as any such contract shall remain in force and effect. Furthermore, nothing in this article is intended directly or by implication to have any effect upon any provision of any such contract establishing lien rights, priorities regarding revenues, or otherwise providing protection to the holders of obligations secured by such contracts.</p>
+          <p>(Ga. L. 1973, p. 750, § 7; Ga. L. 1979, p. 401, § 19; Ga. L. 1983, p. 3, § 66.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

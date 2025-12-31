@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-4-43"/>
+          <FRBRuri value="/us-ga/act/ocga/48-4-43"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-4-43/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-4-43/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-4-43/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-4-43/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_4_43">
+        <num>48-4-43</num>
+        <content>
+          <p>When property has been redeemed, the effect of the redemption shall be to put the title conveyed by the tax sale back into the defendant in fi. fa., subject to all liens existing at the time of the tax sale. If the redemption has been made by any creditor of the defendant or by any person having any interest in the property, the amount expended by the creditor or person interested shall constitute a first lien on the property and, if the quitclaim deed provided for in Code Section 48-4-44 is recorded as required by law, shall be repaid prior to any other claims upon the property.</p>
+          <p>(Ga. L. 1898, p. 85, § 3; Civil Code 1910, § 1170; Code 1933, § 92-8302; Code 1933, § 91A-431, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

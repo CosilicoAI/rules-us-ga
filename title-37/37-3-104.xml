@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-3-104"/>
+          <FRBRuri value="/us-ga/act/ocga/37-3-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-3-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-3-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-3-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-3-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_3_104">
+        <num>37-3-104</num>
+        <content>
+          <p>If a hospitalized patient is discovered not to be a resident, the regional state hospital administrator of the treatment facility in which the patient is hospitalized shall seek his transfer to the custody of authorities of the state of his residence or to a publicly owned or publicly operated psychiatric hospital in that state. Notwithstanding an individual's status as a nonresident, nothing contained in this Code section shall prevent the voluntary hospitalization of such individual under this chapter for which due payment is made by such individual or others on his behalf nor shall it prevent the transfer, custody, care, or treatment of such individual in accordance with the terms of any reciprocal agreement between the State of Georgia and any other state, the District of Columbia, or any territory or possession of the United States. This Code section shall not apply to persons confined to any facility operated by or under the control of the United States Department of Veterans Affairs or any other federal agency.</p>
+          <p>(Ga. L. 1960, p. 837, § 21; Code 1933, § 88-521, enacted by Ga. L. 1964, p. 499, § 1; Code 1933, § 88-508.4, enacted by Ga. L. 1969, p. 505, § 1; Code 1933, § 88-507.3, enacted by Ga. L. 1978, p. 1789, § 1; Ga. L. 1990, p. 45, § 1; Ga. L. 2002, p. 1324, § 1-18.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

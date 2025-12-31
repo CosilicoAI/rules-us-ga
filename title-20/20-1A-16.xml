@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-1A-16"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1A-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-1A-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1A-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-1A-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1A-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_1A_16">
+        <num>20-1A-16</num>
+        <content>
+          <p>It shall be the duty of all other state departments, agencies, officers, and employees to assure the most effective coordination and use of state resources, personnel, and facilities for the benefit of children and youths and to assist the department in effectuating the purposes of this chapter by making available to the department upon request of the board or commissioner and to the extent permissible by law the services, resources, personnel, and facilities of their respective departments and agencies.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

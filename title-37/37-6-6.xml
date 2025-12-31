@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-6-6"/>
+          <FRBRuri value="/us-ga/act/ocga/37-6-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-6-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-6-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-6-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-6-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_6_6">
+        <num>37-6-6</num>
+        <content>
+          <p>The department is authorized, directed, and empowered (1) to inspect day-care centers for the developmentally disabled in order to determine compliance with departmental standards for such centers and (2) to approve those day-care centers which meet minimum departmental standards for matching funds under Code Section 37-6-2 or grants-in-aid under Code Section 37-6-4. Inspection shall include both those centers now in operation and those which will begin operation in the future. Reinspections may be made at any time and approval may be withdrawn whenever circumstances indicate that a day-care center no longer meets departmental standards. If approval is withdrawn, it cannot be reinstated until the deficiencies have been corrected and a satisfactory reinspection has been made. After a day-care center has been approved by the department and a certificate of approval has been issued, the center is not subject to examination, approval, or licensing by any other department, agency, or division of the state.</p>
+          <p>(Ga. L. 1966, p. 374, §§ 5, 9; Ga. L. 2009, p. 453, § 3-5/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

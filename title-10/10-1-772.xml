@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-772"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-772"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-772/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-772/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-772/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-772/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_772">
+        <num>10-1-772</num>
+        <content>
+          <p>If proceedings are initiated in a court of competent jurisdiction by the author of a demand letter or the author's agent, principal, client, or employee, a target may move that a bad faith assertion of patent infringement has been made in violation of this article and request that a protective order be issued as described in this Code section. Upon such motion and a finding by the court that a target has established a reasonable likelihood that an author of a demand letter has made a bad faith assertion of patent infringement, the court shall require the author of the demand letter to post a bond in an amount equal to a good faith estimate of the target's expenses of litigation, including an estimate of reasonable attorney's fees, conditioned upon payment of any amounts finally determined to be due to the target. A hearing shall be held if either party so requests. A bond ordered pursuant to this Code section shall not exceed $250,000.00. The court may waive the bond requirement if it finds the author of the demand letter has available assets equal to the amount of the proposed bond or for other good cause shown.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

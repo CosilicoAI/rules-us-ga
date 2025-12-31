@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-6-32"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-6-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-6-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_6_32">
+        <num>15-6-32</num>
+        <content>
+          <p>Any other law to the contrary notwithstanding, the judges and senior judges of the superior courts of this state are authorized to accept and receive from funds appropriated for the operation of the superior courts to the extent not eligible for reimbursement from funds appropriated for the operation of the Institute of Continuing Judicial Education or from funds appropriated for the operation of the Institute of Continuing Judicial Education reimbursement for the actual expenses of continuing judicial education within the state and out-of-state in the same manner as members of the General Assembly in attendance at conferences and meetings. Such reimbursement, whether for education within or outside the state, shall further include any tuition fees, registration fees, or other similar expenses necessary to receive such education. All requests for attendance at educational seminars shall be submitted to the Institute of Continuing Judicial Education for prior approval.</p>
+          <p>(Code 1933, § 24-2606.3, enacted by Ga. L. 1978, p. 1370, § 1; Ga. L. 1980, p. 596, § 1; Ga. L. 1986, p. 794, § 2; Ga. L. 1987, p. 385, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

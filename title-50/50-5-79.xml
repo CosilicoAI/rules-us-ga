@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-79"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-79"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-79/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-79/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-79/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-79/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_79">
+        <num>50-5-79</num>
+        <content>
+          <p>Whenever any department, institution, or agency of the state government required by this part and the rules and regulations adopted pursuant to this part applying to the purchase of supplies, materials, or equipment through the Department of Administrative Services shall contract for the purchase of such supplies, materials, or equipment contrary to this part or the rules and regulations made pursuant to this part, such contract shall be void and of no effect. If any official of such department, institution, or agency willfully purchases or causes to be purchased any supplies, materials, or equipment contrary to this part or the rules and regulations made pursuant to this part, such official shall be personally liable for the cost thereof; and, if such supplies, materials, or equipment are so unlawfully purchased and paid for out of the state funds, the amount thereof may be recovered in the name of the state in an appropriate action instituted therefor.</p>
+          <p>(Ga. L. 1937, p. 503, § 10; Ga. L. 1991, p. 1380, § 2; Ga. L. 1992, p. 6, § 50.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

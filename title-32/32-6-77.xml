@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-77"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-77"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-77/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-77/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-77/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-77/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_77">
+        <num>32-6-77</num>
+        <content>
+          <p>Signs which are authorized by and erected or maintained pursuant to paragraph (2) or (3) of Code Section 32-6-72 or paragraph (2) or (3) of Code Section 32-6-73 or which are official signs or notices, as defined in paragraph (13) of Code Section 32-6-71, and signs which are not lawfully erected or maintained shall not be counted nor shall measurements be made therefrom for the purpose of determining the spacing limitations prescribed in Code Sections 32-6-75 and 32-6-76.</p>
+          <p>(Ga. L. 1971, Ex. Sess., p. 5, § 6; Code 1933, § 95A-918, enacted by Ga. L. 1973, p. 947, § 1; Ga. L. 1977, p. 263, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-3-84"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-84"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-3-84/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-84/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-3-84/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-84/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_3_84">
+        <num>22-3-84</num>
+        <content>
+          <p>Prior to initiating eminent domain proceedings or threatening to do so, the petroleum pipeline company shall cause to be delivered to each landowner whose property may be condemned a written notice containing the following language in boldface type:</p>
+          <p>"CHAPTER 17 OF TITLE 12 AND ARTICLE 4 OF CHAPTER 3 OF TITLE 22 OF THE OFFICIAL CODE OF GEORGIA ANNOTATED PROVIDE SPECIFIC REQUIREMENTS WHICH MUST BE FOLLOWED BY PETROLEUM PIPELINE COMPANIES BEFORE THEY MAY EXERCISE THE RIGHT TO CONDEMN YOUR PROPERTY. THOSE PROVISIONS OF THE OFFICIAL CODE OF GEORGIA ANNOTATED ALSO PROVIDE SPECIFIC RIGHTS FOR YOUR PROTECTION. YOU SHOULD FAMILIARIZE YOURSELF WITH THOSE REQUIREMENTS AND YOUR RIGHTS PRIOR TO CONTINUING NEGOTIATIONS CONCERNING THE SALE OF YOUR PROPERTY TO A PETROLEUM PIPELINE COMPANY."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

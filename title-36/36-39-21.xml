@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-21"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_21">
+        <num>36-39-21</num>
+        <content>
+          <p>It shall be the duty of the treasurer, within 15 days after the date of the maturity of any installment of assessment or interest, to issue an execution against the lot or tract of land assessed for the improvement or against the party or person owning the same for the amount of the assessment or interest. The treasurer shall turn over the same to the marshal or chief of police of the municipal corporation or his deputy, who shall levy the same upon the abutting real estate liable for the assessment and previously assessed for the improvements. After advertisement and other proceedings as in case of sales for city taxes, the real estate shall be sold at public outcry to the highest bidder. Such sales shall vest an absolute title in the purchaser, subject to the lien of the remaining unpaid installments with interest and also subject to the right of redemption as provided in Article 3 of Chapter 4 of Title 48.</p>
+          <p>(Ga. L. 1927, p. 321, § 11; Code 1933, § 69-421.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

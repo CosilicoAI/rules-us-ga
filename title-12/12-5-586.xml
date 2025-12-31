@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-586"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-586"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-586/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-586/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-586/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-586/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_586">
+        <num>12-5-586</num>
+        <content>
+          <p>The district shall submit a written report not later than December 31 of each year to the Governor, the Lieutenant Governor, the Speaker of the House of Representatives, the chairperson of the House Committee on Natural Resources and Environment, and the chairperson of the Senate Natural Resources and the Environment Committee, which report shall contain a detailed account of the activities and progress of the district throughout the previous year and an accurate accounting of all funds received and expended by the district and of the implementation of plans and attainment of goals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

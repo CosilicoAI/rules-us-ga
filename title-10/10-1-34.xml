@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-34"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-34"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-34/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-34/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-34/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-34/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_34">
+        <num>10-1-34</num>
+        <content>
+          <p>Notwithstanding the provisions of any retail installment contract to the contrary, any buyer may pay in full at any time before maturity the debt of any retail installment contract and, in so paying the debt, shall receive a refund credit thereon for the anticipation of payments. The amount of the refund shall represent at least as great a proportion of the finance charge as the sum of the monthly time balance after the month in which prepayment is made bears to the sum of all the monthly time balances under the schedule of payments in the contract. This method of refund upon prepayment is commonly referred to as the "Rule of 78" or the "Sum of the Digits" refund method. Where the amount of credit is less than $1.00, no refund need be made. This Code section shall not apply to credit upon anticipation of payments or upon acceleration in those cases where the seller or holder of the contract has computed finance charges according to the actuarial method as set forth in Code Section 10-1-33.</p>
+          <p>(Ga. L. 1967, p. 674, § 5; Ga. L. 1980, p. 523, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

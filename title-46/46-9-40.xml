@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-9-40"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-9-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-9-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_9_40">
+        <num>46-9-40</num>
+        <content>
+          <p>A person holding himself out to the public as a common carrier is bound to receive all goods offered to him that he is able and accustomed to carry, upon compliance with such reasonable regulations as he may adopt for his own safety and the benefit of the public.</p>
+          <p>(Orig. Code 1863, § 2042; Code 1868, § 2043; Code 1873, § 2069; Code 1882, § 2069; Civil Code 1895, § 2278; Civil Code 1910, § 2729; Code 1933, § 18-301.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

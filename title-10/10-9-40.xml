@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-9-40"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-9-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-9-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_9_40">
+        <num>10-9-40</num>
+        <content>
+          <p>The authority shall have the power and is authorized at one time or from time to time to provide by one or more authorizing resolutions for the issuance of revenue bonds, but the authority shall not have the power to incur indebtedness under this article in excess of the principal sum of $500 million but excluding from such limit bonds issued for the purpose of refunding bonds which have been previously issued. The authority shall have the power to issue such revenue bonds and to use the proceeds thereof for the purpose of paying all or part of the costs of the project to the extent but only to the extent the costs are incurred for the following facilities: multipurpose stadiums or coliseums and related athletic fields, courts, or surfaces, and clubhouses and gymnasiums; facilities for the purveying of goods and services within such stadiums or coliseums; parking facilities and parking areas in connection therewith; facilities deemed necessary or convenient within the structure of such stadiums or coliseums; and related lands, buildings, structures, fixtures, equipment, and personalty appurtenant or convenient to such facilities and the extension, addition, or improvement of such facilities, which facilities are to be operated as part of the project, as such facilities shall be designated in the resolution of the board of governors of the authority authorizing the issuance of such bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

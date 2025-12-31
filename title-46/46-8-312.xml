@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-312"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-312"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-312/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-312/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-312/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-312/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_312">
+        <num>46-8-312</num>
+        <content>
+          <p>Whenever any railroad company incorporated under the laws of this state or whose line of road may extend into this state has leased its line of road to any person and such lessee is in possession of the road, service on such lessor company may be perfected by delivering a copy of the summons and complaint to the president or other officer of the lessor company; provided, however, that if service cannot be had in this manner, then service may be made upon such company by delivering to the Secretary of State two copies of the summons and complaint, one copy of which shall be mailed by the Secretary of State to the lessor company at its last known address according to the Secretary of State. In addition, the plaintiff shall cause a copy of the summons and complaint to be served upon the lessee by the sheriff of the county where the action is brought or by his deputy or by the marshal or his deputy.</p>
+          <p>(Ga. L. 1889, p. 137, § 1; Civil Code 1895, § 2337; Civil Code 1910, § 2801; Code 1933, § 94-1104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

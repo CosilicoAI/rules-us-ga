@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-4-31"/>
+          <FRBRuri value="/us-ga/act/ocga/27-4-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-4-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-4-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-4-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-4-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_4_31">
+        <num>27-4-31</num>
+        <content>
+          <p>The owner or operator of a catch-out pond operated as one contiguous unit and under single ownership, including ownership by a partnership, firm, association, or corporation, may purchase a catch-out pond license as provided in Code Section 27-2-23. Such license shall not be transferable to another owner or operator or to any other site. Persons, both residents and nonresidents, may fish in a properly licensed catch-out pond without obtaining a fishing license or trout license and without complying with the creel limits, possession limits, size limits, and seasons set forth in this title. It shall be unlawful for the owner or operator of a catch-out pond not properly licensed to represent to any person that such person may fish in the pond as if the pond were a licensed catch-out pond.</p>
+          <p>(Ga. L. 1973, p. 274, § 2; Code 1933, § 45-307, enacted by Ga. L. 1977, p. 396, § 1; Ga. L. 1978, p. 816, § 28; Ga. L. 1998, p. 783, § 14.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-257"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-257"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-257/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-257/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-257/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-257/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_257">
+        <num>20-2-257</num>
+        <content>
+          <p>The State Board of Education shall provide public secondary schools and local school systems with grants, subject to appropriation by the General Assembly and pursuant to applications made at the discretion of such systems. The purpose of such grants shall be to support motor vehicle driver education courses and programs for secondary school students. The amount of such grants shall be reflective of the most recent counts of age 15, 16, and 17 year old secondary school students in the public schools or local school systems. The public schools or local school systems receiving such grants may expend these funds only for purposes of providing driver education courses or programs to secondary school students. Such courses or programs may be provided directly by the local school system or by contract with a private driver education school licensed by the Department of Driver Services. Such grants shall be supplemental to any other provision of state funds for such driver education courses or programs. The state board shall prescribe criteria, policies, and standards deemed necessary for the effective implementation of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

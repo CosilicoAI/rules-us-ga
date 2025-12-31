@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-1-3"/>
+          <FRBRuri value="/us-ga/act/ocga/28-1-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-1-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-1-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-1-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-1-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_1_3">
+        <num>28-1-3</num>
+        <content>
+          <p>The Senate and the House of Representatives shall be organized by the Secretary of the Senate or the Clerk of the House of Representatives who shall be ex officio presiding officer until a presiding officer is elected. No question except one relating to the organization shall be entertained by such officer; and, in deciding such question, he shall be governed, as far as practicable, by the standing rules of the house over which he presides. In the absence of such officer, his assistant may officiate. In the absence of both, the body may appoint a chairman whose powers and duties shall be the same as those of the Secretary or Clerk.</p>
+          <p>(Orig. Code 1863, § 174; Code 1868, § 169; Code 1873, § 180; Code 1882, § 180; Civil Code 1895, § 292; Civil Code 1910, § 335; Code 1933, § 47-104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-210"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-210/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-210/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_210">
+        <num>2-8-210</num>
+        <content>
+          <p>If, upon the basis of the record of testimony and documentary evidence received at the hearing as provided for in Code Section 2-8-209 and the facts officially noticed therein from official publications or institutions of recognized standing, the commission determines that the issuance of a marketing order will tend to effectuate the intent and purpose of this article, it may recommend the promulgation of a marketing order with respect to the matters specified in the hearing notice and supported by the record; such order shall account for provisions to promote propane education, training, safety compliance, equipment replacement for low-income customers, marketing, advertising, promotion, and customer rebates to encourage energy-efficient appliance and equipment purchases by residential, commercial, industrial, motor fuel or agricultural consumers. No funds collected pursuant to this article shall be used in any manner for lobbying or for influencing state or federal legislation. No more than 10 percent of the funds collected and no less than the actual administrative expense pursuant to this article shall be used for administrative expenses relating to the expenditure of the funds. The commission may advance costs of conducting referenda pursuant to this article and reimburse those costs from the assessment funds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

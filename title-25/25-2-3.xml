@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-2-3"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-2-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-2-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_2_3">
+        <num>25-2-3</num>
+        <content>
+          <p>Except as provided in Code Section 25-2-12, the Commissioner is charged with the duties and chief responsibility for the enforcement of this chapter. He may, consistent with this chapter, delegate to the officers and employees appointed under this chapter such duties and powers as in his discretion he shall deem necessary or advisable for the proper enforcement of this chapter and shall have full supervision and control over such officers and employees in the performance of their duties or in the exercise of any powers granted to such officers and employees by him or by this chapter. Except as provided in Code Section 25-2-12, the Commissioner shall be the final authority in all matters relating to the interpretation and enforcement of this chapter, except insofar as his orders may be reversed or modified by the courts.</p>
+          <p>(Ga. L. 1949, p. 1057, § 2; Ga. L. 1981, p. 1779, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

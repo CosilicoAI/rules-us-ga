@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-43-3"/>
+          <FRBRuri value="/us-ga/act/ocga/43-43-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-43-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-43-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-43-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-43-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_43_3">
+        <num>43-43-3</num>
+        <content>
+          <p>Should a scrap metal processor be presented the certificate of title or vehicle license plate for any vehicle or scrap vehicle purchased, that scrap metal processor shall mail or deliver the same to the Department of Revenue as required by law. In lieu of a certificate of title, an affidavit in accordance with the provisions of subsection (a) of Code Section 40-3-36 shall be obtained by a scrap metal processor. All other requirements of subsection (a) of Code Section 40-3-36 shall be complied with, including maintenance of a copy of such affidavit, and any other rules promulgated pursuant thereto.</p>
+          <p>(Ga. L. 1981, p. 973, § 4; Ga. L. 2002, p. 415, § 43; Ga. L. 2005, p. 980, § 25-3/HB 501; Ga. L. 2007, p. 585, § 2/HB 171.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

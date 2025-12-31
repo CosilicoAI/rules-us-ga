@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-7-96"/>
+          <FRBRuri value="/us-ga/act/ocga/45-7-96"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-7-96/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-7-96/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-7-96/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-7-96/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_7_96">
+        <num>45-7-96</num>
+        <content>
+          <p>It is the intention of the General Assembly that this article shall not be construed so as to authorize the commission to reduce the compensation of constitutional state officers below that established by the Constitution of Georgia or so as to deprive the General Assembly of plenary power to enact laws affecting compensation in accordance with the Constitution of Georgia.</p>
+          <p>(Ga. L. 1971, p. 103, § 7; Ga. L. 2017, p. 579, § 3-1/HB 202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

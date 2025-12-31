@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-457"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-457"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-457/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-457/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-457/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-457/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_457">
+        <num>21-2-457</num>
+        <content>
+          <p>As soon as possible after the completion of the count in precincts in which voting machines are used, the superintendent shall have the voting machines removed to the place of storage provided for in this chapter. The voting machines shall remain locked against voting for the period of ten days next following each primary and election, and as much longer as may be necessary or advisable because of any existing or threatened contest over the result of the primary or election, with due regard for the date of the next following primary or election, except that they may be opened and all the data and figures therein examined under this chapter, by order of any superior court of competent jurisdiction, or by direction of any legislative committee to investigate and report upon contested primaries or elections affected by the use of such machines. Such data and such figures shall be examined by such committee in the presence of the officer having the custody of such machines.</p>
+          <p>(Ga. L. 1959, p. 413, § 1; Code 1933, § 34-1332, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Code 1933, § 34-1334, as redesignated by Ga. L. 1969, p. 308, § 36; Ga. L. 1983, p. 140, § 1; Ga. L. 1998, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-3-3"/>
+          <FRBRuri value="/us-ga/act/ocga/37-3-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-3-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-3-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-3-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-3-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_3_3">
+        <num>37-3-3</num>
+        <content>
+          <p>No hospitalization of a mentally ill person lawful before September 1, 1978, shall be deemed unlawful because of the enactment of this chapter. The board is authorized to establish reasonable regulations to require that the chief medical officer of each treatment facility apply under Code Section 37-3-83 for an order authorizing continued hospitalization of any patient for whom such hospitalization is necessary and who was initially hospitalized under an order of a court prior to September 1, 1978. Such prior orders of hospitalization entered by the courts, unless superseded at an earlier date by an order under this chapter or unless such prior orders expire under their own terms at an earlier date, shall remain valid until March 1, 1979, after which all such orders shall be null and void and of no effect.</p>
+          <p>(Code 1933, § 88-508.7, enacted by Ga. L. 1969, p. 505, § 1; Code 1933, § 88-507.6, enacted by Ga. L. 1978, p. 1789, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

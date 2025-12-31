@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-70-22"/>
+          <FRBRuri value="/us-ga/act/ocga/36-70-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-70-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-70-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-70-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-70-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_70_22">
+        <num>36-70-22</num>
+        <content>
+          <p>Each county shall initiate the process for developing a local government service delivery strategy after July 1, 1997, but no later than January 1, 1998. Initiation of the strategy shall be accomplished by the provision of a written notice from the county to the governing bodies of all municipalities located wholly or partially within the county or providing services within the county and to other counties providing services within the county. Such notice shall state the date, time, and place for a joint meeting at which designated representatives of all local governing bodies shall assemble for the purpose of commencing deliberations on the service delivery strategy. The notice shall be sent not more than 45 and not less than 15 days prior to the meeting date. In the event the county governing authority fails to initiate the process by January 1, 1998, any municipality within the county may do so by sending a written notice, containing the required information, to the county and all other municipalities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

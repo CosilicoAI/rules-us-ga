@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-470"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-470"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-470/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-470/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-470/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-470/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_470">
+        <num>10-1-470</num>
+        <content>
+          <p>No person or organization shall assume, use, adopt, become incorporated under, or continue to use the name and style or emblems of any benevolent, fraternal, social, humane, or charitable organization previously existing in this state, and which has been incorporated under the laws of this or any other state or of the United States, or a name and style or emblem so nearly resembling the name and style of such incorporated organization as to be a colorable imitation thereof. In all cases where two or more of such societies, associations, or corporations claim the right to the same name or to names substantially similar as above provided, the organization which was first organized and used the name and first became incorporated under the laws of the United States or of any state, whether incorporated in this state or not, shall be entitled in this state to the prior and exclusive use of such name; and the rights of such societies, associations, or corporations and of their individual members shall be fixed and determined accordingly.</p>
+          <p>(Ga. L. 1909, p. 139, § 1; Civil Code 1910, § 1993; Code 1933, § 106-201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

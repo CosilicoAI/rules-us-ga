@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-111"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-111/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-111/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_111">
+        <num>40-2-111</num>
+        <content>
+          <p>In addition to any other provision of law relating to registration of motor vehicles or fees paid therefor, a person owning or operating a motor truck, as defined in Code Section 40-2-110, upon the highways of this state, which is not registered in this state, shall apply to the commissioner for a highway use permit for each such motor truck to be so operated. Application shall be made upon a form prescribed by the commissioner and shall set forth such information as the commissioner may require. The application shall be accompanied by a permit fee of not more than $200.00, as determined under the rules and regulations of the commissioner, using a comparison of such fees charged by the state or province of registration of the motor truck, for each motor truck listed in the application. The commissioner shall issue a permit and an identification tag, plate, or decal for each such motor truck, which tag, plate, or decal shall be of such size and design and contain such information as the commissioner shall prescribe. Any such permit and tag, plate, or decal shall be valid for the same period of time as provided by law for license plates issued to motor vehicles in Georgia. Such permits shall be carried in the motor truck and the tag, plate, or decal shall be affixed to the motor truck and at all times be visible and legible.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 343, Part 2, § 1; Ga. L. 1984, p. 1199, § 1; Ga. L. 1990, p. 2048, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

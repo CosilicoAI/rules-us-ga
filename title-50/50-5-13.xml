@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-13"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_13">
+        <num>50-5-13</num>
+        <content>
+          <p>The department shall determine the amount and extent of self-insurance which the state can assume, the necessary reserves needed, the premiums to be charged and any deductibles to be paid by agencies and authorities, the amount of benefits to be paid within the scope of the workers' compensation statutes, and type of addition or excess insurance coverage that may be required. The department is further authorized to establish incentive programs including differential premium rates based on participation in loss control programs established by the department, increased or decreased deductibles based on participation in loss control programs established by the department, and the imposition of fines and penalties. If any premiums, deductibles, fines, or penalties are unpaid, the department is authorized to deduct any unpaid amounts from the nonpaying agency's or authority's continuation budget subject to the approval of the Office of Planning and Budget and deposit those funds into the workers' compensation trust fund provided for in Code Section 50-5-14.</p>
+          <p>(Ga. L. 1969, p. 234, § 1; Ga. L. 1972, p. 1015, § 406; Ga. L. 1982, p. 3, § 50; Ga. L. 2008, p. 245, § 6/SB 425.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

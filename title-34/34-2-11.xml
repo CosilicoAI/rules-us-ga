@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-2-11"/>
+          <FRBRuri value="/us-ga/act/ocga/34-2-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-2-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-2-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-2-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-2-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_2_11">
+        <num>34-2-11</num>
+        <content>
+          <p>Every employer shall keep a true and accurate record of the name, address, and occupation of each person employed by him, and of the daily and weekly hours worked by each such person and of the wages paid during each pay period to each such person. Such records shall be kept on file for at least one year after the date of the record. No employer shall make or cause to be made any false entries in any such record.</p>
+          <p>(Ga. L. 1937, p. 230, § 16.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

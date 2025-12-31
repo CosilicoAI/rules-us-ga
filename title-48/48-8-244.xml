@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-244"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-244"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-244/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-244/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-244/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-244/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_244">
+        <num>48-8-244</num>
+        <content>
+          <p>The approval of the levy of the special district transportation sales and use tax in a special district shall not in any way diminish the percentage of funds allocated to a special district or any of the local governments within a special district under the provisions of subsection (c) of Code Section 32-5-27. The amount of funds expended in a special district shall not be decreased due to the use of proceeds from the special district transportation sales and use tax to construct transportation projects that have a high priority in the state-wide strategic transportation plan. If a special district constructs a project on the approved investment list using proceeds from the special district tax, then the state funding under subsection (c) of Code Section 32-5-27 shall not be diverted to priority projects in other special districts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

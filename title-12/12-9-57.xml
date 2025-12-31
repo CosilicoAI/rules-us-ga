@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-9-57"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-57"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-9-57/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-57/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-9-57/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-57/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_9_57">
+        <num>12-9-57</num>
+        <content>
+          <p>This article shall remain of force and effect only so long as the federal Clean Air Act, 42 U.S.C. Section 7401, et seq., as amended, requires the State of Georgia to maintain and enforce the inspection plan and program provided for in this article in order to reduce the ambient air levels of ozone or carbon monoxide which exceed the levels specified by the National Ambient Air Quality Standards for such pollutants specified by the United States Environmental Protection Agency pursuant to said act. Upon the effective date of an amendment to the federal Clean Air Act which allows the State of Georgia to discontinue the maintenance and enforcement of the inspection program provided for in this article without the imposition of sanctions against the State of Georgia such as the loss of federal funds for sewage treatment plants, transportation projects, air quality improvement projects, a moratorium on development within any area of the state, or other substantial penalty, this article shall be repealed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

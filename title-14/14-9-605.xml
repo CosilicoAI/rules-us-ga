@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-9-605"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9-605"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-9-605/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9-605/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-9-605/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9-605/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_9_605">
+        <num>14-9-605</num>
+        <content>
+          <p>Except as provided in writing in the partnership agreement, a partner, regardless of the nature of his contribution, has no right to demand or to receive any distribution from a limited partnership in any form other than cash. Except as provided in writing in the partnership agreement, a partner may not be compelled to accept a distribution of any asset in kind from a limited partnership to the extent that the percentage of the asset distributed to him exceeds a percentage of that asset which is equal to the percentage in which he shares in distributions from the limited partnership.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

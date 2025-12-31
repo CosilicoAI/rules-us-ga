@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-11-18"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-11-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-11-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_11_18">
+        <num>15-11-18</num>
+        <content>
+          <p>Upon application of a party, the court, or any authorized officer of the court, the clerk of the court shall issue subpoenas in accordance with the provisions of Title 24 requiring attendance and testimony of witnesses and production of evidence at any hearing under this chapter. A delinquency proceeding conducted in this state shall be considered a criminal prosecution insofar as the applicability of Article 4 of Chapter 13 of Title 24.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

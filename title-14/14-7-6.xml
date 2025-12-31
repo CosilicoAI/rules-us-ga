@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-7-6"/>
+          <FRBRuri value="/us-ga/act/ocga/14-7-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-7-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-7-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-7-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-7-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_7_6">
+        <num>14-7-6</num>
+        <content>
+          <p>The name of a professional corporation shall satisfy the requirements of Code Section 14-2-401; provided, however, that, in lieu of the use of a word or abbreviation as required by paragraph (1) of subsection (a) of that Code section, the word "associated," the phrase "professional association," the phrase "professional corporation," or an abbreviation of any of them may be used.</p>
+          <p>(Ga. L. 1970, p. 243, § 6; Ga. L. 1989, p. 946, § 108.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-11-6"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-11-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-11-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_11_6">
+        <num>20-11-6</num>
+        <content>
+          <p>In the event of Congress making appropriations for the conduct of work similar to that specified in this chapter, the work of the Georgia Tech Research Institute shall conform to the requirements imposed as the conditions for such federal appropriations as may be accepted by the General Assembly in order that the work of the research institute may be aided and extended by means of such federal appropriations for scientific, engineering, and industrial research.</p>
+          <p>(Ga. L. 1919, p. 367, § 5; Code 1933, § 32-305; Code 1933, § 32-306, enacted by Ga. L. 1960, p. 1131, § 6; Ga. L. 1984, p. 1675, § 2; Ga. L. 1985, p. 149, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

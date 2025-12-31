@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-75-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-75-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-75-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-75-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-75-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-75-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_75_2">
+        <num>36-75-2</num>
+        <content>
+          <p>This chapter is enacted pursuant to authority granted to the General Assembly by the Constitution of Georgia. Each authority created by this chapter is created for nonprofit and public purposes; and it is found, determined, and declared that the creation of each such authority and the carrying out of its corporate purposes is in all respects for the benefit of the people of this state and that the authority is an institution of purely public charity and will be performing an essential governmental function in the exercise of the power conferred upon it by this chapter. For such reasons, the state covenants the holders of the bonds issued under this chapter that such authority shall be required to pay no taxes or assessments imposed by the state or any of its counties, municipal corporations, political subdivisions, or taxing districts upon any property acquired by the authority or under its jurisdiction, control, possession, or supervision or leased by it to others; or upon its activities in the operation or maintenance of any such property or on any income derived by the authority in the form of fees, recording fees, rentals, charges, purchase price, installments, or otherwise; and that the bonds of such authority, their transfer, and the income therefrom shall at all times be exempt from taxation within the state. The tax exemption provided in this Code section shall not include any exemption from sales and use tax on property purchased by the authority or for use by the authority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-11-103"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-11-103/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-11-103/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_11_103">
+        <num>16-11-103</num>
+        <content>
+          <p>(Ga. L. 1882-83, p. 131, §§ 1, 2; Penal Code 1895, § 508; Penal Code 1910, § 504; Code 1933, § 26-7301; Code 1933, § 26-2909, enacted by Ga. L. 1968, p. 1249, § 1; Ga. L. 2014, p. 200, § 1/HB 773; Ga. L. 2017, p. 774, § 16/HB 323.)</p>
+          <p>The 2017 amendment,
+      effective May 9, 2017, part of an Act to revise, modernize, and correct the Code, deleted "pursuant to Chapter 16 of Title 43" following "dealer" at the end of paragraph (c)(3).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

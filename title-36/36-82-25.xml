@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-25"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_25">
+        <num>36-82-25</num>
+        <content>
+          <p>Bonds issued under this part shall have stamped or written thereon, by the proper officers of the county, municipality, or political subdivision issuing the bonds or their agents or servants, the words "Validated and confirmed by judgment of the superior court," along with the date when the judgment was rendered and the court in which it was rendered, which entry shall be signed by the clerk of the superior court in which the judgment was rendered. Such entry shall be original evidence of the fact of such judgment and shall be received as original evidence in any court in this state.</p>
+          <p>(Ga. L. 1897, p. 82, § 5; Civil Code 1910, § 449; Code 1933, § 87-306.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

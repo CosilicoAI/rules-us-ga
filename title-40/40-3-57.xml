@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-3-57"/>
+          <FRBRuri value="/us-ga/act/ocga/40-3-57"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-3-57/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-3-57/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-3-57/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-3-57/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_3_57">
+        <num>40-3-57</num>
+        <content>
+          <p>The holder of any security interest or of any lien named in a certificate of title shall, on written request of the owner, or of another holder of any security interest or lien named in the certificate, or of an interested third party, or of the commissioner, disclose any pertinent information as to the security interest, the security agreement, and the debt secured thereby, and the lien and the amount for which it is claimed.</p>
+          <p>(Ga. L. 1961, p. 68, § 26; Ga. L. 1962, p. 79, § 16; Ga. L. 1990, p. 2048, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

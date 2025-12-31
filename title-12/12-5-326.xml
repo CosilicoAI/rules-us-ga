@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-326"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-326"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-326/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-326/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-326/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-326/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_326">
+        <num>12-5-326</num>
+        <content>
+          <p>All state agencies shall coordinate and cooperate with the department in the administration of this part. All state agencies exercising regulatory authority or management or planning authority in the coastal area shall administer such authority in conformity with the provisions of this part and shall apply such regulatory authority in a manner consistent with the policies of the Georgia coastal management program. All state agencies and local governments exercising statutory authority in the coastal area are authorized to enter into agreements regarding implementation of the Georgia coastal management program within their legal authority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

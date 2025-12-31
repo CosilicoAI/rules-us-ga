@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-4-1"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-4-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-4-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_4_1">
+        <num>52-4-1</num>
+        <content>
+          <p>Any number of persons, not less than five, desiring to be incorporated as a company for the purpose of constructing, operating, and maintaining a canal, may file with the Secretary of State a petition setting out the names and domicile of the petitioners, that they desire to be incorporated as a canal company, the name under which they desire to be incorporated, the route as nearly as possible of the proposed canal, the headquarters of the corporation, the amount of the capital stock, and the number of shares into which divided and pay to the Secretary of State the fee provided for in Code Section 14-4-183.</p>
+          <p>(Ga. L. 1893, p. 81, § 1; Civil Code 1895, § 1986; Civil Code 1910, § 2367; Code 1933, § 17-101.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

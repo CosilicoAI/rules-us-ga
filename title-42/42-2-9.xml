@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-2-9"/>
+          <FRBRuri value="/us-ga/act/ocga/42-2-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-2-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-2-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-2-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-2-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_2_9">
+        <num>42-2-9</num>
+        <content>
+          <p>The commissioner is authorized to appoint and employ such clerical force as is necessary to carry on the administration of the penal system. He may also employ such experts and technical help as are needed, along with assistants to the commissioner, wardens, superintendents, guards, and other employees necessary for the operation of the state operated institutions where inmates are confined. The commissioner shall establish and maintain in his office a complete roster of all employees in his office and in each of the various institutions operating under the authority of the board.</p>
+          <p>(Ga. L. 1956, p. 161, § 10; Ga. L. 1984, p. 940, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

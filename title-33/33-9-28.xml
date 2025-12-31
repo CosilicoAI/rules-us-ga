@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-9-28"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-9-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-9-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_9_28">
+        <num>33-9-28</num>
+        <content>
+          <p>The costs incurred by the Commissioner in conducting any hearing under this chapter may be assessed against the parties to the hearing in such proportion as the Commissioner may determine upon consideration of all relevant circumstances including, but not limited to, the nature of the hearing; whether the hearing was instigated by or for the benefit of a particular party or parties; whether there is a successful party on the merits of the proceeding; and the relative levels of participation by the parties. For purposes of this Code section, costs incurred shall include payments made by the Commissioner to obtain the services of independent contractors or outside experts and travel expenses of such contractors or experts. The Commissioner shall make the assessment of costs incurred as part of the final order or decision arising out of the proceeding; provided, however, that any order or decision shall include findings and conclusions of the Commissioner or his designee to support the assessment of costs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

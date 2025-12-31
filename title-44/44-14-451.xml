@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-451"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-451"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-451/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-451/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-451/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-451/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_451">
+        <num>44-14-451</num>
+        <content>
+          <p>Any persons, firms, or corporations shall have the right to retain possession of the articles laundered, cleaned, tailored, altered, repaired, or dyed by them until their charges have been paid; but, if any articles are delivered to the person for whom the service was performed without collecting the agreed price or reasonable value of laundering, cleaning, tailoring, altering, repairing, or dyeing the articles, the lien shall be lost upon the articles so delivered but shall attach to any other goods, clothing, wearing apparel, shoes, or other articles belonging to the person for whom the work was done, which articles may later come into the possession of such person, firm, or corporation for the purpose of being laundered, cleaned, tailored, altered, repaired, or dyed.</p>
+          <p>(Ga. L. 1909, p. 151, § 2; Civil Code 1910, § 3337; Code 1933, § 67-1902; Ga. L. 1987, p. 382, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

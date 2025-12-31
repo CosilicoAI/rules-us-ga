@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-2-23"/>
+          <FRBRuri value="/us-ga/act/ocga/53-2-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-2-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-2-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-2-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-2-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_2_23">
+        <num>53-2-23</num>
+        <content>
+          <p>Upon the filing in a superior court of a petition described in Code Section 53-2-21 or 53-2-22, service on the parties in interest shall be effected in the same manner as prescribed in cases in which equitable relief is sought; and the case shall thereafter proceed to judgment in the manner provided for such cases by the rules of practice in the superior courts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

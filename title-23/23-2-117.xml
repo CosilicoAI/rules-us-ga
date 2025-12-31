@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-2-117"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-117"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-2-117/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-117/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-2-117/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-117/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_2_117">
+        <num>23-2-117</num>
+        <content>
+          <p>Any person holding a power of appointment, general or special, whether exercisable by deed or by will only or otherwise, and whether reserved by the holder of the power or conferred upon him by another, may, as to all or any part of the property covered by the power of appointment, release or relinquish the power completely, or may release or relinquish the right to exercise the power except among a limited class set out in the release or relinquishment, or may covenant that the power will be exercised only in favor of the members of a limited class; and any such release, relinquishment, or covenant executed and delivered as provided in Code Sections 23-2-118 and 23-2-119 shall be valid and binding, whether with or without a consideration, provided that no such release, relinquishment, or covenant shall have the effect of permitting the property to be appointed to a person not permitted by the original power.</p>
+          <p>(Ga. L. 1945, p. 340, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

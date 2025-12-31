@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-555"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-555"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-555/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-555/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-555/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-555/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_555">
+        <num>7-1-555</num>
+        <content>
+          <p>Issuance of a certificate of conversion shall have the following effect:</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 73, §§ 7, 12; Code 1933, § 41A-2506, enacted by Ga. L. 1974, p. 705, § 1; Ga. L. 1998, p. 795, § 25; Ga. L. 2000, p. 174, § 12; Ga. L. 2001, p. 970, § 7; Ga. L. 2021, p. 323, § 17/HB 111.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, deleted former subsection (a), which read: "Issuance of a certificate of merger or consolidation shall have the same effect stated in Code Section 7-1-536."; deleted the former subsection (b) designation; and substituted "national bank to a state bank" for "national bank into a state bank" in paragraph (2).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

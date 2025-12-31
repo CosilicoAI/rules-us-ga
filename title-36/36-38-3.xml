@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-38-3"/>
+          <FRBRuri value="/us-ga/act/ocga/36-38-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-38-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-38-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-38-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-38-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_38_3">
+        <num>36-38-3</num>
+        <content>
+          <p>Whenever and as soon as the sinking fund of any municipal corporation has been invested in municipal, county, state, or federal government bonds as required by Code Section 36-38-1, the officer or officers of such municipal corporation charged with the custody of its funds and securities shall proceed forthwith to have the securities in which such funds are so invested registered in the name of the municipal corporation, provided such bonds by their terms under the conditions of their issue are capable of being registered in the name of the owner.</p>
+          <p>(Ga. L. 1910, p. 100, § 4; Code 1933, § 87-704.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

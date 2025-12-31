@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-2-21"/>
+          <FRBRuri value="/us-ga/act/ocga/53-2-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-2-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-2-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-2-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-2-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_2_21">
+        <num>53-2-21</num>
+        <content>
+          <p>Any personal representative, guardian, conservator, committee, trustee, fiduciary, or other person having a status which by operation of law or written instrument devolves upon such person a duty of distributing property to heirs may file a petition for determination of heirship as provided in Code Section 53-2-20. The petition shall allege the names, addresses, ages, and relationship, so far as known to the petitioner, of all parties at interest other than creditors and the nature and character of such interests. The petition shall further allege whether the petitioner has reason to apprehend that there may be others entitled to participate in the distribution whose names are unknown to the petitioner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

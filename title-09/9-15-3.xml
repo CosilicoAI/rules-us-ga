@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-15-3"/>
+          <FRBRuri value="/us-ga/act/ocga/9-15-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-15-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-15-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-15-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-15-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_15_3">
+        <num>9-15-3</num>
+        <content>
+          <p>The several officers of court are prohibited from demanding the costs in any civil case or any part thereof until after judgment in the same, except as otherwise provided by law.</p>
+          <p>(Laws 1834, Cobb's 1851 Digest, p. 506; Laws 1842, Cobb's 1851 Digest, p. 507; Code 1863, § 3609; Code 1868, § 3634; Code 1873, § 3684; Code 1882, § 3684; Civil Code 1895, § 5393; Civil Code 1910, § 5991; Code 1933, § 24-3409.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

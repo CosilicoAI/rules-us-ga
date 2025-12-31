@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-3-90"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-90"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-3-90/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-90/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-3-90/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-90/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_3_90">
+        <num>27-3-90</num>
+        <content>
+          <p>It shall be unlawful for any person to remove, ship, or transport from any point within this state to another point within this state or from any point within this state to any point beyond the borders of this state, except as otherwise provided, any wildlife taken in this state unless the wildlife is in the personal possession of or is carried openly by the person who took such wildlife and unless the person has in his possession a proper license or permit as prescribed by the wildlife laws, rules, and regulations.</p>
+          <p>(Ga. L. 1911, p. 137, § 13; Ga. L. 1916, p. 114, § 3; Code 1933, § 45-305; Ga. L. 1955, p. 483, § 45; Code 1933, § 45-401, enacted by Ga. L. 1977, p. 396, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

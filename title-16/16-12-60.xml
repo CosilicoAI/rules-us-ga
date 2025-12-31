@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-12-60"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-60"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-12-60/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-60/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-12-60/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-60/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_12_60">
+        <num>16-12-60</num>
+        <content>
+          <p>(Ga. L. 1977, p. 1164, § 8; Ga. L. 1978, p. 853, §§ 4, 6, 6A, 6B, 7; Ga. L. 1979, p. 1265, § 1; Ga. L. 1986, p. 511, §§ 1, 2; Ga. L. 2001, p. 1036, § 1; Ga. L. 2003, p. 335, § 1; Ga. L. 2003, p. 411, § 2; Ga. L. 2016, p. 256, § 2/SB 316.)</p>
+          <p>The 2016 amendment,
+      effective July 1, 2016, in subsection (f), deleted "$1,500.00 in cash or gifts of equivalent value during any calendar day or" following "excess of" near the beginning of the first sentence and substituted "limitation" for "limits" in the second and third sentences.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

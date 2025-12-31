@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-41-15"/>
+          <FRBRuri value="/us-ga/act/ocga/31-41-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-41-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-41-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-41-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-41-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_41_15">
+        <num>31-41-15</num>
+        <content>
+          <p>Any owner of a residential housing unit constructed prior to 1978 who is sued by a current or former occupant seeking damages for injuries allegedly arising from exposure to lead-based paint or lead-contaminated dust shall not be deemed liable: (1) for any injuries sustained by that occupant after the owner first complied with the maintenance standard defined under paragraph (8) of Code Section 31-41-12, provided that the owner has repeated the steps provided for in the maintenance standard annually and obtained a certificate of compliance under Code Section 31-41-16 annually during such occupancy; or (2) if the owner is able to show that the unit was lead safe housing containing no lead-based paint hazards during the period when the injuries were sustained. Nothing contained in this article shall be construed or interpreted as imposing or creating any liability on or creating any cause of action against any owner or managing agent of a dwelling, dwelling unit, or residential housing unit arising from exposure to lead-based paint or lead-contaminated dust, regardless of when such dwelling, dwelling unit, or residential housing unit was constructed and regardless of whether the requirements of this article have been complied with or accomplished.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-21-12"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-21-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-21-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_21_12">
+        <num>43-21-12</num>
+        <content>
+          <p>In case of loss of property entrusted by a guest to an innkeeper, it will be presumed that the innkeeper failed to exercise extraordinary diligence with regard to such property. Negligence or default by the guest, of which the loss is a consequence, shall be a sufficient defense. The liability of the innkeeper for loss of or injury to personal property placed by any guest under the innkeeper's care, other than valuable articles which must be delivered to the innkeeper to be deposited in a safe or other place of deposit, shall not exceed the sum of $1,000.00, provided that any guest may, at any time before loss, damage, or destruction of the guest's property, notify the innkeeper in writing that the property of the guest exceeds in value the sum of $1,000.00 and shall, upon demand of the innkeeper, furnish the innkeeper a list or schedule of the same, with the value thereof, in which case the innkeeper shall be liable for the full value of such property in case of loss, damage, or destruction because of negligence on the innkeeper's part; provided, further, that the innkeeper shall post a copy of this Code section, printed in distinct type, on the inside of the door of the guest's room. The innkeeper may adopt reasonable regulations for the innkeeper's protection, and the publication of such rules to the innkeeper's guests shall bind them to comply therewith.</p>
+          <p>(Orig. Code 1863, § 2099; Code 1868, § 2094; Code 1873, § 2120; Code 1882, § 2120; Civil Code 1895, § 2938; Civil Code 1910, § 3511; Ga. L. 1922, p. 52, § 2; Code 1933, § 52-111; Ga. L. 1984, p. 924, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

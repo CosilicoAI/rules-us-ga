@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-7-6"/>
+          <FRBRuri value="/us-ga/act/ocga/9-7-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-7-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-7-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-7-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-7-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_7_6">
+        <num>9-7-6</num>
+        <content>
+          <p>In all cases, unless modified by the order of appointment, in addition to the matter specially referred, the auditor shall have power to hear motions, allow amendments, and pass upon all questions of law and fact. He shall have power to subpoena and swear witnesses and compel the production of papers.</p>
+          <p>(Ga. L. 1894, p. 123, § 3; Civil Code 1895, § 4583; Civil Code 1910, § 5129; Code 1933, § 10-103.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

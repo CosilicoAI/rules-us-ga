@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-84"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-84"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-84/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-84/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-84/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-84/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_84">
+        <num>48-8-84</num>
+        <content>
+          <p>If the imposition of the tax provided for in Code Section 48-8-82 is to be levied pursuant to Code Section 48-8-83, the governing authority of the county whose geographical boundary is conterminous with that of the special district and the governing authority of each qualified municipality located wholly or partially within the district shall each adopt a resolution on or prior to January 1, 1980, imposing the tax authorized by Code Section 48-8-82 on behalf of the county and each qualified municipality located wholly or partially within the special district.</p>
+          <p>(Ga. L. 1979, p. 446, § 1; Code 1933, § 91A-4604, enacted by Ga. L. 1979, p. 446, § 2.)</p>
+          <p>RESEARCH REFERENCES</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

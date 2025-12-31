@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-17-21"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-17-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-17-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_17_21">
+        <num>50-17-21</num>
+        <content>
+          <p>As used in this article, the term:</p>
+          <p>(Ga. L. 1973, p. 750, § 2; Ga. L. 1974, p. 171, § 1; Ga. L. 1979, p. 401, §§ 1-5; Ga. L. 1983, p. 3, § 66; Ga. L. 1983, p. 839, § 4; Ga. L. 1983, p. 1024, § 1; Ga. L. 1984, p. 22, § 50; Ga. L. 1987, p. 642, § 1; Ga. L. 1988, p. 426, § 2; Ga. L. 1991, p. 1653, § 2-3; Ga. L. 1993, p. 1402, § 18; Ga. L. 2001, p. 1251, § 2-1; Ga. L. 2010, p. 863, § 6/SB 296; Ga. L. 2012, p. 775, § 50/HB 942; Ga. L. 2013, p. 141, § 50/HB 79; Ga. L. 2014, p. 866, § 50/SB 340.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

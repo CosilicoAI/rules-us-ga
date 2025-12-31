@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-2-352"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-352"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-2-352/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-352/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-2-352/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-352/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_2_352">
+        <num>26-2-352</num>
+        <content>
+          <p>The Commissioner is charged with the enforcement of this article and is authorized to adopt sanitary standards and specifications for the manufacture, bottling, and distribution of a bottled soft drink or a soft drink syrup. No person shall manufacture, bottle, or distribute any bottled soft drink or soft drink syrup that has been produced, manufactured, bottled, or distributed under sanitary conditions and specifications that are less than those adopted by the Commissioner; provided, however, that such standards and specifications shall be no less than those adopted pursuant to the food laws of this state.</p>
+          <p>(Ga. L. 1956, p. 611, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

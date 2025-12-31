@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-204"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-204"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-204/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-204/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-204/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-204/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_204">
+        <num>10-1-204</num>
+        <content>
+          <p>It shall be the duty of the Commissioner of Agriculture to administer and enforce this part by inspections, chemical analysis, or any other appropriate methods and to utilize any employee of the Department of Agriculture in the performance of his duties under this part. All quantities or samples of antifreeze submitted for inspection or analysis shall be taken from stocks in this state or intended for sale in this state, or the Commissioner may require the manufacturer or distributor applying for an inspection of antifreeze to supply such sample thereof for analysis. The Commissioner and his inspectors shall have free access during business hours to all places of business, buildings, vehicles, cars, and vessels used in the manufacture, transportation, sale, or storage of any antifreeze and may open any box, carton, parcel, package, or container holding or containing or supposed to contain any antifreeze and may take therefrom samples for analysis. If it appears that any provisions of this part have been violated, the Commissioner and his inspectors or representatives are authorized to issue a "stop-sale" order which shall prohibit further sale of any antifreeze being sold, exposed for sale, or held with intent to sell within this state in violation of this part until this part has been complied with or said violation has otherwise been legally disposed of. In case any "stop-sale" order shall be issued under this part, the Commissioner shall release the antifreeze so withdrawn from sale when this part has been complied with and upon payment of all costs and expenses incurred in connection with the withdrawal.</p>
+          <p>(Ga. L. 1975, p. 706, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

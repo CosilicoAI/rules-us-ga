@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-49"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-49"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-49/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-49/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-49/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-49/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_49">
+        <num>44-14-49</num>
+        <content>
+          <p>The holder of any mortgage of real or personal property or both, whether as original mortgagee or as executor, administrator, or assignee of the original mortgagee, may foreclose the mortgage in equity according to the practice of the courts in equitable proceedings as well as by the methods prescribed in this chapter.</p>
+          <p>(Ga. L. 1880-81, p. 127, § 1; Code 1882, § 3979a; Civil Code 1895, § 2770; Civil Code 1910, § 3305; Code 1933, § 67-601.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

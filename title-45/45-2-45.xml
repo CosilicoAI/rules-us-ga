@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-2-45"/>
+          <FRBRuri value="/us-ga/act/ocga/45-2-45"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-2-45/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-2-45/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-2-45/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-2-45/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_2_45">
+        <num>45-2-45</num>
+        <content>
+          <p>This article shall not apply to department heads, temporary employees, other categories of employees of the state as defined by the State Personnel Board, or to students in the University System of Georgia in the employ of the state, nor shall it apply to any present employee. As used in this Code section, the term "temporary employee" means a person whose period of employment is of short duration or is part time as defined by the State Personnel Board.</p>
+          <p>(Ga. L. 1956, p. 808, § 6; Ga. L. 1960, p. 189, § 4; Ga. L. 1962, p. 541, § 4; Ga. L. 1996, p. 1094, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

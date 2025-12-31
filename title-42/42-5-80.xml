@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-5-80"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-5-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-5-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_5_80">
+        <num>42-5-80</num>
+        <content>
+          <p>Whenever recommended by the warden or superintendent of any penal institution in which inmates committed to the custody of the commissioner have been assigned, the commissioner may grant special leave to an inmate to leave the institution in which he is incarcerated for participation in special community or other meritorious programs or activities deemed beneficial to the inmate and not detrimental to the public. The activity must be such as, in the opinion of the warden or superintendent and the commissioner, will contribute to the rehabilitation process of the inmate involved. In order to be considered for this special leave, the inmate shall be eligible solely upon the concurrence of the warden or superintendent and the commissioner that positive attitudinal and growth patterns are being established. Under no condition shall any inmate be permitted to leave the state under this Code section. This Code section shall not apply to convicted sex offenders.</p>
+          <p>(Ga. L. 1971, p. 342, §§ 1, 2; Ga. L. 1972, p. 579, §§ 1, 2; Ga. L. 1975, p. 898, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

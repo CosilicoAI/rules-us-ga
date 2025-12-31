@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-60-16"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-60-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-60-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_60_16">
+        <num>36-60-16</num>
+        <content>
+          <p>No municipal and county consolidation shall become effective unless such consolidation is separately approved by a majority of the qualified voters voting in a referendum thereon in each affected county or counties and in each affected municipality or municipalities located within such county or counties containing at least 10 percent of the population of the county participating in the consolidation.No municipal and county consolidation approved pursuant to this Code section shall include within the consolidated government any municipality located within a county containing less than 10 percent of the population of such county unless such consolidation is separately approved by a majority of the qualified voters voting in a referendum thereon in such municipality. Referendums held pursuant to this Code section shall be conducted in accordance with the provisions and requirements of Title 21.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

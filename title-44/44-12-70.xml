@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-70"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_70">
+        <num>44-12-70</num>
+        <content>
+          <p>When the period of the hiring does not exceed one year, the thing hired shall not be subject to sale under a judgment against the owner of the thing which was obtained subsequent to the contract of hire; but the thing may be levied on and a bond for its delivery at the expiration of the time for which it is hired may be demanded of the hirer.</p>
+          <p>(Orig. Code 1863, § 2074; Code 1868, § 2069; Code 1873, § 2095; Code 1882, § 2095; Civil Code 1895, § 2913; Civil Code 1910, § 3486; Code 1933, § 12-211.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

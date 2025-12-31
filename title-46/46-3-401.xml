@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-401"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-401"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-401/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-401/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-401/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-401/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_401">
+        <num>46-3-401</num>
+        <content>
+          <p>A sale, lease, exchange, or other disposition of all or substantially all the property and assets of an electric membership corporation, with or without the good will of the electric membership corporation, in all cases other than those dealt with in Code Section 46-3-400 may be made upon such terms and conditions and for such consideration, which may consist in whole or in part of money or property, either real or personal, including, but not limited to, bonds or other securities of other electric membership corporations or of foreign electric cooperatives, or shares, bonds, or other securities of any other corporations, either domestic or foreign, as shall be authorized in the following manner:</p>
+          <p>(Code 1933, § 34A-128a, enacted by Ga. L. 1950, p. 233, § 3; Ga. L. 1953, Nov.-Dec. Sess., p. 359, § 2; Code 1933, § 34C-1102, enacted by Ga. L. 1981, p. 1587, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

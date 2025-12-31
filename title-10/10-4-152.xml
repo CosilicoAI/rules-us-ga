@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-152"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-152"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-152/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-152/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-152/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-152/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_152">
+        <num>10-4-152</num>
+        <content>
+          <p>The Commissioner of Agriculture shall be authorized to promulgate regulations to implement this part, to accomplish its purposes, and to prescribe physical standards for buildings and premises used for the receipt or storage, or both, of carry-over tobacco. Such standards shall be reasonably designed to ensure the protection of producers and others from loss or damage to carry-over tobacco when received or held for storage, or both, until the subsequent selling season. It shall be a prerequisite to the issuance of a license under this part that the applicant has complied with all standards promulgated pursuant to this Code section. The Commissioner, or his agent, is authorized to inspect the premises of each licensee as often as he shall deem necessary.</p>
+          <p>(Ga. L. 1975, p. 1263, § 11; Ga. L. 2000, p. 136, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

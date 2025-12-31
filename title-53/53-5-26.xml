@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-5-26"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-5-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-5-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_5_26">
+        <num>53-5-26</num>
+        <content>
+          <p>Upon petition to the probate court, a person named as an executor in a purported will of a decedent shall be entitled to recover from the estate of the decedent the expenses incurred in offering the will for probate in common or solemn form, including reasonable attorney's fees, provided the person proceeded in good faith. The probate court shall determine whether the person proceeded in good faith and the amount of the expenses. The order of the probate court shall be subject to appeal as is provided in other cases.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

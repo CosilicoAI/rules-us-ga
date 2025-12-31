@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-62-13"/>
+          <FRBRuri value="/us-ga/act/ocga/36-62-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-62-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-62-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-62-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-62-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_62_13">
+        <num>36-62-13</num>
+        <content>
+          <p>The real and personal property of any development authority which was created for a county prior to July 1, 1983, by constitutional amendment and which was dissolved by operation of law pursuant to Article XI, Section I, Paragraph IV(c) of the Constitution shall by operation of law become the property of any development authority subsequently created by such county pursuant to this chapter or, in the absence thereof, shall become the property of the county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

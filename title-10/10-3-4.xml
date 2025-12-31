@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-3-4"/>
+          <FRBRuri value="/us-ga/act/ocga/10-3-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-3-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-3-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-3-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-3-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_3_4">
+        <num>10-3-4</num>
+        <content>
+          <p>Any person, firm, company, or corporation who may purchase any note, contract, or other evidence of debt given for any of the articles or things set forth in Code Section 10-3-3 when the consideration of said note is expressed on the face thereof as is provided in said Code section, whether before due and without notice or otherwise, where the consideration is so expressed, shall take the same with all the equities existing between the original parties; and the maker of such note, contract, or other evidence of debt shall have the right to make any defense to the payment of same as against such purchasers that could have been made against the original payee.</p>
+          <p>(Ga. L. 1897, p. 81, § 2; Civil Code 1910, § 4294; Code 1933, § 14-1805.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

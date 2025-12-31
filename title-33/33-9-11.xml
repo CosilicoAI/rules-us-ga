@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-9-11"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-9-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-9-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_9_11">
+        <num>33-9-11</num>
+        <content>
+          <p>Cooperation among rating organizations or among rating organizations and insurers in rate making or in other matters within the scope of this chapter is authorized. The Commissioner may review the cooperative activities and practices and, if after a hearing he finds that the activity or practice is unfair or unreasonable or otherwise inconsistent with this chapter, he may issue a written order specifying in what respects the activity or practice is unfair or unreasonable or otherwise inconsistent with this chapter and requiring the discontinuance of the activity or practice.</p>
+          <p>(Code 1933, § 56-511, enacted by Ga. L. 1967, p. 684, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

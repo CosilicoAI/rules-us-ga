@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-250"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-250/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-250/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_250">
+        <num>34-8-250</num>
+        <content>
+          <p>Any agreement by an individual to waive, release, or commute his or her rights to benefits or any other rights under this chapter shall be void. Any agreement by any individual in the employ of any person or concern to pay all or any portion of an employer's contributions or payments in lieu of contributions required under this chapter from such employer shall be void. No employer shall directly or indirectly make, require, or accept any deduction from the wages of any individual in his or her employ to finance the employer's contributions or payments in lieu of required contributions or require or accept any waiver of any right under this chapter by any such individual. Any employer or agent of an employer who violates any provision of this Code section shall, for each offense and upon conviction, be guilty of a misdemeanor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

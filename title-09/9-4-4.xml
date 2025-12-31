@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-4-4"/>
+          <FRBRuri value="/us-ga/act/ocga/9-4-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-4-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-4-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-4-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-4-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_4_4">
+        <num>9-4-4</num>
+        <content>
+          <p>(Ga. L. 1945, p. 137, §§ 7, 8; Ga. L. 2015, p. 385, § 4-15/HB 252; Ga. L. 2020, p. 377, § 2-4/HB 865.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "intellectual disability" for "mental retardation" in the introductory language of subsection (a).</p>
+          <p>The 2020 amendment,
+      effective January 1, 2021, rewrote subsection (a), which read:
+   "(a) Without limiting the generality of Code Sections 9-4-2, 9-4-3, 9-4-5 through 9-4-7, and 9-4-9, any person interested as or through an executor, administrator, trustee, guardian, or other fiduciary, creditor, devisee, legatee, heir, ward, next of kin, or beneficiary in the administration of a trust or of the estate of a decedent, a minor, a person who is legally incompetent because of mental illness or intellectual disability, or an insolvent may have a declaration of rights or legal relations in respect thereto and a declaratory judgment:</p>
+          <p>"(1) To ascertain any class of creditors, devisees, legatees, heirs, next of kin, or others;</p>
+          <p>"(2) To direct the executor, administrator, or trustee to do or abstain from doing any particular act in his fiduciary capacity; or</p>
+          <p>"(3) To determine any question arising in the administration of the estate or trust, including questions of construction of wills and other writings."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

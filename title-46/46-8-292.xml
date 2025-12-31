@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-292"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-292"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-292/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-292/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-292/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-292/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_292">
+        <num>46-8-292</num>
+        <content>
+          <p>In all actions against railroad companies for damages to persons or property, proof of injury inflicted by the running of locomotives or cars of such companies shall be prima-facie evidence of the lack of reasonable skill and care on the part of the servants of the companies in reference to such injury.</p>
+          <p>(Ga. L. 1929, p. 315, § 1; Code 1933, § 94-1108.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

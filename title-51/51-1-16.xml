@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-16"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_16">
+        <num>51-1-16</num>
+        <content>
+          <p>The seduction of a daughter, unmarried and living with her parent, whether followed by pregnancy or not, shall give a right of action to the father or to the mother if the father is dead, or absent permanently, or refuses to bring an action. No loss of services need be alleged or proved. The seduction is the gist of the action, and in well-defined cases exemplary damages shall be granted.</p>
+          <p>(Orig. Code 1863, § 2951; Code 1868, § 2958; Code 1873, § 3009; Code 1882, § 3009; Civil Code 1895, § 3870; Civil Code 1910, § 4466; Code 1933, § 105-1204.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

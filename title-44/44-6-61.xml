@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-61"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_61">
+        <num>44-6-61</num>
+        <content>
+          <p>Remainders are either vested or contingent. A vested remainder is a remainder which is limited to a certain person at a certain time or which is dependent upon the happening of a necessary event. A contingent remainder is a remainder which is limited to an uncertain person or which is dependent upon an event which may or may not happen.</p>
+          <p>(Orig. Code 1863, § 2247; Code 1868, § 2239; Code 1873, § 2265; Code 1882, § 2265; Civil Code 1895, § 3100; Civil Code 1910, § 3676; Code 1933, § 85-703.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

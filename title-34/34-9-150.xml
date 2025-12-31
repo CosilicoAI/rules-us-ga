@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-150"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-150/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-150/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_150">
+        <num>34-9-150</num>
+        <content>
+          <p>It is the intent of the General Assembly to provide an alternative mechanism through which bona fide members of trade associations and professional associations as well as groups of municipalities, counties, school boards, and hospital authorities may extend workers' compensation benefits to their employees through group self-insurance programs. This alternative is authorized to enable the members of these groups to lower workers' compensation costs by reducing administrative expenses and to encourage a reduction in claims through active loss prevention, loss control, and rehabilitation programs. It is therefore intended that this article be liberally construed to effectuate these purposes.</p>
+          <p>(Code 1933, § 114-601a, enacted by Ga. L. 1980, p. 1686, § 1; Ga. L. 1981, p. 1759, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

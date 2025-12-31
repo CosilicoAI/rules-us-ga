@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-10-2"/>
+          <FRBRuri value="/us-ga/act/ocga/52-10-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-10-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-10-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-10-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-10-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_10_2">
+        <num>52-10-2</num>
+        <content>
+          <p>Any public corporation of the State of Georgia, as that term is defined in Code Section 52-10-1, is authorized to make application for the privilege of establishing, operating, and maintaining a foreign trade zone in accordance with an act of Congress approved June 18, 1934, entitled "An Act to provide for the establishment, operation, and maintenance of foreign trade zones in ports of entry of the United States, to expedite and encourage foreign commerce, and for other purposes."</p>
+          <p>(Ga. L. 1965, p. 40, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

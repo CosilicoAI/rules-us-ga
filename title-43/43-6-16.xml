@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-6-16"/>
+          <FRBRuri value="/us-ga/act/ocga/43-6-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-6-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-6-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-6-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-6-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_6_16">
+        <num>43-6-16</num>
+        <content>
+          <p>(Code 1933, § 84-310A, enacted by Ga. L. 1975, p. 53, § 1; Ga. L. 1993, p. 123, § 23; Ga. L. 2014, p. 294, § 7/HB 1042.)</p>
+          <p>The 2014 amendment,
+      effective July 1, 2014, substituted "auctioning" for "auctioneer or apprentice auctioneer" in the first sentence of subsection (a); and inserted "or her" in the middle of subsection (c).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

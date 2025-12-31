@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-10"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_10">
+        <num>40-2-10</num>
+        <content>
+          <p>A vehicle registrant may voluntarily cancel the registration on a vehicle when such vehicle is not in use for any reason, including without limitation if the vehicle is stolen, repossessed but not redeemed by the registrant, junked, inoperable, in storage, used seasonally for agricultural or other purposes, or if the owner is on active duty in the armed forces of the United States and is transferred to a duty station away from the location of the vehicle or is on active sea duty. A registration that has been voluntarily cancelled may be reinstated upon payment of all accrued ad valorem taxes and license fees, if any.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

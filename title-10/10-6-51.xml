@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-6-51"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-6-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-6-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_6_51">
+        <num>10-6-51</num>
+        <content>
+          <p>The principal shall be bound by all the acts of his agent within the scope of his authority; if the agent shall exceed his authority, the principal may not ratify in part and repudiate in part; he shall adopt either the whole or none.</p>
+          <p>(Orig. Code 1863, § 2172; Code 1868, § 2168; Code 1873, § 2194; Code 1882, § 2194; Civil Code 1895, § 3021; Civil Code 1910, § 3593; Code 1933, § 4-302.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

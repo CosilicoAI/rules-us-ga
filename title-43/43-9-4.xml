@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-9-4"/>
+          <FRBRuri value="/us-ga/act/ocga/43-9-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-9-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-9-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-9-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-9-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_9_4">
+        <num>43-9-4</num>
+        <content>
+          <p>The board shall meet at such times as the board determines necessary for the performance of its duties. Called meetings shall be authorized at the discretion of the president. The board shall adopt a seal, which shall be affixed to all licenses issued and shall from time to time adopt such rules and regulations as it deems proper and necessary for the performance of its duties. The board shall elect annually a president and a vice president. Immediately before entering upon the duties of office, the members of the board shall take the constitutional oath of office and shall file the same in the office of the Governor, who, upon receiving the oath of office, shall issue a certificate of appointment to each member.</p>
+          <p>(Ga. L. 1921, p. 166, § 4; Code 1933, § 84-504; Ga. L. 1982, p. 2333, § 3; Ga. L. 1995, p. 983, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

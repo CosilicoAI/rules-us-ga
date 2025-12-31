@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-1"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_1">
+        <num>14-4-1</num>
+        <content>
+          <p>This chapter is intended to be and is merely a recompilation of existing statutes affecting and regulating corporations chartered by the Secretary of State and complements and supplements the express provisions of existing statutes governing banking, trust, insurance, railroad, canal, navigation, express, and telegraph corporations. All references in this chapter to corporations chartered by or incorporated by the Secretary of State shall refer only to the aforesaid corporations, except as otherwise provided, and shall not refer to corporations incorporated by the Secretary of State under Chapter 2 of this title.</p>
+          <p>(Code 1933, § 22-4801, enacted by Ga. L. 1969, p. 152, § 72; Ga. L. 1976, p. 1102, § 37.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

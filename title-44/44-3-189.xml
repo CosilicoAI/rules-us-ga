@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-189"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-189"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-189/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-189/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-189/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-189/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_189">
+        <num>44-3-189</num>
+        <content>
+          <p>The developer whose project is subject to an underlying blanket lien or encumbrance shall protect nondefaulting purchasers from foreclosure by the lienholder by obtaining from the lienholder a nondisturbance clause, subordination agreements, partial release of the lien as the time-share intervals are sold, or an agreement in writing that the lienholder will purchase nondefaulting purchasers' intervals in an amount equal to the amount agreed to by the parties but in no event less than the amount actually paid by the purchaser toward the purchase price of the time-share interval.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

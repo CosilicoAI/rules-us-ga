@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-21"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_21">
+        <num>12-6-21</num>
+        <content>
+          <p>Any fire burning uncontrolled on any forested or cut-over brush land or grassland is declared to be a public nuisance by reason of its menace to life and property. Any person, firm, or corporation responsible either for the starting or for the existence of such fire is required to control or extinguish it immediately. If such person, firm, or corporation shall refuse or neglect to do so, any organized fire suppression force may suppress the nuisance thus constituted by controlling and extinguishing the fire; and the cost thereof may be recovered from the responsible person, firm, or corporation.</p>
+          <p>(Ga. L. 1937, p. 264, § 9; Ga. L. 1955, p. 309, § 31.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

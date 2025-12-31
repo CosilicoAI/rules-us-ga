@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-599"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-599"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-599/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-599/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-599/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-599/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_599">
+        <num>10-1-599</num>
+        <content>
+          <p>No contract shall be valid for a term longer than 18 months from the date upon which the contract is signed. However, a club may allow a member to convert his or her contract into a contract for a period longer than 18 months after the member has been a member of the club for a period of at least six months. The duration of the contract shall be clearly and conspicuously disclosed in the contract in boldface type of a minimum size of 14 points.</p>
+          <p>(Ga. L. 1975, p. 529, § 10; Ga. L. 1984, p. 22, § 10; Ga. L. 2015, p. 1088, § 6/SB 148.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, inserted "or her" in the second sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

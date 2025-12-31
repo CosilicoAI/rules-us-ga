@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-3-24"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-3-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-3-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_3_24">
+        <num>9-3-24</num>
+        <content>
+          <p>All actions upon simple contracts in writing shall be brought within six years after the same become due and payable. However, this Code section shall not apply to actions for the breach of contracts for the sale of goods under Article 2 of Title 11 or to negotiable instruments under Article 3 of Title 11.</p>
+          <p>(Orig. Code 1863, § 2858; Code 1868, § 2866; Code 1873, § 2917; Code 1882, § 2917; Civil Code 1895, § 3767; Civil Code 1910, § 4361; Code 1933, § 3-705; Ga. L. 1962, p. 156, § 1; Ga. L. 1996, p. 1306, § 15.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

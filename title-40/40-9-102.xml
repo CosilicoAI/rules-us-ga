@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-9-102"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-102"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-9-102/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-102/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-9-102/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-102/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_9_102">
+        <num>40-9-102</num>
+        <content>
+          <p>Any person who rents motor vehicles from a U-drive-it owner is required to provide his own insurance, and insurance companies authorized to issue automobile policies in this state shall be required by the Commissioner of Insurance to provide "spot" insurance, which shall be purchased by such person before the U-drive-it owner shall be authorized to turn a motor vehicle over to such person. If a U-drive-it owner turns over any motor vehicle to any person without first ascertaining that such "spot" insurance has been obtained, the U-drive-it owner shall not, as to that particular rental transaction, be exempted from the provisions of this chapter as provided in Code Section 40-9-4.</p>
+          <p>(Ga. L. 1951, p. 565, § 23; Ga. L. 1963, p. 593, § 10; Code 1933, § 68C-604, enacted by Ga. L. 1977, p. 1014, § 1; Ga. L. 1994, p. 97, § 40.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

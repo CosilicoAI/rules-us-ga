@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-58"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-58"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-58/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-58/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-58/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-58/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_58">
+        <num>15-21-58</num>
+        <content>
+          <p>Nothing in this article shall affect the validity of any special or local Act or Act affecting only a specific county dealing with the fines and bond forfeitures in any court or courts in any particular county or city in this state.</p>
+          <p>(Ga. L. 1949, p. 1168, § 9; Ga. L. 2015, p. 693, § 3-32/HB 233.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "fines and bond forfeitures" for "fines and forfeitures" in the middle of this Code section. See editor's note for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

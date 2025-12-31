@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-6-46"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-6-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-6-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_6_46">
+        <num>4-6-46</num>
+        <content>
+          <p>Sales establishments for the sale of livestock at auction shall maintain such accounts and records as will at all times disclose the names of the sellers or consignors, the amount due and payable to each from the custodial account for shippers' proceeds, and the legally authorized fees and charges due the establishment. Sales establishments shall make such records available for inspection by the Commissioner or his agents during any business hours.</p>
+          <p>(Ga. L. 1966, p. 350, § 5; Ga. L. 1983, p. 1161, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

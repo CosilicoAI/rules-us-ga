@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-33-7"/>
+          <FRBRuri value="/us-ga/act/ocga/33-33-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-33-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-33-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-33-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-33-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_33_7">
+        <num>33-33-7</num>
+        <content>
+          <p>Any person aggrieved by any action or decision of the administrators of the plan, the underwriting association, or of any insurer as a result of its participation in the plan may appeal to the Commissioner within 30 days from the date of the action or the decision.The Commissioner, after a hearing held upon proper notice, shall issue an order approving the action or decision or disapproving the action or decision with respect to the matter which is the subject of appeal.All final orders and decisions of the Commissioner shall be subject to judicial review as provided in Chapter 2 of this title.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

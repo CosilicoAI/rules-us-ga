@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-289"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-289"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-289/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-289/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-289/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-289/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_289">
+        <num>20-3-289</num>
+        <content>
+          <p>Any student who is indebted to the corporation on a defaulted educational loan obtained under this part shall not be eligible to apply for or receive educational financial assistance available under any other state funded student financial aid program unless the student has made arrangements, satisfactory with the corporation, for the payment of such indebtedness and is in and remains in compliance with such arrangements, or unless the corporation, for reasons which the corporation deems to be justifiable, determines that the existence of the indebtedness to the corporation should not be a bar to the student's applying for and receiving such other state student financial aid assistance.</p>
+          <p>(Code 1933, § 32-3335, enacted by Ga. L. 1980, p. 835, § 2; Ga. L. 1992, p. 6, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

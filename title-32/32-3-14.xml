@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-3-14"/>
+          <FRBRuri value="/us-ga/act/ocga/32-3-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-3-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-3-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-3-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-3-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_3_14">
+        <num>32-3-14</num>
+        <content>
+          <p>If the owner, or any of the owners, or any person having a claim against or interest in the property is dissatisfied with the amount of compensation as estimated in the declaration of taking and deposited in court, as provided for in Code Section 32-3-7, such person or persons, or any of them, shall have the right, at any time subsequent to the filing of the declaration and the deposit of the fund into court, but not later than 30 days following the date of the service as provided for in Code Sections 32-3-8 and 32-3-9, to file with the court a notice of appeal, the same to be in writing and made a part of the record in the proceedings.</p>
+          <p>(Code 1933, § 95A-610, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

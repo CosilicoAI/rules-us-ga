@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-2-42"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-2-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-2-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-2-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_2_42">
+        <num>48-2-42</num>
+        <content>
+          <p>All penalties imposed by law are part of the tax and are to be collected as such. The proceedings to collect the original tax, the tax constituted from penalties imposed, and the interest shall all be conducted in the same manner. Any provision of law for criminal prosecution shall not operate under the tax laws of this state to relieve any taxpayer of any tax, penalty, or interest imposed by law.</p>
+          <p>(Ga. L. 1937-38, Ex. Sess., p. 77, § 37; Code 1933, § 91A-237, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+          <p>JUDICIAL DECISIONS</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

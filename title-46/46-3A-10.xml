@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3A-10"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3A-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3A-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3A-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3A-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3A-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3A_10">
+        <num>46-3A-10</num>
+        <content>
+          <p>In setting rates for any certificated capacity resource, the commission shall consider changed revenues and changed risks, if any.The commission's decision in any certification, recertification, modification, or construction review proceeding shall be based on evidence of record. Compliance with the provisions of the certificate as approved or modified by the commission shall result in a presumption of prudence. The commission's findings, although subject to judicial review, shall not be subject to relitigation in any other proceeding; provided, however, the issuance of a certificate under this Code section shall not preempt any duly constituted local, state, or federal governmental body or agency from its regulation of environmental or safety matters incidental to construction of electric generating plants.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-3-70"/>
+          <FRBRuri value="/us-ga/act/ocga/42-3-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-3-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-3-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-3-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-3-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_3_70">
+        <num>42-3-70</num>
+        <content>
+          <p>DCS shall be authorized to establish and operate pretrial release and diversion programs as rehabilitative measures for persons charged with felonies for which bond is permissible under the law in the courts of this state prior to conviction; provided, however, that no such program shall be established in a county without the unanimous approval of the superior court judges, the district attorney, and the sheriff of such county. The board shall promulgate rules and regulations governing any pretrial release and diversion programs established and operated by DCS and shall grant authorization for the establishment of such programs based on the availability of sufficient staff and resources.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

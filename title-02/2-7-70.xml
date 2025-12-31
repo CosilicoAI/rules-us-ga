@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-7-70"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-7-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-7-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_7_70">
+        <num>2-7-70</num>
+        <content>
+          <p>When the Commissioner has reasonable cause to believe that a pesticide or device is being distributed, stored, transported, or used in violation of any of the provisions of this article or of any of the prescribed regulations under this article, he may issue and serve a written stop sale, use, or removal order upon the owner or custodian of any such pesticide or device. If the owner or custodian is not available for service of the order upon him, the Commissioner may attach the order to the pesticide or device and notify the owner or custodian and the registrant. The pesticide or device shall not be sold, used, or removed until this article has been complied with and until the pesticide or device has been released in writing under conditions specified by the Commissioner or until the violation has been otherwise disposed of as provided in this article by a court of competent jurisdiction.</p>
+          <p>(Ga. L. 1950, p. 390, § 10; Ga. L. 1976, p. 282, § 12.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

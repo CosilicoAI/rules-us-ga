@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-240"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-240"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-240/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-240/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-240/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-240/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_240">
+        <num>48-8-240</num>
+        <content>
+          <p>The local governments of the State of Georgia are of vital importance to the state and its citizens. The state has an essential public interest in promoting, developing, sustaining, and assisting local governments. The General Assembly finds that the design and construction of transportation projects is a critical local government service for which adequate funding is not presently available. Many transportation projects cross multiple jurisdictional boundaries and must be coordinated in their design and construction. The General Assembly finds that the most efficient means to coordinate and fund such projects is through the creation of special districts that correspond with the boundaries of existing regional commissions. The purpose of this article is to provide for special districts that will enable the coordinated design and construction of transportation projects that will develop and promote the essential public interests of the state and its citizens at the state, regional, and local levels. The General Assembly intends through the creation of such special districts to enable the citizens within each district to decide in an election whether to authorize the imposition of a special district transportation sales and use tax to fund the projects on an investment list collaboratively developed by the affected local governments and the state. This article shall be construed liberally to achieve its purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

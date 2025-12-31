@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-574"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-574"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-574/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-574/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-574/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-574/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_574">
+        <num>21-2-574</num>
+        <content>
+          <p>Any person, other than an officer charged by law with the care of ballots or a person entrusted by any such officer with the care of the same for a purpose required by law, who has in his or her possession outside the polling place any official ballot shall be guilty of a felony.</p>
+          <p>(Ga. L. 1949, p. 1291, § 2A; Code 1933, § 34-1912, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Ga. L. 1998, p. 295, § 1; Ga. L. 2010, p. 914, § 28/HB 540.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

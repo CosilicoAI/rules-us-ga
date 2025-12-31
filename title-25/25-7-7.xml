@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-7-7"/>
+          <FRBRuri value="/us-ga/act/ocga/25-7-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-7-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-7-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-7-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-7-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_7_7">
+        <num>25-7-7</num>
+        <content>
+          <p>Subject to the rules and regulations prescribed by the Board of Public Safety, the training program of the academy shall be made available to all firefighters and may also be made available to other persons who evidence interest in entering the fire-fighting profession. The board is authorized to prescribe fees to cover all or a part of the cost of furnishing the training, under such rules and regulations as the board shall prescribe. The state, municipalities, and counties are authorized to expend funds for the purpose of paying such fees. The board is given full authority to decide who shall be allowed to enroll in the training program of the academy.</p>
+          <p>(Ga. L. 1976, p. 1725, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

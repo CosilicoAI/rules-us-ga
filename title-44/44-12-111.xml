@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-111"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-111/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-111/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_111">
+        <num>44-12-111</num>
+        <content>
+          <p>A loan for use is the gratuitous grant of an article to another for his use with the expectation that the article will be returned in specie. A loan for use may be made either for a definite time or for an indefinite time and is at the will of the grantor.</p>
+          <p>(Orig. Code 1863, § 2104; Code 1868, § 2099; Code 1873, § 2126; Code 1882, § 2126; Civil Code 1895, § 2945; Civil Code 1910, § 3517; Code 1933, § 12-502.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-5-42"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-5-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-5-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_5_42">
+        <num>44-5-42</num>
+        <content>
+          <p>A deed delivered to a third party, to be delivered on certain conditions to the grantee, is an escrow. Possession of that deed by the grantee is presumptive proof of a delivery, but that presumption may be rebutted.</p>
+          <p>(Orig. Code 1863, § 2652; Code 1868, § 2651; Code 1873, § 2693; Code 1882, § 2693; Civil Code 1895, § 3603; Civil Code 1910, § 4183; Code 1933, § 29-105.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-7-46"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-7-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-7-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_7_46">
+        <num>52-7-46</num>
+        <content>
+          <p>If any watercraft which is required by this article to have a capacity plate affixed thereto is of such design or construction as to make it impracticable or undesirable to affix such plate, the manufacturer or other person having the responsibility for affixing the plate may represent such impracticability or undesirability in writing to the Department of Natural Resources. Upon determination by the Department of Natural Resources that such representation has merit and that a proper and effective substitute for the capacity plate, which will serve the same purpose, is feasible, the Department of Natural Resources may authorize such alternative compliance. Such alternative compliance shall thereafter be deemed compliance with the capacity plate requirements of this article.</p>
+          <p>(Ga. L. 1971, p. 419, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

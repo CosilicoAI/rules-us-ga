@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-9-24"/>
+          <FRBRuri value="/us-ga/act/ocga/32-9-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-9-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-9-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-9-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-9-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_9_24">
+        <num>32-9-24</num>
+        <content>
+          <p>Notwithstanding subsections (a) and (b) of Section 6 of the MARTA Act to the contrary, upon approval of a rapid transit contract pursuant to Code Section 32-9-20, the board of commissioners of Gwinnett County may appoint three residents of the county to the board. The board of commissioners shall designate one such resident to serve an initial term ending on December 31 in the second full year after the year in which the referendum approving said rapid transit contract was held and one such resident to serve an initial term ending on December 31 in the fourth full year after the year in which the referendum approving said rapid transit contract was held, in which event the board shall, subsections (a) and (b) of Section 6 of the MARTA Act to the contrary notwithstanding, be composed of such additional members. Upon the conclusion of the initial terms provided for in this Code section, the board of commissioners of Gwinnett County shall appoint a successor thereto for a term of office of four years.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

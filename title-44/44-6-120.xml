@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-120"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-120/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-120/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_120">
+        <num>44-6-120</num>
+        <content>
+          <p>Unless otherwise specifically provided by statute and unless the document or instrument provides otherwise, a tenancy in common is created wherever from any cause two or more persons are entitled to the simultaneous possession of any property. Tenants in common may have unequal shares, but they will be held to be equal unless the contrary appears. The fact of inequality shall not give the person holding the greater interest any privileges as to possession which are superior to those of the person owning a lesser interest so long as the tenancy continues.</p>
+          <p>(Orig. Code 1863, § 2282; Code 1868, § 2275; Code 1873, § 2301; Code 1882, § 2301; Civil Code 1895, § 3143; Civil Code 1910, § 3723; Code 1933, § 85-1001; Ga. L. 1976, p. 1388, § 9; Ga. L. 1976, p. 1438, § 1; Ga. L. 1980, p. 753, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

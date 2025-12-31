@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-16-32"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-16-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-16-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_16_32">
+        <num>45-16-32</num>
+        <content>
+          <p>The medical examiner and coroner shall complete a report of each medical examiner's inquiry and coroner's investigation and shall maintain permanent records of such reports. The coroner or county medical examiner may file all original reports with the clerk of the superior court of the county. In cases where such report indicates a suspicion of foul play, the medical examiner and peace officer in charge shall transmit any specimens, samples, or other evidence to a forensic laboratory for analysis. In cases where reports indicating foul play are verified by the forensic laboratory, the laboratory shall provide a completed lab report to the appropriate prosecuting attorney where the acts or events leading to the death occurred.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 602, § 4; Ga. L. 1960, p. 1009, § 3; Ga. L. 1984, p. 812, § 5; Ga. L. 1985, p. 843, § 10; Ga. L. 1989, p. 417, § 2; Ga. L. 1990, p. 1735, § 3; Ga. L. 1999, p. 869, § 4; Ga. L. 2010, p. 574, § 2/HB 1095.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

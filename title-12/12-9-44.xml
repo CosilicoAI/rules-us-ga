@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-9-44"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-9-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-9-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_9_44">
+        <num>12-9-44</num>
+        <content>
+          <p>This article shall operate uniformly throughout the state. The provisions and requirements of this article shall apply in each county or any portion of a county which has been designated by the USEPA in the Code of Federal Regulations as a county or area included within a nonattainment area and which the board designates, through regulation, as a county or area where the excess levels of ozone or carbon monoxide or both are directly related to emissions of hydrocarbons, nitrogen oxides, or carbon monoxide from responsible motor vehicles registered in such county or area. This article shall continue to apply in each such county or portion of a county so designated until the USEPA removes such county or area from the Code of Federal Regulations as a nonattainment area and approves an air quality implementation plan which allows the state to maintain the NAAQS in such county without a vehicle inspection program.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

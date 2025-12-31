@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-137"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-137"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-137/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-137/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-137/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-137/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_137">
+        <num>15-12-137</num>
+        <content>
+          <p>A member of an electric membership corporation shall not be incompetent, based solely on such membership, to serve as a juror in a case in which the electric membership corporation is a party or is interested; provided, however, that if the judge in such case finds that the nature of the case or that the circumstances surrounding a potential juror's membership in an electric membership corporation may cause a potential juror to have a bias or prejudice for or against the electric membership corporation in that case, the judge may grant a party's motion to disqualify such member for cause.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

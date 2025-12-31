@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-1-7"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-1-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-1-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_1_7">
+        <num>22-1-7</num>
+        <content>
+          <p>If the parties cannot agree upon the compensation to be paid, the same shall be assessed and determined as provided in Article 1 of Chapter 2 of this title.</p>
+          <p>(Ga. L. 1894, p. 95, § 3; Civil Code 1895, § 4659; Civil Code 1910, § 5208; Code 1933, § 36-303.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

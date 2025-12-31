@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-103"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-103/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-103/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_103">
+        <num>50-5-103</num>
+        <content>
+          <p>Notwithstanding any law to the contrary, the Department of Administrative Services, upon receiving a request to do so from a political subdivision, may purchase for the political subdivision in the name of the state any motor vehicle, material, equipment, or supplies desired by the political subdivision. The commissioner of administrative services is authorized to prescribe such rules, regulations, and procedures as he shall deem advisable concerning the purchase of motor vehicles, material, equipment, and supplies for the political subdivisions. However, no motor vehicle, material, equipment, or supplies shall be purchased in accordance with this Code section until the political subdivision shall place in the hands of the Department of Administrative Services a certified or cashier's check in an amount sufficient to cover the purchase price of the motor vehicle, material, equipment, or supplies. The Department of Administrative Services is authorized and empowered to execute the necessary documents to divest the state of all title in and to such motor vehicles, material, equipment, or supplies, and to vest in the political subdivision for whom the motor vehicle, material, equipment, or supplies were purchased all such rights in and title to the vehicles, material, equipment, or supplies.</p>
+          <p>(Ga. L. 1969, p. 940, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

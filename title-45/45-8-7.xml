@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-8-7"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-8-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-8-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_8_7">
+        <num>45-8-7</num>
+        <content>
+          <p>Upon breaches of the bond of any officer, bank, or depository, interest shall run against the principal on the bond at the rate of 7 percent per annum from the date of the breach and against the surety at the same rate from the date of the demand on the surety. If the breach shall involve dishonesty on the part of the officer or bank, the official or county authority having jurisdiction to cite the officer, or any court acquiring jurisdiction over the subject matter, may, as against the offending principal in the bond, impose an additional penalty of not more than 10 percent of the amount of the loss and a reasonable sum for attorneys' fees. This penalty and award of attorneys' fees may also be imposed upon the surety by any court acquiring jurisdiction of the subject matter, in the event it is shown that the surety has acted in bad faith and has been vexatiously litigious or that it has filed defensive proceedings for delay only. Existing laws imposing higher rates of interest or penalties upon principals or sureties upon any of such bonds are superseded by this Code section.</p>
+          <p>(Ga. L. 1933, p. 78, § 12; Code 1933, § 89-833.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

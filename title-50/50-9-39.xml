@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-9-39"/>
+          <FRBRuri value="/us-ga/act/ocga/50-9-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-9-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-9-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-9-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-9-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_9_39">
+        <num>50-9-39</num>
+        <content>
+          <p>Revenue bonds issued under this article and Article 1 of this chapter shall not be deemed to constitute a debt of the state or a pledge of the faith and credit of the state, but the bonds shall be payable solely from the fund provided for in Code Section 50-9-42; and the issuance of the revenue bonds shall not directly, indirectly, or contingently obligate the state to levy or to pledge any form of taxation whatever therefor or to make any appropriation for the payment. All such bonds shall contain recitals on their face covering substantially the foregoing provisions of this Code section; provided, however, that such funds as may be received from state appropriations or from any other source are declared to be available to any department, board, commission, or agency of the state and may be used for the performance of any lease contract entered into by such department, board, commission, or agency of the state.</p>
+          <p>(Ga. L. 1951, p. 699, § 14.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

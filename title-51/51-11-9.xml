@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-11-9"/>
+          <FRBRuri value="/us-ga/act/ocga/51-11-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-11-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-11-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-11-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-11-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_11_9">
+        <num>51-11-9</num>
+        <content>
+          <p>A person who is justified in threatening or using force against another under the provisions of Code Section 16-3-21, relating to the use of force in defense of self or others, Code Section 16-3-23, relating to the use of force in defense of a habitation, or Code Section 16-3-24, relating to the use of force in defense of property other than a habitation, has no duty to retreat from the use of such force and shall not be held liable to the person against whom the use of force was justified or to any person acting as an accomplice or assistant to such person in any civil action brought as a result of the threat or use of such force.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

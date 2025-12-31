@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-142"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-142"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-142/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-142/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-142/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-142/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_142">
+        <num>10-1-142</num>
+        <content>
+          <p>The Commissioner of Agriculture is required to appoint, in accordance with Chapter 20 of Title 45, a chemist, who shall be an expert oil analyst, to be designated as the state oil chemist, whose duty it shall be to analyze all samples of gasoline and kerosene and all fluids purporting to be substitutes therefor or motor fuel improvements or other like products of petroleum, under whatever name they may be designated, and used for illuminating, heating, cooking, power, or lubricating purposes, submitted by the Commissioner of Agriculture or any duly authorized inspector or inspectors.</p>
+          <p>(Ga. L. 1927, p. 279, § 9; Code 1933, § 73-201; Ga. L. 1960, p. 1043, §§ 1, 2; Ga. L. 1972, p. 1015, § 505; Ga. L. 1979, p. 981, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

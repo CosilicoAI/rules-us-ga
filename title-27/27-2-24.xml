@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-2-24"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-2-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-2-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-2-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_2_24">
+        <num>27-2-24</num>
+        <content>
+          <p>All applications to the department for any license or permit, or license and permit, provided by this title shall designate an address in Georgia where the applicant can be personally served with legal process, or shall contain an appointment of an agent in Georgia for acceptance of service of legal process together with the agent's Georgia address, or shall contain a designation of the Secretary of State of Georgia for acceptance of service of legal process. A copy of any application so designating the Secretary of State shall be forwarded by the department to the Secretary of State. The filing of an application with the department for a license or permit, or both, shall constitute an admission by the applicant that the applicant is doing business in Georgia.</p>
+          <p>(Code 1933, § 45-322, enacted by Ga. L. 1977, p. 396, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

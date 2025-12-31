@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-1002"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-1002"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-1002/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-1002/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-1002/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-1002/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_1002">
+        <num>7-1-1002</num>
+        <content>
+          <p>(a.1)A loan processor or underwriter who is an independent contractor shall not engage in the activities of a loan processor or underwriter unless such independent contractor loan processor or underwriter obtains and maintains a mortgage broker or mortgage lender license. Each independent contractor loan processor or underwriter licensed as a mortgage broker or mortgage lender shall have and maintain a valid unique identifier issued by the Nationwide Multistate Licensing System and Registry.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

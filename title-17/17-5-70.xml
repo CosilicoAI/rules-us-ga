@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/17-5-70"/>
+          <FRBRuri value="/us-ga/act/ocga/17-5-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/17-5-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/17-5-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/17-5-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/17-5-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_5_70">
+        <num>17-5-70</num>
+        <content>
+          <p>The 2019 amendment,
+      effective July 1, 2019, in subsection (a), substituted "In cases in which the victim reports an alleged sexual assault to law enforcement" for "Except as otherwise provided in subsection (b) of this Code section or Code Section 17-5-55 or 17-5-56, on or after May 12, 2008" at the beginning, and substituted "30 years from the date of arrest, or seven years from completion of sentence, whichever occurs last, and if no arrests, then for 50 years" for "ten years after the report of the alleged sexual assault" at the end.</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, substituted "victim chooses not to report the alleged sexual assault to law enforcement at the time of evidence collection, the law enforcement agency with jurisdiction" for "victim does not cooperate with law enforcement in the investigation or prosecution of an alleged sexual assault, the investigating law enforcement agency" near the beginning of subsection (b).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

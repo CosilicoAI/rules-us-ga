@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-522"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-522"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-522/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-522/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-522/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-522/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_522">
+        <num>21-2-522</num>
+        <content>
+          <p>Notwithstanding any other provisions of this chapter, for the purposes of election contests, a vote cast by a person who has been listed on the official list of electors for a period of ten years or longer shall be rebuttably presumed to be a legal vote despite an unsigned voter registration card, so long as that person continues to meet the eligibility requirements of Code Section 21-2-216. For such a voter, there shall be a rebuttable presumption that the voter has taken the oath and that the voter registration card is a replacement of the original voter registration card.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

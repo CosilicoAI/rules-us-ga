@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-127"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-127"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-127/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-127/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-127/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-127/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_127">
+        <num>44-2-127</num>
+        <content>
+          <p>All registered encumbrances, rights, or adverse claims affecting registered estates shall continue to be noted upon every outstanding certificate of title and owner's certificate until they have been released or discharged unless they relate to only a particular portion of the property, in which case they shall be noted only upon those certificates and duplicate certificates which relate to that portion of the property.</p>
+          <p>(Ga. L. 1917, p. 108, § 39; Code 1933, § 60-405.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

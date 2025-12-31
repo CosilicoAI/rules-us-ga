@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-110"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-110/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-110/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_110">
+        <num>40-1-110</num>
+        <content>
+          <p>The commissioner, upon the filing of an application for a motor carrier certificate, shall give notice of the pending application by posting the same on the department's official website for ten days. If a protest is filed with the department, the commissioner shall fix a time and place for a hearing. If no protest is filed with the department or if the protest is subsequently withdrawn, the commissioner may issue the motor carrier certificate without a hearing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-2-29"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-2-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-2-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_2_29">
+        <num>9-2-29</num>
+        <content>
+          <p>If no special officer is authorized to be the plaintiff in a penal action, the state, the Governor, the Attorney General, or a prosecuting attorney may be the plaintiff.</p>
+          <p>(Orig. Code 1863, § 3178; Code 1868, § 3189; Code 1873, § 3254; Code 1882, § 3254; Civil Code 1895, § 4933; Civil Code 1910, § 5510; Code 1933, § 3-103.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

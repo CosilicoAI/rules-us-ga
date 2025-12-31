@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-74"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-74"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-74/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-74/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-74/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-74/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_74">
+        <num>31-7-74</num>
+        <content>
+          <p>Members on the board of a hospital authority at the time of a sale or lease of a hospital owned by such hospital authority shall be deemed directors and subject to the provisions of Part 6 of Article 8 of Chapter 3 of Title 14, relating to conflicting interest transactions with respect to the proceeds of such sale or lease.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

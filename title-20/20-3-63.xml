@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-63"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-63"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-63/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-63/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-63/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-63/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_63">
+        <num>20-3-63</num>
+        <content>
+          <p>The Governor and the Office of the State Treasurer are authorized and directed to issue to the board of regents the state's obligation in the form of nonnegotiable bonds to become due 50 years from the date of issue and bearing interest at the rate of 4 1/4 percent per annum payable semiannually on January 1 and July 1 of each year in redemption of obligations of the state as provided in Code Section 20-3-64.</p>
+          <p>(Ga. L. 1898, p. 68, § 1; Civil Code 1910, § 1395; Ga. L. 1931, p. 7, § 48; Code 1933, § 32-134; Ga. L. 1935, p. 170, § 1; Ga. L. 1972, p. 1015, § 408B; Ga. L. 1993, p. 1402, § 18; Ga. L. 2010, p. 863, § 2/SB 296.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

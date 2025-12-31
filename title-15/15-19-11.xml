@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-19-11"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-19-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-19-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_19_11">
+        <num>15-19-11</num>
+        <content>
+          <p>Unless otherwise stipulated, one-half of the fee in any case is a retainer and is due at any time unless the attorney, without sufficient cause, abandons the case before rendering service to that value. In cases where he has rendered such service but cannot render the balance of service due to the act of his client, providential cause, election to office, or removal out of the state, he is entitled to retain such amount or a due proportion thereof if collected, or if not collected, to bring an action to collect it. Where no special contract is made, the attorney may recover for the services actually rendered.</p>
+          <p>(Orig. Code 1863, § 380; Code 1868, § 441; Code 1873, § 406; Code 1882, § 406; Civil Code 1895, § 4415; Civil Code 1910, § 4953; Code 1933, § 9-611.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

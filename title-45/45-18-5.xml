@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-18-5"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-18-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-18-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_18_5">
+        <num>45-18-5</num>
+        <content>
+          <p>The board is authorized to contract with public and private nonprofit sheltered employment centers which contract with or employ persons within the Georgia Vocational Rehabilitation Agency and the Department of Behavioral Health and Developmental Disabilities for the inclusion of employees working in the sheltered employment centers within any health insurance plan or plans established under this part. The board is authorized to adopt regulations for entering into any contract. In the event any contract is entered into, it shall be the duty of the sheltered employment center to remit any funds that may be deducted from the earnings or other compensation of such sheltered employees for inclusion in the health insurance fund. In addition, it shall be the duty of the sheltered employment center to make the employer contributions required for the operation of such plan or plans. Should the sheltered employment center fail to remit such deductions or such employer contributions to the board, the commissioner may, upon written notice to the sheltered employment center, terminate the coverage for such employees as of the day following the last day for which such deductions or such employer contributions were remitted to the board. Coverage may be reinstated upon the tender of any such deductions or employer contributions not previously remitted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

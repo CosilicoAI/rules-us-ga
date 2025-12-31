@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-60"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-60"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-60/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-60/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-60/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-60/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_60">
+        <num>44-12-60</num>
+        <content>
+          <p>The term "hiring" means a contract by which one person grants to another either the enjoyment of a thing or the use of the labor and industry of himself during a certain time and for a stipulated compensation or by which one person contracts for the labor or services of another person with regard to a thing bailed to such other person for a specified purpose.</p>
+          <p>(Orig. Code 1863, § 2056; Code 1868, § 2059; Code 1873, § 2085; Code 1882, § 2085; Civil Code 1895, § 2903; Civil Code 1910, § 3476; Code 1933, § 12-201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

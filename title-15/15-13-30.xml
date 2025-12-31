@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-13-30"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-13-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-13-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_13_30">
+        <num>15-13-30</num>
+        <content>
+          <p>None of the fees which clerks of the superior courts, sheriffs, deputy sheriffs, bailiffs, magistrates, or constables are entitled to charge and collect for the performance of their official duties shall be charged to the state for failure to collect from the person charged unless it has been otherwise expressly declared by law or unless the nature of the fees is such that they must necessarily be so paid by the state.</p>
+          <p>(Orig. Code 1863, § 3629; Code 1868, § 3654; Code 1873, § 3705; Code 1882, § 3705; Civil Code 1895, § 5408; Civil Code 1910, § 6007; Code 1933, § 24-301; Ga. L. 1983, p. 884, § 4-1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-3-2"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-3-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-3-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_3_2">
+        <num>7-3-2</num>
+        <content>
+          <p>(Ga. L. 1955, p. 431, § 2; Ga. L. 1975, p. 393, § 1; Ga. L. 2020, p. 156, § 2/SB 462.)</p>
+          <p>The 2020 amendment,
+      effective June 30, 2020, rewrote the section, which read: "The purpose of this chapter is to authorize and provide regulation of the business of making loans of $3,000.00 or less and to bring within the regulation of this chapter and within its provisions all loans of $3,000.00 or less, whether or not made by a person organized or operating under the provisions and authority of some other statute, except those persons and loans expressly exempted by the terms of this chapter. Even though authorized by other statutes of force, such loans and the persons making them, unless expressly exempted, shall be within the operation of this chapter in accordance with its terms." See Editor's notes at the beginning of this chapter for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

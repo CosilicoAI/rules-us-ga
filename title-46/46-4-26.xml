@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4-26"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4_26">
+        <num>46-4-26</num>
+        <content>
+          <p>Whenever any person is engaged or is about to engage in the construction, operation, or acquisition of any gas pipeline or distribution system, or extension thereof, without having secured a certificate of public convenience and necessity as required by this article, any interested person may file a complaint with the commission. The commission may, with or without notice, make an order requiring the person complained of to cease and desist from such construction, operation, or acquisition until the commission makes and files its decision on said complaint or until the further order of the commission. The commission may, after a hearing conducted after reasonable notice, make such order and prescribe such terms and conditions with respect to the matter as are just and reasonable.</p>
+          <p>(Ga. L. 1956, p. 104, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

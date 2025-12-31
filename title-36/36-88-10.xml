@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-88-10"/>
+          <FRBRuri value="/us-ga/act/ocga/36-88-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-88-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-88-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-88-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-88-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_88_10">
+        <num>36-88-10</num>
+        <content>
+          <p>An area designated as an enterprise zone shall remain in existence for ten years from the first day of the calendar year immediately following its designation as an enterprise zone; provided, however, that an area designated as an enterprise zone under subsection (g) of Code Section 36-88-6 shall remain in existence for 30 years from such day or until the redevelopment project required in subparagraph (g)(1)(B) of Code Section 36-88-6 is complete and any revenue bonds issued under paragraph (4) of subsection (g) of Code Section 36-88-6 are retired, whichever first occurs. Municipal and county governments may enter into agreements with qualifying business or service enterprises in designated enterprise zones to provide for modification or termination of the tax and fee exemptions and abatements. Property tax incentives available to a qualified business or service enterprise in an enterprise zone shall remain in effect for the full ten-year period established by Code Section 36-88-8, regardless of the termination of the designation of the enterprise zone.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

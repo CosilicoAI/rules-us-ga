@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-3-41"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-3-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-3-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-3-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_3_41">
+        <num>22-3-41</num>
+        <content>
+          <p>Any person referred to in Code Section 22-3-20 shall have the right and authority to acquire by purchase or condemnation the right to flood private roads or highways. Any such person shall also have the right to acquire by condemnation the right to flood public roads or highways by paying to the state or county authorities having jurisdiction over the same the cost of locating, laying out, constructing, and opening other public roads or highways to replace the public roads or highways flooded or intended to be flooded and also by paying to the state and county authorities any other damages that may be the natural and probable consequence of such flooding.</p>
+          <p>(Ga. L. 1925, p. 272, § 1; Code 1933, § 36-804.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

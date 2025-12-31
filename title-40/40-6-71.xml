@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-71"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-71"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-71/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-71/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-71/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-71/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_71">
+        <num>40-6-71</num>
+        <content>
+          <p>The driver of a vehicle intending to turn to the left within an intersection or into an alley, private road, or driveway shall yield the right of way to any vehicle approaching from the opposite direction which is within the intersection or so close thereto as to constitute an immediate hazard.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 556, § 73; Code 1933, § 68A-402, enacted by Ga. L. 1974, p. 633, § 1; Ga. L. 1990, p. 2048, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

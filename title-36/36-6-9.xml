@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-6-9"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-6-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-6-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_6_9">
+        <num>36-6-9</num>
+        <content>
+          <p>It shall be the duty of the Governor to give written or printed directions to the county governing authority upon the requirements of Code Sections 36-6-5 through 36-6-7, as other instructions and directions are now given in reference to the bonds of county treasurers. The costs of transmitting and recording the bonds shall be paid by the county treasurer.</p>
+          <p>(Ga. L. 1890-91, p. 104, § 5; Civil Code 1895, § 978; Civil Code 1910, § 1245; Code 1933, § 23-1011; Ga. L. 1982, p. 3, § 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

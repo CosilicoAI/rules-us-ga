@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-69-3"/>
+          <FRBRuri value="/us-ga/act/ocga/36-69-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-69-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-69-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-69-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-69-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_69_3">
+        <num>36-69-3</num>
+        <content>
+          <p>Any county or municipality in this state shall be authorized to enter into contracts and mutual aid agreements with counties or municipalities of any other state or with any agency of the United States for the provision of law enforcement services in a local emergency to the extent that the laws of such other state or the United States permit such joint contracts or agreements to furnish one another assistance in law enforcement.Any such contract or mutual aid agreement shall have incorporated therein the provisions of Code Sections 36-69-4 through 36-69-8.Any such contract or mutual aid agreement entered into by a county shall not become effective until approved by the sheriff of such county.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-6-2"/>
+          <FRBRuri value="/us-ga/act/ocga/16-6-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-6-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-6-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-6-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-6-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_6_2">
+        <num>16-6-2</num>
+        <content>
+          <p>(Laws 1833, Cobb's 1851 Digest, p. 787; Code 1863, §§ 4251, 4252; Code 1868, §§ 4286, 4287; Code 1873, §§ 4352, 4353; Code 1882, §§ 4352, 4353; Penal Code 1895, §§ 382, 383; Penal Code 1910, §§ 373, 374; Code 1933, §§ 26-5901, 26-5902; Ga. L. 1949, p. 275, § 1; Code 1933, § 26-2002, enacted by Ga. L. 1968, p. 1249, § 1; Ga. L. 1994, p. 1959, § 7; Ga. L. 1996, p. 1115, § 2; Ga. L. 1997, p. 6, § 3; Ga. L. 2000, p. 1346, § 1; Ga. L. 2006, p. 379, § 9/HB 1059; Ga. L. 2011, p. 214, § 2/HB 503.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-19"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_19">
+        <num>12-6-19</num>
+        <content>
+          <p>The director, with the approval of the commission, is authorized to establish and from time to time alter rules and regulations governing the use, occupancy, and protection of the land and property under the commission's control and to preserve the peace therein. The director, with the approval of the commission, shall have full power and authority to exchange, sell, or lease lands under its jurisdiction when in the judgment of the director and the commission it is advantageous to the state to do so in the highest orderly development and management of state forests, provided that such lease, sale, or exchange shall not be contrary to the terms of any contract which the commission has entered into.</p>
+          <p>(Ga. L. 1937, p. 264, § 9; Ga. L. 1955, p. 309, § 29.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

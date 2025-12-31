@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-10-61"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-10-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-10-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_10_61">
+        <num>2-10-61</num>
+        <content>
+          <p>To the extent consistent with this article, the Georgia Department of Agriculture Rules and Regulations for State Farmers' Markets, Chapters 40-9-1 through 40-9-11 of the Secretary of State's Official Compilation of Rules and Regulations for the State of Georgia, adopted or promulgated by the Commissioner of Agriculture pursuant to an Act approved February 25, 1935 (Ga. L. 1935, p. 369), as amended, shall continue in force and effect as rules and regulations pursuant to this article. This article shall be considered as legal authority for those rules and regulations, and any reference in those rules and regulations shall be interpreted and read as a reference to this article. Those rules and regulations shall not be considered insufficient or defective for reason of reference to or stated reliance upon Ga. L. 1935, p. 369, as amended, instead of this article.</p>
+          <p>(Ga. L. 1981, p. 1354, § 13.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

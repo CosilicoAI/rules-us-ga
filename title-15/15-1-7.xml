@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-1-7"/>
+          <FRBRuri value="/us-ga/act/ocga/15-1-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-1-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-1-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-1-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-1-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_1_7">
+        <num>15-1-7</num>
+        <content>
+          <p>It shall be unlawful for any Justice of the Supreme Court, Judge of the Court of Appeals, or judge of the superior courts to receive for himself or any member of his family, either directly or indirectly, any favor from any railroad company or any free railroad pass or any like favor not enjoyed by the general public from any telephone, telegraph, or express company or like quasi-public corporation. Any violation of this Code section shall be a ground for impeachment.</p>
+          <p>(Ga. L. 1904, p. 72, § 2; Civil Code 1910, § 324; Code 1933, § 24-103.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

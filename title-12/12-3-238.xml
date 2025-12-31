@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-238"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-238"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-238/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-238/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-238/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-238/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_238">
+        <num>12-3-238</num>
+        <content>
+          <p>The authority shall be authorized to execute to the United States of America such spoilage easements and rights of way in the property leased to the authority by this part as shall be necessary in the construction and maintenance of the intracoastal waterway. Such easements and rights of way shall not exceed in length such period of time as the authority is to exist under this part.</p>
+          <p>(Ga. L. 1950, p. 152, § 23A; Ga. L. 1951, p. 782, § 5; Ga. L. 1952, p. 276, § 5; Ga. L. 1960, p. 89, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

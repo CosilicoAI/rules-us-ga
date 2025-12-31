@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-2-3"/>
+          <FRBRuri value="/us-ga/act/ocga/13-2-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-2-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-2-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-2-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-2-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_2_3">
+        <num>13-2-3</num>
+        <content>
+          <p>The cardinal rule of construction is to ascertain the intention of the parties. If that intention is clear and it contravenes no rule of law and sufficient words are used to arrive at the intention, it shall be enforced irrespective of all technical or arbitrary rules of construction.</p>
+          <p>(Orig. Code 1863, § 2719; Code 1868, § 2713; Code 1873, § 2755; Code 1882, § 2755; Civil Code 1895, § 3673; Civil Code 1910, § 4266; Code 1933, § 20-702.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

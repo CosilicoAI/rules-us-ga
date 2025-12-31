@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-67"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-67"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-67/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-67/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-67/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-67/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_67">
+        <num>36-82-67</num>
+        <content>
+          <p>In the event that the governmental body defaults in the payment of the principal or interest on any of the revenue bonds after the same becomes due, whether at maturity or upon call for redemption, and that such default continues for a period of 30 days or in the event that the governmental body or the governing body or the officers, agents, or employees thereof fail or refuse to comply with the essential provisions of this article or default in any material respect in any agreement made with the holders of the revenue bonds, any holders of revenue bonds or any trustee therefor shall have the right to apply in an appropriate judicial proceeding to the superior court of the county in which the governmental body is located or to any court of competent jurisdiction for the appointment of a receiver of the undertaking, whether or not all revenue bonds have been declared due and payable and whether or not such holder or trustee therefor is seeking or has sought to enforce any other right or to exercise any remedy in connection with such revenue bonds. Upon such application, the superior court, if it deems such action necessary for the protection of the bondholders, may appoint and, if the application is made by the holders of 25 percent in principal amount of such revenue bonds then outstanding or by any trustee for holders of such revenue bonds in such principal amount, shall appoint a receiver of the undertaking.</p>
+          <p>(Ga. L. 1937, p. 761, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

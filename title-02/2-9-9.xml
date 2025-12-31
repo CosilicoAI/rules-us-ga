@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-9-9"/>
+          <FRBRuri value="/us-ga/act/ocga/2-9-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-9-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-9-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-9-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-9-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_9_9">
+        <num>2-9-9</num>
+        <content>
+          <p>Upon ginning cotton into bales, the ginner shall assign each bale a permanent bale identification number. No bale shall be removed from a gin except when accompanied by a cotton bale voucher issued by the gin, containing the permanent bale identification number and issued in the name of the cotton producer. Except for removal to a bonded warehouse in the name of the cotton producer, transfers or sales from the cotton producer after ginning shall be endorsed by his or her signature on the cotton bale voucher or forms authorized by the Commissioner of Agriculture.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

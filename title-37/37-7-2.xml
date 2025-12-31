@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-7-2"/>
+          <FRBRuri value="/us-ga/act/ocga/37-7-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-7-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-7-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-7-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-7-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_7_2">
+        <num>37-7-2</num>
+        <content>
+          <p>(a.1)The board shall issue regulations to implement the provisions of Code Section 40-5-63.1 relative to clinical evaluations and substance abuse treatment programs and shall prescribe such application fees for providers desiring authorization to provide clinical evaluations or substance abuse treatment programs as are reasonably necessary to cover the cost of considering such applications. Such regulations shall provide for approval of providers and such approval shall be valid continuously unless and until revoked in accordance with such regulations.</p>
+          <p>(Code 1933, § 88-406.1, enacted by Ga. L. 1971, p. 273, § 1; Code 1933, § 88-407.1, enacted by Ga. L. 1978, p. 1856, § 1; Ga. L. 1990, p. 45, § 1; Ga. L. 1991, p. 977, § 3; Ga. L. 1997, p. 760, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

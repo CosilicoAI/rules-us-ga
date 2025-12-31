@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-200"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-200/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-200/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_200">
+        <num>15-21-200</num>
+        <content>
+          <p>This article is enacted pursuant to Article III, Section IX, Paragraph VI(o) of the Constitution, which provision authorizes additional penalty assessments for violations relating to certain sexual crimes, authorizes assessments on certain businesses, and provides that the proceeds derived therefrom may be used for the purpose of meeting the costs of care and rehabilitative and social services for certain citizens of this state who have been sexually exploited.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

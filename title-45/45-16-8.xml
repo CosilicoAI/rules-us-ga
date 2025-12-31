@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-16-8"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-16-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-16-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_16_8">
+        <num>45-16-8</num>
+        <content>
+          <p>If any person makes an affidavit stating (1) that a sheriff is disqualified from acting in any proceeding, which disqualification was not apparent at the outset of the proceeding, or (2) that a sheriff or his deputy refuses to serve a writ or other process, then the clerk of the court from which the process issues shall place the process in the hands of the coroner for execution. The clerk may compel the sheriff to return the writ or other process to the clerk's office in order to allow for execution by the coroner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

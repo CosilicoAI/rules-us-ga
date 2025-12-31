@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-6-21"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-6-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-6-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_6_21">
+        <num>10-6-21</num>
+        <content>
+          <p>The agent shall act within the authority granted to him, reasonably interpreted; if he shall exceed or violate his instructions, he does it at his own risk, the principal having the privilege of affirming or dissenting, as his interest may dictate. In cases where the power is coupled with an interest in the agent, unreasonable instructions, detrimental to the agent's interest, may be disregarded.</p>
+          <p>(Orig. Code 1863, § 2162; Code 1868, § 2158; Code 1873, § 2184; Code 1882, § 2184; Civil Code 1895, § 3004; Civil Code 1910, § 3576; Code 1933, § 4-202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

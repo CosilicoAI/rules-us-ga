@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-7-9"/>
+          <FRBRuri value="/us-ga/act/ocga/33-7-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-7-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-7-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-7-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-7-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_7_9">
+        <num>33-7-9</num>
+        <content>
+          <p>Vehicle insurance is insurance against loss of or damage to any land vehicle or aircraft, any draft or riding animal, or to property while contained therein or thereon or being loaded or unloaded therein or therefrom from any hazard or cause, and against any loss, liability, or expense resulting from or incident to ownership, maintenance, or use of any such vehicle, aircraft, or animal, together with insurance against accidental death or accidental injury to individuals, including the named insured, while in, entering, alighting from, adjusting, repairing, cranking, or caused by being struck by a vehicle, aircraft, or draft or riding animal, if such insurance is issued as a part of insurance on the vehicle, aircraft, or draft or riding animal; and provisions of medical, hospital, surgical, and disability benefits to injured persons, funeral and death benefits to dependents, beneficiaries or personal representatives of persons killed, irrespective of legal liability of the insured, when issued as an incidental coverage with or supplemental to liability insurance.</p>
+          <p>(Code 1933, § 56-407, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

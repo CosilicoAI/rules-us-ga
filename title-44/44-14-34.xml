@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-34"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-34"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-34/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-34/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-34/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-34/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_34">
+        <num>44-14-34</num>
+        <content>
+          <p>When executed outside this state, mortgages shall be signed by the maker, attested by an officer as provided in Code Section 44-2-15, and attested by one other witness.</p>
+          <p>(Ga. L. 1931, p. 153, § 1; Code 1933, § 67-106; Ga. L. 2015, p. 937, § 4/HB 322.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted the present provisions of this Code section for the former provisions, which read: "When executed outside this state, mortgages may be attested, acknowledged, or probated in the same manner as deeds of bargain and sale."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

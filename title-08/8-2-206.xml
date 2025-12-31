@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-206"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-206"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-206/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-206/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-206/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-206/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_206">
+        <num>8-2-206</num>
+        <content>
+          <p>Code Sections 8-2-207 through 8-2-211 contain generally acceptable compliance alternatives illustrating principles which shall be applied to the rehabilitation of existing buildings by state enforcement authorities and which may be applied by authorized local enforcement authorities in Georgia. It is recognized for purposes of this article that all building systems interact with each other; therefore, any consideration of compliance alternatives should take into account all existing and proposed conditions to determine their acceptability. The compliance alternatives are not all-inclusive and do not preclude consideration and approval of other alternatives by any enforcement authority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

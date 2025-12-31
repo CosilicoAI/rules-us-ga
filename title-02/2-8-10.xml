@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-10"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_10">
+        <num>2-8-10</num>
+        <content>
+          <p>This article shall not apply to the Agricultural Commodity Commission for Peanuts provided for in Article 3 of this chapter, except as provided in Code Section 2-8-13; nor shall this article apply to the Agricultural Commodity Commission for Equines provided for in Article 5 of this chapter; nor shall this article apply to the Agricultural Commodity Commission for Georgia Grown Products provided for in Article 4 of this chapter; nor shall this article apply to the Agricultural Commodity Commission for Propane provided for in Article 6 of this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

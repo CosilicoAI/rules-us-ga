@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-9-18"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-9-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-9-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_9_18">
+        <num>9-9-18</num>
+        <content>
+          <p>Where a party dies or becomes incompetent after making a written agreement to arbitrate, the proceedings may be begun or continued upon the application of, or upon notice to, his executor or administrator or trustee or guardian or, where it relates to real property, his distributee or devisee who has succeeded to his interest in the real property. Upon the death or incompetency of a party, the court may extend the time within which an application to confirm, vacate, or modify the award or to stay arbitration must be made. Where a party has died since an award was delivered, the proceedings thereupon are the same as where a party dies after a verdict.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

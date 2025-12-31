@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-9-5"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-9-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-9-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_9_5">
+        <num>53-9-5</num>
+        <content>
+          <p>Upon petition of the missing individual, the probate court shall revoke the letters of administration or letters testamentary at any time on due and satisfactory proof that the missing individual is in fact alive. After such revocation, all the powers of the personal representative shall cease, but all receipts or disbursements of assets or other acts previously done by the personal representative shall remain valid, and the personal representative shall settle and account for the administration to the time of such revocation and shall transfer all assets remaining to the missing individual or such individual's duly authorized agent or attorney.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

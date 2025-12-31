@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-12-44"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-12-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-12-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_12_44">
+        <num>47-12-44</num>
+        <content>
+          <p>The board of trustees shall transfer to the Employees' Retirement System of Georgia all contributions made to the fund by a member who transfers to the Employees' Retirement System of Georgia; and the Prosecuting Attorneys' Council of the State of Georgia is authorized and directed to pay from the funds appropriated or otherwise available an additional amount equal to the 5 percent contribution of such member plus an additional 20 percent of the contribution, so that the state contribution shall be in accordance with the Employees' Retirement System of Georgia.</p>
+          <p>(Ga. L. 1956, p. 251, § 1; Ga. L. 1993, p. 1402, § 19; Ga. L. 1994, p. 92, § 1; Ga. L. 2009, p. 753, § 11/SB 109.)</p>
+          <p>The 2009 amendment,
+      effective July 1, 2010, near the middle of this Code section, substituted "Prosecuting Attorneys' Council of the State of Georgia" for "commissioner of administrative services" and substituted "or otherwise available" for "for the operating expenses of the superior courts of this state".</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

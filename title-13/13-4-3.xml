@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-4-3"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-4-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-4-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_4_3">
+        <num>13-4-3</num>
+        <content>
+          <p>If the contract is not set forth as the basis of the action, so as to require a denial under oath, an alteration in a material part requires explanation before it can be admitted as evidence. This preliminary proof shall be submitted to the court.</p>
+          <p>(Orig. Code 1863, § 2795; Code 1868, § 2803; Code 1873, § 2854; Code 1882, § 2854; Civil Code 1895, § 3704; Civil Code 1910, § 4298; Code 1933, § 20-804.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

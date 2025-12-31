@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-9-6"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-9-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-9-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_9_6">
+        <num>53-9-6</num>
+        <content>
+          <p>At any time before the expiration of two years after letters or an order for year's support or an order that no administration is necessary is issued regarding the estate of the missing individual, any property received by any spouse or child or other purported heir or beneficiary of the missing individual may be recovered by the missing individual unless the property has been transferred for an adequate consideration to a bona fide purchaser, in which case the amount of the consideration received for such transfer may be recovered from the transferor. No action to recover any property from any spouse, child, or other purported heir or beneficiary or to recover any consideration received by such a person as a result of a transfer of property to a bona fide purchaser may be brought by a missing individual after the expiration of the two-year period set out in this Code section unless the missing individual is a minor, in which case the time for bringing such actions shall be extended to two years from the date the missing individual reaches the age of majority.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

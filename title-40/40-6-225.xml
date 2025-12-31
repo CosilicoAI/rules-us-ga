@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-225"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-225"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-225/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-225/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-225/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-225/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_225">
+        <num>40-6-225</num>
+        <content>
+          <p>Any business entity may elect to designate parking places for persons with disabilities for the nonambulatory. Such parking places for the nonambulatory shall be in addition to any parking places for persons with disabilities required by Chapter 3 of Title 30. Such parking places for the nonambulatory shall be clearly marked by a sign bearing the words "Parking for Persons with Disabilities - nonambulatory persons only." Such parking places for the nonambulatory shall be utilized only for the purpose of allowing a nonambulatory permanently disabled person to enter or exit a vehicle while in such parking place. A vehicle in a parking place for the nonambulatory shall be required to have a valid unexpired parking permit for persons with disabilities or a specially designated license plate for disabled persons authorized under Code Section 40-2-74 or 40-2-74.1. For the purposes of this Code section, the term "nonambulatory permanently disabled person" means a person who is permanently disabled as a result of the loss or loss of use of one or both legs and who is dependent upon crutches, a walker, or a wheelchair for locomotion.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

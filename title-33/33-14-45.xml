@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-14-45"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-45"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-14-45/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-45/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-14-45/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-45/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_14_45">
+        <num>33-14-45</num>
+        <content>
+          <p>A domestic stock insurer may have one or more classes of common or preferred shares, all of which shall be shares with par value in accordance with paragraph (5) of subsection (b) of Code Section 33-14-4 and any or all of which may, subject to any restrictions of this title, consist of shares with full, limited, multiple, fractional, or no voting rights and such designations, preferences, qualifications, privileges, limitations, redemption provisions (in the case of preferred shares), options, conversion rights, and other special rights as shall be stated in this article.Except as otherwise stated in this article, this title, or other applicable laws, each share shall be equal in all respects to every other share.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-13-76"/>
+          <FRBRuri value="/us-ga/act/ocga/48-13-76"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-13-76/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-13-76/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-13-76/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-13-76/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_13_76">
+        <num>48-13-76</num>
+        <content>
+          <p>(Ga. L. 1929, p. 84, § 1; Ga. L. 1931, Ex. Sess., p. 76, § 1; Code 1933, § 92-2401; Ga. L. 1935, p. 11, § 2; Ga. L. 1951, p. 157, § 5a; Ga. L. 1952, p. 371, § 1; Ga. L. 1957, p. 107, § 1; Ga. L. 1965, p. 344, § 1; Ga. L. 1976, p. 1580, § 1; Code 1933, § 91A-6307, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1979, p. 5, § 109.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

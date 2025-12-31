@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-4-73"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-73"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-4-73/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-73/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-4-73/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-73/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_4_73">
+        <num>4-4-73</num>
+        <content>
+          <p>For the purpose of matching available federal funds where state funds are insufficient, the Governor may transfer money from any available funds in the state treasury to a program of eradication of a contagious or infectious disease, which program is supported by federal funds, contingent on matching state funds. The money so transferred shall be repaid to the fund from which it was taken when money becomes available for that purpose by legislative appropriation or otherwise.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 480, § 23.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

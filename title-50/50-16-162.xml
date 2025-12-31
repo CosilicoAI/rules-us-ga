@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-162"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-162"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-162/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-162/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-162/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-162/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_162">
+        <num>50-16-162</num>
+        <content>
+          <p>The state accounting officer is authorized and directed to adopt and promulgate such rules and regulations establishing those items of personal property required to be kept on the inventory records of all offices, agencies, departments, boards, bureaus, commissions, institutions, authorities, or other entities of the state as may be necessary to carry out this part.</p>
+          <p>(Code 1933, § 91-803a, enacted by Ga. L. 1971, p. 400, § 1; Ga. L. 2005, p. 117, § 29/HB 312.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

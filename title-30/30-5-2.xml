@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/30-5-2"/>
+          <FRBRuri value="/us-ga/act/ocga/30-5-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/30-5-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/30-5-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/30-5-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/30-5-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_30_5_2">
+        <num>30-5-2</num>
+        <content>
+          <p>The purpose of this chapter is to provide protective services for abused, neglected, or exploited disabled adults and elder persons. It is not the purpose of this chapter to place restrictions upon the personal liberty of disabled adults or elder persons, but this chapter should be liberally construed to assure the availability of protective services to all disabled adults and elder persons in need of them.</p>
+          <p>(Ga. L. 1981, p. 1320, § 2; Ga. L. 1997, p. 700, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

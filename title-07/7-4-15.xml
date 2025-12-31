@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-4-15"/>
+          <FRBRuri value="/us-ga/act/ocga/7-4-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-4-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-4-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-4-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-4-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_4_15">
+        <num>7-4-15</num>
+        <content>
+          <p>All liquidated demands, where by agreement or otherwise the sum to be paid is fixed or certain, bear interest from the time the party shall become liable and bound to pay them; if payable on demand, they shall bear interest from the time of the demand. In case of promissory notes payable on demand, the law presumes a demand instantly and gives interest from date.</p>
+          <p>(Laws 1799, Cobb's 1851 Digest, p. 405; Ga. L. 1858, p. 90, § 1; Code 1863, § 2029; Code 1868, § 2030; Code 1873, § 2056; Code 1882, § 2056; Civil Code 1895, § 2884; Civil Code 1910, § 3434; Code 1933, § 57-110.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

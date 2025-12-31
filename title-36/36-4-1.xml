@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-4-1"/>
+          <FRBRuri value="/us-ga/act/ocga/36-4-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-4-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-4-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-4-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-4-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_4_1">
+        <num>36-4-1</num>
+        <content>
+          <p>Whenever two-fifths of the electors of any county who are qualified to vote for members of the General Assembly, as shown by the registration list last made out, shall petition the judge of the probate court for the removal or change of the county site of the county, the judge of the probate court shall at once grant an order directing an election to be held at the various election precincts in the county not less than 40 nor more than 60 days thereafter. The petition shall state where the new county site is to be located. Notice of the election shall be published weekly for four weeks previous to the day of the election in the newspaper in which the sheriff publishes his legal notices. All persons qualified to vote for members of the General Assembly shall be qualified to vote at the election. Elections under this Code section shall not occur more often than once in five years.</p>
+          <p>(Ga. L. 1878-79, p. 44, § 1; Code 1882, § 508x; Ga. L. 1887, p. 39, § 1; Civil Code 1895, § 391; Civil Code 1910, § 486; Ga. L. 1911, p. 54, § 1; Code 1933, § 23-501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

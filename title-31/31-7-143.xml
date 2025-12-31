@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-143"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-143"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-143/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-143/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-143/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-143/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_143">
+        <num>31-7-143</num>
+        <content>
+          <p>The proceedings and records of medical review committees shall not be subject to discovery or introduction into evidence in any civil action against a provider of professional health services arising out of the matters which are the subject of evaluation and review by such committee; and no person who was in attendance at a meeting of such committee shall be permitted or required to testify in any such civil action as to any evidence or other matters produced or presented during the proceedings of such committee or as to any findings, recommendations, evaluations, opinions, or other actions of such committee or any members thereof. However, information, documents, or records otherwise available from original sources shall not be construed as immune from discovery or use in any such civil action merely because they were presented during proceedings of such committee; nor shall any person who testifies before such committee or who is a member of such committee be prevented from testifying as to matters within his knowledge, provided that such witness may not be questioned regarding his testimony before such a committee or opinions formed by him as a result of such committee hearings.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-391"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-391"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-391/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-391/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-391/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-391/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_391">
+        <num>20-2-391</num>
+        <content>
+          <p>In order for any county board of education to borrow money for the purposes stated in Code Section 20-2-390, there shall be passed by the county board a resolution authorizing the money to be borrowed, in which resolution shall be stated the amount of money to be borrowed, the length of time it is to be used, the rate of interest to be paid, for what purpose borrowed, and from whom it is to be borrowed, which resolution shall be recorded on the minutes of the meetings of the county board by the county school superintendent.</p>
+          <p>(Ga. L. 1919, p. 288, § 96; Code 1933, § 32-922.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

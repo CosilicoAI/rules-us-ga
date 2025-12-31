@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-720"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-720"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-720/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-720/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-720/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-720/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_720">
+        <num>7-1-720</num>
+        <content>
+          <p>When an international banking corporation licensed to maintain an international bank agency in this state is dissolved or its authority or existence is otherwise terminated or canceled in the jurisdiction of its incorporation, a certificate of the official responsible for records of banking corporations of the jurisdiction of incorporation of such international banking corporation attesting to the occurrence of any such event or a certified copy of an order or decree of a court of such jurisdiction directing the dissolution of such international banking corporation or the termination of its existence or the cancellation of its authority shall be delivered to the department. The filing of the certificate, order, or decree shall have the same effect as the revocation of such international banking corporation's license as provided in subsection (d) of Code Section 7-1-716. The department shall continue as agent of the international banking corporation upon whom process against it may be served in any action based upon any liability or obligation incurred by the international banking corporation within this state prior to the filing of such certificate, order, or decree; and it shall promptly cause a copy of such process to be mailed by registered or certified mail or statutory overnight delivery, return receipt requested, to such international banking corporation at the post office address specified for such purpose on file with the department.</p>
+          <p>(Ga. L. 1972, p. 1140, § 11; Code 1933, § 41A-3311, enacted by Ga. L. 1974, p. 705, § 1; Ga. L. 2000, p. 1589, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

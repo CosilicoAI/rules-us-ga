@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-12-1"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-12-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-12-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_12_1">
+        <num>25-12-1</num>
+        <content>
+          <p>It is unlawful for any firm to engage in the business of installing, inspecting, recharging, repairing, servicing, or testing of portable fire extinguishers or fire suppression systems, as defined by this chapter, in this state except in conformity with the provisions of this chapter. Each firm engaging in any such business must possess a valid and subsisting license issued by the Commissioner. Such license shall not be required for any firm or governmental entity that engages only in installing, inspecting, recharging, repairing, servicing, or testing of portable fire extinguishers or fire suppression systems owned by the firm and installed on property under the control of said firm. Such firms shall remain subject to the rules and regulations adopted pursuant to this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

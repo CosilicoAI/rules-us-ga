@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-8-41"/>
+          <FRBRuri value="/us-ga/act/ocga/12-8-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-8-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-8-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-8-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-8-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_8_41">
+        <num>12-8-41</num>
+        <content>
+          <p>The department shall provide by rule or regulation for the regulation and permitting of any land disposal site that receives septic tank waste from any one or more septic tank pumping and hauling businesses. Any new permit issued for such type of site on or after July 1, 2007, shall be issued by the department under this Code section. Any such type of site that as of June 30, 2007, operated under a valid permit issued on or before such date by the Department of Human Resources (now known as the Department of Public Health for these purposes) under Code Section 31-2A-12 may continue to operate under such Code section until July 1, 2014, but a permit shall be obtained from the department under this Code section prior to such date in order to continue such operation thereafter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

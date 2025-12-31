@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-15-127"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-127"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-15-127/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-127/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-15-127/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-127/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_15_127">
+        <num>34-15-127</num>
+        <content>
+          <p>The revision effective July 1, 2007, rewrote this rule.</p>
+          <p>The revision effective July 1, 2009, substituted "self-insurer's member information annual update, or provided in the trading partner agreement between insurers, self-insured employers, group self-insurers, designated claims offices (TPAs) and their EDI vendor for Electronic Data Interchange (EDI)" for "or annual update" in this rule.</p>
+          <p>The revision effective July 16, 2018, deleted ", or provided in the trading partner agreement between insurers, self-insured employers, group self-insurers, designated claims offices (TPAs) and their EDI vendor for Electronic Data Interchange (EDI)" following "annual update".</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

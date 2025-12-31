@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-14-12"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-14-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-14-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_14_12">
+        <num>31-14-12</num>
+        <content>
+          <p>No person having active tuberculosis who, in his or her home or other place, obeys the rules and regulations of the department and county boards of health for the control of active tuberculosis or who voluntarily accepts care in a hospital or facility operated for the care of tuberculosis, in his or her home, or in another place and who obeys the rules and regulations of the department and completes the prescribed course of therapy for the control of active tuberculosis shall be committed as prescribed in this chapter.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 348, § 13; Code 1933, § 88-713, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1985, p. 620, § 6; Ga. L. 2005, p. 1513, § 1/SB 56.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

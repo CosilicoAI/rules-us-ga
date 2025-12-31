@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/29-7-4"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/29-7-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/29-7-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_7_4">
+        <num>29-7-4</num>
+        <content>
+          <p>Where a petition is filed for the appointment of a VA guardian for a mentally incompetent ward, a certificate of the secretary or the secretary's duly authorized representative stating that such individual has been rated incompetent by the department on examination in accordance with the laws and regulations governing the department and that the appointment of a VA guardian is a condition precedent to the payment of any moneys due such ward by the department shall be prima-facie evidence of the necessity for the appointment of a VA guardian. The courts are authorized to appoint a VA guardian for an incompetent ward entitled to any benefits which may be payable to a ward by the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

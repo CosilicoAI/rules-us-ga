@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-39"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_39">
+        <num>43-34-39</num>
+        <content>
+          <p>In addition to any other remedy or criminal prosecution, whenever it shall appear to the board that any person, firm, company, partnership, association, or corporation or the agent, officer, or director of such firm, company, partnership, association, or corporation is or has been violating any of the provisions of this article or any of the laws of the state relating to the practice of medicine, the board may, on its own motion or on the verified complaint in writing of any person, file a complaint in its own name in the superior court having venue and jurisdiction over the parties, alleging the facts and praying for a temporary restraining order and an injunction and permanent injunction against such person, firm, company, partnership, association, or corporation, including any agent, officer, or director of same, restraining him or her from violating such law. Upon proof thereof, the court shall issue such restraining order, injunction, and permanent injunction without requiring allegation or proof that the petitioner therefor has no adequate remedy at law. No restraining order or injunction, whether temporary, permanent, or otherwise, shall be granted without a hearing after at least ten days' notice. It is declared that such violation of this article is a menace and a nuisance dangerous to the public health, safety, and welfare.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-17"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_20E_17">
+        <num>33-20E-17</num>
+        <content>
+          <p>Following the resolution of arbitration, the Commissioner may refer the decision of the arbitrator to the appropriate state agency or the governing entity with governing authority over such provider or facility if the Commissioner concludes that a provider or facility has either displayed a pattern of acting in violation of this chapter or has failed to comply with a lawful order of the Commissioner or the arbitrator. Such referral shall include a description of such violations and the Commissioner's recommendation for enforcement action. Such state agency or governing entity shall initiate an investigation regarding such referral within 30 days of receiving such referral and shall conclude the investigation within 90 days of receiving such referral.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

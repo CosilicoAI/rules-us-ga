@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-837"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-837"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-837/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-837/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-837/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-837/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_837">
+        <num>10-1-837</num>
+        <content>
+          <p>In lieu of obtaining the bond required by Code Section 10-1-832, any operator may place all entrants' fees in an escrow account from which the operator cannot and does not withdraw any funds until the pageant has been held and all awards have been made.If the operator elects this option, in lieu of the information required by paragraph (6) of Code Section 10-1-831 the operator shall provide in the written statement the name, address, and telephone number of the financial institution where the escrow account is maintained and the account number of the escrow account. The operator shall maintain a record of each escrow account established for a period of five years.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

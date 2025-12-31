@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-6"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_6">
+        <num>34-9-6</num>
+        <content>
+          <p>So far as concerns the State of Georgia or any department thereof which has been operating under the terms of this chapter, the state and such departments thereof shall be deemed to have been included in the original Act under the definition of "employer." Any payments heretofore made under awards of the Industrial Board to state employees are ratified and confirmed and any payments of awards which were being made by the state or any of its departments on or before February 1, 1943, but discontinued because of exclusion of the state and its departments from the definition of "employer" shall be resumed as of the date of discontinuance; and compensable accidents which occurred prior to the passage of this chapter for which awards were not made but for which awards are hereafter made shall be paid by the state or the departments thereof in the same manner as other awards heretofore or hereafter made.</p>
+          <p>(Code 1933, § 114-101.1, enacted by Ga. L. 1943, p. 401, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

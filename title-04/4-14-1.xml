@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-14-1"/>
+          <FRBRuri value="/us-ga/act/ocga/4-14-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-14-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-14-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-14-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-14-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_14_1">
+        <num>4-14-1</num>
+        <content>
+          <p>The General Assembly finds that the breeding of dogs and cats acquired from public or private animal shelters, animal control agencies operated by political subdivisions of this state, humane societies, or public or private animal refuges in the State of Georgia results in the birth of thousands of animals who become strays, suffer privation and death, constitute a public nuisance and health hazard, and, ultimately, are impounded and destroyed at great public expense.It is therefore declared to be the public policy of this state that preventing the breeding of dogs and cats acquired from such shelters, animal control agencies, humane societies, or public or private animal refuges be encouraged.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

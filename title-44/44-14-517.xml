@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-517"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-517"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-517/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-517/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-517/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-517/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_517">
+        <num>44-14-517</num>
+        <content>
+          <p>Pursuant to the authority granted to states by Section 107 of Title I of the federal Superfund Amendments and Reauthorization Act of 1986, P.L. 99-499, 100 STAT. 1613, 1630, all liens imposed pursuant to such federal act shall be filed in the office of the clerk of the superior court of the county in this state in which the real property subject to the lien is located and shall be filed in the same manner as deeds are recorded.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-791"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-791"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-791/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-791/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-791/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-791/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_791">
+        <num>7-1-791</num>
+        <content>
+          <p>Except as provided in Article 8 of this chapter, upon the death of a depositor of a savings and loan association, such association may pay the amount of his deposit or any portion thereof to an executor, administrator, or other fiduciary duly appointed and qualified pursuant to the last will and testament of the depositor or by any court of competent jurisdiction in this state or any other state.</p>
+          <p>(Ga. L. 1937-38, Ex. Sess., p. 307, § 16; Ga. L. 1958, p. 620, § 1; Code 1933, § 41A-3523, enacted by Ga. L. 1974, p. 705, § 1; Ga. L. 1975, p. 445, § 43; Ga. L. 1976, p. 1388, § 6; Ga. L. 1983, p. 661, § 2; Ga. L. 2016, p. 390, § 7-4/HB 811.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

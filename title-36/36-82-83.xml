@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-83"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_83">
+        <num>36-82-83</num>
+        <content>
+          <p>When a hospital authority created and operating under Article 4 of Chapter 7 of Title 31, the "Hospital Authorities Law," is authorized to confirm and validate revenue bonds in accordance with the procedures of this article, and such an authority is located in more than one county, such bonds shall be confirmed and validated in the superior court of the county in which the principal office of the authority is located; and, where the authority is located in more than one judicial circuit, notice provided for the district attorney shall be served upon the district attorney of the judicial circuit in which the principal office of such an authority is located, in accordance with this article, which district attorney shall have the duties, privileges, and responsibilities and shall exercise the powers provided for district attorneys in revenue bond validation proceedings under this chapter.</p>
+          <p>(Ga. L. 1950, p. 20, § 2; Ga. L. 1957, p. 36, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

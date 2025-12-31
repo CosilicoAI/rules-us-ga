@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-92"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_92">
+        <num>50-8-92</num>
+        <content>
+          <p>A commission shall prepare and adopt and from time to time amend, change, or repeal, after appropriate study and such public hearings as may be deemed necessary, comprehensive development guides for its area. The development guides shall consist of policy statements, goals, standards, programs, and maps prescribing an orderly and economic development, public and private, of the area. The development guides shall be based upon and encompass physical, economic, and health needs of the area and shall take into consideration future development which may have an impact on the area including, but not limited to, such matters as land use not including zoning, water and sewerage systems, storm drainage systems, parks and open spaces, land needs and the location of airports, highways, transit facilities, hospitals, public buildings, and other community facilities and services.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

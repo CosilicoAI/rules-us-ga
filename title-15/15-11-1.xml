@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-11-1"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-11-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-11-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_11_1">
+        <num>15-11-1</num>
+        <content>
+          <p>The purpose of this chapter is to secure for each child who comes within the jurisdiction of the juvenile court such care and guidance, preferably in his or her own home, as will secure his or her moral, emotional, mental, and physical welfare as well as the safety of both the child and community. It is the intent of the General Assembly to promote a juvenile justice system that will protect the community, impose accountability for violations of law, provide treatment and rehabilitation, and equip juvenile offenders with the ability to live responsibly and productively. It is the intent of the General Assembly to preserve and strengthen family relationships, countenancing the removal of a child from his or her home only when state intervention is essential to protect such child and enable him or her to live in security and stability. In every proceeding, this chapter seeks to guarantee due process of law, as required by the Constitutions of the United States and the State of Georgia, through which every child and his or her parent and all other interested parties are assured fair hearings at which legal rights are recognized and enforced. Above all, this chapter shall be liberally construed to reflect that the paramount child welfare policy of this state is to determine and ensure the best interests of its children.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

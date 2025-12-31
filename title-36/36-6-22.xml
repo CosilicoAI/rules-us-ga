@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-6-22"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-6-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-6-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_6_22">
+        <num>36-6-22</num>
+        <content>
+          <p>It shall be the duty of the judge of the probate court or county governing authority to compel the treasurers of the county to come before the court or governing authority at such times as may be designated by the judge or governing authority, not less than twice in each year, to render an account of his official actings and doings respecting the county tax and funds and to make a full and complete exhibit of his books, vouchers, accounts, and all things pertaining to his office.</p>
+          <p>(Ga. L. 1882-83, p. 82, § 1; Civil Code 1895, § 418; Civil Code 1910, § 527; Code 1933, § 23-1024; Ga. L. 1982, p. 3, § 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

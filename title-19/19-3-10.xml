@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-3-10"/>
+          <FRBRuri value="/us-ga/act/ocga/19-3-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-3-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-3-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-3-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-3-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_3_10">
+        <num>19-3-10</num>
+        <content>
+          <p>A married person may make contracts with other persons; but, when a transaction between a husband and wife is attacked for fraud by the creditors of either, the onus shall be on the husband and wife to show that the transaction was fair. If a husband or a wife has a separate estate and purchases property from persons other than his or her spouse, the onus shall be upon a creditor levying on such property as the property of the other spouse to show fraud or to show that the husband or wife did not have the means with which to purchase the property.</p>
+          <p>(Civil Code 1895, § 2492; Civil Code 1910, § 3011; Code 1933, § 53-505; Ga. L. 1979, p. 466, § 35.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

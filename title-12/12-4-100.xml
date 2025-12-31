@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-4-100"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-4-100/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-4-100/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_4_100">
+        <num>12-4-100</num>
+        <content>
+          <p>Whenever any person discovers phosphate rock or phosphatic deposits in the navigable streams or waters of this state or in any public land on their banks or margins and files with the Secretary of State notice of such discovery and a description of the location thereof, he shall be entitled to receive from the Secretary of State a license giving him or his assigns the exclusive right, for ten years from the date of the license, of digging, mining, and removing from such location and from an area for a distance of five miles in any or all directions therefrom the phosphate rock and phosphatic deposits that may be found therein, provided that persons receiving or holding such licenses shall in no way interfere with the free navigation of the streams and waters or the private rights of any citizen residing on or owning the lands upon the banks of such navigable rivers and waters; provided, further, that as long as the license remains in effect, no person, natural or artificial, shall have the privilege of locating a claim within 20 miles of any other claim for which he has received a license.</p>
+          <p>(Ga. L. 1884-85, p. 125, § 1; Civil Code 1895, § 1726; Civil Code 1910, § 1977; Code 1933, § 43-401.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

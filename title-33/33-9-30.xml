@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-9-30"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-9-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-9-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_9_30">
+        <num>33-9-30</num>
+        <content>
+          <p>In addition to other penalties provided in this title, the Commissioner, by order pursuant to Code Section 33-9-29, may suspend or revoke, in whole or in part, the license of any rating organization or the certificate of authority of any insurer with respect to the class or classes of insurance specified in such order if such entity fails to comply within the time limited by such order or any extension thereof that the Commissioner may grant.</p>
+          <p>(Code 1933, § 56-531, enacted by Ga. L. 1967, p. 684, § 1; Ga. L. 2019, p. 337, § 1-51/SB 132.)</p>
+          <p>The 2019 amendment,
+      effective July 1, 2019, inserted ", by order pursuant to Code Section 33-9-29," near the beginning, substituted "if such entity fails" for "which fails" in the middle, and substituted "that the Commissioner" for "which the Commissioner" and deleted "with an order of the Commissioner lawfully made by him pursuant to Code Section 33-9-29" following "may grant" at the end of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

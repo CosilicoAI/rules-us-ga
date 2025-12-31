@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-49-1"/>
+          <FRBRuri value="/us-ga/act/ocga/31-49-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-49-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-49-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-49-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-49-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_49_1">
+        <num>31-49-1</num>
+        <content>
+          <p>The General Assembly finds and declares that it is estimated that as many as 55,000 Georgia residents suffer from lupus, a life-long autoimmune disease in which the immune system becomes unbalanced, causing inflammation, tissue damage, seizures, strokes, heart attacks, miscarriages, and organ failure. Although anyone can develop lupus, it strikes mostly women of childbearing age; African American, Hispanic, Asian, and Native American women are two to three times more likely than Caucasians to develop lupus. Lupus can be difficult to diagnose and often is misdiagnosed because the symptoms are similar to those of other illnesses. It is in the public interest for this state to establish an entity to develop and implement a comprehensive program to improve education and awareness about lupus for health care providers and the general public.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

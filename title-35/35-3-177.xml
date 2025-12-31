@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-3-177"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-177"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-3-177/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-177/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-3-177/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-177/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_3_177">
+        <num>35-3-177</num>
+        <content>
+          <p>Before requesting activation of the alert system, a law enforcement agency shall verify that the criteria described by subsection (a) of Code Section 35-3-176 have been satisfied. The law enforcement agency shall assess the appropriate boundaries of the alert, based on the nature of the disabled adult or medically endangered person and the circumstances surrounding the disappearance. On verification of the criteria, the law enforcement agency shall immediately contact the bureau to request activation and shall supply the necessary information on the forms prescribed by the director.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

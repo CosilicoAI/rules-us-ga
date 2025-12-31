@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-264"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-264"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-264/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-264/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-264/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-264/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_264">
+        <num>10-1-264</num>
+        <content>
+          <p>The state fire marshal is authorized to appoint and employ such assistants and employees, fix their salaries, and assign and delegate such duties and responsibilities as he or she may deem necessary to carry out this article in an efficient manner.</p>
+          <p>(Ga. L. 1949, p. 1128, § 6; Ga. L. 1955, p. 221, § 4; Ga. L. 1992, p. 2134, § 2; Ga. L. 2017, p. 774, § 10/HB 323.)</p>
+          <p>The 2017 amendment,
+      effective May 9, 2017, part of an Act to revise, modernize, and correct the Code, substituted "he or she" for "he" near the middle of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

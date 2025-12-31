@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-269"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-269"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-269/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-269/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-269/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-269/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_269">
+        <num>10-1-269</num>
+        <content>
+          <p>The state fire marshal, upon ten days' written notice in the form of a show cause order to the licensee stating his contemplated action and in general the grounds therefor and after giving the licensee a reasonable opportunity to be heard, subject to the right to review provided in Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," may, by order in writing, suspend or revoke any license issued under this article or, in lieu thereof, may assess a penalty against said licensee in an amount not to exceed $1,000.00, if the state fire marshal shall find:</p>
+          <p>(Ga. L. 1960, p. 143, § 2; Ga. L. 1990, p. 647, § 2; Ga. L. 1992, p. 2134, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

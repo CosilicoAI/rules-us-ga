@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-3-17"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-3-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-3-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_3_17">
+        <num>7-3-17</num>
+        <content>
+          <p>The tax provided for in Code Section 7-3-16 shall be remitted to the department at the time and in the manner specified by rules and regulations of the department. The department and its authorized examiners and employees shall have the right to inspect all records of any person so licensed, and the department is authorized to promulgate rules and regulations relative to the enforcement of Code Section 7-3-16, this Code section, and Code Section 7-3-18.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

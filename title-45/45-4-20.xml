@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-4-20"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-4-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-4-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_4_20">
+        <num>45-4-20</num>
+        <content>
+          <p>Whenever any officer required by law to give an official bond shall act under a bond which is not payable and conditioned or not approved and filed as prescribed by law, such bond shall not be void but shall stand in the place of the official bond, subject, on its condition being broken, to all the remedies, including actions, which the persons aggrieved might have maintained on the official bond.</p>
+          <p>(Orig. Code 1863, § 161; Code 1868, § 156; Code 1873, § 167; Code 1882, § 167; Civil Code 1895, § 263; Civil Code 1910, § 298; Code 1933, § 89-419.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

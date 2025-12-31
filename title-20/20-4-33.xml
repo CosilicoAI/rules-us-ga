@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-4-33"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-4-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-4-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_4_33">
+        <num>20-4-33</num>
+        <content>
+          <p>Employees of postsecondary technical schools governed by the system shall receive days off with pay, the total of which in any year shall not exceed the total of the number of state holidays provided by Code Section 1-4-1 and the number of annual leave days authorized by the rules and regulations of the State Personnel Board. The state board may, by policy, establish conditions regulating such days off with pay. Such employees shall accrue annual leave as provided for by the rules and regulations of the State Personnel Board. For the purpose of determining the number of annual leave days authorized to be accrued by the rules and regulations of the State Personnel Board, years of experience in the employment of local boards of education or area postsecondary technical education boards shall be counted as years of experience in the employment of postsecondary technical schools governed by the system.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

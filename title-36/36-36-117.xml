@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-36-117"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-117"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-36-117/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-117/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-36-117/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-117/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_36_117">
+        <num>36-36-117</num>
+        <content>
+          <p>If the annexation is completed after final resolution of any objection, whether by agreement of the parties, act of the panel, or court order as a result of an appeal, the municipal corporation shall not change the zoning, land use, or density of the annexed property for a period of one year unless such change is made in the service delivery agreement or comprehensive plan and adopted by the affected city and county and all required parties. Following the conclusion of the dispute resolution process outlined in this article, the municipal corporation and an applicant for annexation may either accept the recommendations of the arbitration panel and proceed with the remaining annexation process or abandon the annexation proceeding. A violation of the conditions set forth in this Code section may be enforced thereafter at law or in equity until such conditions have expired as provided in this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

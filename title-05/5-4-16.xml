@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-4-16"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-4-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-4-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_4_16">
+        <num>5-4-16</num>
+        <content>
+          <p>If after the hearing the certiorari is sustained and a final decision thereon is made by the superior court, the plaintiff may have judgment entered for the amount recovered by him in the court below, the costs paid to obtain the certiorari, and the costs in the superior court. If the certiorari is returned to the court below for a new hearing, the plaintiff shall have judgment entered for the costs in the superior court only, leaving the costs paid to obtain the certiorari to be awarded upon the final trial below.</p>
+          <p>(Orig. Code 1863, § 3977; Code 1868, § 3998; Code 1873, § 4070; Code 1882, § 4070; Civil Code 1895, § 4655; Civil Code 1910, § 5204; Code 1933, § 19-504.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

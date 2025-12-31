@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-69"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-69"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-69/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-69/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-69/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-69/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_69">
+        <num>20-2-69</num>
+        <content>
+          <p>Each local board of education shall issue high school diplomas to veterans who failed to receive diplomas due to an interruption of their education by service in World War II. The local board of education of the school district where the veteran attended high school shall award the high school diploma to such veteran. A veteran shall make application for a diploma to the appropriate local board of education and furnish proof that such person is a World War II veteran who had his or her education interrupted as a result of service in World War II. Honorably discharged veterans who served in World War II between September 16, 1940, and December 31, 1946, and who did not graduate from high school are eligible for a diploma; provided, however, that attendance in high school ranging from 1937-1946 with graduation class years ranging from 1941-1950 is required. Veterans who qualify under this Code section and who have earned a general educational development (GED) diploma are also eligible for a high school diploma. Diplomas may be awarded posthumously. The local board of education is encouraged to present such diplomas to World War II veterans on or near Veterans Day to bring to the attention of students the importance of such day and the great sacrifices made by World War II veterans.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

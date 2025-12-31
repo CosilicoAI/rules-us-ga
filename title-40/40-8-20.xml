@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-8-20"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-8-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-8-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_8_20">
+        <num>40-8-20</num>
+        <content>
+          <p>Every vehicle upon a highway within this state at any time from a half-hour after sunset to a half-hour before sunrise and at any time when it is raining in the driving zone and at any other time when there is not sufficient visibility to render clearly discernible persons and vehicles on the highway at a distance of 500 feet ahead shall display lights, including headlights, and illuminating devices as required in this part for different classes of vehicles, subject to exceptions with respect to parked vehicles as stated in this part.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

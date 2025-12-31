@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-4-187"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-187"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-4-187/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-187/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-4-187/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-187/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_4_187">
+        <num>49-4-187</num>
+        <content>
+          <p>An applicant who moves into this state after receiving assistance from another state under Part A of Title IV of the federal Social Security Act, as amended, if otherwise eligible to receive assistance under the Georgia TANF Program, shall receive the same level of assistance for the same period of time under the same requirements and restrictions as a resident of this state; provided, however, that for a period not to exceed 12 months, such applicant shall receive the same amount of cash assistance as that applicant received in his or her previous state of residence, if such amount is lower than the amount of cash assistance paid to a comparable family unit in this state; provided, further, that an applicant who moves into this state shall be eligible to receive cash assistance for the same time period for which he or she would have been eligible in his or her previous state of residence, if such time period is shorter than the maximum time period permitted for receipt of assistance in this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

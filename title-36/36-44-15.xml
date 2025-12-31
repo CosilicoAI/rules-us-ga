@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-44-15"/>
+          <FRBRuri value="/us-ga/act/ocga/36-44-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-44-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-44-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-44-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-44-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_44_15">
+        <num>36-44-15</num>
+        <content>
+          <p>For the purpose of fixing the tax millage rate to fund the annual budget of each political subdivision or county or independent board of education having the power to levy taxes or set ad valorem tax millage rates on property located within a tax allocation district, which has consented to the inclusion of its ad valorem property taxes for the computation of tax allocation increments as provided in Code Section 36-44-9, the taxable value of property subject to ad valorem property taxes within a tax allocation district shall not exceed the tax allocation increment base of the district until the district is terminated. Nothing in this chapter shall be construed to freeze the ad valorem tax millage rate of any political subdivision or county or independent board of education consenting to the inclusion of its ad valorem property taxes as a basis for computing tax allocation increments, and any such rate may be increased or decreased at any time after the creation of a tax allocation district in the same manner and under the same authority that such rate has been previously fixed by such political subdivision or county or independent board of education.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-34-7"/>
+          <FRBRuri value="/us-ga/act/ocga/33-34-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-34-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-34-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-34-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-34-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_34_7">
+        <num>33-34-7</num>
+        <content>
+          <p>Upon the death of or termination of the marital relationship of a named insured under a personal lines policy of insurance covering a private passenger motor vehicle, a spouse of said named insured who was covered under said policy of insurance immediately prior to the death or termination of the marital relationship shall upon notice to the insurer or agent of the insurer continue to be covered under said policy for a period of 90 days following such death or termination of marital relationship or until the expiration of the policy term, whichever is shorter.Every personal lines policy of insurance covering a private passenger motor vehicle shall contain a provision providing the coverage required by this Code section; and in the absence of such a provision in such a policy the policy shall be deemed to contain such a provision.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

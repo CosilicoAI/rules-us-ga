@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-39-20"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-39-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-39-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_39_20">
+        <num>43-39-20</num>
+        <content>
+          <p>Any psychologist licensed under this article who testifies in good faith without fraud or malice in any proceeding relating to a licensee's or applicant's fitness to practice psychology, or who in good faith and without fraud or malice makes a report or recommendation to the board in the nature of peer review, shall be immune from civil and criminal liability for such actions.No psychologist licensed under this article who serves as a supervising or monitoring psychologist pursuant to a public or private order of the board shall be liable for any damages in an action brought by the supervised or monitored psychologist, provided that the supervising or monitoring psychologist was acting in good faith without fraud or malice.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

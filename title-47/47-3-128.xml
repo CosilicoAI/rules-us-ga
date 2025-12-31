@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-3-128"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-128"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-3-128/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-128/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-3-128/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-128/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_3_128">
+        <num>47-3-128</num>
+        <content>
+          <p>If a person's membership ceases other than by death or retirement from this retirement system, the amount of his or her accumulated contributions to this retirement system shall be payable to the member upon such person's request after the date the person has terminated employment with a school system, institution of higher learning, or agency covered by this retirement system. The board of trustees shall allow a person requesting such payment of accumulated contributions to elect to have the taxable portion of such payment made directly to an eligible retirement plan as defined in the federal Internal Revenue Code.</p>
+          <p>(Ga. L. 1943, p. 640, § 5; Ga. L. 1964, p. 669, § 2; Ga. L. 1966, p. 513, § 3; Ga. L. 1969, p. 388, § 3; Ga. L. 1971, p. 620, § 2; Ga. L. 1993, p. 732, § 1; Ga. L. 2005, p. 535, § 15/HB 460.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

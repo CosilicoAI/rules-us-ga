@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-4-36"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-36"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-4-36/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-36/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-4-36/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-36/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_4_36">
+        <num>38-4-36</num>
+        <content>
+          <p>In executing this part, the Governor may direct any department, division, board, bureau, commission, or other administrative agency of the state to provide such facilities, including personnel, materials, assistance, information, and data as will enable the Department of Veterans Service or the commissioner properly to utilize the same in performance of the duties prescribed by this part.</p>
+          <p>(Ga. L. 1947, p. 1143, § 22; Ga. L. 1949, p. 539, § 8; Ga. L. 1983, p. 1401, § 12.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

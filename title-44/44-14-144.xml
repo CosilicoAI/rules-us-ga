@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-144"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-144"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-144/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-144/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-144/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-144/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_144">
+        <num>44-14-144</num>
+        <content>
+          <p>This article shall not apply to any mortgage, bill of sale to secure debt, retention of title contract, deed of trust, or other security instrument creating a lien on, retaining title to, or conveying an interest in property owned by, sold or leased to, or agreed to be sold or leased to any railroad corporation, street railroad corporation, electric or gas corporation, or other public utility corporation or any receivers, trustees, or other legal officers in possession of or operating any railroad corporation, street railroad corporation, electric or gas corporation, or other public utility corporation.</p>
+          <p>(Ga. L. 1943, p. 540, § 1; Ga. L. 1950, p. 33, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-114"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-114"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-114/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-114/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-114/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-114/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_114">
+        <num>32-6-114</num>
+        <content>
+          <p>The department, a county, or a municipality may designate and establish limited-access roads as new or additional facilities or may designate or establish existing public roads to be limited-access roads. The department or the counties or municipalities shall have authority to provide for the elimination of intersections at grade of limited-access highways with existing state, county, or municipal public roads or railroad rights of way by grade separation or local service roads or by closing off such roads or streets at the right of way boundary line of such limited-access road. After the establishment of any limited-access road, no public road which is not a part of such facility shall intersect the same at grade. No public road shall be opened into or connected with any established limited-access road without the consent of the governmental authority having jurisdiction of such limited-access road, in the same manner as such governmental units are authorized by law.</p>
+          <p>(Ga. L. 1955, p. 559, § 6; Code 1933, § 95A-939, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

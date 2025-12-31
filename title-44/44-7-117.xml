@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-7-117"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-117"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-7-117/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-117/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-7-117/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-117/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_7_117">
+        <num>44-7-117</num>
+        <content>
+          <p>The clerk of the magistrate court shall retain the remaining balance of the proceeds of a sale under Code Section 44-7-116, after satisfaction of liens, security interests, and debts, for a period of 12 months; and, if no claim has been filed against such proceeds by the owner of the abandoned mobile home or any interested party, then the clerk shall pay such remaining balance into the general fund of the municipality or county that employs the local government agent that made the determination that such mobile home was intact pursuant to Code Section 44-7-113.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

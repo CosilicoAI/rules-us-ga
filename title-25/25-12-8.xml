@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-12-8"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-12-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-12-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-12-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_12_8">
+        <num>25-12-8</num>
+        <content>
+          <p>Each individual actually performing the installing, inspecting, repairing, recharging, servicing, or testing activities must possess a valid and subsisting permit issued by the Commissioner. The annual fee for said permit shall be as established by the Commissioner by rule or regulation, but such permit fee shall not exceed $75.00. Such permit shall not be required for any individual employed by any firm or governmental entity that engages only in installing, inspecting, recharging, repairing, servicing, or testing of portable fire extinguishers or fire suppression systems owned by the firm and installed on property under the control of said firm. Such individuals shall remain subject to the rules and regulations adopted pursuant to this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

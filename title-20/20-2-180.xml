@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-180"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-180/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-180/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_180">
+        <num>20-2-180</num>
+        <content>
+          <p>The essential educational resources described in this part shall serve as the basis for computing the base amount and program weights used in the Quality Basic Education Formula pursuant to Code Section 20-2-161. Although the essential educational resources described in this part shall serve as guidelines to local school systems as to the manner by which funds allocated pursuant to Code Section 20-2-161 are expended, the local school systems are authorized to expend such funds as deemed appropriate and necessary to provide the most effective educational programs and services needed by enrolled students, except as otherwise limited by the provisions of subsection (a) of Code Section 20-2-167 and other appropriate provisions of this article and by policies, regulations, and standards promulgated by the State Board of Education.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-4-2"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-4-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-4-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_4_2">
+        <num>20-4-2</num>
+        <content>
+          <p>In matching the federal appropriations referred to in Code Section 20-4-1, the State Board of Education is directed to take advantage of whatever appropriations the state makes to schools and the teacher training department of the University of Georgia in order to secure these funds under the regulations provided by the secretary of education and also to take advantage, when permitted by the secretary of education, of any appropriations made by any municipality or county to any school of vocational character. To make up any deficiencies that may occur, the state board is authorized to use each year, so far as may be necessary, an amount equal to one-half of the federal appropriation from any funds not otherwise appropriated in the state treasury. So far as possible, the state board shall encourage municipal and county educational boards to meet the conditions and secure advantages of this federal appropriation.</p>
+          <p>(Ga. L. 1917, p. 200, § 8; Ga. L. 1919, p. 288, § 180; Code 1933, § 32-2202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-12-42"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-12-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-12-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_12_42">
+        <num>9-12-42</num>
+        <content>
+          <p>Where the merits were not and could not have been in question, a former recovery on purely technical grounds shall not be a bar to a subsequent action brought so as to avoid the objection fatal to the first. For a former judgment to be a bar to subsequent action, the merits of the case must have been adjudicated.</p>
+          <p>(Civil Code 1895, § 5095; Civil Code 1910, § 5679; Code 1933, § 110-503.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-1-30"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-1-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-1-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_1_30">
+        <num>27-1-30</num>
+        <content>
+          <p>Except as otherwise provided by law or regulation, it shall be unlawful to disturb, mutilate, or destroy the dens, holes, or homes of any wildlife; to blind wildlife with lights; or to use explosives, chemicals, electrical or mechanical devices, or smokers of any kind in order to drive such wildlife out of such habitats.</p>
+          <p>(Ga. L. 1911, p. 137, § 17; Code 1933, § 45-322; Ga. L. 1949, p. 1005, § 1; Ga. L. 1952, p. 362, § 1; Ga. L. 1955, p. 483, § 62; Code 1933, § 45-207, enacted by Ga. L. 1977, p. 396, § 1; Ga. L. 1982, p. 1629, § 1; Ga. L. 1983, p. 3, § 20; Ga. L. 2014, p. 381, § 1/SB 322.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

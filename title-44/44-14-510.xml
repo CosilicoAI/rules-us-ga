@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-510"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-510/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-510/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_510">
+        <num>44-14-510</num>
+        <content>
+          <p>Every officer and employee or guardian of any employee on any watercraft engaged in the navigation of any river within the borders or forming the boundary of this state shall have a lien upon the boat or craft for any debts, dues, wages, or demands that they may have against the owner or lessee of the boat or craft, for personal services in connection with the boat, or for wood or provisions furnished the boat, which lien shall be superior to all liens except liens for taxes and such other liens as the claimant had actual notice of before the debt was created.</p>
+          <p>(Orig. Code 1863, § 1979; Code 1868, § 1968; Ga. L. 1873, p. 42, § 9; Code 1873, § 1982; Code 1882, § 1982; Civil Code 1895, § 2806; Civil Code 1910, § 3355; Code 1933, § 67-2201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

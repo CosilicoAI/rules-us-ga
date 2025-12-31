@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-31-4"/>
+          <FRBRuri value="/us-ga/act/ocga/36-31-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-31-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-31-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-31-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-31-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_31_4">
+        <num>36-31-4</num>
+        <content>
+          <p>To be eligible for original incorporation as a municipal corporation, the area embraced shall be so developed that at least 60 percent of the total number of lots and tracts in the area at the time of incorporation are used for residential, commercial, industrial, institutional, recreational, or governmental purposes and shall be subdivided into lots and tracts such that at least 60 percent of the total acreage, not counting the acreage which at the time of incorporation is used for, held for future use for, or subject to a contract for future use for commercial, industrial, governmental, recreational, or institutional purposes, consists of lots and tracts of five acres or less in size.</p>
+          <p>(Ga. L. 1963, p. 251, § 4; Ga. L. 1986, p. 10, § 36; Ga. L. 2005, p. 185, § 2/HB 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-510"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-510"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-510/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-510/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-510/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-510/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_510">
+        <num>10-1-510</num>
+        <content>
+          <p>"STATEMENT</p>
+          <p>The undersigned customer has obtained in writing the legal right or license which authorizes the duplication of the work of fine art which has been requested by the undersigned or those rights have passed into the public domain pursuant to federal copyright law. A printer to whom this statement is presented may rely upon it in performing the requested duplication of the work of fine art.
+   ____________________________________________________________________
+   (Customer's Signature)
+   ____________________________________________________________________
+   (Date)"</p>
+        </content>
+        <subsection eId="sec_10_1_510__subsec_5">
+          <num>(5)</num>
+          <content>
+            <p>Shall be in substantially the following form:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

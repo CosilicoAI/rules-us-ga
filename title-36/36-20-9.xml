@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-20-9"/>
+          <FRBRuri value="/us-ga/act/ocga/36-20-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-20-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-20-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-20-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-20-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_20_9">
+        <num>36-20-9</num>
+        <content>
+          <p>On or before February 1 of each year, the director of the Carl Vinson Institute of Government, on behalf of the board, shall make a report to the Governor, the chairman of the Senate State and Local Governmental Operations Committee, and the chairman of the State Planning and Community Affairs Committee of the House of Representatives. The report shall include a summary of the accomplishments of the academy during the preceding calendar year, including, but not limited to, the total number of members of a county governing authority who attended the course of training and education offered by the academy; an outline of the academy's programs for the current calendar year; an evaluation of the programs and services offered by the academy; and recommendations, if any, for legislation as may be necessary to improve the programs and services offered by the academy.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

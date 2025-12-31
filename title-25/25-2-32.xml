@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-2-32"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-2-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-2-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_2_32">
+        <num>25-2-32</num>
+        <content>
+          <p>Every county or municipal governing authority or any two or more governing authorities or the Safety Fire Division are authorized and empowered to take such action as may be required to formulate task forces, teams, or fire or police investigative units to investigate any case of a burn injury or wound sustained as reported pursuant to Code Section 25-2-32.1, to ascertain the cause of fires or explosions of suspicious origin within the county or municipalities, to pursue necessary investigation thereof, and to assist in the preparation and prosecution of cases stemming from any alleged criminal activity attendant to such fires or explosions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

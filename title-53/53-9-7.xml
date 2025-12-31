@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-9-7"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-9-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-9-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_9_7">
+        <num>53-9-7</num>
+        <content>
+          <p>Before a distribution of any of the assets of the estate of a missing person is made to a spouse, child, or other purported heir or beneficiary within the two-year period set out in Code Section 53-9-6, such spouse, child, or other purported heir or beneficiary shall give security, to be approved by the probate court in such sum as the court shall direct but in no case less than the estimated value of the money or property distributed, conditioned that if the missing individual is in fact alive, the person giving security will deliver to the missing individual, on demand by such individual at any time within the two-year period, the assets received by the person giving such security or, if such assets have been transferred to a bona fide purchaser, the consideration received in such transfer, without interest. If any person entitled to receive such assets is unable to give security, the personal representative shall continue to hold such assets until:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

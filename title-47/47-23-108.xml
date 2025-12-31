@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-23-108"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-108"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-23-108/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-108/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-23-108/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-108/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_23_108">
+        <num>47-23-108</num>
+        <content>
+          <p>Except as otherwise expressly provided in this chapter, if a member ceases to be employed in a covered position, he or she may withdraw the total sum, with 6 percent interest, which he or she has paid into the fund. The member shall not be eligible at any time after such withdrawal to become a member of the fund, unless at a later date he or she becomes employed in a covered position, in which event he or she shall be reinstated into the fund as if he or she had never before been a member. Any such reinstated member shall have the privilege of reestablishing any prior creditable service, provided that the member repays into the retirement system an amount equal to the amount withdrawn, which shall be placed in the employee contribution accumulation fund, together with 6 percent interest from the date of withdrawal to the date of repayment, which interest shall be placed in the pension accumulation fund. The employee contributions paid by the employer as provided in subsection (c) of Code Section 47-23-80 shall be considered to be payments made by the member.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

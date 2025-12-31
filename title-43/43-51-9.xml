@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-51-9"/>
+          <FRBRuri value="/us-ga/act/ocga/43-51-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-51-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-51-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-51-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-51-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_51_9">
+        <num>43-51-9</num>
+        <content>
+          <p>The board may investigate the actions of any operator or laboratory analyst and may revoke or suspend the certificate of an operator or laboratory analyst, following a hearing conducted in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," when it is found that the operator or laboratory analyst has practiced fraud or deception; that reasonable care, judgment, or the application of his knowledge or ability was not used in the performance of his duties; or that the operator or laboratory analyst is incompetent or unable to perform his duties properly.</p>
+          <p>(Ga. L. 1969, p. 272, § 11; Ga. L. 1975, p. 1074, § 4; Ga. L. 1980, p. 304, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

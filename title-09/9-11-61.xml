@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-11-61"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-11-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-11-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_11_61">
+        <num>9-11-61</num>
+        <content>
+          <p>No error in either the admission or the exclusion of evidence and no error or defect in any ruling or order or in anything done or omitted by the court or by any of the parties is ground for granting a new trial or for setting aside a verdict or for vacating, modifying, or otherwise disturbing a judgment or order, unless refusal to take such action appears to the court inconsistent with substantial justice. The court at every stage of the proceeding must disregard any error or defect in the proceeding which does not affect the substantial rights of the parties.</p>
+          <p>(Ga. L. 1966, p. 609, § 61.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

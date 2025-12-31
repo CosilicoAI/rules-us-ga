@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-6-82"/>
+          <FRBRuri value="/us-ga/act/ocga/47-6-82"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-6-82/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-6-82/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-6-82/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-6-82/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_6_82">
+        <num>47-6-82</num>
+        <content>
+          <p>All retirement allowances shall be paid in monthly installments and shall cease with the month in which the death of the beneficiary occurs, except as otherwise provided in Code Section 47-6-81.</p>
+          <p>(Ga. L. 1967, p. 259, § 8; Ga. L. 2005, p. 535, § 21/HB 460.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

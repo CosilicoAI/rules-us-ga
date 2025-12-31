@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-9-90"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-90"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-9-90/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-90/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-9-90/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-90/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_9_90">
+        <num>44-9-90</num>
+        <content>
+          <p>Any person or corporation desiring to build or construct any tramway to connect with any waterway or railway in this state for the purpose of transporting lumber, naval stores, and timber by means of the same may make application in writing to the judge of the probate court or the county commissioners of the county in which the tramway is to be located, which application shall set out the length of the tramway, the starting place and the terminus, and the line of its location.</p>
+          <p>(Ga. L. 1887, p. 103, § 1; Civil Code 1895, § 658; Civil Code 1910, § 804; Code 1933, § 83-301.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-18-6"/>
+          <FRBRuri value="/us-ga/act/ocga/20-18-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-18-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-18-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-18-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-18-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_18_6">
+        <num>20-18-6</num>
+        <content>
+          <p>In the event that the United States Congress appropriates funds to this state for the conduct of work similar to that which is specified in this chapter, such work of the Center for Rural Prosperity and Innovation shall conform to the requirements imposed as conditions for such federal appropriations and as may be accepted by the General Assembly in order that such scientific, engineering, and industrial research work may be aided and extended by means of such federal appropriations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

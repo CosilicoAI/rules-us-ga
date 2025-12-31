@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-35-12"/>
+          <FRBRuri value="/us-ga/act/ocga/43-35-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-35-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-35-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-35-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-35-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_35_12">
+        <num>43-35-12</num>
+        <content>
+          <p>Any applicant for a license or reinstatement shall have satisfactory results from a fingerprint records check report conducted by the Georgia Crime Information Center and the Federal Bureau of Investigation, as determined by the board. Application for a license or reinstatement under this chapter shall constitute express consent and authorization for the board to perform a criminal background check. Each applicant who submits an application to the board for licensure or reinstatement agrees to provide the board with any and all information necessary to run a criminal background check, including, but not limited to, classifiable sets of fingerprints. The applicant shall be responsible for all fees associated with the performance of such criminal background check.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

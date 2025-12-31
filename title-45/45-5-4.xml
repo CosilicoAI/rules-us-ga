@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-5-4"/>
+          <FRBRuri value="/us-ga/act/ocga/45-5-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-5-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-5-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-5-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-5-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_5_4">
+        <num>45-5-4</num>
+        <content>
+          <p>Where any person is appointed to fill a vacancy in the office of judge, district attorney, or clerk of any court in this state under a law which provides that such appointee shall fill the unexpired term, if at the end of such unexpired term the person elected to fill such office shall not be qualified to take office, or if the person elected to fill such office shall have died prior to the end of such unexpired term, or if a vacancy shall occur from any other cause, then the person appointed to fill out such unexpired term shall continue in office during the term succeeding the one in which such vacancy occurred, in the absence of any other law for filling such term.</p>
+          <p>(Ga. L. 1911, p. 169, § 1; Code 1933, § 89-503.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

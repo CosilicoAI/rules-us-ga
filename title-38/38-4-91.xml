@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-4-91"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-4-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-4-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_4_91">
+        <num>38-4-91</num>
+        <content>
+          <p>The Returning Veterans Task Force shall consist of one representative each from the Department of Veterans Service appointed by the commissioner of veterans service, the Department of Community Health appointed by the commissioner of community health, the Department of Behavioral Health and Developmental Disabilities appointed by the commissioner of behavioral health and developmental disabilities, the Department of Labor appointed by the Commissioner of Labor, the Department of Defense appointed by the adjutant general, the Board of Regents of the University System of Georgia appointed by the chancellor of the Board of Regents of the University System of Georgia, and the Technical College System of Georgia appointed by the commissioner of the Technical College System of Georgia. Other agencies may be invited to participate in the task force based on needs identified over time. The member appointed by the commissioner of veterans service shall serve as chairperson of the task force.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

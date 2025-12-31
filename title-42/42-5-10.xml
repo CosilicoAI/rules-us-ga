@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-5-10"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-5-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-5-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_5_10">
+        <num>42-5-10</num>
+        <content>
+          <p>The board shall prescribe by rule and regulation the required plans and specifications defining the size and type of construction and materials to be employed in constructing all state and county correctional institutions. The specifications shall require that the buildings be as nearly free from fire hazards and as nearly escape-proof as is possible under all circumstances. A certificate of approval from the state fire marshal shall be conclusive as to the acceptability of all old state or county correctional institutions from a standpoint of fire hazard. No county shall establish a county correctional institution until its establishment and the plans and specifications thereof have been approved by the board.</p>
+          <p>(Ga. L. 1956, p. 161, § 17.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

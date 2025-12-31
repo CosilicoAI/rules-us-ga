@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-712"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-712"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-712/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-712/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-712/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-712/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_712">
+        <num>7-1-712</num>
+        <content>
+          <p>Notwithstanding the definition of the term "foreign corporation" appearing in paragraph (13) of Code Section 14-2-140, all of the provisions of Article 15 of Chapter 2 of Title 14, relating to foreign corporations, shall apply to all international bank agencies doing business in this state, except that references therein to the Secretary of State should be construed as references to the department.</p>
+          <p>(Ga. L. 1972, p. 1140, § 3; Code 1933, § 41A-3303, enacted by Ga. L. 1974, p. 705, § 1; Ga. L. 1989, p. 946, § 70; Ga. L. 1989, p. 1257, § 24; Ga. L. 2004, p. 508, § 70.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

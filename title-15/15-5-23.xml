@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-5-23"/>
+          <FRBRuri value="/us-ga/act/ocga/15-5-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-5-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-5-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-5-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-5-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_5_23">
+        <num>15-5-23</num>
+        <content>
+          <p>The Judicial Council shall appoint a director of the Administrative Office of the Courts who shall serve at the pleasure of the Judicial Council. The director shall be the executive head of the Administrative Office of the Courts and shall perform such duties as provided in Code Section 15-5-24 or as may be delegated to him by the Judicial Council. The director shall devote his full time to his official duties. The director shall receive compensation and expenses as authorized by the Judicial Council. With the approval of the Judicial Council, the director shall appoint such assistants and clerical and secretarial employees as are necessary to enable him to perform his duties and shall fix their compensation.</p>
+          <p>(Ga. L. 1973, p. 288, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

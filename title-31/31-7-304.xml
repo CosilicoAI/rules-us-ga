@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-304"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-304"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-304/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-304/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-304/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-304/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_304">
+        <num>31-7-304</num>
+        <content>
+          <p>The department is authorized to charge an application fee, a license fee, a license renewal fee, or a similar fee; and the amount of such fees shall be established by the Board of Community Health.Each fee so established shall be reasonable and shall be determined in such a manner that the total of the fees charged shall approximate the total of the direct and the indirect costs to the state of the operation of the licensing program.Fees may be refunded for good cause as determined by the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

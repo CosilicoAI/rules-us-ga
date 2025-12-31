@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-11-44"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-11-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-11-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_11_44">
+        <num>19-11-44</num>
+        <content>
+          <p>Where the Attorney General is satisfied that reciprocal provisions will be made by any province or territory of the Dominion of Canada, the Attorney General may declare the province or territory to be a reciprocating state for the purpose of this article. Any such order declaring that a province or territory is a reciprocating state may be revoked by the Attorney General; and thereupon the province or territory with respect to which the order was made shall cease to be a reciprocating state for the purpose of this article; provided, however, that the revocation shall not affect any actions which have been adjudicated in the responding state or which have been received by this state as the responding state.</p>
+          <p>(Ga. L. 1975, p. 818, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

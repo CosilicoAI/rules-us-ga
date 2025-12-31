@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-44-3"/>
+          <FRBRuri value="/us-ga/act/ocga/31-44-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-44-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-44-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-44-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-44-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_44_3">
+        <num>31-44-3</num>
+        <content>
+          <p>The board shall adopt rules to implement this chapter, including but not limited to requirements for the issuance, renewal, denial, suspension, and revocation of a license to operate an end stage renal disease facility. The rules adopted by the board pursuant to this Code section shall not conflict with any federal law or regulation applicable to end stage renal disease facilities or personnel thereof and shall set forth minimum standards for the health, safety, and protection of the patient being served.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

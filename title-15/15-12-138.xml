@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-138"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-138"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-138/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-138/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-138/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-138/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_138">
+        <num>15-12-138</num>
+        <content>
+          <p>Each panel of the trial jury shall take the following oath:</p>
+          <p>"You shall well and truly try each case submitted to you during the present term and a true verdict give, according to the law as given you in charge and the opinion you entertain of the evidence produced to you, to the best of your skill and knowledge, without favor or affection to either party, provided you are not discharged from the consideration of the case submitted. So help you God."</p>
+          <p>(Orig. Code 1863, §§ 3834, 3838; Code 1868, §§ 3855, 3860; Ga. L. 1869, p. 139, § 6; Code 1873, §§ 3927, 3933; Code 1882, §§ 3927, 3933; Penal Code 1895, § 856; Penal Code 1910, § 860; Code 1933, § 59-706.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

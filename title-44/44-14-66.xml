@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-66"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-66"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-66/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-66/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-66/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-66/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_66">
+        <num>44-14-66</num>
+        <content>
+          <p>The grantor's right to a reconveyance of the property upon complying with the contract shall not be affected by any liens, encumbrances, or rights which would otherwise attach to the property by virtue of the title being in the grantee; but the right of the grantor to a reconveyance shall be absolute and permanent upon his complying with his contract with the grantee according to the terms. In the event of the prior death of the grantor, such a reconveyance shall be valid and effective to vest title in the heirs, personal representatives, or successors in title of the deceased grantor as their interests may appear.</p>
+          <p>(Ga. L. 1871-72, p. 44, § 2; Code 1873, § 1971; Code 1882, § 1971; Civil Code 1895, § 2775; Civil Code 1910, § 3310; Code 1933, § 67-1307; Ga. L. 1970, p. 176, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

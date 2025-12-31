@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-56"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-56"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-56/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-56/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-56/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-56/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_56">
+        <num>20-3-56</num>
+        <content>
+          <p>Any trust fund or property, real, personal, or mixed, that may have been created prior to January 1, 1932, by will or otherwise as a fund or gift or donation or devise to any board of trustees of any of the institutions in the university system, or to any executor or trustee to and for the use, benefit, or behoof of any such institution shall not lapse by virtue of any of the provisions of this article, but such trust shall remain valid and of full force and effect; and the beneficial interest under any such deed of gift or will or other conveyance shall vest in the board of regents as trustee to and for the use, benefit, and behoof of the institution intended to be benefited by such gift, devise, or other conveyance in its favor. In any case where provisions of any deed of gift, or will, or other conveyance referred to in this Code section require a trustee and no trustee shall in any contingency exist, the board shall be and become a substituted trustee to carry out the beneficial purposes of such gift, devise, or conveyance.</p>
+          <p>(Ga. L. 1931, p. 7, § 49; Code 1933, § 32-118.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

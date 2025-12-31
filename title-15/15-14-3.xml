@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-14-3"/>
+          <FRBRuri value="/us-ga/act/ocga/15-14-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-14-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-14-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-14-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-14-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_14_3">
+        <num>15-14-3</num>
+        <content>
+          <p>Each of the judges of the superior and city courts in all circuits where there may be more than one division, whether the same is civil or criminal, shall appoint and at such judge's pleasure remove a court reporter, as defined in Article 2 of this chapter, for such judge's respective division. The court reporter, before entering on the duties of the court reporter's office, shall be duly sworn in open court to perform faithfully all the duties required. It shall be the court reporter's duty to attend all sessions of the court for which such court reporter is appointed and, when directed by the judge, to record exactly and truly or take stenographic notes of the testimony and proceedings in the case tried, except the argument of counsel.</p>
+          <p>(Ga. L. 1876, p. 133, § 1; Code 1882, § 4696a; Ga. L. 1894, p. 53, § 1; Civil Code 1895, § 4446; Civil Code 1910, § 4984; Ga. L. 1914, p. 59, § 1; Code 1933, § 24-3102; Ga. L. 1993, p. 1315, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

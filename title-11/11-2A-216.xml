@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-216"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-216"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-216/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-216/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-216/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-216/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_216">
+        <num>11-2A-216</num>
+        <content>
+          <p>A warranty to or for the benefit of a lessee under this article, whether express or implied, extends to any natural person who is in the family or household of the lessee or who is a guest in the lessee's home if it is reasonable to expect that such person may use, consume, or be affected by the goods and who is injured in person by breach of the warranty. This Code section does not displace principles of law and equity that extend a warranty to or for the benefit of a lessee to other persons. The operation of this Code section may not be excluded, modified, or limited, but an exclusion, modification, or limitation of the warranty, including any with respect to rights and remedies, effective against the lessee is also effective against any beneficiary designated under this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

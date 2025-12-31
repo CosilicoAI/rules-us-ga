@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-9-107"/>
+          <FRBRuri value="/us-ga/act/ocga/11-9-107"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-9-107/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-9-107/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-9-107/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-9-107/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_9_107">
+        <num>11-9-107</num>
+        <content>
+          <p>A secured party has control of a letter of credit right to the extent of any right to payment or performance by the issuer or any nominated person if the issuer or nominated person has consented to an assignment of proceeds of the letter of credit under subsection (c) of Code Section 11-5-114 or otherwise applicable law or practice.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

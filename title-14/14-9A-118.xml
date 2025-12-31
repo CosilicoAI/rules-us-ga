@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-118"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-118"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-118/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-118/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-118/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-118/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_9A_118">
+        <num>14-9A-118</num>
+        <content>
+          <p>No limited partnership shall be deemed to have been formed until the certificate required under Code Section 14-9A-113 shall have been made, acknowledged, filed, and recorded, nor until an affidavit shall have been filed as directed by Code Section 14-9A-116; and if any false statement shall be made in such certificate or affidavit, or if such partnership business shall be commenced before such certificate or affidavit is filed, all the persons interested in such partnership shall be liable for all the engagements thereof as general partners.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

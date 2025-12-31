@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-92"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_92">
+        <num>9-13-92</num>
+        <content>
+          <p>In all claim cases where claimants are unable to give bond and security as required in this article, the claimants may file, in addition to the oath required in Code Section 9-13-90, an affidavit as follows:</p>
+          <p>"I, A.B., do swear that I do not interpose this claim for delay only; that I bona fide claim the right and title to the same; that I am advised and believe that the claim will be sustained; and that because of my indigence I am unable to give bond and security as required by law."</p>
+          <p>When the affidavit has been made and delivered to the levying officer, it shall suspend the sale in the same manner as if bond and security had been given.</p>
+          <p>(Ga. L. 1870, p. 411, § 1; Code 1873, § 3733; Code 1882, § 3733; Civil Code 1895, § 4618; Civil Code 1910, § 5164; Code 1933, § 39-807.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

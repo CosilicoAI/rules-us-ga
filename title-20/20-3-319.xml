@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-319"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-319"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-319/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-319/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-319/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-319/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_319">
+        <num>20-3-319</num>
+        <content>
+          <p>In the event the United States makes the federal payments referred to in Code Section 20-3-272 to lenders through the corporation, any available state funds appropriated for use by the authority during any fiscal year for purposes of any financial assistance program provided for in this part may be temporarily transferred by the authority to the corporation for use by the corporation for the purposes prescribed in Code Section 20-3-272 pending receipt by the corporation of the federal payments. Upon receipt of the federal payments, the corporation shall transfer back to the authority the amount of funds previously received by it from the authority.</p>
+          <p>(Code 1933, § 32-3710, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

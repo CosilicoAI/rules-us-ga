@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-21"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_21">
+        <num>14-4-21</num>
+        <content>
+          <p>Every banking, trust, insurance, railroad, canal, navigation, express, and telegraph corporation shall have such number of directors, not less than three, as may be provided by its charter, any amendment thereto granted prior to April 1, 1969, or thereafter, or by its bylaws in the absence of any such charter provision. The effect of this Code section shall be that all actions taken prior to April 1, 1969, by the board of directors of any such corporation shall be valid and binding for all purposes as if this Code section had been enacted before such action was taken and as if such board of directors had been constituted as provided by this Code section.</p>
+          <p>(Ga. L. 1958, p. 92, §§ 1, 2; Code 1933, § 22-4102, enacted by Ga. L. 1968, p. 565, § 1; Ga. L. 1983, p. 506, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

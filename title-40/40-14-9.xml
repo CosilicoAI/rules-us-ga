@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-14-9"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-14-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-14-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_14_9">
+        <num>40-14-9</num>
+        <content>
+          <p>Evidence obtained by county or municipal law enforcement officers in using speed detection devices within 300 feet of a reduction of a speed limit inside an incorporated municipality or within 600 feet of a reduction of a speed limit outside an incorporated municipality or consolidated city-county government shall be inadmissible in the prosecution of a violation of any municipal ordinance, county ordinance, or state law regulating speed; nor shall such evidence be admissible in the prosecution of a violation as aforesaid when such violation has occurred within 30 days following a reduction of the speed limit in the area where the violation took place, except that this 30 day limitation shall not apply to a speeding violation within a highway work zone, as defined in Code Section 40-6-188, or in an area with variable speed limits, as defined in Code Section 40-6-182. No speed detection device shall be employed by county, municipal, or campus law enforcement officers on any portion of any highway which has a grade in excess of 7 percent.</p>
+          <p>(Ga. L. 1968, p. 425, § 6; Ga. L. 1970, p. 435, § 5; Ga. L. 1978, p. 2256, § 1; Ga. L. 1979, p. 771, § 2; Ga. L. 1989, p. 586, § 1; Ga. L. 2003, p. 450, § 6; Ga. L. 2010, p. 442, § 6/HB 1174.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

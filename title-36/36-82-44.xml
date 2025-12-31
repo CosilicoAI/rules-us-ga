@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-44"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_44">
+        <num>36-82-44</num>
+        <content>
+          <p>Within the time prescribed in the order or such further time as he may fix, the judge of the superior court shall proceed to hear and determine all questions of law and fact in the case and shall render judgment thereon. Any citizen of this state who is resident in the county, municipality, or political subdivision desiring to issue the bonds may become a party to the proceedings at or before the time set for the hearing. Any party thereto who is dissatisfied with the judgment of the court confirming and validating the issuance of the bonds or refusing to confirm and validate the issuance of the bonds may appeal from the judgment under the procedure provided by law in cases of injunction. Only a party to the proceedings at the time the judgment appealed from is rendered may appeal from the judgment.</p>
+          <p>(Ga. L. 1908, p. 72, § 5; Civil Code 1910, § 457; Code 1933, § 87-405; Ga. L. 1946, p. 726, § 1; Ga. L. 1953, Nov.-Dec. Sess., p. 279, § 5; Ga. L. 1966, p. 76, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

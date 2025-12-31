@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-2-4"/>
+          <FRBRuri value="/us-ga/act/ocga/50-2-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-2-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-2-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-2-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-2-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_2_4">
+        <num>50-2-4</num>
+        <content>
+          <p>The boundary line between Georgia and Alabama shall be the line described from Nickajack to Miller's Bend on the Chattahoochee River, and down said river to its junction with the Flint River.</p>
+          <p>(Orig. Code 1863, § 20; Code 1868, § 18; Code 1873, § 18; Code 1882, § 18; Civil Code 1895, § 19; Civil Code 1910, § 19; Code 1933, § 15-104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

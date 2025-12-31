@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-4-23"/>
+          <FRBRuri value="/us-ga/act/ocga/47-4-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-4-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-4-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-4-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-4-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_4_23">
+        <num>47-4-23</num>
+        <content>
+          <p>The members of the board, and each of them, shall be free from all liability, joint or several, for their acts, omissions, and conduct and for the acts, omissions, and conduct of their duly constituted agents in the administration of the retirement system and the fund. The state shall indemnify and save them, and each of them, harmless from the effects and consequences of their acts, omissions, and conduct in their official capacity, except to the extent that such effects and consequences shall result from their own willful misconduct.</p>
+          <p>(Ga. L. 1969, p. 998, § 16.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

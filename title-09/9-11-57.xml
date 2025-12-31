@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-11-57"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-57"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-11-57/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-57/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-11-57/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-57/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_11_57">
+        <num>9-11-57</num>
+        <content>
+          <p>(Ga. L. 1966, p. 609, § 58; Ga. L. 1993, p. 91, § 9; Ga. L. 2000, p. 850, § 2; Ga. L. 2006, p. 648, § 2/HB 1195; Ga. L. 2017, p. 3818, § 2-2/SB 132.)</p>
+          <p>The 2017 amendment,
+      effective January 1, 2018, in subsection (b), substituted "by the Judicial Council of Georgia" for "in Code Section 9-11-133" at the end of the third sentence, and substituted "Article 3 of Chapter 7 of Title 44, relating to landlord and tenant dispossessory proceedings" for "Code Sections 44-7-50 through 44-7-59" at the end of the last sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

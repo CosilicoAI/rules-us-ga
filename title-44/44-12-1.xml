@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-1"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_1">
+        <num>44-12-1</num>
+        <content>
+          <p>Application may be made and partition of personal property may be obtained in the same manner and under the same regulations as are prescribed by law for obtaining a partition of lands and tenements.</p>
+          <p>(Orig. Code 1863, § 3908; Code 1868, § 3938; Code 1873, § 4008; Code 1882, § 4008; Civil Code 1895, § 4798; Civil Code 1910, § 5370; Code 1933, § 85-1707.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

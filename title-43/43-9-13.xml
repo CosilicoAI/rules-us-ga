@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-9-13"/>
+          <FRBRuri value="/us-ga/act/ocga/43-9-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-9-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-9-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-9-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-9-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_9_13">
+        <num>43-9-13</num>
+        <content>
+          <p>Upon written presentation to the board of any of the grounds enumerated in Code Section 43-9-12 for revoking or refusing a license, the board shall conduct a hearing in conformance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act."</p>
+          <p>(Ga. L. 1921, p. 166, § 9; Code 1933, § 84-513.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

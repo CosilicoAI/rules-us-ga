@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-12-120"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-12-120/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-12-120/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_12_120">
+        <num>53-12-120</num>
+        <content>
+          <p>A trust under a testator's will may be designated as the beneficiary of the testator's qualified retirement plan, individual retirement account, other retirement plan, or life insurance policies on the life of the testator so long as the testator's will is admitted to probate in solemn form, whether the designation occurs before or after the execution of the will. Unless the beneficiary designation provides otherwise, the designation of a trust under a will as beneficiary shall not be treated as the designation of the testator's estate as beneficiary nor shall such property, once delivered to the trustee under the testator's will, be deemed to be part of the testator's estate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

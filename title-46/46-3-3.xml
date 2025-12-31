@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-3"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_3">
+        <num>46-3-3</num>
+        <content>
+          <p>As used in this part, the term:</p>
+          <p>(Ga. L. 1973, p. 200, § 3; Ga. L. 1982, p. 3, § 46; Ga. L. 2006, p. 72, § 46/SB 465.)</p>
+          <p>The 2006 amendment,
+      effective April 14, 2006, part of an Act to revise, modernize, and correct the Code, substituted the present provisions of paragraph (2) for the former provisions, which read: "'Electric membership corporation' means a corporation organized under Article 2 of this chapter."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

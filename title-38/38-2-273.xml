@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-273"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-273"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-273/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-273/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-273/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-273/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_273">
+        <num>38-2-273</num>
+        <content>
+          <p>Any person belonging to the organized militia shall, together with the conveyance and property of the state or of the United States in his charge, be allowed to pass free through all tollgates and tunnels and over all toll bridges and ferries if he is in uniform and presents an order for duty or certificate of an order for duty.</p>
+          <p>(Ga. L. 1955, p. 10, § 81.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

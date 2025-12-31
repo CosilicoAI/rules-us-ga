@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-13-2"/>
+          <FRBRuri value="/us-ga/act/ocga/43-13-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-13-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-13-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-13-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-13-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_13_2">
+        <num>43-13-2</num>
+        <content>
+          <p>(Ga. L. 1968, p. 436, § 1; Ga. L. 1993, p. 123, § 27; Ga. L. 2000, p. 951, § 12-7; Ga. L. 2003, p. 796, § 10; Ga. L. 2005, p. 60, § 43/HB 95; Ga. L. 2005, p. 334, § 25-1/HB 501; Ga. L. 2006, p. 460, § 1/HB 1252; Ga. L. 2021, p. 403, § 9/HB 466.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, rewrote paragraph (a)(3), which read: " 'Driver training course' means a course including but not limited to classroom instruction; behind-the-wheel instruction; instruction by means of simulation training; and defensive driving, distance learning, or virtual driver training courses approved by the Department of Driver Services for the purpose of assisting persons to meet the requirements for licensed driving of Class C or Class M motor vehicles in this state."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

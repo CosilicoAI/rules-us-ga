@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-121"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-121"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-121/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-121/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-121/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-121/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_121">
+        <num>14-4-121</num>
+        <content>
+          <p>When the petition, abstract, and affidavit required by Code Section 14-4-120 have been filed in the office of the Secretary of State, he shall issue to the petitioning company under the great seal of the state a certificate in the following form:</p>
+          <p>To all to whom these presents may come - Greetings:</p>
+          <p>Whereas, the (here insert name of petitioning corporation), a corporation created and existing under the laws of this state, has filed in this office, in terms of the law, a petition asking that its charter be amended by changing (its corporate name, or its principal office, or the face value of each share of its capital stock, or the number of its board of directors, or the amount of any or all of its capital stock, as the case may be) from ________ to ________ and has complied with all the requirements of the law in such cases made and provided; therefore, the State of Georgia hereby amends the charter of the said (insert name of company) by changing (its corporate name, or principal office, etc., as the case may be) from (insert old name, or old principal office, etc.) to (insert new name, or new principal office, etc.).</p>
+          <p>In witness whereof, these presents have been signed by the Secretary of State, and the great seal has been attached hereof at the capitol in Atlanta on this ________ day of ________________, ________.</p>
+          <p>(Ga. L. 1895, p. 52, § 2; Civil Code 1895, § 1845; Civil Code 1910, § 2202; Code 1933, § 22-515; Code 1933, § 22-4315, enacted by Ga. L. 1968, p. 565, § 1; Ga. L. 1999, p. 81, § 14.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-120"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-120/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-120/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_120">
+        <num>40-1-120</num>
+        <content>
+          <p>Motor carriers of passengers shall not be compelled to carry baggage of passengers, except hand baggage, the character, amount, and size of which the motor carrier may limit by its rules and regulations, subject to the approval of the department; and the department may by rule or regulation limit the amount of the liability of the motor carrier therefor. If a motor carrier shall elect to carry the personal baggage of passengers, other than hand baggage, the department shall prescribe just and reasonable rates therefor and such other rules and regulations with respect thereto as may be reasonable and just, and may by rule or regulation limit the amount of the liability of the motor carrier therefor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

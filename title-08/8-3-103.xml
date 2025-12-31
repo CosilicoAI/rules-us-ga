@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-103"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-103/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-103/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_103">
+        <num>8-3-103</num>
+        <content>
+          <p>The governing body of a county shall not adopt any resolution authorized by Code Sections 8-3-100, 8-3-102, and 8-3-104 unless a public hearing has first been held. The clerk of such county shall give notice of the time, place, and purpose of the public hearing at least ten days prior to the day on which the hearing is to be held. Such notice shall be given by publication in a newspaper published in such county or, if there is no newspaper published in such county, in a newspaper published in the state and having a general circulation in such county. Upon the date fixed for such public hearing, an opportunity to be heard shall be granted to all residents of such county and to all other interested persons.</p>
+          <p>(Ga. L. 1943, p. 146, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-1-24"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-1-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-1-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_1_24">
+        <num>43-1-24</num>
+        <content>
+          <p>Any person licensed by a professional licensing board and who practices a "profession," as defined in Chapter 7 of Title 14, the "Georgia Professional Corporation Act," or who renders "professional services," as defined in Chapter 10 of Title 14, "The Georgia Professional Association Act," whether such person is practicing or rendering services as a proprietorship, partnership, professional corporation, professional association, other corporation, limited liability company, or any other business entity, shall remain subject to regulation by that professional licensing board, and such practice or rendering of services in that business entity shall not change the law or existing standards applicable to the relationship between that person rendering a professional service and the person receiving such service, including but not limited to the rules of privileged communication and the contract, tort, and other legal liabilities and professional relationships between such persons.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

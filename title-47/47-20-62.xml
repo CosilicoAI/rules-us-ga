@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-20-62"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-20-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-20-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-20-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_20_62">
+        <num>47-20-62</num>
+        <content>
+          <p>This chapter shall become effective on January 1, 1984. Only nonfiscal retirement bills may be introduced at the 1984 regular session of the General Assembly. Retirement bills having a fiscal impact which were introduced at the 1983 regular session and which are still pending at the 1984 regular session shall be subject to the requirements of Code Section 47-20-50, except that the amount determined by actuarial investigation under paragraph (10) of subsection (a) of Code Section 47-20-36 shall be determined by the director of the Office of Planning and Budget and the state auditor pursuant to Code Sections 28-5-42 and 28-5-43, relating to fiscal notes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

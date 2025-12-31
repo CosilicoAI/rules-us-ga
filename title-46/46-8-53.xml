@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-53"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_53">
+        <num>46-8-53</num>
+        <content>
+          <p>In no case shall a railroad corporation issue bonds or increase its capital stock except by a vote of two-thirds of the capital stock of the corporation represented at an annual or special meeting of stockholders called for that purpose, and after each stockholder has been notified in the manner prescribed by the bylaws. In addition to such notice, there shall be published in a newspaper in the city where the principal office of the corporation is located, once a week for four weeks prior to the meeting, a notice stating that an increase of the stock or an issuance of bonds for the road, or both, will be considered at the meeting. No action contemplated under this Code section as to an increase of stock or the issuance of bonds shall be legal unless there is represented at the meeting, in person or by written proxy, a majority of the stock.</p>
+          <p>(Ga. L. 1892, p. 37, § 7; Civil Code 1895, § 2165; Civil Code 1910, § 2583; Code 1933, § 94-206.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

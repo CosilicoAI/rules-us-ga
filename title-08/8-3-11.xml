@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-11"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_11">
+        <num>8-3-11</num>
+        <content>
+          <p>It is declared to be the policy of this state that each housing authority shall manage and operate its housing projects or, in the event of its use of a private enterprise agreement, shall cause each housing project subject thereto to be managed and operated in an efficient manner so as to enable it to fix the rentals for dwelling accommodations for persons of low income at the lowest possible rates consistent with its providing decent, safe, and sanitary dwelling accommodations for persons of low income, and that no housing authority shall construct or operate the dwelling accommodations in any such project that are occupied or reserved for occupancy by persons of low income for a profit or as a source of revenue to the city or the county. To this end, an authority shall fix the rentals for those dwelling accommodations in such housing projects that are occupied or reserved for occupancy by persons of low income at no higher rates than it shall find necessary in order to produce revenues which, together with all other available moneys, revenues, income, and receipts of the authority from whatever sources derived, will be sufficient:</p>
+          <p>(Ga. L. 1937, p. 210, § 9; Ga. L. 1959, p. 65, § 1; Ga. L. 1996, p. 1417, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

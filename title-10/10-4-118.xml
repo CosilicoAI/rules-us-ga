@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-118"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-118"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-118/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-118/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-118/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-118/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_118">
+        <num>10-4-118</num>
+        <content>
+          <p>It shall be the duty of the Commissioner of Agriculture to enforce this part and to utilize any employee of the Department of Agriculture in the performance of his duties under this part. The Commissioner is authorized to revoke or suspend any license or registration issued under this part to any person violating this part or any rule or regulation adopted pursuant to this part, after notice and hearing before the Commissioner in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act."</p>
+          <p>(Ga. L. 1960, p. 214, § 19.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-122"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-122"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-122/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-122/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-122/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-122/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_122">
+        <num>40-1-122</num>
+        <content>
+          <p>Motor carriers shall observe the laws of this state in respect to size, weight, and speed of their vehicles. Intrastate motor carriers of passengers shall, and interstate motor carriers of passengers may, file with the department the schedules upon which they propose to operate their vehicles, which schedules shall be such that the net running time of vehicles between terminal points shall not exceed the lawful speed limit; and any motor carrier of passengers filing such a schedule shall be allowed to operate his or her vehicles on the highway at a rate of speed not exceeding the lawful speed limit in order to maintain a schedule so filed.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

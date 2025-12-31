@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-22"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_22">
+        <num>44-6-22</num>
+        <content>
+          <p>An absolute estate may be created to commence in the future, and the fee may be in abeyance without detriment to the rights of subsequent remainders. A fee may be limited upon a fee, either by deed or will, where the plain intention of the grantor or testator requires it and no other rule of law is violated thereby.</p>
+          <p>(Orig. Code 1863, § 2227; Code 1868, § 2221; Code 1873, § 2247; Code 1882, § 2247; Civil Code 1895, § 3082; Civil Code 1910, § 3658; Code 1933, § 85-502.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

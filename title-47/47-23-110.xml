@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-23-110"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-23-110/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-23-110/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_23_110">
+        <num>47-23-110</num>
+        <content>
+          <p>Any member retired under this chapter or vested for a benefit under this chapter may serve as a senior judge as provided for in Code Section 15-1-9.2 or Code Section 15-1-9.3 or as otherwise provided by legislation enacted after July 1, 1998, and compensation for such service shall not affect, enhance, diminish, or otherwise impair the payment or receipt of any retirement or pension benefits of such judge.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

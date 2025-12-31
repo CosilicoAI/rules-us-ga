@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-66"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-66"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-66/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-66/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-66/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-66/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_66">
+        <num>15-12-66</num>
+        <content>
+          <p>When from challenge or from any other cause there are not a sufficient number of persons in attendance to complete the empaneling of grand jurors, the presiding judge shall order the clerk to choose at random from the names of persons summoned as trial jurors a sufficient number of prospective grand jurors necessary to complete the grand jury. Nothing in this Code section shall be construed as barring the court from taking any action against a person who has been summoned to appear as a juror as provided in Code Section 15-12-10.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

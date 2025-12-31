@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-180"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-180"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-180/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-180/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-180/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-180/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_180">
+        <num>40-6-180</num>
+        <content>
+          <p>No person shall drive a vehicle at a speed greater than is reasonable and prudent under the conditions and having regard for the actual and potential hazards then existing. Consistently with the foregoing, every person shall drive at a reasonable and prudent speed when approaching and crossing an intersection or railroad grade crossing, when approaching and going around a curve, when approaching and traversing a hill crest, when traveling upon any narrow or winding roadway, and when special hazards exist with respect to pedestrians or other traffic or by reason of weather or highway conditions.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 556, § 48; Code 1933, § 68A-801, enacted by Ga. L. 1975, p. 1582, § 1; Ga. L. 1990, p. 2048, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

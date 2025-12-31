@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-18"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_18">
+        <num>20-2-18</num>
+        <content>
+          <p>Any trust fund or property, real, personal, or mixed, specifically including the "Pupils' Trust Fund" pertaining to the Georgia Academy for the Blind, that may have been created by will or otherwise as a fund or gift or donation or devise to any board of trustees of the Georgia Academy for the Blind or the Georgia School for the Deaf or the Atlanta Area School for the Deaf, or to any executor or trustee to and for the use, benefit, or on behalf of any such institution, shall not lapse but shall remain valid and of full force and effect; and such beneficial interest under any such deed or gift or will or other conveyance shall vest in the State Board of Education as trustee to and for the use, benefit, and on behalf of the institution intended to be benefited by the gift, devise, or other conveyance in its favor. In any case in which any deed or gift or will or other conveyance for the use or benefit of the Academy for the Blind or the schools for the deaf requires a trustee and no trustee shall exist, the state board shall be and become a substituted trustee to carry out the beneficial purposes of such gift, devise, or conveyance.</p>
+          <p>(Ga. L. 1943, p. 230, § 1; Ga. L. 1980, p. 645, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

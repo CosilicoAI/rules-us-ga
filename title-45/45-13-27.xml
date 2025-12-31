@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-13-27"/>
+          <FRBRuri value="/us-ga/act/ocga/45-13-27"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-13-27/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-13-27/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-13-27/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-13-27/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_13_27">
+        <num>45-13-27</num>
+        <content>
+          <p>It shall be the duty of the Secretary of State to publish in print or electronically in each odd-numbered year an official directory of state and county officials and officers. Such directory shall also contain the names of the members of the Georgia delegation to the Congress of the United States. The directory shall contain the name, political party affiliation, independent status, or nonpartisan status of each person elected to a state or county office or to the Congress of the United States from this state. The directory shall contain such additional information as the Secretary of State shall prescribe in order to make the directory a useful and convenient reference work.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

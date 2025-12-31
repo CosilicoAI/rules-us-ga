@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-5-86"/>
+          <FRBRuri value="/us-ga/act/ocga/40-5-86"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-5-86/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-5-86/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-5-86/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-5-86/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_5_86">
+        <num>40-5-86</num>
+        <content>
+          <p>Upon the accumulation of points pursuant to Code Section 40-5-57, the total number of points accumulated by any driver shall be reduced by seven points, but to not less than zero points, upon the satisfactory completion by such driver of a defensive driving course approved by the department and the submission of a certificate by such driver to the department. The provisions of this Code section shall be available one time only to each driver in any five-year period.</p>
+          <p>(Code 1933, § 68D-107, enacted by Ga. L. 1978, p. 2302, § 1; Ga. L. 1987, p. 1082, § 5; Ga. L. 1990, p. 2048, § 4; Ga. L. 1992, p. 2105, § 1; Ga. L. 1992, p. 2785, § 18; Ga. L. 2003, p. 796, § 6; Ga. L. 2014, p. 710, § 1-18/SB 298.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-170"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-170/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-170/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_170">
+        <num>44-12-170</num>
+        <content>
+          <p>Whenever any officer has taken possession of any property under process in any case of trover and the property remains in the hands of the officer because neither the plaintiff nor the defendant replevies the property, if the property is of a perishable nature or liable to deterioration from keeping or if there is expense involved in keeping the property, the property may be sold under Code Section 9-13-163; provided, however, if the property is sold, the plaintiff, in case of recovery, shall be entitled only to a money verdict for the amount of the proceeds of such sale together with any hire or interest from the date of conversion to the date of seizure found by the jury.</p>
+          <p>(Ga. L. 1887, p. 59, § 1; Civil Code 1895, § 4607; Civil Code 1910, § 5153; Code 1933, § 107-204.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

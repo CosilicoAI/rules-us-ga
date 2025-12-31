@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-11-7"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-11-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-11-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_11_7">
+        <num>20-11-7</num>
+        <content>
+          <p>The president of the Georgia Institute of Technology is authorized at any time not later than January 1, 1985, in his discretion, to change the name of the Engineering Experiment Station to "Georgia Tech Research Institute" by giving written notice of such change and of the effective date thereof to the Board of Regents of the University System of Georgia and the Secretary of State of the State of Georgia. The Engineering Experiment Station shall be known and designated as the "Georgia Tech Research Institute" from and after the effective date specified in such notice. The president and his delegate or delegates are authorized to give such additional notice of the name change and the effective date thereof to such other persons and in such manner as the president may deem necessary or desirable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

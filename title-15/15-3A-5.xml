@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-3A-5"/>
+          <FRBRuri value="/us-ga/act/ocga/15-3A-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-3A-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-3A-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-3A-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-3A-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_3A_5">
+        <num>15-3A-5</num>
+        <content>
+          <p>If a Senior Appellate Court Justice or Judge determines to seek nonjudicial elective public office, accepts appointment to a public office, practices law, or for any reason determines that senior status provided for in this chapter is no longer desirable, such Justice or Judge shall resign such Justice's or Judge's office and submit such Justice's or Judge's resignation to the Governor. Such resignation shall not affect or impair such Justice's or Judge's retirement pay and benefits.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

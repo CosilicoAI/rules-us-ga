@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-10-11"/>
+          <FRBRuri value="/us-ga/act/ocga/14-10-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-10-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-10-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-10-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-10-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_10_11">
+        <num>14-10-11</num>
+        <content>
+          <p>If any member, shareholder, agent, or employee of a professional association becomes legally disqualified to render a professional service within this state or accepts employment or is elected to a public office which, pursuant to existing law, is a restriction or limitation upon the rendering of professional service, he shall sever all employment with, or financial interest in, such professional association forthwith. A professional association's failure to comply or require compliance with this requirement shall be a ground for the forfeiture of its right to render professional service as a professional association pursuant to this chapter. When a professional association's failure to comply with this requirement is brought to the attention of the Secretary of State, the Secretary of State shall certify that fact to the Attorney General for appropriate action to dissolve the professional association.</p>
+          <p>(Ga. L. 1961, p. 404, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/41-2-13"/>
+          <FRBRuri value="/us-ga/act/ocga/41-2-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/41-2-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/41-2-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/41-2-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/41-2-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41_2_13">
+        <num>41-2-13</num>
+        <content>
+          <p>Any person affected by an order issued by the public officer may petition to the superior court for an injunction restraining the public officer from carrying out the provisions of the order and the court may, upon such petition, issue a temporary injunction restraining the public officer pending the final disposition of the cause; provided, however, that such person shall present such petition to the court within 15 days of the posting and service of the order of the public officer. De novo hearings shall be had by the court on petitions within 20 days. The court shall hear and determine the issues raised and shall enter such final order or decree as law and justice may require; provided, however, that it shall not be necessary to file bond in any amount before obtaining a temporary injunction under this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

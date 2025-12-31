@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-21-7"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-21-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-21-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_21_7">
+        <num>31-21-7</num>
+        <content>
+          <p>(B) A person who is 18 years of age or older and of sound mind wishing to authorize another person to control the disposition of his or her remains may execute an affidavit before a notary public in substantially the following form:</p>
+          <p>"State of Georgia
+   County of ______________
+   I, __________________, do hereby designate __________________ with the right to control the disposition of my remains upon my death. I ____ have ____ have not attached specific directions concerning the disposition of my remains with which the designee shall substantially comply, provided that such directions are lawful and there are sufficient resources in my estate to carry out the directions.
+   Subscribed and sworn to before me this ______ day of the month of ____________ of the year ________.
+   ________________________ (signature of affiant)
+   ________________________ (signature of notary public)";</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

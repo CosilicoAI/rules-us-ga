@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-110"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-110/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-110/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_110">
+        <num>8-3-110</num>
+        <content>
+          <p>The area of operation of a housing authority created for a county shall include all of the county for which it is created; and the area of operation of a regional housing authority shall include all of the counties for which such regional housing authority is created and established, provided that a county or regional housing authority shall not undertake any housing project or projects within the boundaries of any city unless a resolution shall have been adopted by the governing body of such city, and also by any housing authority which shall have been theretofore established and authorized to exercise its powers in such city, declaring that there is a need for the county or regional housing authority to exercise its powers within such city.</p>
+          <p>(Ga. L. 1943, p. 146, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

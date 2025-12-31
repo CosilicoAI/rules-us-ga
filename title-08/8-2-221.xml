@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-221"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-221"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-221/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-221/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-221/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-221/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_221">
+        <num>8-2-221</num>
+        <content>
+          <p>Should any person, firm, corporation, or other entity be dissatisfied with any ruling or decision of the state fire marshal pursuant to the provisions of this article, the right is granted to appeal within ten days to the Commissioner. If the person, firm, corporation, or other entity is dissatisfied with the decision of the Commissioner, appeal is authorized to the superior court within 30 days in the manner provided under Chapter 13 of Title 50. In the event of such appeal, the person, firm, corporation, or other entity shall give a surety bond which will be conditioned upon compliance with the order and direction of the state fire marshal or the Commissioner or both. The amount of bond shall be fixed by the Commissioner in such amount as will reasonably cover the order issued by the Commissioner or the state fire marshal or both.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

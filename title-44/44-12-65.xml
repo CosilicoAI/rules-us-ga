@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-65"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-65"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-65/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-65/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-65/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-65/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_65">
+        <num>44-12-65</num>
+        <content>
+          <p>If either party violates the terms of the hiring, the other party may abandon the contract. If the hirer puts the thing to a different use than is specified in the contract, the bailor may bring an action as for a conversion even if the hirer is a minor.</p>
+          <p>(Orig. Code 1863, § 2061; Code 1868, § 2064; Code 1873, § 2090; Code 1882, § 2090; Civil Code 1895, § 2908; Civil Code 1910, § 3481; Code 1933, § 12-206.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-4-141"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-141"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-4-141/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-141/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-4-141/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-141/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_4_141">
+        <num>4-4-141</num>
+        <content>
+          <p>Swine mycobacteriosis poses a serious potential health threat to the people of this state. The swine farmers of this state have experienced and are experiencing serious economic losses due to the condemnation of swine infected with mycobacteriosis under the laws of this state. It is in the best interest of this state to seek the speedy eradication of swine mycobacteriosis in this state, while ensuring a supply of swine meat products in this state, and to provide for indemnification to those persons having swine condemned because such swine are infected with swine mycobacteriosis.</p>
+          <p>(Ga. L. 1979, p. 1032, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

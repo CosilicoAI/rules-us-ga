@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-8"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_8">
+        <num>15-21-8</num>
+        <content>
+          <p>Code Sections 15-21-2 through 15-21-7 do not apply to city courts, nor do they authorize a judge to draw his warrant to pay insolvent costs, costs where the defendant has been acquitted, or any other fund in the county treasury than the fund arising from fines and bond forfeitures, nor do they affect any local law.</p>
+          <p>(Ga. L. 1876, p. 108, § 6; Code 1882, § 4655h; Penal Code 1895, § 1096; Penal Code 1910, § 1123; Code 1933, § 27-2909; Ga. L. 2015, p. 693, § 3-32/HB 233.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "fines and bond forfeitures" for "fines and forfeitures" near the end of this Code section. See editor's note for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

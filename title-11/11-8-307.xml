@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-8-307"/>
+          <FRBRuri value="/us-ga/act/ocga/11-8-307"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-8-307/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-8-307/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-8-307/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-8-307/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_8_307">
+        <num>11-8-307</num>
+        <content>
+          <p>Unless otherwise agreed, the transferor of a security on due demand shall supply the purchaser with proof of authority to transfer or with any other requisite necessary to obtain registration of the transfer of the security, but if the transfer is not for value, a transferor need not comply unless the purchaser pays the necessary expenses. If the transferor fails within a reasonable time to comply with the demand, the purchaser may reject or rescind the transfer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

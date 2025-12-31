@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-170"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-170/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-170/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_170">
+        <num>20-2-170</num>
+        <content>
+          <p>If the State Board of Education has received the notification from any local school system or district described in Code Section 20-2-480 and if at any time the State Board of Education is notified by the sinking fund custodian, trustee, or paying agent for bonded indebtedness of such school district or system that the school district or system has failed to effect the punctual payment of the principal of or interest on such indebtedness, the State Board of Education is authorized to and shall withhold from any state appropriation to which such school district or system may be entitled and apply so much thereof as shall be necessary to the payment of the principal of and interest on such indebtedness then due.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

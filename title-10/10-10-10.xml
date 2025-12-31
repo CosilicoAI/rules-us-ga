@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-10-10"/>
+          <FRBRuri value="/us-ga/act/ocga/10-10-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-10-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-10-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-10-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-10-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_10_10">
+        <num>10-10-10</num>
+        <content>
+          <p>Pursuant to the authority granted in Article III, Section IX, Paragraph VI(g) of the Constitution, there is hereby created the Invest Georgia Fund as a distinct component of the Seed-Capital Fund. The General Assembly declares that its purpose in creating the Invest Georgia Fund and enacting this legislation is to increase the amount of private investment capital available in this state for Georgia based business enterprises in the seed, early, or growth stages of business development and which require funding, as well as for established Georgia based business enterprises developing new methods or technologies, including the promotion of research and development purposes, thereby increasing employment, creating additional wealth, and otherwise benefitting the economic welfare of the people of this state. Accordingly, it is the intention of the General Assembly that the Invest Georgia Fund make investments in support of Georgia based business enterprises in accordance with the investment policy authorized and required under this article and focus its investment policy principally on venture capital funds and private equity organizations that invest in Georgia based business enterprises.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

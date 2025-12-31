@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-17-52"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-52"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-17-52/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-52/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-17-52/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-52/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_17_52">
+        <num>50-17-52</num>
+        <content>
+          <p>The board shall make with depositories the most advantageous contracts for interest to be paid by them to the state for the use of the state's money which may be deposited therein, as provided by this article. In so doing, the board may authorize the state treasurer to negotiate with depositories explicit fees in payment for the state's banking services.Such fees shall be paid by the state treasurer from interest earned and shall be subject to the board's approval.In the event any depository so named shall refuse to make a satisfactory contract with the board as to interest to be paid and fees to be charged, it shall have authority to remove state funds from such depository.</p>
+          <p>(Ga. L. 1878-79, p. 88, § 2; Code 1882, § 943b; Ga. L. 1895, p. 22, § 1; Civil Code 1895, § 984; Civil Code 1910, § 1251; Code 1933, § 100-103; Ga. L. 1949, p. 13, § 8; Ga. L. 1992, p. 1247, § 2; Ga. L. 2010, p. 863, § 4/SB 296.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

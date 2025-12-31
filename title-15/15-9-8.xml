@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-8"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_8">
+        <num>15-9-8</num>
+        <content>
+          <p>The several judges of the superior courts in their respective circuits shall have the power and it shall be their duty to qualify the judges of the probate courts of the several counties in their circuits, to approve the official bonds of the judges of the probate courts, and to cause the bonds to be returned to the Secretary of State with the dedimus, to be filed with the office of the Secretary of State. In all cases a certified copy of the bond shall be sufficient original evidence on which to bring an action and recover.</p>
+          <p>(Ga. L. 1871-72, p. 33, § 1; Code 1873, § 254; Code 1882, § 254; Civil Code 1895, § 4220; Civil Code 1910, § 4778; Code 1933, § 24-1705; Ga. L. 1978, p. 1038, § 1; Ga. L. 2018, p. 356, § 1-8/SB 436.)</p>
+          <p>The 2018 amendment,
+      effective July 1, 2018, deleted the former third sentence, which read: "This Code section shall extend to clerks of the superior courts when serving as judges of the probate court during vacancies in that office, and such officers must qualify at or before the spring term of the court after their election."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-172"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-172"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-172/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-172/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-172/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-172/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_172">
+        <num>44-2-172</num>
+        <content>
+          <p>Wherever, as the result of a proceeding in any court, it is adjudged that a transfer of registered land should be made, such transfer may be made by the clerk upon the production of a certified copy of the decree showing in what book and page of the minutes of the court the decree is recorded and an order of the judge of the superior court of the county in which the land is located directing the transfer to be made. Once the certified copy and the order are produced, the certificate of title on the register of titles and the owner's certificate shall be canceled and new certificates shall be registered and issued accordingly. Production of the certified copy of the decree shall not be required when it is rendered in the same court as that in which the title is registered, but the clerk shall act upon the judge's order of transfer and the inspection of his own minute book.</p>
+          <p>(Ga. L. 1917, p. 108, § 49; Code 1933, § 60-513.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

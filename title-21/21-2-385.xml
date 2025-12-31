@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-385"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-385"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-385/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-385/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-385/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-385/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_385">
+        <num>21-2-385</num>
+        <content>
+          <p>During the period of advance voting established pursuant to subsection (d) of Code Section 21-2-385, each elector who is 75 years of age or older or who is disabled and requires assistance in casting an absentee ballot in person at the registrar's office, absentee ballot clerk's office, or other locations as provided for in Code Section 21-2-382 shall, upon request to a designated office employee or other individual, be authorized to vote immediately at the next available voting compartment or booth without having to wait in line if such location utilizes direct recording electronic voting systems or be authorized to go to the head of any line necessary to cast a written absentee ballot. Notice of the provisions of this Code section shall be prominently displayed in the registrar's office or absentee ballot clerk's office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

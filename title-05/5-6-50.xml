@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-6-50"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-6-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-6-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_6_50">
+        <num>5-6-50</num>
+        <content>
+          <p>The procedure provided in this article shall serve all purposes which a bill of exceptions or writ of error has served in the past; and, where under any law of force in this state provision is made for the taking of writs of error or bills of exception, the procedure prescribed in this article shall be deemed to apply in lieu thereof as to the procedure and as to all time requirements.</p>
+          <p>(Ga. L. 1965, p. 18, § 19.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

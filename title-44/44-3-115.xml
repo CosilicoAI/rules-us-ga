@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-115"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-115"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-115/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-115/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-115/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-115/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_115">
+        <num>44-3-115</num>
+        <content>
+          <p>The provisions of this article and of condominium instruments recorded pursuant thereto shall be liberally construed in favor of the valid establishment of a condominium pursuant to this article with respect to the submitted property. Substantial compliance with the requirements of this article for the establishment of a condominium shall suffice to bring property described in condominium instruments recorded pursuant to this article within the purview and application of this article; and any defects in such instruments or want of conformity with this article may be cured by an amendment thereto duly executed by the association and recorded or, upon application of any unit owner, with notice to the declarant, the association, and all other unit owners, by decree of the court.</p>
+          <p>(Ga. L. 1975, p. 609, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-142"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-142"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-142/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-142/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-142/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-142/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_142">
+        <num>44-14-142</num>
+        <content>
+          <p>The clerk of the superior court shall file the affidavit required by Code Section 44-14-141, reindex the instrument mentioned in the affidavit, and enter on the margin of the record of the instrument a reference to the filing of the affidavit, which shall state the date of the filing of the affidavit and the amount unpaid on the obligation secured by the instrument, for which services the clerk shall be entitled to a fee as required by Article 2 of Chapter 6 of Title 15.</p>
+          <p>(Ga. L. 1937, p. 760, § 3; Ga. L. 1981, p. 1396, § 20; Ga. L. 1986, p. 1002, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-28"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_28">
+        <num>36-39-28</num>
+        <content>
+          <p>At any time within 60 days after the assessments are finally determined and fixed, the municipal corporation may file a petition in the superior court of the county in which the municipal corporation is situated, along with a copy of the ordinance, in which petition shall be alleged the fact of the passage and approval of the ordinance, the street or part of a street affected thereby, the character of paving or other improvement intended, and the approximate estimate of the cost. The petition shall allege that the ordinance is authorized by law and that it will create a lien on all real property abutting on such street or part of a street for the payment by the owner of each lot or parcel of land so abutting of the pro rata share of expense assessed to each lot or parcel of land, as well as on any street or other railroad therein, if any such there are, and shall pray for a judgment by the court declaring the ordinance valid, legal, and binding and that the liens be set up as alleged. It shall not be necessary in such petition to allege the names of the owners of the abutting property or railroads to be affected, but it shall be sufficient to describe the street or portion thereof to be improved and to indicate that the property on the street is to be charged with the expense.</p>
+          <p>(Ga. L. 1927, p. 321, § 16; Code 1933, § 69-428.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

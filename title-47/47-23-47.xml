@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-23-47"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-23-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-23-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_23_47">
+        <num>47-23-47</num>
+        <content>
+          <p>The board of trustees shall transfer to the Employees' Retirement System of Georgia all contributions made to the fund by a member who transfers to the Employees' Retirement System of Georgia; and The Council of Superior Court Judges of Georgia, The Council of State Court Judges of Georgia, the Council of Juvenile Court Judges, and the Prosecuting Attorneys' Council of the State of Georgia, as appropriate, are authorized and directed to pay from the funds appropriated or otherwise available an additional amount equal to the 5 percent contribution of such member plus an additional 20 percent of the contribution, so that the state contribution shall be in accordance with the Employees' Retirement System of Georgia.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

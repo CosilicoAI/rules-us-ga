@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-247"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-247"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-247/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-247/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-247/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-247/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_247">
+        <num>12-3-247</num>
+        <content>
+          <p>(c.1)On and after May 30, 2007, the authority shall not enter into, extend, or renew any agreement providing for the sale of any residential or commercial lot on Jekyll Island, and Code Section 12-3-250 shall not apply to any new, extended, or renewed agreement.</p>
+          <p>(Ga. L. 1957, p. 608, § 3; Ga. L. 2007, p. 711, § 9/HB 214.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

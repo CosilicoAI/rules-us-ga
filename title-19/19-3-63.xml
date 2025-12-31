@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-3-63"/>
+          <FRBRuri value="/us-ga/act/ocga/19-3-63"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-3-63/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-3-63/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-3-63/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-3-63/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_3_63">
+        <num>19-3-63</num>
+        <content>
+          <p>Every marriage contract in writing, made in contemplation of marriage, shall be liberally construed to carry into effect the intention of the parties, and no want of form or technical expression shall invalidate the same. Such marriage contract shall be in writing, signed by both parties who agree to be bound, and attested by at least two witnesses, one of whom shall be a notary public.</p>
+          <p>(Orig. Code 1863, § 1726; Code 1868, § 1767; Code 1873, § 1777; Code 1882, § 1777; Civil Code 1895, § 2482; Civil Code 1910, § 3001; Code 1933, § 53-407; Ga. L. 2018, p. 155, § 1-1/HB 190.)</p>
+          <p>The 2018 amendment,
+      effective July 1, 2018, substituted the present provisions of the second sentence of this Code section for the former provisions, which read: "The contract must be attested by at least two witnesses."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

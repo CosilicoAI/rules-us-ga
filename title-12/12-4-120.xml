@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-4-120"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-4-120/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-4-120/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-4-120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_4_120">
+        <num>12-4-120</num>
+        <content>
+          <p>Every person purchasing within this state native gold, gold bullion, gold dust, gold nuggets, or gold amalgam shall keep in a book a register of the date of purchase, amount purchased, name of seller, and lands from which the gold was obtained. On or by the first day of January, April, July, and October of each year, every such purchaser shall file with the judge of the probate court of the county of his residence a copy of the register kept for the previous quarter.</p>
+          <p>(Ga. L. 1899, p. 66, § 1; Civil Code 1910, § 1981; Code 1933, § 43-405.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

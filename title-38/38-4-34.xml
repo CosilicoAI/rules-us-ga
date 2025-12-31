@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-4-34"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-34"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-4-34/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-34/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-4-34/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-34/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_4_34">
+        <num>38-4-34</num>
+        <content>
+          <p>In the execution of all programs for the education and training of veterans as provided in this part, the Department of Veterans Service shall cooperate with the proper officials of private schools, colleges, and universities of the state which are not under the official jurisdiction of the public educational authorities of the state in the placing of veterans at such institutions for education and training and shall, so far as possible, coordinate the programs of the private institutions with the standards of public institutions.</p>
+          <p>(Ga. L. 1947, p. 1143, § 14; Ga. L. 1949, p. 539, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

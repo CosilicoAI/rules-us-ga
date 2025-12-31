@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-249"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-249"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-249/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-249/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-249/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-249/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_249">
+        <num>44-2-249</num>
+        <content>
+          <p>The owner of a creditor's certificate may authorize the clerk to register the cancellation thereof by writing thereon "Canceled. The clerk will please cancel the same on the title register" and dating and signing the same in the presence of an officer authorized to attest deeds. If the person owning the creditor's certificate is not the person in whose name it was issued and if the original creditor has not endorsed it in blank, the owner signing the cancellation shall also make an affidavit that he is the owner of the creditor's certificate and entitled to cancel it. The creditor's certificate shall be surrendered to the clerk at the time of the registration of the cancellation.</p>
+          <p>(Ga. L. 1917, p. 108, § 115; Code 1933, § 60-630.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

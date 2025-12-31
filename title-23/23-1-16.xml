@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-1-16"/>
+          <FRBRuri value="/us-ga/act/ocga/23-1-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-1-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-1-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-1-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-1-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_1_16">
+        <num>23-1-16</num>
+        <content>
+          <p>He who takes with notice of an equity takes subject to that equity.</p>
+          <p>(Orig. Code 1863, § 3024; Code 1868, § 3036; Code 1873, § 3091; Code 1882, § 3091; Civil Code 1895, § 3932; Civil Code 1910, § 4529; Code 1933, § 37-115.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

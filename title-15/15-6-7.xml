@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-6-7"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-6-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-6-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_6_7">
+        <num>15-6-7</num>
+        <content>
+          <p>A person who has been elected a judge of the superior courts of any circuit cannot be deprived of his office by attachment of the county in which he resides to a different judicial circuit; such person may continue to discharge the duties of his office as though he resided in the circuit.</p>
+          <p>(Orig. Code 1863, §§ 33, 236; Code 1868, §§ 31, 230; Code 1873, §§ 31, 240; Code 1882, §§ 31, 240; Civil Code 1895, § 4314; Civil Code 1910, § 4838; Code 1933, § 24-2608.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

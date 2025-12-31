@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-5-8"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-5-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-5-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_5_8">
+        <num>14-5-8</num>
+        <content>
+          <p>Whenever certificates for shares or other securities issued by domestic or foreign corporations are or have been issued or transferred to two or more persons in joint tenancy on the books or records of the corporation, it is presumed in favor of the corporation, its registrar, and its transfer agent that the shares or other securities are owned by such persons in joint tenancy with right of survivorship and not otherwise. A domestic or foreign corporation or its registrar or transfer agent is not liable for transferring or causing to be transferred on the books of the corporation to the surviving joint tenants where a joint tenant dies a resident of this state any share or shares or other securities theretofore issued by the corporation to two or more persons in joint tenancy with right of survivorship on the books or records of the corporation, whether or not the transfer was made by the corporation or its registrar or transfer agent with actual or constructive knowledge of the existence of any understanding, agreement, condition, or evidence that the shares or securities were held other than in joint tenancy or with actual or constructive knowledge of the invalidity of the joint tenancy or of a breach of trust by the joint tenants.</p>
+          <p>(Ga. L. 1967, p. 647, § 1; Code 1933, § 22-5107, enacted by Ga. L. 1968, p. 565, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

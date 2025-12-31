@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-3-405"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-405"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-3-405/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-405/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-3-405/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-405/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_3_405">
+        <num>11-3-405</num>
+        <content>
+          <p>In the case of an instrument payable to the employer, a forged indorsement purporting to be that of the employer; or</p>
+          <p>In the case of an instrument with respect to which the employer is the issuer, a forged indorsement purporting to be that of the person identified as payee; and</p>
+          <p>Sign or indorse instruments on behalf of the employer;</p>
+          <p>Process instruments received by the employer for bookkeeping purposes, for deposit to an account, or for other disposition;</p>
+          <p>Prepare or process instruments for issue in the name of the employer;</p>
+          <p>Supply information determining the names or addresses of payees of instruments to be issued in the name of the employer;</p>
+          <p>Control the disposition of instruments to be issued in the name of the employer; or</p>
+          <p>Act otherwise with respect to instruments in a responsible capacity.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

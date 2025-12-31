@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-9-4"/>
+          <FRBRuri value="/us-ga/act/ocga/36-9-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-9-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-9-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-9-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-9-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_9_4">
+        <num>36-9-4</num>
+        <content>
+          <p>The officer having charge of the financial affairs of each county shall keep insured, at a fair valuation against loss by fire, all volumes of the public laws and decisions of the Supreme Court and the Court of Appeals which have been furnished to the judge of the probate court and the clerk of the superior court of his county. Such policies of insurance shall be in the name of the county. The premiums therefor shall be paid out of the funds of the county. In the event of any loss or damage by fire, the county governing authority shall proceed to collect the amount of loss on the policy; when so collected, the proceeds thereof shall be used in supplying new books of the kind lost or injured, insofar as the proceeds may be sufficient to do so.</p>
+          <p>(Ga. L. 1882-83, p. 132, §§ 1, 2; Civil Code 1895, §§ 349, 350; Civil Code 1910, §§ 397, 398; Code 1933, §§ 91-603, 91-604.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-78"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-78"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-78/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-78/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-78/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-78/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_78">
+        <num>9-13-78</num>
+        <content>
+          <p>When judgments have been obtained against several persons and one of them has paid more than his just proportion of the same, he may have full power to control and use the execution as securities in execution control the same against principals or cosureties by having this payment entered on the execution issued to enforce the judgment, and he shall not be compelled to bring an action against the codebtors for the excess of payment on the judgment.</p>
+          <p>(Ga. L. 1871-72, p. 54, § 1; Code 1873, § 3599; Code 1882, § 3599; Civil Code 1895, § 5376; Civil Code 1910, § 5971; Code 1933, § 39-608.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

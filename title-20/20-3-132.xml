@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-132"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-132"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-132/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-132/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-132/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-132/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_132">
+        <num>20-3-132</num>
+        <content>
+          <p>Every city, county, county school system, independent school system, or other political subdivision of the state possessing a power to tax, which shall possess the requisite powers under the Constitution and laws of this state may either alone or in combination with any other such city, county, county school system, independent school system, or other political subdivision of the state establish, maintain, and operate one or more junior colleges under the terms of and subject to this article.</p>
+          <p>(Ga. L. 1958, p. 47, § 3; Ga. L. 1983, p. 3, § 53; Ga. L. 1984, p. 22, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

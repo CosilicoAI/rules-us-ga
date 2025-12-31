@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-20-17"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-20-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-20-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-20-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_20_17">
+        <num>43-20-17</num>
+        <content>
+          <p>Contested cases under this chapter shall be administered in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act"; provided, however, that any person whose license or permit has been revoked, suspended, or otherwise sanctioned by a final order of the board or denied or not renewed pursuant to Code Section 43-20-16 may appeal to the superior court to review the decision of the board to determine its legal correctness; and provided, further, that the findings of fact rendered by the board will be accepted by the court if said findings are supported by any evidence.</p>
+          <p>(Ga. L. 1970, p. 653, § 17; Code 1933, § 84-5618, enacted by Ga. L. 1978, p. 1728, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

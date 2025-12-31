@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-14-20"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-14-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-14-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_14_20">
+        <num>9-14-20</num>
+        <content>
+          <p>In all habeas corpus cases, the proceedings shall be returned to the clerk of the superior court of the county the judge of which heard the same or to the probate court if the case was heard by the judge of the probate court and shall be recorded by such officer as are other cases. For such services, the officer shall receive the fees provided by Code Section 15-6-77.</p>
+          <p>(Orig. Code 1863, § 3930; Code 1868, § 3953; Code 1873, § 4029; Code 1882, § 4029; Penal Code 1895, § 1232; Penal Code 1910, § 1313; Code 1933, § 50-124; Ga. L. 1970, p. 497, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

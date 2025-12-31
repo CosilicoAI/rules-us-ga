@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/17-4-46"/>
+          <FRBRuri value="/us-ga/act/ocga/17-4-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/17-4-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/17-4-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/17-4-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/17-4-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_4_46">
+        <num>17-4-46</num>
+        <content>
+          <p>An arrest warrant substantially complying with the following form shall in all cases be sufficient:
+   Georgia, __________________ County.
+   To any sheriff, deputy sheriff, coroner, constable, or marshal of said state - Greetings:
+   (Name of the affiant) makes oath before me that on the __________ day of ______________________________, in the year ________, in the county aforesaid, (name of person against whom the warrant is sought) did commit the offense of (insert here all information describing offense as required by Code Section 17-4-41). You are therefore commanded to arrest (name of person against whom the warrant is sought) and bring him before me, or some other judicial officer of this state, to be dealt with as the law directs. You will also levy on a sufficiency of the property of (name of person against whom the warrant is sought) to pay the costs in the event of his final conviction. Herein fail not.
+   ______________________________
+   Judicial officer</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

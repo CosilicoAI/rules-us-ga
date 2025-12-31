@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-106"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-106"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-106/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-106/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-106/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-106/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_106">
+        <num>8-3-106</num>
+        <content>
+          <p>The governing bodies of the counties desiring to form a regional housing authority shall have the right to establish by resolution the composition and size of the board of commissioners of the regional housing authority; provided, however, that each county shall have at least one commissioner on the board of commissioners of the regional housing authority and that at least one of the commissioners shall be a recipient of direct assistance from a public housing authority located within such region. The governing body of each county shall appoint the successors of the commissioner or commissioners appointed by it. A certificate of the appointment of any commissioner appointed pursuant to this Code section shall be filed with the clerk of the county, and such certificate shall be conclusive evidence of the due and proper appointment of such commissioner.</p>
+          <p>(Ga. L. 1943, p. 146, § 6; Ga. L. 1951, p. 127, § 1; Ga. L. 1959, p. 141, § 1; Ga. L. 1962, p. 734, § 1; Ga. L. 1997, p. 573, § 1; Ga. L. 1999, p. 737, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

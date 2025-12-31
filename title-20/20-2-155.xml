@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-155"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-155"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-155/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-155/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-155/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-155/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_155">
+        <num>20-2-155</num>
+        <content>
+          <p>The State Board of Education shall establish a state-wide school climate management program to help local schools and systems requesting assistance in developing school climate improvement and management processes. Such projects will be designed to optimize local resources through voluntary community, student, teacher, administrator, and other school personnel participation. These processes will be designed for, but will not be limited to, promoting positive gains in student achievement scores, student and teacher morale, community support, and student and teacher attendance, while decreasing student suspensions, expulsions, dropouts, and other negative aspects of the total school environment. The state board upon request of a local school system is authorized to provide the necessary on-site technical assistance to local schools and systems and to offer other assistance through regional and state-wide conferences and workshops, printed material, and such other assistance as may be deemed appropriate under this Code section. The state board shall, upon request of a local school system, produce model codes of behavior and discipline and shall produce guidelines for application and administration of such codes. The results of this program shall be annually presented to the General Assembly for review in determining future appropriations for state-level technical assistance necessary to perform the duties assigned to the state board under this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

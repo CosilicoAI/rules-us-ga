@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-14-14"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-14-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-14-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_14_14">
+        <num>9-14-14</num>
+        <content>
+          <p>If the return denies any of the material facts stated in the petition or alleges other facts upon which issue is taken, the judge hearing the return may in a summary manner hear testimony as to the issue. To that end, he may compel the attendance of witnesses and the production of papers, may adjourn the examination of the question, or may exercise any other power of a court which the principles of justice may require.</p>
+          <p>(Orig. Code 1863, § 3922; Code 1868, § 3945; Code 1873, § 4021; Code 1882, § 4021; Penal Code 1895, § 1222; Penal Code 1910, § 1303; Code 1933, § 50-114.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

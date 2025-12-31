@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-6-21"/>
+          <FRBRuri value="/us-ga/act/ocga/19-6-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-6-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-6-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-6-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-6-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_6_21">
+        <num>19-6-21</num>
+        <content>
+          <p>A petition authorized in subsection (a) of Code Section 19-6-19 can be filed only where a party has been ordered by the final judgment in an alimony or divorce and alimony action to pay permanent alimony in weekly, monthly, annual, or similar periodic payments and not where the former spouse of such party has been given an award from the corpus of the party's estate in lieu of such periodic payment.</p>
+          <p>(Ga. L. 1955, p. 630, § 3; Ga. L. 1979, p. 466, § 25; Ga. L. 2005, p. 224, § 8/HB 221; Ga. L. 2006, p. 583, § 8/SB 382.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

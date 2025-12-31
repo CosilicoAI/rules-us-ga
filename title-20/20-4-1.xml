@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-4-1"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-4-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-4-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_4_1">
+        <num>20-4-1</num>
+        <content>
+          <p>The State of Georgia accepts the provisions of an act of the Congress of the United States approved February 23, 1917 (20 U.S.C.A. Section 11, et seq.; c. 114, Section 1, 39 Stat. 929), the caption of which act is as follows: "An act to provide for the promotion of vocational education; to provide for cooperation with the states in the promotion of such education in agriculture and the trades and industries; to provide for cooperation with the states in the preparation of teachers of vocational subjects; and to appropriate money and regulate its expenditure, and for other purposes," expressly including such Sections 1, 2, 3, and 4 of such act and the provisions thereunder and appropriations therefor, to be used according to and as provided in such act.</p>
+          <p>(Ga. L. 1917, p. 200, § 1; Ga. L. 1919, p. 288, § 178; Code 1933, § 32-2201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

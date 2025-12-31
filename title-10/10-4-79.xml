@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-79"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-79"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-79/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-79/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-79/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-79/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_79">
+        <num>10-4-79</num>
+        <content>
+          <p>Any manager, employee, agent, officer, or other person who shall deliver cotton from a warehouse under this article, except upon the production of the receipt therefor, or who shall fail to mark such receipt "canceled" on the delivery of the cotton shall be guilty of a felony and, upon conviction thereof, shall be punished by a fine of not more than $5,000.00, or imprisonment for not more than five years in the state penitentiary, or both, in the discretion of the court.</p>
+          <p>(Ga. L. 1918, p. 246, § 18; Code 1933, § 5-9902.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

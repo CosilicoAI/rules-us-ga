@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-197"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-197"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-197/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-197/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-197/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-197/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_197">
+        <num>7-1-197</num>
+        <content>
+          <p>Any reasonable expenditure made by the department as receiver of a financial institution, including any expense incurred in the management, reorganization, consolidation, liquidation, or distribution of the assets and affairs of the financial institution, any payment of a loan or interest thereon under Code Section 7-1-164, and any compensation paid to the deputy receiver, attorneys, or any other person employed to assist the department in such management, reorganization, consolidation, liquidation, or distribution shall be paid out of the assets of the financial institution, provided it is included in any partial or final account filed by the department pursuant to this chapter and is approved by the principal court in which such account is filed. Where such expenses are incurred or such compensation is paid for the benefit of the estate of more than one financial institution in the possession of the department as receiver, an equitable portion of such expenses or compensation shall be paid out of the assets of each financial institution on whose behalf such expenditures were incurred or paid.</p>
+          <p>(Ga. L. 1919, p. 135, art. 7, § 23; Ga. L. 1925, p. 119, § 1; Ga. L. 1931, p. 7, § 91; Code 1933, § 13-825; Code 1933, § 41A-808, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

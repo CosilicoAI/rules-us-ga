@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-1-4"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-1-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-1-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_1_4">
+        <num>47-1-4</num>
+        <content>
+          <p>Based on the most recent actuarial investigations on file pursuant to subsection (d) of Code Section 47-1-3 and financial reports submitted under subsections (e) through (j) of Code Section 47-1-3, the state auditor, once every two years beginning on January 1, 1997, shall submit a report on the condition of local retirement systems to the Governor and each member of the General Assembly. The report shall deal specifically with any local retirement system which the state auditor has reason to believe is not in actuarially sound condition or has not been in compliance with the provisions of Code Section 47-1-12. A copy of the state auditor's report shall also be sent to the Attorney General and to the applicable governing authority of the political subdivision and the applicable board of trustees or other governing authority of the local retirement system which the state auditor finds is not in actuarially sound condition or has not been in compliance with the provisions of Article 7 of Chapter 20 of this title.</p>
+          <p>(Ga. L. 1981, p. 931, § 3; Ga. L. 1996, p. 651, § 2; Ga. L. 2001, p. 21, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

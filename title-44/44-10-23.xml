@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-10-23"/>
+          <FRBRuri value="/us-ga/act/ocga/44-10-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-10-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-10-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-10-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-10-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_10_23">
+        <num>44-10-23</num>
+        <content>
+          <p>Cities or counties which have adopted ordinances relative to planning and zoning for historic purposes as of March 31, 1980, under authority granted by a local constitutional amendment or by any other means, including cities or counties which have subsequently replaced or amended in whole or in part such ordinances, shall not be required to comply with this article and are authorized to create and regulate historic districts, zones, or sites pursuant to their existing local historic preservation ordinances.</p>
+          <p>(Ga. L. 1980, p. 1723, § 12; Ga. L. 1989, p. 1160, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

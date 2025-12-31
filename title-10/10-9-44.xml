@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-9-44"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-9-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-9-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_9_44">
+        <num>10-9-44</num>
+        <content>
+          <p>The authority may sell the revenue bonds in such manner at public or private sale and for such price, rate of interest, and other terms as it may determine to be in the best interest of the authority. The rate of interest may be a fixed or variable rate, but if the rate is a variable rate, a maximum per annum rate of interest shall be specified in the authorizing resolution and in the validation proceeding.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

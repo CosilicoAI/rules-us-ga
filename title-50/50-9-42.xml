@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-9-42"/>
+          <FRBRuri value="/us-ga/act/ocga/50-9-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-9-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-9-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-9-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-9-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_9_42">
+        <num>50-9-42</num>
+        <content>
+          <p>The revenues, rents, and earnings derived from any particular project or combined project or any and all funds from any source received by any department, board, commission, or agency of the state and pledged and allocated by it to the authority as security for the performance of any lease or leases or any and all revenues, rents, and earnings received by the authority, regardless of whether or not such rents, earnings, and revenues were produced by a particular project for which bonds have been issued unless otherwise pledged and allocated, may be pledged and allocated by the authority to the payment of the principal and interest on revenue bonds of the authority as the resolution authorizing the issuance of the bonds or in the trust instrument may provide; and such funds so pledged from whatever source received, which pledge may include funds received from one or more or all sources, shall be set aside at regular intervals as may be provided in the resolution or trust indenture into a sinking fund, which sinking fund shall be pledged to and charged with the payment of:</p>
+          <p>(Ga. L. 1951, p. 699, § 17; Ga. L. 1982, p. 3, § 50.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

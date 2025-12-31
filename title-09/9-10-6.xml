@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-6"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_6">
+        <num>9-10-6</num>
+        <content>
+          <p>A juror shall not act on his or her private knowledge respecting the facts, witnesses, or parties.</p>
+          <p>(Civil Code 1895, § 5337; Civil Code 1910, § 5932; Code 1933, § 110-108; Ga. L. 2011, p. 99, § 9/HB 24.)</p>
+          <p>The 2011 amendment,
+      effective January 1, 2013, inserted "or her" near the beginning and deleted "unless sworn and examined as a witness in the case" following "parties" at the end. See Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

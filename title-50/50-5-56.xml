@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-56"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-56"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-56/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-56/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-56/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-56/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_56">
+        <num>50-5-56</num>
+        <content>
+          <p>It shall be the duty of the Department of Administrative Services to formulate, adopt, establish, and modify standard specifications applying to state contracts. In the formulation, adoption, and modification of any standard specifications, the Department of Administrative Services shall seek the advice, assistance, and cooperation of any state department, institution, or agency to ascertain its precise requirements in any given commodity. Each specification adopted for any commodity shall insofar as possible satisfy the requirements of a majority of the state departments, institutions, or agencies which use the same in common. After its adoption each standard specification shall until revised or rescinded apply alike in terms and effect to every state purchase of the commodity described in such specifications. In the preparation of any standard specifications, the Department of Administrative Services shall have power to make use of any state laboratory for chemical and physical tests in the determination of quality.</p>
+          <p>(Ga. L. 1937, p. 503, § 14; Ga. L. 1939, p. 160, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

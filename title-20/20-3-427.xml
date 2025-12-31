@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-427"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-427"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-427/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-427/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-427/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-427/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_427">
+        <num>20-3-427</num>
+        <content>
+          <p>The authority shall, consistent with this subpart, promulgate such rules and regulations as may be necessary to administer the scholarship program provided for in this subpart. The funds necessary to carry out this subpart shall be paid from funds appropriated to the authority for the purposes of this subpart.</p>
+          <p>(Ga. L. 1980, p. 1292, § 10; Code 1933, § 32-3790, enacted by Ga. L. 1981, p. 735, § 51; Ga. L. 2013, p. 1048, § 1/SB 82.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

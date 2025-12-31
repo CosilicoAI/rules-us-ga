@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-196"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-196"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-196/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-196/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-196/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-196/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_196">
+        <num>36-82-196</num>
+        <content>
+          <p>When the department is required to apply the policy guidelines it may consider such factors, known as evaluation factors, in deciding which applications should receive a notice of allocation. The evaluation factors to be considered shall include, but are not limited to, the number of permanent jobs created or retained; the commitment of the borrower to hire individuals eligible for training under the Job Training Partnership Act or its successor program; the unemployment rate of the territorial area of the issuer compared to the state as a whole; the ratio of private investment to bond financing; evidence of HoDAG or UDAG approval; the amount of benefit to low-income to moderate-income individuals; the cost per qualified residential rental unit; the housing vacancy rate of the territory of the issuer compared to the state as a whole, as determined by the department; and the degree to which the combination of income and price limits serve to target the single-family housing bonds to low-income to moderate-income households.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

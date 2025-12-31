@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-46"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_46">
+        <num>48-8-46</num>
+        <content>
+          <p>If any dealer liable for any tax, interest, or penalty imposed by this article sells out his business or stock of goods or equipment or quits the business, he shall make a final return and payment within 15 days after the date of selling or quitting the business. The dealer's successor or assigns, if any, shall withhold a sufficient amount of the purchase money to cover the amount of the taxes, interest, and penalties due and unpaid until the former owner produces either a receipt from the commissioner showing that the taxes, interest, and penalties have been paid or a certificate from the commissioner stating that no sales and use taxes, interest, or penalties are due. If the purchaser of a business or stock of goods or equipment fails to withhold the purchase money as required by this Code section, he shall be personally liable for the payment of any sales and use taxes, interest, and penalties accruing and unpaid by any former owner or assignor. The personal liability of the purchaser in such a case shall not exceed the amount of the total purchase money, but the property being transferred shall in all cases be subject to the full amount of the tax lien arising from the delinquencies of the former owner.</p>
+          <p>(Ga. L. 1951, p. 360, § 15; Ga. L. 1960, p. 153, § 6; Code 1933, § 91A-4519, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1983, p. 1834, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

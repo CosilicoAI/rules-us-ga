@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4-80"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4_80">
+        <num>46-4-80</num>
+        <content>
+          <p>The General Assembly finds that certain political subdivisions of this state now own and operate gas distribution systems to serve their citizens, inhabitants, and customers by providing them with gas for all purposes; and if such political subdivisions are to furnish, and if the members of the public in the areas they serve are to receive, adequate service, such political subdivisions must have adequate, dependable, and economical sources of gas supplies. The General Assembly declares that there exists in this state a need for an authority to function without profit in developing and promoting for the public good in this state adequate, dependable, and economical sources and supplies of gas for the purposes expressed in this Code section, and to assist in the financing of additions and other expenditures for the municipal gas systems of such political subdivisions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

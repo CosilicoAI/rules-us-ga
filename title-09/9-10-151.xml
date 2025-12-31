@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-151"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-151"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-151/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-151/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-151/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-151/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_151">
+        <num>9-10-151</num>
+        <content>
+          <p>Should any member of the Board of Regents of the University System of Georgia or any member of the State Board of Education be otherwise occupied, at the time of any meeting of the board, as counsel or party in any case pending in the courts of this state and should the case be called for trial during the regular session of the board, the absence of the member to attend the session shall be good ground for a postponement or continuance of the case until the session of the board has come to an end.</p>
+          <p>(Ga. L. 1931, p. 7, § 56; Code 1933, § 81-1404; Ga. L. 1985, p. 1406, § 1; Ga. L. 2019, p. 777, § 2/HB 502.)</p>
+          <p>The 2019 amendment,
+      effective May 7, 2019, substituted "otherwise occupied" for "engaged" near the middle of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

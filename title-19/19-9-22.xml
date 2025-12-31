@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-9-22"/>
+          <FRBRuri value="/us-ga/act/ocga/19-9-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-9-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-9-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-9-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-9-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_9_22">
+        <num>19-9-22</num>
+        <content>
+          <p>As used in this article, the term:</p>
+          <p>(Ga. L. 1978, p. 1957, § 3; Ga. L. 2019, p. 904, § 1/SB 190.)</p>
+          <p>The 2019 amendment,
+      effective July 1, 2019, rewrote this Code section, which read: "As used in this article, the term:</p>
+          <p>"(1) 'Custody' includes visitation rights.</p>
+          <p>"(2) 'Legal custodian' means a person, including, but not limited to, a parent, who has been awarded permanent custody of a child by a court order. A person who has not been awarded custody of a child by court order shall not be considered as the legal custodian while exercising visitation rights. Where custody of a child is shared by two or more persons or where the time of visitation exceeds the time of custody, that person who has the majority of time of custody or visitation shall be the legal custodian.</p>
+          <p>"(3) 'Physical custodian' means a person, including, but not limited to, a parent, who is not the 'legal custodian' of a child but who has physical custody of the child."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

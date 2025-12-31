@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-163"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-163"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-163/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-163/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-163/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-163/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_163">
+        <num>44-2-163</num>
+        <content>
+          <p>The owner of any registered land who desires to convey the land as security for debt and with power of sale without foreclosure may do so by a short form of transfer substantially in the form provided in Code Section 44-2-241. The form shall be signed and properly acknowledged or attested as if it were a deed to land and shall be presented together with the owner's certificate to the clerk. The clerk shall note on the owner's certificate and on the certificate of title in the title register the name of the creditor, the amount of debt, and the date of maturity of the debt and shall show that a creditor's certificate has been issued therefor. When only a part of the registered estate is so conveyed, the clerk shall note on the book and the owner's certificate the part so conveyed. The clerk shall retain, number, and file away the instrument of transfer and shall issue and deliver to the creditor a creditor's certificate, over his hand and seal, setting out the portion so conveyed. All registered encumbrances, rights, or adverse claims affecting the estate represented thereby which are in existence at the time the creditor's certificate is issued shall be noted thereon.</p>
+          <p>(Ga. L. 1917, p. 108, § 32; Code 1933, § 60-503.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

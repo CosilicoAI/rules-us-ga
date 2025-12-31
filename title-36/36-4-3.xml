@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-4-3"/>
+          <FRBRuri value="/us-ga/act/ocga/36-4-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-4-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-4-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-4-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-4-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_4_3">
+        <num>36-4-3</num>
+        <content>
+          <p>At the election, the form of the ballot and the procedure for marking the ballot shall be as provided in Chapter 2 of Title 21, the "Georgia Election Code." The ballot for such election shall have written or printed thereon the following:
+   "[
+   ] YES
+   Shall the county site of __________ County
+   [
+   ] NO
+   be moved to __________?"</p>
+          <p>In any such referendum election, all persons desiring to vote in favor of moving the county site shall vote "Yes," and those persons desiring to vote against moving the county site shall vote "No." If two-thirds of the votes cast at the election are in favor of removal, the General Assembly next convening after the election may provide for the removal of the county site by appropriate legislation.</p>
+          <p>(Ga. L. 1878-79, p. 44, § 3; Code 1882, § 508z; Civil Code 1895, § 393; Civil Code 1910, § 488; Code 1933, § 23-503; Ga. L. 1987, p. 3, § 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

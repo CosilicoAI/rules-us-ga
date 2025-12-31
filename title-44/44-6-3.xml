@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-3"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_3">
+        <num>44-6-3</num>
+        <content>
+          <p>As a general rule, a party may not hold a lien on his own property; but the owner of property which is subject to a lien created or imposed against the property by another person may protect himself by purchasing the lien and levying it on other property of the person liable to pay the same or holding it as a claim against such person.</p>
+          <p>(Civil Code 1895, § 3107; Civil Code 1910, § 3683; Code 1933, § 85-711.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

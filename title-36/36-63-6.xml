@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-63-6"/>
+          <FRBRuri value="/us-ga/act/ocga/36-63-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-63-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-63-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-63-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-63-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_63_6">
+        <num>36-63-6</num>
+        <content>
+          <p>Control and management of the authority shall be vested in a board of five directors who shall be residents of the county or municipal corporation and shall serve at the pleasure of the governing authority of the county or municipal corporation. Directors shall be appointed, and may be reappointed, for terms of four years. In the case of a joint resource recovery development authority, each unit of local government participating in the authority shall appoint two members, with an additional member to be appointed by the directors themselves. The directors shall elect one of their members as chairman and another as vice-chairman and shall also elect a secretary and a treasurer or a secretary-treasurer, either of whom may but need not be a director. The directors shall receive no compensation for their services but shall be reimbursed for their actual expenses incurred in the performance of their duties. The directors may make bylaws and regulations for the governing of the authority and may delegate to one or more of the officers, agents, and employees of the authority such powers and duties as may be deemed necessary and proper.</p>
+          <p>(Code 1933, § 69-1505a, enacted by Ga. L. 1978, p. 1898, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

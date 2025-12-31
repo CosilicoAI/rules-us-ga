@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-196"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-196"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-196/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-196/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-196/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-196/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_196">
+        <num>21-2-196</num>
+        <content>
+          <p>Any person selected as a delegate or delegate alternate to such national convention shall file a qualification oath with theSecretary of State pledging support at the convention to the candidate of their political party or body for the office of President of the United States for whom they are selected to support. The oath shall state that the delegate or delegate alternate affirms to support such candidate until the candidate is either nominated by such convention or receives less than 35 percent of the votes for nomination by such convention during any balloting, or until the candidate releases the delegates from such pledge. No delegate shall be required to vote for such candidate after two convention nominating ballots have been completed.</p>
+          <p>(Code 1933, § 34-1006A, enacted by Ga. L. 1973, p. 221, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

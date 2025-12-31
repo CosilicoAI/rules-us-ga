@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/29-7-14"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/29-7-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/29-7-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_7_14">
+        <num>29-7-14</num>
+        <content>
+          <p>If any VA guardian fails to file the accounting required by Code Section 29-7-13, the failure shall be grounds for removal. If any VA guardian fails to file any accounting within 30 days after demand is made by the court to do so, the court shall notify the surety for the VA guardian of the failure by certified mail or statutory overnight delivery. Thereafter, on motion of any interested party, including the surety, or on its own motion, the court may enter an order removing the VA guardian without further notice or hearing. Every VA guardian who fails or refuses to file the accounting by the due date shall receive no commission or compensation for any service during that year unless by special order of the court the VA guardian is exonerated from all fault.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

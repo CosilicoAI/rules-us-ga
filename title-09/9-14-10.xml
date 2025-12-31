@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-14-10"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-14-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-14-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_14_10">
+        <num>9-14-10</num>
+        <content>
+          <p>The return of the party served with the writ shall be made at the time and place specified by the court. Two days from the time of service shall be allowed for every 20 miles which the party has to travel from the place of detention to the place appointed for the hearing. If service has not been made a sufficient time before the hearing to cover the time allowed in this Code section to reach the place of hearing, the return shall be made within the time so allowed immediately after the service.</p>
+          <p>(Orig. Code 1863, § 3917; Code 1868, § 3941; Code 1873, § 4017; Code 1882, § 4017; Penal Code 1895, § 1218; Penal Code 1910, § 1299; Code 1933, § 50-110.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

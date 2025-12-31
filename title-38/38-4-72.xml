@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-4-72"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-72"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-4-72/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-72/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-4-72/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-4-72/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_4_72">
+        <num>38-4-72</num>
+        <content>
+          <p>The Department of Veterans Service is designated as the agency of this state to receive federal aid under Title 38 U.S.C., as amended, and is authorized and directed to receive funds from the United States Department of Veterans Affairs or any other agency of the United States authorized to grant or expend funds to assist a state in establishing, operating, and maintaining a veterans cemetery. The Department of Veterans Service is authorized to receive gifts, contributions, bequests, and individual reimbursements from any source, the receipt of which shall not exclude any other source of revenue. All funds received by the Department of Veterans Service pursuant to this Code section shall be expended to establish, operate, and maintain veterans cemeteries in this state. The Department of Veterans Service is authorized to employ such personnel as it may deem necessary to carry out its duties and responsibilities under this part.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

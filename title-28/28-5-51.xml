@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-5-51"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-5-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-5-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_5_51">
+        <num>28-5-51</num>
+        <content>
+          <p>A fiscal note shall contain an aggregated estimate of the fiscal impact of a bill, a joint resolution, or an administrative action on local political subdivisions for the fiscal year in which it would become effective, if enacted, and for the next two succeeding fiscal years. If the fiscal impact of the bill, joint resolution, or administrative action is not expected to be totally evident within the applicable period, the estimate shall be projected beyond that period to include an estimate for the first fiscal year in which it is expected to be fully effective.</p>
+          <p>(Ga. L. 1981, p. 1809, § 5; Ga. L. 1995, p. 1189, § .5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

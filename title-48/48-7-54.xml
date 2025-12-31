@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-7-54"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-54"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-7-54/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-54/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-7-54/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-54/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_7_54">
+        <num>48-7-54</num>
+        <content>
+          <p>The commissioner may require any nonindividual taxpayer and any return preparer who prepares any return, report, or other document required to be filed by this chapter to electronically file any return, report, or other document required to be filed by this chapter when the federal counterpart of such return, report, or other document is required to be filed electronically pursuant to the Internal Revenue Code of 1986 or Internal Revenue Service regulations. The commissioner shall be authorized to prescribe forms and promulgate rules and regulations deemed necessary in order to effectuate this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-7-33"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-7-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-7-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_7_33">
+        <num>53-7-33</num>
+        <content>
+          <p>A testator may, by will, dispense with the necessity of the personal representative's making an inventory to the probate court or the beneficiaries or both, provided the same does not work any injury to creditors or persons other than beneficiaries under the will. If a will was executed in another state and the will is valid in this state and under the laws of the state where the will was executed the personal representative would not have been required to file inventories or if the will otherwise expresses an intent to relieve the personal representative from all reporting requirements, such a will shall be construed as dispensing with the necessity of inventories in Georgia, provided the same does not work any injury to creditors or parties other than beneficiaries under the will. In all wills, regardless of the date of execution, relief from making inventory with the court shall also relieve the personal representative from sending a copy of the inventory to the beneficiaries.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

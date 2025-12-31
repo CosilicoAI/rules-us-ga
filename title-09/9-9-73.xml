@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-9-73"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-73"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-9-73/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-73/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-9-73/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-9-73/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_9_73">
+        <num>9-9-73</num>
+        <content>
+          <p>The referee shall have all the powers of the superior courts to compel the attendance of witnesses before the arbitrators, to compel witnesses to testify, and to issue subpoenas requiring the attendance of witnesses at the time and place of the meeting of the arbitrators. Subpoenas shall be served in the manner provided by law for the service of subpoenas in cases pending in the superior courts. Witnesses shall be entitled to the same compensation as witnesses in the superior courts, and the compensation may be collected in the same manner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-250"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-250/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-250/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_250">
+        <num>44-3-250</num>
+        <content>
+          <p>Any developer that directly manages a homeowners' or condominium owners' association whose annual assessment fee is $500.00 or more in a development or subdivision with 20 or more homes shall provide a report itemizing the expenses for such homeowners' or condominium owners' association to each homeowner or condominium owner not later than 60 days after the end of the year for which fees were assessed. This Code section shall not apply to any development that has been made a property owners' development in accordance with Article 6 of this chapter, the "Georgia Property Owners' Association Act."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

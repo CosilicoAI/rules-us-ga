@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-250"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-250/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-250/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_250">
+        <num>43-34-250</num>
+        <content>
+          <p>The board shall appoint an advisory committee. The advisory committee shall include licensed cosmetic laser practitioners licensed under this article and such members as the board in its discretion may determine. The advisory committee shall include at least one person licensed to practice medicine under this chapter and specialized in a field with expertise in the biologic behavior of the skin. Members shall receive no compensation for service on the committee. The committee shall have such advisory duties and responsibilities as the board may determine, including but not limited to consulting with the board on the issuance, denial, suspension, and revocation of licenses and the promulgation of rules and regulations under this article. The initial members of the advisory committee may include persons eligible for licensing under this article. Subsequent advisory committee members must be licensed pursuant to this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

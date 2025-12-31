@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-2-50"/>
+          <FRBRuri value="/us-ga/act/ocga/37-2-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-2-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-2-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-2-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-2-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_2_50">
+        <num>37-2-50</num>
+        <content>
+          <p>Commencing with the calendar month immediately following the month in which this part becomes effective, for the purposes of this article, the office and ombudsman shall, in addition to those powers and duties provided by Code Section 37-2-47, receive, investigate, refer, and attempt to resolve complaints made by or on behalf of all consumers with developmental disability or addictive disease.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

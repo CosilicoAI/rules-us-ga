@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-6-28"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-6-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-6-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_6_28">
+        <num>9-6-28</num>
+        <content>
+          <p>(Ga. L. 1882-83, p. 103, §§ 3, 5; Civil Code 1895, §§ 4874, 4875; Civil Code 1910, §§ 5447, 5448; Code 1933, §§ 64-110, 64-111; Ga. L. 1946, p. 726, § 1; Ga. L. 2016, p. 865, § 3-5/HB 927.)</p>
+          <p>The 2016 amendment,
+      effective January 1, 2017, deleted "to the Supreme Court," following "may appeal" in the first sentence of subsection (a) and substituted "on appeal" for "in the Supreme Court" in the middle of subsection (b). See Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

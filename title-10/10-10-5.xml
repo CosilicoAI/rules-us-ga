@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-10-5"/>
+          <FRBRuri value="/us-ga/act/ocga/10-10-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-10-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-10-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-10-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-10-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_10_5">
+        <num>10-10-5</num>
+        <content>
+          <p>The center, subject to the approval of the board or its designee, may authorize transfers from the fund to make unsecured or secured loans. With respect to such loans, the center, acting on behalf of the state and the fund, shall have the authority to sell loans, mortgages, security interests, and other obligations held by the state through the fund at public or private sale; to negotiate modifications or alterations in loans, mortgages, security interests, and other obligations held by the fund; to foreclose on any security interest in default or commence any action to protect or enforce any right conferred upon it by any law, mortgage, security agreement, deed of trust, deed to secure debt, contract, or other agreement; to bid for and purchase property which was the subject of such loan, mortgage, security interest, or other obligation held by the fund at any foreclosure or at any other sale; to acquire or take possession of such property; and to exercise any and all rights as provided by law or contract for the benefit or protection of the fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

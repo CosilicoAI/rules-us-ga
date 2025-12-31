@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-25"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_25">
+        <num>46-8-25</num>
+        <content>
+          <p>The commission, upon complaint, shall inspect any railroad or any part of any railroad in this state. If the railroad is found to be in an unsafe or dangerous condition, the commission shall require the same to be put and kept in such condition as will render travel over the same safe and expeditious. Reasonable time shall be given the railroad authorities in which to accomplish the work or repairs required under this Code section. This Code section shall not limit or affect the liability of railroads in cases of injury or damage to persons or property.</p>
+          <p>(Ga. L. 1890-91, p. 150, § 1; Civil Code 1895, § 2194; Civil Code 1910, § 2639; Code 1933, § 93-316.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

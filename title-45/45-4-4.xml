@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-4-4"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-4-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-4-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_4_4">
+        <num>45-4-4</num>
+        <content>
+          <p>Official bonds of all officers who are entitled to commissions from the Governor and who are required to give bonds shall be prepared and furnished by the office of the Governor at the time of forwarding the dedimus potestatem.</p>
+          <p>(Orig. Code 1863, § 144; Code 1868, § 139; Code 1873, § 149; Code 1882, § 149; Civil Code 1895, § 244; Civil Code 1910, § 279; Code 1933, § 89-403; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

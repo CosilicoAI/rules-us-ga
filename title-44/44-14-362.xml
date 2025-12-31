@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-362"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-362"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-362/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-362/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-362/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-362/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_362">
+        <num>44-14-362</num>
+        <content>
+          <p>Clerk, Superior Court
+   of _____________ County
+   You are authorized and directed to cancel of record the preliminary notice of lien rights which we filed on the property owned by (state name of owner) on (give date) and recorded by you in Book ______, Page ______, of preliminary notices kept by you.
+   This ______ day of ________________________, ________.
+   ________________
+   Lien claimant
+   or attorney</p>
+        </content>
+        <subsection eId="sec_44_14_362__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The cancellation required under this Code section shall be in the following form:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

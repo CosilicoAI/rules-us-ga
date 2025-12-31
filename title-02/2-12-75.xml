@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-12-75"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-75"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-12-75/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-75/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-12-75/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-75/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_12_75">
+        <num>2-12-75</num>
+        <content>
+          <p>(Ga. L. 1976, p. 359, § 7; Ga. L. 2020, p. 364, § 8/HB 1057; Ga. L. 2021, p. 922, § 2/HB 497.)</p>
+          <p>The 2020 amendment,
+      effective January 1, 2021, substituted the present provisions of this Code section for the former provisions, which read: "Each registrant shall keep accurate records of his sales and shall file semiannual reports covering the periods January 1 through June 30 and July 1 through December 31. Such reports shall be due within 30 days from the date of the close of each such period. If the report is not filed within the 30 day period or is false in any respect, the Commissioner may revoke the registration."</p>
+          <p>The 2021 amendment,
+      effective May 10, 2021, part of an Act to revise, modernize, and correct the Code, substituted "10 percent" for "ten percent" in the last sentence of subsection (b).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

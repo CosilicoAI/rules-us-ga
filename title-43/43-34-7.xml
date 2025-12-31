@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-7"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_7">
+        <num>43-34-7</num>
+        <content>
+          <p>The executive director shall prepare and maintain a roster containing the names and business addresses of all current licensees, certificate holders, and permit holders for each of the various professions regulated by the Georgia Composite Medical Board. A copy of the roster shall be available to any person upon request at a fee prescribed by the board sufficient to cover the cost of printing and distribution. The following shall be treated as confidential, not subject to Article 4 of Chapter 18 of Title 50, relating to open records, and shall not be disclosed without the approval of the board:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

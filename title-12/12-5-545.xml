@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-545"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-545"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-545/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-545/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-545/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-545/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_545">
+        <num>12-5-545</num>
+        <content>
+          <p>The authority shall administer the drought protection funds provided to it for purposes of this article and shall make expenditures from said funds in accordance with and at the direction of the director pursuant to Code Sections 12-5-546 and 12-5-547. With the prior consent and approval of the director, the authority is authorized to expend a portion of the drought protection funds for incidental costs and expenses reasonably incurred by the authority in connection with its administration of the drought protection funds for such things as postage, office supplies, and prorated salaries and wages of personnel assigned the tasks associated with management of the drought protection funds. The authority is further authorized and directed to invest the unexpended balance of the drought protection funds in the same manner as other funds under its control. Any interest or other revenues earned on the principal of the drought protection funds shall be added to the unexpended balance of the drought protection funds and become a part thereof. Upon request of the director, the authority shall provide such accounting information to the director as may be reasonably necessary for the director to perform his or her duties and functions pursuant to this article. All moneys deposited in the drought protection funds shall be deemed to be contractually obligated and shall not lapse to the general fund.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-9-4"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-9-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-9-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-9-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_9_4">
+        <num>33-9-4</num>
+        <content>
+          <p>The following standards shall apply to the making and use of rates pertaining to all classes of insurance to which this chapter is applicable:</p>
+          <p>(Code 1933, § 56-507, enacted by Ga. L. 1967, p. 684, § 1; Ga. L. 1978, p. 1423, § 1; Ga. L. 1978, p. 1936, § 1; Ga. L. 1980, p. 1011, § 2; Ga. L. 1982, p. 3, § 33; Ga. L. 1987, p. 911, § 1; Ga. L. 1988, p. 13, § 33; Ga. L. 1991, p. 1608, § 1.5; Ga. L. 1995, p. 1302, § 13; Ga. L. 2008, p. 1192, § 3/SB 276.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

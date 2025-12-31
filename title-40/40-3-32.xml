@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-3-32"/>
+          <FRBRuri value="/us-ga/act/ocga/40-3-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-3-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-3-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-3-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-3-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_3_32">
+        <num>40-3-32</num>
+        <content>
+          <p>In addition to any other requirements imposed by this chapter for the transfer of a certificate of title, the purchaser of a manufactured home shall submit an application for a transfer of title to the local tag agent in the county in which the manufactured home is to be installed, which application shall indicate the full serial number for such manufactured home and shall be accompanied by a certificate of the tax commissioner or tax collector of the county in which the manufactured home was previously installed, if different, stating that all ad valorem taxes assessed against such manufactured home have been paid.No new certificate of title shall be issued for a manufactured home unless all ad valorem taxes on such home have been paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

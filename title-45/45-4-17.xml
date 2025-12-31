@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-4-17"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-4-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-4-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_4_17">
+        <num>45-4-17</num>
+        <content>
+          <p>The judge of the probate court must sign a certificate to the Governor stating that the clerks of the superior courts, chief magistrates, magistrates, sheriffs, coroners, county surveyors, county treasurers, county tax collectors, and county tax receivers have taken the oaths and given the bonds sent from the office of the Governor, together with a statement of the dates, amounts, and names of the sureties of each and that the judges of the probate court have delivered to such officers their commissions. The certificate and statement shall be attested by the clerk of said court, if any, and immediately transmitted to the Governor.</p>
+          <p>(Orig. Code 1863, § 156; Code 1868, § 151; Code 1873, § 162; Code 1882, § 162; Civil Code 1895, § 258; Civil Code 1910, § 293; Code 1933, § 89-406; Ga. L. 1989, p. 247, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-671"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-671"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-671/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-671/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-671/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-671/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_671">
+        <num>20-2-671</num>
+        <content>
+          <p>If any school administrator determines from the information obtained pursuant to Code Section 15-11-602 or 20-2-670 or from any other source that a student has committed a class A designated felony act or class B designated felony act, as defined in Code Section 15-11-2, such administrator shall so inform all teachers to whom the student is assigned that they may review the information in the student's file provided pursuant to subsection (b) of Code Section 20-2-670 received from other schools or from the juvenile courts. Such information shall be kept confidential.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

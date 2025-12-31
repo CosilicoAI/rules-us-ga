@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-6-16"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-6-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-6-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_6_16">
+        <num>15-6-16</num>
+        <content>
+          <p>Each judge of the superior court shall have authority to perform any judicial act which he or she is lawfully entitled to perform, regardless of where such judge is located when such judicial act is performed.</p>
+          <p>(Orig. Code 1863, § 248; Code 1868, § 242; Code 1873, § 253; Code 1882, § 253; Civil Code 1895, § 4330; Civil Code 1910, § 4859; Code 1933, § 24-2627; Ga. L. 2021, p. 423, § 1-1/HB 635.)</p>
+          <p>The 2021 amendment,
+      effective May 4, 2021, substituted the present provisions of this Code section for the former provisions, which read: "No judge of the superior courts shall have authority to perform any judicial act required of him by law when he is beyond the jurisdiction of this state."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

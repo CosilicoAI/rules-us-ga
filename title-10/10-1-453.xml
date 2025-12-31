@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-453"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-453"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-453/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-453/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-453/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-453/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_453">
+        <num>10-1-453</num>
+        <content>
+          <p>Any firm, person, corporation, or association who shall use the name or seal of any other person, firm, corporation, or association, in and about the sale of goods or otherwise, not being authorized to use the same, knowing that such use is unauthorized, with intent to deceive the public in the sale of goods, shall be guilty of a misdemeanor.</p>
+          <p>(Ga. L. 1893, p. 134, § 6; Ga. L. 1895, p. 63, § 2; Penal Code 1895, § 255; Ga. L. 1896, p. 108, § 4; Penal Code 1910, § 257; Code 1933, § 106-9904.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

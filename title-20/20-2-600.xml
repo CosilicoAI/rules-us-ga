@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-600"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-600"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-600/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-600/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-600/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-600/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_600">
+        <num>20-2-600</num>
+        <content>
+          <p>The various counties, cities, municipalities, county boards of education, city boards of education, and governing bodies of independent school districts or systems of this state shall have authority to lease any schoolhouse or other school property that it has determined is no longer needed for school purposes to any person, group of persons, or corporation, provided that the lease shall be for a period not longer than 50 years.</p>
+          <p>(Ga. L. 1956, p. 10, § 1; Ga. L. 1986, p. 38, § 1; Ga. L. 1987, p. 3, § 20; Ga. L. 2001, p. 1247, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

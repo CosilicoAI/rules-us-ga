@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-70-20"/>
+          <FRBRuri value="/us-ga/act/ocga/36-70-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-70-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-70-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-70-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-70-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_70_20">
+        <num>36-70-20</num>
+        <content>
+          <p>The intent of this article is to provide a flexible framework within which local governments in each county can develop a service delivery system that is both efficient and responsive to citizens in their county. The General Assembly recognizes that the unique characteristics of each county throughout the state preclude a mandated legislative outcome for the delivery of services in every county. The process provided by this article is intended to minimize inefficiencies resulting from duplication of services and competition between local governments and to provide a mechanism to resolve disputes over local government service delivery, funding equity, and land use. The local government service delivery process should result in the minimization of noncompatible municipal and county land use plans and in a simple, concise agreement describing which local governments will provide which service in specified areas within a county and how provision of such services will be funded.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

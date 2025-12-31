@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-508"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-508"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-508/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-508/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-508/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-508/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_508">
+        <num>48-5-508</num>
+        <content>
+          <p>Any taxpayer who contests the value assessment of a heavy-duty equipment motor vehicle as defined in this article may appeal such assessed value as provided for in Code Section 48-5-311 except that such appeal shall be effected by mailing to or filing with the tax commissioner a notice of appeal within 60 days of the date the tax bill is mailed by the tax commissioner. Such appeal, to be properly filed, must be accompanied by a payment equal to 85 percent of the amount of such tax bill. The tax commissioner shall forward such notice of appeal to the board of tax assessors and the appeal shall be processed in accordance with Code Section 48-5-311.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

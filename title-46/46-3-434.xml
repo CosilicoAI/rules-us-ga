@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-434"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-434"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-434/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-434/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-434/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-434/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_434">
+        <num>46-3-434</num>
+        <content>
+          <p>In proceedings to liquidate the assets and business of an electric membership corporation, the court may require all creditors of the electric membership corporation to file with the clerk of the court or with the receiver, in such form as the court may prescribe, proofs under oath of their respective claims. If the court requires the filing of claims, it shall fix a date, which shall be not less than four months from the date of the order, as the last day for the filing of claims and shall prescribe the notice that shall be given to creditors and claimants of the date so fixed. Prior to the date so fixed, the court may extend the time for the filing of claims. Creditors and claimants failing to file proofs of claim on or before the date so fixed may be barred, by order of court, from participating in the distribution of the assets of the electric membership corporation.</p>
+          <p>(Code 1933, § 34C-1215, enacted by Ga. L. 1981, p. 1587, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

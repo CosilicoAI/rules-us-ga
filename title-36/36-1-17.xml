@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-1-17"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-1-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-1-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_1_17">
+        <num>36-1-17</num>
+        <content>
+          <p>In all counties of this state having a population of 550,000 or more according to the United States decennial census of 1980 or any future such census, any employee who is authorized to enforce any county code, ordinance, regulation, rule, or other order, including such related ordinances, codes, and regulations as drainage regulations, soil erosion and sedimentation control regulations, subdivision and zoning regulations, water and sewer regulations, and any other land development or construction regulations of such counties, shall have the authority to issue citations to any person who shall violate any such county code, ordinance, regulation, or order which shall be in effect in such counties. Such citations shall command the appearance of such person at a designated regular session of a court in such county having the jurisdiction of a commitment court throughout the entire county. At such time and place, the court shall act as a court of inquiry with all the powers and authorities specified in Article 2 of Chapter 7 of Title 17. In the event that any such person shall fail to appear in response to such citation, a warrant shall be issued for the arrest of the person for violation of such county code, ordinance, regulation, rule, or order without the necessity of any further action.</p>
+          <p>(Ga. L. 1981, p. 3261, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-23-5"/>
+          <FRBRuri value="/us-ga/act/ocga/15-23-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-23-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-23-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-23-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-23-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_23_5">
+        <num>15-23-5</num>
+        <content>
+          <p>The secretary-treasurer of the board shall give a good and sufficient surety bond, payable to the fund in such an amount as may be determined by the board, to account faithfully for all funds received and disbursed by him or her. The premium on the bond shall be paid out of the fund in such county. A secretary-treasurer who is designated by a combined board of several counties as provided by Code Section 15-23-12 may satisfy the bonding requirement with one bond. If the secretary-treasurer is already bonded by virtue of being a state employee, such a bond as a state employee will satisfy the bonding requirement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

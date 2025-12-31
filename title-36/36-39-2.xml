@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_2">
+        <num>36-39-2</num>
+        <content>
+          <p>The governing body of any municipal corporation in this state is authorized to hold an election or elections, at such time and under such conditions as may be determined by the governing body, for the purpose of adopting this chapter. When such election has been duly held, if a majority of the qualified electors voting therein voted in favor of such adoption, the election managers shall duly certify the results of the election to the governing body and the same shall be adopted and entered on the minutes thereof. Thereupon, the governing body of the municipal corporation shall be authorized and empowered to improve any street or streets in such municipal corporation whenever, in the judgment of the governing body, the public welfare or convenience requires such improvement, subject only to the conditions and limitations prescribed in this chapter.</p>
+          <p>(Ga. L. 1927, p. 321, § 2; Code 1933, § 69-402.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-125"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-125"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-125/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-125/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-125/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-125/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_125">
+        <num>15-12-125</num>
+        <content>
+          <p>For the trial of misdemeanors in all courts, each party may demand a full panel of 12 competent and impartial jurors from which to select a jury. When one or more of the regular panel of trial jurors is absent or for any reason disqualified, the judge, at the request of counsel for either party, shall cause the panel to be filled by additional competent and impartial jurors to the number of 12 before requiring the parties or their counsel to strike a jury. From this panel, the accused and the state shall each have the right to challenge three jurors peremptorily. The accused and the state shall exercise their challenges as provided in Code Section 15-12-166. The remaining six jurors shall constitute the jury.</p>
+          <p>(Laws 1836, Cobb's 1851 Digest, p. 842; Code 1863, § 4531; Code 1868, § 4550; Ga. L. 1869, p. 139, § 6; Code 1873, § 3934; Code 1882, §§ 3934, 4644; Penal Code 1895, § 857; Penal Code 1910, § 861; Code 1933, § 59-707; Ga. L. 1985, p. 1511, § 6; Ga. L. 1995, p. 1292, § 9; Ga. L. 2005, p. 20, § 4/HB 170; Ga. L. 2011, p. 59, § 1-43/HB 415.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

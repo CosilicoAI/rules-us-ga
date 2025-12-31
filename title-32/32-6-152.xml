@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-152"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-152"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-152/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-152/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-152/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-152/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_152">
+        <num>32-6-152</num>
+        <content>
+          <p>The proprietor of a subdivision to be developed within a county or municipality which has not created a planning commission shall submit three copies of the plat to the department if such a proposed subdivision includes or abuts on any part of the state highway system or where the proposed subdivision requires access to the state highway system. The department, within 30 days of receipt of the plan, shall approve or reject it, with written reasons for such rejection and requirements for approval, and note such action on the copy to be returned to the proprietor as well as on the copy to be returned to the county or municipal governing authority concerned. Such rejection shall be binding on the county or municipality concerned unless the county or municipal governing authority concerned, by official action recorded in its minutes, overrules such department action. Failure of the department to act within the 30 day period provided in this Code section shall constitute approval.</p>
+          <p>(Code 1933, § 95A-950, enacted by Ga. L. 1973, p. 947, § 1; Ga. L. 2003, p. 613, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

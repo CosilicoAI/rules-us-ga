@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-23"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_23">
+        <num>36-39-23</num>
+        <content>
+          <p>The assessment provided for and levied under this chapter shall be payable as the several installments become due, together with the interest thereon, to the treasurer of the municipal corporation, who shall keep an accurate account of all such collections made by him. Such collections shall be kept in a special fund, to be used and applied for the payment of the bonds and the interest thereon and the expenses incurred incident thereto and for no other purpose until all the bonds are paid in full. The treasurer shall give bond in an amount to be fixed by the governing body, conditioned upon the faithful performance by him of the duties imposed in this chapter.</p>
+          <p>(Ga. L. 1927, p. 321, § 11; Code 1933, § 69-422.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

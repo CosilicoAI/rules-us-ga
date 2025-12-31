@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-12-17"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-12-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-12-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_12_17">
+        <num>9-12-17</num>
+        <content>
+          <p>Creditors or bona fide purchasers may attack a judgment for any defect appearing on the face of the record or the pleadings or for fraud or collusion, whenever and wherever it interferes with their rights, either at law or in equity.</p>
+          <p>(Orig. Code 1863, § 3515; Code 1868, § 3538; Code 1873, § 3596; Code 1882, § 3596; Civil Code 1895, § 5371; Civil Code 1910, § 5966; Code 1933, § 110-711.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

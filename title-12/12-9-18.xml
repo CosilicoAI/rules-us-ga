@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-9-18"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-9-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-9-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_9_18">
+        <num>12-9-18</num>
+        <content>
+          <p>Notwithstanding any other provision of this article relating to the authority, power, and responsibility of the Board of Natural Resources, department, division, or director, the Governor is authorized to designate air quality regions within the state as provided in 42 U.S.C. Section 7407(e); petition the President as provided in 42 U.S.C. Section 7410(f); make application to the administrator pursuant to 42 U.S.C. Section 7411(g); consent to waivers pursuant to 42 U.S.C. Section 7411(j); require measures to prevent economic disruption of employment pursuant to 42 U.S.C. Section 7425; redesignate areas of the state to allow maximum industrial development pursuant to 42 U.S.C. Section 7474; recommend variances pursuant to 42 U.S.C. Section 7475; designate organizations pursuant to 42 U.S.C. Section 7504; and to take such other specific acts required by governors under 42 U.S.C. Section 7401, et seq.; all subject to the Governor's power to delegate such authority by executive order or otherwise to the director.</p>
+          <p>(Ga. L. 1978, p. 275, § 21; Ga. L. 1992, p. 918, § 2; Ga. L. 1992, p. 2886, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

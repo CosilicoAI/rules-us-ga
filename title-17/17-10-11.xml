@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/17-10-11"/>
+          <FRBRuri value="/us-ga/act/ocga/17-10-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/17-10-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/17-10-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/17-10-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/17-10-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_10_11">
+        <num>17-10-11</num>
+        <content>
+          <p>The 2020 amendment,
+      effective January 1, 2021, substituted the present provisions of subsections (a) and (c) for the former provisions of subsection (a), which read: "Each person convicted of a crime in this state shall be given full credit for each day spent in confinement awaiting trial and for each day spent in confinement, in connection with and resulting from a court order entered in the criminal proceedings for which sentence was imposed, in any institution or facility for treatment or examination of a physical or mental disability. The credit or credits shall be applied toward the convicted person's sentence and shall also be considered by parole authorities in determining the eligibility of the person for parole."; added subsection (b); redesignated former subsection (b) as present subsection (d); and substituted "shall apply" for "applies" near the beginning of subsection (d).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

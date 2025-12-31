@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-4-186"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-186"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-4-186/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-186/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-4-186/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-186/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_4_186">
+        <num>49-4-186</num>
+        <content>
+          <p>The schedule of assistance to be paid to a recipient family under this article shall eliminate the increment in benefits under the Georgia TANF Program as a result of the birth of a child during the period in which the family is eligible for TANF assistance or during a temporary period in which the family or recipient is ineligible for TANF assistance pursuant to a sanction imposed for failure to comply with eligibility requirements, subsequent to which the family or recipient is again eligible for assistance. The recipient family in which the recipient parent gives birth to an additional child during the recipient's period of eligibility for TANF assistance, or during a temporary period of ineligibility for assistance, may not receive additional assistance, except in the case of a general increase in the amount of TANF assistance which is provided to all program recipients. This provision shall only apply to recipient families who have been in receipt of cash assistance under this article for a total of ten months after May 1, 1997. Nothing in this Code section shall be considered to disqualify a recipient family from an incremental increase in assistance in cases in which the birth of a child is the result of a verifiable rape or incest.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

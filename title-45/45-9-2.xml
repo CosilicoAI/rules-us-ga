@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-9-2"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-9-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-9-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_9_2">
+        <num>45-9-2</num>
+        <content>
+          <p>Members of the organized militia who are serving on state active duty upon orders of the Governor may be provided protection against personal liability for damages sustained by third parties and arising out of the performance of such members' duties while serving on state active duty. At the option of the adjutant general, members of the organized militia who are performing their duties in connection with domestic action projects may also be provided protection against personal liability for damages sustained by third parties arising out of the performance of such members' duties. The commissioner of administrative services shall prescribe the terms and conditions under which such personnel may be covered by any liability insurance policy or contract of indemnity or other like or similar programs administered by the commissioner pursuant to this article to provide such protection.</p>
+          <p>(Ga. L. 1980, p. 1358, § 1; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

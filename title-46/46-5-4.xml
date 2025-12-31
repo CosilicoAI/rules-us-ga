@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-5-4"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-5-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-5-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_5_4">
+        <num>46-5-4</num>
+        <content>
+          <p>Any unlawful telecommunication device as defined in subsection (a) of Code Section 46-5-3 or other instrument, apparatus, equipment, or device, or any plan or instruction therefor, referred to in Code Section 46-5-3 may be seized by court order, or under a search warrant issued by a judge or a magistrate, or incident to a lawful arrest. Upon the conviction of any person for a violation of any provisions of Code Section 46-5-2 or 46-5-3, such instrument, apparatus, equipment, device, plan, or instruction shall be either destroyed as contraband by the sheriff of the county in which such person was convicted or turned over to the telephone company or telecommunication service provider in whose territory such instrument, apparatus, equipment, device, plan, or instruction was seized.</p>
+          <p>(Ga. L. 1976, p. 1179, § 2; Ga. L. 1996, p. 1085, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

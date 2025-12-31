@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-6"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_6">
+        <num>45-12-6</num>
+        <content>
+          <p>The executive office of the Governor shall be in the capitol. If from any cause there is no capitol or if it is abandoned, then the executive office shall be at such place at the seat of government as the Governor may direct, and not elsewhere, unless made necessary by invasion, insurrection, pestilence, or rebellion. The Governor shall reside at the state capital during his term of office.</p>
+          <p>(Orig. Code 1863, §§ 80, 81; Code 1868, §§ 74, 75; Code 1873, § 79; Code 1882, § 79; Civil Code 1895, § 143; Civil Code 1910, § 166; Code 1933, § 40-107.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

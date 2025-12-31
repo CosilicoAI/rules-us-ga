@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-2-41"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-2-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-2-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_2_41">
+        <num>9-2-41</num>
+        <content>
+          <p>No action for a tort shall abate by the death of either party, where the wrongdoer received any benefit from the tort complained of; nor shall any action or cause of action for the recovery of damages for homicide, injury to the person, or injury to property abate by the death of either party. The cause of action, in case of the death of the plaintiff and in the event there is no right of survivorship in any other person, shall survive to the personal representative of the deceased plaintiff. In case of the death of the defendant, the cause of action shall survive against said defendant's personal representative. However, in the event of the death of the wrongdoer before an action has been brought against him, the personal representative of the wrongdoer in such capacity shall be subject to the action just as the wrongdoer himself would have been during his life, provided that there shall be no punitive damages against the personal representative.</p>
+          <p>(Orig. Code 1863, § 2909; Code 1868, § 2916; Code 1873, § 2967; Code 1882, § 2967; Ga. L. 1889, p. 73, § 1; Civil Code 1895, § 3825; Civil Code 1910, § 4421; Code 1933, § 3-505; Ga. L. 1935, p. 94, § 1; Ga. L. 1952, p. 224, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

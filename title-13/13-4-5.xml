@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-4-5"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-4-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-4-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-4-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_4_5">
+        <num>13-4-5</num>
+        <content>
+          <p>A simple contract regarding the same matter and based on no new consideration does not destroy another simple contract between the same parties; but, if new parties are introduced so as to change the person to whom the obligation is due, the original contract is at an end.</p>
+          <p>(Orig. Code 1863, § 2686; Code 1868, § 2682; Code 1873, § 2724; Code 1882, § 2724; Civil Code 1895, § 3641; Civil Code 1910, § 4226; Code 1933, § 20-115.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

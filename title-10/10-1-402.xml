@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-402"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-402"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-402/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-402/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-402/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-402/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_402">
+        <num>10-1-402</num>
+        <content>
+          <p>In the administration of this part the Attorney General may accept an assurance of voluntary compliance with respect to any act or practice deemed to be violative of this part from any person who has engaged or was about to engage in such act or practice. Any such assurance shall be in writing and be filed with the clerk of the superior court of the county in which the alleged violator resides or has his or her principal place of business or with the clerk of the Superior Court of Fulton County. Such assurance of voluntary compliance shall not be considered an admission of violation for any purpose. Matters thus processed may at any time be reopened by the Attorney General for further proceedings in the public interest, pursuant to Code Section 10-1-397. This Code section shall not bar any claim against any person who has engaged in any act or practice in violation of this part.</p>
+          <p>(Ga. L. 1975, p. 376, § 12; Ga. L. 2015, p. 1088, § 2/SB 148.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "Attorney General" for "administrator" in the first and next-to-last sentences and inserted "or her" in the second sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

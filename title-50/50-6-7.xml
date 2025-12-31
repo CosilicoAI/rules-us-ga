@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-6-7"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-6-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-6-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_6_7">
+        <num>50-6-7</num>
+        <content>
+          <p>All officers, agents, employees, departments, institutions, commissions, authorities, and bureaus of the state shall produce and turn over to the state auditor or his or her assistants for examination and audit, whenever demanded by the state auditor, all of their books, records, accounts, vouchers, warrants, bills, and other papers dealing with or reflecting upon the financial transactions and management of such department, institution, agency, commission, authority, bureau, or office, including any and all cash on hand, but not including cash in banks, the amount of cash in banks to be ascertained by certificate furnished to the state auditor by the bank.</p>
+          <p>(Ga. L. 1923, Ex. Sess., p. 7, § 7; Code 1933, § 40-1808; Ga. L. 2005, p. 694, § 5/HB 293; Ga. L. 2008, p. 522, § 2/SB 300.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

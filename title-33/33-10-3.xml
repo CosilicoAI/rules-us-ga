@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-10-3"/>
+          <FRBRuri value="/us-ga/act/ocga/33-10-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-10-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-10-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-10-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-10-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_10_3">
+        <num>33-10-3</num>
+        <content>
+          <p>Assets may be allowable as deductions from corresponding liabilities, and liabilities may be charged as deductions from assets, in accordance with the form of annual statement applicable to such insurer as directed by the Commissioner or otherwise in his or her discretion.</p>
+          <p>(Code 1933, § 56-902, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 2019, p. 337, § 1-57/SB 132.)</p>
+          <p>The 2019 amendment,
+      effective July 1, 2019, substituted "as directed" for "as prescribed" and inserted "or her" near the end of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

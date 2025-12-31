@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-93"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-93"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-93/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-93/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-93/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-93/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_93">
+        <num>20-3-93</num>
+        <content>
+          <p>Notwithstanding any law to the contrary, any student organization functioning in conjunction with, incidental to, or at any university system institution, which through its officers, agents, or responsible members knowingly permits or authorizes the sale, distribution, serving, possession, consumption, or use of marijuana, a controlled substance, or dangerous drug at any affair, function, or activity of that student organization, social or otherwise, when such sale, distribution, serving, possession, consumption, or use is not in compliance with the laws of this state shall have its recognition as a student organization withdrawn, shall be expelled from campus for a minimum of a calendar year from the year of determination of guilt, and shall be prohibited from the use of all property and facilities of the university system institution with which it is affiliated or at which it operates, with any and all leasing, possession, or use agreements respecting the student organization's use of institutional property to be terminated by operation of law for any such knowing, permission, or authorization of the unlawful actions defined in this Code section, subject to the administrative review and hearing procedures set forth in this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

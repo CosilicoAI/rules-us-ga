@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-4-70"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-4-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-4-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_4_70">
+        <num>4-4-70</num>
+        <content>
+          <p>Whenever it is determined by the Commissioner, in cooperation with the United States Department of Agriculture, that a contagious or infectious disease should be eradicated, the Commissioner is authorized to take whatever steps are necessary to eradicate the disease. Owners, renters, or persons in possession of livestock or premises infected with such a disease shall be required to disinfect the premises and to destroy the cause or causes of the contagious or infectious disease, including the destruction of those livestock on the premises, under the supervision and direction of the Commissioner or his duly authorized representative. The cost of destroying the cause or causes or sources of infection of a contagious or infectious disease which is sought to be eradicated shall be borne by the owner, renter, or person in possession of the infected or quarantined premises. However, when budget conditions permit or when federal matching funds are available, the Commissioner may participate in the cost of eradication and is authorized to expend such funds as are available.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 480, § 21.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

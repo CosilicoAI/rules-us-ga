@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-47-15"/>
+          <FRBRuri value="/us-ga/act/ocga/43-47-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-47-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-47-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-47-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-47-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_47_15">
+        <num>43-47-15</num>
+        <content>
+          <p>Any licensee who purchases a wrecked or salvage motor vehicle or rebuilds a wrecked or salvage motor vehicle shall fully comply with Chapter 3 of Title 40, the "Motor Vehicle Certificate of Title Act," regarding titling and inspection of salvage and rebuilt vehicles, and shall comply with any rules and regulations adopted by the state revenue commissioner pursuant to this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

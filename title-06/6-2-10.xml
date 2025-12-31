@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/6-2-10"/>
+          <FRBRuri value="/us-ga/act/ocga/6-2-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/6-2-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/6-2-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/6-2-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/6-2-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_2_10">
+        <num>6-2-10</num>
+        <content>
+          <p>Since the public safety requires, and the advantages of uniform regulation make it desirable in the interest of aeronautical progress, that a person engaging in navigating or operating aircraft in any form of navigation shall have the qualifications necessary for obtaining and holding a pilot's license issued by the Federal Aviation Administration, it shall be unlawful for any person to operate or navigate any aircraft unless such person is the holder of an appropriate effective pilot's license or permit issued by the Federal Aviation Administration; provided, however, that this restriction shall not apply to those persons operating military aircraft of the United States or possessions thereof, or operating public aircraft of any state or territory, or operating any aircraft licensed by a foreign country with which the United States has a reciprocal agreement covering the operation of such licensed aircraft.</p>
+          <p>(Ga. L. 1933, p. 99, § 3; Code 1933, § 11-103.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

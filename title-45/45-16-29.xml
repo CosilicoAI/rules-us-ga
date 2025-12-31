@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-16-29"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-16-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-16-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_16_29">
+        <num>45-16-29</num>
+        <content>
+          <p>No person shall move or authorize the removal of any body from the place where the same is found until the investigation is completed and such removal is authorized by the coroner or medical examiner present at such investigation; or, if no such coroner or medical examiner is present, the peace officer shall authorize such removal; provided, however, that this Code section shall not apply to the removal of a body where the death occurred while the person was a patient of a hospice licensed under Article 9 of Chapter 7 of Title 31. If the death resulted from an accident involving the operation of civil aircraft, no body shall be removed until authorized by the representative of the National Transportation Safety Board or the Federal Aviation Administration.</p>
+          <p>(Ga. L. 1960, p. 1009, § 9; Ga. L. 1985, p. 843, § 7; Ga. L. 1985, p. 1073, § 3; Ga. L. 1990, p. 1735, § 3; Ga. L. 1997, p. 1421, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

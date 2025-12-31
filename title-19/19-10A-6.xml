@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-10A-6"/>
+          <FRBRuri value="/us-ga/act/ocga/19-10A-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-10A-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-10A-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-10A-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-10A-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_10A_6">
+        <num>19-10A-6</num>
+        <content>
+          <p>A medical facility which accepts for inpatient admission or a fire station or police station which accepts a child left pursuant to Code Section 19-10A-4 shall be reimbursed by the Department of Human Services for all reasonable medical and other reasonable costs associated with the child prior to the child being placed in the care of the department. A medical facility, fire station, or police station shall notify the Department of Human Services at such time as the child is left and at the time the child is medically ready for discharge. Upon notification that the child is medically ready for discharge, the Department of Human Services shall take physical custody of the child within six hours. The Department of Human Services upon taking physical custody shall promptly bring the child before the juvenile court as required by Code Section 15-11-145.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

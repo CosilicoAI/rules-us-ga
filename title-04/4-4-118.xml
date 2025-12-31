@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-4-118"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-118"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-4-118/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-118/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-4-118/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-118/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_4_118">
+        <num>4-4-118</num>
+        <content>
+          <p>The Commissioner may enact, promulgate, and enforce rules and regulations prohibiting or regulating the use of drugs, tranquilizers, or medications which he determines may conceal defects, falsely enhance the appearance of quality, or otherwise result in misrepresentation in the sale of equines. Such regulations may provide for tests to determine the presence of such drugs, tranquilizers, or medications in equines within a reasonable period prior to sale and may provide for the cost of such tests to be paid by the buyer.</p>
+          <p>(Ga. L. 1972, p. 818, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

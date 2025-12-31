@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-182"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-182"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-182/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-182/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-182/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-182/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_182">
+        <num>44-14-182</num>
+        <content>
+          <p>An endorsement to order or in blank by the payee of a mortgage note gives the endorsee or the holder for value the right to foreclose the mortgage in his own name. A mortgage transferred without written assignment may be foreclosed in the name of the mortgagee bringing the action for the use of such assignee; and proceedings begun in the name of the transferee may be amended by making the mortgagee a party before or after the judgment.</p>
+          <p>(Civil Code 1895, § 2745; Civil Code 1910, § 3278; Code 1933, § 67-203.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-13-3"/>
+          <FRBRuri value="/us-ga/act/ocga/43-13-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-13-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-13-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-13-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-13-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_13_3">
+        <num>43-13-3</num>
+        <content>
+          <p>No person shall operate a driver training school, operate a commercial driver training school, or engage in the business of giving instruction for hire to ten or more persons per calendar year in the driving of motor vehicles or in the preparation of an applicant for examination given by driver's license examiners for a driver's license or permit unless a license, a limited license, or a temporary driver training permit therefor has been secured from the department. Separate licenses shall be required for the operation of a driver training school and a commercial driver training school.</p>
+          <p>(Ga. L. 1968, p. 436, § 2; Ga. L. 2003, p. 796, § 11; Ga. L. 2006, p. 460, § 2/HB 1252.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

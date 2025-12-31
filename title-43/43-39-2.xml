@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-39-2"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-39-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-39-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_39_2">
+        <num>43-39-2</num>
+        <content>
+          <p>There is created a State Board of Examiners of Psychologists, to consist of six members who shall be appointed by the Governor under conditions set forth in this article. No member of the board shall be liable to civil action for any act performed in good faith in the performance of that member's duties as prescribed by law.</p>
+          <p>(Ga. L. 1951, p. 408, § 2; Ga. L. 1979, p. 516, § 2; Ga. L. 1980, p. 1337, § 1; Ga. L. 1986, p. 473, § 1; Ga. L. 2019, p. 101, § 4/HB 26.)</p>
+          <p>The 2019 amendment,
+      effective April 23, 2019, substituted "this article" for "this chapter" at the end of the first sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

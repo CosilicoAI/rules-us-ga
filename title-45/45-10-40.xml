@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-10-40"/>
+          <FRBRuri value="/us-ga/act/ocga/45-10-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-10-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-10-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-10-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-10-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_10_40">
+        <num>45-10-40</num>
+        <content>
+          <p>No member of the Board of Regents of the University System of Georgia or of the Board of Human Services, no trustee or other officer of any institution which is wholly or in part supported by state funds, and no partnership of which such person is a member shall make any contract with the governing board or trustees of such institution or any officer of such institution for the sale and purchase of merchandise or supplies for such institution whereby profit shall accrue to such board member or trustee or such partnership of which such person is a member. Such trustee or officer of such institution shall not make any profit or receive any money for the sale, handling, or disposal of any crop or crops or property of such institution. Such member, trustee, or other officer of such institution shall not make or be interested in any contract for supplies or merchandise for such institution when such contract or the making of the same is wholly or in part made or influenced by the action of the board governing such institution or the trustees thereof or is controlled by any officer of such institution; and any and all such contracts are declared to be illegal and void, provided that any such contracts as are described in this Code section may be made with a corporation of which any such board member or trustee is a stockholder if such member or trustee does not vote on or participate in the making of such contract. No board member or trustee of such institution shall be prohibited from making contracts for furnishing supplies to the students or faculty of such institution for their individual use.</p>
+          <p>(Ga. L. 1918, p. 265, § 1; Code 1933, § 89-904; Ga. L. 1990, p. 8, § 45; Ga. L. 2009, p. 453, § 2-3/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

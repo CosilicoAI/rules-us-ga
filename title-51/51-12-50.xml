@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-12-50"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-12-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-12-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_12_50">
+        <num>51-12-50</num>
+        <content>
+          <p>(Civil Code 1895, § 3918; Civil Code 1910, § 4515; Code 1933, § 105-2013; Ga. L. 2014, p. 695, § 7/HB 790; Ga. L. 2021, p. 584, § 1/HB 90.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, substituted "When a plaintiff, other than a plaintiff under Code Section 51-12-51," for "Except as provided in Code Section 51-12-51, when" at the beginning of subsection (a).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-10-98"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-98"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-10-98/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-98/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-10-98/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-98/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_10_98">
+        <num>2-10-98</num>
+        <content>
+          <p>A cooperative association organized under this article may join with other such associations or with individuals, firms, partnerships, or other associations or corporations engaged in the production of agricultural products to form a nonprofit cooperative association, with or without capital stock, under this article and may organize, form, operate, own, control, have an interest in, own stock of, or be a member of any association, with or without capital stock, or any other corporation engaged in any activity authorized by this article.</p>
+          <p>(Ga. L. 1939, p. 350, § 1; Code 1933, § 65-227, enacted by Ga. L. 1973, p. 835, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

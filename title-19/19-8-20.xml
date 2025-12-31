@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-8-20"/>
+          <FRBRuri value="/us-ga/act/ocga/19-8-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-8-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-8-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-8-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-8-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_8_20">
+        <num>19-8-20</num>
+        <content>
+          <p>"This is to certify that _____________ (names of each adopting parent) have obtained a decree of adoption for _____________ (full name of adoptee and date of birth of adoptee) in the Superior Court of _____________ County, Georgia, on the ________ day of ________, as shown by the court's records _____________ (adoption file number).
+   Given under the hand and seal of said court, this the ________ day of ________, ________.
+   ________________________
+   Clerk
+   "</p>
+        </content>
+        <subsection eId="sec_19_8_20__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The adoption certificate shall conform substantially to the following form:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

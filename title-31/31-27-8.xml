@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-27-8"/>
+          <FRBRuri value="/us-ga/act/ocga/31-27-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-27-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-27-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-27-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-27-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_27_8">
+        <num>31-27-8</num>
+        <content>
+          <p>Any department or agency of the state which assumes the obligations of any person who has defaulted under this chapter may maintain an action at law to recover actual costs and damages suffered against the person holding or promoting a mass gathering, or one who defaults in the performance of an obligation. All damages recovered under this Code section, including, without limitation, the value of goods and services expended in behalf of one who has defaulted under this chapter, together with the costs thereof, shall be paid into the state treasury to the credit of the department or agency which suffered such expense. Actions to recover costs and damages under this Code section shall be brought in the superior court in the county in which the cause of action or some part thereof arose, or in which the person complained of has a principal place of business, or in which the person complained of resides. In all such actions, the procedure and rules of evidence shall be the same as in ordinary civil actions.</p>
+          <p>(Code 1933, § 88-1208a, enacted by Ga. L. 1971, p. 252, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

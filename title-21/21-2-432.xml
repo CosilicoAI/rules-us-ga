@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-432"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-432"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-432/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-432/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-432/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-432/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_432">
+        <num>21-2-432</num>
+        <content>
+          <p>After each elector has been admitted to vote, his or her voter's certificate shall be inserted in the binder provided therefor by the registrars, and known as the "voter's certificate binder," and such voter's certificates so bound shall constitute the official list of electors voting at such primary or election. All voter's certificates prepared by persons applying to vote whose applications to vote are refused by the poll officers shall be separately preserved and returned to the superintendent with the other papers.</p>
+          <p>(Ga. L. 1941, p. 429, § 1; Code 1933, § 34-1311, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Code 1933, § 34-1317, as redesignated by Ga. L. 1969, p. 308, § 9; Ga. L. 1998, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

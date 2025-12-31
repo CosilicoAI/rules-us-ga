@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-32"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_32">
+        <num>7-1-32</num>
+        <content>
+          <p>The commissioner shall be of good moral character, shall not have been convicted in any court of competent jurisdiction of any crime involving moral turpitude, shall have been a citizen of this state for not less than three years, and shall have attained the age of 30 years but be less than 70 years. In addition, the commissioner shall have had at least five years' experience as an active officer of a bank or national bank or as an examiner or other officer in a federal or state agency supervising such institutions.</p>
+          <p>(Ga. L. 1919, p. 135, art. 2, § 4; Code 1933, § 13-304; Code 1933, § 40-3597, enacted by Ga. L. 1972, p. 1015, § 1102; Ga. L. 1972, p. 1198, § 3; Code 1933, § 41A-202, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

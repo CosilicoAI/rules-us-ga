@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-42"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_42">
+        <num>50-8-42</num>
+        <content>
+          <p>Any metropolitan area planning and development commission, created pursuant to Article 4 of this chapter, shall also serve as the regional commission for the area covered by such metropolitan area planning and development commission. The duties, responsibilities, and functions and the power and authority granted the metropolitan area planning and development commission by law are, and shall be construed to be, cumulative with, and in addition to, the duties, responsibilities, and functions and the power and authority granted regional commissions by law. In the event of any conflict between the provisions of law governing metropolitan planning and development commissions and those governing regional commissions, however, the laws governing metropolitan area planning and development commissions shall control and shall govern the metropolitan area planning and development commission. For example, but without intending to limit the generality of the foregoing statement, the provisions of Code Sections 50-8-84 through 50-8-87, regarding membership of a metropolitan area planning and development commission, terms of officers, quorums, and elections of officers, would govern a metropolitan area planning and development commission instead of the provisions covering the same subject matter under this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

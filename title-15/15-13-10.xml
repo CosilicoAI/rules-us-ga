@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-13-10"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-13-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-13-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_13_10">
+        <num>15-13-10</num>
+        <content>
+          <p>Whenever the sheriff or his deputy is a party to any rule or is interested therein and there is no coroner or other lawful officer of the county to execute the same, it shall be the duty of the judge or justice of the court to appoint pro tempore a special officer to carry out and effectuate the order of the court, for which the appointed officer shall be allowed the usual fees of sheriffs for like service.</p>
+          <p>(Laws 1840, Cobb's 1851 Digest, p. 580; Code 1863, § 3864; Code 1868, § 3884; Code 1873, § 3960; Code 1882, § 3960; Civil Code 1895, § 4781; Civil Code 1910, § 5353; Code 1933, § 24-204.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/39-2-11"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/39-2-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/39-2-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/39-2-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_39_2_11">
+        <num>39-2-11</num>
+        <content>
+          <p>Notwithstanding any other provision of this chapter or any rule or regulation of the Commissioner of Labor adopted pursuant to the provisions of Code Section 39-2-2 to the contrary, a minor 14 years of age or over may be employed during the months of vacation from school in the care and maintenance of lawns, gardens, and shrubbery owned or leased by the employer of such minor, including the operation of equipment in connection therewith, provided that the minor is covered by an accident and sickness insurance plan or a workers' compensation insurance policy or plan provided by the employer; that the minor presents the employer with the employment certificate required by Code Section 39-2-11; and that the minor is permitted by the employer to care for and maintain only those lawns, gardens, and shrubbery owned or leased by the employer. The work authorized by this Code section includes the care and maintenance of lawns, gardens, and shrubbery on the grounds of mills or factories described in Code Section 39-2-1 and on the grounds of any other factory, mill, or business where employment of the minor within the factory, mill, or business might be prohibited by this chapter or by rules and regulations of the Commissioner of Labor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

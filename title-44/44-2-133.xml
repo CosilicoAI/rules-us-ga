@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-133"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-133"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-133/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-133/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-133/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-133/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_133">
+        <num>44-2-133</num>
+        <content>
+          <p>Whenever an owner's certificate of title is lost or destroyed, the owner or his personal representative may petition the court for the issuance of a duplicate. Notice of the petition shall be published once a week for four successive weeks in the newspaper in which the sheriff's sales of the county are published; provided, however, that the court may in any case order additional notice to be given, either by publication or otherwise, before directing the issuance of a duplicate certificate; and provided, further, that where the petition is presented by a personal representative of a deceased person claiming that the certificate was lost or destroyed while in the possession of the decedent, the notice of the petition shall be published once a week for eight successive weeks instead of the four weeks required in other cases. Upon satisfactory proof having been exhibited before it that the certificate has been lost or destroyed, the court may direct the issuance of a duplicate certificate which shall be appropriately designed and shall take the place of the original owner's certificate.</p>
+          <p>(Ga. L. 1917, p. 108, § 58; Code 1933, § 60-412.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

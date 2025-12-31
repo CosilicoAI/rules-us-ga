@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-129"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-129"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-129/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-129/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-129/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-129/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_129">
+        <num>9-13-129</num>
+        <content>
+          <p>When an execution has been levied on property and an affidavit of illegality has been filed to stay proceedings thereon, the property so levied on shall be subject to levy and sale under other executions. The officer making the first levy shall claim, receive, hold, and retain the amount of the proceeds of the sale as the court deems sufficient to pay the execution first levied, including interest up to the time of the court at which the illegality shall be determined. Any bond given by the defendant on filing the affidavit shall be released and discharged so far as relates to the property sold.</p>
+          <p>(Laws 1845, Cobb's 1851 Digest, p. 516; Code 1863, § 3595; Code 1868, § 3619; Code 1873, § 3669; Code 1882, § 3669; Civil Code 1895, § 4740; Civil Code 1910, § 5309; Code 1933, § 39-1008.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

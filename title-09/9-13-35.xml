@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-35"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-35"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-35/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-35/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-35/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-35/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_35">
+        <num>9-13-35</num>
+        <content>
+          <p>The transfer of an execution by the attorney of record shall be good to pass the title thereto as against every person except the plaintiff in execution or his assignee without notice. Ratification by the plaintiff shall estop him also from denying the transfer. Receipt of the money from the transfer shall be such a ratification.</p>
+          <p>(Orig. Code 1863, § 3517; Code 1868, § 3540; Code 1873, § 3598; Code 1882, § 3598; Civil Code 1895, § 5375; Civil Code 1910, § 5970; Code 1933, § 39-402.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

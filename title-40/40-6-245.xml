@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-245"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-245"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-245/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-245/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-245/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-245/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_245">
+        <num>40-6-245</num>
+        <content>
+          <p>The driver of a vehicle traveling through a defile or canyon or on a mountain highway shall hold such vehicle under control and as near the right-hand edge of the highway as reasonably possible and, except when driving entirely to the right of the center of the roadway, shall give audible warning with the horn of such vehicle upon approaching any curve where the view is obstructed within a distance of 200 feet along the highway.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 556, § 97; Code 1933, § 68A-1107, enacted by Ga. L. 1974, p. 633, § 1; Ga. L. 1978, p. 1483, § 3; Ga. L. 1985, p. 149, § 40; Ga. L. 1990, p. 2048, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

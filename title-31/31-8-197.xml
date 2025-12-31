@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-197"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-197"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-197/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-197/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-197/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-197/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_197">
+        <num>31-8-197</num>
+        <content>
+          <p>The Department of Administrative Services shall annually compile a report of all claims statistics which shall include the number and total of all claims pending and paid, and defense and handling costs associated with all claims brought against contract providers under this article. This report shall be forwarded to the department and included in the annual report submitted to the General Assembly pursuant to Code Section 31-8-198.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

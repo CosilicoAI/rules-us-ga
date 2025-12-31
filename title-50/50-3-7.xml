@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-3-7"/>
+          <FRBRuri value="/us-ga/act/ocga/50-3-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-3-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-3-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-3-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-3-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_3_7">
+        <num>50-3-7</num>
+        <content>
+          <p>When any flag referred to in Code Section 50-3-5 or 50-3-6 is offered to the state, it shall be the duty of the Governor to accept it in behalf of the state and to make such provisions for its preservation as may be necessary to protect and preserve it from the ravages of time, dust, and moths.</p>
+          <p>(Ga. L. 1916, p. 158, § 3; Code 1933, § 86-1007; Ga. L. 1951, p. 311, § 46; Ga. L. 1955, p. 10, § 93; Ga. L. 1982, p. 3, § 50.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

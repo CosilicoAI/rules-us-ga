@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-184"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-184"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-184/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-184/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-184/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-184/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_184">
+        <num>20-2-184</num>
+        <content>
+          <p>The program weights for the kindergarten, kindergarten early intervention, primary, primary grades early intervention, upper elementary, upper elementary grades early intervention, middle school, and remedial programs and the program weights for the high school programs authorized pursuant to paragraph (4) of subsection (b) of Code Section 20-2-151, when multiplied by the base amount, shall reflect sufficient funds to pay the beginning salaries for instructors needed to provide 20 additional days of instruction for 10 percent of the full-time equivalent count of the respective program. Such funds shall be used for addressing the academic needs of low-performing students with programs including, but not limited to, instructional opportunities for students beyond the regular school day, Saturday classes, intersession classes, summer school classes, and additional instructional programs during the regular school day. Following the midterm adjustment, the state board shall issue allotment sheets for each local school system. Each local school system shall spend 100 percent of the funds designated for additional days of instruction for such costs at the system level, which may include transportation costs incurred for transporting students who are attending additional classes funded by these designated funds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

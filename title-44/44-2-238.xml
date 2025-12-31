@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-238"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-238"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-238/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-238/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-238/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-238/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_238">
+        <num>44-2-238</num>
+        <content>
+          <p>Whenever, in the registering of any certificate of title or any notation or entry on the title register, it is found that the description of the premises or the portion thereof involved or any other detail in connection with the transaction is too lengthy to be transcribed in full in the proper space on the register, it shall be permissible to record the instrument, document, or writing in which such lengthy detail or description is contained on some public record book of the county and, instead of setting forth the description or other detail, as the case may be, in extenso on the title register, to state it in general terms with the reference for further particulars to the public record where recorded as follows: "For further detail, see Deed Book _____________, page _____________." Such registration shall be adequate to all intents and purposes, and the record thus made on the public record shall be considered as a part of the certificate of title contained on the title register.</p>
+          <p>(Ga. L. 1917, p. 108, § 103; Code 1933, § 60-619.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

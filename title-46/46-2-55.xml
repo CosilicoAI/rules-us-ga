@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-2-55"/>
+          <FRBRuri value="/us-ga/act/ocga/46-2-55"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-2-55/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-2-55/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-2-55/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-2-55/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_2_55">
+        <num>46-2-55</num>
+        <content>
+          <p>In investigating complaints of violations by common carriers of the laws prohibiting the giving or granting of rebates and prohibiting unjust discrimination in rates and charges, the commission may exercise the power and authority to compel the shipper or consignee, or any officer, agent, or employee of a common carrier to give evidence relating to such complaints. Before any such person shall be compelled to give evidence relating to such complaints, the commission shall make an order that such witness is required by the commission to testify and that he will be exempt thereafter from indictment or prosecution for any transaction about which he is compelled to testify. When such order is made, the witness shall be compelled to give evidence touching such complaints, and he shall be forever free from indictment or prosecution in any court touching the matters about which he is compelled to testify.</p>
+          <p>(Ga. L. 1896, p. 57, § 1; Civil Code 1910, § 2636; Ga. L. 1922, p. 143, § 5; Code 1933, § 93-506.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-11-111"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-11-111/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-11-111/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_11_111">
+        <num>19-11-111</num>
+        <content>
+          <p>Personal jurisdiction acquired by a tribunal of Georgia in a proceeding under this article or other law of Georgia relating to a support order continues so long as a tribunal of Georgia has continuing, exclusive jurisdiction to modify its order or continuing jurisdiction to enforce its order as provided by Code Sections 19-11-114, 19-11-115, and 19-11-119.1.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

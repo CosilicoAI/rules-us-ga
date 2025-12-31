@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-493"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-493"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-493/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-493/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-493/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-493/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_493">
+        <num>10-1-493</num>
+        <content>
+          <p>Any person, firm, partnership, or corporation carrying on any trade or business subject to registration under Code Section 10-1-490 without filing such registration as required by Code Section 10-1-490 shall be guilty of a misdemeanor but shall suffer no other or further penalty or forfeiture on account of any such failure to register, except costs as provided in Code Section 10-1-491.</p>
+          <p>(Ga. L. 1929, p. 233, § 5; Code 1933, § 106-9906; Ga. L. 1937, p. 804, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

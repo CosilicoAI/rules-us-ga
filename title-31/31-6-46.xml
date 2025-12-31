@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-6-46"/>
+          <FRBRuri value="/us-ga/act/ocga/31-6-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-6-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-6-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-6-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-6-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_6_46">
+        <num>31-6-46</num>
+        <content>
+          <p>The department shall prepare and submit an annual report to the board and to the Health and Human Services Committee of the Senate and the Health and Human Services Committee of the House of Representatives about its operations and decisions for the preceding 12 month period, not later than 30 days prior to each convening of the General Assembly in regular session. Either committee may request any additional reports or information, including decisions, from the department at any time, including a period in which the General Assembly is not in regular session. The annual report shall include information and updates relating to the state health plan and the certificate of need program and an annual analysis of proactive and prospective approaches to need methodologies and access to health care services. The annual report shall include information for Georgia's congressional delegation which highlights issues regarding federal laws and regulations influencing Medicaid and medicare, insurance and related tax laws, and long-term health care.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

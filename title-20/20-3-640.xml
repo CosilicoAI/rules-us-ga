@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-640"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-640"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-640/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-640/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-640/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-640/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_640">
+        <num>20-3-640</num>
+        <content>
+          <p>Nothing in this article or in any savings trust agreement entered into pursuant to this article shall be construed as a promise or guarantee by the state or any agency or instrumentality of the state that either qualified higher education expenses in general or any specific qualified higher education expense shall be covered in full by contributions or earnings on any savings trust account. Savings trust accounts and agreements entered into pursuant to this article are not guaranteed by the full faith and credit of the State of Georgia.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

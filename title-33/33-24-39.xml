@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-24-39"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-24-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-24-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_24_39">
+        <num>33-24-39</num>
+        <content>
+          <p>An insurer shall furnish, upon written request of any person claiming to have a loss under an insurance contract issued by the insurer, forms for proof of loss for completion by the person, but the insurer shall not, by reason of the requirement so to furnish forms, have any responsibility for or with reference to the completion of the proof or the manner of any completion or attempted completion. Failure or refusal to furnish the form upon written request or written notice of a loss shall constitute waiver of the right of the insurer to require proof of loss.</p>
+          <p>(Orig. Code 1863, § 2763; Code 1868, § 2771; Code 1873, § 2813; Code 1882, § 2813; Civil Code 1895, § 2108; Civil Code 1910, § 2490; Code 1933, § 56-831; Code 1933, § 56-2427, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

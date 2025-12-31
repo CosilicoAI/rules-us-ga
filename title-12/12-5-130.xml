@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-130"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-130/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-130/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_130">
+        <num>12-5-130</num>
+        <content>
+          <p>All licenses expire biennially. All applications for renewal shall be filed with the division prior to the expiration date, accompanied by a renewal fee not exceeding $400.00 per renewal period as prescribed by the division. A license which has expired for failure to renew may be restored only after application and payment of the prescribed restoration fee. A new license to replace any license lost, destroyed, or mutilated may be issued, subject to the rules of the council and payment of a fee set by the council.</p>
+          <p>(Ga. L. 1977, p. 1506, § 4; Ga. L. 1985, p. 1192, § 1; Ga. L. 2001, p. 315, § 6; Ga. L. 2003, p. 607, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

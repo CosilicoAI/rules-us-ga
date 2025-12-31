@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-93"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-93"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-93/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-93/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-93/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-93/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_93">
+        <num>31-7-93</num>
+        <content>
+          <p>In the event any hospital authority shall fail or refuse to provide for an annual audit and have such audit prepared and filed as set forth in Code Sections 31-7-91 and 31-7-92, any taxpayer of any participating unit of such authority or the governing authority of such unit may petition the superior court of the county wherein the authority operates a hospital to require the authority to have such audit prepared and filed as provided by the above Code sections. The judge of such court shall set a time for the hearing on such petition and after notice to the authority shall hear and determine the petition. If it is determined that the authority has failed to comply with the requirements for the preparation and filing of the audit, the judge shall pass such orders as are necessary to effectuate compliance with such requirements. In the event the authority fails to have an audit prepared and filed as required by court order, the members of the authority shall be subject to contempt proceedings by the court as provided by law.</p>
+          <p>(Code 1933, § 88-1823, enacted by Ga. L. 1964, p. 499, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

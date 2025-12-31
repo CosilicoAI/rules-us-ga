@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-16-3"/>
+          <FRBRuri value="/us-ga/act/ocga/36-16-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-16-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-16-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-16-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-16-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_16_3">
+        <num>36-16-3</num>
+        <content>
+          <p>The judge of the probate court and the county board of education are made the sole judges of the admissibility of any matter or document which may be submitted to the judge of the probate court for filing, should any question arise as to the historical value of such matter or document so submitted; and the judge of the probate court and the board of education sitting in regular session shall have authority to accept or reject any matter so submitted, provided that the judge of the probate court shall be required to deposit in the historical container all documents in his office pertaining to records of Confederate soldiers and widows of such soldiers, as well as soldiers and their surviving spouses of all other wars of our nation, a record of which he may have in his office, and to make proper notations thereof in the book of record.</p>
+          <p>(Ga. L. 1935, p. 383, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

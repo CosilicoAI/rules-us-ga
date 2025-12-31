@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-175"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-175"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-175/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-175/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-175/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-175/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_175">
+        <num>7-1-175</num>
+        <content>
+          <p>Within 180 days after the department takes possession of a financial institution, the department, as receiver, may at its election reject any executory contract to which the financial institution is party without further liability to the financial institution or the receiver or may reject any obligation of the financial institution as a lessee of real or personal property. The department's election to reject a lease creates no claim for rent other than rent accrued to the date of termination or for actual damages, if any, for such termination, not to exceed the equivalent of six months' payment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-40-41"/>
+          <FRBRuri value="/us-ga/act/ocga/36-40-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-40-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-40-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-40-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-40-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_40_41">
+        <num>36-40-41</num>
+        <content>
+          <p>Pursuant to Article VII, Section III, Paragraph III of the Constitution of Georgia, relating to the granting of state funds to municipal corporations, such funds are authorized to be granted to certain municipal corporations as provided for in this article and may be used by such municipal corporations for purchasing, constructing, improving, maintaining, and repairing capital outlay items. Any funds granted to municipal corporations pursuant to the aforesaid provision of the Constitution shall be used only for the purposes provided for in this Code section.</p>
+          <p>(Ga. L. 1965, p. 458, § 1; Ga. L. 1967, p. 882, § 1; Ga. L. 1983, p. 3, § 57.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

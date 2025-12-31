@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-39A-23"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39A-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-39A-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39A-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-39A-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-39A-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_39A_23">
+        <num>43-39A-23</num>
+        <content>
+          <p>Whenever, in the judgment of the board, any person has engaged in any acts or practices which constitute or will constitute a violation of this chapter, the Attorney General may maintain an action in the name of the state in the superior court of the county in which such violation occurred to abate and enjoin temporarily or permanently such acts and practices and to enforce compliance with this chapter. The plaintiff shall not be required to give any bond.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

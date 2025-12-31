@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-127"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-127"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-127/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-127/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-127/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-127/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_127">
+        <num>46-3-127</num>
+        <content>
+          <p>The authority shall not operate or construct any project for profit except insofar as any such profit will inure to the benefit of the public. The authority shall fix the rates, fees, and charges consistent with this declaration of policy such as will produce revenues only in amounts sufficient, together with all other funds of the authority, to pay principal and interest on bonds and obligations of the authority, to provide for maintenance and operation of the authority and of its projects, and to maintain such reserves as shall have been created in amounts sufficient in the judgment of the authority for the security of the bonds and for the improvement, replacement, or expansion of the facilities or services of the authority or to provide fuel for its generating projects.</p>
+          <p>(Ga. L. 1975, p. 107, § 12.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-13-8"/>
+          <FRBRuri value="/us-ga/act/ocga/31-13-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-13-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-13-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-13-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-13-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_13_8">
+        <num>31-13-8</num>
+        <content>
+          <p>The Department of Community Health is authorized to provide by rule or regulation for the registration and periodic renewal of registration of persons to sell, distribute, assemble, use, manufacture, produce, transport, transfer, receive, acquire, own, or possess radiation generating equipment. Such rule or regulation shall provide for suspension or revocation of registration.Each application for registration shall be in writing on forms prescribed and furnished by the Department of Community Health and shall state such information and be accompanied by such documents, including, but not limited to, plans, specifications, and reports for new construction or material alterations, as the Department of Community Health may determine to be reasonable and necessary to decide the qualifications of the applicant to protect the public health and safety.The Department of Community Health may require any applications or statements to be made under oath or affirmation. No registration issued under the authority of this chapter and no right to possess or utilize radiation generating equipment granted by any registration shall be assigned or in any manner disposed of without prior notification to the Department of Community Health.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

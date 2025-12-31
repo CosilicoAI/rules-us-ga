@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-135"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-135"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-135/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-135/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-135/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-135/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_135">
+        <num>48-5-135</num>
+        <content>
+          <p>If any tax collector or tax commissioner collects or attempts to collect any taxes before the tax receiver has completed and transmitted his digest to the commissioner, unless specially so ordered by the commissioner or allowed by special enactment, he shall forfeit to the state double the amount collected or attempted to be collected. Each forfeiture shall be collected by execution issued by the commissioner.</p>
+          <p>(Orig. Code 1863, § 838; Code 1868, § 917; Code 1873, § 915; Code 1882, § 915; Civil Code 1895, § 929; Civil Code 1910, § 1192; Code 1933, § 92-5601; Code 1933, § 91A-1346, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

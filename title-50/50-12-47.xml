@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-12-47"/>
+          <FRBRuri value="/us-ga/act/ocga/50-12-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-12-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-12-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-12-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-12-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_12_47">
+        <num>50-12-47</num>
+        <content>
+          <p>The Georgia State Games direct-support organization shall make provisions for an annual financial and compliance audit of its financial accounts and records by an independent certified public accountant in accordance with rules established by the commission. The annual audit report shall be submitted to the Governor and the commission for review and approval. Upon approval, the Governor and the commission shall certify the audit report to the Department of Audits and Accounts for review and approval.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

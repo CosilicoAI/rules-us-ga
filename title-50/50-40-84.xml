@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-40-84"/>
+          <FRBRuri value="/us-ga/act/ocga/50-40-84"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-40-84/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-40-84/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-40-84/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-40-84/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_40_84">
+        <num>50-40-84</num>
+        <content>
+          <p>On June 30, 2019, and on each June 30 thereafter, the Department of Community Affairs shall submit a report to the Lieutenant Governor, the Speaker of the House of Representatives, and the Governor on the progress in achieving the purposes of this article, including, at a minimum the status of any funding awards. Such report may be a part of or submitted in conjunction with the report required to be submitted by the Georgia Technology Authority pursuant to Code Section 50-40-2. Such report shall be published on the website of the Department of Community Affairs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

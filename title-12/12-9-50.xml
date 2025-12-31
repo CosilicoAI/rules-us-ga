@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-9-50"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-9-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-9-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_9_50">
+        <num>12-9-50</num>
+        <content>
+          <p>Any duly appointed agent of the director, including without limitation any person with whom the board has contracted pursuant to paragraph (12) of subsection (a) of Code Section 12-9-46, may enter private or public property at reasonable times and upon presentation of the agent's credentials to inspect, monitor, or investigate the operation of any emission inspection station or any establishment suspected of holding itself out as being an emission inspection station to determine whether such emission inspection station or establishment is in compliance with the requirements of this article; provided, however, that nothing in this Code section shall prohibit other investigative techniques from being utilized by the director.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

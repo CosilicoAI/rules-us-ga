@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-11-546"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-546"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-11-546/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-546/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-11-546/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-546/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_11_546">
+        <num>15-11-546</num>
+        <content>
+          <p>If at any time during the course of the proceedings it is brought to the attention of the court that a person or entity has failed to comply with a discovery request, the court may order the person or entity to permit the discovery or inspection of evidence, grant a continuance, or upon a showing of prejudice and bad faith, prohibit the party from introducing in evidence the information not disclosed or presenting the witness not disclosed, or enter such other order as the court deems just under the circumstances. The court may specify the time, place, and manner of making the discovery, inspection, and interview and may prescribe such terms and conditions as are just.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

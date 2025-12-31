@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-60-8"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-60-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-60-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-60-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_60_8">
+        <num>36-60-8</num>
+        <content>
+          <p>Whenever an audit of the financial affairs of a county or municipal corporation or of an officer, board, department, unit, or other political subdivision of a county or municipal corporation is made pursuant to a requirement or to an authorization otherwise provided by law, the audit report shall include the auditor's unqualified opinion upon the presentation of the financial position and the result of the operations of the governmental unit or office which is audited. If the auditor is unable to express an unqualified opinion, he or she shall so state and shall further detail the reasons for qualification or disclaimer of opinion. All such audits shall be conducted in conformity with generally accepted government auditing standards.</p>
+          <p>(Ga. L. 1967, p. 883, § 1; Ga. L. 1968, p. 464, § 1; Ga. L. 1994, p. 1083, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

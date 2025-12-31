@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-3-46"/>
+          <FRBRuri value="/us-ga/act/ocga/19-3-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-3-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-3-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-3-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-3-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_3_46">
+        <num>19-3-46</num>
+        <content>
+          <p>The Governor or any former Governor of this state, any judge, city recorder, magistrate, minister, or other person authorized to perform the marriage ceremony who joins in marriage any couple without a license or the publication of banns shall forfeit the sum of $500.00, to be recovered and appropriated as set forth in Code Section 19-3-45.</p>
+          <p>(Orig. Code 1863, § 1662; Code 1868, § 1705; Code 1873, § 1706; Code 1882, § 1706; Civil Code 1895, § 2420; Civil Code 1910, § 2939; Code 1933, § 53-210; Ga. L. 1983, p. 884, § 4-1; Ga. L. 2010, p. 394, § 4/SB 238.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

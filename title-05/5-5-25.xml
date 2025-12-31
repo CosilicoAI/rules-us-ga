@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-5-25"/>
+          <FRBRuri value="/us-ga/act/ocga/5-5-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-5-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-5-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-5-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-5-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_5_25">
+        <num>5-5-25</num>
+        <content>
+          <p>In all motions for a new trial on other grounds not provided for in this Code, the presiding judge must exercise a sound legal discretion in granting or refusing the same according to the provisions of the common law and practice of the courts.</p>
+          <p>(Orig. Code 1863, § 3642; Code 1868, § 3667; Code 1873, § 3718; Code 1882, § 3718; Civil Code 1895, § 5483; Penal Code 1895, § 1062; Civil Code 1910, § 6088; Penal Code 1910, § 1089; Code 1933, § 70-208; Ga. L. 2013, p. 141, § 5/HB 79.)</p>
+          <p>The 2013 amendment,
+      effective April 24, 2013, part of an Act to revise, modernize, and correct the Code, revised punctuation in this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

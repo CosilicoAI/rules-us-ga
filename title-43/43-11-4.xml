@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-11-4"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-11-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-11-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_11_4">
+        <num>43-11-4</num>
+        <content>
+          <p>It shall be the duty of the board to meet annually at the close of the session of a majority of the dental colleges and to hold such other meetings as the duties of the board may require. It shall also be the duty of the board to meet in any called meeting that may be ordered in writing by not less than three members of the board, or by its president, upon not less than 15 days' notice in writing, stating the time, place, and object of such called meeting.</p>
+          <p>(Ga. L. 1920, p. 132, § 3; Code 1933, § 84-705; Ga. L. 1976, p. 484, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

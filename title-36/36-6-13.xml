@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-6-13"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-6-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-6-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-6-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_6_13">
+        <num>36-6-13</num>
+        <content>
+          <p>No county treasurer or other county official shall receive any commission on funds received or disbursed in connection with county contracts with the Department of Transportation for the construction or repair of roads; and this Code section and Code Sections 36-6-12 and 36-6-15 shall not apply to funds received or disbursed on such contracts. The funds received from county contracts with the Department of Transportation for the construction and repair of roads shall be collected by the county treasurer, in those counties having a county treasurer, and shall be disbursed by him without any commission or fee; in those counties having no county treasurer, the funds from these contracts shall be collected and disbursed by the usual officers without any commission or fee.</p>
+          <p>(Ga. L. 1939, p. 277, §§ 1, 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

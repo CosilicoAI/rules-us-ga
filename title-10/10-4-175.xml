@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-175"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-175"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-175/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-175/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-175/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-175/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_175">
+        <num>10-4-175</num>
+        <content>
+          <p>Membership in the several boards of trade may be divided into categories as the board may provide in its bylaws and may include, in addition to warehousemen, members other than warehousemen. The holder of a membership other than a warehouseman shall not participate in the allocation of sale time among the warehousemen. The board of trade may provide for the participation of membership other than warehousemen in matters other than the allocation of sales time. Members in any of the several boards of trade authorized by this part shall not be responsible or liable for any of the acts, omissions, or commissions of the several tobacco boards of trade except as to the extent of their participation therein. Membership in a state-wide corporation or association, as provided in this part, shall be limited to warehousemen. The holder of a membership in such state-wide organization who is not the operator of a warehouse in this state shall not participate in the allocation of sales time among the tobacco markets in this state.</p>
+          <p>(Ga. L. 1962, p. 102, § 6; Ga. L. 1972, p. 918, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

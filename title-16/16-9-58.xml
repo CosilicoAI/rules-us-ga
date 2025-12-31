@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-9-58"/>
+          <FRBRuri value="/us-ga/act/ocga/16-9-58"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-9-58/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-9-58/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-9-58/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-9-58/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_9_58">
+        <num>16-9-58</num>
+        <content>
+          <p>Any person, either on his or her own account or for others, who with fraudulent intent shall buy cotton, corn, rice, crude turpentine, spirits of turpentine, rosin, pitch, tar, timber, pulpwood, Christmas trees, pine needles, horticultural crops, poultry and poultry products, cattle, hogs, sheep, goats, ratites, horses, mules, pecans, peaches, apples, watermelons, cantaloupes, or other products or chattels and fail or refuse to pay therefor within 20 days following receipt of such products or chattels or by such other payment due date explicitly stated in a written contract agreed to by the buyer and seller, whichever is later, shall be guilty of a misdemeanor; except that if the value of the products or chattels exceeded $500.00 such person shall be guilty of a felony and, upon conviction thereof, shall be imprisoned for not less than one year nor more than five years.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-196"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-196"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-196/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-196/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-196/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-196/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_196">
+        <num>44-12-196</num>
+        <content>
+          <p>Any sum payable on a check, draft, or similar instrument, except money orders, traveler's checks, and other similar instruments subject to Code Section 44-12-195, on which a banking or financial organization is directly liable, including but not limited to, cashier's checks and certified checks, which has been outstanding for more than five years after it was payable or after its issuance if payable on demand, is presumed abandoned unless the owner, within five years, has communicated in writing with the banking or financial organization concerning it or otherwise indicated an interest as evidenced by a memorandum or other record on file prepared by an employee of the banking or financial organization. Except for charges imposed with respect to issuance, no banking or financial organization shall deduct a service charge from, or otherwise impose a service charge on, any instrument described in this Code section unless such instrument is not presented for payment within two years of the date of issuance. Service charges may be imposed for each month of the 12 months following such two-year period.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

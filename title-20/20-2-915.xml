@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-915"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-915"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-915/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-915/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-915/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-915/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_915">
+        <num>20-2-915</num>
+        <content>
+          <p>At the time of death of any employee, annuitant, or other person who has elected coverage under said contract or contracts for health insurance and who dies having the required creditable service for receiving a benefit from a retirement system of this state which is operated for teachers or public school employees, any spouse or dependent child or children included in the coverage of the contract or contracts for health insurance as provided in this subpart may be entitled to continue such coverage upon agreeing to pay contributions to the cost of such coverage as may be provided by rules and regulations of the board. The board shall be authorized to promulgate and adopt rules and regulations governing the continuance, discontinuance, and resumption of coverage by any such spouse or dependent child or children. The board shall be authorized to promulgate rules and regulations governing the continuance of coverage by a spouse and dependent children of a retired employee when retirement benefits are insufficient for payment of the health insurance premium.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/6-4-4"/>
+          <FRBRuri value="/us-ga/act/ocga/6-4-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/6-4-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/6-4-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/6-4-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/6-4-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_4_4">
+        <num>6-4-4</num>
+        <content>
+          <p>The Georgia Airport Development Authority shall continue to be a body corporate and politic and an instrumentality and public corporation of the state known as the "Georgia Airport Development Authority."It shall have perpetual existence. In said name it may contract and be contracted with, sue and be sued, implead and be impleaded, and complain and defend in all courts of this state, subject to the limitations of Code Section 6-4-15.The authority shall constitute a political subdivision within the meaning of Code Section 6-3-22 as enacted by the Georgia General Assembly in its 1992 regular session in Senate Bill 173.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

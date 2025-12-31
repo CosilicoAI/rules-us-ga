@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-5-9"/>
+          <FRBRuri value="/us-ga/act/ocga/13-5-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-5-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-5-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-5-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-5-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_5_9">
+        <num>13-5-9</num>
+        <content>
+          <p>If the consideration for a promise, apparently good or valuable, fails either wholly or in part before the promise is executed, the failure of consideration may be pleaded in defense to the promise as provided for in subsection (c) of Code Section 9-11-8. If the failure of consideration is partial, an apportionment shall be made according to the facts of each case.</p>
+          <p>(Orig. Code 1863, § 2712; Code 1868, § 2706; Code 1873, § 2748; Code 1882, § 2748; Civil Code 1895, § 3665; Civil Code 1910, § 4250; Code 1933, § 20-310.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

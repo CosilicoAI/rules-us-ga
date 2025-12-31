@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-15-382"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-382"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-15-382/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-382/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-15-382/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-382/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_15_382">
+        <num>34-15-382</num>
+        <content>
+          <p>Any governmental employer authorized by the Board to self-insure;</p>
+          <p>Any employer who elects to group self-insure pursuant to Code Section 34-9-152;</p>
+          <p>Captive insurers as provided for in Chapter 41 of Title 33;</p>
+          <p>Any employer who, pursuant to any reciprocal agreements or contracts of indemnity executed prior to March 8, 1960, created funds for the purpose of satisfying the obligations of self-insured employers under this chapter;</p>
+          <p>Any individual or company who enters into a contract or agreement with an employer under which the employer outsources its workers' compensation risks, responsibilities, obligations or liabilities to such individual or company; and pursuant to such contract or agreement, is required to provide workers' compensation benefits to an injured employee even though no common-law master-servant relationship exists between the injured employee and the individual or company providing the benefits.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

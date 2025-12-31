@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-992"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-992"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-992/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-992/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-992/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-992/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_992">
+        <num>20-2-992</num>
+        <content>
+          <p>Nothing in this article shall be construed as waiving any immunity or privilege now or hereafter enjoyed by the State Board of Education, by the board of control of any cooperative educational service agency, by any local board of education, by any member of any such board, or by any employee of the state board, school superintendent, principal, teacher, administrator, or other employee or as waiving any immunity or privilege of any state or other public body, board, agency, or political subdivision.</p>
+          <p>(Ga. L. 1973, p. 1267, § 3; Ga. L. 1975, p. 1181, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

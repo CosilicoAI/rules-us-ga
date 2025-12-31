@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-6-20"/>
+          <FRBRuri value="/us-ga/act/ocga/19-6-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-6-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-6-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-6-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-6-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_6_20">
+        <num>19-6-20</num>
+        <content>
+          <p>In the trial on a petition authorized in subsection (a) of Code Section 19-6-19, the merits of whether a party is entitled to alimony are not an issue. The only issue is whether there has been such a substantial change in the income and financial status of either former spouse, in cases of permanent alimony for the support of a former spouse, as to warrant either a downward or upward revision or modification of the permanent alimony judgment.</p>
+          <p>(Ga. L. 1955, p. 630, § 2; Ga. L. 1977, p. 1253, § 2; Ga. L. 1979, p. 466, § 24; Ga. L. 1986, p. 1259, § 2; Ga. L. 2005, p. 224, § 7/HB 221; Ga. L. 2006, p. 583, § 8/SB 382.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

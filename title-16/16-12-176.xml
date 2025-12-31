@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-12-176"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-176"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-12-176/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-176/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-12-176/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-176/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_12_176">
+        <num>16-12-176</num>
+        <content>
+          <p>The state revenue commissioner shall administer and enforce this article and may make reasonable rules and regulations for its administration and enforcement. The state revenue commissioner may designate employees of the Department of Revenue for the purpose of administering and enforcing this article and may delegate to employees of such department any of the duties required of the state revenue commissioner pursuant to this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

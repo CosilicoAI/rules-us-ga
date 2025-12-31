@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-7-6"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-7-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-7-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_7_6">
+        <num>52-7-6</num>
+        <content>
+          <p>A vessel shall not be required to be numbered under Code Sections 52-7-4 and 52-7-5 if it is:</p>
+          <p>(Ga. L. 1960, p. 235, § 5; Ga. L. 1973, p. 1427, § 5; Ga. L. 1981, p. 147, § 4; Ga. L. 1982, p. 3, § 52; Ga. L. 1987, p. 567, § 5; Ga. L. 2006, p. 96, § 4/HB 1490; Ga. L. 2013, p. 892, § 2/HB 497.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-4-2"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-4-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-4-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_4_2">
+        <num>5-4-2</num>
+        <content>
+          <p>When either party in any case in any probate court lodges objections to any proceeding or decision in the case, affecting the real merits of the case, the party making the same shall offer the objections in writing, which shall be signed by himself or his attorney and, if the same are overruled by the court, the party may petition the superior court for a writ of certiorari, in which petition he shall plainly, fully, and distinctly set forth the errors complained of. If the court deems the objections to be sufficient, it shall forthwith issue a writ of certiorari, directed to the judge of the probate court, requiring him to certify and send up to the superior court, at the time specified in the writ, all the proceedings in the case.</p>
+          <p>(Laws 1799, Cobb's 1851 Digest, p. 523; Code 1863, § 3958; Code 1868, § 3978; Code 1873, § 4050; Code 1882, § 4050; Civil Code 1895, § 4635; Civil Code 1910, § 5181; Code 1933, § 19-201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

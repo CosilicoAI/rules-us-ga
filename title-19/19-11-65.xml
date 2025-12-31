@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-11-65"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-65"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-11-65/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-65/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-11-65/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-65/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_11_65">
+        <num>19-11-65</num>
+        <content>
+          <p>In addition to the other powers specified in this article, the court of this state, when acting as the responding state, has the power to subject the respondent to such terms and conditions as the court may deem proper to assure compliance with its orders and in particular has the power:</p>
+          <p>(Ga. L. 1958, p. 34, § 21; Ga. L. 1989, p. 380, § 1; Ga. L. 1991, p. 94, § 19.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/3-3-26"/>
+          <FRBRuri value="/us-ga/act/ocga/3-3-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/3-3-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/3-3-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/3-3-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/3-3-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_3_26">
+        <num>3-3-26</num>
+        <content>
+          <p>(Ga. L. 1937-38, Ex. Sess., p. 103, § 9; Code 1933, § 5A-513, enacted by Ga. L. 1980, p. 1573, § 1; Ga. L. 2020, p. 615, § 5/HB 879.)</p>
+          <p>The 2020 amendment,
+      effective August 3, 2020, designated the existing provisions as subsection (a); in subsection (a), substituted "Except as provided in this Code section or Chapter 15 of this title, no retail package liquor store" for "No retail dealer" at the beginning and deleted the former last sentence, which read: "This Code section shall not apply with respect to sales pursuant to a license for consumption on the premises."; and added subsections (b) and (c).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

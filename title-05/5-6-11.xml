@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-6-11"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-6-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-6-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_6_11">
+        <num>5-6-11</num>
+        <content>
+          <p>In all cases where the Supreme Court of Georgia has affirmed the imposition of the death penalty in a case or has affirmed the denial of a petition for a writ of habeas corpus in any case in which the death penalty has been imposed, the remittitur shall not issue from that court for at least 90 days from the date of the court's decision, or from the date of the court's denial of a motion for a rehearing, if such motion is timely filed, whichever is later; provided, however, that this Code section shall not apply where the defendant has previously applied for a writ of habeas corpus which has been denied and the denial thereof has been affirmed by the Supreme Court of Georgia, or where the writ has been granted but the grant thereof has been reversed by the Supreme Court of Georgia.</p>
+          <p>(Ga. L. 1970, p. 691, § 1; Ga. L. 1971, p. 212, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

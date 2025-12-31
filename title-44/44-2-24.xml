@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-24"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_24">
+        <num>44-2-24</num>
+        <content>
+          <p>Where an affidavit of forgery has been filed to the plaintiff's deed, and the deed has been turned over to the defendant or his counsel in order to procure evidence upon the issue of forgery, and such deed is destroyed or lost by the defendant or his counsel or for any cause is not returned to the plaintiff, the judge trying the case shall strike the affidavit of forgery and withdraw the issue from the jury until the deed is produced. The same rule shall apply when the plaintiff files an affidavit of forgery as to the deed of the defendant.</p>
+          <p>(Ga. L. 1887, p. 60, §§ 1, 2; Civil Code 1895, § 3629; Civil Code 1910, § 4211; Code 1933, § 29-416.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

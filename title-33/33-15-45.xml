@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-15-45"/>
+          <FRBRuri value="/us-ga/act/ocga/33-15-45"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-15-45/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-15-45/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-15-45/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-15-45/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_15_45">
+        <num>33-15-45</num>
+        <content>
+          <p>Any domestic fraternal benefit society may be converted and licensed as a mutual life insurance company by compliance with all the applicable requirements of Chapter 14 of this title if the plan of conversion has been approved by the Commissioner. A plan of conversion shall be prepared in writing by the board of directors setting forth in full the terms and conditions of conversion.The affirmative vote of two-thirds of all members of the supreme governing body at a regular or special meeting shall be necessary for the approval of such plan.No such conversion shall take effect unless and until approved by the Commissioner who may give such approval if the Commissioner finds that the proposed change is in conformity with the requirements of law and not prejudicial to the certificate holders of the society.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

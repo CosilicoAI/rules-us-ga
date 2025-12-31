@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-36-8"/>
+          <FRBRuri value="/us-ga/act/ocga/33-36-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-36-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-36-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-36-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-36-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_36_8">
+        <num>33-36-8</num>
+        <content>
+          <p>Upon the determination of a court of competent jurisdiction of the state of domicile of an insurer that the insurer is insolvent, the Commissioner of this state shall promptly give notice of the insurer's insolvency by first-class mail to all persons known or reasonably expected to have or be interested in claims against the insurer at such person's last known address, all insureds of the insolvent insurer known to the Commissioner at such insured's last known address, and all insurers subject to this chapter. The Commissioner may also require each agent of the insolvent insurer to give prompt written notice by first-class mail at the insured's last known address to each insured of the insolvent insurer for whom he was agent of record. Notice shall also be given by publication in a newspaper of general circulation published in the county where the insurer had its principal office not less than once per week for four weeks and by publication elsewhere in this state as the court may direct.</p>
+          <p>(Ga. L. 1970, p. 700, § 5; Ga. L. 1982, p. 3, § 33; Ga. L. 1990, p. 8, § 33.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

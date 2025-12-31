@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-818"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-818"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-818/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-818/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-818/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-818/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_818">
+        <num>7-1-818</num>
+        <content>
+          <p>Any P.O.D. account may be paid, on request, to any original party to the account. Payment may be made, on request, to the P.O.D. payee or to the personal representative or heirs of a deceased P.O.D. payee upon presentation to the financial institution of proof of death showing that the P.O.D. payee survived all persons named as original payees. Payment may be made to the personal representative or heirs of a deceased original payee if proof of death is presented to the financial institution showing that his or their decedent was the survivor of all other persons named on the account either as an original payee or as P.O.D. payee.</p>
+          <p>(Code 1933, § 41A-3809, enacted by Ga. L. 1976, p. 1388, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

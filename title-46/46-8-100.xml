@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-100"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-100/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-100/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_100">
+        <num>46-8-100</num>
+        <content>
+          <p>A railroad company organized and incorporated as provided in this chapter shall be empowered:</p>
+          <p>(Ga. L. 1892, p. 37, § 9; Civil Code 1895, § 2167; Civil Code 1910, § 2585; Code 1933, § 94-301; Ga. L. 1982, p. 3, § 46; Ga. L. 1984, p. 22, § 46; Ga. L. 2008, p. 210, § 7/HB 1283.)</p>
+          <p>The 2008 amendment,
+      effective July 1, 2008, in paragraph (3), added the two provisos and added the last sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

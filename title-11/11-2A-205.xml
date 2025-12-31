@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-205"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-205/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-205/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_205">
+        <num>11-2A-205</num>
+        <content>
+          <p>An offer by a merchant to lease goods to or from another person in a signed writing that by its terms gives assurance it will be held open is not revocable, for lack of consideration, during the time stated or, if no time is stated, for a reasonable time, but in no event may the period of irrevocability exceed 3 months.Any such term of assurance on a form supplied by the offeree must be separately signed by the offeror.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

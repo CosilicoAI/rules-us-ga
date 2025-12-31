@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-463"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-463"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-463/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-463/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-463/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-463/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_463">
+        <num>20-2-463</num>
+        <content>
+          <p>When one-fourth of the registered qualified voters of the county or of the county outside the incorporated limits of a municipality or municipalities, as the case may be, shall file with the county board of education a petition asking for an election for the purpose of determining whether or not bonds shall be issued for the purpose of refunding, refinancing, or retiring outstanding school bonds of such territory, the required number of petitioners to be determined by the county board, it shall be the duty of the county board to fix the amount, denomination, rate of interest, and dates when due of the proposed bonds to refund, refinance, or retire outstanding schoolhouse bonds of such territory; and the county board shall also specify the amount, denomination, rate of interest, and dates when due of the outstanding school bonds which are sought to be refunded, retired, or refinanced and call such election in terms of law now provided or which may hereafter be provided for the county issue of bonds, except as otherwise provided in this Code section.</p>
+          <p>(Ga. L. 1937, p. 869, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

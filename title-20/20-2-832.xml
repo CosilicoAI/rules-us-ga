@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-832"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-832"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-832/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-832/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-832/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-832/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_832">
+        <num>20-2-832</num>
+        <content>
+          <p>The Governor is authorized to use any funds in the treasury, which may have been allocated for any special fund or purpose, for the payment of public school teachers to avoid increasing the public debt of the state. Such funds shall be used without payment of interest thereon and it shall be the duty of the Governor, when any fund shall be so used, to replace the fund or funds by borrowing the amount used, if necessary, at such time as will not interfere with the expenditure for the purpose appropriated of any special or allocated funds or funds so drawn upon by the Governor by virtue of the authority granted in this Code section.</p>
+          <p>(Ga. L. 1927, p. 167, § 2; Code 1933, § 32-1302; Ga. L. 1987, p. 3, § 20; Ga. L. 2001, p. 4, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

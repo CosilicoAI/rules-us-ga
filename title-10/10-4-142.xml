@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-142"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-142"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-142/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-142/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-142/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-142/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_142">
+        <num>10-4-142</num>
+        <content>
+          <p>No person, real or corporate, shall operate a service for receiving within this state flue-cured leaf tobacco for the purpose of weighing, redrying, and storing said tobacco from the year of production until the subsequent selling season for sale at that time without first having obtained a license from the Commissioner of Agriculture. Each license so issued shall automatically expire at the termination of the storage period and be subject to renewal annually under such rules and regulations as the Commissioner shall prescribe. The license fee shall be $40.00 for each year. Any fees collected pursuant to this Code section shall be retained pursuant to the provisions of Code Section 45-12-92.1. Licensed operators of flue-cured leaf tobacco auction warehouses may be licensed without cost under this part upon application to the Commissioner. This part shall not require licensing of any federal agency, its agents, or contractors who receive carry-over tobacco.</p>
+          <p>(Ga. L. 1975, p. 1263, § 2; Ga. L. 2010, p. 9, § 1-32/HB 1055.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

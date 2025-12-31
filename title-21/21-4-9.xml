@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-4-9"/>
+          <FRBRuri value="/us-ga/act/ocga/21-4-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-4-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-4-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-4-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-4-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_4_9">
+        <num>21-4-9</num>
+        <content>
+          <p>AFFIDAVIT OF SIGNATURE WITHDRAWAL</p>
+          <p>State of Georgia
+   County of ______________
+   I, ____________ (Name as it appears on the application or recall petition), being first duly sworn, say that I am an elector of the ____________ (electoral district) in which the recall election will be conducted.
+   That my residence address is ______________________________________________
+   ____________________________________________________________________________
+   (Number and street or route)
+   (City)
+   That I signed or caused to be signed the application or the petition for the recall of ____________ (Name and office of person sought to be recalled) and that the recall application or petition has been assigned number ______.
+   That it is my intention by the signing and filing of this affidavit to withdraw my signature therefrom.
+   __________________
+   Signature of elector
+   Subscribed and sworn to
+   before me this ________
+   day of ________, ____.
+   ________________
+   Notary public
+   ________, Georgia
+   My commission expires on the __________ day of __________, ______.</p>
+        </content>
+        <subsection eId="sec_21_4_9__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The affidavit shall be substantially in the following form:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

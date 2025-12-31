@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-2-34"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-34"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-2-34/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-34/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-2-34/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-34/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_2_34">
+        <num>35-2-34</num>
+        <content>
+          <p>The headquarters staff shall be composed of the commissioner, deputy commissioner, and such other commissioned and noncommissioned officers, troopers, and clerical personnel as the commissioner deems necessary for use at headquarters.</p>
+          <p>(Ga. L. 1937, p. 322, art. 2, § 2; Ga. L. 1946, p. 39, § 1; Ga. L. 1952, p. 129, § 1; Ga. L. 1955, p. 298, § 1; Ga. L. 1956, p. 573, § 1; Ga. L. 1957, p. 103, § 1; Ga. L. 1958, p. 296, § 3; Ga. L. 1960, p. 132, § 1; Ga. L. 1975, p. 1115, § 1; Ga. L. 1977, p. 228, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

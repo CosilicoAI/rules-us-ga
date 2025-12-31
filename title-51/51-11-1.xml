@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-11-1"/>
+          <FRBRuri value="/us-ga/act/ocga/51-11-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-11-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-11-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-11-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-11-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_11_1">
+        <num>51-11-1</num>
+        <content>
+          <p>If the defendant in a tort action was authorized to do the act complained of, he may plead such authorization as justification. The effect of such plea is to admit that the act was done and to entitle the defendant to all the privileges of one holding the affirmative of the issue. Such plea, however, shall not give the defendant the right to open and conclude the argument before the jury unless it is filed before the plaintiff submits any evidence to the jury.</p>
+          <p>(Orig. Code 1863, § 2983; Code 1868, § 2996; Code 1873, § 3051; Code 1882, § 3051; Ga. L. 1888, p. 35, § 1; Civil Code 1895, § 3891; Civil Code 1910, § 4488; Code 1933, § 105-1801.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

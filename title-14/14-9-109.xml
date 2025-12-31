@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-9-109"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9-109"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-9-109/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9-109/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-9-109/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9-109/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_9_109">
+        <num>14-9-109</num>
+        <content>
+          <p>A certificate attached to a copy of a document or electronic transmission filed by the Secretary of State, bearing his or her signature, which may be in facsimile, and the printed or embossed seal of this state, or its electronic equivalent, is prima-facie evidence that the original document has been filed with the Secretary of State.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

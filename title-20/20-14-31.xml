@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-14-31"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-14-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-14-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_14_31">
+        <num>20-14-31</num>
+        <content>
+          <p>Except as otherwise provided in this article, the office shall establish the levels of performance on each assessment instrument administered under Code Section 20-2-281 by establishing the standard that should be achieved by students in each subject area at each grade level. Data and information regarding the establishment of the standard shall be included in the annual report provided for in paragraph (2) of subsection (a) of Code Section 20-14-27; provided, however, that local school systems participating in the innovative assessment pilot program established pursuant to Code Section 20-2-286 shall only be measured on the reduced specific end-of-grade and end-of-course assessments as specified in the local school system's flexibility contract, as amended for participation in the innovative assessment pilot program.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

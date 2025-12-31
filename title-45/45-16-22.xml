@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-16-22"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-16-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-16-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_16_22">
+        <num>45-16-22</num>
+        <content>
+          <p>(f.1)When death occurs in a hospital as a direct result and consequence of acts or events taking place in a county other than the one in which such death occurs, the hospital shall immediately notify the coroner or the county medical examiner of the county in which the acts or events resulting in the death occurred.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 602, § 3; Ga. L. 1960, p. 1009, § 2; Ga. L. 1969, p. 38, § 1; Ga. L. 1974, p. 503, § 1; Ga. L. 1979, p. 1321, § 1; Ga. L. 1984, p. 812, § 1; Ga. L. 1985, p. 843, § 4; Ga. L. 1989, p. 417, § 1; Ga. L. 1990, p. 8, § 45; Ga. L. 1990, p. 1735, § 3; Ga. L. 1997, p. 1421, § 5; Ga. L. 1998, p. 128, § 45; Ga. L. 2009, p. 81, § 1A/HB 64.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

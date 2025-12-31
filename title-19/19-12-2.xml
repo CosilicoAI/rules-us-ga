@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-12-2"/>
+          <FRBRuri value="/us-ga/act/ocga/19-12-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-12-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-12-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-12-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-12-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_12_2">
+        <num>19-12-2</num>
+        <content>
+          <p>If written objections are filed by any interested or affected party within the time limits specified in subsection (h) of Code Section 19-12-1, the court shall proceed to hear the matter at chambers.</p>
+          <p>(Ga. L. 1875, p. 103, § 2; Code 1882, § 1787b; Civil Code 1895, § 2496; Civil Code 1910, § 3015; Code 1933, § 79-502; Ga. L. 1961, p. 129, § 2; Ga. L. 1973, p. 504, § 2; Ga. L. 2017, p. 571, § 2/HB 279.)</p>
+          <p>The 2017 amendment,
+      effective July 1, 2017, substituted "subsection (h)" for "subsection (f)" near the middle and deleted "thereupon" preceding "proceed" near the end.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

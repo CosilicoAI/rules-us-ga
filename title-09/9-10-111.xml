@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-111"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-111/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-111/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_111">
+        <num>9-10-111</num>
+        <content>
+          <p>In all cases where the plaintiff files a pleading with an affidavit attached to the effect that the facts stated in the pleading are true to the best of his knowledge and belief, the defendant shall in like manner verify any answer. If the defendant is a corporation, the affidavit may be made by the president, vice-president, superintendent, or any officer or agent who knows, or whose official duty it is to know, about the matters set out in the answer.</p>
+          <p>(Ga. L. 1895, p. 44, § 1; Civil Code 1895, § 5055; Civil Code 1910, § 5638; Code 1933, § 81-401.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

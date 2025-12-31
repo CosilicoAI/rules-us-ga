@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-3"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_3">
+        <num>44-2-3</num>
+        <content>
+          <p>Every unrecorded voluntary deed or conveyance of land made by any person shall be void as against subsequent bona fide purchasers for value without notice of such voluntary deed or conveyance; provided, however, that, if the voluntary deed or conveyance is recorded in accordance with Code Section 44-2-1, it shall have priority over subsequent deeds or conveyances to the described land.</p>
+          <p>(Orig. Code 1863, § 2588; Code 1868, § 2590; Code 1873, § 2632; Code 1882, § 2632; Civil Code 1895, § 3530; Civil Code 1910, § 4110; Code 1933, § 96-205; Ga. L. 1943, p. 400, § 1; Code 1933, § 29-401.1, enacted by Ga. L. 1964, p. 475, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

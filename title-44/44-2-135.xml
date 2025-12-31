@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-135"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-135"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-135/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-135/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-135/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-135/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_135">
+        <num>44-2-135</num>
+        <content>
+          <p>In order to cause notations of judgments, liens, encumbrances, or special rights of any kind, other than voluntary transactions, claimed by any person against registered land to be made, the person desiring the notation shall, by himself, his agent, or his attorney, file, upon a form substantially in compliance with Code Sections 44-2-246 through 44-2-248, a request for the notation to be made setting forth the claim against the registered land; and, in case the lien or special rights relate to any other matter of record or court proceeding, he shall state the book and page where recorded and, if it relates to any special right, shall succinctly give the details of the right so claimed. In case the notation is for the purpose of protecting the lien of a judgment, the person making the application for the notation shall produce and exhibit to the clerk the execution or a certified copy of the judgment except in cases where the judgment is rendered in the superior court of the same county where the registration is made, in which event production of the execution or certified copy of the judgment shall not be required; but the clerk may act upon inspection of the original judgment on the minutes of his own court.</p>
+          <p>(Ga. L. 1917, p. 108, § 61; Code 1933, § 60-417.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

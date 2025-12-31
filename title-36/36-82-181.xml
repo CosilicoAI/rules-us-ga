@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-181"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-181"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-181/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-181/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-181/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-181/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_181">
+        <num>36-82-181</num>
+        <content>
+          <p>The economic development and the availability of safe, sanitary, and affordable housing in the State of Georgia are of vital importance to the state and its citizens. Private activity bond financing has been an integral part of the state's program for economic development and affordable housing. The United States government has enacted a law which limits the availability of private activity bond financing within each state. This limited resource must be used in the best interest of the State of Georgia to the fullest extent permitted by federal law. The federal law limits the annual issuance of private activity bonds in the state to an amount not exceeding a state ceiling imposed under the federal law. The federal law not only provides for a distribution of the state ceiling but also provides that a state may by law provide for a different formula for allocating the state ceiling among the governmental units or other authorities in the state having authority to issue private activity bonds. The purpose of this article is to implement a system for allocating the use of private activity bonds, as permitted by federal law, in order to further the economic development of the state, to further the provision of safe, sanitary, and affordable housing, and otherwise to further the purposes of the laws of the state which provide for the issuance of such bonds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

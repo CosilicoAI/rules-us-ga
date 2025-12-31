@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-170"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-170/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-170/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_170">
+        <num>44-2-170</num>
+        <content>
+          <p>After a transfer of registered land has been made to the heirs at law or to the widow claiming to be the sole heir as stated in Code Section 44-2-131, a personal representative appointed at any time thereafter to administer the estate of the decedent shall not be entitled to have such registered land transferred to him for purposes of administration; but, if it appears that the heirs have appropriated to their use and ownership property which should have been appropriated to the purposes of administration, the personal representative of the decedent shall have a right of action against the heirs for the value of the property so appropriated, the judgment in such action to be molded according to the exigencies of the particular case, in accordance with the principles of equity.</p>
+          <p>(Ga. L. 1917, p. 108, § 46; Code 1933, § 60-510.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

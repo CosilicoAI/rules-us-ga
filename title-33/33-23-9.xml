@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-23-9"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-23-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-23-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_23_9">
+        <num>33-23-9</num>
+        <content>
+          <p>The rules and regulations of the Commissioner shall designate textbooks, manuals, and other materials to be studied by the applicant in preparation for examinations in each classification designated by the Commissioner.The textbooks, manuals, or other materials may consist of matter available to applicants by purchase from the publisher or may consist of matter prepared at the direction of the Commissioner and distributed to applicants upon request therefor and payment of reasonable costs.When textbooks, manuals, or other materials shall have been designated by or prepared at the direction of the Commissioner, all examination questions shall be prepared from the contents of those textbooks, manuals, or other materials.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

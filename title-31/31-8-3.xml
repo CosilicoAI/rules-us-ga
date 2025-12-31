@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-3"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_3">
+        <num>31-8-3</num>
+        <content>
+          <p>State funds appropriated to the department for the purpose of carrying out this article shall be expended by the department so as to provide for the administration of this article as it deems necessary and proper and to assist counties in providing hospital care for indigent residents. The department shall establish a graduated matching formula for the disbursement of state funds to assist counties as provided in this article; provided, however, the state share of any participating county budget shall not exceed $1.00 per capita based on the latest official decennial population count of the United States Bureau of the Census. The department may establish an amount of state funds of the total state and county participating budget to provide hospital care for indigent resident patients who may be hospitalized outside of the county of residency; provided, however, that any unexpended state funds budgeted to provide hospital care for the indigent patient who may be hospitalized outside the county of residency may be reallocated by the department according to the matching formula.</p>
+          <p>(Ga. L. 1957, p. 470, § 4; Code 1933, § 88-2304, enacted by Ga. L. 1964, p. 499, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

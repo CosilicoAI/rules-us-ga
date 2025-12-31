@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-20-32"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-20-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-20-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_20_32">
+        <num>45-20-32</num>
+        <content>
+          <p>Each full-time, nontemporary employee of the State of Georgia or of any branch, department, board, bureau, or commission thereof shall be entitled to apply for up to eight hours of paid leave per calendar year for the purpose of promoting education in this state. The State Personnel Board shall submit to the Governor for approval rules and regulations which shall effectuate the purpose and govern the administration of this Code section. Such rules and regulations shall require that paid leave only be authorized for activities directly related to student achievement and academic support and shall prohibit the use of such leave for political purposes or agendas.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

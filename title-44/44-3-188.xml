@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-188"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-188"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-188/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-188/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-188/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-188/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_188">
+        <num>44-3-188</num>
+        <content>
+          <p>In the developer's financing of a time-share program, the developer shall retain financial records of the schedule of payments required to be made and the payments made to any person or entity which is the holder of an underlying blanket mortgage, deed of trust, contract of sale, or other lien or encumbrance which is not subordinated to the time-share program and shall make the same available upon reasonable request to owners of time-share intervals in the time-share program and the time-share program's association. The time-share program's association, in its discretion, may require the developer to submit periodic, written reports from the mortgagee, lienholder, or other creditor of the status of payments made on any underlying blanket mortgage, deed of trust, contract of sale, or other lien or encumbrance which is not subordinated in the time-share program. Any transfer of the developer's interest in the time-share program to any third person shall be subject to the obligations of the developer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

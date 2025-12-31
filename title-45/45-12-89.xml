@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-89"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-89"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-89/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-89/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-89/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-89/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_89">
+        <num>45-12-89</num>
+        <content>
+          <p>At the end of each fiscal year, the amount of each appropriation provided for in this part, except for the mandatory appropriations required by the Constitution of Georgia, remaining unexpended and not contractually obligated in writing shall lapse and cease to be available; and the state treasury shall not pay any unallotted appropriations and shall make the necessary adjustments in its appropriation accounts to charge off the amount of the lapsed appropriations. All appropriated funds, except for the mandatory appropriations required by the Constitution of Georgia, remaining unexpended and not contractually obligated at the expiration of the General Appropriations Act shall lapse.</p>
+          <p>(Code 1933, § 40-420, enacted by Ga. L. 1962, p. 17, § 1; Ga. L. 1973, p. 673, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-5-163"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-163"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-5-163/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-163/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-5-163/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-163/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_5_163">
+        <num>44-5-163</num>
+        <content>
+          <p>Possession of real property in conformance with the requirements of Code Section 44-5-161 for a period of 20 years shall confer good title by prescription to the property against everyone except the state and those persons laboring under the disabilities stated in Code Section 44-5-170.</p>
+          <p>(Laws 1767, Cobb's 1851 Digest, p. 560; Code 1863, § 2641; Code 1868, § 2640; Code 1873, § 2682; Code 1882, § 2682; Civil Code 1895, § 3588; Civil Code 1910, § 4168; Code 1933, § 85-406.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

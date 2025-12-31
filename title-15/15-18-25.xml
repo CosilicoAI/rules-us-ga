@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-25"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_25">
+        <num>15-18-25</num>
+        <content>
+          <p>If a district attorney fails to attend on the courts of his circuit as required, without just cause, he is liable to be fined $50.00 for each failure, to be retained out of his salary.</p>
+          <p>(Orig. Code 1863, § 353; Code 1868, § 414; Code 1873, § 379; Code 1882, § 379; Civil Code 1895, § 4394; Penal Code 1895, § 800; Civil Code 1910, § 4928; Penal Code 1910, § 800; Code 1933, § 24-2912; Ga. L. 1991, p. 135, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

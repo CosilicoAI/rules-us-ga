@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-2-24"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-2-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-2-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_2_24">
+        <num>23-2-24</num>
+        <content>
+          <p>In all cases of a mistake of fact material to the contract or other matter affected by it, if the complaining party applies within a reasonable time, equity will grant relief.</p>
+          <p>(Orig. Code 1863, § 3058; Code 1868, § 3070; Code 1873, § 3125; Code 1882, § 3125; Civil Code 1895, § 3983; Civil Code 1910, § 4580; Code 1933, § 37-206.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

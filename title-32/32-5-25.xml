@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-5-25"/>
+          <FRBRuri value="/us-ga/act/ocga/32-5-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-5-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-5-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-5-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-5-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_5_25">
+        <num>32-5-25</num>
+        <content>
+          <p>Whenever property is acquired under subsection (e) of Code Section 32-3-3, all expenses of the acquisition thereof, including the purchase price and all direct and consequential damages awarded in any proceeding brought to condemn any such right of way, shall be paid by the county in which such right of way or portion thereof is situated. When such right of way or portion thereof lies within the limits of a municipality, acquisition expenses shall be paid by such municipality unless the county concerned agrees to procure such right of way on behalf of the municipality. However, nothing contained in this Code section shall prevent the department from using the State Public Transportation Fund to acquire such right of way, to pay any damage awarded on account of the location of any road that is a part of the state highway system, or to assist a county or municipality in so doing. Furthermore, nothing in this Code section shall be construed to authorize an expenditure from the State Public Transportation Fund for the procurement of a right of way for a road to be constructed on a county road system or municipal street system except as otherwise provided by law or by agreement between the federal government and the department.</p>
+          <p>(Code 1933, § 95-1721, enacted by Ga. L. 1935, p. 160, § 1; Code 1933, § 95A-707, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-7-113"/>
+          <FRBRuri value="/us-ga/act/ocga/50-7-113"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-7-113/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-7-113/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-7-113/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-7-113/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_7_113">
+        <num>50-7-113</num>
+        <content>
+          <p>The Department of Economic Development shall have the responsibility of creating and developing a Georgia Film and Television Trail. In carrying out such responsibilities, it shall be the duty of the department to identify and plan the trail, to acquire or otherwise gain control over or rights to the use of the necessary land for the signs to identify the locations of certain film and television productions that the department determines are of interest to the general public and to work with the Department of Transportation to design appropriate signs. For the purpose of carrying out its primary duties as provided in this article, the department shall be authorized to exercise any powers heretofore provided by law for the department, except for the powers of eminent domain.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

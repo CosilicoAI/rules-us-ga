@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-73-3"/>
+          <FRBRuri value="/us-ga/act/ocga/36-73-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-73-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-73-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-73-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-73-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_73_3">
+        <num>36-73-3</num>
+        <content>
+          <p>Where a county or municipality proposes to enter into a contract for a regional facility which will be located outside of such county or municipality and such contract will require the expenditure of public funds of the county or municipality, the county or municipality shall, prior to entering into the contract, conduct a financial feasibility study of the contract. Such study may be conducted by the county or municipality or the county or municipality may contract with another party for the conducting of the study. Two or more parties proposing to enter into a contract may conduct or contract for a joint financial feasibility study, but in this case the financial feasibility study shall separately address the fiscal concerns of each party to the proposed contract. A financial feasibility study shall at a minimum include a statement of the expected useful life of the regional project and a statement or projection of the costs and benefits to the county or municipality over the entire expected useful life of the project.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

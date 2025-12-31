@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-5-86"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-86"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-5-86/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-86/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-5-86/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-86/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_5_86">
+        <num>46-5-86</num>
+        <content>
+          <p>A cooperative may, upon authorization of its members or board of directors, change the location of its principal office by compliance with the requirements of this Code section. An application for approval of such change shall be presented to and approved by the superior court of the county in which the principal office of the cooperative is to be located, or to the judge of the superior court in vacation. Upon approval, the application and approval shall be filed with the clerk of the superior court of that county and with the Secretary of State and shall be published in the same manner as an application for incorporation. The application, together with the approval of the judge thereon, shall also be filed with the clerk of the superior court of each county in which the principal office of the cooperative has previously been located. The fees to be paid at the time of such filing shall be as prescribed in Code Section 46-5-100.</p>
+          <p>(Ga. L. 1950, p. 192, § 27.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

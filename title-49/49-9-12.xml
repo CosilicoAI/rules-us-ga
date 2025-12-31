@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-9-12"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-9-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-9-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_9_12">
+        <num>49-9-12</num>
+        <content>
+          <p>The Georgia Vocational Rehabilitation Agency is the designated state unit for the independent living program. The independent living program is authorized to provide or contract for the provision of such services as may be needed to enable persons with disabilities to attain the maximum degree of independent living. The powers delegated and authorized in this Code section for the agency shall be in addition to those previously authorized by any other law. The agency is authorized to cooperate with any federal agency in the administration of such a program.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-140"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-140/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-140/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_140">
+        <num>20-2-140</num>
+        <content>
+          <p>The State Board of Education shall establish rules and regulations to maximize the number of students, beginning with students entering ninth grade in the 2014-2015 school year, who complete prior to graduation at least one course containing online learning. This shall be met through an online course offered by the Georgia Virtual School established pursuant to Code Section 20-2-319.1, through the clearing-house established pursuant to Code Section 20-2-319.3, through an online dual enrollment course offered by a postsecondary institution, or through a provider pursuant to Code Section 20-2-319.4. This shall also include enrollment in a full-time or part-time virtual instruction program pursuant to Code Section 20-2-319.4.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

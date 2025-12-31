@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-2-1303"/>
+          <FRBRuri value="/us-ga/act/ocga/14-2-1303"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-2-1303/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-2-1303/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-2-1303/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-2-1303/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_2_1303">
+        <num>14-2-1303</num>
+        <content>
+          <p>A record shareholder may assert dissenters' rights as to fewer than all the shares registered in his name only if he dissents with respect to all shares beneficially owned by any one beneficial shareholder and notifies the corporation in writing of the name and address of each person on whose behalf he asserts dissenters' rights. The rights of a partial dissenter under this Code section are determined as if the shares as to which he dissents and his other shares were registered in the names of different shareholders.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-22"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_22">
+        <num>51-1-22</num>
+        <content>
+          <p>The owner of a vessel shall be liable for any injury or damage occasioned by the negligent operation of the vessel, whether the negligence consists of a violation of the statutes of this state or of neglecting to observe such ordinary care in such operation as the rules of common law require. The owner shall not be liable, however, unless the vessel is being used with his or her express or implied consent. It shall be presumed that the vessel is being operated with the knowledge and consent of the owner if, at the time of the injury or damage, the vessel is under the control of his or her spouse, father, mother, brother, sister, son, daughter, or other immediate member of the owner's family. Nothing contained in this Code section shall be construed to relieve any other person from any liability which he would otherwise have nor shall anything contained in this Code section be construed to authorize or permit any recovery in excess of injury or damage actually incurred.</p>
+          <p>(Ga. L. 1968, p. 487, § 10; Ga. L. 1973, p. 1427, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

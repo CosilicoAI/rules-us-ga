@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-212"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-212"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-212/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-212/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-212/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-212/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_212">
+        <num>10-4-212</num>
+        <content>
+          <p>The owner of a self-service storage facility and his or her heirs, executors, administrators, successors, and assigns have a lien upon all personal property located at a self-service storage facility for rent, fees for the late payment of rent, labor, or other charges, present or future, in relation to the personal property and for expenses necessary for its preservation or expenses reasonably incurred in its sale or other disposition pursuant to this article. The lien provided for in this Code section is superior to any other lien or security interest except those which are perfected and recorded prior to the date of the rental agreement in Georgia in the name of the occupant, either in the county of the occupant's last known address or in the county where the self-service storage facility is located, except any tax lien as otherwise provided by law and except any lienholder with an interest in the property of whom the owner has knowledge either through the disclosure provision of the rental agreement or through other written notice. The lien attaches as of the date the personal property is brought to the self-service storage facility.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

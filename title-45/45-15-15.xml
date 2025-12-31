@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-15-15"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-15-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-15-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_15_15">
+        <num>45-15-15</num>
+        <content>
+          <p>From time to time the Attorney General shall submit to the state authority requesting legal services a statement of the expenses of such legal services incurred by the Department of Law, such statements to include the names of the assistant attorneys general, deputy assistant attorneys general, special deputy assistant attorneys general, or attorneys performing such services; the items of legal services performed; and the costs thereof. The state authority is authorized to reimburse the Department of Law for such services and expenses; provided, however, that the amount of such services and expenses shall have the advance approval of the director of the state authority requesting such services.</p>
+          <p>(Ga. L. 1969, p. 484, § 4; Ga. L. 2002, p. 462, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

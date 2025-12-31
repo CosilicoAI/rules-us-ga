@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-382"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-382"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-382/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-382/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-382/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-382/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_382">
+        <num>46-8-382</num>
+        <content>
+          <p>Every officer, agent, or employee of any railroad company who willfully neglects or refuses to make and furnish any report required by the commission, as necessary to the purposes of this title, or who willfully and unlawfully hinders, delays, or obstructs the commission in the discharge of the duties imposed upon it by this title, shall be subject to a penalty of not less than $100.00 nor more than $5,000.00 for each offense, to be recovered in an action in the name of the state.</p>
+          <p>(Ga. L. 1878-79, p. 125, § 16; Code 1882, § 719p; Civil Code 1895, § 2211; Civil Code 1910, § 2654; Code 1933, § 93-401.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

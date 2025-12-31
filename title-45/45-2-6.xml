@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-2-6"/>
+          <FRBRuri value="/us-ga/act/ocga/45-2-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-2-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-2-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-2-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-2-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_2_6">
+        <num>45-2-6</num>
+        <content>
+          <p>A municipal or county government of this state, in using any merit system examination or other type of examination or evaluation of personnel in connection with application for employment, demotion, or discharge of employees or promotion of employees, shall not apply additional points, credits, or other benefits to residents of the municipality or county to give such residents an advantage for the purpose of employment or promotion, or a disadvantage for the purpose of demotion or discharge, over nonresidents solely on the basis of residency. This Code section and Code Section 45-2-5 shall not be construed to prohibit the choice of a resident over a nonresident when both applicants for employment or both employees are equally qualified for the position sought by them or when both employees are equally at fault or ineffective when they are being considered for demotion or discharge from employment.</p>
+          <p>(Ga. L. 1975, p. 1576, § 2; Ga. L. 2002, p. 415, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

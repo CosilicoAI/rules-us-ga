@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-13-4"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-13-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-13-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_13_4">
+        <num>50-13-4</num>
+        <content>
+          <p>Each agency shall prepare annually a report that specifies with detail those federal government mandates that require agency promulgation of rules and regulations rather than enactment of law by the General Assembly. Such report shall also identify state and federal regulatory duplication. A copy of such report shall be submitted to the Governor, Secretary of State, President of the Senate, Speaker of the House of Representatives, Secretary of the Senate, Clerk of the House of Representatives, and legislative counsel.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

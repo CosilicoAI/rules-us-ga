@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-19-27"/>
+          <FRBRuri value="/us-ga/act/ocga/43-19-27"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-19-27/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-19-27/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-19-27/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-19-27/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_19_27">
+        <num>43-19-27</num>
+        <content>
+          <p>Any person who publicly practices or offers to practice publicly geology for others in this state without being registered in accordance with this chapter; any person presenting or attempting to use as his own the certificate of registration or the seal of another; any person who gives any false or forged evidence of any kind to the board or to any member thereof in obtaining a certificate of registration; any person who falsely impersonates any other registrant of like or different name; or any person who attempts to use an expired or revoked certificate of registration or who attempts to practice at any time during a period when the board has suspended or revoked his certificate of registration shall be guilty of a misdemeanor.</p>
+          <p>(Code 1933, § 84-2525A, enacted by Ga. L. 1975, p. 163, § 1; Code 1933, § 84-2125A, as redesignated by Ga. L. 1976, p. 695, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

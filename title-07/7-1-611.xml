@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-611"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-611"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-611/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-611/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-611/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-611/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_611">
+        <num>7-1-611</num>
+        <content>
+          <p>Any bank, bank holding company, or company (as defined in Code Section 7-1-605) which violates subsection (a) of Code Section 7-1-601 or any provision of Code Section 7-1-602, Code Section 7-1-603, or Code Sections 7-1-605 through 7-1-608 shall be subject to civil monetary penalties of not less than $500.00 nor more than $5,000.00 unless it shall cease and desist therefrom within 60 days after notice of any such violation served on it by the department. Each day on which such violation occurs shall constitute a separate offense.</p>
+          <p>(Code 1933, § 13-9938, enacted by Ga. L. 1960, p. 67, § 8; Ga. L. 2000, p. 136, § 7; Ga. L. 2016, p. 390, § 7-14/HB 811.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

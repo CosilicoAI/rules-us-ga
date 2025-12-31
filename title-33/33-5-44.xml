@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-5-44"/>
+          <FRBRuri value="/us-ga/act/ocga/33-5-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-5-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-5-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-5-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-5-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_5_44">
+        <num>33-5-44</num>
+        <content>
+          <p>In the event the Governor enters into a cooperative agreement, compact, or reciprocal agreement with another state or states as authorized under this part, notice of such action shall be communicated to the chairperson of the House Committee on Insurance and the chairperson of the Senate Insurance and Labor Committee. The Commissioner shall thereafter annually issue a report to such committees that assesses whether, in his or her opinion, the agreement continues to be in the best financial interest of the state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

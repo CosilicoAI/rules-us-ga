@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-250"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-250/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-250/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_250">
+        <num>44-2-250</num>
+        <content>
+          <p>Authority for the clerk to cancel entries of other liens, mortgages, encumbrances, special claims, and like matters may be conferred by the execution by the person in whose favor such matters exist or his personal representative of a request as follows:
+   REQUEST TO CANCEL ENTRY
+   To the Clerk of the Superior Court of _____________ County:
+   You are directed to cancel the entry registered in my favor on certificate of title No. __________, Registered Title No. __________, claiming the following lien (encumbrance or special right, as the case may be)
+   __________________________________________________________________________
+   This ________ day of ________________________, ________.
+   ______________________________________________________________________</p>
+          <p>(Ga. L. 1917, p. 108, § 116; Code 1933, § 60-631; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

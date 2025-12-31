@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-4-22"/>
+          <FRBRuri value="/us-ga/act/ocga/44-4-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-4-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-4-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-4-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-4-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_4_22">
+        <num>44-4-22</num>
+        <content>
+          <p>The plane coordinate values for a point on the earth's surface, used to express the geographic position or location of such point in the appropriate zone of this system, shall consist of two distances expressed in U.S. Survey feet and decimals of a foot when using the Georgia Coordinate System and expressed in either meters and decimals of a meter or, following conversion as provided in Code Section 44-4-28, in American Survey feet and decimals of a foot when using the Georgia Coordinate System of 1985.One of these distances, to be known as the "x-coordinate," shall give the position in an east-and-west direction; the other, to be known as the "y-coordinate," shall give the position in a north-and-south direction.These coordinates shall be made to depend upon and conform to plane rectangular coordinate values for the monumented points of the North American Horizontal Geodetic Control Network as published by the National Ocean Survey/National Geodetic Survey, formerly the United States Coast and Geodetic Survey, or its successors, and whose plane coordinates have been computed on the systems defined in this article.Any such control monument may be used for establishing a survey connection to either Georgia Coordinate System.</p>
+          <p>(Ga. L. 1945, p. 218, § 3; Ga. L. 1985, p. 650, § 1; Ga. L. 1990, p. 168, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-23-30"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-23-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-23-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_23_30">
+        <num>47-23-30</num>
+        <content>
+          <p>The board of trustees may provide group term life insurance protection for the members of the retirement system as the survivors benefits program provided for in Code Section 47-23-29 by contracting for such service with the board of trustees of the Employees' Retirement System of Georgia for the inclusion of members of this retirement system in the program of group life insurance protection conducted for the benefit of the members of such retirement system. Such contract must provide benefits to those persons entitled to benefits under Code Section 47-23-29. Contributions for such coverage shall be provided for and collected as set forth in subsection (c) of Code Section 47-23-29.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

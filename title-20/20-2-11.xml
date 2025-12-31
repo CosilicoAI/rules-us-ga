@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-11"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_11">
+        <num>20-2-11</num>
+        <content>
+          <p>The State Board of Education shall prepare and submit to the Governor and General Assembly an estimate of the funds necessary for the operation of the state public school system.It shall have general supervision of the Department of Education and may delegate to the State School Superintendent the authority to employ and dismiss such clerical employees, supervisors, administrators, and other employees who are members of the classified service under Article 1 of Chapter 20 of Title 45 as may be necessary for the efficient operation of the Department of Education.It shall set aside the necessary funds for the maintenance of the office of the department and the State School Superintendent, the amount and sufficiency of such funds to be in the discretion of the state board, such funds to be disbursed by the superintendent in the payment of salaries and travel expenses of employees and for printing, communication, equipment, repairs, and other expenses incidental to the operation of the department.</p>
+          <p>(Ga. L. 1919, p. 288, § 11; Code 1933, § 32-403; Ga. L. 1937, p. 864, § 3; Ga. L. 1961, p. 39, § 3; Ga. L. 1991, p. 1630, § 1; Ga. L. 1992, p. 6, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-6-4"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-6-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-6-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_6_4">
+        <num>50-6-4</num>
+        <content>
+          <p>The Governor, the Appropriations Committee of the House of Representatives, or the Appropriations Committee of the Senate shall have the right and authority to direct and require the state auditor to make a special examination into and audit of all the books, records, accounts, vouchers, warrants, bills, and other papers, records, financial transactions, and management of any department, institution, agency, commission, bureau, authority, or office of the state at any time. The state auditor may conduct special examinations and audits which are, without limitation, financial audits (including financial related audits and financial statement audits), compliance audits, performance audits, and vulnerability assessments or reviews. Without limitation, vulnerability assessments or reviews may be made with respect to any electronic financial information systems; other information, management, or operational systems; computers; computer operating and applications software; computing networks; Internet websites; and data processing centers. Tests conducted in connection with such reviews and assessments may include, but are not limited to, penetration testing and network, web, and data base scanning.</p>
+          <p>(Ga. L. 1923, Ex. Sess., p. 7, § 5; Code 1933, § 40-1806; Ga. L. 2002, p. 524, § 1; Ga. L. 2008, p. 522, § 1/SB 300.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

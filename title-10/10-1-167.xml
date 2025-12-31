@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-167"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-167"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-167/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-167/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-167/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-167/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_167">
+        <num>10-1-167</num>
+        <content>
+          <p>Any person, company, firm, or corporation who shall operate any pump, without the written consent of the Commissioner of Agriculture, which has been condemned by a duly authorized inspector as provided for in this part because of giving short measure in excess of the tolerance established by regulation of the Commissioner shall be guilty of a misdemeanor.</p>
+          <p>(Ga. L. 1927, p. 279, § 15; Code 1933, § 73-9905; Ga. L. 1960, p. 1043, § 17.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

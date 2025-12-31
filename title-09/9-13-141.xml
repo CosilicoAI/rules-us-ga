@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-141"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-141"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-141/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-141/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-141/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-141/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_141">
+        <num>9-13-141</num>
+        <content>
+          <p>In all cases where the law requires citations, notices, or advertisements by probate court judges, clerks, sheriffs, county bailiffs, administrators, executors, guardians, trustees, or others to be published in a newspaper for 30 days or for four weeks or once a week for four weeks, it shall be sufficient and legal to publish the same once a week for four weeks, that is, one insertion each week for each of the four weeks, immediately preceding the term or day when the order is to be granted or the sale is to take place. The number of days between the date of the first publication and the term or day when the order is to be granted or the sale is to take place, whether more or less than 30 days, shall not in any manner invalidate or render irregular the notice, citation, advertisement, order, or sale.</p>
+          <p>(Ga. L. 1876, p. 99, § 1; Code 1882, § 2628a; Ga. L. 1890-91, p. 241, § 1; Civil Code 1895, § 5458; Civil Code 1910, § 6063; Code 1933, § 39-1102.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

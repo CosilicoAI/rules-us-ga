@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-517"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-517"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-517/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-517/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-517/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-517/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_517">
+        <num>11-2A-517</num>
+        <content>
+          <p>Except in the case of a finance lease that is not a consumer lease, a lessee may revoke acceptance of a lot or commercial unit if the lessor defaults under the lease contract and the default substantially impairs the value of that lot or commercial unit to the lessee.</p>
+          <p>If the lease agreement so provides, the lessee may revoke acceptance of a lot or commercial unit because of other defaults by the lessor.</p>
+          <p>Revocation of acceptance must occur within a reasonable time after the lessee discovers or should have discovered the ground for it and before any substantial change in condition of the goods which is not caused by the nonconformity. Revocation is not effective until the lessee notifies the lessor.</p>
+          <p>A lessee who so revokes has the same rights and duties with regard to the goods involved as if the lessee had rejected them.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

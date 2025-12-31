@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-8-2"/>
+          <FRBRuri value="/us-ga/act/ocga/49-8-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-8-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-8-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-8-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-8-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_8_2">
+        <num>49-8-2</num>
+        <content>
+          <p>It is the purpose of this chapter to provide for the administration, allocation, and distribution of funds from the Community Services Block Grant and other funding sources; to provide for the definition of a community action agency; to continue a flexible and decentralized system of state, regional, and local programs; to provide the support for services and activities designed to promote individual and family self-sufficiency and to provide emergency services; to encourage local and state-wide interagency collaboration and coordination; to assist local communities in the establishment of demonstration programs to meet the unmet needs of their citizens; and to provide the fiscal support needed to assure the continuation of community action agencies as grantees for federal, state, and other moneys.</p>
+          <p>(Ga. L. 1975, p. 1645, § 3; Ga. L. 1990, p. 1436, § 1; Ga. L. 1997, p. 1350, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

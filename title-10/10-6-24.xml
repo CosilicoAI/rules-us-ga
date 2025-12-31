@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-6-24"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-6-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-6-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_6_24">
+        <num>10-6-24</num>
+        <content>
+          <p>Without the express consent of the principal after a full knowledge of all the facts, an agent employed to sell may not himself be the purchaser; and an agent to buy may not himself be the seller.</p>
+          <p>(Orig. Code 1863, § 2164; Code 1868, § 2160; Code 1873, § 2186; Code 1882, § 2186; Civil Code 1895, § 3010; Civil Code 1910, § 3582; Code 1933, § 4-204.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

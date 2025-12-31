@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-8-22"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-8-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-8-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_8_22">
+        <num>45-8-22</num>
+        <content>
+          <p>At the time and place fixed for the hearing or at an adjournment or continuance thereof, the officer, bank, or depository cited shall file under oath a statement of accounts. If such officer, bank, or depository shall fail to submit such a statement, the citing official or county or municipal authority shall prepare one from the best information at hand. After giving opportunity to the parties at interest to be heard, the official or county or municipal authority shall proceed to render a judgment or order in the nature of a judgment in which, if no default is found, it shall be so stated; and, if default is found, it shall state the amount of the same and order execution to issue therefor.</p>
+          <p>(Ga. L. 1933, p. 78, § 9c; Code 1933, § 89-820; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

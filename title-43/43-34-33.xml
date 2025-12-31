@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-33"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_33">
+        <num>43-34-33</num>
+        <content>
+          <p>(Ga. L. 1939, p. 319, § 2; Ga. L. 1950, p. 362, § 1; Ga. L. 1953, Nov.-Dec. Sess., p. 179, § 1; Ga. L. 1955, p. 575, § 1; Ga. L. 1958, p. 619, § 1; Ga. L. 1970, p. 301, § 13; Ga. L. 1977, p. 332, § 2; Ga. L. 1977, p. 334, § 9; Ga. L. 1978, p. 223, § 1; Ga. L. 1983, p. 720, § 1; Ga. L. 2009, p. 859, § 1/HB 509; Ga. L. 2017, p. 774, § 43/HB 323.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

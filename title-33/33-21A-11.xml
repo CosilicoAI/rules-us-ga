@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-21A-11"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21A-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-21A-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21A-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-21A-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21A-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_21A_11">
+        <num>33-21A-11</num>
+        <content>
+          <p>Upon request by a hospital provider related to a specific fiscal year, a care management organization shall, within 30 days of the request, provide that hospital with an HS&amp;R report for the requested fiscal year. Any care management organization which violates this Code section by not providing the requested report within 30 days shall be subject to a penalty of $1,000.00 per day, starting on the thirty-first day after the request and continuing until the report is provided. It is the intent of the General Assembly that such penalty be collected by the Department of Community Health and deposited into the Indigent Care Trust Fund created pursuant to Code Section 31-8-152. A care management organization shall not reduce the funding available for health care services for members as a result of payment of such penalties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

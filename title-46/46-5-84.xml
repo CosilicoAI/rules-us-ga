@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-5-84"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-84"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-5-84/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-84/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-5-84/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-84/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_5_84">
+        <num>46-5-84</num>
+        <content>
+          <p>The officers of a cooperative shall consist of a president, vice-president, secretary, and treasurer, who shall be elected annually by and from the board of directors. When a person holding any such office ceases to be a director, he shall cease to hold such office. The offices of secretary and of treasurer may be held by the same person. The board of directors may also elect or appoint such other officers, agents, or employees as it deems necessary or advisable and shall prescribe their powers and duties. Any officer may be removed from office and his successor elected in the manner prescribed in the bylaws.</p>
+          <p>(Ga. L. 1950, p. 192, § 25.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

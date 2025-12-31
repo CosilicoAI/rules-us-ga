@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-435"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-435"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-435/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-435/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-435/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-435/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_435">
+        <num>20-3-435</num>
+        <content>
+          <p>The University of North Georgia shall be subject to examination by the state auditor for the sole purpose of determining whether the school has properly certified eligibility and enrollment of students and credited grants paid on behalf of such students. However, nothing in this subpart shall be construed to interfere with the authority of the school to determine admissibility of students or to control its own curriculum, philosophy, purpose, or administration. In the event it is determined that the school knowingly or through error certified an ineligible student to be eligible for a grant under this subpart, the amount of the grant paid to the school pursuant to such certification shall be refunded by the school to the authority.</p>
+          <p>(Ga. L. 1976, p. 503, § 6; Code 1933, § 32-3771, enacted by Ga. L. 1980, p. 835, § 3; Ga. L. 2013, p. 1048, § 2/SB 82.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

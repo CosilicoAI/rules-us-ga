@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-11"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_11">
+        <num>44-14-11</num>
+        <content>
+          <p>When a search has been made in any of the cases provided by Code Sections 44-14-8 through 44-14-10 by the levying officer for the purpose of levying the execution and the property described therein is not found at the defendant's home, if the defendant fails or refuses to direct the levying officer to the property, the officer shall enter a nulla bona; and the testimony of the officer or the entry of a nulla bona when properly proven shall shift the burden of proof to defendant.</p>
+          <p>(Ga. L. 1918, p. 262, § 4; Code 1933, § 67-9905.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

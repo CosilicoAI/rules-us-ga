@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-8"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_8">
+        <num>44-13-8</num>
+        <content>
+          <p>In addition to the notice by publication required to be given by Code Section 44-13-7, the applicant or his agent shall give notice in writing of the filing of the application and of the day of hearing the same to each of his creditors residing in the county. Such notice shall be given at least five days before the hearing and shall be served personally or by leaving a copy at the residence or place of business of his creditor; and the fact that such notice has been given shall be verified by oath of the applicant or his agent. The applicant shall also notify creditors residing outside of the county of his application by preparing written notices of his application and the day of hearing, which notices shall be delivered by him to the judge of the probate court together with stamped envelopes and, if the residence of the creditors shall be known to the petitioner, shall be directed by the judge and mailed to the persons residing out of the county at least 15 days before the day of the hearing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

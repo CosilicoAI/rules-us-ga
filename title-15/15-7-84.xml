@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-7-84"/>
+          <FRBRuri value="/us-ga/act/ocga/15-7-84"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-7-84/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-7-84/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-7-84/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-7-84/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_7_84">
+        <num>15-7-84</num>
+        <content>
+          <p>Any limitations upon the punishment which may be imposed for violations of municipal ordinances which are contained in the charter of the municipality shall continue to control in municipal courts operated under this article, and if no such limitation exists the maximum punishment imposed shall not exceed a fine of $1,000.00 or six months' imprisonment or both, unless some other general law authorizes greater punishment.Other charter provisions not in conflict with this article shall continue to apply in municipal courts operated under this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

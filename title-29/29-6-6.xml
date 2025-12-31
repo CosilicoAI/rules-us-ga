@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/29-6-6"/>
+          <FRBRuri value="/us-ga/act/ocga/29-6-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/29-6-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/29-6-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/29-6-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/29-6-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_6_6">
+        <num>29-6-6</num>
+        <content>
+          <p>When any funds due and owing a minor or adult come into the hands of the judge of the probate court and the funds are not needed for the support, care, education, health, and welfare of the minor or adult, it shall be the duty of the judge to place the funds in an account insured by the Federal Deposit Insurance Corporation in the name of the judge as custodian for the minor or adult. There shall be no further liability against the judge or the judge's bond when the deposit is made in good faith.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

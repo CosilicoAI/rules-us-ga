@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-80-6"/>
+          <FRBRuri value="/us-ga/act/ocga/36-80-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-80-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-80-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-80-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-80-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_80_6">
+        <num>36-80-6</num>
+        <content>
+          <p>The state and all departments, boards, bureaus, commissions, and other agencies thereof are authorized and empowered, within the limitations of the Constitution of Georgia, to furnish and make available services, assistance, funds, property, and other incentives to any two or more counties, municipal corporations, public corporations, and other political subdivisions of this state or any combination thereof, in connection with any program of services, benefits, administration, or other undertaking in which the state or any of its agencies participates, by furnishing supervision, services, property, administration, or funds, where such counties, municipal corporations, public corporations, or other political subdivisions are thereby able and willing to provide for the consolidation, combining, merger, or joint administration of such program or any part or function thereof by the two or more units, so as to effectuate economy or simplification in the administration or financing thereof. The incentives referred to in this Code section shall also include the assuming by the state or its agencies of a greater share or, where funds are available and such is deemed feasible, the entire cost of such participating program.</p>
+          <p>(Ga. L. 1963, p. 354, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

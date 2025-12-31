@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-9-91"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-9-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-9-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_9_91">
+        <num>44-9-91</num>
+        <content>
+          <p>When the application provided for in Code Section 44-9-90 has been filed in the office of the judge of the probate court or the office of the county commissioners, as the case may be, all the proceedings thereafter shall be the same as are allowed and directed by Title 22 for condemning property, except that the strip of land to be used for such purpose shall not exceed 20 feet in width.</p>
+          <p>(Ga. L. 1887, p. 103, § 2; Civil Code 1895, § 659; Civil Code 1910, § 805; Code 1933, § 83-302; Ga. L. 1953, Nov.-Dec. Sess., p. 98, § 2; Ga. L. 1982, p. 3, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-4-2"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-4-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-4-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_4_2">
+        <num>26-4-2</num>
+        <content>
+          <p>The practice of pharmacy in this state is declared to be a learned profession and the practice of pharmacy affects the public health, safety, and welfare and is subject to regulation and control in the public interest. It is further declared to be a matter of public interest and concern that the practice of pharmacy in this state as a learned profession, as defined in this chapter, should merit and receive the confidence of the public and that only qualified persons be permitted to engage in the practice of pharmacy to ensure the quality of drugs and related devices distributed in this state. This chapter shall be liberally construed to carry out these objectives and purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

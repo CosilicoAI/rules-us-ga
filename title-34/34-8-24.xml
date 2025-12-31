@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-24"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_24">
+        <num>34-8-24</num>
+        <content>
+          <p>As used in this chapter, the term "bona fide in the labor market" means that any person claiming benefits under this chapter must be available for full-time employment, as that term is generally understood in the trade or work classification involved, without regard to prior work restrictions, provided that no individual who is otherwise eligible shall be deemed ineligible for benefits solely because the individual seeks, applies for, or accepts only part-time work, instead of full-time work, provided the individual claiming benefits worked part-time during a majority of the weeks of work in the base period and the individual is available for part-time work for at least 20 hours per week.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

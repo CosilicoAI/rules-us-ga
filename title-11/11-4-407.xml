@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-4-407"/>
+          <FRBRuri value="/us-ga/act/ocga/11-4-407"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-4-407/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-4-407/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-4-407/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-4-407/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_4_407">
+        <num>11-4-407</num>
+        <content>
+          <p>If a payor bank has paid an item over the order of the drawer or maker to stop payment, or after an account has been closed, or otherwise under circumstances giving a basis for objection by the drawer or maker, to prevent unjust enrichment and only to the extent necessary to prevent loss to the bank by reason of its payment of the item, the payor bank is subrogated to the rights:</p>
+          <p>(Code 1933, § 109A-4 - 407, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 1996, p. 1306, § 13.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

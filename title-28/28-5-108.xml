@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-5-108"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-108"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-5-108/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-108/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-5-108/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-108/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_5_108">
+        <num>28-5-108</num>
+        <content>
+          <p>Whenever an order for the payment of indemnification for personal injury or death or for damages to property is or has been made under this part, the State of Georgia shall, upon payment of the amount of the order, be subrogated to the cause of action of the person receiving indemnification under the order against the person or persons responsible for the injury or death or damages to property; and the Attorney General shall be authorized to bring an action against such person or persons for the amount of the damages sustained by the applicant. If an amount greater than that paid pursuant to the order for payment of indemnification is recovered and collected in any such action, the state, after deducting the expenses incurred, shall pay the balance to the person receiving indemnification under the order.</p>
+          <p>(Ga. L. 1967, p. 712, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

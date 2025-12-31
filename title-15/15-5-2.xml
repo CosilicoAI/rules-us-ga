@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-5-2"/>
+          <FRBRuri value="/us-ga/act/ocga/15-5-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-5-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-5-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-5-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-5-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_5_2">
+        <num>15-5-2</num>
+        <content>
+          <p>Ten judicial administration districts of more or less equal population in each district are created within this state. The boundaries of the ten judicial administration districts, to the extent possible, shall follow the boundaries existing on July 1, 1976, of the ten United States congressional districts, except that each judicial circuit existing on July 1, 1976, shall remain intact and shall not be placed in more than one judicial administration district. The Governor, after conferring with the superior court judges, shall establish by July 1, 1976, the original boundaries of each judicial administration district pursuant to this Code section. The ten administrative judges provided for in this article may provide for any necessary changes in the boundaries of such districts not inconsistent with this Code section.</p>
+          <p>(Ga. L. 1976, p. 782, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

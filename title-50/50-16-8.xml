@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-8"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_8">
+        <num>50-16-8</num>
+        <content>
+          <p>The Governor shall keep insured all the insurable property of the state including, but not limited to, the public buildings and the contents thereof. The Governor is authorized to draw his warrant upon the state treasury annually for such sums as may be necessary to keep the insurable property of the state adequately protected by insurance. The Governor, in keeping the state's property insured, shall implement a sound program of self-insurance as provided in Code Sections 50-16-9 through 50-16-11 which may include assuming by the state some, or all, of the various risks or hazards under such plan of self-insurance.</p>
+          <p>(Ga. L. 1960, p. 1160, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

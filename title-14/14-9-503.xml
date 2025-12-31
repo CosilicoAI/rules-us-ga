@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-9-503"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9-503"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-9-503/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9-503/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-9-503/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9-503/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_9_503">
+        <num>14-9-503</num>
+        <content>
+          <p>All deductions, credits, income, gains, losses, and distributions of a limited partnership shall be allocated among the partners, and among classes of partners, in the manner provided in writing in the partnership agreement. If the partnership agreement does not so provide in writing, all allocations shall be made on the basis of the amount, as stated in the partnership records required to be kept pursuant to Code Section 14-9-105, of the contributions made by each partner to the extent that they have been received by the partnership and have not been returned.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

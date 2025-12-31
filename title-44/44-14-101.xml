@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-101"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-101"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-101/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-101/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-101/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-101/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_101">
+        <num>44-14-101</num>
+        <content>
+          <p>All matured or unmatured crops are declared to be personalty.</p>
+          <p>(Ga. L. 1922, p. 114, §§ 1-3; Ga. L. 1933, p. 128, §§ 1, 2; Code 1933, §§ 85-1901, 85-1902, 85-1903; Ga. L. 2001, p. 362, § 35.)</p>
+          <p>The 2001 amendment,
+      effective July 1, 2001, deleted subsection (a) which read: "As used in this Code section, the term 'crops' means the fruits and products of all annual and perennial plants, trees, and shrubs and the crude gum, oleoresin, from a living tree." and redesignated the former provisions of subsection (b) as this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

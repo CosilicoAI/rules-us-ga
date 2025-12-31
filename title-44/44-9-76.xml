@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-9-76"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-76"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-9-76/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-76/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-9-76/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-76/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_9_76">
+        <num>44-9-76</num>
+        <content>
+          <p>In no instance shall a greater amount of water, measured in cubic feet, than the surplus be withdrawn and carried away entirely from a stream above any mill or factory, surplus water being that full amount of water that would run to waste with a tight mill dam at such mill or factory. This Code section shall apply as fully to owners of mines as to lessees of mines.</p>
+          <p>(Ga. L. 1868, p. 139, § 6; Ga. L. 1897, p. 21, § 1; Civil Code 1910, § 803; Code 1933, § 83-206.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

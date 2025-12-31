@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-481"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-481"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-481/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-481/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-481/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-481/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_481">
+        <num>12-5-481</num>
+        <content>
+          <p>It is found, determined, and declared that the carrying out of the purposes of the division as defined in this article is in all respects for the benefit of the people of this state and that the purposes are public purposes; that the division will be performing an essential governmental function in the exercise of the powers conferred upon it by this article; and that the activities authorized in this article will develop and promote trade, commerce, industry, and employment opportunities to the public good and the general welfare and promote the general welfare of the state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

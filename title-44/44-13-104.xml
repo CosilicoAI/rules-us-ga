@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-104"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_104">
+        <num>44-13-104</num>
+        <content>
+          <p>If the debtor in value owns real property in town which exceeds the sum of $500.00 and it cannot be so divided as to give that amount to his family, he may give notice to the officer levying thereon. When the proceeds of the sale are distributed, the court shall order $500.00 of the same to be invested by some proper person in a home for the family of the debtor, which home shall be exempt as if laid off under this article.</p>
+          <p>(Orig. Code 1863, § 2017; Code 1868, § 2017; Code 1873, § 2044; Code 1882, § 2044; Civil Code 1895, § 2870; Civil Code 1910, § 3420; Code 1933, § 51-1404.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

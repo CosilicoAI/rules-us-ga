@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-325"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-325"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-325/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-325/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-325/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-325/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_325">
+        <num>44-14-325</num>
+        <content>
+          <p>All transfers and assignments of rent notes, mortgage notes, and other such evidences of indebtedness which are secured either by contract lien or out of which a lien springs by operation of law shall be sufficiently technical and valid where the transfer or assignment plainly seeks to pass the title to any of the papers in writing from one person to another.</p>
+          <p>(Ga. L. 1899, p. 90, § 1; Civil Code 1910, § 3345; Code 1933, § 67-1706.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

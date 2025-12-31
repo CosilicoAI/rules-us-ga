@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-5-17"/>
+          <FRBRuri value="/us-ga/act/ocga/19-5-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-5-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-5-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-5-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-5-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_5_17">
+        <num>19-5-17</num>
+        <content>
+          <p>When a divorce is granted, the jury or the judge, as the case may be, shall determine the rights of the parties. No person shall be placed under a disability that would prevent remarriage.</p>
+          <p>(Code 1868, § 1726; Code 1873, § 1727; Code 1882, § 1727; Civil Code 1895, § 2445; Civil Code 1910, § 2964; Code 1933, § 30-122; Ga. L. 1946, p. 90, § 12; Ga. L. 1960, p. 1024, § 1; Ga. L. 1979, p. 466, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

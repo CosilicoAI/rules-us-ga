@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/3-5-27"/>
+          <FRBRuri value="/us-ga/act/ocga/3-5-27"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/3-5-27/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/3-5-27/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/3-5-27/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/3-5-27/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_5_27">
+        <num>3-5-27</num>
+        <content>
+          <p>Any malt beverage possessed, sold, or offered for sale by a retail dealer which was purchased or otherwise acquired from any person other than a wholesale dealer authorized to do business under this chapter is declared to be contraband and shall be seized by the commissioner or the appropriate local authorities and disposed of by the commissioner in the manner provided in this title.</p>
+          <p>(Ga. L. 1950, p. 185, § 1; Code 1933, § 5A-4504, enacted by Ga. L. 1980, p. 1573, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

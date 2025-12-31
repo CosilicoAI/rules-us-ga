@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-3-841"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-841"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-3-841/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-841/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-3-841/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-841/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_3_841">
+        <num>14-3-841</num>
+        <content>
+          <p>Each officer has the authority and shall perform the duties set forth in the articles or bylaws or, to the extent consistent with the articles or bylaws, the duties and authority prescribed by the board or by direction of an officer authorized by the board to prescribe the duties and authority of other officers. Unless the articles, bylaws, or a resolution of the board of directors of the corporation provides otherwise, the chief executive officer or the president if no person has been designated as chief executive officer of the corporation shall have authority to conduct all ordinary business on behalf of the corporation and may execute and deliver on behalf of the corporation any contract, conveyance, or similar document not requiring approval by the board of directors or members as provided in this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

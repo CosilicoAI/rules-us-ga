@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-9-12"/>
+          <FRBRuri value="/us-ga/act/ocga/25-9-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-9-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-9-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-9-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-9-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_9_12">
+        <num>25-9-12</num>
+        <content>
+          <p>The notice requirements provided by Code Section 25-9-6 shall not be required of persons performing emergency excavations or excavation in extraordinary circumstances; provided, however, that any person who engages in an emergency excavation or excavation in extraordinary circumstances shall take all reasonable precautions to avoid or minimize damage to any existing utility facilities and sewer laterals; provided, further, that any person who engages in an emergency excavation or excavation in extraordinary circumstances shall give notice of the emergency excavation as soon as practical to the UPC. In giving such notice, such person must specifically identify the dangerous condition involved. If it is later determined that the excavation did not qualify as an emergency excavation, all liabilities and penalties will accrue as if no notice had been given.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

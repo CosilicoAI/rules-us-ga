@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-10A-20"/>
+          <FRBRuri value="/us-ga/act/ocga/43-10A-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-10A-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-10A-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-10A-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-10A-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_10A_20">
+        <num>43-10A-20</num>
+        <content>
+          <p>Any person violating Code Section 43-10A-19 or Code Section 43-10A-7 shall be guilty of a misdemeanor and, upon conviction thereof, shall be punished by a fine of not less than $100.00 nor more than $1,000.00 for each offense and, in addition, may be imprisoned for a term not to exceed 12 months.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

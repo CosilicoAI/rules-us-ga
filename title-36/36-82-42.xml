@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-42"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_42">
+        <num>36-82-42</num>
+        <content>
+          <p>The holder of any bond or bonds described in Code Sections 36-82-40 and 36-82-41, having given indemnity against cost, may present to the district attorney of the circuit in which the county, municipality, or political subdivision which issued such bond or bonds is located or to the Attorney General in the event the district attorney is absent from the circuit, a petition setting forth a description of the bond or bonds sought to be validated, stating the date of issue, the rate of interest, the number and denomination of all bonds issued, and the time and place for payment of principal and interest, with a full copy of all resolutions and other proceedings authorizing the issue of the bonds, and indicating any and all other facts showing the authority of the county, municipality, or political subdivision to issue such bonds and the purpose for which they were issued.</p>
+          <p>(Ga. L. 1908, p. 72, § 3; Civil Code 1910, § 455; Code 1933, § 87-403.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

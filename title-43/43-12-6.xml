@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-12-6"/>
+          <FRBRuri value="/us-ga/act/ocga/43-12-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-12-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-12-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-12-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-12-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_12_6">
+        <num>43-12-6</num>
+        <content>
+          <p>The commissioner of veterans service may cancel or suspend certificates of exemption at any time when it shall appear that the holder has become physically or financially ineligible to claim the exemption, that the certificate of exemption was procured through fraud or mistake, or that the person to whom such certificate was issued has permitted another to enjoy the benefits of such exemption. Any suspension or cancellation of the certificate of exemption may be made only after affording the person concerned an opportunity to be heard either by counsel or pro se. Service of ten days' written notice of the time and place the commissioner of veterans service expects to hear and determine the question of such suspension or cancellation shall be deemed sufficient notice when delivered by registered or certified mail or statutory overnight delivery or by any sheriff, deputy sheriff, marshal, constable, or police officer of any county or municipality of this state; and evidence of such service shall be deemed sufficient on proof of the receipt by the person concerned of the registered or certified item in which notice has been mailed or the return of service of any other officer.</p>
+          <p>(Ga. L. 1935, p. 163, §§ 3, 4; Ga. L. 1953, Nov.-Dec. Sess., p. 431, § 6; Ga. L. 1971, p. 348, § 1; Ga. L. 1983, p. 1401, § 17; Ga. L. 2000, p. 1589, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

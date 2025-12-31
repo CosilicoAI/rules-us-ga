@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-8-24"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-8-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-8-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_8_24">
+        <num>45-8-24</num>
+        <content>
+          <p>In any proceeding for accounting under this chapter, there may be joined originally or by amendment, either before or after appeal, all such officers, depositories, banks, and securities on bonds of any of them as shall be necessary or proper for the full determination of any matter in controversy, and especially, but without limiting the generality of the foregoing, for determining the respective liabilities as between an officer and some other officer, between an officer and a bank or depository, between them or any of them and the sureties of any of them, or between sureties of any of them. The proper authority or any court which shall have acquired jurisdiction in any proceeding for accounting by appeal or otherwise shall have the jurisdiction to determine completely the respective liabilities of the parties as among themselves, as well as the liability of any officer, bank, or depository and the sureties, to the public body or bodies involved. The jurisdiction given in this chapter shall extend not only to the compelling of an officer and his sureties to account for taxes or other public money which he has in fact collected, but for money which it was his duty to collect and which, in the exercise of good faith and ordinary diligence, he should have collected; and such jurisdiction may be exercised against any public officer who has received or collected the money of any public body, whether or not it was a part of his official duty to receive it or collect it.</p>
+          <p>(Ga. L. 1933, p. 78, § 9i; Code 1933, § 89-826.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

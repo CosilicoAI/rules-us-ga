@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-230"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-230"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-230/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-230/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-230/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-230/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_230">
+        <num>40-1-230</num>
+        <content>
+          <p>A peer-to-peer car-sharing program shall have sole responsibility for any equipment, such as a GPS system or other special equipment, that is put in or on the vehicle to monitor or facilitate the car-sharing transaction and shall agree to indemnify and hold harmless the shared vehicle owner for any damage to or theft of such equipment during the car-sharing period not caused by such owner. The peer-to-peer car-sharing program shall have the right to seek indemnity from the shared vehicle driver for any loss or damage to such equipment that occurs during the car-sharing period.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

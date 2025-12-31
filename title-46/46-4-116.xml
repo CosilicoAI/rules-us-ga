@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4-116"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-116"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4-116/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-116/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4-116/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-116/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4_116">
+        <num>46-4-116</num>
+        <content>
+          <p>While any of the bonds or notes issued by the authority remain outstanding, the powers, duties, or existence of the authority or of its officers, employees, or agents shall not be diminished, impaired, or affected in any manner which will affect adversely the interest and rights of the owners of such bonds or notes; and no other authority, instrumentality, or body will be created or empowered to compete with the authority so as to affect adversely the interests and rights of the owners of such bonds or notes; nor will the state itself so compete with the authority. This article shall be for the benefit of the state, the authority, and every owner of the authority's bonds and notes and, upon and after the issuance of bonds or notes under this article, shall constitute an irrevocable contract by the state with the owners of such bonds and notes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-96"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-96"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-96/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-96/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-96/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-96/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_96">
+        <num>20-3-96</num>
+        <content>
+          <p>Any student organization which is adversely affected by a decision or action under this part may appeal a final decision of the Board of Regents of the University System of Georgia to the superior court of the county wherein the university system institution is situated, or to the Superior Court of Fulton County, within 20 days after the student organization has been either personally served or mailed a copy of the board of regents' final decision. If the decision is mailed, the time for appeal shall begin on the date mailed; however, an extra three days shall be added to the time for appeal.If there is any evidence in the record to support the decision of the board of regents with regard to the administrative findings of fact, those findings must be upheld by the superior court. Except as provided in this part, appeals to the superior court shall be governed by Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," as amended.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

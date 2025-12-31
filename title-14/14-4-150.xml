@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-150"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-150/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-150/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_150">
+        <num>14-4-150</num>
+        <content>
+          <p>Upon the merger or consolidation of corporations as provided in this article, the consolidated corporation or the corporation into which the constituent corporations are merged may cause to be recorded in the records of any clerk of any superior court of this state a certified copy of the charter of the consolidated corporation or the corporation into which the constituent corporations are merged with the certificate of the Secretary of State thereon with the same force and effect as is provided by the statutes of this state for the record of deeds conveying title to land.</p>
+          <p>(Code 1933, § 22-4411, enacted by Ga. L. 1968, p. 565, § 1; Ga. L. 1976, p. 1102, § 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-11-56"/>
+          <FRBRuri value="/us-ga/act/ocga/31-11-56"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-11-56/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-11-56/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-11-56/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-11-56/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_11_56">
+        <num>31-11-56</num>
+        <content>
+          <p>Certificates issued to emergency medical technicians pursuant to this chapter may be revoked for good cause, as set forth in the rules and regulations, by the department after notice to the certificate holder of the charges and an opportunity for hearing. Such proceedings shall be conducted in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act."</p>
+          <p>(Code 1933, § 88-3112.6, enacted by Ga. L. 1977, p. 281, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

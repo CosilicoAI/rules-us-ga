@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-24"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_24">
+        <num>46-8-24</num>
+        <content>
+          <p>All contracts and agreements as to freight and passenger rates between railroad companies doing business in this state shall be submitted to the commission for inspection and correction so that it may be ascertained whether or not such contracts and agreements are in violation of the laws of this state, of the Constitution of Georgia, or of the rules and regulations of the commission. All arrangements and agreements whatever as to the division of earnings of any kind by competing railroad companies doing business in this state shall be submitted to the commission for inspection and approval, insofar as such arrangements and agreements affect rules and regulations made by the commission to secure to all persons doing business with such companies just and reasonable freight and passenger rates. The commission may make such rules and regulations as to such contracts and agreements as may be then deemed necessary and proper. Any such agreements not approved by the commission, or by virtue of which rates are charged exceeding the rates fixed by the commission for freight and passengers, shall be deemed to be violations of Article III, Section VI, Paragraph V(c) of the Constitution of Georgia and shall be illegal and void.</p>
+          <p>(Ga. L. 1878-79, p. 125, § 8; Code 1882, § 719h; Civil Code 1895, § 2193; Civil Code 1910, § 2638; Code 1933, § 93-303; Ga. L. 1983, p. 3, § 62.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

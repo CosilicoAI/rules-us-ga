@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-9-1"/>
+          <FRBRuri value="/us-ga/act/ocga/51-9-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-9-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-9-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-9-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-9-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_9_1">
+        <num>51-9-1</num>
+        <content>
+          <p>The right of enjoyment of private property being an absolute right of every citizen, every act of another which unlawfully interferes with such enjoyment is a tort for which an action shall lie.</p>
+          <p>(Orig. Code 1863, § 2955; Code 1868, § 2962; Code 1873, § 3013; Code 1882, § 3013; Civil Code 1895, § 3874; Civil Code 1910, § 4470; Code 1933, § 105-1401.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

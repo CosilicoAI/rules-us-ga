@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-5-5"/>
+          <FRBRuri value="/us-ga/act/ocga/25-5-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-5-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-5-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-5-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-5-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_5_5">
+        <num>25-5-5</num>
+        <content>
+          <p>The organization selected by vote of the majority of the firefighters in any fire department shall be recognized by the proper corporate authority, provided the organization does not advocate striking and has a "no strike" clause in its constitution and bylaws, as the sole and exclusive bargaining agent for all of the members of the fire department unless and until recognition of the labor organization is withdrawn by vote of a majority of the firefighters of the fire department. In lieu of an organization, a person may be selected as the bargaining agent and have the same obligations and privileges.</p>
+          <p>(Ga. L. 1971, p. 565, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

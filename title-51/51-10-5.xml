@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-10-5"/>
+          <FRBRuri value="/us-ga/act/ocga/51-10-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-10-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-10-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-10-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-10-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_10_5">
+        <num>51-10-5</num>
+        <content>
+          <p>A remainderman or reversioner of personalty may bring an action against a wrongdoer for any injury tending to destroy the existence or ultimate value of the property. In such cases the tenant in possession may bring an action jointly with the remainderman or reversioner for the injury to the entire estate, the recovery being held under like limitations.</p>
+          <p>(Orig. Code 1863, § 2970; Code 1868, § 2977; Code 1873, § 3031; Code 1882, § 3031; Civil Code 1895, § 3890; Civil Code 1910, § 4487; Code 1933, § 105-1705.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

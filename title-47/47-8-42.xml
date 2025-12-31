@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-8-42"/>
+          <FRBRuri value="/us-ga/act/ocga/47-8-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-8-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-8-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-8-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-8-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_8_42">
+        <num>47-8-42</num>
+        <content>
+          <p>No judge shall be eligible for benefits under this chapter unless he has qualified under one of the following provisions:</p>
+          <p>(Ga. L. 1945, p. 362, § 12; Ga. L. 1946, p. 228, § 3; Ga. L. 1950, p. 283, § 4; Ga. L. 1952, p. 293, § 4; Ga. L. 1953, Nov.-Dec. Sess., p. 108, § 4; Ga. L. 1955, p. 152, § 4; Ga. L. 1976, p. 586, § 36; Ga. L. 1992, p. 477, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

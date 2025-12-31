@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-35-3"/>
+          <FRBRuri value="/us-ga/act/ocga/33-35-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-35-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-35-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-35-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-35-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_35_3">
+        <num>33-35-3</num>
+        <content>
+          <p>This chapter shall not apply to the benefits available under automobile club membership contracts and automobile liability insurance policies which supply limited legal services or reimbursement for legal services in automobile related matters under certificates of authority issued by the Commissioner, to any legal aid or other legal services program for the indigent, or to any employer-employee legal services plan which is excluded from this chapter by the federal Employee Retirement Income Security Act of 1974.</p>
+          <p>(Code 1933, § 56-3503, enacted by Ga. L. 1975, p. 1268, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

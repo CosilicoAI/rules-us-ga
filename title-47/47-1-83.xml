@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-1-83"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-1-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-1-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_1_83">
+        <num>47-1-83</num>
+        <content>
+          <p>In accordance with subsection (a) of the federal Treasury Regulation Section 1.401-6, in the event of a termination or partial termination of a public retirement or pension system, a member's accrued benefit as of the date of such termination or partial termination, to the extent then funded, shall be nonforfeitable and fully vested under federal Internal Revenue Code requirements.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

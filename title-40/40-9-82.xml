@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-9-82"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-82"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-9-82/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-82/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-9-82/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-82/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_9_82">
+        <num>40-9-82</num>
+        <content>
+          <p>Any insurance company filing a certification with the department in order for the operator to show the proof required in this article shall not cancel such certification within 12 months from its effective date except for a subsequent conviction of any offense requiring the mandatory suspension of such operator's license, and the department shall be given at least 20 days' prior written notice of such cancellation. The commissioner may, in his discretion, permit the cancellation of such certificate for other cause made known to and approved by him.</p>
+          <p>(Code 1933, § 68C-502, enacted by Ga. L. 1977, p. 1014, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

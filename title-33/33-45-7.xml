@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-45-7"/>
+          <FRBRuri value="/us-ga/act/ocga/33-45-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-45-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-45-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-45-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-45-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_45_7">
+        <num>33-45-7</num>
+        <content>
+          <p>A provider which has obtained a certificate of authority pursuant to Code Section 33-45-5 and the written approval of the Commissioner is authorized to offer, as a part of the continuing care agreement, continuing care at home or continuing care in which the resident purchases a resident owned living unit, subject to the provisions of Chapters 6 and 7 of Title 31 and rules and regulations promulgated by the Department of Community Health pursuant to such chapters relating to certificate of need and licensure requirements.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

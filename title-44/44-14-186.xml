@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-186"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-186"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-186/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-186/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-186/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-186/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_186">
+        <num>44-14-186</num>
+        <content>
+          <p>When proceedings to foreclose a mortgage shall be instituted and a defense shall be set up thereto, the issue shall be submitted to and tried by a jury.</p>
+          <p>(Orig. Code 1863, § 3871; Code 1868, § 3891; Code 1873, § 3967; Code 1882, § 3967; Civil Code 1895, § 2749; Civil Code 1910, § 3282; Code 1933, § 67-303.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

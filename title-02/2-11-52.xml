@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-11-52"/>
+          <FRBRuri value="/us-ga/act/ocga/2-11-52"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-11-52/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-11-52/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-11-52/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-11-52/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_11_52">
+        <num>2-11-52</num>
+        <content>
+          <p>In order to execute the policy stated in Code Section 2-11-50, the dean of the College of Agricultural and Environmental Sciences of the University of Georgia is authorized to provide for seed, plant, and variety certification and labeling. The dean shall designate a certifying agency, provided that such designee must be in good standing with the Association of Official Seed Certifying Agencies. The College of Agricultural and Environmental Sciences of the University of Georgia shall not be held responsible for any claim, debt, obligation, or damage of any kind to any person in conducting certification work or in the work of the certifying agent. The certifying agency so designated by the dean shall, along with its employees, be immune from liability to the same extent as the state and state officers and employees under Article 2 of Chapter 21 of Title 50, "The Georgia Tort Claims Act."</p>
+          <p>(Ga. L. 1956, p. 16, § 3; Ga. L. 1995, p. 10, § 2; Ga. L. 1996, p. 1151, § 2; Ga. L. 2012, p. 1129, § 1/SB 390.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

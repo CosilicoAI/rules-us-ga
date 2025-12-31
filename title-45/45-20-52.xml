@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-20-52"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-52"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-20-52/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-52/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-20-52/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-20-52/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_20_52">
+        <num>45-20-52</num>
+        <content>
+          <p>The board shall set policy for administration of this article and shall have full power to promulgate, adopt, amend, or revoke such rules and regulations consistent with this article as may be necessary to implement this article. The board shall have specific authority to establish procedures under which charitable organizations may be evaluated for inclusion in the charitable deductions program. Only eligible voluntary charitable organizations which are approved by the board may participate in the program. Such procedures may include minimum participation levels based upon number of employees making a designated contribution, dollar amounts of designated contributions, or other factors as decided by the board and may exclude otherwise eligible charitable organizations for failure to attain a minimum participation level.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

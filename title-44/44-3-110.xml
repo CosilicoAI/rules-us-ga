@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-110"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-110/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-110/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_110">
+        <num>44-3-110</num>
+        <content>
+          <p>Any rights of first refusal or other restraints on free alienability of the condominium units created by the condominium instruments shall be void unless the condominium instruments make provision for furnishing upon request to any unit owner or person who has executed a contract for the purchase of a condominium unit a recordable statement certifying to any waiver of or failure or refusal to exercise such rights and restraints whenever such waiver, failure, or refusal has occurred. Failure or refusal to furnish that statement within 30 days or such lesser period as the condominium instruments may specify shall cause all such rights and restraints to be inapplicable to the disposition of the condominium unit in contemplation of which such statement was requested. Any such statement shall be binding on the association and on every unit owner. Payment of a fee not exceeding $25.00 may be required as a prerequisite to the issuance of such a statement if the condominium instruments so provide.</p>
+          <p>(Ga. L. 1975, p. 609, § 42.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

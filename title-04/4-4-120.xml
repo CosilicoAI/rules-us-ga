@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-4-120"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-4-120/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-4-120/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_4_120">
+        <num>4-4-120</num>
+        <content>
+          <p>In the control, suppression, prevention, and eradication of equine diseases, the Commissioner or any duly authorized representative acting under his authority is authorized and required to quarantine an animal, premises, or any area when he shall determine that equines in such place or places are infected with a contagious or infectious disease, that the unsanitary condition of such place or places might cause the spread of such disease, that the animal has or has been exposed to any contagious or infectious disease, or that the owner or occupant of such place or places is not observing sanitary practices prescribed under the authority of this or any other equine law of this state.</p>
+          <p>(Ga. L. 1969, p. 1021, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

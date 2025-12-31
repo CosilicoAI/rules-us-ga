@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-20"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_20">
+        <num>44-13-20</num>
+        <content>
+          <p>Property set apart pursuant to Code Section 44-13-2 for a spouse, for a spouse and minor children, for minor children alone, or for dependents of a debtor (1) upon the death of the spouse or the spouse's remarriage, when set apart to the spouse alone, (2) upon the attaining of the age of 18 by the minor children or their emancipation during minority, when set apart for the minor children, (3) upon the death or remarriage of the spouse and the attaining of the age of 18 by the minor children or the emancipation of the minor children, when set apart to the spouse and minor children, and (4) upon a former dependent person's no longer being eligible to be claimed by the debtor as a dependent for income tax purposes pursuant to Code Section 48-7-26, shall revert to the estate from which it was set apart unless it was sold or reinvested pursuant to this article, in which case this Code section shall apply to and follow all the reinvestments unless the fee simple has been sold as provided in this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

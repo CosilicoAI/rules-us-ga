@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-6-1"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-6-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-6-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_6_1">
+        <num>4-6-1</num>
+        <content>
+          <p>As used in this chapter, the term:</p>
+          <p>(Ga. L. 1952, p. 184, § 1; Ga. L. 1983, p. 1161, § 1; Ga. L. 1995, p. 244, § 8; Ga. L. 1996, p. 351, § 1; Ga. L. 2008, p. 458, § 6/SB 364; Ga. L. 2017, p. 129, § 1/HB 49.)</p>
+          <p>The 2017 amendment,
+      effective July 1, 2017, deleted former paragraph (1), which read: " 'Bond' means a written instrument issued or executed by a bonding, surety, or insurance company licensed to do business in this state, guaranteeing that the person bonded shall faithfully fulfill the terms of the contract of purchases and guarantee the payment of the purchase price of all livestock purchased by him, made payable to the Commissioner for the benefit of persons sustaining loss resulting from the nonpayment of the purchase price or the failure to fulfill the terms of the contract of purchase."; redesignated former paragraphs (2) through (7) as present paragraphs (1) through (6), respectively; rewrote paragraph (2); deleted ", firm or corporation" following "person" near the beginning of paragraph (4); and added paragraph (7).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

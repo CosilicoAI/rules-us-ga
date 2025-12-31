@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-4-41"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-4-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-4-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_4_41">
+        <num>20-4-41</num>
+        <content>
+          <p>The programs of technical training under this article shall be supplementary to those offered by postsecondary technical schools and shall be operated on a state-wide basis to assist any area to become more competitive in industrial and economic development; provided, however, no program may be made available to any area except as prescribed by the State Board of the Technical College System of Georgia. The program prescribed in this article shall be concerned only with training for skilled and semiskilled operations, including supervisory personnel associated with such operations, and shall terminate when training needs have been met; provided, however, that basic academic education may be included as a part of the training program when such is necessary to ensure success of trainees in the occupational training program.</p>
+          <p>(Ga. L. 1968, p. 1138, § 3; Ga. L. 1982, p. 3, § 20; Ga. L. 1988, p. 1252, § 3; Ga. L. 2011, p. 632, § 3/HB 49.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

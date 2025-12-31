@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-196"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-196"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-196/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-196/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-196/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-196/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_196">
+        <num>32-6-196</num>
+        <content>
+          <p>All railroads shall permit the temporary use, free of cost, of so much of their rights of way as may be necessary during the construction or maintenance of any grade separation structures or any grade crossing or protective devices, provided that, whenever any employees or contractors of the department or of any county or municipality shall enter the right of way of any railroad, they shall be subject to any reasonable rules and regulations such railroad may make for the protection of its traffic, employees, passengers, and operations.</p>
+          <p>(Ga. L. 1927, p. 299, §§ 4, 13; Code 1933, §§ 95-1906, 95-1913; Code 1933, § 95A-1010, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

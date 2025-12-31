@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-6-91"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-6-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-6-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_6_91">
+        <num>15-6-91</num>
+        <content>
+          <p>All local legislation in effect on April 1, 1973, or enacted subsequent to April 1, 1973, and affecting compensation for clerks of superior courts of the various counties shall be of full force and effect except where such local legislation provides for a salary lower than the salary provided in Code Sections 15-6-88 through 15-6-90 and this Code section, in which event such Code sections shall prevail.</p>
+          <p>(Ga. L. 1973, p. 256, § 4; Ga. L. 1994, p. 97, § 15; Ga. L. 2012, p. 173, § 2-5/HB 665.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

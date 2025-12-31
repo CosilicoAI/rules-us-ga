@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-23-36"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-36"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-23-36/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-36/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-23-36/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-36/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_23_36">
+        <num>33-23-36</num>
+        <content>
+          <p>The Commissioner may upon his or her own motion and shall upon a written complaint signed by a citizen of this state and filed with the Commissioner inquire into any alleged illegal or improper conduct of any licensee or inquire into the question of whether a licensee is untrustworthy or not competent or not qualified to act as a licensee under this chapter. No finding or decision adverse to any person in regard to whom the inquiry is conducted shall be made by the Commissioner until after notice and hearing as provided in Chapter 2 of this title.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

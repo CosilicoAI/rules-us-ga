@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-210"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-210/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-210/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_210">
+        <num>44-12-210</num>
+        <content>
+          <p>The abandonment period of any property described in Code Section 44-12-197 that is automatically renewable shall commence upon the expiration of its initial time period except that, in the case of any renewal to which the owner consents at or about the time of renewal by communicating in writing with the person holding the property or otherwise indicating such consent as evidenced by a memorandum on file prepared by an employee, the abandonment period shall commence upon the expiration of the last time period for which consent was given.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

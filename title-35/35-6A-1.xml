@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-6A-1"/>
+          <FRBRuri value="/us-ga/act/ocga/35-6A-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-6A-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-6A-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-6A-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-6A-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_6A_1">
+        <num>35-6A-1</num>
+        <content>
+          <p>The General Assembly finds that the high incidence of crime in Georgia is detrimental to the general welfare of the state and its citizens and that criminal justice efforts must be better coordinated, intensified, and made more effective in all components of the system and at all levels of government. The General Assembly, therefore, declares it to be the public policy of this state to provide the necessary leadership to coordinate the major components of the criminal justice system by establishing a state-wide coordinating body which represents all components and all levels of the criminal justice system.</p>
+          <p>(Ga. L. 1981, p. 1306, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

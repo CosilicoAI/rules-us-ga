@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-173"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-173"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-173/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-173/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-173/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-173/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_173">
+        <num>32-6-173</num>
+        <content>
+          <p>The expenses incurred by the department as a result of utility removal and relocation pursuant to subsection (b) of Code Section 32-6-171, including the cost of acquiring new land or interests therein pursuant to subsection (b) of Code Section 32-6-172, shall be paid out of the available appropriations of the department for the construction or maintenance of public roads. A statement of such expenses shall be submitted to the utility, which shall make payment to the department. In the event the utility does not make payment or arrange to make payment to the department within 60 days after the receipt of said statement, the department shall certify the amount for collection to the Attorney General. However, nothing in this Code section shall restrict the authority of the department pursuant to Code Section 32-6-170 to pay any or all of the expenses of removal and relocation of government owned utilities; and, furthermore, nothing in this article shall be construed so as to deprive any utility, relocated from a location in which it owned a property interest, of compensation for such property interest.</p>
+          <p>(Code 1933, § 95A-1004, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

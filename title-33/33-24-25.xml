@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-24-25"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-24-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-24-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_24_25">
+        <num>33-24-25</num>
+        <content>
+          <p>No group or blanket accident and sickness policy shall contain any provision purporting to exclude or reduce coverage provided an otherwise insurable person solely for the reason that the person is eligible for or receiving medical assistance as defined in Article 7 of Chapter 4 of Title 49. Any such provision appearing in a group or blanket accident and sickness insurance policy shall be null and void.</p>
+          <p>(Code 1933, § 56-3105.1, enacted by Ga. L. 1978, p. 1522, § 2; Ga. L. 2017, p. 164, § 20/HB 127; Ga. L. 2019, p. 386, § 37/SB 133.)</p>
+          <p>The 2019 amendment,
+      effective July 1, 2019, deleted "subsequent to July 1, 1978," following "insurance policy" near the end of the second sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

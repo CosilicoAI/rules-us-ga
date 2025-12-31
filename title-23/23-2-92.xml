@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-2-92"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-2-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-2-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_2_92">
+        <num>23-2-92</num>
+        <content>
+          <p>In cases of difficulty in construing wills, in distributing estates, in ascertaining the persons entitled, or in determining under what law property should be divided, the representative may ask the direction of the court, but not on imaginary difficulties or from excessive caution.</p>
+          <p>(Orig. Code 1863, § 3076; Code 1868, § 3088; Code 1873, § 3145; Code 1882, § 3145; Civil Code 1895, § 4000; Civil Code 1910, § 4597; Code 1933, § 37-404.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-14-8"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-14-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-14-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_14_8">
+        <num>31-14-8</num>
+        <content>
+          <p>Either party may appeal any order of the superior court or hearing examiner in a proceeding under this chapter. An order of the superior court may be appealed to the Court of Appeals or the Supreme Court as provided by law but shall be heard as expeditiously as possible. The appeal of an order of a hearing examiner shall be to the superior court of the county in which the proceeding was held. The review shall be conducted by the superior court without a jury and shall be confined to the record. The court, upon request, may hear oral argument and receive written briefs. The patient must pay his or her costs upon filing any appeal authorized under this Code section or must make an affidavit that he or she is unable to pay costs. The parties shall retain all rights of review of any order of the superior court, the Court of Appeals, and the Supreme Court, as provided by law. The patient shall have a right to counsel on appeal or, if unable to afford counsel, shall have counsel appointed for the patient by the court. The appeal rights provided in this Code section are in addition to any other appeal rights which the parties may have.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

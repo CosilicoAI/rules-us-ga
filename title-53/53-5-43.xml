@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-5-43"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-43"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-5-43/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-43/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-5-43/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-43/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_5_43">
+        <num>53-5-43</num>
+        <content>
+          <p>A copy of letters, or like documentation authenticated in accordance with Code Section 24-9-922, evidencing the qualification of the personal representative of the decedent who died domiciled outside this state, shall constitute prima-facie evidence of the authority of the personal representative to act in this state. Whenever a personal representative shall execute and deliver any deed of assent or conveyance with respect to real property located within this state, the personal representative shall attach to such deed as an exhibit the authenticated copy of the letters, and a certified copy of the will in the case of a testate decedent. The clerks of the superior courts of this state shall not be authorized to accept for filing and recording any deed given by such personal representative that does not conform to the foregoing requirements. Unless a third party has actual knowledge of the existence or pendency of ancillary probate or administration with respect to the decedent within this state, the third party who is dealing with the personal representative in reliance on the personal representative's letters and, in the case of a testate decedent, the out-of-state or foreign will, shall be fully protected.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

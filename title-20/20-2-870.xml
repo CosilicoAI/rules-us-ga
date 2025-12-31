@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-870"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-870"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-870/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-870/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-870/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-870/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_870">
+        <num>20-2-870</num>
+        <content>
+          <p>Each person employed as a teacher in any public school of this state shall be allowed a leave of absence without loss of pay and without deduction of any amounts otherwise received as compensation for service as a teacher, for the purpose of attending any court as a juror or when subpoenaed to testify in a case arising out of the person's duties as a teacher, such as the reporting of child abuse required by Code Section 19-7-5. Any teacher who serves as a juror or witness as provided in this Code section shall not have the jury or witness leave deducted from sick, personal, or professional leave. No teacher utilizing jury or witness leave under this Code section shall be required to pay the cost of employing a substitute teacher to serve in his absence on such jury or witness leave, and local boards of education may adopt policies regarding the retention by teachers of the compensation for serving on a jury.</p>
+          <p>(Ga. L. 1977, p. 800, § 1; Ga. L. 1986, p. 498, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

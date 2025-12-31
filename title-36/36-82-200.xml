@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-200"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-200"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-200/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-200/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-200/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-200/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_200">
+        <num>36-82-200</num>
+        <content>
+          <p>No issuer of single-family housing bonds may elect to exchange any part of a notice of allocation for mortgage credit certificates without the written authorization of the department. Such authorization shall be in the discretion of the commissioner, and no issuer shall have any right to such authorization. Any unused amount of the state ceiling remaining on the last business day of each year and not subject to a notice of allocation shall automatically be exchanged for mortgage credit certificates carryforward elections in such amounts and to such issuers as the department may determine. Applications for mortgage credit certificates for carryforward purposes shall be on the same forms and accompanied by the same items as required by Code Section 36-82-199.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

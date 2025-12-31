@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-370"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-370"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-370/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-370/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-370/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-370/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_370">
+        <num>20-2-370</num>
+        <content>
+          <p>Whenever the citizens of a municipality or independent school district authorized by law to establish and maintain a system of schools by local taxation in whole or in part are operating a system of public schools independent of the county school system and wish to annul their special school law and become a part of the county school system, they shall present and file with the governing authority of the city a petition signed by one-fourth of the qualified voters of their territory; and the governing authority shall then submit the question at an election to be held in accordance with Chapter 2 of Title 21. A majority of those voting shall be necessary to carry the election. Only qualified voters residing within the municipality or district for six months prior to the election shall vote. An election shall not be held for the same purpose more often than every 12 months.</p>
+          <p>(Ga. L. 1926, Ex. Sess., p. 40, § 1; Code 1933, § 32-1201; Ga. L. 1982, p. 3, § 20, Ga. L. 1998, p. 295, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

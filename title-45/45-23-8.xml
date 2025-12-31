@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-23-8"/>
+          <FRBRuri value="/us-ga/act/ocga/45-23-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-23-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-23-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-23-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-23-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_23_8">
+        <num>45-23-8</num>
+        <content>
+          <p>Administrative procedures for the implementation of this chapter shall be promulgated by the State Personnel Board for departments or agencies subject to the board's rules and regulations, as such terms are defined in Code Section 45-20-2, and by other public employers for other public employees under their management and control. Such procedures shall include those elements of due process of law required by the Constitution of Georgia and the United States Constitution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

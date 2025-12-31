@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-14-44"/>
+          <FRBRuri value="/us-ga/act/ocga/2-14-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-14-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-14-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-14-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-14-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_14_44">
+        <num>2-14-44</num>
+        <content>
+          <p>The Commissioner, through his agents or employees, may require the removal from this state of any honeybees or beekeeping fixtures which have been brought into the state in violation of this article. If he finds that any bees or fixtures are infected with any contagious or infectious disease or that such bees or fixtures have been exposed to danger of infection by such diseases, that any honeybees have become Africanized, or that honeybees are confronted with any other threat in this state, the Commissioner may require the destruction, treatment, or disinfection of any such infected or exposed bees, hives, fixtures, or appliances.</p>
+          <p>(Ga. L. 1920, p. 160, § 3; Code 1933, § 5-905; Ga. L. 1990, p. 373, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

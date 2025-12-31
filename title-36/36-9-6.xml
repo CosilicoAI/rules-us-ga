@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-9-6"/>
+          <FRBRuri value="/us-ga/act/ocga/36-9-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-9-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-9-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-9-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-9-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_9_6">
+        <num>36-9-6</num>
+        <content>
+          <p>The county governing authority shall designate the rooms in the courthouse to be occupied by each of the county officers and enter the same on its minutes, which it may change from time to time as convenience may require.</p>
+          <p>(Orig. Code 1863, § 470; Code 1868, § 532; Code 1873, § 498; Code 1882, § 498; Civil Code 1895, § 353; Civil Code 1910, § 401; Code 1933, § 91-703.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

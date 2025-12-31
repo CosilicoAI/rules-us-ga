@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-17-53"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-17-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-17-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-17-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_17_53">
+        <num>50-17-53</num>
+        <content>
+          <p>To enable the board to fulfill its responsibilities of ensuring safe and effective cash management, the board shall be authorized to determine, from time to time, in respect to all state funds, whether deposited by the state treasurer or any other department or agency of the state government, any and all of the following:</p>
+          <p>(Ga. L. 1949, p. 13, § 4; Ga. L. 1960, p. 1144, § 2; Ga. L. 1971, p. 553, § 4; Ga. L. 1973, p. 149, § 4; Ga. L. 1982, p. 3, § 50; Ga. L. 1992, p. 1247, § 3; Ga. L. 2010, p. 863, § 4/SB 296.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

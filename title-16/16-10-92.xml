@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-10-92"/>
+          <FRBRuri value="/us-ga/act/ocga/16-10-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-10-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-10-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-10-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-10-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_10_92">
+        <num>16-10-92</num>
+        <content>
+          <p>A person who is or may be a witness at a trial, hearing, or other proceeding before any court or any officer authorized by the law to hear evidence or take testimony and who receives or agrees or offers to receive any benefit, reward, or consideration to which he is not entitled, pursuant to an agreement or understanding that his testimony will be influenced thereby or that he will absent himself from the trial, hearing, or other proceeding, shall, upon conviction thereof, be punished by imprisonment for not less than one nor more than five years.</p>
+          <p>(Ga. L. 1959, p. 34, § 25; Code 1933, § 26-2312, enacted by Ga. L. 1968, p. 1249, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

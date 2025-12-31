@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-344"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-344"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-344/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-344/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-344/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-344/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_344">
+        <num>46-8-344</num>
+        <content>
+          <p>Any electric street, suburban, or interurban railroad company which is incorporated under the laws of Georgia and which, in pursuance of the laws of this state, in addition to operating street, suburban, or interurban railroad and bus transportation facilities, is engaged in the operation of electric generating plants for the purpose of supplying motive power for the operation of its railroad and for the production, distribution, and sale of electricity for light, heat, and power purposes in the area served may sell and dispose of its railroad and bus transportation service and equipment, its railroad and bus franchises, and may continue its corporate existence and the operation of its electric power plants and facilities for the production, distribution, and sale of electricity for light, heat, and power purposes under the charter granted to it as a street, suburban, and interurban railroad corporation to the date of expiration of such charter, notwithstanding the sale or other disposition of its railroad and bus properties and franchises.</p>
+          <p>(Ga. L. 1945, p. 260, § 1; Ga. L. 1947, p. 495, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

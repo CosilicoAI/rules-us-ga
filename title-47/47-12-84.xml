@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-12-84"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-84"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-12-84/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-84/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-12-84/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-84/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_12_84">
+        <num>47-12-84</num>
+        <content>
+          <p>Any district attorney who, after 17 years of continuous service and the payment of amounts due under this chapter, becomes unable to perform his official duties because of ill health or other causes may retire under this chapter, provided that he is so certified by the judges of his judicial circuit and two physicians. Any such district attorney shall continue his pro rata payments to the fund for the term as set forth in Code Section 47-12-41.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 211, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

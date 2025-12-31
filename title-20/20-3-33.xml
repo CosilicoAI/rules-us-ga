@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-33"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_33">
+        <num>20-3-33</num>
+        <content>
+          <p>It shall be lawful for the board of regents to invest any trust funds held by the board in real estate or in any improvements or buildings which the board in its discretion may see fit to make or erect thereon; provided, however, that no money belonging to any trust fund shall be used for such purpose or purposes if such use or uses would be contrary to the specific provisions of the instrument setting up the trust; and provided, further, all investments made of trust funds under this Code section shall in the judgment of the board be revenue producing investments wherever the trust funds so invested are of a trust which requires investment to produce revenue.</p>
+          <p>(Ga. L. 1937, p. 901, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

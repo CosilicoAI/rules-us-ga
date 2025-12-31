@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-14-9"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-14-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-14-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_14_9">
+        <num>9-14-9</num>
+        <content>
+          <p>If the affidavit of the applicant to the effect that he has reason to apprehend that the party detaining or holding another in custody will remove him beyond the limits of the county or conceal him from the officers of the law is filed with the petition, the judge granting the writ shall at the same time issue his warrant directed to the sheriff, deputy sheriff, coroner, or any lawful constable of the county requiring the officers to search for and arrest the body of the person detained and to bring him before the judge to be disposed of as he may direct.</p>
+          <p>(Orig. Code 1863, § 3916; Code 1868, § 3940; Code 1873, § 4016; Code 1882, § 4016; Penal Code 1895, § 1217; Penal Code 1910, § 1298; Code 1933, § 50-109.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

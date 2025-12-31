@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-121"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-121"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-121/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-121/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-121/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-121/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_121">
+        <num>40-1-121</num>
+        <content>
+          <p>The department shall prescribe the books and the forms of accounts to be kept by the holders of certificates under this part, which books and accounts shall be preserved for such reasonable time as may be prescribed by the department. The books and records of every certificate holder shall be at all times open to the inspection of any agent of the department for such purpose. The department shall have the power to examine the books and records of all motor carriers to whom it has granted certificates or permits to operate under this part and to examine under oath the officers and agents of any motor carrier with respect thereto.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

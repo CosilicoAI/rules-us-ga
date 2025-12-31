@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-8-2"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-8-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-8-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_8_2">
+        <num>40-8-2</num>
+        <content>
+          <p>In addition to the requirements of this article, the commissioner of public safety, as to the motor vehicles within the jurisdiction of the Department of Public Safety, shall have the authority to promulgate rules designed to promote safety pursuant to the provisions of Code Section 40-1-8. Any such rules promulgated or deemed necessary by the commissioner shall include the following: every vehicle and all parts thereof shall be maintained in a safe condition at all times. The lights, brakes, and equipment shall meet such safety requirements as the commissioner shall promulgate from time to time. Notwithstanding any provision of law to the contrary, a vehicle, driver, or motor carrier that is subject to a safety rule so promulgated shall comply with the more stringent or additional requirement imposed by that motor carrier safety or hazardous materials safety rule.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

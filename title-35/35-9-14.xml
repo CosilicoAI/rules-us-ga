@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-9-14"/>
+          <FRBRuri value="/us-ga/act/ocga/35-9-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-9-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-9-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-9-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-9-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_9_14">
+        <num>35-9-14</num>
+        <content>
+          <p>Any person knowing of the revocation of his appointment as a special policeman or having in any manner received notice thereof who exercises or attempts to exercise any of the powers of a special policeman under Code Sections 35-9-2 through 35-9-12 shall be guilty of a misdemeanor. The filing and mailing of the notice of revocation of the appointment as provided in Code Section 35-9-11 shall be presumptive evidence that the person whose appointment was revoked knew of the revocation.</p>
+          <p>(Ga. L. 1943, p. 595, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-10-1"/>
+          <FRBRuri value="/us-ga/act/ocga/14-10-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-10-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-10-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-10-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-10-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_10_1">
+        <num>14-10-1</num>
+        <content>
+          <p>This chapter shall be known and may be cited as "The Georgia Professional Association Act."</p>
+          <p>(Ga. L. 1961, p. 404, § 1; Ga. L. 2017, p. 774, § 14/HB 323.)</p>
+          <p>The 2017 amendment,
+      effective May 9, 2017, part of an Act to revise, modernize, and correct the Code, substituted "This chapter shall be known and may be cited" for "This chapter may be cited" at the beginning of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

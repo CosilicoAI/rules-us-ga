@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-3-142"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-142"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-3-142/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-142/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-3-142/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-142/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_3_142">
+        <num>38-3-142</num>
+        <content>
+          <p>Whoever, except with the written permission of the director, knowingly uses the words "Georgia Emergency Management Agency," "Georgia Homeland Security Agency," "Emergency Management Agency," "Homeland Security Agency," "GEMA," "GEMHSA," or "GEMA/HS" in referring to Georgia's Emergency Management and Homeland Security Agency in connection with any advertisement, circular, book, pamphlet, or other publication, play, motion picture, broadcast, telecast, or other production in a manner reasonably calculated to convey the impression that such advertisement, circular, book, pamphlet, or other publication, play, motion picture, broadcast, telecast, or other production is approved, endorsed, or authorized by or associated with the Georgia Emergency Management and Homeland Security Agency shall be in violation of this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

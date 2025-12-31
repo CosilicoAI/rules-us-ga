@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-15"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_15">
+        <num>51-1-15</num>
+        <content>
+          <p>A husband shall have a right of action against another for abducting or harboring his wife. Furnishing shelter and food to a wife driven from her home by cruel treatment is an act of humanity and shall give no right of action to the husband.</p>
+          <p>(Orig. Code 1863, § 2949; Code 1868, § 2956; Code 1873, § 3007; Code 1882, § 3007; Civil Code 1895, § 3868; Civil Code 1910, § 4464; Code 1933, § 105-1202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

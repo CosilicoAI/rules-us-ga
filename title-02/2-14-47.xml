@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-14-47"/>
+          <FRBRuri value="/us-ga/act/ocga/2-14-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-14-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-14-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-14-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-14-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_14_47">
+        <num>2-14-47</num>
+        <content>
+          <p>Any person, firm, or corporation violating any of the provisions of this article or any of the rules or regulations of the Commissioner adopted in accordance with this article shall be guilty of a misdemeanor and upon conviction shall be punished by a fine of not more than $500.00 or by imprisonment for not more than six months in the county jail.</p>
+          <p>(Ga. L. 1920, p. 160, § 5; Code 1933, § 5-9930.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

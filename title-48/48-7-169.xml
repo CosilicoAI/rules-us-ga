@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-7-169"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-169"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-7-169/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-169/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-7-169/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-169/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_7_169">
+        <num>48-7-169</num>
+        <content>
+          <p>The commissioner is authorized to prescribe forms and to promulgate rules and regulations which he or she deems necessary in order to effectuate this article.</p>
+          <p>(Code 1933, § 91A-4109, enacted by Ga. L. 1980, p. 1555, § 1; Ga. L. 2014, p. 56, § 1/HB 1000.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

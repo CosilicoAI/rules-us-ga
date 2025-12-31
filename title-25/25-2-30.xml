@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-2-30"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-2-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-2-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_2_30">
+        <num>25-2-30</num>
+        <content>
+          <p>It shall be the duty of the state fire marshal to contact individuals, associations, and state agencies, both within and outside this state, which have a direct interest in the fundamentals of fire prevention and life safety, for the purpose of promoting the objectives of this chapter.</p>
+          <p>(Ga. L. 1949, p. 1057, § 28.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

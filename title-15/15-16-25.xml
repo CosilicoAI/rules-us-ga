@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-16-25"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-16-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-16-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_16_25">
+        <num>15-16-25</num>
+        <content>
+          <p>Where sheriffs hire property out after it has been levied upon, they are liable to the proper party for the hire received.</p>
+          <p>(Orig. Code 1863, § 339; Code 1868, § 400; Ga. L. 1871-72, p. 51, § 1; Code 1873, § 365; Code 1882, § 365; Civil Code 1895, § 4385; Civil Code 1910, § 4919; Code 1933, § 24-2822.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

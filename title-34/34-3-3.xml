@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-3-3"/>
+          <FRBRuri value="/us-ga/act/ocga/34-3-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-3-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-3-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-3-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-3-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_3_3">
+        <num>34-3-3</num>
+        <content>
+          <p>Any person with whom a contract violative of this chapter is made or any person having knowledge thereof may institute an action against such cotton or woolen manufacturing establishment; and the amount recovered as a fine shall inure to the benefit of the board of education of the county in which the violation shall have occurred.</p>
+          <p>(Ga. L. 1889, p. 163, § 4; Civil Code 1895, § 2618; Civil Code 1910, § 3140; Code 1933, § 54-204.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

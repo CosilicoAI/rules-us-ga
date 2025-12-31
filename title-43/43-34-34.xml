@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-34"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-34"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-34/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-34/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-34/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-34/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_34">
+        <num>43-34-34</num>
+        <content>
+          <p>A person who held a valid provisional license on or before April 16, 1979, shall be able to renew such license annually without any one-time-only renewal limitation, as long as such person continues to meet the other requirements specified in this article and does not otherwise violate this article.</p>
+          <p>(Ga. L. 1974, p. 1156, § 9; Ga. L. 1977, p. 334, § 10; Ga. L. 1979, p. 1023, § 1; Ga. L. 1980, p. 321, § 1; Ga. L. 1982, p. 3, § 43; Ga. L. 2009, p. 859, § 1/HB 509.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

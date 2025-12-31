@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-41-13"/>
+          <FRBRuri value="/us-ga/act/ocga/43-41-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-41-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-41-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-41-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-41-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_41_13">
+        <num>43-41-13</num>
+        <content>
+          <p>Whenever it appears to the board or either division of the board that any person, whether an individual or a business organization, or both, is violating any of the provisions of this chapter or of the rules and regulations of the board or either division promulgated under this chapter, the board or division may apply to the superior court of the county in which such individual resides or business is located for a restraining order and injunction to restrain the violation, and the superior court shall have jurisdiction to grant the requested relief, irrespective of whether criminal prosecution has been instituted or administrative sanctions have been imposed by reason of the violation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

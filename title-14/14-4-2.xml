@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-2"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_2">
+        <num>14-4-2</num>
+        <content>
+          <p>Nothing in this chapter shall affect existing statutes with respect to the venue of actions against railroad, electric, banking, trust, insurance, canal, navigation, express, and telegraph companies, which existing statutes include, as to express companies, those statutes codified as Code Sections 46-9-234 through 46-9-236; as to companies under the jurisdiction of the Georgia Public Service Commission, that statute codified as Code Section 46-2-92.</p>
+          <p>(Code 1933, § 22-4802, enacted by Ga. L. 1969, p. 152, § 98; Ga. L. 1984, p. 22, § 14; Ga. L. 2012, p. 847, § 1/HB 1115.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4-101"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-101"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4-101/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-101/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4-101/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-101/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4_101">
+        <num>46-4-101</num>
+        <content>
+          <p>First $500,000.00 ................................................$1.00
+   $501,000.00 - $2,500,000.00 ....................................... .25
+   All over $2,500,000.00 ............................................ .10</p>
+          <p>Any other law to the contrary notwithstanding, this article shall govern all civil claims, proceedings, and actions respecting debt of the authority evidenced by revenue bonds.</p>
+          <p>Nothing in this article shall prohibit the authority from issuing bonds, the interest on which is includable in gross income of the owners thereof for federal income tax purposes.</p>
+        </content>
+        <subsection eId="sec_46_4_101__subsec_m">
+          <num>(m)</num>
+          <content>
+            <p>The authority shall reimburse the district attorney for his actual costs of the case, if any. For every $5,000.00 in principal amount of bonds or portion thereof, there shall be payable to the clerk of the Superior Court of Fulton County the following fees for validation and confirmation:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

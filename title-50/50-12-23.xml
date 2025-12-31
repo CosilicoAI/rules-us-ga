@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-12-23"/>
+          <FRBRuri value="/us-ga/act/ocga/50-12-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-12-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-12-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-12-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-12-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_12_23">
+        <num>50-12-23</num>
+        <content>
+          <p>The council shall advise the Governor through the Department of Economic Development concerning methods and programs to:</p>
+          <p>(Ga. L. 1976, p. 748, § 4; Ga. L. 1986, p. 174, § 2; Ga. L. 2011, p. 514, § 2/HB 264; Ga. L. 2013, p. 1042, § 4/HB 338.)</p>
+          <p>The 2011 amendment,
+      effective July 1, 2011, substituted "this state" for "the state" in paragraphs (2), (5), and (6); substituted "Department of Economic Development" for "Office of Planning and Budget" in the introductory paragraph; substituted "this state's" for "the state's" in paragraph (3); and inserted a comma following "activities" in paragraph (6).</p>
+          <p>The 2013 amendment,
+      effective July 1, 2013, deleted "and" at the end of paragraph (5); substituted the present provisions of paragraph (6) for the former provisions, which read: "Survey public and private institutions engaged within this state in cultural activities, including, but not limited to, architecture, dance, folk arts and applied arts and crafts, literature, music, painting, photography, sculpture, and theater."; and added paragraphs (7) through (9).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

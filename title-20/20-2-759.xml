@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-759"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-759"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-759/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-759/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-759/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-759/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_759">
+        <num>20-2-759</num>
+        <content>
+          <p>The State Board of Education shall promulgate rules and regulations to require minimum qualifications for hearing officers, disciplinary hearing officers, tribunals, and panels that are tasked with hearing matters in this subpart. The State Board of Education shall promulgate rules and regulations to ensure that such individuals have initial training prior to serving as a hearing officer or disciplinary hearing officer or on a tribunal or panel, undergo continuing education so as to continue to serve in such capacity, and function as independent, neutral arbiters.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

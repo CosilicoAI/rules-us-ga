@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-197"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-197"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-197/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-197/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-197/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-197/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_197">
+        <num>36-82-197</num>
+        <content>
+          <p>If after the first six months of the year, 75 percent or more of the economic development share or any one or more reservation components of the housing share remains unallocated, the commissioner may transfer any available state ceiling, or any part thereof, from the economic development share or the applicable reservation component of the housing share, as the case may be, to the flexible share, if the commissioner anticipates that such amounts are not likely to be used in either the economic development share or the applicable reservation component of the housing share; provided, however, that no such transfer may be made by the commissioner if an issuer submits a letter to the commissioner indicating that such issuer intends to use all or a portion exceeding 25 percent of the respective share or components thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

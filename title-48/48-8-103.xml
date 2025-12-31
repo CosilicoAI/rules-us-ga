@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-103"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-103/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-103/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_103">
+        <num>48-8-103</num>
+        <content>
+          <p>Such statement shall be followed by the following:</p>
+          <p>"(
+   ) YES Shall a retail homestead option sales and use tax of 1 percent be levied within the
+   special
+   (
+   )
+   NO district within ______________ County for the purposes of funding capital outlay projects and of funding services to replace revenue lost to an additional homestead exemption of up to 100 percent of the assessed value of homesteads from county taxes for county purposes?"</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

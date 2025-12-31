@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-51-6"/>
+          <FRBRuri value="/us-ga/act/ocga/33-51-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-51-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-51-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-51-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-51-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_51_6">
+        <num>33-51-6</num>
+        <content>
+          <p>Notwithstanding the provisions of paragraphs (2) and (3) of Code Section 33-51-5, health benefit plans providing incentives for covered persons to use pharmaceutical or dental services of preferred providers shall provide, and clearly indicate, that the payment or reimbursement for a noncontracting provider of covered pharmaceutical or dental services shall be the same as the payment or reimbursement for a preferred provider of covered pharmaceutical or dental services; provided, however, that the health benefit plan shall not be required to make payment or reimbursement in an amount which is greater than the actual fee charged by the provider for such dental or pharmaceutical services.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

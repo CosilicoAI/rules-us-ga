@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-33"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_33">
+        <num>12-3-33</num>
+        <content>
+          <p>Any county, and any municipality therein, may use any available funds to aid in the purchase of any land or other property within the county which is to become the property of the state for incorporation into the state park system, provided that the department shall have first agreed in writing to the acceptance of the same. Any county, and any municipality therein, may contribute any available funds to or perform services for the department in furtherance of the improvement, maintenance, and operation of any state owned park or other property which is as of November 1, 1982, or may thereafter become a part of the state park system.</p>
+          <p>(Ga. L. 1937, p. 264, § 9; Ga. L. 1959, p. 75, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

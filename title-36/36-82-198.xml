@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-198"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-198"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-198/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-198/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-198/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-198/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_198">
+        <num>36-82-198</num>
+        <content>
+          <p>The department may set aside and reserve from the flexible share amounts which may be treated as a carryforward for one or more carryforward purposes, within the meaning of Section 146 of the Federal Code. Section 146 of the Federal Code requires an election for the use of such carryforward to a future year or years, and regulations with respect to such carryforwards may be promulgated under the Federal Code. The department shall promulgate such rules and procedures as may be necessary in order to use the provisions of the Federal Code and any regulations promulgated pursuant to the Federal Code for such carryforward. The amount of any such carryforward which is set aside and reserved shall be subtracted from the outstanding amount of the flexible share with the same effect as if a notice of allocation were in the amount of the carryforward and confirmation of issuance were received prior to the expiration date.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

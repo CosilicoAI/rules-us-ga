@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2-505"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-505"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2-505/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-505/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2-505/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-505/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2_505">
+        <num>11-2-505</num>
+        <content>
+          <p>When shipment by the seller with reservation of a security interest is in violation of the contract for sale it constitutes an improper contract for transportation within Code Section 11-2-504 but impairs neither the rights given to the buyer by shipment and identification of the goods to the contract nor the seller's powers as a holder of a negotiable document of title.</p>
+          <p>(Code 1933, § 109A-2 - 505, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 2010, p. 481, § 2-8/HB 451.)</p>
+          <p>The 2010 amendment,
+      effective May 27, 2010, in subsection (1), inserted "or her" throughout; in paragraph (1)(b), inserted "or herself" near the beginning and inserted "or control" near the end; and added "of title" at the end of subsection (2). See the Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

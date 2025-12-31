@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-731"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-731"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-731/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-731/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-731/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-731/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_731">
+        <num>7-1-731</num>
+        <content>
+          <p>As used in this article, the term "domestic international banking facility" means the location within this state of any banking office, other than an "international bank agency," as defined in Code Section 7-1-710, which derives its funds (1) from sources outside of the United States, (2) from another domestic international banking facility, or (3) from temporary advances from its parent organization and employs those funds for banking purposes outside of the United States or through its parent organization, but does not accept deposits subject to check or draft. A domestic international banking facility, when properly established pursuant to this article, shall not be considered to be a "branch office" or "main office" as defined in Code Section 7-1-600.</p>
+          <p>(Ga. L. 1981, p. 770, § 2; Ga. L. 1999, p. 674, § 28.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-4-40"/>
+          <FRBRuri value="/us-ga/act/ocga/32-4-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-4-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-4-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-4-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-4-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_4_40">
+        <num>32-4-40</num>
+        <content>
+          <p>Each county shall, by resolution, designate roads to be a part of its county road system; and such resolutions shall be recorded in the minutes of the county. All such roads shall be laid out on the shortest and best route to their intended destination and with as little injury to private property as possible. When a road has been designated as a part of a county road system, this change shall be recorded on the official map of the county road system, as provided for in subsection (a) of Code Section 32-4-2, and in the written record of the county road system, as provided for in subsection (b) of Code Section 32-4-2.</p>
+          <p>(Laws 1818, Cobb's 1851 Digest, p. 951; Code 1863, § 584; Code 1868, § 648; Code 1873, § 609; Code 1882, § 609; Civil Code 1895, § 529; Civil Code 1910, § 645; Code 1933, § 95-205; Code 1933, § 95A-203, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

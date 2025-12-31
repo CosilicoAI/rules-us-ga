@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-168"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-168"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-168/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-168/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-168/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-168/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_168">
+        <num>9-10-168</num>
+        <content>
+          <p>No continuance shall be granted in any of the courts in this state which have a continuous session for 30 days or more, over the objection of the adverse party, where the cause for the same can be obviated by a postponement to a later day during the term. It shall be the duty of the presiding judge, whenever a motion and a proper showing for a continuance are made by either party at any time, to set the case down for a later day during the same term if it is practicable thereby to avoid the continuance of the case.</p>
+          <p>(Ga. L. 1893, p. 56, § 1; Civil Code 1895, § 5139; Civil Code 1910, § 5725; Code 1933, § 81-1420.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

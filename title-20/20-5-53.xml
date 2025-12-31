@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-5-53"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-5-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-5-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_5_53">
+        <num>20-5-53</num>
+        <content>
+          <p>Any person who borrows from any public library any book, newspaper, magazine, manuscript, pamphlet, publication, recording, video product, microform, computer software, film, or other article or equipment necessary to its display or use belonging to or in the care of such public library under any agreement to return it and thereafter fails to return such book, newspaper, magazine, manuscript, pamphlet, publication, recording, video product, microform, computer software, film, or other article or equipment necessary to its display or use shall be given written notice, mailed to his last known address or delivered in person, to return such article or equipment within 15 days after the date of such notification. Such notice shall contain a copy of this Code section. If such person shall thereafter willfully and knowingly fail to return such article or equipment within 15 days, such person shall be guilty of a misdemeanor and, upon conviction thereof, shall be punished by a fine of not more than $500.00 or imprisonment for not more than 30 days and shall be required to return such article or equipment or provide reimbursement for the replacement cost of such article or equipment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

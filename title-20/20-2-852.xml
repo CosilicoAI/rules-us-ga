@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-852"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-852"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-852/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-852/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-852/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-852/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_852">
+        <num>20-2-852</num>
+        <content>
+          <p>A local board of education that permits paternity or maternity time off for biological parents following the birth of a child shall, upon request, make such time off available for individuals adopting a child, in the same manner and utilizing the same type of leave.If the local board of education has established a policy providing time off for biological parents, that period of time shall be the minimum period of leave available for adoptive parents.Requests for additional leave due to the adoption of an ill child or a child with a disability shall be considered on the same basis as comparable cases of such complications accompanying the birth of such a child to an employee or employee's spouse.Any other benefits provided by the local board of education, such as job guarantee or pay, shall be available to both adoptive and biological parents on an equal basis.A local board of education shall not penalize an employee for exercising the rights provided by this Code section.The provisions of this Code section shall not apply to an adoption by the spouse of a custodial parent.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

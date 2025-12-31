@@ -1,0 +1,101 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-104"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_104">
+        <num>48-8-104</num>
+        <content>
+          <p>First, calculate the
+   homestead factor in
+   accordance with division
+   (c)(2)(B)(i) of this Code
+   section as follows:
+   (A)
+   Capital factor
+   certified by county as
+   required by subsection (d)
+   of this Code section
+   0.150
+   (B) Net amount of sales and
+   use tax collected in the
+   special district pursuant
+   to this part for the
+   previous calendar year
+   $50 million
+   (C) Taxes levied for county
+   purposes on only that
+   portion of the county tax
+   digest that represents net
+   assessments on qualified
+   homestead property after
+   all other homestead
+   exemptions have been applied
+   $100 million
+   (D) Calculation of
+   homestead factor using
+   figures above =
+   [(1-.0150)($50 million/$100
+   million)]
+   .425
+   Next, calculate the
+   equalization amount in
+   accordance with paragraph (1)
+   of this subsection as follows:
+   (E) Unincorporated county
+   millage rate
+   15.0 mills
+   (F)
+   Minus the incorporated
+   county millage rate for
+   qualified municipality "Y"
+   (10.0 mills)
+   Difference:
+   = 5.0 mills
+   (G) Times homestead factor
+   (calculated above)
+   x .425
+   (H) Equals the equalization
+   millage:
+   = 2.125 mills
+   (I) Times net homestead
+   digest for qualified
+   municipality "Y"
+   $200 million
+   (J) Equals the equalization
+   amount payable to
+   municipality "Y"
+   $425,000.00</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

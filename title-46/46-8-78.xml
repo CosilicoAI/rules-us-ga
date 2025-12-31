@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-78"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-78"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-78/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-78/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-78/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-78/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_78">
+        <num>46-8-78</num>
+        <content>
+          <p>When the certificate of the judge of the probate court is filed with the Secretary of State pursuant to Code Section 46-8-77, and when the certificate of the Public Service Commission approving the application is likewise filed with the Secretary of State, the Secretary of State shall pass an order under the seal of the state accepting the surrender of the charter and franchises and dissolving the corporation. The Secretary of State shall record the petition for dissolution, the certificate of approval of the Public Service Commission, the certificate of the judge of the probate court as to the publication, and an order accepting the surrender of the charter and franchises and dissolving the corporation named in the order.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 213, § 8; Ga. L. 1982, p. 3, § 46.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

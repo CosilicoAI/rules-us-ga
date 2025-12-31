@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-13-16"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-13-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-13-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-13-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_13_16">
+        <num>50-13-16</num>
+        <content>
+          <p>When in a contested case a majority of the officials of the agency who are to render the final decision have not heard the case or read the record, the decision, if adverse to a party to the proceeding other than the agency itself, shall not be made until a proposal for decision is served upon the parties and an opportunity is afforded to each party adversely affected to file exceptions and present briefs and oral argument to the officials who are to render the decision. The proposal for decision shall contain a statement of the reasons therefor and of each issue of fact or law necessary to the proposed decision, prepared by the person who conducted the hearing or one who has read the record. The parties by written stipulation may waive compliance with this Code section.</p>
+          <p>(Ga. L. 1964, p. 338, § 17.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

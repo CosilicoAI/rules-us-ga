@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-36-34"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-34"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-36-34/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-34/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-36-34/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-36-34/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_36_34">
+        <num>36-36-34</num>
+        <content>
+          <p>Whenever the governing body of a municipal corporation receives an application pursuant to Code Section 36-36-32, it shall, after investigation, determine whether such application complies with the requirements of this article. If it is determined that the application does not comply with this article, the governing body shall notify in writing the persons presenting the application, stating wherein the application is deficient. If it is determined that the application does comply with this article, the municipal governing body shall proceed to act on the application in accordance with Code Section 36-36-36.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

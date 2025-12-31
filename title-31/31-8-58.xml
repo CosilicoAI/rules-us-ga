@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-58"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-58"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-58/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-58/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-58/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-58/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_58">
+        <num>31-8-58</num>
+        <content>
+          <p>The identity of any complainant, resident on whose behalf a complaint is made, or individual providing information on behalf of the resident or complainant relevant to the investigation of a complaint shall be confidential and may be disclosed only with the express permission of such person. The information produced by an investigation may be disclosed by the state ombudsman or community ombudsman only if the identity of any such person is not disclosed by name or inference. If the identity of any such person is disclosed by name or inference in such information, the information may be disclosed only with his express permission. If the complaint becomes the subject of a judicial proceeding, such investigative information may be disclosed for the purpose of the proceeding.</p>
+          <p>(Code 1933, § 88-1908a, enacted by Ga. L. 1979, p. 1240, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-11-687"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-687"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-11-687/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-687/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-11-687/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-687/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_11_687">
+        <num>15-11-687</num>
+        <content>
+          <p>Any physician or any person employed or connected with a physician, hospital, or health care facility performing abortions who acts in good faith shall be justified in relying on the representations of the unemancipated minor or of any other person providing the information required under this article. No physician or other person who furnishes professional services related to an act authorized or required by this article and who relies upon the information furnished pursuant to this article shall be held to have violated any criminal law or to be civilly liable for such reliance, provided that the physician or other person acted in good faith.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

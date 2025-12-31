@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-11-14"/>
+          <FRBRuri value="/us-ga/act/ocga/44-11-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-11-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-11-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-11-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-11-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_11_14">
+        <num>44-11-14</num>
+        <content>
+          <p>When a verdict in ejectment is rendered in favor of the plaintiff and a judgment is entered thereon, the clerk of the superior court shall issue a writ of possession in which the clerk shall incorporate a clause directing the sheriff to collect by levy and sale of the defendant's property all sums of money awarded to the plaintiff in ejectment as mesne profits and costs.</p>
+          <p>(Orig. Code 1863, § 3559; Code 1868, § 3582; Code 1873, § 3637; Code 1882, § 3637; Civil Code 1895, § 5418; Civil Code 1910, § 6023; Code 1933, § 33-120.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

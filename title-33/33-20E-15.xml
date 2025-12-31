@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-15"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-20E-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20E-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_20E_15">
+        <num>33-20E-15</num>
+        <content>
+          <p>Each party shall submit one proposed payment amount to the arbitrator. The arbitrator shall pick one of the two amounts submitted and shall reveal that amount in the arbitrator's final decision. The arbitrator may not modify such selected amount. In making such a decision, the arbitrator shall consider the complexity and circumstances of each case, including, but not limited to, the level of training, education, and experience of the relevant physicians or other individuals at the facility who are licensed or otherwise authorized in this state to furnish healthcare services and other factors as determined by the Commissioner through rule. The arbitrator's final decision shall be in writing and shall describe the basis for such decision, including citations to any documents relied upon. Notwithstanding Code Section 33-20E-14, such decision shall be made within 30 days of the Commissioner's referral. Any default or final decision issued by the arbitrator shall be binding upon the parties and is not appealable through the court system.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

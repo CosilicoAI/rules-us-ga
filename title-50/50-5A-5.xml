@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5A-5"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5A-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5A-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5A-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5A-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5A-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5A_5">
+        <num>50-5A-5</num>
+        <content>
+          <p>The Governor, at all times when, in the Governor's opinion, the security or securities of the state treasurer have or are likely to become invalid or insufficient, shall demand and require the state treasurer forthwith to renew the bond to the state, in the amount and according to the form prescribed in Code Sections 50-5A-2 through 50-5A-4, and in case of neglect or refusal by any state treasurer to give bond, with security or securities, within ten days after the same is demanded and required by the Governor, such neglect or refusal shall be a disqualification under the law and shall create a vacancy in the office of the state treasurer. The State Depository Board shall forthwith appoint a fit and proper person to fill the vacancy occasioned thereby; and the appointee shall give bond and security in the same manner and upon the same terms as prescribed for the state treasurer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

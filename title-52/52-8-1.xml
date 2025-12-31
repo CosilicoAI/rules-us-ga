@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-8-1"/>
+          <FRBRuri value="/us-ga/act/ocga/52-8-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-8-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-8-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-8-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-8-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_8_1">
+        <num>52-8-1</num>
+        <content>
+          <p>Any master of a vessel or watercraft who shall throw or permit to be thrown any stone, gravel, or other ballast from on board the vessel or watercraft into any of the waters of any bay or harbor of this state or within three miles of the outside bar of any such bay or harbor shall forfeit a sum not less than $500.00 nor more than $2,000.00 for each such offense. One-half of the forfeiture shall be paid to the person who first gives information of the offense to the Board of Pilotage Commissioners and the other half shall be paid to the use of the commissioners of the harbors, respectively, for improvement of navigation. In addition, any such master may be punished by imprisonment for not over three months, in the discretion of the court.</p>
+          <p>(Laws 1847, Cobb's 1851 Digest, p. 50; Code 1863, § 1486; Code 1868, § 1543; Code 1873, § 1537; Code 1882, § 1537; Civil Code 1895, § 1685; Penal Code 1895, § 646; Civil Code 1910, § 1931; Penal Code 1910, § 686; Code 1933, §§ 98-102, 98-9902.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

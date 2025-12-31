@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-3-301"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-301"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-3-301/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-301/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-3-301/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-301/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_3_301">
+        <num>11-3-301</num>
+        <content>
+          <p>"Person entitled to enforce" an instrument means (i) the holder of the instrument; (ii) a nonholder in possession of the instrument who has the rights of a holder; or (iii) a person not in possession of the instrument who is entitled to enforce the instrument pursuant to Code Section 11-3-309 or subsection (d) of Code Section 11-3-418. A person may be a person entitled to enforce the instrument even though the person is not the owner of the instrument or is in wrongful possession of the instrument.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

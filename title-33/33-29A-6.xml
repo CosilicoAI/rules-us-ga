@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-29A-6"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29A-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-29A-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29A-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-29A-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29A-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_29A_6">
+        <num>33-29A-6</num>
+        <content>
+          <p>Any combination of one or more health insurers and one or more managed care organizations may contract with each other for the assumption by one or more health insurers of the obligations otherwise imposed by this chapter on one or more managed care organizations. Under any such contract the responsibility for providing the coverage required by this chapter shall be with a health insurer licensed to do business in this state. Where the obligations of a managed care organization are contractually assumed by a health insurer, the assuming health insurer may substitute coverage under a standard policy of health insurance for coverage under a standard health benefit plan, and provision of such substituted coverage shall satisfy the obligation otherwise owed to an affected eligible individual.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

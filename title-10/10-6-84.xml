@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-6-84"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-84"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-6-84/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-84/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-6-84/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-84/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_6_84">
+        <num>10-6-84</num>
+        <content>
+          <p>When the agent shall exceed his authority so that the principal is not bound, the agent may not enforce the contract in his own name against the person with whom he deals unless the contract shall have been fully executed upon the part of the agent or the credit was originally given to the agent.</p>
+          <p>(Orig. Code 1863, § 2192; Code 1868, § 2188; Code 1873, § 2214; Code 1882, § 2214; Civil Code 1895, § 3042; Civil Code 1910, § 3614; Code 1933, § 4-408.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

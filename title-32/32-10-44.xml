@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-10-44"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-10-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-10-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_10_44">
+        <num>32-10-44</num>
+        <content>
+          <p>The authority is authorized, subject to any prior resolution or trust indenture, to provide by resolution for the issuance of refunding bonds of the authority for the purpose of refunding any bonds issued under this article and then outstanding, together with accrued interest thereon. The issuance of such refunding bonds, the maturities and all other details thereof, the rights of the holders thereof, and the duties of the authority in respect to the same shall be governed by this article insofar as it may be applicable.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 626, § 28; Ga. L. 1955, p. 124, § 29; Ga. L. 1967, p. 385, § 28; Code 1933, § 95A-1228, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-188"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-188"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-188/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-188/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-188/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-188/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_188">
+        <num>20-2-188</num>
+        <content>
+          <p>(a.1)Any funds that the State Board of Education allocates for school bus replacement may be used by local boards of education to refurbish existing school buses. Bus replacement funds may not be restricted by the state board for use only in purchasing new or replacement school buses. Any school bus that is refurbished shall be subject to all safety and maintenance inspection requirements provided for by law. Refurbishment of a school bus shall be done by a school bus manufacturer or by a dealer of a manufacturer. Each local board of education that refurbishes a school bus pursuant to this subsection is strongly encouraged to apply for federal funds to retrofit the engine. The State Board of Education shall notify the Environmental Protection Division when a local board of education receives state funds to refurbish a school bus so that the division may provide information to such local board regarding the availability of federal funds for such purposes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

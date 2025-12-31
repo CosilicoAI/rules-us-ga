@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-24-94"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-94"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-24-94/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-94/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-24-94/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-94/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_24_94">
+        <num>33-24-94</num>
+        <content>
+          <p>If an insurer takes an adverse action based upon credit information, the insurer must meet the notice requirements of this Code section. Such insurer shall provide notification to the consumer that an adverse action has been taken, in accordance with the requirements of the federal Fair Credit Reporting Act, 15 USC 1681m(a), and shall provide notification to the consumer explaining the reason or reasons for the adverse action. The reasons must be provided in sufficiently clear and specific language so that a person can identify the basis for the insurer's decision to take an adverse action. Such notification shall include a description of up to four factors that were the primary influences of the adverse action. The use of generalized terms such as "poor credit history," "poor credit rating," or "poor insurance score" does not meet the explanation requirements of this Code section. Standardized credit explanations provided by consumer reporting agencies or other third party vendors are deemed to comply with this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-42"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_42">
+        <num>31-8-42</num>
+        <content>
+          <p>Any hospital which operates an emergency service shall be required to provide the appropriate, necessary emergency services to any pregnant woman who is a resident of this state and who presents herself in active labor to the hospital, if those services are usually and customarily provided in that facility, which services shall be provided within the scope of generally accepted practice based upon the information furnished the hospital by the pregnant woman, including such information as the pregnant woman reveals concerning her prenatal care, diet, allergies, previous births, general health information, and other such information as the pregnant woman may furnish the hospital. If, in the medical judgment of the physician responsible for the emergency service, the hospital must transfer the patient because the hospital is unable to provide appropriate treatment, the hospital where the patient has presented herself shall:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

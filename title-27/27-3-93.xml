@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-3-93"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-93"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-3-93/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-93/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-3-93/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-93/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_3_93">
+        <num>27-3-93</num>
+        <content>
+          <p>It shall be unlawful for any person to ship or transport from any point within this state to any other point within this state, or to points beyond this state, any wildlife or parts thereof for propagation or scientific purposes unless the person has been issued and is holding a valid scientific collecting permit. Both the person shipping or transporting the wildlife and any carrier accepting such shipment shall, on the same day the shipment is made, report to the department the number and the species of wildlife shipped, to whom shipped, and by whom shipped.</p>
+          <p>(Ga. L. 1955, p. 483, § 48; Code 1933, § 45-404, enacted by Ga. L. 1977, p. 396, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

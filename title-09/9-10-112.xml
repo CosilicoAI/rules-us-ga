@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-112"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-112"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-112/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-112/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-112/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-112/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_112">
+        <num>9-10-112</num>
+        <content>
+          <p>Whenever an action is brought on an open account and the same is verified by the plaintiff as provided by law, the answer either shall deny that the defendant is indebted in any sum or shall specify the amount in which the defendant admits he may be indebted and it shall be verified as required by law.</p>
+          <p>(Ga. L. 1901, p. 55, § 1; Civil Code 1910, § 4728; Code 1933, § 81-410.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

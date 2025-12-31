@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-12-64"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-64"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-12-64/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-64/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-12-64/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-64/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_12_64">
+        <num>9-12-64</num>
+        <content>
+          <p>In all cases of scire facias to revive a judgment, when service has been perfected, the judgment may be revived on motion at the first term without the intervention of a jury unless the person against whom judgment was entered files an issuable defense under oath, in which case the defendant in judgment shall be entitled to a trial by jury as in other cases.</p>
+          <p>(Orig. Code 1863, § 3527; Code 1868, § 3550; Code 1873, § 3609; Code 1882, § 3609; Civil Code 1895, § 5383; Civil Code 1910, § 5978; Code 1933, § 110-1008.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

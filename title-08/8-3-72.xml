@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-72"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-72"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-72/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-72/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-72/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-72/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_72">
+        <num>8-3-72</num>
+        <content>
+          <p>Bonds of an authority are declared to be issued for an essential public and governmental purpose and to be public instrumentalities. All such bonds shall be exempt from state, county, municipal, or other taxation in the State of Georgia; and interest on such bonds shall be exempt from income taxation or other taxation by the State of Georgia or by any political subdivision thereof. The provisions of this article exempting from taxation both the properties of housing authorities and the bonds and interest thereon shall constitute, by virtue of this article and without the necessity of the same being restated in such bonds, a contract between the bondholders, including all transferees of such bonds, from time to time, on the one hand and the respective housing authorities issuing such bonds and the state on the other.</p>
+          <p>(Ga. L. 1937, p. 210, § 14; Ga. L. 1939, p. 124, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

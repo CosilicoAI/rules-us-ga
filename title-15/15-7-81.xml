@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-7-81"/>
+          <FRBRuri value="/us-ga/act/ocga/15-7-81"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-7-81/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-7-81/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-7-81/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-7-81/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_7_81">
+        <num>15-7-81</num>
+        <content>
+          <p>Any contract entered into pursuant to this article shall provide that the county shall furnish municipal court services to the municipality through the officers, employees, and facilities of the state court of the county.Any contract so entered into shall not become effective unless it is approved by the state court judge or judges then in office; and no such contract shall extend beyond the term of the judges then in office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

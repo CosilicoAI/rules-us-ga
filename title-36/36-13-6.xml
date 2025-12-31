@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-13-6"/>
+          <FRBRuri value="/us-ga/act/ocga/36-13-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-13-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-13-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-13-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-13-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_13_6">
+        <num>36-13-6</num>
+        <content>
+          <p>The county governing authority shall have the authority to make rules and regulations concerning permits for and inspections of construction equipment and the alteration, repair, or removal of buildings, signs, and other structures outside the corporate limits of municipalities located in its county. It may prescribe fees or charges for permits and inspections, which fees shall be fixed and charged by the governing authority and shall be paid to the county treasurer by the applicant for such permits or inspections.</p>
+          <p>(Ga. L. 1961, p. 560, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

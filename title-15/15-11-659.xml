@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-11-659"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-659"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-11-659/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-659/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-11-659/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-659/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_11_659">
+        <num>15-11-659</num>
+        <content>
+          <p>If at any time after a child is adjudicated to be incompetent to proceed due to age, immaturity, or for any reason other than mental illness or developmental disability and is ordered to undergo competency remediation services and DBHDD determines that such child is likely to remain incompetent to proceed for the foreseeable future, DBHDD shall submit a report and its conclusions to the court. Upon receipt of such report, the court shall:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

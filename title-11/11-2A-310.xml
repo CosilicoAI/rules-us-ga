@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-310"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-310"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-310/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-310/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-310/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-310/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_310">
+        <num>11-2A-310</num>
+        <content>
+          <p>When under subsections (2) or (3) and (4) a lessor or a lessee of accessions holds an interest that is superior to all interests in the whole, the lessor or the lessee may (a) on default, expiration, termination, or cancellation of the lease contract by the other party but subject to the provisions of the lease contract and this article, or (b) if necessary to enforce his other rights and remedies under this article, remove the goods from the whole, free and clear of all interests in the whole, but he must reimburse any holder of an interest in the whole who is not the lessee and who has not otherwise agreed for the cost of repair of any physical injury but not for any diminution in value of the whole caused by the absence of the goods removed or by any necessity for replacing them.A person entitled to reimbursement may refuse permission to remove until the party seeking removal gives adequate security for the performance of this obligation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

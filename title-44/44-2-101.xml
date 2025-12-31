@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-101"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-101"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-101/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-101/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-101/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-101/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_101">
+        <num>44-2-101</num>
+        <content>
+          <p>Upon the filing of a petition as provided in this article, the clerk shall at once notify the judge who shall refer the action to one of the general examiners or to a special examiner. It shall then become the duty of the examiner to make up a preliminary report containing an abstract of the title to the land from public records and all other evidence of a trustworthy nature that can reasonably be obtained by the examiner, which abstract shall contain:</p>
+          <p>(Ga. L. 1917, p. 108, § 16; Code 1933, § 60-302; Ga. L. 1982, p. 3, § 44; Ga. L. 2011, p. 99, § 79/HB 24.)</p>
+          <p>The 2011 amendment,
+      effective January 1, 2013, substituted "the examiner" for "him" near the end of the introductory paragraph and deleted the former last sentence of this Code section, which read: "The report shall be prima-facie evidence of the contents thereof." See Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-40-28"/>
+          <FRBRuri value="/us-ga/act/ocga/43-40-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-40-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-40-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-40-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-40-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_40_28">
+        <num>43-40-28</num>
+        <content>
+          <p>Whenever, in the judgment of the commission, any person has engaged in any acts or practices which constitute or will constitute a violation of this chapter, the Attorney General may maintain an action in the name of the state in the superior court of the county in which such violation occurred to abate and enjoin temporarily and permanently such acts and practices and to enforce compliance with this chapter. The plaintiff shall not be required to give any bond.</p>
+          <p>(Code 1933, § 84-1407, enacted by Ga. L. 1973, p. 100, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

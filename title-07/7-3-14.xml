@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-3-14"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-3-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-3-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-3-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_3_14">
+        <num>7-3-14</num>
+        <content>
+          <p>Notwithstanding the provisions of any contract to the contrary, a borrower may at any time prepay all or any part of the unpaid balance to become payable under any installment loan. If the borrower prepays the loan in full before maturity, the licensee shall refund to the borrower a portion of the prepaid interest, calculated in complete even months (odd days omitted), as follows: the amount of the refund shall represent at least as great a proportion of the total interest as the sum of the periodical time balance after the date of prepayment bears to the sum of all periodical time balances under the schedule of payments in the original contract. Where the amount of the refund due to anticipation of payment is less than $1.00, no refund need be made. If the borrower has been required to purchase insurance coverage other than insurance coverage in a blanket policy when the borrower has paid no acquisition cost, the borrower shall have the option to continue such insurance in force for the balance of the policy period, with all rights transferred to the borrower or his or her assigns, in which event no refund of insurance premiums shall be made.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

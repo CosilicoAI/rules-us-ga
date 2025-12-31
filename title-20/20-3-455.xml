@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-455"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-455"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-455/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-455/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-455/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-455/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_455">
+        <num>20-3-455</num>
+        <content>
+          <p>The authority is authorized to prescribe such rules and regulations as may be necessary or convenient for administration of this program and to establish procedures for determination of eligibility of applicants. The authority is also authorized to establish standards and procedures for verifying the death or permanent disability of the applicant's parent and for such purpose is authorized to require a physical examination and to pay for the cost of such examination from funds appropriated for use by the authority for the purposes of this subpart.</p>
+          <p>(Ga. L. 1972, p. 1133, § 7; Code 1933, § 32-3779, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

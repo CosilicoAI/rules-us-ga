@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/29-7-6"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/29-7-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/29-7-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_7_6">
+        <num>29-7-6</num>
+        <content>
+          <p>Upon a petition for the appointment of a VA guardian, notice shall be given to the department office having jurisdiction over the area in which the ward resides, to the proposed ward, and to two adult relatives of the proposed ward by certified mail or statutory overnight delivery by the court. If two adult relatives of the proposed ward cannot be located, notice to one adult relative shall be sufficient. If no adult relative can be located, the court shall give notice of the petition in the newspaper in which legal advertisements of the county in which the ward resides are published once a week for two weeks. After notice has been given or published, the letters of guardianship may, in the discretion of the court, be granted to the petitioner or to some other suitable person. If all parties entitled to notice waive further notice and consent to the notice instanter, the court may, in its discretion, grant letters of guardianship instanter to the petitioner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

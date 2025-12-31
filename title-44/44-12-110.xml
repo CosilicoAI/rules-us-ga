@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-110"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-110/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-110/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_110">
+        <num>44-12-110</num>
+        <content>
+          <p>Loans may be either for consumption or for use. A loan for consumption is a loan of an article which is not to be returned in specie, but in kind; this is a sale and not a bailment.</p>
+          <p>(Orig. Code 1863, § 2103; Code 1868, § 2098; Code 1873, § 2125; Code 1882, § 2125; Civil Code 1895, § 2944; Civil Code 1910, § 3516; Code 1933, § 12-501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

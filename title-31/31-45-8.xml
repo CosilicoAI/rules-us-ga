@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-45-8"/>
+          <FRBRuri value="/us-ga/act/ocga/31-45-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-45-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-45-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-45-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-45-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_45_8">
+        <num>31-45-8</num>
+        <content>
+          <p>Each public swimming pool shall be inspected by the county board of health to determine compliance with this chapter and with the rules and regulations adopted by the Department of Public Health. Pools which open on or after April 1 and which close on or before October 31 shall be inspected at least once during the period of operation. All other pools shall be inspected at least twice a year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

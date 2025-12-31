@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-9-9"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-9-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-9-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_9_9">
+        <num>40-9-9</num>
+        <content>
+          <p>Whenever a driver's license is suspended under any provisions of this chapter and the filing of proof of financial responsibility is made a prerequisite to reinstatement of such license, no such license shall be reinstated unless the driver or owner, in addition to complying with the other provisions of this chapter, pays to the department a fee of $25.00. Only one such fee shall be paid by any one person irrespective of the number of licenses to be reinstated. The fees paid pursuant to this Code section shall be expendable receipts to be used only by the department toward the cost of administration of this chapter.</p>
+          <p>(Ga. L. 1963, p. 593, § 9; Ga. L. 1969, p. 819, § 6; Code 1933, § 68C-605, enacted by Ga. L. 1977, p. 1014, § 1; Ga. L. 1983, p. 487, § 3; Ga. L. 2005, p. 334, § 20-1/HB 501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-88"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-88"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-88/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-88/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-88/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-88/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_88">
+        <num>32-6-88</num>
+        <content>
+          <p>Upon written request made by any county, city, corporation, partnership, association, person, or persons, the board is authorized to consider and to designate a specific area or areas as a defined area or areas, upon a showing having been made that the area in question contains directional signs, displays, or devices which were lawfully erected under state law in force at the time of erection and in existence on May 5, 1976, and which do not conform to the requirements of paragraphs (1) through (6) of Code Section 32-6-72 and paragraphs (1) through (4) of Code Section 32-6-73, and upon a further showing that such directional signs, displays, and devices provide directional information about goods and services in the specific interest of the traveling public and that their removal would work a substantial economic hardship in such defined area or areas.</p>
+          <p>(Code 1933, § 95A-934.1, enacted by Ga. L. 1979, p. 1086, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

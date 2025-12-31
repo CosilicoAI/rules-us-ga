@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-7-17"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-7-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-7-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_7_17">
+        <num>2-7-17</num>
+        <content>
+          <p>Whenever an owner or other person cannot be found or fails, neglects, or refuses to obey the requirements of the notice given under Code Section 2-7-16 and the rules and regulations made pursuant to this article, such requirements shall be carried out by the inspectors or other employees or agents of the department. The Commissioner shall have and enforce a lien for the expense thereof against the place in or upon which such expense was incurred, in the same manner as liens are had and enforced upon buildings and lots, wharves, and piers, for labor and materials furnished by virtue of contract with the owner. No compensation shall be allowed for any trees or plants, plant products, or other things or substances that are destroyed.</p>
+          <p>(Ga. L. 1937, p. 659, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

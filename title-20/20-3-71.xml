@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-71"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-71"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-71/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-71/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-71/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-71/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_71">
+        <num>20-3-71</num>
+        <content>
+          <p>The board of regents is authorized to secure liability insurance covering the operation of any nuclear facility established at any school under the control of the board. Such liability insurance shall cover all teachers, instructors, employees, and any other person, firm, or corporation performing services incident to the nuclear facility above mentioned. Any such insurance shall contain a provision that the sovereign immunity of the board shall not be asserted as a defense by the insurer without the specific prior approval of the board. The insurance may be in any amount deemed proper by the board but shall not exceed the sum of $250,000.00.</p>
+          <p>(Ga. L. 1960, p. 1027, § 1; Ga. L. 1992, p. 6, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

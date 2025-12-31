@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-7-30"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-7-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-7-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_7_30">
+        <num>53-7-30</num>
+        <content>
+          <p>Unless otherwise provided by will or relieved under Code Section 53-7-32 or 53-7-33, the personal representative shall prepare an inventory of all the property of the decedent. The personal representative shall file the inventory with the probate court and shall deliver a copy of the inventory to the beneficiaries of a testate estate or the heirs of an intestate estate by first-class mail within six months after the qualification of the personal representative. It shall not be necessary to mail a copy of the inventory to any beneficiary or heir who is not sui juris or for the court to appoint a guardian for such person. The time for filing the inventory may be extended by the probate court for good cause shown. The inventory shall state that it contains a true statement of all the property of the decedent within the knowledge of the personal representative and shall be verified in the same manner as a petition filed in the probate court. The inventory shall state that the inventory has been mailed to all beneficiaries or heirs who are entitled to receive the inventory and shall provide the name of any beneficiary or heir who has waived the right to receive the inventory, as provided in Code Section 53-7-32.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

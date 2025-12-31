@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-4-23"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-4-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-4-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_4_23">
+        <num>4-4-23</num>
+        <content>
+          <p>No person shall feed garbage to swine without first applying for and obtaining a license from the Commissioner. There shall be no fee for such license, and it shall be valid until and unless revoked or canceled. The requirement of obtaining a license shall not apply to an individual feeding his own animals garbage from his own household. No license which will permit the feeding of any garbage, as that term is defined in subsection (a) of Code Section 4-4-22, to swine shall be issued to any person who does not meet the qualifications of subsection (c) of Code Section 4-4-22.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 480, § 3; Ga. L. 1960, p. 939, § 1; Ga. L. 1971, p. 60, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

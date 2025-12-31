@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-14-6"/>
+          <FRBRuri value="/us-ga/act/ocga/50-14-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-14-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-14-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-14-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-14-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_14_6">
+        <num>50-14-6</num>
+        <content>
+          <p>Any person knowingly and willfully conducting or participating in a meeting in violation of this chapter shall be guilty of a misdemeanor and upon conviction shall be punished by a fine not to exceed $1,000.00. Alternatively, a civil penalty may be imposed by the court in any civil action brought pursuant to this chapter against any person who negligently violates the terms of this chapter in an amount not to exceed $1,000.00 for the first violation. A civil penalty or criminal fine not to exceed $2,500.00 per violation may be imposed for each additional violation that the violator commits within a 12 month period from the date that the first penalty or fine was imposed. It shall be a defense to any criminal action under this Code section that a person has acted in good faith in his or her actions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

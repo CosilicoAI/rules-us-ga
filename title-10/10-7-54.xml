@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-7-54"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-54"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-7-54/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-54/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-7-54/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-54/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_7_54">
+        <num>10-7-54</num>
+        <content>
+          <p>Every endorser who shall pay off and discharge the debt on which he is endorser, either pending the action or after judgment, whether the judgment against the principal and the endorsers is joint or several, shall be entitled to control the judgment and execution founded thereon against the principal and all prior endorsers, in the same manner, upon the same proof, and under the same circumstances as provided in this article in the case of sureties; and, if such endorser shall collect the same from a prior endorser, the latter shall have the same control of the judgment or judgments against the principal or any endorser prior to him.</p>
+          <p>(Laws 1839, Cobb's 1851 Digest, p. 596; Laws 1845, Cobb's 1851 Digest, p. 598; Laws 1850, Cobb's 1851 Digest, p. 600; Ga. L. 1855-56, p. 227, § 1; Code 1863, § 2149; Code 1868, § 2144; Code 1873, § 2171; Code 1882, § 2171; Civil Code 1895, § 2990; Civil Code 1910, § 3562; Code 1933, § 103-312.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

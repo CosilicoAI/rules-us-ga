@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-27"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-27"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-27/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-27/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-27/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-27/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_27">
+        <num>45-12-27</num>
+        <content>
+          <p>It shall be the duty of the Governor to see that the laws of this state are executed. For this purpose he shall have the power, as commander in chief, to call out the state militia whenever, in his discretion, the due enforcement of the process of the courts shall be so resisted and defied as to require such intervention.</p>
+          <p>(Orig. Code 1863, § 58; Code 1868, § 54; Code 1873, § 51; Code 1882, § 51; Civil Code 1895, § 118; Civil Code 1910, § 141; Code 1933, § 40-201.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

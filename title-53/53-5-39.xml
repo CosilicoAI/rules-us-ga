@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-5-39"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-39"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-5-39/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-39/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-5-39/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-39/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_5_39">
+        <num>53-5-39</num>
+        <content>
+          <p>When a nondomiciliary dies intestate owning real property located in any county of this state, the probate court of such county, on petition of any heir, creditor, or any duly qualified administrator or personal representative of the decedent, shall appoint an administrator of the estate in this state, in conformity with the proceedings required for the appointment of an administrator of a decedent who died domiciled in this state. Unless there is objection and good cause to the contrary shown, the duly qualified administrator or personal representative shall be appointed as the administrator of the estate in this state. No person may qualify as administrator under this Code section if such person is not otherwise qualified to act as a personal representative in this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

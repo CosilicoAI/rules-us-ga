@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-794"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-794"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-794/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-794/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-794/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-794/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_794">
+        <num>7-1-794</num>
+        <content>
+          <p>Whenever, under the laws of this state or otherwise, a deposit of securities is required for any purpose, the deposits made legal investments by Code Section 7-1-793 shall be acceptable as such security; and, whenever, under the law of this state or otherwise, a bond is required with security, such bond may be furnished and the deposits made legal investments by Code Section 7-1-793 in the amount of such bond shall be acceptable to secure said bond without other security. This Code section and Code Section 7-1-793 are supplemental to any and all other laws relating to and declaring what shall be legal investments for the persons, corporations, organizations, and officials referred to in these Code sections and the laws relating to the deposit of securities and the making and filing of bonds for any purpose.</p>
+          <p>(Ga. L. 1937-38, Ex. Sess., p. 322, § 2; Ga. L. 1952, p. 305, § 3; Ga. L. 1964, p. 194, § 2; Code 1933, § 41A-3526, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

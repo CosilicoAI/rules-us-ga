@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-158"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-158"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-158/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-158/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-158/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-158/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_158">
+        <num>9-10-158</num>
+        <content>
+          <p>When a pleading is amended, if the opposite party makes oath or his counsel states in his place that he is surprised and not fully prepared for trial because of the amendment, upon a showing of the manner of unpreparedness and that surprise is not claimed for the purpose of delay, the case may be continued and the continuance charged to the amending party.</p>
+          <p>(Orig. Code 1863, § 3450; Code 1868, § 3470; Code 1873, § 3521; Code 1882, § 3521; Civil Code 1895, § 5128; Civil Code 1910, § 5714; Code 1933, § 81-1409.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

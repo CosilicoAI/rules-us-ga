@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-16-28"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-16-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-16-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_16_28">
+        <num>45-16-28</num>
+        <content>
+          <p>In the case of death of any person under such circumstances as would not require a medical examiner's inquiry under Code Section 45-16-24, any physician who is duly licensed under the laws of this state or any other state having licensing requirements equal to or greater than those imposed by this state shall be deemed to have been legally authorized to perform an autopsy upon the body of a deceased person when such autopsy has been consented to by the person assuming custody of the body for the purposes of burial, such as the husband, wife, father, mother, child, guardian, next of kin, or, in the absence of any of the foregoing, a friend of such deceased person charged by law with the responsibility of burial. If two or more of such persons assume custody of the body, the consent of one of them shall be deemed sufficient legal authorization for the performance of the autopsy.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 602, § 6; Ga. L. 1990, p. 1735, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

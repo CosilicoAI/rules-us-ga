@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8A-6"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8A-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8A-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8A-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8A-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8A-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8A_6">
+        <num>2-8A-6</num>
+        <content>
+          <p>Any lender which has made or makes a loan to a farmer to finance the costs of production of an emerging crop on land in Georgia may make application to the Georgia Development Authority for an interest loan to pay interest on the loan during the period from the beginning of production to harvest or initial sale of the product, which payment shall be made from the fund. The maximum amount of interest loans from the fund for the benefit of any one farmer shall be $50,000.00; provided, however, that the Georgia Development Authority in administering the fund shall give priority to smaller interest loans. During the period that the Georgia Development Authority pays the interest on a loan from the fund, the maximum rate of interest which may be charged on the loan by the lender shall be as established from time to time by the Georgia Development Authority. By payment of the interest on a loan, neither the Georgia Development Authority nor the State of Georgia shall be a guarantor of the loan. The Georgia Development Authority shall, by rule or regulation, require such security or lien as may be necessary to provide adequate security for the authority as condition for making an interest loan as authorized by this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

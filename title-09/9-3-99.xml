@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-3-99"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-99"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-3-99/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-99/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-3-99/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-99/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_3_99">
+        <num>9-3-99</num>
+        <content>
+          <p>The running of the period of limitations with respect to any cause of action in tort that may be brought by the victim of an alleged crime which arises out of the facts and circumstances relating to the commission of such alleged crime committed in this state shall be tolled from the date of the commission of the alleged crime or the act giving rise to such action in tort until the prosecution of such crime or act has become final or otherwise terminated, provided that such time does not exceed six years, except as otherwise provided in Code Section 9-3-33.1.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

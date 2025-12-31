@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-154"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-154"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-154/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-154/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-154/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-154/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_154">
+        <num>44-12-154</num>
+        <content>
+          <p>When personal property is sold and the vendor retains the title until all the purchase money is paid, if the vendor or his assigns shall bring an action to recover the possession of such personal property, the defendant in the action may plead as a setoff any demand or claim that he may have against the plaintiff or may recoup any damages that he has sustained by reason of any failure of consideration, any defects in the personal property, or any breach of contract by the plaintiff whereby the defendant has in any way been injured or damaged. If the plaintiff elects to take a money judgment for the value of the property, the amount of the setoff or damages allowed the defendant by the jury shall be deducted from the value of the property and the amount allowed for the hire or use thereof and the plaintiff shall only recover the excess; but, if the amount of the setoff or damages allowed the defendant shall exceed the value of the property and the hire thereof, the defendant shall have judgment against the plaintiff for such excess. If the plaintiff elects to take a judgment for the property, the amount allowed the defendant as the setoff or damages shall be a lien on such property superior to all other liens except liens for taxes.</p>
+          <p>(Ga. L. 1903, p. 84, § 1; Civil Code 1910, § 4484; Code 1933, § 107-102.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

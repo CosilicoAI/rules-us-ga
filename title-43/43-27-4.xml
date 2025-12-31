@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-27-4"/>
+          <FRBRuri value="/us-ga/act/ocga/43-27-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-27-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-27-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-27-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-27-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_27_4">
+        <num>43-27-4</num>
+        <content>
+          <p>The board shall have sole and exclusive authority to determine the qualifications, skill, and fitness of any person to serve as an administrator of a personal care home, an assisted living community, or a nursing home under this chapter; and the holder of a license under this chapter shall be deemed qualified to serve as the administrator of such personal care home, assisted living community, or nursing home, as applicable.</p>
+          <p>(Ga. L. 1968, p. 1143, § 7; Ga. L. 1986, p. 846, § 3; Ga. L. 2020, p. 95, § 9/HB 987.)</p>
+          <p>The 2020 amendment,
+      effective June 30, 2020, inserted "personal care home, an assisted living community, or a" and substituted "such personal care home, assisted living community, or nursing home, as applicable" for "a nursing home" at the end.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

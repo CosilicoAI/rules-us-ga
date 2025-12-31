@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-19"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_19">
+        <num>44-2-19</num>
+        <content>
+          <p>If the subscribing witness or witnesses are dead, are insane, have moved outside the state, or are otherwise incapacitated to make the affidavit provided for in Code Section 44-2-18, the affidavit of a third person testifying to the execution of the deed and to the genuineness of the handwriting of the subscribing witness or witnesses shall be sufficient to admit the deed to record.</p>
+          <p>(Laws 1838, Cobb's 1851 Digest, p. 176; Laws 1841, Cobb's 1851 Digest, p. 178; Ga. L. 1858, p. 53, § 1; Code 1863, § 2670; Code 1868, § 2666; Code 1873, § 2708; Code 1882, § 2708; Civil Code 1895, § 3624; Civil Code 1910, § 4206; Code 1933, § 29-411.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

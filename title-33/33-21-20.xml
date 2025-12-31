@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-21-20"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-21-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-21-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-21-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_21_20">
+        <num>33-21-20</num>
+        <content>
+          <p>All health maintenance organizations meeting the requirements of subsection (b.1) of Code Section 33-21-3 shall not be subject to regulation by the commissioner of community health.Upon the Commissioner's determination that a health maintenance organization no longer meets the requirements of subsection (b.1) of Code Section 33-21-3, the Commissioner shall immediately notify the commissioner of community health and such health maintenance organization shall be subject to regulation by the commissioner of community health until such time as it again meets the requirements of subsection (b.1) of Code Section 33-21-3 as determined by the Commissioner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

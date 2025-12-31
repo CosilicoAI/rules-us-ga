@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-9-72"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-72"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-9-72/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-72/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-9-72/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-72/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_9_72">
+        <num>44-9-72</num>
+        <content>
+          <p>In all cases where it may be deemed desirable and necessary to divert any watercourse from its usual channel for any of the purposes specified in Code Section 44-9-70, it shall be lawful to submit the request to arbitration as provided in Chapter 9 of Title 9; and the arbitrators shall decide if it is necessary to divert the watercourse, who will be damaged by the diversion, and the amount of damage which will result.</p>
+          <p>(Ga. L. 1862-63, p. 171, § 1; Code 1868, § 774; Code 1873, § 744; Code 1882, § 744; Civil Code 1895, § 652; Civil Code 1910, § 797; Code 1933, § 83-203.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

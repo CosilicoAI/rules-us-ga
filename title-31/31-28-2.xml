@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-28-2"/>
+          <FRBRuri value="/us-ga/act/ocga/31-28-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-28-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-28-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-28-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-28-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_28_2">
+        <num>31-28-2</num>
+        <content>
+          <p>It shall be unlawful for any person, firm, or corporation to operate a tourist court without having first obtained a valid permit therefor. Such permit shall be issued by the county board of health or its duly authorized representative, subject to supervision and direction by the Department of Public Health but, where the county board of health is not functioning, the permit shall be issued by the department. A permit shall be valid until suspended or revoked and shall not be transferable with respect to person or location.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 475, § 2; Code 1933, § 88-1102, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1996, p. 6, § 31; Ga. L. 2009, p. 453, § 1-4/HB 228; Ga. L. 2011, p. 705, § 6-3/HB 214.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

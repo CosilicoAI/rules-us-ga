@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-409"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-409"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-409/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-409/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-409/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-409/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_409">
+        <num>44-14-409</num>
+        <content>
+          <p>The bailee for hire of labor and service shall have a special lien for his labor and services upon the thing bailed until he parts with possession; and, if he delivers up a part of the thing bailed, the lien shall attach to the remainder in his possession for the entire claim under the same contract.</p>
+          <p>(Orig. Code 1863, § 2079; Code 1868, § 2074; Code 1873, § 2100; Code 1882, § 2100; Civil Code 1895, § 2918; Civil Code 1910, § 3491; Code 1933, § 12-710.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

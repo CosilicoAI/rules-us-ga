@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-281"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-281"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-281/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-281/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-281/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-281/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_281">
+        <num>44-14-281</num>
+        <content>
+          <p>In the event any bill of sale is foreclosed as provided in Code Section 44-14-280, the proceedings after foreclosure shall be the same as the proceedings to foreclose mortgages, with the same right to defend in the manner in which defenses to foreclosures of mortgages are now provided for by law.</p>
+          <p>(Ga. L. 1899, p. 82, § 2; Civil Code 1910, § 3299; Code 1933, § 67-1602.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

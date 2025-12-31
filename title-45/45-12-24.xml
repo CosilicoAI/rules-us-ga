@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-24"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_24">
+        <num>45-12-24</num>
+        <content>
+          <p>Whenever it shall be made to appear to the council composed of the Governor, the Secretary of State, and the Attorney General, as provided in this Code section and Code Section 45-12-23 or a majority thereof, that the incapacity of the Commissioner of Insurance has been overcome and removed, a finding in writing to that effect shall be made and filed in the Governor's office; and thereupon the authority of the person designated to act for the Commissioner of Insurance shall come to an end and the Commissioner of Insurance shall assume and perform the duties of his office. During the period of the incapacity of the Commissioner of Insurance, the salaries due as provided by existing law shall continue to be paid.</p>
+          <p>(Ga. L. 1937, p. 608, § 2; Ga. L. 1986, p. 855, § 24; Ga. L. 1987, p. 3, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

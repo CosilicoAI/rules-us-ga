@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-22"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_22">
+        <num>20-3-22</num>
+        <content>
+          <p>The first board of regents appointed under this part shall hold office as follows: two for one year; two for two years; two for three years; two for four years; two for five years; two for six years; and three for seven years. All of the terms shall date from January 1, 1943. The Governor in making the appointments shall designate the holders of the respective terms. Successors to the persons so appointed shall hold terms of office of seven years from the expiration of the previous term. All members of the board shall hold office until their successors are appointed.</p>
+          <p>(Ga. L. 1931, p. 7, §§ 51, 52; Code 1933, §§ 32-105, 32-106; Ga. L. 1937, p. 526, § 1; Ga. L. 1943, p. 670, §§ 4, 5, 7, 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

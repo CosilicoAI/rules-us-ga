@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-8-25"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-8-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-8-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-8-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_8_25">
+        <num>45-8-25</num>
+        <content>
+          <p>The official or county or municipal authority having jurisdiction to cite for accounting may, without issuing or serving a citation or notice, issue or cause to be issued an execution against any defaulting collecting officer, officer to hold public funds, or any bank or depository in which public funds have been deposited and the sureties on the bonds of any of them for default as to any of the matters as to which such officer, bank, depository, or surety might be cited, and for the amount of the loss sustained by the public body or public bodies alleged in such execution to be sustained through such default. Such execution shall be prima-facie evidence of the facts therein recited, including the amount of loss sustained, and shall be enforceable as an execution for said amount; provided, however, that the enforcement of such execution may be arrested by proceedings in equity, or, after levy, by affidavit of illegality in which the defendant in fi. fa. whose property has been levied on shall deny liability for the amount set out in such execution or some part thereof. The affidavit of illegality shall be returned by the levying officer to the superior court of the county in which the alleged defaulting officer resides. On the trial of the case, whether in equity or on affidavit of illegality, the burden of proof shall be on the official or authority issuing the execution. Any other person, corporation, or public body at interest may on his or its own motion or on motion of either party to the cause be made a party thereto and be bound by the final judgment. Such an execution shall become final process against any defendant in execution named therein who shall endorse thereon in writing his admission of the correctness of the same and an agreement that the same shall proceed against him as final process, but such admission shall not be binding on anyone except the person or corporation signing the same.</p>
+          <p>(Ga. L. 1933, p. 78, § 9g; Code 1933, § 89-824; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-6-38"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-38"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-6-38/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-38/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-6-38/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-38/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_6_38">
+        <num>53-6-38</num>
+        <content>
+          <p>If for any reason an estate is unrepresented and not likely to be represented, the probate court shall vest the administration of the estate in the county administrator, with notice given as provided for in Code Section 53-6-22. If, however, the estate does not exceed in value the sum set aside to the spouse and children of the decedent as year's support, no administration shall be necessary, but the probate court shall by order set apart the same to the spouse and children, as provided by law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

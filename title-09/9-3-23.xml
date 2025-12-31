@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-3-23"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-3-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-3-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_3_23">
+        <num>9-3-23</num>
+        <content>
+          <p>Actions upon bonds or other instruments under seal shall be brought within 20 years after the right of action has accrued. No instrument shall be considered under seal unless so recited in the body of the instrument.</p>
+          <p>(Laws 1806, Cobb's 1851 Digest, p. 566; Ga. L. 1855-56, p. 233, § 11; Code 1863, § 2856; Code 1868, § 2864; Code 1873, § 2915; Code 1882, § 2915; Civil Code 1895, § 3765; Civil Code 1910, § 4359; Code 1933, § 3-703.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

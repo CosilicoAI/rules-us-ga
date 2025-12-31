@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-10-49"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-49"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-10-49/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-49/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-10-49/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-49/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_10_49">
+        <num>32-10-49</num>
+        <content>
+          <p>It is found, determined, and declared that the creation of the authority and the carrying out of its corporate purposes are in all respects for the benefit of the people of this state and that the authority is an institution of purely public charity and will be performing an essential governmental function in the exercise of the power conferred upon it by this article; and this state covenants with the holders of the bonds that the authority shall be required to pay no taxes or assessments upon any of the property acquired or leased by it under its jurisdiction, control, possession, or supervision or upon its activities in the operation or maintenance of the projects erected by it or upon any fees, rental, or other charges for the use of such projects or upon other income received by the authority and that the bonds of the authority, their transfer, and the income therefrom shall at all times be exempt from taxation from within the state.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 626, § 30; Ga. L. 1955, p. 124, § 31; Ga. L. 1967, p. 385, § 30; Code 1933, § 95A-1230, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

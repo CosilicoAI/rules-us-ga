@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-80"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_80">
+        <num>40-2-80</num>
+        <content>
+          <p>Except as otherwise provided by law, the commissioner shall provide by rules and regulations appropriate procedures whereby, upon the payment of the fee prescribed in Code Section 40-2-42 for transfer of license plates and revalidation decals, currently valid special and distinctive license plates and special personalized prestige license plates authorized by this article shall be transferred from one vehicle to another vehicle of the same class of which ownership is acquired following that person's or those persons' ceasing to own or operate on the public roads the vehicle for which such plate was originally issued and during the initial registration period for the acquired vehicle. If the vehicle acquired by such person is of a different class than the vehicle no longer owned or operated by such person, then upon payment by such person of any additional fee for registering such acquired vehicle, the commissioner shall issue a new license plate to such person for use on such vehicle. Special license plates and revalidation decals for such plates may be transferred in accordance with the provisions of this Code section at any time after issuance or renewal thereof and until the expiration of the period for which issued.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

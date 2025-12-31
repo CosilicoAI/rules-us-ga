@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-168"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-168"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-168/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-168/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-168/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-168/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_168">
+        <num>34-9-168</num>
+        <content>
+          <p>If the Commissioner finds that any fund or its administrator (1) has failed to comply with any provision of this article, (2) is fraudulently operated, (3) is in such condition as to render further fund operations hazardous to the public interest or to the interests of the fund's members and their employees, (4) is financially unable to meet its obligations and claims as they come due, or (5) has violated any other provision of law, he may apply to the Superior Court of Fulton County for an injunction. The court may forthwith issue a temporary injunction restraining the transaction of any business by the fund; and, after a full hearing, it may make the injunction permanent and appoint one or more receivers to take possession of the books, papers, moneys, and other assets of the fund in order to settle its affairs and distribute its funds to those entitled thereto, subject to such rules and orders as the court may prescribe. If it appears that a crime has been committed in connection with the administration or management of any fund, the Attorney General may pursue the appropriate criminal action.</p>
+          <p>(Code 1933, § 114-621a, enacted by Ga. L. 1980, p. 1686, § 1; Ga. L. 1981, p. 1759, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

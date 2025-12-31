@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-44"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_44">
+        <num>44-2-44</num>
+        <content>
+          <p>Any clerk, deputy clerk, special clerk, or other person performing the duties of the office of clerk who: (1) fraudulently enters a decree of registration without authority of the court; (2) fraudulently registers any title; (3) fraudulently makes any notation or entry upon the title register; (4) fraudulently issues any certificate of title, creditor's certificate, or other instrument provided for by this article; or (5) knowingly, intentionally, and fraudulently does any act of omission or commission under color of his office in relation to the matters provided for by this article shall be guilty of a felony and shall be removed from office and be permanently disqualified from holding any public office and shall be punished by imprisonment for not less than one nor more than ten years.</p>
+          <p>(Ga. L. 1917, p. 108, § 85; Code 1933, § 60-9902; Ga. L. 1982, p. 3, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

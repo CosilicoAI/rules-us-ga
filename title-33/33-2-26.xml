@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-2-26"/>
+          <FRBRuri value="/us-ga/act/ocga/33-2-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-2-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-2-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-2-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-2-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_2_26">
+        <num>33-2-26</num>
+        <content>
+          <p>An appeal from the Commissioner shall be taken only from an order on hearing or with respect to a matter as to which the Commissioner has refused or failed to grant or hold a hearing after demand therefor under Code Section 33-2-17 or as to a matter as to which the Commissioner has refused or failed to make his order on hearing as required by Code Section 33-2-23. Any person who was a party to the hearing or whose pecuniary interests are directly and immediately affected by the refusal or failure to grant a hearing and who is aggrieved by the order, refusal, or failure may appeal from the order on hearing or as to any such matter within 30 days after:</p>
+          <p>(Code 1933, § 56-225, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

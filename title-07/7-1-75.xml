@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-75"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-75"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-75/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-75/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-75/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-75/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_75">
+        <num>7-1-75</num>
+        <content>
+          <p>Whenever in this chapter the department is authorized but not required to take any action, the taking of such action shall be within the discretion of the commissioner or his duly authorized deputy. The department shall not be required to grant opportunity for hearing except where such hearing is specifically required by this chapter or Chapter 13 of Title 50, the "Georgia Administrative Procedure Act." The department shall maintain accurate memoranda or transcripts of all hearings conducted by the department pursuant to this Code section.</p>
+          <p>(Code 1933, § 41A-316, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

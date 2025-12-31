@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-30-3"/>
+          <FRBRuri value="/us-ga/act/ocga/33-30-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-30-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-30-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-30-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-30-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_30_3">
+        <num>33-30-3</num>
+        <content>
+          <p>"Blanket accident and sickness insurance" is that form of group accident and sickness insurance covering the groups of persons listed in paragraphs (1) through (6) of this Code section and issued upon the following basis:</p>
+          <p>(Code 1933, § 56-3104, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 2005, p. 481, § 10/HB 291.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

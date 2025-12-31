@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-24-7"/>
+          <FRBRuri value="/us-ga/act/ocga/45-24-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-24-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-24-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-24-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-24-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_24_7">
+        <num>45-24-7</num>
+        <content>
+          <p>If the commission by majority vote of those members present approves the involuntary separation, the employer is authorized, but not required, to proceed with the separation. If the employer proceeds with such separation, the employer shall not be eligible to have any increase in the number of employees in that employing unit for the next two fiscal years. If the commission rejects the involuntary separation, the employee shall not be separated, shall continue to be employed and compensated by the employer, and shall not be the subject of a proposed involuntary separation more than once every two years. As used in this Code section, the term "number of employees" means the total number of employees immediately prior to the involuntary separation, not counting any employee to be involuntarily separated.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

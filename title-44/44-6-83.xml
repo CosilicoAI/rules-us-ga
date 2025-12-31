@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-83"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_83">
+        <num>44-6-83</num>
+        <content>
+          <p>The tenant for life shall be entitled to the full use and enjoyment of the property if in such use he exercises the ordinary care of a prudent man for its preservation and protection and commits no acts which would permanently injure the remainder or reversion interest. For the want of such care or the willful commission of such acts, the tenant for life shall forfeit his interest to the remainderman if the remainderman elects to claim immediate possession.</p>
+          <p>(Orig. Code 1863, § 2235; Code 1868, § 2229; Code 1873, § 2255; Code 1882, § 2255; Civil Code 1895, § 3090; Civil Code 1910, § 3666; Code 1933, § 85-604.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

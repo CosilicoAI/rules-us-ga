@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-7-17"/>
+          <FRBRuri value="/us-ga/act/ocga/9-7-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-7-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-7-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-7-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-7-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_7_17">
+        <num>9-7-17</num>
+        <content>
+          <p>In all law cases where an auditor is appointed, exceptions of fact to his report shall be passed upon by the jury as in other issues of fact, and in equity cases by the jury when approved by the judge. The burden of proving error in the report of the auditor shall be upon the party making the exceptions, who shall have the right to open and conclude the argument. In all cases where both parties file exceptions of fact, the party against whom judgment would be rendered if the report were approved shall be entitled to open and conclude the argument.</p>
+          <p>(Ga. L. 1894, p. 123, §§ 15-17; Ga. L. 1895, p. 47, § 3; Civil Code 1895, §§ 4595, 4596, 4597; Civil Code 1910, §§ 5141, 5142, 5143; Code 1933, §§ 10-402, 10-403, 37-1103.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

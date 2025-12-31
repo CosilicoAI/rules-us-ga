@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-15"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_15">
+        <num>2-8-15</num>
+        <content>
+          <p>Each commission, with the name of the agricultural commodity annexed thereto, shall be a public corporation and an instrumentality of the State of Georgia. By that name, style, and title, each such commission may contract and be contracted with, implead and be impleaded, and complain and defend in all courts. Each such commission shall name its chairman and determine a quorum for the transaction of business. Each such commission shall assume the duties and exercise the authority provided in this article without further formality than that provided in this article. Each member of each such commission shall be a public officer and shall take an oath of office faithfully to perform his duties. Such oath shall be administered by the Commissioner or some other person qualified to administer oaths. The fact of a member's appointment shall be certified to the Secretary of State, who shall issue the appropriate commission under the seal of his office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

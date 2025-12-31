@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-2-93"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-93"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-2-93/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-93/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-2-93/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-2-93/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_2_93">
+        <num>23-2-93</num>
+        <content>
+          <p>In all cases where legal difficulties arise as to the distribution of assets in payment of debts or where from any circumstances the ordinary process of law would interfere with the due administration of an estate, without fault on the part of the representative of the estate, a petition to marshal the assets shall be maintained at the instance of the representative.</p>
+          <p>(Orig. Code 1863, § 3077; Code 1868, § 3089; Code 1873, § 3146; Code 1882, § 3146; Civil Code 1895, § 4001; Civil Code 1910, § 4598; Code 1933, § 37-405.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

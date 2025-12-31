@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-11"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_11">
+        <num>15-21-11</num>
+        <content>
+          <p>Unless otherwise provided by law, money arising from fines for a violation of the penal laws or collected on forfeited recognizances in the superior courts shall be first applied to the extinguishment of the insolvent lists of the officers bringing the funds into court and then to the orders of former officers in proportion to their claims.</p>
+          <p>(Laws 1833, Cobb's 1851 Digest, p. 833; Laws 1850, Cobb's 1851 Digest, p. 863; Code 1863, § 4592; Ga. L. 1868, p. 25, § 1; Code 1868, § 4613; Code 1873, § 4709; Code 1882, § 4709; Penal Code 1895, § 1087; Penal Code 1910, § 1114; Code 1933, § 27-2912; Ga. L. 1983, p. 884, § 5-3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-5A-1"/>
+          <FRBRuri value="/us-ga/act/ocga/45-5A-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-5A-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-5A-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-5A-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-5A-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_5A_1">
+        <num>45-5A-1</num>
+        <content>
+          <p>If, after hearing the evidence on the disability of an elected constitutional executive officer pursuant to Article V, Section IV of the Constitution of Georgia, the Supreme Court determines that such officer has a temporary disability, such court shall certify to the elected constitutional executive officers filing the petition that such executive officer has a temporary disability which prevents such officer from performing the duties of office.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-98"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-98"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-98/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-98/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-98/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-98/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_98">
+        <num>15-18-98</num>
+        <content>
+          <p>The prosecuting attorney of a municipal court may employ such additional assistant prosecuting attorneys and other employees or independent contractors as may be provided for by local law or as may be authorized by the governing authority of the municipality. The prosecuting attorney of a municipal court shall define the duties and fix the title of any attorney or other employee of the prosecuting attorney's office. Personnel employed pursuant to this Code section shall be compensated by the municipality.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-323"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-323"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-323/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-323/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-323/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-323/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_323">
+        <num>20-3-323</num>
+        <content>
+          <p>If any director, officer, or employee of the authority shall be interested, either directly or indirectly, or shall be a director, officer, or employee of or have an ownership interest in, other than a noncontrolling stockholder interest, or the substantial equivalent thereof, in a lender or school, any firm or corporation interested, directly or indirectly, in any contract with the authority, except any agency, instrumentality, or political subdivision of the state, such interest shall be disclosed to and shall be set forth in the minutes of the authority; and the director, officer, or employee having such interest therein shall not participate on behalf of the authority or such party in the negotiation or the authorization of the contract. No provision of this part shall be construed, however, to prevent any otherwise eligible director, officer, or employee of the authority or member of his family from being eligible to apply for and receive financial aid assistance provided for under this part.</p>
+          <p>(Code 1933, § 32-3715, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

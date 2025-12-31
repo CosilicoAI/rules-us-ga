@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-91"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_91">
+        <num>20-3-91</num>
+        <content>
+          <p>The General Assembly finds that the unlawful abuse and misuse of marijuana, controlled substances, or dangerous drugs constitutes a serious threat to the public health, welfare, and academic achievement of students enrolled in the public colleges and universities of this state.It is declared to be a purpose and goal of this state to encourage and, to the fullest extent possible, require all student organizations, including but not limited to, societies, fraternities, sororities, clubs, and similar groups of students which are affiliated with, recognized by, or using the facilities of those educational institutions or facilities which comprise the University System of Georgia, to encourage and enforce compliance with state law on the part of their members, guests, or others attending or participating in their functions and affairs, social or otherwise, by not permitting the sale, distribution, serving, possession, consumption, or use of such marijuana, controlled substances, or dangerous drugs at such functions and affairs in violation of state law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

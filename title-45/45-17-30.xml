@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-17-30"/>
+          <FRBRuri value="/us-ga/act/ocga/45-17-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-17-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-17-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-17-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-17-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_17_30">
+        <num>45-17-30</num>
+        <content>
+          <p>All commissioned officers of all branches of the armed services of the United States of America are constituted ex officio notaries public of this state and as such are authorized, within and outside this state and within and outside the United States of America, to administer oaths, take acknowledgments, and attest instruments conveying or affecting property in Georgia. Acts performed by such officers as authorized in this Code section shall have the same effect as if performed within this state by notaries public of this state. A statement of his rank following the signature of any such officer shall be evidence of the fact of his rank and no seal shall be necessary.</p>
+          <p>(Ga. L. 1943, p. 421, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

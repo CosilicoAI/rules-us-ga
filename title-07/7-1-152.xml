@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-152"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-152"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-152/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-152/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-152/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-152/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_152">
+        <num>7-1-152</num>
+        <content>
+          <p>No financial institution shall make a general assignment of its business and property for the benefit of its creditors by the appointment of an assignee or a trustee or otherwise. In lieu of the power to make an assignment for the benefit of creditors, a financial institution may request the department to take possession as provided in this part. In such cases, the department shall take possession and become receiver in the same manner and subject to the same provisions of this chapter as when it takes possession of the business and property of a financial institution without the request of such financial institution.</p>
+          <p>(Ga. L. 1919, p. 135, art. 7, §§ 2, 4; Code 1933, § 13-804; Code 1933, § 41A-703, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

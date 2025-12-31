@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2-210"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-210"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2-210/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-210/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2-210/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-210/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2_210">
+        <num>11-2-210</num>
+        <content>
+          <p>(Code 1933, § 109A-2 - 210, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 2001, p. 362, § 5.)</p>
+          <p>The 2001 amendment,
+      effective July 1, 2001, in subsection (2), in the first sentence, substituted "Except as otherwise provided in Code Section 11-9-406, unless" for "Unless" at the beginning, substituted "the other party by the contract" for "him by his contract", and substituted "the other party's" for "his", and substituted "the assignor's" for "his" in the second sentence; added subsection (3); redesignated former subsections (3) through (5) as present subsections (4) through (6), respectively; substituted "the assignee" for "him" in subsection (5); and inserted "or her" in subsection (6).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

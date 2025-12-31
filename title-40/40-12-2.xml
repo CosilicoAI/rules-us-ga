@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-12-2"/>
+          <FRBRuri value="/us-ga/act/ocga/40-12-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-12-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-12-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-12-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-12-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_12_2">
+        <num>40-12-2</num>
+        <content>
+          <p>Service of process upon a nonresident pursuant to Code Section 40-12-1 shall be made by serving a copy of the complaint or other pleading with summons attached thereto on the Secretary of State, his duly authorized agent, or his successor in office, along with a copy of the affidavit to be submitted to the court pursuant to this Code section. Such service shall be sufficient service upon any such nonresident, provided that notice of such service and a copy of the complaint and process are forthwith sent by registered or certified mail or statutory overnight delivery by the plaintiff to the defendant, if his address is known, and the defendant's return receipt and the plaintiff's affidavit of compliance with this Code section are appended to the summons or other process and filed with the summons, complaint, and other papers in the case in the court wherein the action is pending. The Secretary of State shall charge and collect a fee as set out in Code Section 45-13-26 for service of process on him under this Code section.</p>
+          <p>(Ga. L. 1937, p. 732, § 2; Ga. L. 1959, p. 113, § 1; Ga. L. 1965, p. 231, § 1; Ga. L. 1983, p. 1474, § 2; Ga. L. 1984, p. 22, § 40; Ga. L. 1989, p. 364, § 2; Ga. L. 2000, p. 1589, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

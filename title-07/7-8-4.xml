@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-8-4"/>
+          <FRBRuri value="/us-ga/act/ocga/7-8-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-8-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-8-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-8-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-8-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_8_4">
+        <num>7-8-4</num>
+        <content>
+          <p>Customers receiving access devices shall be furnished by the respective issuers thereof with notices of basic safety precautions which customers should employ while using a remote service terminal.This information shall be furnished by personally delivering or mailing the information to each customer whose mailing address as to the account to which the access device relates is in this state.This information shall be furnished with respect to access devices issued on or after July 1, 1994, at or before the time the customer is furnished with his or her access device.With respect to a customer to whom an access device has been issued prior to July 1, 1993, the information shall be delivered on or before July 1, 1994.Only one notice need be furnished per household, and if access devices are furnished to more than one customer for a single account or set of accounts or on the basis of a single application or other request for access devices, only a single notice need be furnished in satisfaction of the notification responsibilities as to those customers.The information may be included with other disclosures related to the access device furnished to the customer, such as with any initial or periodic disclosure statement furnished pursuant to the federal Electronic Fund Transfer Act.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

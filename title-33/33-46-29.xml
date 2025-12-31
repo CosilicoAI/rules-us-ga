@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-46-29"/>
+          <FRBRuri value="/us-ga/act/ocga/33-46-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-46-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-46-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-46-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-46-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_46_29">
+        <num>33-46-29</num>
+        <content>
+          <p>Each violation by a private review agent or utilization review entity of deadline or other requirements specified in this chapter shall result in the automatic authorization of healthcare services under review by such private review agent or utilization review entity if such noncompliance is related to such services. Notwithstanding the foregoing, noncompliance based on a de minimis violation that does not cause, or is not likely to cause, prejudice or harm to the covered person shall not result in the automatic authorization of such healthcare services, so long as the insurer demonstrates that the violation occurred due to good cause or due to matters beyond the control of the insurer and that such violation occurred in the context of an ongoing good faith exchange of information between the insurer and the covered person, or, if applicable, the covered person's healthcare provider or authorized representative.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

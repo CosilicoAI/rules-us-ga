@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-105"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-105"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-105/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-105/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-105/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-105/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_105">
+        <num>44-3-105</num>
+        <content>
+          <p>Except to the extent otherwise provided by the condominium instruments, all powers and responsibilities with regard to maintenance, repair, renovation, restoration, and replacement shall pertain to the association in the case of the common elements other than limited common elements and to the individual unit owner in the case of any unit and the limited common elements, if any, appurtenant thereto. Each unit owner shall afford to the other unit owners, to the association, and to any agents or employees of either such access through his unit as may be reasonably necessary to enable them to exercise and discharge their respective powers and responsibilities. To the extent that damage is inflicted on the common elements, including, without limitation, limited common elements, or on any unit through which access is taken, the association or unit owner occasioning the same, whether by itself or himself or through agents, employees, or others, shall be liable for the prompt repair thereof.</p>
+          <p>(Ga. L. 1975, p. 609, § 37.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-19-60"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-60"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-19-60/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-60/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-19-60/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-60/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_19_60">
+        <num>15-19-60</num>
+        <content>
+          <p>Any consumer who is a party to a one-to-four family residential real estate transaction or a consumer debtor or a trustee of a consumer debtor in a bankruptcy case that involves a one-to-four family residential real property who is damaged by a violation of this article or a violation of the Supreme Court's rules or opinions governing the unlicensed practice of law shall be entitled to maintain a civil action to recover damages, treble damages, reasonable attorney's fees, and expenses of litigation. A claim for a violation of this Code section shall be asserted in an individual action only and shall not be the subject of a class action under Code Section 9-11-23. This Code section shall not prevent the activities authorized by Code Section 15-19-52, 15-19-53, 15-19-54, 15-19-59, or 43-40-25.1.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

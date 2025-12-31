@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-72"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-72"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-72/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-72/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-72/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-72/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_72">
+        <num>46-8-72</num>
+        <content>
+          <p>If the board of directors of a railroad corporation organized under the laws of this state deems it desirable that the corporation be dissolved, the board of directors may adopt a resolution to that effect and may call a meeting of the stockholders having voting powers to consider a proposal to dissolve and to take action upon the resolution so adopted. Such meeting of the stockholders shall be held upon notice given in the manner provided in Code Section 46-8-46 for notice of organization meetings of railroad corporations or upon written waiver of notice. If at such meeting or any adjournment thereof the holders of record of two-thirds of all the stock entitled to vote thereon determine that the dissolution should take place, a petition for dissolution shall be filed in triplicate with the Secretary of State.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 213, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-5-37"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-37"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-5-37/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-37/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-5-37/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-37/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_5_37">
+        <num>53-5-37</num>
+        <content>
+          <p>Upon the admission of a foreign will or an out-of-state will to ancillary probate, an executor named by or pursuant to the will to serve in this state or, in the absence of objection, a duly qualified and acting executor, administrator, or personal representative for the estate under the laws of the jurisdiction in which the will was originally probated or established shall be entitled to qualify as executor or administrator with the will annexed in this state. If such person shall fail to qualify within a reasonable time after the will is admitted to ancillary probate or if objection is filed and the probate court shall find good cause why such person should not serve, the court shall name as administrator with the will annexed a person who could otherwise be named administrator with the will annexed under the laws of this state. No person may qualify as executor or administrator with the will annexed under this Code section if such person is not otherwise qualified to act as a fiduciary in this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

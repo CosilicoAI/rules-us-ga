@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-21-26"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-21-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-21-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-21-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_21_26">
+        <num>31-21-26</num>
+        <content>
+          <p>Neither the state, county, municipality, nor officers thereof shall be placed at any expense by reason of delivery or distribution of bodies; but all expenses thereof shall be borne by those receiving the body or bodies as prescribed by the board for distribution.</p>
+          <p>(Ga. L. 1887, p. 87, § 8; Civil Code 1895, § 1518; Civil Code 1910, § 1762; Code 1933, § 88-708; Code 1933, § 88-2708, enacted by Ga. L. 1964, p. 499, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

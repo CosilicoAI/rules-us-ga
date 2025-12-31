@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-304"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-304"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-304/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-304/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-304/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-304/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_304">
+        <num>11-2A-304</num>
+        <content>
+          <p>A subsequent lessee in the ordinary course of business from a lessor who is a merchant dealing in goods of that kind to whom the goods were entrusted by the existing lessee of that lessor before the interest of the subsequent lessee became enforceable against that lessor obtains, to the extent of the leasehold interest transferred, all of that lessor's and the existing lessee's rights to the goods, and takes free of the existing lease contract.</p>
+          <p>A subsequent lessee from the lessor of goods that are subject to an existing lease contract and are covered by a certificate of title issued under a statute of this State or of another jurisdiction takes no greater rights than those provided both by this section and by the certificate of title statute.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

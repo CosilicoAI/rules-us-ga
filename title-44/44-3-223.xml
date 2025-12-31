@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-223"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-223"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-223/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-223/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-223/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-223/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_223">
+        <num>44-3-223</num>
+        <content>
+          <p>Every lot owner and all those entitled to occupy a lot shall comply with all lawful provisions of the property owners' association instrument.In addition, any lot owner and all those entitled to occupy a lot shall comply with any reasonable rules or regulations adopted by the association pursuant to the instrument which have been provided to the lot owners and with the lawful provisions of the bylaws of the association.Any lack of such compliance shall be grounds for an action to recover sums due, for damages or injunctive relief, or for any other remedy available at law or in equity, maintainable by the association or, in any proper case, by one or more aggrieved lot owners on their own behalf or as a class action.If and to the extent provided in the instrument, the association shall be empowered to impose and assess fines and suspend temporarily voting rights and the right of use of certain of the common areas and services paid for as a common expense in order to enforce such compliance; provided, however, that no such suspension shall deny any lot owner or occupants access to the lot owned or occupied.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

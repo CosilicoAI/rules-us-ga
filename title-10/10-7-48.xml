@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-7-48"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-48"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-7-48/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-48/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-7-48/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-48/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_7_48">
+        <num>10-7-48</num>
+        <content>
+          <p>If the surety is sued separately from his principal, on payment by him of the judgment against him, he shall be entitled to control the judgment and execution against his principal in the same manner as if the judgment and execution were joint; and, if he does not appear as surety in the judgment against him, he may give notice and make the proof and obtain the control in the same manner as provided in cases of joint judgments.</p>
+          <p>(Laws 1850, Cobb's 1851 Digest, p. 600; Code 1863, § 2146; Code 1868, § 2141; Code 1873, § 2168; Code 1882, § 2168; Civil Code 1895, § 2987; Civil Code 1910, § 3559; Code 1933, § 103-309.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

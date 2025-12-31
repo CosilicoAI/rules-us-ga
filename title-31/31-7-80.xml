@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-80"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_80">
+        <num>31-7-80</num>
+        <content>
+          <p>Certificates of an authority shall be authorized by its resolution and may be issued in one or more series and shall bear such date or dates; mature at such time or times; bear interest at such rate or rates not exceeding 9 percent per annum; be in such denomination or denominations; be in such form, either coupon or registered; carry such conversion or registration privileges; have such rank or priority; be executed in such manner; be payable in such medium of payment, at such place or places; and be subject to such terms of redemption, with or without premium, as such resolution, its trust indenture, or mortgage may provide. In the event that any of the members or officers of the authority whose signatures appear on any certificates or coupons shall cease to be such members or officers before the delivery of such certificates, such signatures shall nevertheless be valid and sufficient for all purposes.</p>
+          <p>(Ga. L. 1941, p. 241, § 8; Ga. L. 1957, p. 485, § 1; Code 1933, § 88-1809, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1968, p. 1097, § 1; Ga. L. 1970, p. 144, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

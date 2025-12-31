@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-3-92"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-3-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-3-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_3_92">
+        <num>38-3-92</num>
+        <content>
+          <p>It is the finding of the General Assembly that natural disasters and disasters created by human agency often arise suddenly and that cooperation among government agencies and volunteer service agencies is vital in coping with such emergencies. The General Assembly further finds that dedicated service by trained and experienced volunteers can help prevent loss and destruction of life and property and that it is in the interest of the state and the citizens of the state to allow certain state employees who are trained and experienced in disaster relief to provide such service for brief periods without loss of pay and benefits.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

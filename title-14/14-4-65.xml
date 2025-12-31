@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-65"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-65"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-65/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-65/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-65/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-65/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_65">
+        <num>14-4-65</num>
+        <content>
+          <p>No corporation or association shall declare any dividend or distribute any money among its members as profits when such dividend or money is not declared or distributed from the actual legitimate net earnings and in any manner increases its debts. Should the president, directors, or other agent of any corporation declare a dividend or dividends in violation of the above provisions they shall be subject to an action for double the amount of damages that any person or persons may sustain in consequence of the declaring of such dividend or dividends.</p>
+          <p>(Ga. L. 1877, p. 35, §§ 1-3; Code 1882, §§ 4604a, 4604b, 4604c; Penal Code 1895, § 691; Ga. L. 1902, p. 58, § 1; Penal Code 1910, § 740; Code 1933, § 22-713; Code 1933, § 22-4106, enacted by Ga. L. 1968, p. 565, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

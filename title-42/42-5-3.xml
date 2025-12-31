@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-5-3"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-5-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-5-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_5_3">
+        <num>42-5-3</num>
+        <content>
+          <p>The whole costs of the case and expenses of the trial involving an inmate of the state penal system charged with the violation of any criminal statute shall be borne by the department, provided the offense was committed by the inmate within the confines of a state correctional institution or was the crime of escape or attempted escape. The costs and expenses of the trial shall include, but shall not be limited to, the cost of the sheriff, bailiff, clerks, jurors, and jail fees and shall be paid by the department to the governing authority of the county in which the trial was conducted, for proper disposition.</p>
+          <p>(Orig. Code 1863, § 4690; Code 1868, § 4714; Code 1873, § 4812; Code 1882, § 4812; Penal Code 1895, § 1174; Penal Code 1910, § 1230; Code 1933, § 77-401; Ga. L. 1964, p. 462, § 1; Ga. L. 1975, p. 1590, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

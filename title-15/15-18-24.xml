@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-24"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_24">
+        <num>15-18-24</num>
+        <content>
+          <p>If a district attorney fails to comply with Code Section 15-18-6, he is liable to rule as are attorneys at law, with all the penalties and remedies applicable thereto. Failure to comply with the terms of a rule absolute within 20 days from the time it becomes final shall be a ground for impeachment.</p>
+          <p>(Orig. Code 1863, § 352; Code 1868, § 413; Code 1873, § 378; Code 1882, § 378; Civil Code 1895, § 4393; Penal Code 1895, § 799; Civil Code 1910, § 4927; Penal Code 1910, § 799; Code 1933, § 24-2911.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

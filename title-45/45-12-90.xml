@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-90"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-90"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-90/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-90/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-90/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-90/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_90">
+        <num>45-12-90</num>
+        <content>
+          <p>In the event that any duties, purposes, and objects for which appropriations are made shall be transferred to a budget unit other than that to which appropriated, the appropriations for such duties, purposes, and objects shall be made available, subject to this part, to such budget unit or budget units to which the duties, purposes, and objects are transferred. Should the appropriation to be transferred not be shown in the appropriation Act as a separate and identifiable item, the amount to be transferred shall be decided by the Office of Planning and Budget in accordance with the detailed estimates or other information embodied in the budget report.</p>
+          <p>(Code 1933, § 40-421, enacted by Ga. L. 1962, p. 17, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

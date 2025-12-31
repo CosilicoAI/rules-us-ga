@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-18-81"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-81"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-18-81/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-81/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-18-81/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-81/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_18_81">
+        <num>45-18-81</num>
+        <content>
+          <p>It is the intent of this article to provide that any such state employees currently hospitalized at any state hospital shall be relieved of personal liability for any existing cost of care charges, provided employees or those responsible for employees cooperate and ensure that to the greatest extent possible applications are made for all benefits, plans, and programs available for payment of cost of care at state hospitals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

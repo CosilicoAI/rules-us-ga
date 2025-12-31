@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-3-5"/>
+          <FRBRuri value="/us-ga/act/ocga/49-3-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-3-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-3-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-3-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-3-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_3_5">
+        <num>49-3-5</num>
+        <content>
+          <p>The county director shall be the executive and administrative officer of the county department, shall be responsible for operations and personnel, and shall serve as the secretary of the county board. He shall prepare and submit to the county board for its approval an annual budget of all funds necessary for the county department. He shall prepare annually a full report of the operations and administration of the county department.</p>
+          <p>(Ga. L. 1937, p. 355, § 12; Ga. L. 1963, p. 222, § 2; Ga. L. 1976, p. 685, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

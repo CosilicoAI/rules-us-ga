@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-69"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-69"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-69/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-69/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-69/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-69/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_69">
+        <num>44-12-69</num>
+        <content>
+          <p>For an interference with the possession of the thing hired, the right of action is in the hirer; for an injury to the property and for any interference with his property rights, the bailor has a right of action.</p>
+          <p>(Orig. Code 1863, § 2062; Code 1868, § 2065; Code 1873, § 2091; Code 1882, § 2091; Civil Code 1895, § 2909; Civil Code 1910, § 3482; Code 1933, § 12-210.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

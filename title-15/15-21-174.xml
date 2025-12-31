@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-174"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-174"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-174/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-174/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-174/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-174/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_174">
+        <num>15-21-174</num>
+        <content>
+          <p>Members of the commission shall serve without compensation but shall receive the same expense allowance per day as that received by a member of the General Assembly for each day such member of the commission is in attendance at a meeting of such commission, plus either reimbursement for actual transportation costs while traveling by public carrier or the same mileage allowance for use of a personal car in connection with such attendance as members of the General Assembly receive.Such expense and travel allowance shall be paid in lieu of any per diem, allowance, or other remuneration now received by any such member for such attendance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

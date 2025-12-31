@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-295"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-295"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-295/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-295/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-295/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-295/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_295">
+        <num>12-3-295</num>
+        <content>
+          <p>The North Georgia Mountains Authority is authorized to appoint security officers to safeguard the property of the authority and the safety of the general public. The duly appointed security officers of the authority are authorized, while on the premises over which the authority exercises dominion and control, to carry weapons, to make arrests, and to exercise such of the police power of the state as may be necessary to maintain peace and order and to enforce any and all lawful zoning, user, and personal conduct regulations.</p>
+          <p>(Ga. L. 1971, p. 315, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

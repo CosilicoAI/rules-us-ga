@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-13"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_13">
+        <num>50-16-13</num>
+        <content>
+          <p>The state insurance and hazard reserve fund is authorized to execute contracts with reliable manufacturers of automatic sprinkler systems and other fixed fire protection systems for the installation of approved fire protection systems for all properties of the state, authorities, instrumentalities, bureaus, and commissions which are insured or which may become insured in the future under the state self-insurance program. The cost shall be borne by the state insurance and hazard reserve fund and may not exceed $100,000.00 in any one fiscal year. The fund shall be the sole judge as to where and to what extent such fire protection systems need to be installed for the protection of lives and property. All expenditures for the installation of fire protection systems and equipment shall be approved by the fiscal affairs subcommittees of the Senate and House of Representatives.</p>
+          <p>(Ga. L. 1974, p. 530, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

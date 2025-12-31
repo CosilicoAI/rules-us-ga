@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-4-45"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-45"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-4-45/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-45/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-4-45/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-4-45/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_4_45">
+        <num>20-4-45</num>
+        <content>
+          <p>The Technical College System of Georgia shall be authorized to procure equipment necessary to carry out an adequate training program under this article. Such equipment shall be maintained in a warehouse reserve and shall become available to any area of the state where a training program creates a need but shall be returned to the warehouse reserve when no longer needed in a training program. In furtherance of this provision, equipment having long delivery dates may be purchased in advance of an actual need upon the determination by the Technical College System of Georgia that a need for such equipment could reasonably be expected in the program. The system is authorized to provide for the transportation of instructional equipment and to employ equipment riggers, warehousemen, and other personnel needed to carry out this provision. Title to all equipment purchased under this article shall be vested in the State Board of the Technical College System of Georgia.</p>
+          <p>(Ga. L. 1968, p. 1138, § 7; Ga. L. 1972, p. 1015, § 1004; Ga. L. 1988, p. 1252, § 3; Ga. L. 2008, p. 335, § 2/SB 435; Ga. L. 2011, p. 632, § 3/HB 49.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

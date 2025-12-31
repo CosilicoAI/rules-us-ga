@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-37-4"/>
+          <FRBRuri value="/us-ga/act/ocga/36-37-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-37-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-37-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-37-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-37-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_37_4">
+        <num>36-37-4</num>
+        <content>
+          <p>Any person may convey to the mayor and council of any municipal corporation in this state any money or property to be held by the mayor and council in trust, the corpus or increase thereof to be expended, as directed by such conveyance, in the improvement or preservation and care of any cemetery or of the burial lots of such owner therein. The mayor and council shall receive and hold the property and execute such trusts, according to the terms thereof, as other trusts are executed under the laws of this state. They shall make annual returns to the judge of the probate court and shall be entitled to such commissions as are paid to other trustees, but they shall not be required to give bond.</p>
+          <p>(Ga. L. 1889, p. 178, § 1; Civil Code 1895, § 742; Civil Code 1910, § 889; Code 1933, § 69-503.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

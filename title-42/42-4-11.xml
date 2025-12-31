@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-4-11"/>
+          <FRBRuri value="/us-ga/act/ocga/42-4-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-4-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-4-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-4-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-4-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_4_11">
+        <num>42-4-11</num>
+        <content>
+          <p>In all cases in which a change of venue is made, the sheriff of the county from which a person in custody is to be moved shall carry the person to the county to which the change of venue was directed and deliver him to the sheriff of such county, who shall then take charge of the person as in other cases. The sheriff of the county from which the person is to be moved shall carry with him and deliver to the sheriff the warrant under which the person was arrested or the commitment.</p>
+          <p>(Ga. L. 1868, p. 133, § 1; Code 1873, § 4688; Code 1882, § 4688; Penal Code 1895, § 1129; Penal Code 1910, § 1158; Code 1933, § 77-112.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

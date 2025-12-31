@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-5-74"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-74"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-5-74/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-74/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-5-74/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-74/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_5_74">
+        <num>46-5-74</num>
+        <content>
+          <p>Upon receiving the two certified copies of the articles of incorporation and the order of the judge thereon, the applicants or their attorney shall present the same to the Secretary of State for registration and recordation and shall concurrently therewith pay to the Secretary of State for the use of the state the fee provided for in Code Section 46-5-100.</p>
+          <p>(Ga. L. 1950, p. 192, § 15; Ga. L. 1984, p. 22, § 46; Ga. L. 1985, p. 149, § 46.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-92"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_92">
+        <num>15-21-92</num>
+        <content>
+          <p>The additional penalties provided for in Code Section 15-21-93 shall not be imposed or collected in any court in any county until the governing authority of the county or counties adopts a resolution placing this article in effect, requiring the imposition and collection of such additional penalties, and agreeing to expend the funds collected for the purposes provided for in this article. The additional penalties provided for in Code Section 15-21-93 shall not be imposed or collected in any municipal court or other court operated by a municipality unless the municipality and county enter into an intergovernmental contract after January 1, 1990, providing for use of the county jail, correctional institution, or detention facility by municipal prisoners.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

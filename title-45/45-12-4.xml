@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-4"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_4">
+        <num>45-12-4</num>
+        <content>
+          <p>The Governor-elect shall, before he enters on the duties of his office, take the following oath in the presence of the General Assembly in joint session of the Senate and House of Representatives:</p>
+          <p>"I do solemnly swear or affirm that I will faithfully execute the office of Governor of the State of Georgia and will, to the best of my ability, preserve, protect, and defend the Constitution thereof and the Constitution of the United States."</p>
+          <p>Upon so taking the oath, the Governor-elect shall become Governor. The Lieutenant Governor-elect shall take the same oath with the substitution of "Lieutenant Governor" for "Governor" and upon so taking such oath shall become Lieutenant Governor.</p>
+          <p>(Orig. Code 1863, § 57; Code 1868, § 53; Code 1873, § 50; Code 1882, § 50; Civil Code 1895, § 117; Civil Code 1910, § 140; Code 1933, § 40-104; Ga. L. 1949, p. 948, § 3; Ga. L. 1983, p. 1539, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-5-6"/>
+          <FRBRuri value="/us-ga/act/ocga/15-5-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-5-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-5-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-5-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-5-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_5_6">
+        <num>15-5-6</num>
+        <content>
+          <p>Each district administrative judge is authorized to hire a full-time assistant adequately trained in the duties of court administration. The assistant shall assist in the duties of the district administrative judge, provide general court administrative services to the district council, and otherwise perform such duties as may be assigned to him or her by the district administrative judge. Each assistant shall be an employee of the judicial branch of the state government and shall be in the unclassified service as defined by Code Section 45-20-2. The assistant shall be compensated in an amount and manner to be determined by uniform rules adopted by the ten administrative judges. Each assistant shall be compensated out of funds made available for such purposes within the judicial branch of the government. Additional funds shall be made available for needed clerical and other office operating costs of the assistant.</p>
+          <p>(Ga. L. 1976, p. 782, § 5; Ga. L. 2009, p. 745, § 2/SB 97; Ga. L. 2012, p. 446, § 2-9/HB 642.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

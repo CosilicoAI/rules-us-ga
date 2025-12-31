@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-106"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-106"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-106/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-106/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-106/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-106/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_106">
+        <num>9-13-106</num>
+        <content>
+          <p>The plaintiff in execution in all claim cases shall have the right to withdraw the original execution from the files of the court by making application therefor, in person or by attorney, to the clerk of the court if there is a clerk or to the court if there is no clerk. Upon application being made, the clerk or court shall make a true copy of the execution with all the entries thereon and shall certify the same to be true, which certified copy shall be filed with the claim papers in lieu of the original execution; and an entry of the filing shall be made thereon.</p>
+          <p>(Ga. L. 1887, p. 62, § 1; Civil Code 1895, § 4629; Civil Code 1910, § 5175; Code 1933, § 39-909.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

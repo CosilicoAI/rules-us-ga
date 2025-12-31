@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-130"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-130/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-130/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_130">
+        <num>40-1-130</num>
+        <content>
+          <p>In any advertisement for a motor carrier, whether by print, radio, television, other broadcast, or electronic media including but not limited to Internet advertising and any listing or sites on any website, the motor carrier shall include the motor carrier authorization number issued to it by the Department of Public Safety. The requirements of this Code section shall not apply to nonconsensual towing motor carriers providing services pursuant to Code Section 44-1-13. The department shall be required to issue a motor carrier authorization number to each registered motor carrier. Whenever the department, after a hearing conducted in accordance with the provisions of Code Section 40-1-56, finds that any person is advertising in violation of this Code section, the department may impose a fine of not more than $500.00 for an initial violation and not more than $15,000.00 for a second or subsequent violation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

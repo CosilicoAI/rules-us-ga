@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-11-6"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-11-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-11-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_11_6">
+        <num>33-11-6</num>
+        <content>
+          <p>An insurer may have as assets cash or deposits in checking or savings accounts under certificates of deposit or in any other form in banks and trust companies and in savings accounts, certificates of deposit, or similar certificates or evidences of deposits in savings and loan associations and building and loan associations which have qualified for the insurance protection afforded by the Federal Deposit Insurance Corporation or the Federal Savings and Loan Insurance Corporation; provided, however, that an insurer may, upon approval of the Commissioner, have as assets cash or deposits in checking or savings accounts, or in any other form in banks, trust companies, or savings and loan associations which are not members of the Federal Deposit Insurance Corporation or Federal Savings and Loan Insurance Corporation.</p>
+          <p>(Code 1933, § 56-1006, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1980, p. 1108, § 5; Ga. L. 1999, p. 592, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

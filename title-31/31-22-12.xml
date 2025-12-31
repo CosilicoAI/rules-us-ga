@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-22-12"/>
+          <FRBRuri value="/us-ga/act/ocga/31-22-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-22-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-22-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-22-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-22-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_22_12">
+        <num>31-22-12</num>
+        <content>
+          <p>The operation or maintenance of a clinical laboratory that is not certified, in violation of this chapter is declared a nuisance, inimical to the public health, welfare, and safety. The commissioner of the Department of Community Health in the name of the people of the state through the Attorney General may, in addition to other remedies provided in this chapter, bring an action for an injunction to restrain such violation or to enjoin the future operation or maintenance of any such clinical laboratory until compliance with this chapter or the rules or regulations promulgated under this chapter has been demonstrated to the satisfaction of the Department of Community Health.</p>
+          <p>(Ga. L. 1970, p. 531, § 10; Ga. L. 1985, p. 149, § 31; Ga. L. 2021, p. 472, § 1/HB 93.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, substituted "of a clinical laboratory that is not certified," for "of an unlicensed clinical laboratory" in the first sentence; and, in the second sentence, inserted "of the Department of Community Health" near the beginning and substituted "Department of Community Health" for "department" at the end.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

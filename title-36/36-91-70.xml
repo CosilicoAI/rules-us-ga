@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-91-70"/>
+          <FRBRuri value="/us-ga/act/ocga/36-91-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-91-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-91-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-91-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-91-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_91_70">
+        <num>36-91-70</num>
+        <content>
+          <p>Performance bonds shall be required for all public works construction contracts subject to the requirements of this chapter with an estimated contract amount greater than $100,000.00; provided, however, that a governmental entity may require a performance bond for public works construction contracts that are estimated at $100,000.00 or less. No public works construction contract requiring a performance bond shall be valid for any purpose unless the contractor shall give such performance bond. The performance bond shall be in the amount of at least the total amount payable by the terms of the contract and shall be increased as the contract amount is increased.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

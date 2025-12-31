@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-47"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_47">
+        <num>15-18-47</num>
+        <content>
+          <p>Attorneys and investigators employed by the council shall meet the same qualifications as those provided by Code Section 15-18-21 for attorneys and investigators employed by district attorneys. Such attorneys and investigators shall take and subscribe to an oath similar to the oath required by district attorneys. When assisting a district attorney, solicitor-general, or the Attorney General, such attorneys and investigators shall have the same authority and power as an attorney or investigator employed by such district attorney, solicitor-general, or the Attorney General. Investigators employed by the council and authorized by the council to carry weapons or to exercise any of the powers of a peace officer of this state shall meet the requirements of Chapter 8 of Title 35.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

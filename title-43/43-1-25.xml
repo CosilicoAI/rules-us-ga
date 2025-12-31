@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-1-25"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-1-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-1-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_1_25">
+        <num>43-1-25</num>
+        <content>
+          <p>Except as provided in subsection (o) of Code Section 43-1-19, Code Sections 43-1-16 through 43-1-24 shall apply to all professional licensing boards and licenses thereunder, except the Georgia Real Estate Commission and its licensees, notwithstanding any other law to the contrary, and each such professional licensing board may promulgate rules and regulations to implement the authority provided by the applicability of said provisions to said boards.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

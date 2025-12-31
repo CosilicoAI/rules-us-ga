@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-3-56"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-56"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-3-56/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-56/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-3-56/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-56/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_3_56">
+        <num>38-3-56</num>
+        <content>
+          <p>Notwithstanding any other provisions of law, the governing authority of any county or municipality may provide by ordinance for a program of emergency registration of all or certain designated classes of businesses doing business in the county or municipality during a state of emergency declared by the Governor. Such ordinance may be implemented for a period during which the state of emergency continues and for a subsequent recovery period of up to three months at the direction of the governing authority. In any county or municipality adopting such an ordinance, no business subject to the ordinance may do business in the county or municipality without first registering in conformance with the provisions of the ordinance.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

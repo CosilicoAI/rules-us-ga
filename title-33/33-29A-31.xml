@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-29A-31"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29A-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-29A-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29A-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-29A-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-29A-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_29A_31">
+        <num>33-29A-31</num>
+        <content>
+          <p>For purposes of this article, the term "individual accident and sickness insurance policy" means any policy insuring against loss resulting from sickness or from bodily injury or death by accident, or both, or any contract to furnish ambulance service in the future but does not include limited benefit insurance policies exempted from the definition of the term "health benefit policy" in Code Section 33-1-2. The term "individual accident and sickness insurance policy" shall also include comprehensive major medical coverage for medical and surgical benefits, and also includes "high deductible health plans" sold or maintained under the applicable provisions of Section 223 of the Internal Revenue Code.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

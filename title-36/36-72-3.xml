@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-72-3"/>
+          <FRBRuri value="/us-ga/act/ocga/36-72-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-72-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-72-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-72-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-72-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_72_3">
+        <num>36-72-3</num>
+        <content>
+          <p>Counties, anywhere within the county boundaries, and municipalities, anywhere within the municipal boundaries, are authorized, jointly and severally, to preserve and protect any abandoned cemetery or any burial ground which the county or municipality determines has been abandoned or is not being maintained by the person who is legally responsible for its upkeep, whether or not that person is financially capable of doing so, to expend public money in connection therewith, to provide for reimbursement of such funds by billing any legally responsible person or levying upon any of his property as authorized by local ordinance, and to exercise the power of eminent domain to acquire any interest in land necessary for that purpose.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

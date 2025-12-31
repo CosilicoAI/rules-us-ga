@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-6-31"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-6-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-6-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_6_31">
+        <num>50-6-31</num>
+        <content>
+          <p>In the event any witness summoned to appear in person or to produce documents fails or refuses to respond to such summons, it shall be the duty of the state auditor to certify the fact of refusal to a judge of the superior court of the county wherein such witness was required and directed to appear for the purpose of giving testimony or producing documentary evidence, which judge shall issue immediately an order to the party commanding him to appear immediately before the state auditor for the purpose of giving testimony or producing documentary evidence as directed in the notice or summons given by the state auditor. In the event of failure to respond to the summons of the court, the party shall be guilty of contempt of that court and shall be dealt with by the court accordingly.</p>
+          <p>(Code 1933, § 40-1805a, enacted by Ga. L. 1937, p. 421, § 1; Ga. L. 1982, p. 3, § 50.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

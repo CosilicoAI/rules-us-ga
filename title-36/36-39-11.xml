@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-11"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_11">
+        <num>36-39-11</num>
+        <content>
+          <p>At the time and place specified in the notice provided for in Code Section 36-39-10, the governing body shall examine all bids received. Without unnecessary delay, the contract shall be awarded to the lowest and best bidder, who will perform the work and furnish the materials which may be selected and perform all the conditions imposed by the governing body as prescribed in the resolutions and notice for proposals. The governing body shall have the right to reject any and all bids and readvertise for other bids when the bids submitted are not, in its judgment, satisfactory.</p>
+          <p>(Ga. L. 1927, p. 321, § 7; Code 1933, § 69-409.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

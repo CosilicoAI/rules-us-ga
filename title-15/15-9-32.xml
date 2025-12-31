@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-32"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_32">
+        <num>15-9-32</num>
+        <content>
+          <p>When a nonresident decedent has property or a cause of action in more than one county, letters of administration may be granted in any county in which such property or cause of action is located. The judge of the probate court who first grants such letters acquires exclusive jurisdiction.</p>
+          <p>(Orig. Code 1863, § 309; Code 1868, § 369; Code 1873, § 334; Code 1882, § 334; Civil Code 1895, § 4235; Civil Code 1910, § 4793; Code 1933, § 24-1903.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

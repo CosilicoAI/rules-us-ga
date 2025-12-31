@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-42-7"/>
+          <FRBRuri value="/us-ga/act/ocga/36-42-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-42-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-42-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-42-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-42-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_42_7">
+        <num>36-42-7</num>
+        <content>
+          <p>(c.1)Notwithstanding subsection (a) of this Code section, one director appointed to the board may reside outside the county; provided, however, that such appointed director owns a business within the downtown development area and is a resident of the State of Georgia. If subsequently to his or her appointment to the board pursuant to this subsection, the director ceases to own a business within the downtown development area or reside in the State of Georgia, such director shall relinquish his or her seat on the board.</p>
+          <p>(Ga. L. 1981, p. 1744, § 5; Ga. L. 1990, p. 570, § 1; Ga. L. 1991, p. 94, § 36; Ga. L. 1992, p. 2533, § 2; Ga. L. 2008, p. 180, § 1/HB 1126; Ga. L. 2021, p. 344, § 1/HB 161.)</p>
+          <p>The 2021 amendment,
+      effective May 4, 2021, deleted the former last sentence in subsection (c), which read: "Each authority shall have perpetual existence."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

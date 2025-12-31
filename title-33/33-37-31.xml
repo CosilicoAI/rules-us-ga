@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-37-31"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-37-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-37-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_37_31">
+        <num>33-37-31</num>
+        <content>
+          <p>The amount recoverable by the liquidator from reinsurers shall not be reduced as a result of the delinquency proceedings regardless of any provision in the reinsurance contract or other agreement. The reinsurance shall be payable under a contract or contracts reinsured by the assuming insurer on the basis of reported claims allowed by the liquidation court, without diminution because of the insolvency of the ceding insurer. Such payments shall be made directly to the ceding insurer or to its domiciliary liquidator except:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

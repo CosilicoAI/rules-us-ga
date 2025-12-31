@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-18-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-18-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-18-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-18-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-18-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-18-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_18_2">
+        <num>36-18-2</num>
+        <content>
+          <p>The governing authority of each county in this state is authorized to limit the operation of cable television systems within its territorial limits, except as limited by Code Section 36-18-3, to operators licensed and franchised by the county; to grant, in its sole discretion, one or more franchise licenses for the operation of cable television systems within the territorial limits of that county, except as limited by Code Section 36-18-3; and to regulate by ordinance or resolution the operation of cable television systems licensed and franchised by that county. The governing authority of each such county, in connection with the grant of such franchises, is further authorized to charge franchise fees to cable television systems for the right to operate the systems within the unincorporated areas of the county and within any incorporated areas which are subject to the limitation contained in Code Section 36-18-3. Cable television system franchise fees shall be negotiated between each county and each franchisee, in an amount not to exceed that amount authorized under applicable federal law and regulations.</p>
+          <p>(Ga. L. 1981, p. 865, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

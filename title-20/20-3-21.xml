@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-21"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_21">
+        <num>20-3-21</num>
+        <content>
+          <p>The board of regents shall be composed of one member from each congressional district in the state and five additional members from the state at large, who shall be appointed by the Governor and confirmed by the Senate. The Governor shall not be a member of the board. The board shall have all the powers and duties now or hereafter provided by law. The board shall be subject to all provisions of law not inconsistent with this part.</p>
+          <p>(Ga. L. 1931, p. 7, § 50; Code 1933, § 32-104; Ga. L. 1937, p. 526, § 1; Ga. L. 1943, p. 142, §§ 1, 2; Ga. L. 1943, p. 670, §§ 3, 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

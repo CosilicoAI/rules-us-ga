@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/1-2-4"/>
+          <FRBRuri value="/us-ga/act/ocga/1-2-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/1-2-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/1-2-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/1-2-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/1-2-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_2_4">
+        <num>1-2-4</num>
+        <content>
+          <p>Except in time of war, every citizen of this state shall have the right of expatriation with a view to becoming a citizen of another country with which this state is at peace. Declaration or avowal of the intention to become a citizen of another country, accompanied by actual removal, shall be held to be a renunciation of all one's rights and duties as a citizen.</p>
+          <p>(Orig. Code 1863, § 53; Code 1868, § 49; Code 1873, § 46; Code 1882, § 46; Civil Code 1895, § 1805; Civil Code 1910, § 2162; Code 1933, § 79-203.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

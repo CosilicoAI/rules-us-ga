@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-231"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-231"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-231/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-231/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-231/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-231/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_231">
+        <num>21-2-231</num>
+        <content>
+          <p>(a.1)The clerk of the superior court of each county shall, on or before the tenth day of each month, prepare and transmit to the Secretary of State, in a format prescribed by the Secretary of State, a complete list of all persons, including addresses, ages, and other identifying information as prescribed by the Secretary of State, who identify themselves as not being citizens of the United States during their qualification to serve as a juror during the preceding calendar month in that county.</p>
+          <p>(e.1)County registrars may obtain information about persons who died from obituaries published by local newspapers, death certificates, verifiable knowledge of the death, and information provided in writing and signed by a family member or members of the deceased person. County registrars shall determine if such deceased person's name appears on the list of electors and, if so, shall remove such name from the list of electors and shall send by first class mail to the mailing address shown on the elector's voter registration records a notice of such action and the reason therefor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-6-66"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-66"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-6-66/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-66/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-6-66/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-66/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_6_66">
+        <num>9-6-66</num>
+        <content>
+          <p>Whenever the right to any office is decided, the judgment fixing the right shall further provide for the delivery to the person held to be entitled to the office of all the books and papers of every sort belonging to the office, which judgment shall be enforced as decrees in equity are enforced.</p>
+          <p>(Ga. L. 1871-72, p. 41, § 2; Code 1873, § 3209; Code 1882, § 3209; Civil Code 1895, § 4884; Civil Code 1910, § 5457; Code 1933, § 64-202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

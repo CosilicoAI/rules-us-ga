@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-5-134"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-134"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-5-134/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-134/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-5-134/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-134/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_5_134">
+        <num>44-5-134</num>
+        <content>
+          <p>The former Article 5 of this chapter, known as "The Georgia Gifts to Minors Act," is repealed.To the extent that this new article, by virtue of subsection (b) of Code Section 44-5-132, does not apply to transfers made in a manner prescribed in "The Georgia Gifts to Minors Act" or to the powers, duties, and immunities conferred by transfers in that manner upon custodians and persons dealing with custodians, the repeal of "The Georgia Gifts to Minors Act" does not affect those transfers or those powers, duties, and immunities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

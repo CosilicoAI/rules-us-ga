@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-9-12"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-9-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-9-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_9_12">
+        <num>53-9-12</num>
+        <content>
+          <p>The petition shall set forth the name of the missing individual, that individual's place of domicile, the circumstances under which that individual came to be missing, the length of time the individual has been missing, what inquiry has been made as to the whereabouts of the individual, the fact that the missing individual would probably have communicated with the petitioner or some other person of whom inquiry has been made, the names, addresses, and ages or majority status of those individuals who would be heirs if the missing individual were dead, a description of the property owned by the missing individual and the estimated value of the estate, the circumstances that dictate the need for the appointment of a conservator, and whether any other arrangements, such as powers of attorney or trusts, exist for the management of the missing individual's estate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-5-21"/>
+          <FRBRuri value="/us-ga/act/ocga/31-5-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-5-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-5-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-5-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-5-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_5_21">
+        <num>31-5-21</num>
+        <content>
+          <p>The commissioner of public health or his or her delegate or the director of any county board of health, in addition to other procedures now or hereafter provided, may obtain an inspection warrant under the conditions specified in this chapter. Such warrant shall authorize the commissioner of public health or the director of any county board of health, or the agents of any, or the Department of Agriculture, as appropriate, to conduct a search or inspection of property, either with or without the consent of the person whose property is to be searched or inspected, if such search or inspection is one that is elsewhere authorized under the rules and regulations duly promulgated under this title or any provision of law which authorizes licensure, inspection, or regulation by the Department of Public Health or a local agency thereof.</p>
+          <p>(Code 1933, § 88-302A, enacted by Ga. L. 1975, p. 693, § 1; Ga. L. 1982, p. 1667, §§ 1, 2; Ga. L. 1998, p. 128, § 31; Ga. L. 2009, p. 453, § 1-4/HB 228; Ga. L. 2011, p. 705, § 5-12/HB 214; Ga. L. 2015, p. 598, § 1-12/HB 72.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

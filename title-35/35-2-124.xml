@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-2-124"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-124"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-2-124/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-124/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-2-124/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-124/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_2_124">
+        <num>35-2-124</num>
+        <content>
+          <p>The Georgia Building Authority shall reimburse the department for the costs to the department of performing police and security duties within Capitol Square in accordance with an intergovernmental agreement by and between the department and the Georgia Building Authority. Such agreement shall set forth the amount to be paid by the Georgia Building Authority to the department for each fiscal year and shall be executed prior to the budget submission deadline set by the Office of Planning and Budget.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

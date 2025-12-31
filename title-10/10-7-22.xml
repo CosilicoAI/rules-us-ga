@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-7-22"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-7-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-7-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_7_22">
+        <num>10-7-22</num>
+        <content>
+          <p>Any act of the creditor, either before or after judgment against the principal, which injures the surety or increases his risk or exposes him to greater liability shall discharge him; a mere failure by the creditor to sue as soon as the law allows or neglect to prosecute with vigor his legal remedies, unless for a consideration, shall not release the surety.</p>
+          <p>(Orig. Code 1863, § 2131; Code 1868, § 2126; Code 1873, § 2154; Code 1882, § 2154; Civil Code 1895, § 2972; Civil Code 1910, § 3544; Code 1933, § 103-203.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

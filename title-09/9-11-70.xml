@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-11-70"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-11-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-11-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_11_70">
+        <num>9-11-70</num>
+        <content>
+          <p>A decree for specific performance shall operate as a deed to convey land or other property without any conveyance being executed by the vendor. The decree, certified by the clerk, shall be recorded in the registry of deeds in the county where the land lies and shall stand in the place of a deed. In all other cases where a judgment directs a party to perform other specific acts and the party fails to comply within the time specified, the court may direct the acts to be done at the cost of the disobedient party by some other person appointed by the court; and acts when so done have like effect as if done by the party. The court may also in proper cases adjudge the party in contempt. If real or personal property is within the state, the court in lieu of directing a conveyance thereof may enter a judgment divesting the title of any party and vesting it in others; and the judgment has the effect of a conveyance executed in due form of law. When any order or judgment is for the delivery of possession, the party in whose favor it is entered is entitled to a writ of execution upon oral or written application to the clerk.</p>
+          <p>(Ga. L. 1966, p. 609, § 70.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

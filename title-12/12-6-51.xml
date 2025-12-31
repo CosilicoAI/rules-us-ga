@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-51"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_51">
+        <num>12-6-51</num>
+        <content>
+          <p>When written examinations are required, they shall be held at such time and place as the division director of the professional licensing boards division, as provided in Chapter 1 of Title 43, shall determine. The methods of procedure shall be prescribed by the division director of the professional licensing boards division, as provided in Chapter 1 of Title 43. A candidate failing on examination may apply for reexamination in the manner provided for by the division director of the professional licensing boards division, as provided in Chapter 1 of Title 43. Subsequent examination will be granted upon payment of a fee to be determined by the board.</p>
+          <p>(Ga. L. 1951, p. 581, § 14; Ga. L. 2000, p. 1706, § 20; Ga. L. 2001, p. 4, § 12.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

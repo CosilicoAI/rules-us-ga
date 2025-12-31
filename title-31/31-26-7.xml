@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-26-7"/>
+          <FRBRuri value="/us-ga/act/ocga/31-26-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-26-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-26-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-26-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-26-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_26_7">
+        <num>31-26-7</num>
+        <content>
+          <p>Any violation of this chapter or any rules and regulations adopted and promulgated under this chapter is declared to be a public nuisance subject to abatement as provided in Code Section 31-5-9.</p>
+          <p>(Ga. L. 1955, p. 252, § 11; Code 1933, § 88-1410, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1985, p. 149, § 31.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

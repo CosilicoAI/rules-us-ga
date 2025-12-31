@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-12-191"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-191"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-12-191/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-191/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-12-191/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-191/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_12_191">
+        <num>53-12-191</num>
+        <content>
+          <p>Notwithstanding any provision therein to the contrary and except as provided in Code Section 53-12-192, the governing trust instrument of any trust which is a private foundation or which is a charitable trust, as defined in Section 4947(a)(1) of the federal Internal Revenue Code, shall be amended automatically as of the later of the inception of the trust or January 1, 1972, to include a provision which requires the trustees to distribute, for the purposes specified in the governing trust instrument, for each taxable year, amounts at least sufficient to avoid any liability for the tax imposed by Section 4942 of the federal Internal Revenue Code.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

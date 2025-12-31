@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-130"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-130/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-130/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_130">
+        <num>44-2-130</num>
+        <content>
+          <p>Upon the grant of letters of administration or executorship by the probate court and upon presentation of a certified copy of the letters to the clerk of the superior court together with the presentation of the owner's certificate, the clerk shall make a special entry on the certificate of title on the title register showing the presentation of the letters of administration or executorship, the name of the representative, the court and county of his appointment, and the dates of the letters and of the transfer of the title to the representative. The clerk shall thereupon cancel the certificate of title and the owner's certificate outstanding in the name of the decedent and shall issue to the administrator or the executor, as the case may be, a new owner's certificate. If the decedent was the owner of only a fractional undivided interest in the title and the outstanding certificate stood in the name of the decedent and others or if from any other cause the decedent was not the sole owner of the certificate, the outstanding certificates shall nevertheless be canceled and a new certificate registered and a new owner's certificate issued with the name of the personal representative substituted for the name of the decedent.</p>
+          <p>(Ga. L. 1917, p. 108, § 44; Code 1933, § 60-408.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

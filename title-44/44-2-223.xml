@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-223"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-223"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-223/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-223/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-223/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-223/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_223">
+        <num>44-2-223</num>
+        <content>
+          <p>The advertisement to be inserted in the newspaper in which sheriff's sales of the county are advertised for four insertions in separate weeks should be substantially in the following form:
+   IN THE SUPERIOR COURT OF ________ COUNTY
+   STATE OF GEORGIA
+   In re petition
+   )
+   Civil action
+   of ______
+   )
+   File no. ______
+   )
+   To whom it may concern, and to (here insert the names of all respondents, if any, who reside beyond the limits of the state, or whose place of residence is unknown):
+   Take notice that _____________ has filed in said court a petition seeking to register the following lands under the provisions of the Land Registration Law: (Here describe lands). You are warned to show cause to the contrary, if any you have, before said court on the ________ day of ________________________, ________.
+   This ________ day of ________________________, ________.
+   ___________________________________________________________________
+   Clerk</p>
+          <p>(Ga. L. 1917, p. 108, § 88; Code 1933, § 60-604; Ga. L. 1982, p. 3, § 44; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-10-103"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-10-103/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-10-103/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_10_103">
+        <num>2-10-103</num>
+        <content>
+          <p>A cooperative association organized under this article shall have the powers from time to time (1) to acquire part or all of the debt or equity or both of any corporations, partnerships, or other legal entities engaged in any agricultural or other businesses, (2) to join with others to create or to own all or part of any such entities, and (3) to control and manage such entities. The business of any such entities shall not be considered to be the business of the cooperative association for purposes of Code Section 2-10-94, Code Section 2-10-103, or any other Code section of this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

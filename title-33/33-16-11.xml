@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-16-11"/>
+          <FRBRuri value="/us-ga/act/ocga/33-16-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-16-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-16-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-16-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-16-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_16_11">
+        <num>33-16-11</num>
+        <content>
+          <p>An annual meeting of such company shall be held at such a time as is fixed in the bylaws of the company. Special meetings may be held for such purposes and in such manner as may be specified in the insurer's bylaws, consistent with this chapter. All such meetings shall be held in the insurer's county of domicile or other location in this state that is convenient for its membership and specified in the insurer's bylaws. Notice of such meeting shall be mailed or otherwise given to each member not less than 20 days in advance of the meeting, and notice of any special meeting called by the board of directors shall be given in writing not less than ten days in advance stating the purpose of the meeting so called.</p>
+          <p>(Code 1933, § 56-2015, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 2012, p. 1040, § 1/SB 203.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

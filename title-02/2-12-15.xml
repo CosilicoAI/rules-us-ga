@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-12-15"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-12-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-12-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_12_15">
+        <num>2-12-15</num>
+        <content>
+          <p>For the enforcement and implementation of this article, the Commissioner is authorized to prescribe and adopt, according to the provisions of Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," and enforce such reasonable rules and regulations relating to the distribution of fertilizers as the Commissioner finds necessary to carry into effect the full intent and meaning of this article and to ensure ethical practices in the sale, delivery, and return of fertilizer. The Commissioner is further authorized to share such information and consult with other agencies such as, but not limited to, the Environmental Protection Division of the Department of Natural Resources and the United States Department of Agriculture's Natural Resources Conservation Service.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-6-14"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-6-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-6-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_6_14">
+        <num>45-6-14</num>
+        <content>
+          <p>After the expiration of his term, if any officer shall willfully and unlawfully withhold or detain from his successor the books, papers, or other office property belonging to his office or if he shall mutilate, destroy, take away, or otherwise prevent the complete possession by his successor of such books, papers, or other office property, then he shall be guilty of a misdemeanor.</p>
+          <p>(Laws 1833, Cobb's 1851 Digest, pp. 805, 806; Code 1863, § 4368; Code 1868, § 4406; Code 1873, § 4474; Code 1882, § 4474; Penal Code 1895, § 283; Penal Code 1910, § 287; Code 1933, § 89-9905.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

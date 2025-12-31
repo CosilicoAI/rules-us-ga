@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-57"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-57"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-57/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-57/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-57/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-57/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_57">
+        <num>50-5-57</num>
+        <content>
+          <p>The Department of Administrative Services shall have the power and authority and it shall be the department's duty, subject to this part, to contract for the purchase, lease, or other mode of acquisition of all supplies, materials, services other than professional and personal employment services, and equipment required by the state. After sources of supply have been established by contract under competitive bidding and certified by the Department of Administrative Services to the different departments, institutions, and agencies of the state as provided for in this part, the institutions, agencies, or departments of the state shall make requisition on blanks to be approved by the Department of Administrative Services for such supplies, materials, and equipment required by them from the supply so certified and, except as otherwise provided for or unless the departments, institutions, and agencies of the state obtain written authority from the Department of Administrative Services to do so, it shall be unlawful for any of them to purchase any supplies, materials, or equipment from sources other than as certified to them by the Department of Administrative Services. One copy of the requisition shall be sent to the Department of Administrative Services when the same is issued.</p>
+          <p>(Ga. L. 1950, p. 181, § 1; Ga. L. 1979, p. 659, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

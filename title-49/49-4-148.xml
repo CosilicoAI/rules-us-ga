@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-4-148"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-148"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-4-148/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-148/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-4-148/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-148/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_4_148">
+        <num>49-4-148</num>
+        <content>
+          <p>(Ga. L. 1977, p. 384, § 9; Ga. L. 1978, p. 1520, § 1; Ga. L. 1999, p. 296, § 24; Ga. L. 2001, p. 1240, § 8; Ga. L. 2007, p. 348, § 1/HB 505; Ga. L. 2020, p. 654, § 6/HB 918.)</p>
+          <p>The 2020 amendment,
+      effective January 1, 2021, in the first sentence of subsection (b), substituted "benefits managers" for "benefit managers" and substituted "Code Section 33-64-1" for "Code Section 26-4-110.1".</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

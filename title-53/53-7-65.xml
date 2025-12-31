@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-7-65"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-65"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-7-65/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-65/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-7-65/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-65/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_7_65">
+        <num>53-7-65</num>
+        <content>
+          <p>The final receipts on settlements given by heirs or beneficiaries to a personal representative, whether a judicial or an informal settlement, may be admitted to record by the clerk of the probate court or the clerk of the superior court in either the county of residence of the personal representative or the county in which the estate is administered if attested by a judge of any court of this state, a magistrate, or a notary public. When recorded, the receipts shall be admitted in evidence without further proof. In case of loss of the original, a copy may be used in evidence under the same rules as for admission of copies of registered deeds.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

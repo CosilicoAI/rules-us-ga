@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-199"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-199"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-199/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-199/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-199/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-199/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_199">
+        <num>32-6-199</num>
+        <content>
+          <p>Whenever an existing underpass or overpass involving railroads is unsafe or inadequate to serve reasonably the traffic for which it was constructed, the department, the county, or the municipality may proceed to bring about improvement of said existing structure. In such event the procedure, division of the costs of construction, and maintenance responsibilities in regard to such improvement shall be as provided in Code Sections 32-6-194 through 32-6-198.</p>
+          <p>(Ga. L. 1927, p. 299, § 8; Code 1933, § 95-1908; Code 1933, § 95A-1013, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

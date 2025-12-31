@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-291"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-291"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-291/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-291/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-291/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-291/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_291">
+        <num>20-3-291</num>
+        <content>
+          <p>The corporation and its corporate existence shall continue until terminated by law; provided, however, that no such law shall take effect so long as the corporation shall have obligations outstanding, unless adequate provision has been made for the payment thereof and the holders of all such obligations agree to such provision. This Code section shall be for the benefit of the holders of all such obligations and shall constitute a contract with the holders of such obligations. Upon dissolution of the corporation, all of its assets, rights, and properties shall pass to and be vested in the state to be used for educational purposes.</p>
+          <p>(Ga. L. 1964, p. 735, § 13; Ga. L. 1965, p. 217, § 14; Ga. L. 1968, p. 386, § 7; Code 1933, § 32-3337, enacted by Ga. L. 1980, p. 835, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-11-6"/>
+          <FRBRuri value="/us-ga/act/ocga/13-11-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-11-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-11-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-11-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-11-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_11_6">
+        <num>13-11-6</num>
+        <content>
+          <p>The contractor shall, within ten days from the contractor's receipt of retainage from the owner, pass through payments to subcontractors and shall reduce each subcontractor's retainage in the same manner as the contractor's retainage is reduced by the owner, provided that the value of the subcontractor's work complete and in place equals 50 percent of his or her subcontract value, including approved change orders and other additions to the subcontract value and, provided, further, that the work of the subcontractor is proceeding satisfactorily and, provided, further, that the subcontractor has provided or provides such satisfactory reasonable assurances of continued performance and financial responsibility to complete his or her work as the contractor in his or her reasonable discretion may require, including but not limited to a payment and performance bond.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

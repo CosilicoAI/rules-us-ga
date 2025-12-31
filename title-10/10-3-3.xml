@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-3-3"/>
+          <FRBRuri value="/us-ga/act/ocga/10-3-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-3-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-3-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-3-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-3-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_3_3">
+        <num>10-3-3</num>
+        <content>
+          <p>All promissory notes, contracts, or other evidences of debt taken by any person, agent, company, or corporation for the purchase price of any patent right, copyright, or proprietary right or territory for the sale of any such right or for the sale of any patented article or thing or copyrighted article or thing or where there is a proprietary ownership or right and sold by such person, agent, company, or corporation through or by any peddler, agent, or traveling salesman traveling for the purpose of making such sales shall have expressed on the face of such note, contract, or other evidence of debt the consideration of the same, stating the thing or article for which the same was given, provided this Code section shall not apply to merchants or manufacturers selling and delivering such goods directly from their stores or warehouses in the regular course of business.</p>
+          <p>(Ga. L. 1897, p. 81, § 1; Civil Code 1910, § 4293; Code 1933, § 14-1804.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

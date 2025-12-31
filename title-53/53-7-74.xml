@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-7-74"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-74"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-7-74/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-74/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-7-74/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-7-74/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_7_74">
+        <num>53-7-74</num>
+        <content>
+          <p>At or before the time fixed for hearing, any parties at interest may file objections to the personal representative's report, actions, and accounting, in which case the hearing on the accounting shall automatically be continued until a date certain, when, subject to the probate court's power to grant continuances, the same shall be heard as other cases pending in the probate court with like right of appeal to the superior court. In such case, an appeal by consent may be taken to the superior court; provided, however, that such appellate procedures shall not apply to cases provided for by Article 6 of Chapter 9 of Title 15. The parties at interest who have been served with notice as provided in subsection (c) of Code Section 53-7-73 and who have filed no objections to the report and accounting need not be served with notice of an appeal or any other or further proceedings, and their consent shall not be required for an appeal to the superior court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

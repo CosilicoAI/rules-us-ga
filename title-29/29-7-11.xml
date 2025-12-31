@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/29-7-11"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/29-7-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/29-7-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/29-7-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_7_11">
+        <num>29-7-11</num>
+        <content>
+          <p>Every VA guardian shall invest the surplus funds of the ward's estate in such securities or property as authorized under the laws of this state but only upon prior order of the court; except that the funds may be invested, without prior court authorization, in direct unconditional interest-bearing obligations of this state or of the United States or in obligations the interest and principal of which are unconditionally guaranteed by the United States. A signed duplicate or certified copy of the petition for authority to invest surplus funds shall be furnished the proper area office of the department, and notice of hearing on the petition shall be given said office in the case of a VA guardian's account.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

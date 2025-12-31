@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-6"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_6">
+        <num>31-8-6</num>
+        <content>
+          <p>Upon certification approved by the department, any participating county may receive credit for direct expenditures made during the period covered by the budget by the county to a hospital or hospitals when such expenditures can be shown to have been made for the care of indigent residents as defined in this Code section.</p>
+          <p>(Ga. L. 1957, p. 470, § 6; Code 1933, § 88-2306, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1985, p. 149, § 31.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

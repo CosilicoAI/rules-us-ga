@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-24-65"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-65"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-24-65/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-65/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-24-65/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-65/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_24_65">
+        <num>33-24-65</num>
+        <content>
+          <p>The Commissioner of Insurance, upon receiving a certified copy from the Clerk of the House or the Secretary of the Senate of the bill or bills as provided in Code Section 33-24-63, may in his discretion convene a public hearing within ten calendar days after receipt in order to obtain any information necessary to allow the Commissioner a basis upon which to prepare the report required by this article. If the Commissioner convenes a public hearing, he shall give such notice as is reasonable under the circumstances and, in all other respects, shall conduct such hearing in accordance with Chapter 2 of this title.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

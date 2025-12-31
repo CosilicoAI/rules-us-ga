@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-15-7"/>
+          <FRBRuri value="/us-ga/act/ocga/48-15-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-15-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-15-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-15-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-15-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_15_7">
+        <num>48-15-7</num>
+        <content>
+          <p>The tax imposed by Code Section 48-15-3 shall be due and payable at the time of each use, possession, consumption, storage, or transfer; however, each person liable to pay the tax may report and remit the amount of tax which is due, using report forms prepared by the commissioner, no later than the twentieth day of the calendar month following the month in which the tax liability is incurred.The reporting procedure provided for in this Code section shall not prevent the commissioner from earlier assessing or collecting, prior to receiving the report or remittance, any taxes which have become due.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

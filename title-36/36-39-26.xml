@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-26"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_26">
+        <num>36-39-26</num>
+        <content>
+          <p>The bonds shall be sold by the governing body at not less than par and the proceeds thereof shall be applied to the payment of the contract price and other expenses incurred pursuant to this chapter. Alternatively, such bonds in the amount that is necessary for the purpose may be turned over and delivered to the contractor at par value in payment of the amount due him on his contract, and the portion thereof which is necessary to pay other expenses incident to and incurred in providing for the improvements shall be sold or otherwise disposed of as the governing body directs.</p>
+          <p>(Ga. L. 1927, p. 321, § 10; Code 1933, § 69-418.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

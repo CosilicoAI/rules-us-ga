@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-17-3"/>
+          <FRBRuri value="/us-ga/act/ocga/16-17-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-17-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-17-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-17-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-17-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_17_3">
+        <num>16-17-3</num>
+        <content>
+          <p>Any person who violates subsection (a) or (b) of Code Section 16-17-2 shall be barred from the collection of any indebtedness created by said loan transaction and said transaction shall be void ab initio, and any person violating the provisions of subsection (a) or (b) of Code Section 16-17-2 shall in addition be liable to the borrower in each unlawful transaction for three times the amount of any interest or other charges to the borrower. A civil action under Code Section 16-17-2 may be brought on behalf of an individual borrower or on behalf of an ascertainable class of borrowers. In a successful action to enforce the provisions of this chapter, a court shall award a borrower, or class of borrowers, costs including reasonable attorneys' fees.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

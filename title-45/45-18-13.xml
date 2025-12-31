@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-18-13"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-18-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-18-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_18_13">
+        <num>45-18-13</num>
+        <content>
+          <p>Any amounts held by the health insurance fund which are available for investment shall be paid over to the Office of the State Treasurer. The state treasurer shall deposit said funds in a trust account for credit only to the health insurance fund. The state treasurer shall invest these health insurance funds subject to the limitations of Code Section 50-5A-7 and Chapter 17 of Title 50. All income derived from said investments shall accrue to the health insurance fund. When moneys are paid over to the Office of the State Treasurer as provided in this Code section, the commissioner of community health shall submit an estimate of the date such funds shall no longer be available for investment. When the commissioner of community health wishes to withdraw funds from the trust account provided for in this Code section, he or she shall submit a request for such withdrawal in writing to the state treasurer.</p>
+          <p>(Ga. L. 1974, p. 14, § 1; Ga. L. 1993, p. 1402, § 18; Ga. L. 1999, p. 296, § 23; Ga. L. 1999, p. 592, § 19; Ga. L. 2000, p. 1474, § 7; Ga. L. 2010, p. 863, §§ 2, 3/SB 296.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

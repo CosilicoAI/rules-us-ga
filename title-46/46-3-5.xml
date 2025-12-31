@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-5"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_5">
+        <num>46-3-5</num>
+        <content>
+          <p>Except as otherwise provided in subsection (a) of Code Section 46-3-8, all geographic areas inside the corporate limits of every municipality, as such limits existed on March 29, 1973, are assigned to the primary supplier, subject to the rights and restrictions applying to electric suppliers owning lines therein, as follows: Based upon the location of all electric suppliers' lines therein on March 29, 1973, every secondary supplier shall have the exclusive right to extend and continue furnishing service to new premises locating therein at least partially within 300 feet of its line and wholly more than 300 feet from the lines of every other electric supplier; and shall have the right, if chosen by the consumer utilizing such premises, to extend and continue furnishing service to new premises locating therein at least partially within 300 feet of both its lines and the lines of any other electric supplier; but shall not otherwise have the right, unless so agreed by the primary supplier and by any other secondary supplier whose lines are located at least partially within 300 feet thereof and the consumer utilizing such premises, to extend and continue furnishing service to any other premises locating therein, which shall be the exclusive right of the primary supplier or such other secondary supplier, if such be the case.</p>
+          <p>(Ga. L. 1974, p. 200, § 5; Ga. L. 1982, p. 3, § 46.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

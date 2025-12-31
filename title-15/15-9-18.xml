@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-18"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_18">
+        <num>15-9-18</num>
+        <content>
+          <p>Whenever the sheriff transfers cash bonds to the clerk of the court, pursuant to Code Section 15-16-27, the clerk of the probate court shall deposit such funds into interest-bearing trust accounts, and the interest from those funds shall be remitted to the Georgia Superior Court Clerks' Cooperative Authority in accordance with subsections (c) through (i) of Code Section 15-6-76.1 for distribution to the Georgia Public Defender Council.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

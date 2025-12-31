@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-162"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-162"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-162/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-162/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-162/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-162/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_162">
+        <num>48-8-162</num>
+        <content>
+          <p>The department is authorized to enter into the Streamlined Sales and Use Tax Agreement with one or more states to simplify and modernize sales and use tax administration in order to substantially reduce the burden of tax compliance for all sellers and for all types of commerce. In furtherance of the agreement, the department is authorized to act jointly with other states that are members of the agreement to establish standards for certification of a certified service provider and certified automated system and establish performance standards for multistate sellers. The department is further authorized to take other actions reasonably required to implement the provisions set forth in this article. Other actions authorized by this Code section include, but are not limited to, the adoption of rules and regulations and the joint procurement, with other member states, of goods and services in furtherance of the cooperative agreement. The department, or its designee, is authorized to represent this state before the other states that are signatories to the agreement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

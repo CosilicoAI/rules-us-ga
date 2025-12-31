@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-91"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_91">
+        <num>40-2-91</num>
+        <content>
+          <p>The commissioner is directed to negotiate with the proper authorities of adjoining states and consummate, as speedily as is practicable, reciprocal agreements, whereby residents of such states operating motor vehicles licensed in their respective states may have such privileges and exemptions in the operation of such motor vehicles as residents of this state may have and enjoy in such adjoining states in the operation of motor vehicles duly licensed in this state. In the making of such agreements, the commissioner shall have due regard for the advantage and convenience of the motor vehicle owners and other citizens of this state and particularly those who reside near the borders of adjoining states.</p>
+          <p>(Ga. L. 1931, p. 7, § 84; Ga. L. 1931, p. 216, §§ 1, 2; Code 1933, § 68-217; Ga. L. 1990, p. 2048, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

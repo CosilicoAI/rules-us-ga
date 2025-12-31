@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-50"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_50">
+        <num>15-21-50</num>
+        <content>
+          <p>Any costs or fees due any officer of court or to his heirs, administrators, executors, or assigns which are payable out of the fine and bond forfeiture fund shall be paid within seven years after the costs accrue or else the claim shall be barred by limitation and shall cease to be a valid claim against the fund or against any holder or custodian thereof under the law. The period of limitation may be extended as set out in Code Section 15-21-51.</p>
+          <p>(Ga. L. 1949, p. 1168, § 2; Ga. L. 2015, p. 693, § 3-33/HB 233.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "fine and bond forfeiture fund" for "fine and forfeiture fund" in the middle of the first sentence. See editor's note for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

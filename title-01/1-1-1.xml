@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/1-1-1"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/1-1-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/1-1-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/1-1-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_1_1">
+        <num>1-1-1</num>
+        <content>
+          <p>(Ga. L. 1982, p. 3, § 1; Ga. L. 2021, p. 916, § 1/SB 238.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, substituted the present provisions of this Code section for the former provisions, which read: "The statutory portion of the codification of Georgia laws prepared by the Code Revision Commission and the Michie Company pursuant to a contract entered into on June 19, 1978, is enacted and shall have the effect of statutes enacted by the General Assembly of Georgia. The statutory portion of such codification shall be merged with annotations, captions, catchlines, history lines, editorial notes, cross-references, indices, title and chapter analyses, and other materials pursuant to the contract and shall be published by authority of the state pursuant to such contract and when so published shall be known and may be cited as the 'Official Code of Georgia Annotated.'"</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

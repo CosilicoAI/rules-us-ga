@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-236"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-236"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-236/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-236/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-236/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-236/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_236">
+        <num>7-1-236</num>
+        <content>
+          <p>Whenever a change occurs in the ownership of or right to vote the outstanding shares of any bank or trust company which will result in the control or a change in the control of the bank or trust company, the president or other officer of such bank or trust company shall, within ten days after knowledge thereof, report such facts to the department. As used in this Code section, the term "control" means the power to direct or cause, directly or indirectly, the direction of the management or policies of the institution. If there is any doubt as to whether a change in the ownership or voting rights of such shares is sufficient to result in control thereof or to effect a change in the control thereof, such doubt shall be resolved in favor of reporting the facts to the department.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-4-18"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-4-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-4-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_4_18">
+        <num>5-4-18</num>
+        <content>
+          <p>If it shall be made to appear that a certiorari was frivolous and was applied for without good cause or only for the purpose of delay, the presiding judge before whom the writ was heard, on motion of the opposite party, may order that damages totaling not more than 20 percent of the sum adjudged to be due be recovered by the defendant in certiorari against the plaintiff in certiorari and his security; and judgment may be entered and execution issued accordingly.</p>
+          <p>(Ga. L. 1857, p. 104, § 2; Code 1863, § 3976; Code 1868, § 3997; Code 1873, § 4069; Code 1882, § 4069; Civil Code 1895, § 4654; Civil Code 1910, § 5203; Code 1933, § 19-503.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-119"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-119"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-119/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-119/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-119/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-119/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_119">
+        <num>10-4-119</num>
+        <content>
+          <p>At such time as the Commissioner of Agriculture deems there has been a violation of this part and the rules and regulations promulgated under this part, he shall have the power and authority, in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," to suspend the license or registration pending investigation of the violation and until such time as the violation has been corrected to the satisfaction of the Commissioner. During the period of time of any investigation of a violation, the Commissioner shall have the power and authority to impound all books and records and to preserve and maintain evidence until the investigation is completed; provided, however, that the investigation shall be completed at the earliest practicable time.</p>
+          <p>(Ga. L. 1960, p. 214, § 23.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

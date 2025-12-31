@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-80"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_80">
+        <num>15-12-80</num>
+        <content>
+          <p>Grand juries are authorized to recommend to the court the publication of the whole or any part of their general presentments and to prescribe the manner of publication. When the recommendation is made, the judge shall order the publication as recommended. Reasonable charges therefor shall be paid out of the county treasury, upon the certificate of the judge, as other court expenses are paid.</p>
+          <p>(Ga. L. 1889, p. 156, § 1; Penal Code 1895, § 847; Penal Code 1910, § 851; Code 1933, § 59-317.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

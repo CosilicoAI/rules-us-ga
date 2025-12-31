@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/30-5-7"/>
+          <FRBRuri value="/us-ga/act/ocga/30-5-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/30-5-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/30-5-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/30-5-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/30-5-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_30_5_7">
+        <num>30-5-7</num>
+        <content>
+          <p>(Ga. L. 1981, p. 1320, § 7; Ga. L. 1997, p. 700, § 2; Ga. L. 1999, p. 562, § 7; Ga. L. 2009, p. 453, § 2-14/HB 228; Ga. L. 2013, p. 524, § 1-8/HB 78; Ga. L. 2018, p. 602, § 3/HB 635.)</p>
+          <p>The 2018 amendment,
+      effective July 1, 2018, designated the existing provisions of this Code section as subsection (a); deleted the former second sentence of subsection (a), which read: "Nothing in this Code section shall be construed to deny agencies participating in joint investigations at the request of and with the department, or conducting separate investigations of abuse, neglect, or exploitation within an agency's scope of authority, or law enforcement personnel who are conducting an investigation into any criminal offense in which a disabled adult or elder person is a victim from having access to such records."; and added subsections (b) through (e).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

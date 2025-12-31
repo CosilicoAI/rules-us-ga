@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-83"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_83">
+        <num>44-13-83</num>
+        <content>
+          <p>Personal property shall be disposed of in the manner provided in Code Section 44-13-82, except that the receiver shall advertise the same in three of the most public places of the county for 30 days and shall not be required to advertise the same in a public newspaper.</p>
+          <p>(Ga. L. 1872, p. 43, § 4; Code 1873, § 2036; Code 1882, § 2036; Civil Code 1895, § 2858; Civil Code 1910, § 3408; Code 1933, § 51-1004; Ga. L. 1983, p. 1170, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

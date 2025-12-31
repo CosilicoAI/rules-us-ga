@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-7-46"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-7-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-7-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_7_46">
+        <num>10-7-46</num>
+        <content>
+          <p>If judgment has been rendered without such proof of suretyship, the surety shall give at least ten days' notice to his principal of his intention to apply at the next term of the court where the judgment was entered to make such proof and to have the fact of his suretyship entered of record, together with an order for the control of such judgment and execution thereon against the principal, on payment of the same by him.</p>
+          <p>(Laws 1850, Cobb's 1851 Digest, p. 599; Code 1863, § 2144; Code 1868, § 2139; Code 1873, § 2166; Code 1882, § 2166; Civil Code 1895, § 2985; Civil Code 1910, § 3557; Code 1933, § 103-307.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

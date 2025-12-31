@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-1-6"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-1-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-1-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_1_6">
+        <num>43-1-6</num>
+        <content>
+          <p>The venue of any action involving the members of any professional licensing board shall be governed by the laws of this state pertaining to venue. The division director shall not be considered a member of any such board in determining the venue of any such action; and no court shall have jurisdiction of any such action solely by virtue of the division director residing or maintaining a residence within its jurisdiction.</p>
+          <p>(Code 1933, § 84-103, enacted by Ga. L. 1962, p. 539, § 1; Ga. L. 2000, p. 1706, § 19.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

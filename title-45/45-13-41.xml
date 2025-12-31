@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-13-41"/>
+          <FRBRuri value="/us-ga/act/ocga/45-13-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-13-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-13-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-13-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-13-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_13_41">
+        <num>45-13-41</num>
+        <content>
+          <p>The commission shall be attached for administrative purposes to the office of the Board of Regents of the University System of Georgia. If approved by the Board of Regents, the board shall provide support staff and facilities for the commission. The Attorney General shall provide legal counsel to the commission and shall provide legal representation in any matter involving the affairs of the commission. No additional state appropriations shall be made for this commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

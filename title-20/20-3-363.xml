@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-363"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-363"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-363/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-363/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-363/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-363/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_363">
+        <num>20-3-363</num>
+        <content>
+          <p>Each qualified institution shall be subject to examination by the state auditor for the sole purpose of determining whether the institution has properly certified eligibility and enrollment of students and credited grants paid on behalf of such students; provided, however, that nothing in this subpart shall be construed to interfere with the authority of the institution to determine admissibility of students or to control its own curriculum, philosophy, purpose, or administration. In the event it is determined that a qualified institution knowingly or through error certified an ineligible student to be eligible for a grant under this subpart, the amount of the grant paid to such institution pursuant to such certification shall be refunded by such institution to the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

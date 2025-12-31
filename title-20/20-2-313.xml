@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-313"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-313"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-313/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-313/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-313/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-313/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_313">
+        <num>20-2-313</num>
+        <content>
+          <p>Employees of Department of Education governed by the State Board of Education shall be authorized to participate in the J. William Fulbright Educational Exchange Program managed and coordinated through the Bureau of Educational and Cultural Affairs pursuant to 22 U.S.C. 2460 the same as school teachers in the local public school systems of this state. Such employees of the Department of Education may obtain a continuous leave of absence with pay for a period not to exceed 12 months when an exchange teacher through the J. William Fulbright Educational Exchange Program will occupy such employee's position during such leave of absence and the state is not liable for any compensation or the provision of other benefits to such exchange teacher while performing the duties of the state employee. The State Board of Education shall promulgate any rules and regulations necessary and execute any required contracts to enable the State Department of Education to participate in the J. William Fulbright Educational Exchange Program, to assure a state employee's right to return to his or her previous position at the expiration of the leave of absence during participation in such program, and to protect the state from any liabilities with respect to the performance of any duties or functions for the state by an exchange teacher.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

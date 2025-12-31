@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/17-7-150"/>
+          <FRBRuri value="/us-ga/act/ocga/17-7-150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/17-7-150/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/17-7-150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/17-7-150/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/17-7-150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_7_150">
+        <num>17-7-150</num>
+        <content>
+          <p>The 2021 amendment,
+      effective May 3, 2021, designated the existing provisions of paragraph (a)(1) as subparagraph (a)(1)(A); substituted "venue. The" for "venue; the" in the middle of the third sentence in subparagraph (a)(1)(A); added subparagraph (a)(1)(B); and added the ending undesignated text in paragraph (a)(1).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

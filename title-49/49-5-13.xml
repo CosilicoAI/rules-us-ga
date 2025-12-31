@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-5-13"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-5-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-5-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_5_13">
+        <num>49-5-13</num>
+        <content>
+          <p>Nothing in this article or any rules and regulations adopted hereunder shall be construed to require that private child care learning centers maintain a ratio of adults to children under care that is commensurate with any federal requirement concerning such adult to child ratio.</p>
+          <p>(Ga. L. 1970, p. 720, § 1; Ga. L. 2013, p. 135, § 12/HB 354.)</p>
+          <p>The 2013 amendment,
+      effective July 1, 2013, substituted "child care learning centers" for "day-care centers" in the middle of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-500"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-500"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-500/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-500/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-500/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-500/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_500">
+        <num>20-3-500</num>
+        <content>
+          <p>The board of regents shall have the authority to grant to qualified students, who are citizens and bona fide residents of the State of Georgia and who would not otherwise have available the funds necessary to obtain an education, such scholarships as are necessary for them to complete programs of study offered by institutions of the University System of Georgia, with the exception of the program leading to the degree of Doctor of Medicine. The terms and conditions thereof shall be prescribed and regulated by the board of regents but shall include the condition that recipients of such scholarships shall, upon the completion of their programs of study, reside in the State of Georgia and engage in activities for which they were prepared through the scholarships for a period of one year for each $1,000.00 received.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

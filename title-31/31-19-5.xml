@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-19-5"/>
+          <FRBRuri value="/us-ga/act/ocga/31-19-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-19-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-19-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-19-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-19-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_19_5">
+        <num>31-19-5</num>
+        <content>
+          <p>The county boards of health are empowered and required to adopt and promulgate rules and regulations requiring canines and felines to be inoculated against rabies and to prescribe the intervals and means of inoculation, the fees to be paid in county sponsored clinics, that procedures be in compliance with the recommendations of the National Association of State Public Health Veterinarians for identifying inoculated canines and felines, and all other procedures applicable thereto. As used in this chapter, the term "inoculation against rabies" means the administering by a licensed veterinarian of antirabies vaccine approved by the department.</p>
+          <p>(Ga. L. 1945, p. 448, § 3; Code 1933, § 88-1505, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1969, p. 834, § 3; Ga. L. 1992, p. 2089, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

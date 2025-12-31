@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-16-7"/>
+          <FRBRuri value="/us-ga/act/ocga/12-16-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-16-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-16-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-16-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-16-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_16_7">
+        <num>12-16-7</num>
+        <content>
+          <p>Nothing in this article shall in any way affect or detract from specific statutory obligations of any government agency to comply with criteria or standards of environmental quality or to perform other statutory obligations imposed upon it, except those specified in Code Section 12-16-6; to coordinate or consult with any other government agency or federal agency; or to act, or refrain from acting, contingent upon the recommendations or certification of any other government agency or federal agency. A government agency shall be deemed to have complied with the requirements of this article for a proposed governmental action that requires and has received federal approval of an environmental document prepared in accordance with the National Environmental Policy Act of 1969, as amended, and its implementing regulations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

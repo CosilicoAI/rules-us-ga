@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-2-4"/>
+          <FRBRuri value="/us-ga/act/ocga/15-2-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-2-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-2-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-2-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-2-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_2_4">
+        <num>15-2-4</num>
+        <content>
+          <p>(Laws 1845, Cobb's 1851 Digest, p. 448; Code 1863, § 3158; Code 1868, § 3170; Code 1873, § 3238; Code 1882, § 3238; Ga. L. 1884-85, p. 45, § 1; Civil Code 1895, § 5494; Civil Code 1910, § 6099; Code 1933, § 24-3801; Ga. L. 1935, p. 161, § 1; Ga. L. 1983, p. 956, § 1; Ga. L. 1991, p. 430, § 1; Ga. L. 1993, p. 360, § 1; Ga. L. 2000, p. 1, § 1; Ga. L. 2016, p. 883, § 5-1/HB 927.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

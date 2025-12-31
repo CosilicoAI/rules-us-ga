@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-2-239"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-239"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-2-239/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-239/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-2-239/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-239/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_2_239">
+        <num>26-2-239</num>
+        <content>
+          <p>The standards and requirements for standardized frozen desserts, specifically ice cream, frozen custard, sherbet, and water ices, as adopted by the Food and Drug Administration of the United States Department of Health and Human Services and contained in "Frozen Desserts," 21 C.F.R. Sec. 135.3, 21 C.F.R. Sec. 135.110 - 135.160 (1979), except as otherwise provided, are expressly adopted as the standards and requirements for this state.</p>
+          <p>(Code 1933, § 42-612, enacted by Ga. L. 1980, p. 981, § 12; Ga. L. 1999, p. 638, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-7"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_7">
+        <num>46-3-7</num>
+        <content>
+          <p>Whenever, after March 29, 1973, any geographic area is annexed to a municipality including the inclusion of a geographic area in a new municipality formed by the merger, consolidation, or any other combination of a then existing municipality and one or more other geographically defined political subdivisions, if the resulting political subdivision constitutes a municipality as defined in Code Section 46-3-3, such geographic area shall be assigned or assignable or become unassigned, and the rights and restrictions applying to electric suppliers therein shall be as follows:</p>
+          <p>(Ga. L. 1973, p. 200, § 7; Ga. L. 1982, p. 3, § 46.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

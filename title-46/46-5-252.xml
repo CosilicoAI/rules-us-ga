@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-5-252"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-252"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-5-252/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-252/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-5-252/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-5-252/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_5_252">
+        <num>46-5-252</num>
+        <content>
+          <p>No company providing retail telecommunications service shall impose a separate line item or surcharge on customers' bills to recover any costs of complying with any state law or regulations without first submitting to the commission the methodology and data used by such company for approval by the commission; provided, however, that such a company shall not be required to submit for approval separate line items or surcharges that are specifically authorized or required by federal or state law. No fines or penalties imposed by the commission shall be considered as a cost of complying with a state law or regulation or included in any such separate line item or surcharge, or as a portion thereof.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

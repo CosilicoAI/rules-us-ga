@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-9-13"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-9-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-9-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_9_13">
+        <num>12-9-13</num>
+        <content>
+          <p>Whenever the director has reason to believe that a violation of any provisions of this article or rule or regulation of the Board of Natural Resources or any order of the director has occurred, he may issue such orders and take such actions as are authorized by this article to require such person or persons to remedy the violation so as to be in compliance with this article. Any order issued by the director under this Code section shall be signed by the director. Any such order shall become final unless the person or persons named therein request in writing a hearing before the department pursuant to Code Section 12-9-15.</p>
+          <p>(Ga. L. 1978, p. 275, § 14; Ga. L. 1992, p. 918, § 2; Ga. L. 1992, p. 2886, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

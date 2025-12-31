@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-14-22"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-14-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-14-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_14_22">
+        <num>40-14-22</num>
+        <content>
+          <p>The timing of any traffic-control signal which is being monitored by a traffic-control signal monitoring device shall conform to regulations promulgated by the Department of Transportation pursuant to Code Section 32-6-50. The duration of the yellow or red light of any traffic-control device at which a traffic-control signal monitoring device is installed shall not be decreased prior to the installation of a device or during the time for which the device is operated. The Department of Transportation shall establish minimal yellow light change interval times for traffic-control devices at intersections where a traffic-control signal monitoring device is utilized. The minimal yellow light change interval time shall be established in accordance with nationally recognized engineering standards, and any such established time shall not be less than the recognized national standard plus one additional second. Each governing authority using a traffic-control signal monitoring device shall at its own expense test the device for accuracy at regular intervals and record and maintain the results of each test. Such test results shall be public records subject to inspection as provided by Article 4 of Chapter 18 of Title 50. Each such test shall be made in accordance with the manufacturer's recommended procedure. Any such device not meeting the manufacturer's minimum accuracy requirements shall be removed from service and thereafter shall not be used by the governing authority, nor shall any charges for violations based on evidence from such device be made by a law enforcement agency, until such device has been serviced and calibrated at the expense of the governing authority by a qualified technician.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

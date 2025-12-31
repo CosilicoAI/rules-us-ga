@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-250"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-250"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-250/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-250/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-250/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-250/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_250">
+        <num>12-3-250</num>
+        <content>
+          <p>Immediately upon the approval of this part, or as soon thereafter as practicable, the authority shall prepare and publish a conversion price for each residential lot then under lease, stating the price at which the lot may be purchased from the authority. Thereafter the authority shall publish at the same time and in the same manner as schedules of lease rentals are published, as required by Code Section 12-3-249, a conversion price for each residential lot that is available for lease. The conversion price for residential lots shall not be less than the appraised value of such lots, taking into consideration the market value of comparable resort property in Glynn County, as determined by an appraisal or appraisals made or to be made by the Glynn County Real Estate Board. Every lease which the authority may grant for a residential lot shall contain therein the conversion price at which the lot may be purchased.</p>
+          <p>(Ga. L. 1957, p. 608, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

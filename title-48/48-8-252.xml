@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-252"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-252"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-252/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-252/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-252/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-252/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_252">
+        <num>48-8-252</num>
+        <content>
+          <p>Where a special district transportation sales and use tax under this article has been paid with respect to tangible personal property by the purchaser either in another special district within the state or in a tax jurisdiction outside the state, the tax may be credited against the tax authorized to be imposed by this article upon the same property. If the amount of sales or use tax so paid is less than the amount of the use tax due under this article, the purchaser shall pay an amount equal to the difference between the amount paid in the other tax jurisdiction and the amount due under this article. The state revenue commissioner may require such proof of payment in another local tax jurisdiction as he or she deems necessary and proper. No credit shall be granted, however, against the tax imposed under this article for tax paid in another jurisdiction if the tax paid in such other jurisdiction is used to obtain a credit against any other sales and use tax levied in the special district.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

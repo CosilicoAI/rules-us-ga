@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-41"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_41">
+        <num>48-8-41</num>
+        <content>
+          <p>If the issue of taxability under this article is raised in any case, the person raising the issue shall furnish the Attorney General with a copy of the initial pleading in which the issue is raised. The Attorney General shall acknowledge receipt of the pleading and his acknowledgment shall be filed in the court in which the case is pending. Any judgment rendered in a case in which the acknowledgment has not been filed shall be void and of no effect.</p>
+          <p>(Ga. L. 1951, p. 360, § 12; Ga. L. 1953, Jan.-Feb. Sess., p. 197, § 1; Code 1933, § 91A-4512.1, enacted by Ga. L. 1979, p. 5, § 96.)</p>
+          <p>JUDICIAL DECISIONS</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-430"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-430"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-430/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-430/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-430/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-430/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_430">
+        <num>20-2-430</num>
+        <content>
+          <p>When any county board of education shall deem it to the best interests of education in the county to incur any bonded debt for building, equipping, or purchasing sites for the building and equipping of schoolhouses pursuant to Article IX, Section V, Paragraphs I and IV of the Constitution of Georgia, the election required shall be called and held in the manner prescribed by Article 1 of Chapter 82 of Title 36, and the bonds shall be validated in the manner provided by Part 1 of Article 2 of Chapter 82 of Title 36. The purpose of this Code section is to permit and require the same procedure to be followed in the voting, issuance, levying of taxes for, and the retirement of bonds issued by county boards for building and equipping schoolhouses or purchasing sites therefor as is required in the case of municipalities and other county bonds; provided, however, that in any such election persons residing within territorial limits of independent school districts may not participate as qualified voters in the election, and should the election result favorably to the issuance of the bonds, the property located within the limits of an independent school district shall not be subject to taxation for the retirement of any bonds so issued.</p>
+          <p>(Ga. L. 1919, p. 288, § 145; Ga. L. 1921, p. 221, § 2; Code 1933, § 32-1403; Ga. L. 1946, p. 206, § 23; Ga. L. 1983, p. 3, § 53.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

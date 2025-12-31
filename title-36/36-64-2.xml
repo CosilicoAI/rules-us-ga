@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-64-2"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-64-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-64-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_64_2">
+        <num>36-64-2</num>
+        <content>
+          <p>The governing body of any municipality or county may dedicate and set apart for use as parks, playgrounds, and recreation centers and for other recreation purposes any lands or buildings or both, owned or leased by such municipality or county and not dedicated or devoted to another or inconsistent public use. Such municipality or county, in such manner as may now or hereafter be authorized or provided by law for the acquisition of lands or buildings for public purposes by the municipality or county, may acquire or lease lands or buildings or both, within or beyond the corporate limits of the municipality, for parks, playgrounds, recreation centers, and other recreational purposes. When the governing body of the municipality so dedicates, sets apart, acquires, or leases lands or buildings for such purposes, it may, on its own initiative, provide for their conduct, equipment, and maintenance, according to this chapter, by making an appropriation from the general municipal or county funds.</p>
+          <p>(Ga. L. 1923, p. 106, § 2; Code 1933, § 69-602; Ga. L. 1946, p. 152, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

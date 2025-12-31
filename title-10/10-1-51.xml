@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-51"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_51">
+        <num>10-1-51</num>
+        <content>
+          <p>If a person is a member of an organization which makes retail sales of any goods, wares, or merchandise to its members and the person notifies the organization of his termination of membership by certified mail or statutory overnight delivery, return receipt requested, any unordered goods, wares, or merchandise which are sent to the person after 30 days following execution of the return receipt for the certified letter by the organization shall for all purposes be deemed unconditional gifts to the person, who may use or dispose of the goods, wares, or merchandise in any manner he sees fit without any obligation on his part to the organization.</p>
+          <p>If the termination of a person's membership in such organization breaches any agreement with the organization, nothing in this Code section shall relieve the person from liability for damages to which he might be otherwise subjected to pursuant to law; but he shall not be subject to any damages with respect to any goods, wares, or merchandise which are deemed unconditional gifts to him under this Code section.</p>
+          <p>If, after any receipt deemed to be an unconditional gift under this Code section, the sender continues to send bill statements or requests for payment with respect thereto, an action may be brought by the recipient to enjoin such conduct, in which action there may also be awarded reasonable attorneys' fees and costs to the prevailing party.</p>
+          <p>(Ga. L. 1970, p. 565, § 2; Ga. L. 2000, p. 1589, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

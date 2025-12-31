@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-9-35"/>
+          <FRBRuri value="/us-ga/act/ocga/48-9-35"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-9-35/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-9-35/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-9-35/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-9-35/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_9_35">
+        <num>48-9-35</num>
+        <content>
+          <p>Every motor carrier subject to the road tax shall be entitled to a credit on the tax equivalent to the amount of motor fuel tax imposed by Article 1 of this chapter on all motor fuel purchased by the motor carrier during the quarter within this state for use in operations either within or outside this state when the motor fuel tax imposed by this state has been paid by the motor carrier. Evidence of the payments of the motor fuel tax in the form required by the commissioner shall be furnished by each motor carrier claiming the credit allowed. When the amount of the credit to which any motor carrier is entitled for any quarter exceeds the amount of the road tax for which the carrier is liable for same quarter, the excess may be allowed pursuant to regulations promulgated by the commissioner as a credit on the road tax for which the motor carrier would be otherwise liable for the subsequent quarter or quarters. Allowed credits may be carried forward and utilized no later than the succeeding two calendar years.</p>
+          <p>(Ga. L. 1968, p. 360, § 4; Code 1933, § 91A-5104, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

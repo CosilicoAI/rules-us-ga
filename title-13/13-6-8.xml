@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-6-8"/>
+          <FRBRuri value="/us-ga/act/ocga/13-6-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-6-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-6-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-6-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-6-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_6_8">
+        <num>13-6-8</num>
+        <content>
+          <p>Remote or consequential damages are not recoverable unless they can be traced solely to the breach of the contract or unless they are capable of exact computation, such as the profits which are the immediate fruit of the contract, and are independent of any collateral enterprise entered into in contemplation of the contract.</p>
+          <p>(Orig. Code 1863, § 2885; Code 1868, § 2893; Code 1873, § 2944; Code 1882, § 2944; Civil Code 1895, § 3798; Civil Code 1910, § 4394; Code 1933, § 20-1406.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

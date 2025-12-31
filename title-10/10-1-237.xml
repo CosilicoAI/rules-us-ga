@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-237"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-237"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-237/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-237/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-237/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-237/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_237">
+        <num>10-1-237</num>
+        <content>
+          <p>Upon receipt of notice to cancel or terminate an existing lease prior to expiration date, it shall be the duty of the dealer to notify the distributor within 30 days thereof of his intention to hold over and to set forth in writing to the distributor his reasons and justifications therefor and thereafter within ten days to file his complaint or application for injunction in the court of proper jurisdiction; and the judge of said court shall within 15 days conduct a hearing in said matter and thereafter within five days hand down a ruling based upon evidence presented as to the granting of a temporary injunction; and, upon the judge's failure to grant the injunction, the dealer shall vacate the premises all according to the lease agreement.</p>
+          <p>(Ga. L. 1973, p. 438, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

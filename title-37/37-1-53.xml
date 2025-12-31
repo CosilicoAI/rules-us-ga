@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-1-53"/>
+          <FRBRuri value="/us-ga/act/ocga/37-1-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-1-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-1-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-1-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-1-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_1_53">
+        <num>37-1-53</num>
+        <content>
+          <p>Notwithstanding any other provision of law to the contrary, the department is authorized by regulation to classify as confidential and privileged documents, reports, and other information and data obtained by them from persons, firms, corporations, municipalities, counties, and other public authorities and political subdivisions where such matters relate to secret processes, formulas, and methods or where such matters were obtained or furnished on a confidential basis. All matters so classified shall not be subject to public inspection or discovery and shall not be subject to production or disclosure in any court of law or elsewhere until and unless the judge of the court of competent jurisdiction, after in camera inspection, determines that the public interest requires such production and disclosure or that such production and disclosure may be necessary in the interest of justice. This subsection shall not apply to clinical records maintained pursuant to Code Sections 37-3-166, 37-3-167, 37-4-125, 37-4-126, 37-7-166, and 37-7-167.</p>
+          <p>(Code 1933, § 88-306, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1993, p. 1445, § 12; Ga. L. 2009, p. 453, § 3-1/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

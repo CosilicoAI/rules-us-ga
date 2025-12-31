@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-30"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_30">
+        <num>36-39-30</num>
+        <content>
+          <p>At the time and place named or at such other time and place as the hearing may be adjourned to, any interested person shall be heard to show cause in writing, which writing shall be filed with the clerk, why the prayer of the petition should not be granted. The court shall hear all questions of law or fact and all competent evidence may be offered as in other cases. The court shall thereupon enter an appropriate order finding and adjudging that the ordinance is lawful and valid and that the liens are legal and binding, or otherwise, as the law and facts may warrant.</p>
+          <p>(Ga. L. 1927, p. 321, § 16; Code 1933, § 69-430.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

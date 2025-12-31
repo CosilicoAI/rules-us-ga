@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-3-1"/>
+          <FRBRuri value="/us-ga/act/ocga/10-3-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-3-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-3-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-3-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-3-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_3_1">
+        <num>10-3-1</num>
+        <content>
+          <p>The transfer of notes secured by a mortgage or otherwise conveys to the transferee the benefit of the security. If more than one note is secured and the mortgagee transfers some and retains others, the holder of the transferred notes has a preference over the mortgagee if the security is insufficient to pay all the notes.</p>
+          <p>(Civil Code 1895, § 3684; Civil Code 1910, § 4276; Code 1933, § 14-1802.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

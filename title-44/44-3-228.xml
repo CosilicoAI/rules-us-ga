@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-228"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-228"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-228/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-228/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-228/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-228/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_228">
+        <num>44-3-228</num>
+        <content>
+          <p>Unless the instrument or bylaws provide otherwise, a quorum shall be deemed present throughout any meeting of the members of the association if persons entitled to cast more than one-third of the votes are present at the beginning of the meeting. Unless the instrument or bylaws specify a larger percentage, the presence of persons entitled to cast one-half of the votes of the board of directors shall constitute a quorum for the transaction of business at any meeting of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

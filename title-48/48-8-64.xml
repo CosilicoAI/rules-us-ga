@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-64"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-64"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-64/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-64/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-64/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-64/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_64">
+        <num>48-8-64</num>
+        <content>
+          <p>The amount of taxes imposed by this article shall be assessed within the time periods specified in Code Section 48-2-49.</p>
+          <p>(Ga. L. 1951, p. 360, § 26; Ga. L. 1953, Jan.-Feb. Sess., p. 184, § 1; Ga. L. 1960, p. 941, §§ 1, 2; Ga. L. 1960, p. 1007, § 1; Code 1933, § 91A-4535, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1980, p. 10, § 29; Ga. L. 1985, p. 1350, § 3.)</p>
+          <p>JUDICIAL DECISIONS</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

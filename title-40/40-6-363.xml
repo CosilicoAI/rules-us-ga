@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-363"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-363"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-363/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-363/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-363/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-363/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_363">
+        <num>40-6-363</num>
+        <content>
+          <p>The purpose of this part shall be to authorize any local authority to establish a personal transportation vehicle transportation plan for roadways and streets within the local authority's jurisdiction. It is the intent of the General Assembly that these plans be designed and developed to best serve the functional travel needs of the jurisdiction and to have the physical safety of the personal transportation vehicle occupants and their property as a major planning component. No local authority shall be liable for losses resulting from exercising or not exercising its authority to adopt a personal transportation vehicle transportation plan, failing to adopt such plan, making an inadequate plan, or negligently adopting such plan.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

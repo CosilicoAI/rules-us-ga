@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-346"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-346"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-346/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-346/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-346/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-346/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_346">
+        <num>46-8-346</num>
+        <content>
+          <p>Upon compliance with Code Sections 46-8-344 and 46-8-345, the electric street, suburban, or interurban railroad company shall be authorized to sell or otherwise dispose of its railroad and bus properties and franchises and to continue its corporate existence and the operation of its electric plants and properties for the sale and distribution of electricity for light, heat, and power purposes under its current charter to the date of expiration thereof, with all of the rights, powers, and liabilities which it previously exercised, in such manner as if no sale of such railroad and bus properties and franchises had been made.</p>
+          <p>(Ga. L. 1945, p. 260, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

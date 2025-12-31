@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-170"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-170/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-170/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_170">
+        <num>15-12-170</num>
+        <content>
+          <p>Alternate jurors shall take the same oath as the jurors already selected. They shall be seated near the jury, with equal opportunity for seeing and hearing the proceedings, and shall attend at all times upon the trial with the jury. They shall obey all orders and admonitions of the court to the jury. When the regular jurors are ordered kept together in any case, the alternate jurors shall also be kept in confinement with the regular jurors. Alternate jurors shall receive the same expense allowance as do the regular jurors.</p>
+          <p>(Ga. L. 1957, p. 466, § 3; Ga. L. 1968, p. 1225, § 3; Ga. L. 1974, p. 325, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

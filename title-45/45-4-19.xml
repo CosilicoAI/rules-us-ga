@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-4-19"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-4-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-4-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_4_19">
+        <num>45-4-19</num>
+        <content>
+          <p>If any public officer required by law to give bond shall fail to file the same in the proper office within the time prescribed, notice of such failure shall be given to the Attorney General or to the appropriate prosecuting attorney by the officer in whose office such bond is required to be filed, by or during the first two days of the session of the superior court held in the county in which the officer so failing resides, next after such failure.</p>
+          <p>(Orig. Code 1863, § 152; Code 1868, § 147; Code 1873, § 158; Code 1882, § 158; Civil Code 1895, § 254; Civil Code 1910, § 289; Code 1933, § 89-412.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

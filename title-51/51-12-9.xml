@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-12-9"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-12-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-12-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_12_9">
+        <num>51-12-9</num>
+        <content>
+          <p>Damages which are the legal and natural result of the act done, though contingent to some extent, are not too remote to be recovered. However, damages traceable to the act, but which are not its legal and natural consequence, are too remote and contingent to be recovered.</p>
+          <p>(Orig. Code 1863, § 3005; Code 1868, § 3018; Code 1873, § 3073; Code 1882, § 3073; Civil Code 1895, § 3913; Civil Code 1910, § 4510; Code 1933, § 105-2009.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

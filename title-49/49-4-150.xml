@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-4-150"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-150"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-4-150/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-150/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-4-150/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-150/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_4_150">
+        <num>49-4-150</num>
+        <content>
+          <p>The Board of Community Health is directed to prescribe regulations governing the custody, use, and preservation of the records, papers, files, and communications of the Department of Community Health relating to applicants for and recipients of medical assistance. Except as otherwise provided in Code Section 49-4-151, such regulations shall provide safeguards restricting the use or disclosure of information concerning applicants for or recipients of medical assistance to purposes directly connected with the administration of the state plan. No person who obtains information by virtue of any such regulations shall use such information for commercial or political purposes, and any person seeking such information shall certify to the commissioner of community health, in writing, that the information obtained will not be used for commercial or political purposes.</p>
+          <p>(Ga. L. 1977, p. 384, § 10; Ga. L. 1999, p. 296, § 24.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

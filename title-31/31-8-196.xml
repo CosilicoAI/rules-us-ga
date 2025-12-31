@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-196"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-196"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-196/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-196/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-196/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-196/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_196">
+        <num>31-8-196</num>
+        <content>
+          <p>Health care providers and volunteers recruited, trained, or accepted under this article shall not be subject to any provisions of the laws of this state relating to state employment, collective bargaining, hours of work, rates of compensation, leave time, or employee benefits. However, all health care providers and volunteers shall comply with applicable department or agency rules and regulations. Health care providers who are individuals and volunteers shall be considered as unpaid independent volunteers and shall not be entitled to unemployment compensation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

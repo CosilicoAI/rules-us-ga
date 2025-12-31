@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-452"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-452"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-452/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-452/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-452/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-452/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_452">
+        <num>20-3-452</num>
+        <content>
+          <p>There is granted to each eligible student attending an approved school the sum of $2,000.00 per academic year. No person shall be eligible to receive grant assistance provided under this subpart in excess of $8,000.00. Grant assistance to eligible students under this subpart shall be payable during the period of a summer school quarter or semester. The payment of grants to eligible students under this subpart shall be contingent upon the appropriation of funds by the General Assembly for the purposes of this subpart in annual appropriations Acts of the General Assembly.</p>
+          <p>(Ga. L. 1972, p. 1133, § 5; Code 1933, § 32-3776, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-157"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-157"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-157/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-157/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-157/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-157/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_157">
+        <num>40-2-157</num>
+        <content>
+          <p>Any person initially registering under the International Registration Plan any of the vehicles named in subsection (a), (b), or (c) of Code Section 40-2-152 and whose next registration period ends less than 12 months from the date of application or first date of service of such vehicle shall pay a license fee in an amount equal to one-twelfth of the annual license fee provided by this article multiplied by the number of months remaining until the end of such next registration period.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

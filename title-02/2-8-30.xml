@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-30"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_30">
+        <num>2-8-30</num>
+        <content>
+          <p>Whenever the use by a producer or handler of a particular emblem, label, certificate, or other distinctive designation of grade, quality, or condition, other than grade or other quality designations then in effect pursuant to state or federal grade standards, is made contingent upon compliance with certain production or handling regulations authorized by a marketing order issued and made effective under this article, it shall be unlawful and a violation of this article for any person who is not participating in and complying with such order or regulations to use such designation of grade, quality, or condition.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

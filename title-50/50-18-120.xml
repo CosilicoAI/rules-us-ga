@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-18-120"/>
+          <FRBRuri value="/us-ga/act/ocga/50-18-120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-18-120/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-18-120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-18-120/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-18-120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_18_120">
+        <num>50-18-120</num>
+        <content>
+          <p>The authority for the establishment of microform standards shall be vested in the State Records Committee. All powers and duties of the State Records Committee as provided in Article 5 of this chapter shall be applicable to the establishment and maintenance of microform standards in this state. With respect to microform standards for the courts, the concurrence of The Council of Superior Court Clerks of Georgia and the Judicial Council of Georgia shall be required for the establishment of such standards.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

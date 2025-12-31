@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-6-75"/>
+          <FRBRuri value="/us-ga/act/ocga/48-6-75"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-6-75/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-6-75/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-6-75/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-6-75/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_6_75">
+        <num>48-6-75</num>
+        <content>
+          <p>In the event the collecting officer required to collect the tax imposed by Code Section 48-6-61 is temporarily absent from said officer's office for reasons of health, vacation, or otherwise, said officer shall designate another qualified person to collect the intangible recording tax in said officer's absence.In the event of the death of the collecting officer, the county governing authority shall immediately designate another qualified person to collect the tax until a new collecting officer qualifies for the position as required by law.</p>
+          <p>(Ga. L. 1955, p. 288, § 6; Code 1933, § 91A-3215, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1990, p. 1843, § 4; Ga. L. 1994, p. 1767, § 7.)</p>
+          <p>RESEARCH REFERENCES</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

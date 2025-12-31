@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-4-5"/>
+          <FRBRuri value="/us-ga/act/ocga/15-4-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-4-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-4-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-4-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-4-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_4_5">
+        <num>15-4-5</num>
+        <content>
+          <p>The salaries of the reporter and the assistant reporter of the Supreme Court and Court of Appeals shall be payable in equal monthly installments, one-half from the appropriations for the operation of the Supreme Court and one-half from the appropriations for the operation of the Court of Appeals.</p>
+          <p>(Orig. Code 1863, § 1578; Code 1868, § 1640; Code 1873, § 1646; Ga. L. 1878-79, p. 158, § 5; Code 1882, § 228e; Ga. L. 1888, p. 35, § 1; Civil Code 1895, §§ 5516, 5519; Civil Code 1910, §§ 6128, 6131; Code 1933, §§ 24-4202, 24-4205; Ga. L. 1950, p. 309, § 1; Ga. L. 1953, Jan.-Feb. Sess., p. 51, § 1; Ga. L. 1993, p. 1402, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

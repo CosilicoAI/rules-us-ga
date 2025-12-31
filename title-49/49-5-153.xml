@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-5-153"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-153"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-5-153/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-153/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-5-153/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-153/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_5_153">
+        <num>49-5-153</num>
+        <content>
+          <p>The council shall prepare an annual report on the progress of the community based programs of this state which shall include the most current institutional and out-of-home placement populations of children being served by the various departments of state government and which shall include comparative costs of all children-serving agencies. Such report shall be submitted to the Governor and the various state departments providing services to children.The council shall not be required to distribute copies of the annual report to the members of the General Assembly but shall notify the members of the availability of the report in the manner which it deems to be most effective and efficient.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

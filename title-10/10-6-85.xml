@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-6-85"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-85"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-6-85/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-85/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-6-85/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-85/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_6_85">
+        <num>10-6-85</num>
+        <content>
+          <p>All agents, by an express undertaking to that effect, may render themselves individually liable. Every agent exceeding the scope of his authority shall be individually liable to the person with whom he deals; so, also, for his own tortious act, whether acting by command of his principal or not, he shall be responsible; for the negligence of his underservant, employed by him in behalf of his principal, he shall not be responsible.</p>
+          <p>(Orig. Code 1863, § 2191; Code 1868, § 2187; Code 1873, § 2213; Code 1882, § 2213; Civil Code 1895, § 3041; Civil Code 1910, § 3613; Code 1933, § 4-409.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-9-20"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-9-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-9-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-9-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_9_20">
+        <num>53-9-20</num>
+        <content>
+          <p>If an individual who is domiciled outside this state and possessed of any interest in or claim to or against real or personal property or cause of action located in this state shall have been absent for a period of time under circumstances whereby, pursuant to the law of the place in which the individual is domiciled, the individual is presumed to be dead, and a court of competent jurisdiction in the place of domicile has entered a final order or decree that the individual is presumed to be dead, the provisions of this title shall apply in every respect as if the individual in fact had died. If the individual shall have been absent for a period of not less than four years and shall not have been declared dead in the domiciliary jurisdiction, the individual may be declared dead in this state pursuant to the provisions of Article 1 of this chapter, as if a domiciliary of this state, for purposes of the property interests or claims or causes of action located in this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

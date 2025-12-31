@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-61"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_61">
+        <num>15-12-61</num>
+        <content>
+          <p>(Laws 1799, Cobb's 1851 Digest, p. 547; Ga. L. 1869, p. 139, § 5; Code 1873, § 3914; Code 1882, § 3914; Penal Code 1895, § 812; Penal Code 1910, § 812; Code 1933, § 59-202; Ga. L. 1967, p. 590, § 1; Ga. L. 1978, p. 906, § 1; Ga. L. 1979, p. 676, § 1; Ga. L. 1994, p. 607, § 3; Ga. L. 2001, p. 4, § 15; Ga. L. 2011, p. 59, § 1-27/HB 415.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-667"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-667"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-667/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-667/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-667/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-667/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_667">
+        <num>10-1-667</num>
+        <content>
+          <p>Any dealer, distributor, or manufacturer who is aggrieved by a violation of any provision of this article may file a petition with the Department of Revenue setting forth the facts supporting the allegation of such violation. The commissioner shall issue an administrative order, whenever the commissioner, after notice to all parties and after a hearing, determines that a violation of this article or any order issued under this article has occurred. The notice and the hearing and any administrative review thereof shall be conducted in accordance with the procedure for contested cases under Chapter 13 of Title 50, the "Georgia Administrative Procedure Act." Any party who has exhausted all administrative remedies available and who is aggrieved or adversely affected by a final order or action of the commissioner shall have the right of judicial review thereof in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act." The commissioner or the prevailing party may file, in the superior court in the county wherein the party under order resides or, if such party is a corporation, in the county wherein the corporation maintains its established place of business or its agent for service of process is located, or in the county wherein the violation occurred, a certified copy of a final order of the commissioner, whether unappealed from or affirmed upon appeal, whereupon the court shall render judgment in accordance therewith and notify the parties. Such judgment shall have the same effect and proceedings in relation thereto shall thereafter be the same as though the judgment had been rendered in an action duly heard and determined by the court. The remedy prescribed in this Code section shall be concurrent, alternative, and cumulative with any and all other civil, criminal, or alternative rights, remedies, forfeitures, or penalties provided, allowed, or available under the laws of this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

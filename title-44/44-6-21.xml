@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-21"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_21">
+        <num>44-6-21</num>
+        <content>
+          <p>The word "heirs" or its equivalent is not necessary to create an absolute estate. Every properly executed conveyance shall be construed to convey the fee unless a lesser estate is mentioned and limited in that conveyance. If a lesser estate is expressly limited, the courts shall not, by construction, increase such estate into a fee but, disregarding all technical rules, shall give effect to the intention of the maker of the instrument, as far as the same is lawful, if the intention can be gathered from the contents of the instrument. If the court cannot gather the intention of the maker from the contents of the instrument, it may hear parol evidence to prove the maker's intention.</p>
+          <p>(Laws 1821, Cobb's 1851 Digest, p. 169; Code 1863, § 2228; Code 1868, § 2222; Code 1873, § 2248; Code 1882, § 2248; Civil Code 1895, § 3083; Civil Code 1910, § 3659; Code 1933, § 85-503.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

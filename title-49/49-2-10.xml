@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-2-10"/>
+          <FRBRuri value="/us-ga/act/ocga/49-2-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-2-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-2-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-2-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-2-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_2_10">
+        <num>49-2-10</num>
+        <content>
+          <p>For the purpose of carrying out the duties and obligations of the department for performance of welfare services of the state, for administrative costs, for matching such federal funds as may be available for all of the aforesaid services, for the purpose of establishing an equalization fund to be used in assisting those counties which may be unable otherwise to bear their proportionate share of the expenses of administration and of dispensing the benefits provided for under this title, and for dispensing all of the benefits provided for under this title, the General Assembly shall make appropriations out of the general fund of the state or otherwise for the various and separate activities of the department. All funds appropriated or allocated to the department or to the county departments by the General Assembly, the fiscal authorities of the respective counties, and by the federal government through its appropriate agencies and instrumentalities are declared to be funds provided for a public purpose; and all appropriations provided for in this Code section and hereafter may be expended and distributed by the department for the purposes provided for under this title.</p>
+          <p>(Ga. L. 1937, p. 355, § 16; Ga. L. 2009, p. 453, § 2-1/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

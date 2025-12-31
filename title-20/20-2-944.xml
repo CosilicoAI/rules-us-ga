@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-944"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-944"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-944/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-944/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-944/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-944/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_944">
+        <num>20-2-944</num>
+        <content>
+          <p>A local school superintendent may write a letter of reprimand to a teacher or other school employee for any valid reason. A copy of the letter of reprimand is to remain in the teacher's or employee's permanent personnel file, and the teacher or employee receiving such a letter of reprimand shall have the right to appeal the decision of the superintendent to the local board of education, the hearing to be conducted according to this part. The local board shall have the right either to affirm the decision of the superintendent or to reverse it. If the decision of the local board is to reverse it, the letter of reprimand shall be removed from the teacher's or employee's permanent personnel file.</p>
+          <p>(Ga. L. 1975, p. 360, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

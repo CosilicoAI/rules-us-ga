@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-143"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-143"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-143/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-143/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-143/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-143/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_143">
+        <num>14-4-143</num>
+        <content>
+          <p>If any corporation incorporated by the Secretary of State under provisions other than Chapter 2 of this title, except banks and trust companies, merges or enters into a share exchange with another corporation pursuant to Code Section 14-4-140, 14-4-141, or 14-4-142, the rights of shareholders of such corporation to dissent from and obtain payment of the fair value of their shares in connection with such merger or share exchange shall be governed by provisions of Article 13 of Chapter 2 of this title.</p>
+          <p>(Code 1933, § 22-4404, enacted by Ga. L. 1968, p. 565, § 1; Ga. L. 1993, p. 1231, § 33.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

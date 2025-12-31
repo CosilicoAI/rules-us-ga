@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-64-5"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-64-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-64-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-64-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_64_5">
+        <num>36-64-5</num>
+        <content>
+          <p>If the governing body of any county or municipality determines that the power to provide, establish, conduct, and maintain a recreation system should be exercised by a park or recreation board, such governing body, by resolution or ordinance, shall establish a recreation board in such municipality or county which shall possess all the powers and be subject to all the responsibilities of local authorities under this chapter. The board, when established, shall consist of a minimum of five persons and a maximum of nine persons, serving without pay, to be appointed by the mayor or presiding officer of the county or municipality. The terms of office of the members of the board shall be for five years or until their successors are appointed and qualified, except that the appointing authority, in making initial appointments or in filling vacancies, is authorized and directed to vary the initial terms of members or the terms of persons appointed to fill vacancies in such a manner that thereafter the term of at least one member shall expire annually. Immediately after its appointment, the board shall meet and organize by electing one of its members president and such other officers as may be necessary. Vacancies in the board occurring otherwise than by expiration of term shall be filled by the mayor or presiding officer of the governing body only for the unexpired term, except as otherwise provided in this chapter.</p>
+          <p>(Ga. L. 1923, p. 106, § 4; Code 1933, § 69-604; Ga. L. 1946, p. 152, § 4; Ga. L. 1971, p. 262, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

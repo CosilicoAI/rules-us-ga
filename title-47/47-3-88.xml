@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-3-88"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-88"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-3-88/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-88/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-3-88/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-88/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_3_88">
+        <num>47-3-88</num>
+        <content>
+          <p>Any other provision of this or any other law to the contrary notwithstanding, in order for a teacher who becomes a member of the retirement system on or after April 1, 1966, to receive full creditable service for service rendered while a member of a local school system and before he became a member of the retirement system either such teacher, or the local board of education for which such service was rendered, or the local board of education by which the member is currently employed must pay the employee and employer contributions, plus regular interest. The board of trustees shall determine the amount to be paid, provided that in no case shall a member pay more than the total member and employer contributions and regular interest in effect at the time such service was rendered.</p>
+          <p>(Ga. L. 1975, p. 1637, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

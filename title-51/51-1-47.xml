@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-47"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_47">
+        <num>51-1-47</num>
+        <content>
+          <p>The manufacturers, distributors, dealers, and sellers of a motor vehicle and those who, on authorization and direction of the owner or lessee, lawfully install in a prudent and workmanlike manner a switch to turn off the air bag shall be immune from civil liability for any injuries caused by the failure of an air bag to deploy when the air bag has been disconnected, turned off, or otherwise disabled by the owner, lessee, or operator of the motor vehicle or an agent of the owner or lessee of the motor vehicle.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

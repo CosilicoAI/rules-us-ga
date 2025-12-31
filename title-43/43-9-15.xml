@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-9-15"/>
+          <FRBRuri value="/us-ga/act/ocga/43-9-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-9-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-9-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-9-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-9-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_9_15">
+        <num>43-9-15</num>
+        <content>
+          <p>The board may, within such period as is established by the division director following the refusal or revocation or cancellation of registration under this chapter, by a majority vote, issue a new license or grant a license to the person affected, restoring him to or conferring upon him all the rights and privileges of and pertaining to the practice of chiropractic, as defined and regulated by this chapter, upon the applicant or licensee showing good moral character and possessing the qualifications required under the terms of this chapter. Any person to whom such registration may have been restored shall pay to the division director an amount established by the board upon the issuance of a new license.</p>
+          <p>(Ga. L. 1921, p. 166, § 10; Code 1933, § 84-519; Ga. L. 1975, p. 714, § 4; Ga. L. 2000, p. 1706, § 19.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

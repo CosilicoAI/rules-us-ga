@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-239"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-239"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-239/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-239/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-239/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-239/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_239">
+        <num>44-14-239</num>
+        <content>
+          <p>Whenever a process of attachment may be legally brought against any person upon any debt or demand secured by a mortgage on personal property, or whenever the purchaser of mortgaged property is seeking to remove the property outside of the county, or when the defendant is seeking to dispose fraudulently or is fraudulently disposing of the mortgaged property and a disposal of the property will lessen the security, the creditor may foreclose his mortgage in the manner prescribed by law, except that the affidavit need not state that the debt or demand is due but shall state that the debtor has placed himself in one of the positions where a process of attachment could legally issue against him, or that the defendant is disposing or seeking to dispose of the mortgaged property and that a disposal of the property will lessen the security and shall state the amount of the debt or demand claimed and when the debt will be due.</p>
+          <p>(Ga. L. 1882-83, p. 109, § 1; Civil Code 1895, § 2754; Civil Code 1910, § 3287; Civil Code 1933, § 67-1002.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

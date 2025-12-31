@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-23-12"/>
+          <FRBRuri value="/us-ga/act/ocga/15-23-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-23-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-23-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-23-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-23-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_23_12">
+        <num>15-23-12</num>
+        <content>
+          <p>Notwithstanding any other provision of this chapter, the board of trustees of each county fund is authorized by contract to combine such fund with the fund of any other county or counties within the same judicial circuit, within the same administrative district, or in any other combination which would foster an efficient use of available resources. Any such combined fund created by any such contract shall be administered by a board of trustees which shall be composed of the judicial members and the clerks who are members of the boards of trustees of each participating county fund without the participating attorney members thereof but with one practicing attorney appointed by the members of the combined board.In the event two or more county funds are combined, the board of trustees of the combined fund may appoint a secretary-treasurer for the combined fund who shall perform such duties as may be provided by the combined board of trustees and who shall give bond in the same manner as provided by Code Section 15-23-5.The combined board shall be chaired by the chairperson of one of the constituent county boards elected by the combined board as provided by contract. In the event two or more boards combine as provided in this Code section, the judges of the courts within such combined territory are authorized to combine programs for such courts to provide for the most efficient use of available resources in providing alternative dispute resolution programs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

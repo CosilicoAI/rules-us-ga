@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-283"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-283"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-283/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-283/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-283/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-283/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_283">
+        <num>44-12-283</num>
+        <content>
+          <p>The council is authorized to promulgate rules and regulations to accomplish the provisions of this article in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act." The council is expressly prohibited from engaging in any activity which would tend to assist the implementation of Indian gaming in this state, and the council shall immediately notify in writing the Governor, the President of the Senate, and the Speaker of the House of Representatives of any communication it may receive from any source relating to such subject.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-5-1"/>
+          <FRBRuri value="/us-ga/act/ocga/9-5-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-5-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-5-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-5-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-5-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_5_1">
+        <num>9-5-1</num>
+        <content>
+          <p>Equity, by a writ of injunction, may restrain proceedings in another or the same court, a threatened or existing tort, or any other act of a private individual or corporation which is illegal or contrary to equity and good conscience and for which no adequate remedy is provided at law.</p>
+          <p>(Orig. Code 1863, § 3137; Code 1868, § 3149; Code 1873, § 3210; Code 1882, § 3210; Civil Code 1895, § 4913; Civil Code 1910, § 5490; Code 1933, § 55-101.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

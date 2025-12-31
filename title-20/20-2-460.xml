@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-460"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-460"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-460/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-460/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-460/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-460/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_460">
+        <num>20-2-460</num>
+        <content>
+          <p>Should any holder of an outstanding schoolhouse bond which is not due or which has not matured in accordance with the provisions thereof fail or refuse to sell or exchange such bond or bonds for refunding schoolhouse bonds issued in accordance with this subpart, it shall be the duty of the officials of the school district which issued such bond or bonds to set aside from the proceeds of the sale of the refunding schoolhouse bonds a sinking fund under all the regulations now provided by law for sinking funds for schoolhouse bonds for the purpose of retiring such bonds when they mature and paying the interest accrued or to accrue thereon.</p>
+          <p>(Ga. L. 1937, p. 869, § 14.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

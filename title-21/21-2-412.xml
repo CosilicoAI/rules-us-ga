@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-412"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-412"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-412/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-412/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-412/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-412/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_412">
+        <num>21-2-412</num>
+        <content>
+          <p>At least one judge of the superior court of each judicial circuit shall be available in his or her circuit on the day of each primary or election from 7:00 A.M. eastern standard time or eastern daylight time, whichever is applicable, until 10:00 P.M. eastern standard time or eastern daylight time, whichever is applicable, and so long thereafter as it may appear that the process of such court will be necessary to secure a free, fair, and correct computation and canvass of votes cast at such primary or election. During such period the court shall issue process, if necessary, to enforce and secure compliance with the primary or election laws and shall decide such other matters pertaining to the primary or election as may be necessary to carry out the intent of this chapter.</p>
+          <p>(Code 1933, § 34-1306, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Ga. L. 1998, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-204"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-204"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-204/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-204/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-204/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-204/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_204">
+        <num>9-10-204</num>
+        <content>
+          <p>The form of an action for words may be as follows:
+   IN THE ______ COURT OF ______ COUNTY
+   STATE OF GEORGIA
+   A.B.,
+   )
+   Plaintiff
+   )
+   )
+   v.
+   )
+   Civil action
+   )
+   File no. ______
+   C.D.,
+   )
+   (Clerk will insert
+   Defendant
+   )
+   number.)
+   COMPLAINT
+   The defendant herein named is a resident of ____________ (street), ______ (city), ______ County, Georgia, and is subject to the jurisdiction of this court.
+   Defendant C.D. has injured and damaged plaintiff in the sum of $____, by falsely and maliciously saying of and concerning plaintiff, on the ______ day of ______, ____, the following false and malicious words to ______ (name of person): (here give the words).
+   Wherefore, plaintiff demands judgment against defendant (here list the relief prayed for).
+   __________________________
+   Attorney for plaintiff
+   __________________________
+   Address</p>
+          <p>(Orig. Code 1863, § 3307; Code 1868, § 3319; Code 1873, § 3396; Code 1882, § 3396; Ga. L. 1984, p. 22, § 9; Ga. L. 1999, p. 81, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

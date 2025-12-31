@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-44"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_44">
+        <num>43-34-44</num>
+        <content>
+          <p>Nothing in this article shall be construed to prohibit the performance by medical assistants of medical tasks, including subcutaneous and intramuscular injections; obtaining vital signs; administering nebulizer treatments; or other tasks approved by the board pursuant to rule, if under the supervision by a physician in his or her office; provided, however, that this shall not require on-site supervision at all times, or the performance by medical assistants of medical tasks ordered by a physician assistant or advanced practice registered nurse delegated the authority to issue such an order in accordance with law and pursuant to rules of the board.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

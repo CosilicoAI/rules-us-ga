@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-444"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-444"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-444/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-444/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-444/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-444/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_444">
+        <num>10-1-444</num>
+        <content>
+          <p>Upon compliance by the applicant with the requirements of this part, the Secretary of State shall cause a certificate of registration to be issued and delivered to the applicant. The certificate of registration shall be issued under the signature of the Secretary of State and the seal of the state and it shall show the name and business address and, if a corporation, the state of incorporation, of the person claiming ownership of the trademark or service mark; the date claimed for the first use of the trademark or service mark anywhere and the date claimed for the first use of the trademark or service mark in this state; the class of goods or services and a description of the goods or services on which the trademark or service mark is used; a reproduction of the trademark or service mark; the registration date; and the term of the registration.</p>
+          <p>(Ga. L. 1893, p. 134, § 3; Civil Code 1895, § 1738; Civil Code 1910, § 1990; Code 1933, § 106-102; Ga. L. 1949, p. 949, § 1; Ga. L. 1952, p. 134, § 9; Ga. L. 1963, p. 463, § 4; Ga. L. 1982, p. 3, § 10; Ga. L. 2011, p. 99, § 15/HB 24.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

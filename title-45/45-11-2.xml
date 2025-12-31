@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-11-2"/>
+          <FRBRuri value="/us-ga/act/ocga/45-11-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-11-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-11-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-11-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-11-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_11_2">
+        <num>45-11-2</num>
+        <content>
+          <p>If any person who has been elected to any office shall sell or farm out said office; or if any person shall purchase or agree to give any money or other thing of value to a person elected for the privilege of exercising the duties of said office; or if any person shall promise or agree to divide the profits, fees, or emoluments of said office with the person so elected, he shall be guilty of a felony and, upon conviction thereof, shall be punished by confinement and labor in the penitentiary for not less than one year nor more than three years.</p>
+          <p>(Ga. L. 1871-72, p. 285, §§ 1, 2; Code 1873, § 4472; Code 1882, § 4472; Penal Code 1895, § 281; Penal Code 1910, § 285; Code 1933, § 89-9904.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

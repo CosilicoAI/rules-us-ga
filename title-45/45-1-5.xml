@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-1-5"/>
+          <FRBRuri value="/us-ga/act/ocga/45-1-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-1-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-1-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-1-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-1-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_1_5">
+        <num>45-1-5</num>
+        <content>
+          <p>When an employee of the state or of a county, municipality, or school district is terminated and, as a condition of a settlement agreement, the personnel file of the employee is to be partially or totally purged, the former employee's personnel records, including both the personnel file and any associated work history records, shall be clearly designated with a notation that such records have been purged as a condition of a settlement agreement. Such notation shall be disclosed to any subsequent governmental entity seeking information as to a former employee's work history for the sole purpose of making a hiring decision.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-11-9"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-11-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-11-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-11-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_11_9">
+        <num>16-11-9</num>
+        <content>
+          <p>The Attorney General shall require the special assistant to maintain complete records of all information received by him and all matters handled by him under the requirements of this part. Such records as may reflect on the loyalty of any resident of this state shall not be made public or divulged to any person except with permission of the Governor or the Attorney General to effectuate the purposes of this part. All such records shall be classified as confidential state secrets until declassified by the Governor or the Attorney General.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 216, § 8; Ga. L. 1953, Nov.-Dec. Sess., p. 73, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

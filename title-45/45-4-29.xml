@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-4-29"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-4-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-4-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_4_29">
+        <num>45-4-29</num>
+        <content>
+          <p>The measure of damages recoverable in actions upon all official bonds for the misconduct of the officer, unless otherwise specially enacted, shall be the amount of injury actually sustained, including the reasonable expenses of the action to the plaintiff and the costs of court. In all cases when little or no damage is actually sustained and the officer has not acted in good faith, the jury may find for the plaintiff an amount as exemplary damages which, taking all the circumstances together, shall not be excessive or oppressive.</p>
+          <p>(Orig. Code 1863, § 162; Code 1868, § 157; Code 1873, § 168; Code 1882, § 168; Civil Code 1895, § 264; Civil Code 1910, § 299; Code 1933, § 89-421; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

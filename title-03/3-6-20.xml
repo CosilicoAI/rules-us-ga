@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/3-6-20"/>
+          <FRBRuri value="/us-ga/act/ocga/3-6-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/3-6-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/3-6-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/3-6-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/3-6-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_6_20">
+        <num>3-6-20</num>
+        <content>
+          <p>An annual occupational license tax shall be paid for each place of business operated. An application for the applicable license required pursuant to this title along with the payment of the tax required by subsection (a) of this Code section shall be submitted to the department immediately upon assuming control of the place of business and annually thereafter for so long as the business is operated.</p>
+          <p>(Code 1933, § 58-804, enacted by Ga. L. 1977, p. 1316, § 1; Code 1933, § 5A-5501, enacted by Ga. L. 1980, p. 1573, § 1; Ga. L. 2012, p. 827, § 6/HB 1066.)</p>
+        </content>
+        <subsection eId="sec_3_6_20__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>An annual occupational license tax is imposed upon each winery, manufacturer, broker, importer, wholesaler, and retail dealer of wine in this state, as follows:
+   (1) Upon each winery and manufacturer ........................
+   $ 1,000.00
+   (2) Upon each wholesale dealer .................................
+   500.00
+   (3) Upon each importer .........................................
+   500.00
+   (4) Upon each broker ...........................................
+   50.00
+   (5) Upon each retail dealer ....................................
+   50.00
+   (6) Upon each special event use permit applicant ...............
+   50.00</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

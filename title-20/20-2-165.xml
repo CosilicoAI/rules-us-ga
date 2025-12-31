@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-165"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-165"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-165/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-165/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-165/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-165/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_165">
+        <num>20-2-165</num>
+        <content>
+          <p>In addition to the amounts earned by a charter system or a local charter school pursuant to subsection (b) of Code Section 20-2-161, a charter system or a local charter school shall earn 3.785 percent of the base amount established pursuant to subsection (a) of Code Section 20-2-161 for each full-time equivalent student in each school within the charter system or each full-time equivalent student within the local charter school; provided, however, that no individual charter system or local charter school shall receive more than $4.5 million in a fiscal year. The State Board of Education shall directly allocate the amount of appropriated funds calculated pursuant to this Code section to each local charter school. Funds appropriated pursuant to this Code section shall be used in accordance with recommendations of the school level governing body established by the charter or to advance student achievement goals and school level governance training objectives pursuant to the charter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

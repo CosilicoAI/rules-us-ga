@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/41-3-3"/>
+          <FRBRuri value="/us-ga/act/ocga/41-3-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/41-3-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/41-3-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/41-3-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/41-3-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41_3_3">
+        <num>41-3-3</num>
+        <content>
+          <p>If the complaint is filed by a private citizen, it shall not be dismissed except upon filing of a sworn statement by the complainant and his attorney setting forth the reasons why the action should be dismissed and upon approval of the dismissal by the district attorney in writing or in open court. If the court shall be of the opinion that the action ought not to be dismissed, it may direct the district attorney to maintain the action and, if the action is continued more than one term of court, any private citizen of the county or the district attorney may be substituted for the original complainant and directed to maintain the action.</p>
+          <p>(Ga. L. 1917, p. 177, § 3; Code 1933, § 72-306.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

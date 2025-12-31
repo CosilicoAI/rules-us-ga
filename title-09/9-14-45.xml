@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-14-45"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-45"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-14-45/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-45/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-14-45/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-45/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_14_45">
+        <num>9-14-45</num>
+        <content>
+          <p>Service of a petition brought under this article shall be made upon the person having custody of the petitioner. If the petitioner is being detained under the custody of the Department of Corrections, an additional copy of the petition shall be served on the Attorney General. If the petitioner is being detained under the custody of some authority other than the Department of Corrections, an additional copy of the petition shall be served upon the district attorney of the county in which the petition is filed. Service upon the Attorney General or the district attorney may be had by mailing a copy of the petition and a proper certificate of service.</p>
+          <p>(Code 1933, § 50-127, enacted by Ga. L. 1967, p. 835, § 3; Ga. L. 1985, p. 283, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

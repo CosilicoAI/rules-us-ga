@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-916"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-916"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-916/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-916/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-916/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-916/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_916">
+        <num>7-1-916</num>
+        <content>
+          <p>All property of every kind used or intended for use in the course of, derived from, or realized through a transaction which in fact involves the proceeds of unlawful activity specified in Chapter 14 of Title 16 or otherwise subject to the provisions of this article shall be subject to forfeiture to the state. Forfeiture shall be had by the same procedure as is set forth in Chapter 16 of Title 9. As used in this Code section, the terms "proceeds" and "property" shall have the same meaning as set forth in Code Section 9-16-2.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

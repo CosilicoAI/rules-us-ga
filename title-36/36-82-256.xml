@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-256"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-256"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-256/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-256/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-256/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-256/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_256">
+        <num>36-82-256</num>
+        <content>
+          <p>Any contract which has been duly authorized and executed by a local governmental entity before May 2, 2005, shall not be rendered invalid or improper by the provisions of this article; provided, however, that this article shall apply to any renewal of such a contract after May 2, 2005, unless the contract permitted the renewal and set the terms of the renewal contract before January 1, 2005, in which case this article shall not apply to any such renewals.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

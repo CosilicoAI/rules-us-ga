@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-238"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-238"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-238/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-238/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-238/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-238/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_238">
+        <num>20-3-238</num>
+        <content>
+          <p>The commission shall maintain a system of accounts in accordance with generally acceptable accounting procedures and standard accounting procedures and systems established by the state, where applicable, which shall, among other things, properly identify and account for all funds received by the commission from the corporation and from the authority, respectively; the source of receipt of such funds by the corporation and by the authority, respectively; all expenditures of the commission made for or on behalf of the corporation or the authority, respectively; all expenditures of the commission, a pro rata part of which is properly chargeable as an expenditure made for or on behalf of the corporation or the authority, respectively; and the basis or method used by the commission in prorating ratable expenditures of the commission to the corporation and to the authority, respectively. No agency fund moneys received by the commission from the corporation shall be expended by the commission in payment of expenses incurred for or on behalf of the authority.</p>
+          <p>(Code 1933, § 32-3108, enacted by Ga. L. 1980, p. 835, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

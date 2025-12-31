@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-12-63"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-63"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-12-63/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-63/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-12-63/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-63/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_12_63">
+        <num>9-12-63</num>
+        <content>
+          <p>A scire facias to revive a dormant judgment in the courts must issue from and be returnable to the court of the county in which the judgment was obtained. It shall be directed to all and singular the sheriffs of this state and shall be signed by the clerk of such court who shall make out copies thereof. An original and a copy shall issue for each county in which any party to be notified resides. A copy shall be served by the sheriff of the county in which the party to be notified resides 20 days before the sitting of the court to which the scire facias is made returnable and the original shall be returned to the clerk of the court from which it issued.</p>
+          <p>(Orig. Code 1863, § 3525; Code 1868, § 3548; Code 1873, § 3607; Code 1882, § 3607; Civil Code 1895, § 5381; Civil Code 1910, § 5976; Code 1933, § 110-1006.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

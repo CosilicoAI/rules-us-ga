@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-1-5"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-1-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-1-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-1-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_1_5">
+        <num>43-1-5</num>
+        <content>
+          <p>Persons hired for the purpose of conducting investigations for the professional licensing boards shall be designated as investigators and any person so designated shall have all the powers of a peace officer of this state when engaged in the enforcement of this title or of any of the laws creating or related to the professional licensing boards. Such investigators shall be authorized, upon the written approval of the division director, notwithstanding Code Sections 16-11-126 and 16-11-129, to carry firearms.</p>
+          <p>(Code 1933, § 84-105, enacted by Ga. L. 1975, p. 412, § 2; Ga. L. 1984, p. 704, § 1; Ga. L. 1996, p. 381, § 2; Ga. L. 2000, p. 1706, § 4; Ga. L. 2010, p. 266, § 8/SB 195; Ga. L. 2010, p. 963, § 2-17/SB 308.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

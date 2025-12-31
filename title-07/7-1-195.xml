@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-195"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-195"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-195/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-195/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-195/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-195/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_195">
+        <num>7-1-195</num>
+        <content>
+          <p>For the purposes of the accounting provided for in this chapter, the department shall allow the claims of depositors for the amounts shown to be due to them upon the books or other records of the financial institution (unless it determines such books or records to be in error) or for such other amounts as they shall, within the time and in the manner provided by this chapter, prove to the satisfaction of the department are due to them. It shall likewise allow the claims of all other creditors, when presented within the time and in the manner provided by this chapter, if it shall be satisfied that the amounts claimed are rightfully due. In allowing claims, the department may change their rank to that which it determines to be proper and may reduce them by exercise of the financial institution's right of setoff against the claimant. It shall reject all other claims of depositors and other creditors.</p>
+          <p>(Ga. L. 1919, p. 135, art. 7, § 15; Ga. L. 1927, p. 195, § 4; Code 1933, § 13-817; Code 1933, § 41A-806, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

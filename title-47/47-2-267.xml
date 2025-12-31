@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-2-267"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-267"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-2-267/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-267/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-2-267/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-267/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_2_267">
+        <num>47-2-267</num>
+        <content>
+          <p>Except as provided in Code Section 47-2-265, each full-time employee of a district attorney, which employee is compensated through funds appropriated by the General Assembly, shall be a member of this retirement system as a condition of employment. Any such employee who is already a member of this retirement system by virtue of service with another employer shall be entitled to credit for all service rendered while an employee under the retirement system. All contributions required under this chapter shall be paid from funds appropriated or otherwise available. The Prosecuting Attorneys' Council of the State of Georgia shall deduct from the state salaries paid to such members the employee contributions required by this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

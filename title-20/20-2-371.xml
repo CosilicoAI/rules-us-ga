@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-371"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-371"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-371/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-371/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-371/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-371/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_371">
+        <num>20-2-371</num>
+        <content>
+          <p>When the results of an election held under Code Section 20-2-370 are declared and published in favor of repealing such independent school system, making the territory included in the system thereby to become a part of the county school system, such independent or local school system shall continue to function under its local laws, organizations, and regulations until the county board of education shall arrange for the operation by them of such school or schools within the local system as a part of their public school system.</p>
+          <p>(Ga. L. 1926, Ex. Sess., p. 40, § 2; Code 1933, § 32-1202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

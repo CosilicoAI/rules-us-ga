@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-8-4"/>
+          <FRBRuri value="/us-ga/act/ocga/15-8-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-8-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-8-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-8-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-8-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_8_4">
+        <num>15-8-4</num>
+        <content>
+          <p>The several judges of the city courts, on the call of any criminal case in the courts in which the presiding judge is disqualified, may pass an order transferring the case for trial to the superior court of the county in which the city court is located. When the case is so transferred, it shall be tried in the superior court as though it had originated therein.</p>
+          <p>(Ga. L. 1920, p. 277, § 1; Code 1933, § 24-2202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

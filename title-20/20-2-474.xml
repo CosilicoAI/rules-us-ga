@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-474"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-474"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-474/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-474/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-474/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-474/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_474">
+        <num>20-2-474</num>
+        <content>
+          <p>Wherever in this subpart it is made the duty, without specific designation, of any official or officials to perform any duty with reference to the issuance, exchange, sale, or retirement of any bonds, such duty is imposed upon the same officials with respect to such duties as are now imposed upon the officers charged with the same duties under the laws of Georgia relating to bonds issued in the first instance. Such officers shall have the same authority and are charged with the same duties with respect to the investment of sinking funds and levying taxes to retire bonds and interest on bonds issued under this subpart as is now provided with respect to the levying of taxes to retire bonds and the creation and administration of sinking funds to retire the bonded indebtedness of any local school district, consolidated school district, or independent school district, where a local tax is levied for school purposes.</p>
+          <p>(Ga. L. 1937, p. 869, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

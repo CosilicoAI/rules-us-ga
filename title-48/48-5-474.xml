@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-474"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-474"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-474/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-474/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-474/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-474/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_474">
+        <num>48-5-474</num>
+        <content>
+          <p>The application for registration of a motor vehicle and for the purchase of a license plate for the motor vehicle shall constitute the return of that motor vehicle for ad valorem taxation but only if ad valorem taxes are due at the time of registration. The state revenue commissioner is directed to prescribe a form for the application for registration which shall provide the information needed by the tax commissioner or tax collector in determining the amount of taxes due under this article.</p>
+          <p>(Ga. L. 1966, p. 517, § 7; Code 1933, § 91A-1908, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 1997, p. 419, § 38; Ga. L. 2000, p. 951, § 11-1; Ga. L. 2005, p. 334, § 29-2/HB 501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

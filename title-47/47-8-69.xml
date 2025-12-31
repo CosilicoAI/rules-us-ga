@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-8-69"/>
+          <FRBRuri value="/us-ga/act/ocga/47-8-69"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-8-69/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-8-69/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-8-69/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-8-69/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_8_69">
+        <num>47-8-69</num>
+        <content>
+          <p>Any superior court judge who resigns or otherwise becomes disqualified to hold such office shall be entitled to withdraw the total amount, without interest, which he has paid to the fund. If any such judge dies, the total amount, without interest, paid by him to the fund shall be paid to his surviving spouse or, if none, to his personal representative. In the case of any such judge who was receiving benefits from this fund at the time of his death and who has not received the total amount, without interest, paid by him to the fund, his surviving spouse or, if none, his personal representative shall receive from the fund the remainder of his payments to the fund. The employee contributions paid by the employer to the fund on behalf of a judge of the superior courts, as provided in subsection (a) of Code Section 47-8-44, after July 1, 1980, shall be considered to be payments made by the judge.</p>
+          <p>(Ga. L. 1945, p. 362, § 15; Ga. L. 1980, p. 925, § 13; Ga. L. 1982, p. 3, § 47.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

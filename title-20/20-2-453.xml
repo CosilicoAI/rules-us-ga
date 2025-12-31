@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-453"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-453"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-453/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-453/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-453/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-453/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_453">
+        <num>20-2-453</num>
+        <content>
+          <p>The county board of education or board of education or corresponding body, as the case may be, shall specify in the election notice what amount of bonds are to be issued, for what purpose, what interest they are to bear, how much principal and interest are to be paid annually, and when they are to be fully paid off. It shall also specify in the notice the amount of bonds and interest, if any, date of issue, rate of interest, and dates due of the outstanding schoolhouse bonds which are sought to be retired, refunded, or refinanced.</p>
+          <p>(Ga. L. 1937, p. 869, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

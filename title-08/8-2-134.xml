@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-134"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-134"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-134/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-134/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-134/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-134/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_134">
+        <num>8-2-134</num>
+        <content>
+          <p>During such time as the Commissioner has contracted or entered into cooperative agreements pursuant to his or her authority under Code Section 8-2-132, no person may manufacture, sell, or offer for sale any manufactured home unless such manufactured home and its components, systems, and appliances have been constructed and assembled in accordance with rules issued by the Commissioner with respect to the construction, assembly, and sale of such manufactured homes and unless compliance with such rules is shown in the manner required by the Commissioner's rules.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

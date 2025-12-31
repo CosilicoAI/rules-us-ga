@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-272"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-272"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-272/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-272/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-272/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-272/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_272">
+        <num>38-2-272</num>
+        <content>
+          <p>No person belonging to the organized militia of the state shall be arrested on any civil process while going to, remaining at, or returning from any place at which he may be required to attend for military duty. No part of the uniform or equipment of any officer or enlisted man of the organized militia shall be subject to levy and sale for debts.</p>
+          <p>(Ga. L. 1916, p. 158, § 3; Code 1933, § 86-702; Ga. L. 1951, p. 311, § 24; Ga. L. 1955, p. 10, § 80.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

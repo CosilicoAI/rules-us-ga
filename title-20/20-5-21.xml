@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-5-21"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-5-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-5-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_5_21">
+        <num>20-5-21</num>
+        <content>
+          <p>In any city in which an appropriation shall be made under this part, the money so appropriated shall be drawn from the treasury of such city on the warrant of the board of trustees of the public library and shall be paid out from time to time for salaries, purchase of books, and other necessary expenses of the library; and an itemized statement of the amounts so paid out shall be made annually to the mayor of such city and by him submitted to the properly constituted authorities of such city.</p>
+          <p>(Ga. L. 1901, p. 52, § 2; Ga. L. 1904, p. 90, § 2; Civil Code 1910, § 1567; Code 1933, § 32-2702.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

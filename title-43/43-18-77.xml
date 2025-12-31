@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-18-77"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-77"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-18-77/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-77/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-18-77/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-18-77/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_18_77">
+        <num>43-18-77</num>
+        <content>
+          <p>In the event that a funeral establishment or crematory is temporarily without the services of a funeral director in full and continuous charge, upon notice by the funeral establishment or crematory to the board within five days following the last day of service by such funeral director, the board shall grant the funeral establishment or crematory a 90 day grace period in which to have a funeral director in full and continuous charge approved by the board before any action may be taken by the board to revoke or terminate the establishment's or crematory's license. The board may, in its discretion, upon application by the funeral establishment or crematory, grant one additional 90 day grace period upon showing of good cause.Grace periods totaling not more than 180 days may be granted during any two-year period beginning the first day on which the grace period was granted.Failure to have a funeral director in full and continuous charge shall be grounds for the revocation or suspension of any license, after notice and hearing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

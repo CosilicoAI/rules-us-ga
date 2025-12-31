@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-24-121"/>
+          <FRBRuri value="/us-ga/act/ocga/47-24-121"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-24-121/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-24-121/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-24-121/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-24-121/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_24_121">
+        <num>47-24-121</num>
+        <content>
+          <p>If any change or error in the records results in any member or beneficiary receiving from the fund more or less than he or she would have been entitled to receive had the records been correct, the board shall have the power to correct such error and to adjust the payments as far as practicable in such a manner that the actuarial equivalent of the benefit to which such member or beneficiary was correctly entitled shall be paid.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

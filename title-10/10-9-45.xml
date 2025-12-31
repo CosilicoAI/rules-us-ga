@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-9-45"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-45"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-9-45/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-45/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-9-45/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-45/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_9_45">
+        <num>10-9-45</num>
+        <content>
+          <p>The proceeds of the revenue bonds shall be used solely for the payment of the costs of the project incurred with respect to the facilities designated by the resolution authorizing the issuance of such revenue bonds. The resolution authorizing the issuance of revenue bonds may provide that the proceeds thereof shall be disbursed upon requisition or order of the chairman of the authority or other designated officer of the authority or by the Georgia State Financing and Investment Commission acting on behalf of the authority under contract with the authority under such restrictions, if any, as the resolution authorizing the issuance of the revenue bonds or the trust indenture may provide. If the proceeds of the revenue bonds, by error of calculation or otherwise, shall be less than the cost of the facility or combined facilities, unless otherwise provided in the resolution authorizing the issuance of the revenue bonds or in the trust indenture, additional revenue bonds may in like manner be issued to provide the amount of the deficit which, unless otherwise provided in the resolution authorizing the issuance of the revenue bonds or in the trust indenture, shall be deemed to be of the same issue and shall be entitled to payment from the same fund without preference or priority of the revenue bonds first issued for the same purpose. If the proceeds of the revenue bonds of any issue shall exceed the amount required for the purpose for which such revenue bonds are issued, the surplus shall be used for one or more of the following purposes:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

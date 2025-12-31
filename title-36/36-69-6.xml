@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-69-6"/>
+          <FRBRuri value="/us-ga/act/ocga/36-69-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-69-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-69-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-69-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-69-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_69_6">
+        <num>36-69-6</num>
+        <content>
+          <p>All of the privileges and immunities from liability; exemption from laws, ordinances, and rules; and all pension, insurance, relief, disability, workers' compensation, salary, death, and other benefits which apply to the activity of such officers, agents, or employees of any such political subdivision or institution within the University System of Georgia or the Technical College System of Georgia when performing their respective functions within the territorial limits of their respective political subdivisions or campuses shall apply to such officers, agents, or employees to the same degree, manner, and extent while engaged in the performance of any of their functions and duties extraterritorially under the provisions of this chapter relating to mutual aid.The provisions of this Code section shall apply with equal effect to paid, volunteer, and auxiliary employees.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

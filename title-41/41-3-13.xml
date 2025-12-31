@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/41-3-13"/>
+          <FRBRuri value="/us-ga/act/ocga/41-3-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/41-3-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/41-3-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/41-3-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/41-3-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41_3_13">
+        <num>41-3-13</num>
+        <content>
+          <p>In addition to the remedies provided for by Code Sections 41-3-2 through 41-3-12, state courts and the municipal courts of municipalities having a population of 15,000 or more according to the United States decennial census of 1970 or any future such census, when the nuisance exists within the corporate limits of such municipalities, shall have jurisdiction to hear and determine the question of the existence of the nuisance defined by Code Section 41-3-1 and, if found to exist, to order its abatement, which order shall be directed to and executed by the sheriff or marshal of any such court or his deputy.</p>
+          <p>(Code 1933, § 72-313, enacted by Ga. L. 1979, p. 1025, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

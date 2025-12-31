@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-24-42"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-24-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-24-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_24_42">
+        <num>33-24-42</num>
+        <content>
+          <p>Where the individual insured or the annuitant and the beneficiary designated in a life insurance policy or policy insuring against accidental death or in an annuity contract have died and there is not sufficient evidence that they have died otherwise than simultaneously, the proceeds of the policy or contract shall be distributed as if the insured or annuitant had survived the beneficiary unless otherwise specifically provided in the policy or contract. Payment made in accordance with this Code section shall fully discharge the insurer from all claims under the policy or contract unless, before payment is made, the insurer has received at its home office written notice by or on behalf of some other person that the person claims to be entitled to the payment or some interest in the policy or contract.</p>
+          <p>(Code 1933, § 56-2426, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-19-1"/>
+          <FRBRuri value="/us-ga/act/ocga/2-19-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-19-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-19-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-19-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-19-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_19_1">
+        <num>2-19-1</num>
+        <content>
+          <p>This chapter is enacted pursuant to the authority granted to the General Assembly by Article III, Section VI, Paragraph II(a)(3) of the Constitution of the State of Georgia and section 1121 of the federal Omnibus Consolidated and Emergency Supplemental Appropriations Act for Fiscal Year 1999, Public Law 105-277, as amended, and is for the purpose of creating an indemnity fund and making expenditures from such fund to indemnify cotton producers in this state for losses incurred in 1998 or 1999 from the loss of certain properly stored, harvested cotton.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

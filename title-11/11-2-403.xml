@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2-403"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-403"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2-403/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-403/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2-403/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-403/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2_403">
+        <num>11-2-403</num>
+        <content>
+          <p>Any entrusting of possession of goods to a merchant who deals in goods of that kind gives him power to transfer all rights of the entruster to a buyer in ordinary course of business.</p>
+          <p>"Entrusting" includes any delivery and any acquiescence in retention of possession regardless of any condition expressed between the parties to the delivery or acquiescence and regardless of whether the procurement of the entrusting or the possessor's disposition of the goods have been such as to be larcenous under the criminal law.</p>
+          <p>The rights of other purchasers of goods and of lien creditors are governed by the articles on secured transactions (Article 9 of this title), bulk transfers (Article 6 of this title), and documents of title (Article 7 of this title).</p>
+          <p>(Code 1933, § 109A-2 - 403, enacted by Ga. L. 1962, p. 156, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

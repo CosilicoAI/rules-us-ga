@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-9-20"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-9-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-9-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_9_20">
+        <num>45-9-20</num>
+        <content>
+          <p>In addition to any other compensation which may be paid to members of the governing bodies of municipalities, counties, and other public bodies, and to supervisors, administrators, employees, or other elected or appointed public officers, each municipality, county, and other public body of this state is authorized, in its discretion, to purchase policies of liability insurance or contracts of indemnity insuring or indemnifying the members of such governing bodies and such supervisors, administrators, employees, or other elected or appointed officers against personal liability for damages arising out of the performance of their duties or in any way connected therewith, whether based upon negligence, violation of contract rights, or violation of civil, constitutional, common law, or other statutory rights, whether state, federal, or local. Such municipalities, counties, and other public bodies may expend state, federal, and local funds for such purposes. The amount of such insurance or indemnity shall also be in the discretion of the governing body of such municipality, county, or other public body. No action shall be maintained against the person or company issuing such insurance or contracting for such indemnity until final judgment has first been entered against the individual covered by such policy or contract.</p>
+          <p>(Ga. L. 1974, p. 702, § 1; Ga. L. 2011, p. 99, § 86/HB 24.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

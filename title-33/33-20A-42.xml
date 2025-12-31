@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-20A-42"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20A-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-20A-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20A-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-20A-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-20A-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_20A_42">
+        <num>33-20A-42</num>
+        <content>
+          <p>Medicaid care management members shall, after first exhausting the grievance procedure of the managed care plan providing health care benefits pursuant to Article 7 of Chapter 4 of Title 49 or Article 13 of Chapter 5 of Title 49, be afforded the fair hearing rights provided pursuant to Code Section 49-4-153 or the state plan provided for in Article 13 of Chapter 5 of Title 49.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

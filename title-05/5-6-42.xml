@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-6-42"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-6-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-6-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_6_42">
+        <num>5-6-42</num>
+        <content>
+          <p>If the appellant designates any matter to be omitted from the record on appeal as provided in Code Section 5-6-37, the appellee may, within 15 days of serving of the notice of appeal by appellant, file a designation of record designating that all or part of the omitted matters be included in the record on appeal. A copy of the designation shall be served on all other parties in the manner prescribed by Code Section 5-6-32. Where there is a transcript of evidence and proceedings to be included in the record on appeal, the appellant shall cause the transcript to be prepared and filed as provided by Code Section 5-6-41; but, when the appellant has designated that the transcript not be made a part of the record on appeal and its inclusion is by reason of a designation thereof by appellee, the appellee shall cause the transcript to be prepared and filed as referred to in Code Section 5-6-41 at his expense. The party having the responsibility of filing the transcript shall cause it to be filed within 30 days after filing of the notice of appeal or designation by appellee, as the case may be, unless the time is extended as provided in Code Section 5-6-39. In all cases, it shall be the duty of the trial judge to grant such extensions of time as may be necessary to enable the court reporter to complete his transcript of evidence and proceedings.</p>
+          <p>(Ga. L. 1965, p. 18, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

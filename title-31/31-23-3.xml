@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-23-3"/>
+          <FRBRuri value="/us-ga/act/ocga/31-23-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-23-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-23-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-23-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-23-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_23_3">
+        <num>31-23-3</num>
+        <content>
+          <p>Any facility, hospital, or any medical school in conjunction with the department or school of ophthalmology of such medical school, alone or in further conjunction with other charitable organizations, may establish and maintain an eye bank in, under, or in affiliation with such hospital or medical school upon approval for the establishment of the eye bank by the Department of Community Health, if the eye bank meets the medical standards approved by the Eye Bank Association of America and such facility, hospital, or medical school is a nonprofit organization and is not a subsidiary of a for profit corporation or business entity. Upon the establishment of any eye bank as authorized in this Code section, the extraction, removal, care, preservation, storage, and use of human eyes or parts thereof for any of the purposes for which eye banks may be established may begin in such facility or as authorized by such facility. The eye bank shall have the right to receive gifts, donations, and bequests for the purposes stated in this Code section.</p>
+          <p>(Ga. L. 1961, p. 582, § 2; Code 1933, § 88-2002, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1982, p. 1499, § 2; Ga. L. 1999, p. 832, § 2; Ga. L. 2003, p. 368, § 1; Ga. L. 2009, p. 453, § 1-4/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

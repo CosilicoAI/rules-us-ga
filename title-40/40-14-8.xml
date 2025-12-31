@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-14-8"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-14-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-14-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_14_8">
+        <num>40-14-8</num>
+        <content>
+          <p>(Ga. L. 1968, p. 425, § 1; Ga. L. 1970, p. 435, § 1; Ga. L. 1978, p. 2254, § 1; Ga. L. 1979, p. 771, § 1; Ga. L. 1989, p. 586, § 1; Ga. L. 1992, p. 2785, § 30; Ga. L. 2000, p. 1257, § 1; Ga. L. 2018, p. 1057, § 7/HB 978.)</p>
+          <p>The 2018 amendment,
+      effective July 1, 2018, inserted "or programs for care and supervision of students before school, after school, or during vacation periods as provided for under Code Section 20-2-65" in the middle of the first sentence of subsection (b).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

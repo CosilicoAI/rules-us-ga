@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-16-25"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-16-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-16-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-16-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_16_25">
+        <num>45-16-25</num>
+        <content>
+          <p>A dead body, other than skeletal remains, taken into custody under this article shall be released to the next of kin of the deceased, or to the agent of the next of kin, no later than 24 hours after the demand for release by that next of kin, or agent thereof, unless by that time the peace officer, medical examiner, or coroner has made a written finding that foul play may have been involved in the death of the deceased.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

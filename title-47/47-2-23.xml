@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-2-23"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-2-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-2-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_2_23">
+        <num>47-2-23</num>
+        <content>
+          <p>There shall be a treasurer of the board of trustees, who shall be appointed by it and subject to its rules and regulations. He shall be the treasurer of the assets of the retirement system. Payments of the funds of the retirement system shall be made by the treasurer only upon vouchers signed by the treasurer and countersigned by one other person designated by the board of trustees. The treasurer of the board of trustees shall furnish to the board of trustees a surety bond of a company authorized to do business in this state in such an amount as shall be required by the board of trustees, provided that if the treasurer is a corporate trustee authorized to do business as such under the laws of this state, the trustees, in their discretion, may decide that no such bond be furnished. The premium on the surety bond shall be paid from the expense fund.</p>
+          <p>(Ga. L. 1949, p. 138, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

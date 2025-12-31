@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-93"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-93"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-93/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-93/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-93/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-93/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_93">
+        <num>9-10-93</num>
+        <content>
+          <p>Venue in cases under this article shall lie in any county wherein a substantial part of the business was transacted, the tortious act, omission, or injury occurred, or the real property is located. Where an action is brought against a resident of this state, any nonresident of this state who is involved in the same transaction or occurrence and who is suable under the provisions of this article may be joined as a defendant in the county where a resident defendant is suable. Under such circumstances, jurisdiction and venue of the court of and over such nonresident defendant shall not be affected or lost if at trial a verdict or judgment is returned in favor of such resident defendant. If such resident defendant is dismissed from the action prior to commencement of the trial, the action against the nonresident defendant shall not abate but shall be transferred to a court in a county where venue is proper.</p>
+          <p>(Ga. L. 1966, p. 343, § 4; Ga. L. 1968, p. 1419, § 1; Ga. L. 1970, p. 443, § 3; Ga. L. 1997, p. 480, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

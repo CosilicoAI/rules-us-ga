@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-103"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-103"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-103/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-103/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-103/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-103/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_103">
+        <num>10-4-103</num>
+        <content>
+          <p>As a prerequisite to the issuance of a license under this part, each applicant shall furnish evidence to the Commissioner of Agriculture that he has in force a standard fire and extended coverage insurance policy for the full market value of the tobacco in his sales warehouse for the marketing season for which the license is sought. The insurance policy shall be written by an insurance company, of the warehouseman's choice, authorized to transact business in this state, and such insurance coverage shall be approved in form by the Commissioner of Insurance, and a copy of the insurance policy shall be filed with the Commissioner of Agriculture. The policy shall cover both first-hand and resale tobacco. The insurance policy shall contain an endorsement requiring notification to the Commissioner of Agriculture by the insurance company of its intention to cancel the policy at least ten days prior to cancellation.</p>
+          <p>(Ga. L. 1960, p. 214, § 3; Ga. L. 1970, p. 222, § 1; Ga. L. 1989, p. 14, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-81"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-81"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-81/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-81/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-81/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-81/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_81">
+        <num>12-6-81</num>
+        <content>
+          <p>The General Assembly, recognizing that the forest lands and resources of the state are a natural resource of great economic value to the citizens of the state, comprising two-thirds of the state's area, or 24 million acres, and giving employment to over 177,000 Georgia citizens and bringing to the state a $19.5 billion economic impact; that uncontrolled forest fires threaten not only lands on which they occur, but also the health of the lands and the citizens of the state; that the present and potential production of forest products are materially menaced and reduced through recurring uncontrolled forest fires, thereby resulting in loss to owners of forest lands, industries, workers, and communities; that it is of vital importance to the state to protect and develop forest lands for the continuous production of forest products; and that this cannot be accomplished without organized and coordinated state-wide protection, declares that protection against uncontrolled fire and preservation of the forest lands and forest resources of the state are essential for the economic welfare of the state and its people and further declares that prescribed burning is an effective method of reducing fuel loads and the potential hazards and impact associated with uncontrolled fires.</p>
+          <p>(Ga. L. 1949, p. 937, § 2; Ga. L. 2000, p. 1285, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-6-97"/>
+          <FRBRuri value="/us-ga/act/ocga/48-6-97"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-6-97/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-6-97/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-6-97/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-6-97/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_6_97">
+        <num>48-6-97</num>
+        <content>
+          <p>Except as otherwise provided by law, credit unions organized under the provisions of Chapter 1 of Title 7, the "Financial Institutions Code of Georgia," shall be subject to all forms of state and local government taxation authorized by the Congress of the United States for the taxation of federally chartered credit unions on January 1, 1984. It is the intent of the General Assembly of the State of Georgia that credit unions organized under the laws of this state and credit unions organized under the laws of the United States and domiciled within this state be subject to the same degree of taxation whether by the state or any of its political subdivisions in which such credit union maintains a place of business. It is further the intent of the General Assembly that in the event the Congress of the United States should change the manner in which federally chartered credit unions may be taxed by state and local governments, then to the extent that state legislative authority is not preempted by the Congress, state-chartered credit unions and federally chartered credit unions operating in this state shall be taxed to the same extent and in the same manner as state-chartered savings and loan associations operating in this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

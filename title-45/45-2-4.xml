@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-2-4"/>
+          <FRBRuri value="/us-ga/act/ocga/45-2-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-2-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-2-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-2-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-2-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_2_4">
+        <num>45-2-4</num>
+        <content>
+          <p>All officers of this state shall reside in this state at such places as are designated by law and shall discharge the duties of their offices until the successors are commissioned and qualified, except that public officers appointed by the Governor and subject to confirmation by the Senate shall not hold over until their successors have been appointed and confirmed; and all officers whose certificates or records or other papers are admissible in evidence in any court in this state must have and keep an official seal.</p>
+          <p>(Orig. Code 1863, § 128; Code 1868, § 123; Code 1873, § 132; Code 1882, § 132; Civil Code 1895, § 226; Civil Code 1910, § 261; Code 1933, § 89-105; Ga. L. 1982, p. 3, § 45; Ga. L. 1990, p. 8, § 45.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

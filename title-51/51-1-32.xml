@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-32"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_32">
+        <num>51-1-32</num>
+        <content>
+          <p>In cases arising from the wrongful or negligent operation of a motor vehicle in which the single wrongful or negligent act causes or results in both physical injuries to a person and injuries to the property of such person, the injured person shall have a separate and distinct cause of action against the person whose wrongful or negligent act caused such injury for the physical injury to his person and a separate and distinct cause of action for the injuries to his property. The injured party shall have the right, in his sole discretion, to prosecute each cause of action separately or to combine the two causes of action in one single action.</p>
+          <p>(Code 1933, § 105-1301A, enacted by Ga. L. 1973, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

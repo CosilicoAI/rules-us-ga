@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-341"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-341"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-341/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-341/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-341/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-341/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_341">
+        <num>46-8-341</num>
+        <content>
+          <p>All street, suburban, and interurban railroad companies may lease or sell their roads, franchises, and other property to any other company created under the laws of this state for street, suburban, or interurban railroad purposes; and their franchises and property so sold shall remain liable, in the hands of the lessee or purchaser, for all debts or claims against the company making the conveyance. Nothing in this Code section shall be construed to authorize any such company to sell, lease, or otherwise dispose of any of its property or franchises so as to defeat or lessen competition or to encourage monopoly.</p>
+          <p>(Ga. L. 1890-91, p. 170, § 1; Civil Code 1895, § 2184; Civil Code 1910, § 2614; Code 1933, § 94-1013.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

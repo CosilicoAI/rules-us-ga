@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-12-424"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-424"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-12-424/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-424/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-12-424/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-424/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_12_424">
+        <num>53-12-424</num>
+        <content>
+          <p>If a trustee determines that an allocation between principal and income required by Code Sections 53-12-425 through 53-12-428 or Code Section 53-12-431 is insubstantial, the trustee may allocate the entire amount to principal unless one of the circumstances described in Code Section 53-12-361 applies to the allocation. Such power may be exercised by a cotrustee in the circumstances described in Code Section 53-12-361 and may be released for the reasons and in the manner described in such Code section. An allocation shall be presumed to be insubstantial if:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/24-8-820"/>
+          <FRBRuri value="/us-ga/act/ocga/24-8-820"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/24-8-820/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/24-8-820/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/24-8-820/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/24-8-820/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_24_8_820">
+        <num>24-8-820</num>
+        <content>
+          <p>The 2013 amendment,
+      effective July 1, 2013, substituted the present provisions of this Code section for the former provisions, which read: "A statement made by a child under the age of 14 years describing any act of sexual contact or physical abuse performed with or on the child by another shall be admissible in evidence by the testimony of the person to whom made if the child is available to testify in the proceedings and the court finds that the circumstances of the statement provide sufficient indicia of reliability." See editor's note for applicability.</p>
+          <p>The 2019 amendment,
+      effective April 18, 2019, designated the existing provisions of this Code section as subsection (a); and added subsection (b).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

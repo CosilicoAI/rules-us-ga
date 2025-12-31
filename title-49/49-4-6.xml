@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-4-6"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-4-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-4-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_4_6">
+        <num>49-4-6</num>
+        <content>
+          <p>(Ga. L. 1965, p. 385, § 14; Ga. L. 1967, p. 878, § 5; Ga. L. 1982, p. 3, § 49; Ga. L. 1987, p. 1435, § 1; Ga. L. 1990, p. 45, § 1; Ga. L. 1996, p. 804, § 3; Ga. L. 1999, p. 296, § 24; Ga. L. 2009, p. 453, § 2-2/HB 228; Ga. L. 2015, p. 5, § 49/HB 90.)</p>
+          <p>The 2015 amendment,
+      effective March 13, 2015, part of an Act to revise, modernize, and correct the Code, deleted former subsection (b), which read: "For purposes of applying the $50.00 child support disregard provided for in Title IV of the federal Social Security Act, amounts paid by the Social Security Administration under the Old Age Survivors and Disability Insurance (OASDI) program, payments made by the United States Department of Veterans Affairs to the family, and any other benefits not assignable to the state pursuant to Title IV of the federal Social Security Act shall not be considered child support."; and redesignated former subsection (c) as present subsection (b).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

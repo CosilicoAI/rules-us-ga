@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-237"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-237"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-237/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-237/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-237/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-237/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_237">
+        <num>20-3-237</num>
+        <content>
+          <p>If any federal law or rule shall at any time have the effect of prohibiting any person from simultaneously serving as a member of the board of directors of the corporation and as a member of the board of directors of the authority, the Governor is authorized, notwithstanding the provisions of this part or of Parts 2 and 3 of this article, to divide the persons who are serving as members of the board of commissioners as evenly as may be possible and, by executive order, designate the members of the commission who shall thereafter serve as members of the board of directors of the corporation and who shall thereafter serve as members of the board of directors of the authority.</p>
+          <p>(Code 1933, § 32-3111, enacted by Ga. L. 1980, p. 835, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

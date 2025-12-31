@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-147"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-147"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-147/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-147/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-147/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-147/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_147">
+        <num>20-2-147</num>
+        <content>
+          <p>On a school day immediately preceding or as close to the annual observance of Veterans Day as practicable as determined by a school's scheduled curriculum, each elementary and secondary school may provide for instructional activity focusing on the contributions of veterans and the importance of the armed forces of the United States. Beginning in the 2010-2011 school year, public elementary and secondary schools may be closed on Veterans Day as provided in paragraph (1) of subsection (c) of Code Section 20-2-168.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

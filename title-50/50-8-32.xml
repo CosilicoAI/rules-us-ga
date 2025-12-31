@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-32"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_32">
+        <num>50-8-32</num>
+        <content>
+          <p>Regional commissions are created and established as public agencies and instrumentalities of their members which shall facilitate coordinated and comprehensive planning in conformity with minimum standards and procedures established pursuant to law. Regional commissions shall function as the regional planning entity for land use, environmental, transportation, and historic preservation planning in each designated region of the state. Each such agency and instrumentality shall be known as a regional commission and shall be designated, by name for all purposes, with such identifying words before the term "regional commission" as the Board of Community Affairs may, from time to time in accordance with the provisions of subsection (f) of Code Section 50-8-4, choose and designate by official action. The number of regional commissions and the region within which each regional commission shall operate shall initially be established and subsequently may be changed from time to time by the Board of Community Affairs pursuant to Code Section 50-8-4. Each county shall be wholly within the region of one regional commission, and no county shall be divided among more than one region. Without limiting the generality of the foregoing, the Board of Community Affairs shall establish the boundaries of any region for which a metropolitan area planning and development commission, created pursuant to Article 4 of this chapter, also serves as the regional commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

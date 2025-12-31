@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-1-13"/>
+          <FRBRuri value="/us-ga/act/ocga/13-1-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-1-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-1-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-1-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-1-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_1_13">
+        <num>13-1-13</num>
+        <content>
+          <p>Payments of claims made through ignorance of the law or where all the facts are known and there is no misplaced confidence and no artifice, deception, or fraudulent practice used by the other party are deemed voluntary and cannot be recovered unless made under an urgent and immediate necessity therefor or to release person or property from detention or to prevent an immediate seizure of person or property. Filing a protest at the time of payment does not change the rule prescribed in this Code section.</p>
+          <p>(Civil Code 1895, § 3723; Civil Code 1910, § 4317; Code 1933, § 20-1007.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

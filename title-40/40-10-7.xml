@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-10-7"/>
+          <FRBRuri value="/us-ga/act/ocga/40-10-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-10-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-10-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-10-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-10-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_10_7">
+        <num>40-10-7</num>
+        <content>
+          <p>Notwithstanding the provisions of Code Section 50-5-143, the Governor is authorized and granted the power to contract and to exercise any other powers which may be necessary in order to ensure that all departments of the state government and local political subdivisions participate to the fullest extent possible in the benefits available under the National Highway Safety Act of 1966 and similar federal programs of highway safety. The Governor shall formulate standards for highway safety programs for political subdivisions to assure that they meet the criteria of the National Highway Safety Agency and shall institute a reporting system for the local political subdivisions to report the status of their programs to the state.</p>
+          <p>(Ga. L. 1967, p. 708, § 5; Ga. L. 2008, p. 589, § 2/HB 969.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

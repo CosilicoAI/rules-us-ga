@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-11-4"/>
+          <FRBRuri value="/us-ga/act/ocga/44-11-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-11-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-11-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-11-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-11-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_11_4">
+        <num>44-11-4</num>
+        <content>
+          <p>When several persons claim several parcels of land under distinct titles and do not sustain to each other the relationship of landlord and tenant, a joint action of ejectment may not be maintained against them nor may a joint or several recovery be had in such action either for the premises or for mesne profits.</p>
+          <p>(Orig. Code 1863, § 3272; Code 1868, § 3283; Code 1873, § 3359; Code 1882, § 3359; Civil Code 1895, § 5000; Civil Code 1910, § 5578; Code 1933, § 33-113.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

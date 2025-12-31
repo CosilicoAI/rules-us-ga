@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-288"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-288"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-288/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-288/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-288/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-288/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_288">
+        <num>21-2-288</num>
+        <content>
+          <p>If two or more candidates for the same nomination or office shall have the same or similar names, the Secretary of State, in the case of federal or state offices, the superintendent of elections, in the case of county offices, or the official with whom such candidates qualify, in the case of municipal elections, shall print or cause to be printed the residence of all candidates for such nomination or office on the ballot under their names. The designated official shall determine whether the names of the candidates are of such a similar nature as to warrant printing the residence of all candidates for that office on the ballot; and the decision of the designated official shall be conclusive.</p>
+          <p>(Code 1933, § 34-1105, enacted by Ga. L. 1964, Ex. Sess., p. 26, § 1; Ga. L. 1980, p. 1256, § 3; Ga. L. 1982, p. 1292, § 8; Ga. L. 1998, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

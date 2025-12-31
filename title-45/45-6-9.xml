@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-6-9"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-6-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-6-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_6_9">
+        <num>45-6-9</num>
+        <content>
+          <p>If a vacancy occurs because of death or if the incumbent cannot be found at the time a demand is made, it shall be the duty of any person having possession or control of any books, papers, or other office property or any part thereof to deliver it to the successor; and any rights and remedies shall be the same against such person as against the officer who is deceased or cannot be found.</p>
+          <p>(Orig. Code 1863, § 167; Code 1868, § 162; Code 1873, § 173; Code 1882, § 173; Civil Code 1895, § 270; Civil Code 1910, § 305; Code 1933, § 89-603.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

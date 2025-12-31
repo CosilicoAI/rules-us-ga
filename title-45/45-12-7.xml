@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-7"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_7">
+        <num>45-12-7</num>
+        <content>
+          <p>The Governor shall transmit his resignation to the General Assembly, if it is in session; and, if it is not in session, he shall transmit it to the Secretary of State, who shall on the same day notify the Lieutenant Governor. If the office becomes vacant because of death or any other cause when the General Assembly is not in session, the Secretary of State shall inform the Lieutenant Governor. In either case, the Lieutenant Governor shall take the oath of office within ten days after having been informed by the Secretary of State. Such oath shall be taken before any Justice of the Supreme Court or judge of any superior court and also before the General Assembly, if it is in session. Such facts shall be entered upon the minutes of the office of the Governor. If the Lieutenant Governor fails to take the oath of office within the prescribed time, he shall be considered as having resigned. In such case, or if there is no Lieutenant Governor, the Secretary of State shall inform the Speaker of the House of Representatives, and the proceedings shall be the same.</p>
+          <p>(Orig. Code 1863, § 132; Code 1868, § 127; Code 1873, § 136; Code 1882, § 136; Civil Code 1895, § 231; Civil Code 1910, § 266; Code 1933, § 40-108.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

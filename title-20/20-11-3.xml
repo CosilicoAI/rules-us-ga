@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-11-3"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-11-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-11-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-11-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_11_3">
+        <num>20-11-3</num>
+        <content>
+          <p>A center for industrial development shall be created in connection with the Georgia Tech Research Institute for the purpose of meeting more effectively the needs of business and industry and of local groups engaged in economic development and furthering and strengthening of the research institute's present program, including the establishment of such additional research and related services as may be necessary to make possible the more effective development of the state's industrial resources and potentials. To utilize effectively the talents of the research institute's staff of scientists, engineers, and technicians on the needs of local development groups and of business and industry, the research institute's present program shall be extended as rapidly as its financial condition will permit to provide a state-wide industrial extension service through the establishment of field offices or substations. The location of each field office or substation shall be determined by the director of the Georgia Tech Research Institute, who shall choose each location on the basis of its advantages to the research institute's overall program and the further development of the state's resources. In addition to being responsible for providing technical advice and assistance to local development groups and to established business and industry, each field office or substation shall have as its further purpose the collection of data on local resources and the evaluation of existing and potential industrial opportunities.</p>
+          <p>(Code 1933, § 32-302, enacted by Ga. L. 1960, p. 1131, § 3; Ga. L. 1984, p. 1675, § 2; Ga. L. 1985, p. 149, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

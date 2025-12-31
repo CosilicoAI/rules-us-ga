@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-5-82"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-82"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-5-82/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-82/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-5-82/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-82/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_5_82">
+        <num>28-5-82</num>
+        <content>
+          <p>Any resolution authorized by Code Section 28-5-80 shall be referred by the Speaker of the House to the Appropriations Committee of the House; and the Clerk of the House shall transmit a certified copy of the resolution to the chairman of the Claims Advisory Board not later than the day after its referral to the appropriations committee. Upon receipt of such copy, the chairman, after consultation with the other members of the board, shall set a time for acting on the claim and shall set a date for a hearing if a hearing is deemed necessary. In the event a hearing is to be held, the Representative introducing the bill shall be notified of the date, time, and place thereof. Such other persons as the board deems necessary shall likewise be notified. The Representative introducing the resolution shall be notified as to the action taken by the board on the claim and the recommendation made by the board to the appropriations committee. In the event the Representative is dissatisfied with the recommendation of the board and no hearing has been held, he shall be entitled to have the board set a hearing by so requesting the chairman in writing.</p>
+          <p>(Ga. L. 1963, p. 624, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

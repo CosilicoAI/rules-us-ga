@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-811"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-811"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-811/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-811/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-811/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-811/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_811">
+        <num>7-1-811</num>
+        <content>
+          <p>Code Sections 7-1-812 through 7-1-814, concerning beneficial ownership as between parties or as between parties and P.O.D. payees or beneficiaries of multiple-party accounts, are relevant only to controversies between those persons and their creditors and other successors and have no bearing on the power of withdrawal of these persons as determined by the terms of account contracts. Code Sections 7-1-816 through 7-1-821 govern the liability of financial institutions which make payments pursuant thereto and their setoff rights.</p>
+          <p>(Code 1933, § 41A-3802, enacted by Ga. L. 1976, p. 1388, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

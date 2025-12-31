@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-5-23"/>
+          <FRBRuri value="/us-ga/act/ocga/5-5-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-5-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-5-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-5-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-5-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_5_23">
+        <num>5-5-23</num>
+        <content>
+          <p>A new trial may be granted in any case where any material evidence, not merely cumulative or impeaching in its character but relating to new and material facts, is discovered by the applicant after the rendition of a verdict against him and is brought to the notice of the court within the time allowed by law for entertaining a motion for a new trial.</p>
+          <p>(Ga. L. 1853-54, p. 46, § 1; Code 1863, § 3640; Code 1868, § 3665; Code 1873, § 3716; Code 1882, § 3716; Civil Code 1895, §§ 5480, 5481; Penal Code 1895, § 1061; Civil Code 1910, §§ 6085, 6086; Penal Code 1910, § 1088; Code 1933, § 70-204.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

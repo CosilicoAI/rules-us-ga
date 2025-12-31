@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-4-6"/>
+          <FRBRuri value="/us-ga/act/ocga/40-4-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-4-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-4-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-4-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-4-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_4_6">
+        <num>40-4-6</num>
+        <content>
+          <p>Any person who purchases or sells or offers for sale any used passenger car, truck chassis, engine, or transmission required to be numbered by this article shall keep a permanent record of such transactions. Such record shall include: the item and its identification number or numbers; the name and address of the person from whom the item was purchased; and the name and address of the person to whom the item was sold. Such record shall be kept for three years from the date of the transaction and shall be available to all law enforcement officers for inspection at any reasonable time during business hours without prior notice or the necessity of obtaining a search warrant.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

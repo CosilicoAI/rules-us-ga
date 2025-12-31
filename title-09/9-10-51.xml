@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-51"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_51">
+        <num>9-10-51</num>
+        <content>
+          <p>In all actions brought by one county against another county in the defending county, the judge shall change the venue to a county adjoining the one in which the action is brought, on the motion of the plaintiff, supported by the oath of the chairman or presiding official of the county governing authority of the county bringing the action, that in his opinion a fair and impartial trial cannot be had in the county in which the action is brought.</p>
+          <p>(Ga. L. 1898, p. 88, § 1; Civil Code 1910, § 5537; Code 1933, § 3-212.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

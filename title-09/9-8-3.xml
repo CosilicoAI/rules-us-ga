@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-8-3"/>
+          <FRBRuri value="/us-ga/act/ocga/9-8-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-8-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-8-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-8-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-8-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_8_3">
+        <num>9-8-3</num>
+        <content>
+          <p>Equity may appoint a receiver to take possession of and hold, subject to the direction of the court, any assets charged with the payment of debts where there is manifest danger of loss, destruction, or material injury to those interested. Under extraordinary circumstances, a receiver may be appointed before and without notice to the trustee or other person having charge of the assets. The terms on which a receiver is appointed shall be in the discretion of the court.</p>
+          <p>(Orig. Code 1863, § 3080; Code 1868, § 3092; Code 1873, § 3149; Code 1882, § 3149; Civil Code 1895, § 4904; Civil Code 1910, § 5479; Code 1933, § 55-305.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-11-11"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-11-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-11-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_11_11">
+        <num>9-11-11</num>
+        <content>
+          <p>(b.1)In any action subject to subsection (b) of this Code section, a prevailing moving party on a motion to strike shall be granted the recovery of attorney's fees and expenses of litigation related to the action in an amount to be determined by the court based on the facts and circumstances of the case. If the court finds that a motion to strike is frivolous or is solely intended to cause unnecessary delay, the court shall award attorney's fees and expenses of litigation to the nonmoving party prevailing on the motion for the attorney's fees and expenses of litigation associated with the motion in an amount to be determined by the court based on the facts and circumstances of the case.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

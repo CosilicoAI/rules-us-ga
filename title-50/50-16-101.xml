@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-101"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-101"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-101/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-101/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-101/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-101/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_101">
+        <num>50-16-101</num>
+        <content>
+          <p>The state occupies the same relation to the railroad, as owner, that any company or corporation does to its railroad; and the obligations of the state to the public concerning the railroad, and of the public to the railroad, are the same as govern the other railroads of this state, so far as is consistent with the sovereign attributes of this state and the laws of force for its conduct.</p>
+          <p>(Orig. Code 1863, § 889; Code 1868, § 968; Code 1873, § 964; Code 1882, § 964; Civil Code 1895, § 1021; Civil Code 1910, § 1288; Code 1933, § 91-202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

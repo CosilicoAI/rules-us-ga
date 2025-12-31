@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-12-9"/>
+          <FRBRuri value="/us-ga/act/ocga/31-12-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-12-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-12-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-12-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-12-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_12_9">
+        <num>31-12-9</num>
+        <content>
+          <p>In addition to its other powers in the control of preventable diseases, the department may by rule, regulation, and order provide for the licensing, registration, supervision, and investigation of all firms or persons importing, purchasing, breeding, or selling any birds or animals as pets, or any birds or animals which are customarily kept as pets, and may require all such firms or persons to comply with reporting and record-keeping requirements and marking, banding, or other identification requirements. The department is further empowered to prescribe rules and regulations governing the shipment, transportation, or carriage of such birds or animals and require such other control measures deemed necessary to prevent infectious matter present in birds, arthropods, and animals from being conveyed to persons unless the responsibility of such control is by law delegated to some other agency.</p>
+          <p>(Code 1933, § 88-1205, enacted by Ga. L. 1964, p. 499, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

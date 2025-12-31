@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-14-8"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-14-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-14-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_14_8">
+        <num>9-14-8</num>
+        <content>
+          <p>The writ of habeas corpus shall be served by delivery of a copy thereof by any officer authorized to make a return of any process or by any other citizen. The entry of the officer or the affidavit of the citizen serving the writ shall be sufficient evidence of the service. The person serving the writ shall exhibit the original if required to do so. If personal service cannot be effected, the writ may be served by leaving a copy at the house, jail, or other place in which the party in whose behalf the writ issues is detained.</p>
+          <p>(Orig. Code 1863, § 3915; Code 1868, § 3939; Code 1873, § 4015; Code 1882, § 4015; Penal Code 1895, § 1216; Penal Code 1910, § 1297; Code 1933, § 50-108.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

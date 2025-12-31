@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-1-9"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-1-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-1-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-1-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_1_9">
+        <num>36-1-9</num>
+        <content>
+          <p>Any county official, officer, or employee who is charged with the responsibility of collecting, receiving, or disbursing any fees, fines, forfeitures, costs, commissions, allowances, penalties, funds, or moneys, or any other emolument or perquisite for any other county official, officer, or employee who has been placed upon a salary payable from county funds in lieu of receiving such compensation, when provision has been made by law for such compensation to become the property of and payable to the county, may pay said funds directly into the county treasury upon their receipt.</p>
+          <p>(Ga. L. 1964, p. 337, § 1; Ga. L. 1969, p. 3655, § 1; Ga. L. 1971, p. 3563, § 1; Ga. L. 1982, p. 2107, § 30; Ga. L. 1992, p. 1219, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

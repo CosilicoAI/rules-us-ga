@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-14-5"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-14-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-14-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_14_5">
+        <num>31-14-5</num>
+        <content>
+          <p>Where a danger exists that the person named in the petition may abscond or conceal himself or herself or where the person is conducting himself or herself so as to present a substantial risk of exposing other persons to an imminent danger of infection, the court may, as a part of the order made pursuant to Code Section 31-14-3, direct the sheriff or the sheriff's deputies to take such person into custody pending hearing and impose such confinement as will not endanger other persons. An affidavit shall be attached to the petition containing the specific facts supporting the need for custody pending hearing.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 348, § 6; Code 1933, § 88-706, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1995, p. 1231, § 2; Ga. L. 2005, p. 1513, § 1/SB 56.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-254"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-254"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-254/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-254/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-254/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-254/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_254">
+        <num>12-3-254</num>
+        <content>
+          <p>In case any officer whose signature shall appear on any bonds or whose facsimile signature shall appear on any coupon shall cease to be such officer before the delivery of such bonds, such signature shall nevertheless be valid and sufficient for all purposes the same as if he had remained in office until such delivery. All such bonds shall be signed by the chairman of the authority, and the official seal of the authority shall be affixed thereto and attested by the secretary of the authority; and any coupons attached thereto shall bear the signature or facsimile signature of the chairman of the authority. Any coupon may bear the facsimile signature of such person, and any bond may be signed, sealed, and attested on behalf of the authority by such persons, as at the actual time of the execution of such bonds shall be duly authorized to so sign, seal, or attest or shall hold the proper office, although at the date of such bonds such persons may not have been so authorized or shall not have held such office.</p>
+          <p>(Ga. L. 1950, p. 152, § 17; Ga. L. 1952, p. 276, § 4; Ga. L. 1960, p. 89, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

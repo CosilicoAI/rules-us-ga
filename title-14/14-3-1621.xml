@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-3-1621"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-1621"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-3-1621/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-1621/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-3-1621/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-3-1621/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_3_1621">
+        <num>14-3-1621</num>
+        <content>
+          <p>If a corporation indemnifies or advances expenses to a director under Code Section 14-3-851, 14-3-852, 14-3-853, or 14-3-854 in connection with a proceeding by or in the right of the corporation, the corporation shall report the indemnification or advance in writing to the members with or before the notice of the next meeting of members.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

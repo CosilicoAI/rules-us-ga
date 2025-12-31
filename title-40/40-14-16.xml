@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-14-16"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-14-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-14-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_14_16">
+        <num>40-14-16</num>
+        <content>
+          <p>No speeding violation of less than ten miles per hour above the legal speed limit in the county or municipality or on a college or university campus in which a person is given a speeding ticket shall be used by the Department of Driver Services for the purpose of suspending or revoking the driver's license of the violator. No speeding violation report by a county, municipality, or college or university campus to the Department of Driver Services which fails to specify the speed of the violator shall be used by the Department of Driver Services to revoke the driver's license of a violator.</p>
+          <p>(Ga. L. 1968, p. 425, § 13; Ga. L. 1989, p. 586, § 1; Ga. L. 2002, p. 415, § 40; Ga. L. 2005, p. 334, § 23-1/HB 501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

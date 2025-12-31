@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-7-5"/>
+          <FRBRuri value="/us-ga/act/ocga/34-7-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-7-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-7-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-7-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-7-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_7_5">
+        <num>34-7-5</num>
+        <content>
+          <p>Any corporation or person doing business of any kind in this state who shall issue checks or written evidences of indebtedness for the wages of laborers shall redeem at full value, in cash, such written evidences of indebtedness on demand and presentation to the proper person on the regular monthly payday; and, if there shall be no regular monthly payday, then such written evidences shall be redeemed upon demand and presentation on any regular business day after 30 days from the issuance thereof. For every failure to redeem such evidences of indebtedness, such corporation or person shall be liable to the owner thereof in the sum of $10.00, to be recovered by suit, unless the corporation or person shall, upon the trial, prove insolvency or actual inability to redeem at the time of demand and presentation.</p>
+          <p>(Ga. L. 1888, p. 48, § 1; Civil Code 1895, § 1871; Civil Code 1910, § 2235; Code 1933, § 66-106; Ga. L. 1998, p. 128, § 34.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

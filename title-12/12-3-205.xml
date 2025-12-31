@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-205"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-205"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-205/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-205/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-205/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-205/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_205">
+        <num>12-3-205</num>
+        <content>
+          <p>The proceeds of bonds shall be used solely for the payment of the cost of the project and shall be disbursed upon requisition or order of the chairman of the association or its duly bonded agents under such restrictions, if any, as the resolution authorizing the issuance of the bonds or the trust indentures may provide. If the proceeds of such bonds, by error of calculation or otherwise, shall be less than the cost of the project, then unless otherwise provided in the resolution authorizing the issuance of the bonds or in the trust indenture, additional bonds may in like manner be issued to provide the amount of such deficit. These additional bonds, unless otherwise provided in the resolution authorizing the issuance of the bonds or in the trust indenture, shall be deemed to be of the same issue and shall be entitled to payment from the same fund without preference or priority of the bonds first issued for the same purpose. If the proceeds of the bonds of any issue shall exceed the amount required for the purpose for which such bonds were issued, all surplus shall be paid into the sinking fund provided in Code Section 12-3-212 for the payment of principal and interest of such bonds.</p>
+          <p>(Ga. L. 1958, p. 61, § 15.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

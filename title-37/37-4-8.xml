@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-4-8"/>
+          <FRBRuri value="/us-ga/act/ocga/37-4-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-4-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-4-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-4-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-4-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_4_8">
+        <num>37-4-8</num>
+        <content>
+          <p>Any private facility within this state may be approved as a facility for the habilitation of developmentally disabled persons by the department at the request of or with the consent of the governing officers of such private facility. When so approved, the private facility shall have all powers given to the corresponding type of facility under this chapter for evaluation and habilitation and shall have all duties and obligations of such facilities imposed by this chapter, except that any such private facility may decline to accept any client who is unable to pay it for habilitation services or for whom it has no available space.</p>
+          <p>(Code 1933, § 88-2509.5, enacted by Ga. L. 1978, p. 1826, § 1; Ga. L. 2009, p. 453, § 3-5/HB 228.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-162"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-162"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-162/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-162/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-162/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-162/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_162">
+        <num>44-2-162</num>
+        <content>
+          <p>The owner or owners of a tract of land embraced in a certificate may divide it into smaller tracts and, upon surrender of his or their owner's certificate, cause separate certificates to be issued for the respective smaller tracts. The procedure in such cases shall be for the owner or owners to petition the judge and to attach to or include within the petition a map or plat showing the tract as registered and the subdivision for which they desire the new certificates. The judge shall examine the petition and the plat and, if he is not fully satisfied that the content of the original tract is exactly equivalent to the sum of the contents of the smaller tracts into which it is subdivided, may order a survey at the owner's expense. If and when the judge is satisfied on this subject, he shall pass an order directing the clerk to cancel the certificate of title on the record upon surrender of the outstanding owner's certificate and to issue new and separate certificates of title and owners' certificates for the smaller tracts into which the original tract is subdivided, all of which new certificates shall carry the same limitations and notations as the canceled certificate, as in the case of a transfer.</p>
+          <p>(Ga. L. 1917, p. 121, § 31; Code 1933, § 60-502; Ga. L. 1943, p. 326, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-12-5"/>
+          <FRBRuri value="/us-ga/act/ocga/43-12-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-12-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-12-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-12-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-12-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_12_5">
+        <num>43-12-5</num>
+        <content>
+          <p>The certificates of eligibility issued by any of the judges of the probate courts of this state shall be prima-facie evidence of the right of the holder thereof to a certificate of exemption to be issued by the commissioner of veterans service. However, the commissioner of veterans service may require additional proof when such commissioner has reason to believe that any applicant is not entitled to the exemptions provided for in this chapter. The commissioner of veterans service shall make and prescribe reasonable rules and regulations not inconsistent with this chapter governing the issuance of certificates of exemption.</p>
+          <p>(Ga. L. 1935, p. 163, § 3; Ga. L. 1953, Nov.-Dec. Sess., p. 431, § 5; Ga. L. 1971, p. 348, § 1; Ga. L. 1983, p. 1401, § 16; Ga. L. 1996, p. 1268, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

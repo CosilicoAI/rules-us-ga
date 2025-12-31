@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-7-2"/>
+          <FRBRuri value="/us-ga/act/ocga/12-7-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-7-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-7-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-7-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-7-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_7_2">
+        <num>12-7-2</num>
+        <content>
+          <p>It is found that soil erosion and sediment deposition onto lands and into waters within the watersheds of this state are occurring as a result of widespread failure to apply proper soil erosion and sedimentation control practices in land clearing, soil movement, and construction activities and that such erosion and sediment deposition result in pollution of state waters and damage to domestic, agricultural, recreational, fish and wildlife, and other resource uses. It is therefore declared to be the policy of this state and the intent of this chapter to strengthen and extend the present erosion and sediment control activities and programs of this state and to provide for the establishment and implementation of a state-wide comprehensive soil erosion and sediment control program to conserve and protect the land, water, air, and other resources of this state.</p>
+          <p>(Ga. L. 1975, p. 994, § 2; Ga. L. 2003, p. 224, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

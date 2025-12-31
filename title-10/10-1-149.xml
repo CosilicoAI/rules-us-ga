@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-149"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-149"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-149/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-149/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-149/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-149/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_149">
+        <num>10-1-149</num>
+        <content>
+          <p>For the purpose of this part, all gasoline and kerosene sold or offered or exposed for sale shall be subject to inspection and analysis as provided in this part. All manufacturers, refiners, wholesalers, and jobbers, before selling or offering for sale any gasoline or kerosene or like products, under whatever name designated, for power, lubricating, illuminating, heating, or cooking purposes, shall file with the Commissioner of Agriculture a declaration or statement that they desire to sell such products in this state and shall furnish the name, brand, or a trademark of the product which they desire to sell, together with the name and address of the manufacturer thereof, and that all such products are in conformity with the specifications established pursuant to this part by the state oil chemist and approved by the Commissioner of Agriculture.</p>
+          <p>(Ga. L. 1927, p. 279, § 2; Code 1933, § 73-210; Ga. L. 1960, p. 1043, §§ 1, 8; Ga. L. 1979, p. 981, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

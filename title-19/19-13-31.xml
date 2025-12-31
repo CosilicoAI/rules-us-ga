@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-13-31"/>
+          <FRBRuri value="/us-ga/act/ocga/19-13-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-13-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-13-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-13-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-13-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_13_31">
+        <num>19-13-31</num>
+        <content>
+          <p>There is created a State Commission on Family Violence which shall be responsible for developing a comprehensive state plan for ending family violence. This plan shall include the initiation, coordination, and oversight of the implementation of family violence laws and the establishment in each judicial circuit of a Community Task Force on Family Violence. These task forces shall be supported by and work in collaboration with the state commission. The commission shall be assigned for administrative purposes only, as set out in Code Section 50-4-3, to the Department of Community Supervision.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

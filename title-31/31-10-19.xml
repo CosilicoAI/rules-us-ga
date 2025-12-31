@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-10-19"/>
+          <FRBRuri value="/us-ga/act/ocga/31-10-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-10-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-10-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-10-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-10-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_10_19">
+        <num>31-10-19</num>
+        <content>
+          <p>Each induced termination of pregnancy which occurs in this state, regardless of the length of gestation or weight, shall be reported directly to the department within ten days by the person in charge of the institution or clinic, or designated representative, in which the induced termination of pregnancy was performed. If the induced termination of pregnancy was performed outside an institution or clinic, the attending physician shall prepare and file the report within the time specified by this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

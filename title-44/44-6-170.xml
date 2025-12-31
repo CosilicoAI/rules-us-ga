@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-170"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-170"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-170/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-170/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-170/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-170/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_170">
+        <num>44-6-170</num>
+        <content>
+          <p>In any extraordinary case not covered by Code Sections 44-6-160 through 44-6-169, the court may frame its proceeding and order so as to meet the exigency of the case without forcing the parties into equity; and the court may deny a sale or partition altogether if it is manifest that the interest of each party will not be fully protected.</p>
+          <p>(Orig. Code 1863, § 3906; Code 1868, § 3930; Code 1873, § 4006; Code 1882, § 4006; Civil Code 1895, § 4796; Civil Code 1910, § 5368; Code 1933, § 85-1514.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

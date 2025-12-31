@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-9-57"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-57"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-9-57/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-57/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-9-57/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-57/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_9_57">
+        <num>42-9-57</num>
+        <content>
+          <p>Nothing contained in this chapter shall be construed as repealing any power given to any court of this state to place offenders on probation or to provide for terms of offender supervison. The board shall be authorized to cooperate with the department, except that it shall not assume or pay any financial obligations thereof.</p>
+          <p>(Ga. L. 1943, p. 185, § 22; Ga. L. 1994, p. 97, § 42; Ga. L. 2015, p. 422, § 5-90/HB 310.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted the present provisions of this Code section for the former provisions which read: "Nothing contained in this chapter shall be construed as repealing any power given to any court of this state to place offenders on probation or to supervise the same nor any power of any probation agency set up in any county of the state in conjunction with the courts. The board shall be authorized to cooperate with any such agencies, except that it shall not assume or pay any financial obligations thereof. The board shall also be authorized to cooperate with the courts for the probation of offenders in those counties in which there is no existing probation agency, when a court so requests." See Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

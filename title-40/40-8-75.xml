@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-8-75"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-75"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-8-75/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-75/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-8-75/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-75/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_8_75">
+        <num>40-8-75</num>
+        <content>
+          <p>Every bus, truck, full trailer, semitrailer, and pole trailer, with the exception of local haul pulpwood trucks and local haul waste collection dumping trailers, shall be equipped with suitable metal protectors or substantial flexible flaps on the rearmost wheels to prevent, as far as practicable, such wheels from throwing dirt, gravel, rocks, water, or other materials on the windshields of following vehicles. Such protectors or flaps shall have a ground clearance of not more than one-half of the distance from the center of the rearmost axle to the center of the protector or flap under any conditions of loading of the vehicle and shall be at least as wide as the tires they are covering; provided, however, that if any such bus, truck, full trailer, semitrailer, or pole trailer is so designed and constructed that the foregoing requirements are accomplished by means of fenders, body construction, or other enclosures, then the protectors or flaps provided for in this Code section shall not be required.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

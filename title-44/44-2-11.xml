@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-11"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_11">
+        <num>44-2-11</num>
+        <content>
+          <p>A copy from the registry of any instrument conveying or affecting land in any county of this state which is recorded in the office of the clerk of the superior court of the county, if duly certified by the clerk, may be filed for record and recorded in the office of the clerk of the superior court of any other county where some of the land conveyed or affected by such instrument is located in the same manner and with the same force and effect for all purposes as if the certified copy were the original instrument, provided an affidavit is attached to the certified copy and recorded with it in which the affiant says that he owns an interest in property affected by the instrument, that the original instrument has been lost or destroyed, and that he truly believes that the original instrument was genuine.</p>
+          <p>(Ga. L. 1943, p. 577, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

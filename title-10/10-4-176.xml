@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-176"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-176"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-176/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-176/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-176/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-176/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_176">
+        <num>10-4-176</num>
+        <content>
+          <p>Any person suspended or expelled from a tobacco board of trade may appeal from such suspension or expulsion to the superior court of the county in which the board of trade is located. Any person suspended or expelled from the state-wide organization provided for in this part may appeal from such suspension or expulsion to the superior court of the county in which the person's warehouse is located. The appeal shall be a de novo investigation by the court, and the court in considering the appeal may make such findings in relation thereto as the circumstances may warrant.</p>
+          <p>(Ga. L. 1962, p. 102, § 7; Ga. L. 1972, p. 918, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

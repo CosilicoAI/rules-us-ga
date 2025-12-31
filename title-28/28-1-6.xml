@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-1-6"/>
+          <FRBRuri value="/us-ga/act/ocga/28-1-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-1-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-1-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-1-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-1-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_1_6">
+        <num>28-1-6</num>
+        <content>
+          <p>Upon a petition of 20 members of the majority caucus of the House of Representatives being filed with the Clerk of the House that the Speaker of the House is unable to perform the duties of that office because of physical or mental disability, the Clerk shall make a copy of the petition for the records of his office and shall transmit, within three days, the original to the chairman of the majority caucus along with his certificate as to the date and time on which the petition was filed with him. The chairman shall call a meeting of the caucus to be held within five days from the date he receives the petition and certificate from the Clerk. Such meeting shall be for the purpose of holding a hearing on the petition and the caucus shall adopt rules for the conduct of the hearing. After the hearing the members of the caucus shall vote and if a majority of the membership of the caucus votes that there is a disability and that such disability is permanent the office shall be declared vacant and the Speaker Pro Tempore shall become Speaker and serve until a Speaker is elected.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

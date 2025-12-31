@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-50"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_50">
+        <num>45-12-50</num>
+        <content>
+          <p>The Governor shall appoint all officers and fill all vacancies unless otherwise prescribed by the Constitution and laws of this state. All appointments to discharge a public duty by the General Assembly, or by the Governor under its authority, are offices within the meaning of the Constitution of Georgia.</p>
+          <p>(Orig. Code 1863, § 72; Code 1868, § 66; Code 1873, § 69; Code 1882, § 69; Civil Code 1895, § 132; Civil Code 1910, § 155; Code 1933, § 40-301.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

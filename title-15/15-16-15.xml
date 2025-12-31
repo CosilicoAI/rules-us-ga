@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-16-15"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-16-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-16-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-16-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_16_15">
+        <num>15-16-15</num>
+        <content>
+          <p>The sheriff or other executing officer may amend his official entries and returns so as to make the entries and returns conform to the facts of the case at the time the entries or returns were made.</p>
+          <p>(Orig. Code 1863, § 3426; Code 1868, § 3446; Code 1873, § 3497; Code 1882, § 3497; Civil Code 1895, § 5116; Civil Code 1910, § 5700; Code 1933, § 24-2815.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

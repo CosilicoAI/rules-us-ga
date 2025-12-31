@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-5"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_5">
+        <num>36-39-5</num>
+        <content>
+          <p>Whenever the abutting landowners of any street of the municipal corporation petition the governing body as set out in subsection (b) of Code Section 36-39-3 or whenever the governing body passes the resolution provided for in subsection (a) of Code Section 36-39-3 for the improvement of any street, where the county is owner of property on the street and where the governing body of the county has assented to the proposed improvement and has provided funds to pay in cash its proportionate part of the cost of the improvement, the frontage so owned shall be counted as if owned by an individual for all the purposes of this chapter. The chairman of the board of commissioners of the county is authorized to sign the petition or file objections in behalf of the county.</p>
+          <p>(Ga. L. 1927, p. 321, § 13; Ga. L. 1933, § 69-425.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

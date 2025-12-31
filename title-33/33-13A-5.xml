@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-13A-5"/>
+          <FRBRuri value="/us-ga/act/ocga/33-13A-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-13A-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-13A-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-13A-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-13A-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_13A_5">
+        <num>33-13A-5</num>
+        <content>
+          <p>A mutual insurance holding company resulting from the reorganization of a domestic mutual insurer and the reorganized stock insurer shall be incorporated and governed pursuant to Chapter 14 of this title and subject to Chapter 13 of this title. This requirement shall supersede any conflicting provisions of Chapter 2 of Title 14. The articles of incorporation and any amendments to such articles of the mutual insurance holding company shall be subject to approval of the Commissioner in the same manner as those of an insurer. An intermediate stock holding company shall be incorporated and governed pursuant to Chapter 2 of Title 14.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

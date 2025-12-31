@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-12-67"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-67"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-12-67/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-67/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-12-67/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-12-67/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_12_67">
+        <num>9-12-67</num>
+        <content>
+          <p>If the defendant in judgment or other party to be notified resides outside this state, a dormant judgment may be revived against such defendant or his representative by such process as is issued in cases in which the defendant resides in this state, provided that the defendant in judgment or other party to be notified shall be served with scire facias by publication in the newspaper in which the official advertisements of the county are published, twice a month for two months previous to the term of the court at which it is intended to revive the judgment, which service shall be as effectual in all cases as if the defendant or person to be notified had been personally served.</p>
+          <p>(Laws 1850, Cobb's 1851 Digest, p. 502; Code 1863, § 3526; Code 1868, § 3549; Code 1873, § 3608; Code 1882, § 3608; Civil Code 1895, § 5382; Civil Code 1910, § 5977; Code 1933, § 110-1007; Ga. L. 1982, p. 3, § 9; Ga. L. 1984, p. 22, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

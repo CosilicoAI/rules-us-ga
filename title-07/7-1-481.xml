@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-481"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-481"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-481/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-481/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-481/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-481/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_481">
+        <num>7-1-481</num>
+        <content>
+          <p>The board of directors shall have the power to adopt, amend, or repeal bylaws as specified in paragraph (4) of Code Section 7-1-260 unless such power is reserved exclusively to the shareholders by the articles or in bylaws previously adopted by the shareholders; but any bylaws adopted by the board of directors may be altered, amended, or repealed and new bylaws adopted by the shareholders. The shareholders may prescribe that any bylaw or bylaws adopted by them shall not be altered, amended, or repealed by the board of directors. Copies of the bylaws and any change, addition, or amendment thereto shall be filed with the department immediately upon adoption by the directors or the shareholders.</p>
+          <p>(Ga. L. 1898, p. 78, § 5; Civil Code 1910, § 2819; Code 1933, § 109-104; Code 1933, § 41A-2202, enacted by Ga. L. 1974, p. 705, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1130"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1130"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1130/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1130/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1130/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1130/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_1130">
+        <num>20-2-1130</num>
+        <content>
+          <p>The local law enforcement agency charged with the responsibility for law enforcement within the school district attendance area and the board of education of each county and independent school system of this state shall study and evaluate the traffic safety requirements of the school system and the various individual schools therein. The responsible law enforcement agency shall take appropriate action to identify school safety crossings and motor vehicle traffic patterns on and around school grounds. The traffic safety officer of the local law enforcement agency shall advise the school board and the school superintendent relative to compliance by the school system with state laws and policies and regulations of the state agencies requiring safety standards and practices.</p>
+          <p>(Ga. L. 1975, p. 820, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

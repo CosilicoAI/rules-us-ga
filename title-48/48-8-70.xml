@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-70"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-70"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-70/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-70/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-70/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-70/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_70">
+        <num>48-8-70</num>
+        <content>
+          <p>If a nine-digit ZIP Code designation is not available for a street address or if a seller or certified service provider is unable to determine the nine-digit ZIP Code designation applicable to a purchase after exercising due diligence to determine the designation, the seller or certified service provider may apply the rate for the five-digit ZIP Code area. For the purposes of this Code section, there is a rebuttable presumption that a seller or certified service provider has exercised due diligence if the seller has attempted to determine the nine-digit ZIP Code designation by utilizing software approved by the Streamlined Sales Tax Governing Board that makes this designation from the street address and the five-digit ZIP Code applicable to a purchase.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

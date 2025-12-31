@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-4-13"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-4-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-4-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_4_13">
+        <num>52-4-13</num>
+        <content>
+          <p>Whenever any canal or backwaters of any company incorporated as provided in this chapter shall encroach upon or cross any public road, the company shall restore the road to a condition suitable for use by the public, by bridges or otherwise. All bridges constructed under this Code section shall be built and maintained in good order at the expense of the canal company.</p>
+          <p>(Ga. L. 1893, p. 81, § 8; Civil Code 1895, § 1994; Civil Code 1910, § 2375; Code 1933, § 17-111.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

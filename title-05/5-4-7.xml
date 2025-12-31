@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-4-7"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-4-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-4-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_4_7">
+        <num>5-4-7</num>
+        <content>
+          <p>The answer to the writ of certiorari shall be filed in the clerk's office within 30 days after service thereof on the respondent unless further time is granted by the superior court. A copy of the answer shall be mailed or delivered to the petitioner by the respondent or by the clerk of the superior court. Failure to perfect service shall be grounds for continuance but shall not otherwise affect the validity of the proceedings.</p>
+          <p>(Orig. Code 1863, § 3969; Code 1868, § 3989; Code 1873, § 4061; Code 1882, § 4061; Civil Code 1895, § 4646; Civil Code 1910, § 5195; Ga. L. 1918, p. 124, §§ 1, 2; Code 1933, § 19-301; Ga. L. 1961, p. 190, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

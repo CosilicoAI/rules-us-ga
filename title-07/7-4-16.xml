@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-4-16"/>
+          <FRBRuri value="/us-ga/act/ocga/7-4-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-4-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-4-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-4-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-4-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_4_16">
+        <num>7-4-16</num>
+        <content>
+          <p>Unless otherwise provided in writing signed by the obligor, a commercial account becomes due and payable upon the date a statement of the account is rendered to the obligor. The owner of a commercial account may charge interest on that portion of a commercial account which has been due and payable for 30 days or more at a rate not in excess of 1 1/2 percent per month calculated on the amount owed from the date upon which it became due and payable until paid. "Commercial account" means an obligation for the payment of money arising out of a transaction to sell or furnish, or the sale of, or furnishing of, goods or services other than a "retail installment transaction" as defined in paragraph (10) of subsection (a) of Code Section 10-1-2.</p>
+          <p>(Ga. L. 1858, p. 90, § 1; Code 1863, § 2030; Code 1868, § 2031; Ga. L. 1873, p. 22, § 1; Code 1873, § 2057; Code 1882, § 2057; Civil Code 1895, § 2885; Civil Code 1910, § 3435; Code 1933, § 57-111; Ga. L. 1980, p. 514, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

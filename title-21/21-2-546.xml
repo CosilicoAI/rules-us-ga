@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-546"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-546"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-546/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-546/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-546/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-546/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_546">
+        <num>21-2-546</num>
+        <content>
+          <p>Notwithstanding any other law to the contrary, in each county in this state in which there is a civil and magistrate court established by local Act of the General Assembly, vacancies in the office of chief judge of such court caused by death, retirement, resignation, or otherwise shall be filled by the appointment of a qualified person by the Governor to serve until a successor is duly elected and qualified and until January 1 of the year following the next general election which is more than six months following such person's appointment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

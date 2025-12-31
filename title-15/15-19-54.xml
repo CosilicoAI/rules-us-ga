@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-19-54"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-54"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-19-54/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-54/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-19-54/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-54/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_19_54">
+        <num>15-19-54</num>
+        <content>
+          <p>Nothing contained in this article shall be construed to prevent a person, corporation, or voluntary association from furnishing to any person lawfully engaged in the practice of law such information or clerical services in and about his professional work as would be lawful except for Code Sections 15-19-51, 15-19-53, and 15-19-55, provided that at all times the attorney receiving the information or services shall maintain full professional and direct responsibility to his clients for the information and services received. However, no person, corporation, or voluntary association not otherwise authorized to do so shall be permitted to render any services which cannot lawfully be rendered by a person not admitted to practice law nor to solicit directly or indirectly professional employment for an attorney.</p>
+          <p>(Ga. L. 1931, p. 191, § 1; Code 1933, § 9-404.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-16"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_16">
+        <num>36-39-16</num>
+        <content>
+          <p>If the owner of the land or of any street railway assessed, within 30 days from the passage of the ordinance making the assessment final, files with the clerk of the municipal corporation his written request asking that the assessments be payable in installments in accordance with the provisions of this Code section, the same shall thereupon be and become payable in equal annual installments over such period of years, not less than two nor more than ten, as shall be fixed and prescribed by the governing body of the municipal corporation. Such installments shall bear interest at a rate not exceeding 7 percent per annum until paid. Each installment, together with the interest on the entire amount remaining unpaid, shall be payable each year at such time and place as shall be provided by resolution of the governing body.</p>
+          <p>(Ga. L. 1927, p. 321, § 8; Code 1933, § 69-414; Ga. L. 1947, p. 1539, § 1; Ga. L. 1989, p. 1078, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

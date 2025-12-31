@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-2-371"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-371"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-2-371/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-371/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-2-371/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-371/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_2_371">
+        <num>26-2-371</num>
+        <content>
+          <p>It shall be unlawful for any person to operate a food service establishment without having first obtained a valid food service establishment permit. Such permits shall be issued by the county board of health or its duly authorized representative, subject to supervision and direction by the Department of Public Health; but, where the county board of health is not functioning, such permit shall be issued by the Department of Public Health. Such permits shall be valid until suspended or revoked and shall not be transferable with respect to person or location. Nothing contained in this article shall prevent any municipality from adopting rules and regulations governing the licensing and operation of food service establishments.</p>
+          <p>(Ga. L. 1958, p. 371, § 2; Code 1933, § 88-1002, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 2009, p. 453, § 1-4/HB 228; Ga. L. 2011, p. 705, § 6-3/HB 214.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-6-51"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-6-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-6-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_6_51">
+        <num>52-6-51</num>
+        <content>
+          <p>Any pilot boat which places a pilot on board a vessel for the purpose of conducting it into any of the rivers or harbors mentioned in this chapter shall be entitled to one-third of the inward pilotage fee and any pilot boat which takes a pilot off of a vessel shall be entitled to one-third of the outward pilotage fee.</p>
+          <p>(Orig. Code 1863, § 1468; Code 1868, § 1525; Code 1873, § 1519; Code 1882, § 1519; Civil Code 1895, § 1668; Civil Code 1910, § 1914; Code 1933, § 80-311; Ga. L. 1945, p. 279, § 13.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

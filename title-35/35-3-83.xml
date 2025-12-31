@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-3-83"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-3-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-3-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_3_83">
+        <num>35-3-83</num>
+        <content>
+          <p>Upon the filing of a police report by the parent, guardian, caretaker, governmental unit responsible for the child, or other person with legal custody of the child that a child is missing, the local law enforcement agency receiving such report shall notify all of its on-duty law enforcement officers of the existence of the missing child report, communicate the report to all other law enforcement agencies having jurisdiction in the county and all law enforcement agencies of jurisdictions geographically adjoining that of the local law enforcement agency, and transmit the report to the Missing Children Information Center.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

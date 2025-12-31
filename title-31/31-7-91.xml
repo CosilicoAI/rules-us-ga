@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-91"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_91">
+        <num>31-7-91</num>
+        <content>
+          <p>Each hospital authority created by and under this article shall ensure that an annual audit of the financial affairs, books, and records of such authority is conducted at the end of each fiscal year for the preceding year. Each hospital authority shall obtain either a certified public accountant or a firm of certified public accountants to conduct such audit. The auditor so appointed shall perform the audit in accordance with generally accepted accounting principles and shall submit a complete and final report and audit to the authority not later than 90 days after the close of the fiscal year. All audits provided for in this Code section shall be certified to and shall include, but in no way be limited to, a full and complete audit containing a balance sheet, profit and loss statement, and statement of receipts and disbursements.</p>
+          <p>(Code 1933, § 88-1821, enacted by Ga. L. 1964, p. 499, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

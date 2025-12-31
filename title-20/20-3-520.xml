@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-520"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-520"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-520/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-520/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-520/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-520/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_520">
+        <num>20-3-520</num>
+        <content>
+          <p>The board of regents in the exercise of its public and governmental functions shall have power and is authorized to lease, buy, build, construct, establish, contract for the use of, maintain, and operate a general nonprofit teaching hospital at Augusta, Georgia, known as the Eugene Talmadge Memorial Hospital, to be operated in conjunction with the Georgia Health Sciences University for the benefit of indigent, near indigent, and paying patients, under such rules and regulations as to administration, maintenance, charges for services, and general operations as may be prescribed by the board not in conflict with general laws of this state pertaining to fiscal operations of departments and agencies of the state. The General Assembly may, as a part of the general appropriations Act, make specific appropriations for the operation and maintenance of the hospital and any annex or addition thereto independent of and in addition to any appropriation made for the university system or any of its divisions.</p>
+          <p>(Ga. L. 1945, p. 453, § 1; Ga. L. 1953, Nov.-Dec. Sess., p. 117, § 1; Ga. L. 2011, p. 752, § 20/HB 142.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

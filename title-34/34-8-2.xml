@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-2"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_2">
+        <num>34-8-2</num>
+        <content>
+          <p>As a guide to the interpretation and application of this chapter, the public policy of this state is declared to be as follows: economic insecurity due to unemployment is a serious menace to the health, morals, and welfare of the people of this state. Involuntary unemployment is therefore a subject of general interest and concern which requires appropriate action by the General Assembly to prevent its spread and to lighten its burden which so often falls with crushing force upon the unemployed worker or the worker's family. The achievement of social security requires protection against this greatest hazard of our economic life. This can be provided by encouraging employers to provide more stable employment and by the systematic accumulation of funds during periods of employment to provide benefits for periods of unemployment, thus maintaining purchasing power and limiting the serious social consequences of poor relief assistance. The General Assembly therefore declares that in its considered judgment the public good and the general welfare of the citizens of this state require the enactment of this measure, under the police powers of the state, for the compulsory setting aside of unemployment reserves to be used for the benefit of persons unemployed through no fault of their own.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

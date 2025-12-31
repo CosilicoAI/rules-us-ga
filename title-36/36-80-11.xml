@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-80-11"/>
+          <FRBRuri value="/us-ga/act/ocga/36-80-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-80-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-80-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-80-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-80-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_80_11">
+        <num>36-80-11</num>
+        <content>
+          <p>The officers charged with levying taxes, contracting debts, and the like for the county, municipality, or political subdivision shall give notice, for a period of 30 days next preceding the day of the election, in the newspaper in which sheriff's advertisements for the county are published, notifying the qualified voters that on the day named an election will be held to determine whether the debt desired or proposed to be incurred shall be incurred by the county, municipality, or political subdivision. The notice shall specify the amount of the debt to be incurred, the purposes for which it is to be incurred, the amount of the debt to be paid annually or at shorter periods, the terms of the contract under which the debt is to be incurred, and the wording of the ballots to be used in the election for or against incurring the debt.</p>
+          <p>(Ga. L. 1904, p. 85, § 1; Civil Code 1910, § 463; Code 1933, § 87-601.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

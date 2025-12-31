@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-18-20"/>
+          <FRBRuri value="/us-ga/act/ocga/47-18-20"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-18-20/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-18-20/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-18-20/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-18-20/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_18_20">
+        <num>47-18-20</num>
+        <content>
+          <p>The state agency shall publish such policies and procedures, not inconsistent with this chapter, as it finds necessary or appropriate to the efficient administration of the functions with which it is charged under this chapter.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 294, § 6; Ga. L. 2010, p. 1248, § 2/HB 997.)</p>
+          <p>The 2010 amendment,
+      effective July 1, 2010, substituted "publish such policies and procedures" for "make and publish such rules and regulations" near the beginning.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-12-141"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-141"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-12-141/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-141/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-12-141/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-12-141/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_12_141">
+        <num>15-12-141</num>
+        <content>
+          <p>The governing authority of each county shall provide facilities for the impaneling of juries and for their deliberations. Jury deliberation rooms shall ensure the privacy of the jurors and include space, furnishings, and facilities conducive to reaching a fair verdict. The deliberation rooms shall be safe and secure. To the extent feasible, juror facilities shall be arranged to minimize contact between jurors and parties, counsel, and the public. While the jury is deliberating, the presiding judge may direct them to be furnished with such food and nonalcoholic beverages as the judge shall think proper.</p>
+          <p>(Laws 1831, Cobb's 1851 Digest, p. 554; Ga. L. 1859, p. 52, § 1; Code 1863, § 3851; Code 1868, § 3871; Code 1873, § 3947; Code 1882, § 3947; Ga. L. 1884-85, p. 43, § 1; Penal Code 1895, § 879; Penal Code 1910, § 884; Code 1933, § 59-718; Ga. L. 1995, p. 1292, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

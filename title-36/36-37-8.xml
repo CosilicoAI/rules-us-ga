@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-37-8"/>
+          <FRBRuri value="/us-ga/act/ocga/36-37-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-37-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-37-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-37-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-37-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_37_8">
+        <num>36-37-8</num>
+        <content>
+          <p>Notice of intention to make such sale, lease, or other disposition of a municipal waterworks or electric or gas plant, setting out the price and other general terms and conditions of the proposed sale, lease, or disposition, shall be given by publication once a week for three consecutive weeks in some newspaper published in the municipality and, if no newspaper is published in the municipality, then in some newspaper published in the county in which the municipality is located and, if there is no such newspaper, then in some newspaper having a general circulation in the municipality. After ten days from the last publication of such notice, the plant may be disposed of unless, within ten days after the last publication of the notice, a petition signed by not less than 20 percent of the qualified voters of the municipality is filed, objecting to and protesting against the sale, lease, or disposition. If the petition, so signed, is filed, the sale shall not be made unless submitted to a special election ordered for the purpose of determining whether a majority, which shall constitute two-thirds of those voting at the election, favors the sale, lease, or other disposition. Such election shall be ordered by the municipality to be held not less than 50 days after the date of the filing of the objecting petition with the municipality. The election shall be held in accordance with and in all respects be governed by the Acts of the General Assembly in regard to elections to determine whether municipalities shall issue bonds or not. The notice of the election shall state its purpose.</p>
+          <p>(Ga. L. 1925, p. 177, § 2; Code 1933, § 91-902.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

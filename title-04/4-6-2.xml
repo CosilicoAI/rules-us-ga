@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-6-2"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-6-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-6-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_6_2">
+        <num>4-6-2</num>
+        <content>
+          <p>No dealer or livestock market operator shall sell, auction, transfer, or move any livestock which are infected with any disease or which have been placed under quarantine by the authority of the Commissioner. Until all such livestock have been inspected by a veterinarian approved by the Commissioner, no dealer or livestock market operator shall sell, auction, transfer, or move any livestock which have been infected, which are suspected of being infected, or which are likely to have been exposed to infection. No dealer or livestock market operator shall sell, auction, transfer, or move any livestock from any barn, yard, or premises unless all sanitary practices and precautions prescribed by the rules and regulations of the Commissioner have been observed in the premises, barn, or yard.</p>
+          <p>(Ga. L. 1952, p. 184, § 2; Ga. L. 1983, p. 1161, § 1; Ga. L. 2017, p. 129, § 2/HB 49.)</p>
+          <p>The 2017 amendment,
+      effective July 1, 2017, deleted ", broker," following "dealer" throughout this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

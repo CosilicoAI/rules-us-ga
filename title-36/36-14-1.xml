@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-14-1"/>
+          <FRBRuri value="/us-ga/act/ocga/36-14-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-14-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-14-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-14-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-14-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_14_1">
+        <num>36-14-1</num>
+        <content>
+          <p>The consent of the state is given to and authority is vested in the county governing authority to erect bridges across the navigable streams that lie wholly within the state, whenever in the judgment of the county governing authority the public interest may be subserved thereby, upon its compliance with the law of Congress requiring the approval of the secretary of transportation and the chief of engineers of the United States, as embodied in the statutes of the United States passed by the Fifty-fifth Congress and approved March 3, 1899.</p>
+          <p>(Ga. L. 1904, p. 100, § 1; Civil Code 1910, § 427; Code 1933, § 23-2004.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

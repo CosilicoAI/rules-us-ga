@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-8-3"/>
+          <FRBRuri value="/us-ga/act/ocga/20-8-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-8-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-8-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-8-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-8-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_8_3">
+        <num>20-8-3</num>
+        <content>
+          <p>As a condition precedent to the exercise of law enforcement powers pursuant to Code Section 20-8-2, a campus policeman must be certified by the Georgia Peace Officer Standards and Training Council as having met the qualifications and having completed the basic training requirements for a peace officer under Article 2 of Chapter 2 of Title 35. All costs incurred in such certification and training shall be paid by the educational facility employing the campus policeman. This chapter is permissive and shall not require the certification of campus policemen by the Georgia Peace Officer Standards and Training Council. The certification of a campus policeman by the Georgia Peace Officer Standards and Training Council does not require that the campus policeman so certified exercise the powers provided in Code Section 20-8-2.</p>
+          <p>(Ga. L. 1977, p. 1160, § 3; Ga. L. 1979, p. 1323, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

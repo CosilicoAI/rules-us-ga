@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-19-19"/>
+          <FRBRuri value="/us-ga/act/ocga/43-19-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-19-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-19-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-19-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-19-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_19_19">
+        <num>43-19-19</num>
+        <content>
+          <p>Each registrant under this chapter, upon issuance of a certificate of registration, may use a seal of such design as is authorized by the board, bearing the registrant's name and the legend "Registered Professional Geologist" or "Certified (subspecialty) Geologist."All drawings, reports, or other geologic papers or documents involving the practice of geology, as defined in this chapter, which shall have been prepared or approved by a registered geologist or a subordinate employee under his direction for the use of or for delivery to any person or for public record within this state shall be signed by him and impressed with the seal provided for in this Code section or the seal of a nonresident practicing under this chapter, either of which shall indicate his responsibility for them.</p>
+          <p>(Code 1933, § 84-2513A, enacted by Ga. L. 1975, p. 163, § 1; Code 1933, § 84-2113A, as redesignated by Ga. L. 1976, p. 695, § 1; Ga. L. 1977, p. 746, § 2; Ga. L. 1991, p. 1130, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

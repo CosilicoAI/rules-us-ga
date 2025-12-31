@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-247"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-247"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-247/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-247/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-247/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-247/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_247">
+        <num>44-2-247</num>
+        <content>
+          <p>The regular form to be used for the notation of a judgment on the title register is as follows:
+   NOTATION OF JUDGMENT
+   To the clerk of the Superior Court, ____________ County, Georgia:
+   Please note on certificate of title No. ____________, Registered Title No.
+   ____________, a judgment issued from _________________________________________
+   Court of _______________________________________________________ in favor
+   of ________________________ v. ___________________________________________
+   for the amount of $__________________.
+   This ________ day of ________________________, ________.
+   _____________________________________________________________________</p>
+          <p>(Ga. L. 1917, p. 108, § 113; Code 1933, § 60-628; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

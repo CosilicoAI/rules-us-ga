@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-9-42"/>
+          <FRBRuri value="/us-ga/act/ocga/2-9-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-9-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-9-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-9-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-9-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_9_42">
+        <num>2-9-42</num>
+        <content>
+          <p>The Commissioner may publish in print or electronically the names and locations of licensed grain dealers and the names and locations of those operations certifying that payment will be made on a cash or certified check basis.</p>
+          <p>(Ga. L. 1981, p. 927, § 3; Ga. L. 2010, p. 838, § 10/SB 388.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

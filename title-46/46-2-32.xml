@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-2-32"/>
+          <FRBRuri value="/us-ga/act/ocga/46-2-32"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-2-32/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-2-32/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-2-32/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-2-32/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_2_32">
+        <num>46-2-32</num>
+        <content>
+          <p>All fines recovered under this title shall be paid into the general fund of the state treasury, to be used for such purposes as the General Assembly may provide. The remedies provided in this title shall be regarded as cumulative of all other remedies given by law against railroad companies, and this title shall not be construed as repealing any statute giving such remedies.</p>
+          <p>(Ga. L. 1878-79, p. 125, § 11; Code 1882, § 719k; Civil Code 1895, § 2198; Civil Code 1910, § 2641; Code 1933, § 93-418.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

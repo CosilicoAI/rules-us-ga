@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-5-3"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-5-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-5-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_5_3">
+        <num>20-5-3</num>
+        <content>
+          <p>In order to effectuate the purposes of this article there shall be made available to the board of regents whatever funds may be duly allocated to it by the proper authority, either by specific appropriation or otherwise as now provided by law, and the board of regents shall be authorized to disburse such funds to public libraries serving persons of all ages through legally constituted municipal library boards or to the other legally constituted local library boards as may now or hereafter be established by law. The board of regents shall use such funds for the purpose of aiding and supplementing the establishment and development of public library services.</p>
+          <p>(Ga. L. 1943, p. 385, § 4; Ga. L. 1996, p. 167, § 7; Ga. L. 2000, p. 618, § 85.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

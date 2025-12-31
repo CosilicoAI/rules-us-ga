@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-56"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-56"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-56/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-56/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-56/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-56/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_56">
+        <num>9-13-56</num>
+        <content>
+          <p>A future interest in personalty may not be seized and sold but the lien of judgments shall attach thereto so as to prevent alienation before the right to present possession accrues.</p>
+          <p>(Orig. Code 1863, § 2581; Code 1868, § 2583; Code 1873, § 2625; Code 1882, § 2625; Civil Code 1895, § 5452; Civil Code 1910, § 6057; Code 1933, § 39-1310.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

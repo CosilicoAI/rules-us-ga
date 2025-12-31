@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-120"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-120"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-120/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-120/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-120/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-120/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_120">
+        <num>36-82-120</num>
+        <content>
+          <p>It is the purpose of this article to maintain the fiscal solvency of counties, municipal corporations, and political subdivisions of the state and authorities and public corporations created by the Constitution of Georgia or any general, local, or special Act of the General Assembly in public borrowing by exempting from all other laws of the state governing usury or prescribing or limiting interest rates any bonds, notes, certificates, or obligations of any kind issued by any such county, municipal corporation, political subdivision, authority, or public corporation to evidence any repayment obligation for money borrowed, exclusive of general obligation bonds.</p>
+          <p>(Ga. L. 1981, p. 384, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

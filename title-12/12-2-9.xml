@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-2-9"/>
+          <FRBRuri value="/us-ga/act/ocga/12-2-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-2-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-2-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-2-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-2-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_2_9">
+        <num>12-2-9</num>
+        <content>
+          <p>All commercial analytical laboratories submitting data for regulatory purposes shall be accredited or approved as specified in the Environmental Protection Division's rules and regulations. Such regulations shall provide for procedures, identification of accrediting organizations, reciprocity, and an effective date which allows a phase-in period; provided, however, that the effective date of such rules and regulations shall be on or after July 1, 2001. This Code section shall not apply to turbidity data submitted pursuant to individual or general permits for storm-water discharges from construction activities authorized in subparagraphs (a)(1)(N) and (a)(1)(O) of Code Section 12-5-23.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

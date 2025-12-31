@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-23-17"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-23-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-23-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-23-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_23_17">
+        <num>33-23-17</num>
+        <content>
+          <p>An individual who is not a resident of this state may be registered to represent an authorized life insurer domiciled in this state, provided such individual only represents the insurer exclusively at a United States military installation located in a foreign country. The Commissioner may, upon request of the insurer on application forms prescribed by the department and upon payment of an annual registration fee of $25.00, issue a certificate of registration to the individual. An official of the insurer shall certify to the Commissioner that the applicant has the necessary training to hold himself or herself out as a foreign life or accident and sickness insurance representative; and the official of the insurer shall further certify on behalf of his or her insurer that it is willing to be bound by the acts of such applicant within the scope of his or her employment and that such applicant has not had his or her privileges to solicit on or enter any United States military installation revoked, suspended, or restricted in any manner. Such certificate shall expire as of December 31 succeeding the date of its issuance unless it is terminated at an earlier time in accordance with this chapter and Chapter 2 of this title.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

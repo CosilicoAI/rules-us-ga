@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-193"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-193"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-193/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-193/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-193/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-193/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_193">
+        <num>36-82-193</num>
+        <content>
+          <p>Commencing on April 1, 1990, the flexible share for 1990 is established in an amount equal to 20 percent of the state ceiling. The 1990 percentage shall include any allocations made from the flexible pool prior to April 1, 1990.The flexible share for 1991 and years thereafter shall be in an amount equal to 15 percent of the state ceiling.The flexible share shall be available for notices of allocation given during period 2 through period 4 in 1990 and period 1 through period 4 in 1991 and each year thereafter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

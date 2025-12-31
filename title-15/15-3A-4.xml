@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-3A-4"/>
+          <FRBRuri value="/us-ga/act/ocga/15-3A-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-3A-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-3A-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-3A-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-3A-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_3A_4">
+        <num>15-3A-4</num>
+        <content>
+          <p>A Senior Appellate Court Justice or Judge while serving in any of the courts provided for in Code Section 15-3A-3 shall be entitled to receive the same travel, per diem, and pay allowances now or hereafter authorized to be paid to senior judges of the superior court when called. Such compensation, expenses, and mileage shall be paid from state funds appropriated or otherwise available for the operation for any of such courts, upon a certificate by the Senior Appellate Court Justice or Judge as to the number of days served or the expenses and mileage incurred. Such compensation shall not affect, diminish, or otherwise impair the payment or receipt of any retirement or pension benefits of such Senior Appellate Court Justice or Judge.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

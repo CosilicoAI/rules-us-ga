@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-15-88"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-88"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-15-88/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-88/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-15-88/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-88/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_15_88">
+        <num>25-15-88</num>
+        <content>
+          <p>The office shall issue a permit to operate a carnival ride to the owner thereof upon successful completion of a safety inspection by a licensed inspector, upon completion by the owner of the application for a permit, and upon presentation of a certificate of inspection or waiver thereof by the office. The permit shall be valid for the calendar year in which issued.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

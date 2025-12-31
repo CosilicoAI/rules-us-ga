@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-1-10"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-1-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-1-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_1_10">
+        <num>27-1-10</num>
+        <content>
+          <p>The State of Georgia assents to the provisions of P.L. 75-415 and P.L. 81-681. The department is authorized, empowered, and directed to perform such acts as may be necessary to establish and conduct cooperative wildlife restoration projects as defined in P.L. 75-415, cooperative fish restoration projects as defined in P.L. 81-681, and wildlife conservation and restoration programs, wildlife conservation education, and wildlife associated recreation projects as defined in P.L. 106-553, as well as the regulations promulgated under those federal acts. No funds accruing to the state from license fees paid by hunters or fishermen or interest thereon shall be diverted for any purpose other than the administration of the department and for the study, protection, preservation, restoration, or propagation of fish and wildlife in this state.</p>
+          <p>(Ga. L. 1943, p. 128, § 11; Ga. L. 1951, p. 673, § 1; Ga. L. 1955, p. 483, §§ 25, 26; Code 1933, §§ 45-111, 45-112, enacted by Ga. L. 1977, p. 396, § 1; Ga. L. 2001, p. 1013, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

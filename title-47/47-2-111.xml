@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-2-111"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-2-111/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-2-111/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_2_111">
+        <num>47-2-111</num>
+        <content>
+          <p>Any other provision of this chapter to the contrary notwithstanding, any member employed by the Uniform Division of the Department of Public Safety as an officer, a noncommissioned officer, or a trooper; by the Georgia Bureau of Investigation as an officer or agent; by the Department of Natural Resources as a game warden; or by the Department of Revenue as an alcohol and tobacco officer or agent or as an officer or agent of the Special Investigations Unit shall be eligible to retire at age 55 if he or she has the minimum number of years of creditable service provided in Code Section 47-2-110, and upon retirement such member shall be paid not less than the service retirement allowance which would have been payable to such member upon service retirement at age 65 without a change in compensation and with the same number of years' creditable service to which such member is entitled at the time of retirement.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

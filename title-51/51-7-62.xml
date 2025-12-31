@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-7-62"/>
+          <FRBRuri value="/us-ga/act/ocga/51-7-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-7-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-7-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-7-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-7-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_7_62">
+        <num>51-7-62</num>
+        <content>
+          <p>Whenever the owner, operator, or lessee of a motion picture exhibition facility or any agent or employee of the owner, operator, or lessee detains, arrests, or causes to be detained or arrested any person reasonably thought to be engaged in film piracy in violation of Code Section 16-8-62 and, as a result of the detention or arrest, the person so detained or arrested brings an action for false arrest or false imprisonment against the owner, operator, lessee, agent, or employee, no recovery shall be had by the plaintiff in such action where it is established by competent evidence:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

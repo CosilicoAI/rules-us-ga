@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-1-24"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-1-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-1-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-1-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_1_24">
+        <num>27-1-24</num>
+        <content>
+          <p>The provisions of this title or any rule or regulation adopted pursuant to this title pertaining to the operation of vessels or boats upon the waters of this state shall be enforceable by, in addition to game wardens, agents of the Georgia Bureau of Investigation and other persons having responsibility to preserve the peace and enforce the laws of this state. Such persons shall have the authority to order any vessel or boat within the boundaries of this state to stop and lay to and shall have the authority to board, inspect, and examine the vessel or boat, its equipment, the wildlife on board, if any, and such documents, licenses, or other records which the vessel or boat is required to possess under this title and Code Sections 52-7-1 through 52-7-25 for the purpose of determining compliance with the provisions of such laws.</p>
+          <p>(Code 1933, § 45-123, enacted by Ga. L. 1979, p. 1283, § 1; Ga. L. 2019, p. 808, § 7/SB 72.)</p>
+          <p>The 2019 amendment,
+      effective July 1, 2019, substituted "game wardens" for "conservation rangers" in the first sentence of this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

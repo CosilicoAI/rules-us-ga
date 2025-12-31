@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-15-18"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-15-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-15-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-15-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_15_18">
+        <num>45-15-18</num>
+        <content>
+          <p>The Governor may at any time direct the Attorney General to conduct an investigation into the affairs of any department of the state or into the official conduct of any state official or employee or into the affairs of any person, firm, or corporation dealing with the state. The Governor may at any time direct the Attorney General to file and prosecute criminal actions and civil recovery actions in the name of the state against any official, person, firm, or corporation which violates any criminal or civil statute while dealing with or for the state, which violation results in loss, damage, or injury to the state. In the event the Attorney General refuses to take or file such action within a reasonable time after having been directed by the Governor to do so, the Governor is authorized to appoint a special attorney general to carry out the requirements of law provided in this Code section.</p>
+          <p>(Ga. L. 1943, p. 284, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

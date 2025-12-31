@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-2-116"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-116"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-2-116/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-116/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-2-116/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-2-116/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_2_116">
+        <num>26-2-116</num>
+        <content>
+          <p>The ante mortem, post-mortem, and sanitary inspection services provided for in this part are not required at any slaughtering, meat-canning, salting, packing, rendering, or similar establishment at which such services are furnished by the United States Department of Agriculture pursuant to the Federal Meat Inspection Act.</p>
+          <p>(Ga. L. 1969, p. 1028, § 32.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-10-15"/>
+          <FRBRuri value="/us-ga/act/ocga/14-10-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-10-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-10-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-10-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-10-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_10_15">
+        <num>14-10-15</num>
+        <content>
+          <p>In the event of dissolution of a stock-type professional association, the board of governors, as trustees of the property of such professional association, shall apply the assets first to the payment of debts of the association and, secondly, to the holders of the stock as provided in the articles of association. In the event of dissolution of a nonstock association, the assets shall be distributed or sold and the net proceeds distributed first to the payment of debts of the association and, secondly, to or among the members of the association as the articles of association shall provide.</p>
+          <p>(Ga. L. 1961, p. 404, § 15.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

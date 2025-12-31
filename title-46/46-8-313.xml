@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-313"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-313"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-313/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-313/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-313/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-313/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_313">
+        <num>46-8-313</num>
+        <content>
+          <p>If the residence of the president of the lessor company is unknown to the plaintiff and his attorney, an affidavit showing the fact, filed with the Secretary of State, together with the petition, shall be sufficient, instead of the notice to the president required in Code Section 46-8-312, provided that the plaintiff shall not be compelled to bring an action against any such lessor and give the notice as provided in this Code section, but may do so at his option; but when such notice is given to the lessor, the judgment rendered in said action shall be as binding upon the lessor as though service had been made as provided by law for service upon railroad companies.</p>
+          <p>(Ga. L. 1889, p. 137, § 2; Civil Code 1895, § 2338; Civil Code 1910, § 2802; Code 1933, § 94-1105.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

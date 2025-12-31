@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-151"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-151"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-151/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-151/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-151/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-151/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_151">
+        <num>46-3-151</num>
+        <content>
+          <p>Any action to protect or enforce any rights under this article brought in the courts of this state shall be brought in the Superior Court of Fulton County. Any action pertaining to validation of the bonds issued under this article and pertaining to validation of the contracts constituting security for bonds shall also be brought in the Superior Court of Fulton County. That court shall have exclusive original jurisdiction of any action referred to in this Code section, provided that any action on any contractual obligation brought against the authority by any political subdivision contracting with the authority may be brought either in the county containing all or the largest part of the area of the political subdivision involved or in Fulton County, at the option of the party bringing the action.</p>
+          <p>(Ga. L. 1975, p. 107, § 24.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

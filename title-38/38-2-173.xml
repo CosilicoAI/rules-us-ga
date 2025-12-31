@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-173"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-173"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-173/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-173/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-173/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-173/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_173">
+        <num>38-2-173</num>
+        <content>
+          <p>When there is no state appropriation or funds available for the purpose of paying the expenses incident to carrying out the provisions of this chapter having reference to repelling an invasion, suppressing an insurrection, or defending the state in time of war, as authorized by Article VII, Section IV, Paragraphs I and VI of the Constitution of this state, the Governor may borrow money for such purpose in such sum or sums as may from time to time be required; and any such loans so obtained shall be promptly repaid out of the first funds that become available for such use.</p>
+          <p>(Ga. L. 1951, p. 311, § 10; Ga. L. 1955, p. 10, § 65; Ga. L. 1983, p. 3, § 59.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

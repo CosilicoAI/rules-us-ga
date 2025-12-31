@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-44-4"/>
+          <FRBRuri value="/us-ga/act/ocga/31-44-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-44-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-44-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-44-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-44-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_44_4">
+        <num>31-44-4</num>
+        <content>
+          <p>Except as provided by Code Section 31-44-5, no person, business entity, corporation, or association may operate an end stage renal disease facility without a license issued under this chapter. Any end stage renal disease facility which is in operation when this chapter becomes effective for all purposes, and which has been certified for participation in the federal medicare program shall be granted a license by the department upon payment of the applicable license fee. A license shall be effective for a 12 month period following the date of issue and shall expire one year following such date; provided, however, a facility that has not been inspected during the year may continue to operate under its existing license until an inspection is made.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

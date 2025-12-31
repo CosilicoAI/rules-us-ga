@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-7-113"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-113"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-7-113/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-113/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-7-113/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-7-113/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_7_113">
+        <num>48-7-113</num>
+        <content>
+          <p>If more than the correct amount of tax, penalty, or interest is paid to the commissioner by an employer, the employer may file a claim for refund of the overpayment or may take credit for the overpayment against the tax reported on any quarterly return which the employer subsequently files. A refund or credit of the overpayment, however, shall be made only to the extent that the amount of overpayment exceeds the tax actually withheld and the penalty and interest on the tax. If more than the correct amount of tax, penalty, or interest is assessed and is not paid to the commissioner, the employer against whom the assessment is made may file a claim for abatement of the overassessment.</p>
+          <p>(Ga. L. 1960, p. 7, § 16; Code 1933, § 91A-3914, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

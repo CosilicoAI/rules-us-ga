@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-91"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_91">
+        <num>32-6-91</num>
+        <content>
+          <p>Any person who erects or maintains any sign for which a permit is required by this part without a valid permit or renewal of such permit issued by the department shall be guilty of a misdemeanor. Each day or fraction thereof during which a sign is unlawfully maintained shall constitute a separate offense. The commissioner and officials or employees of said department designated by the commissioner are authorized to take such actions as may be necessary or appropriate to procure the prosecution and conviction of any person, firm, or corporation violating this Code section.</p>
+          <p>(Ga. L. 1971, Ex. Sess., p. 5, § 15; Code 1933, § 95A-927, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

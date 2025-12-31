@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-4-14"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-4-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-4-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_4_14">
+        <num>45-4-14</num>
+        <content>
+          <p>The official bonds of public officers, required by law to be filed in the office of the comptroller general, Secretary of State or with the office of the Governor, shall be filed within 40 days after the election or appointment of such officers. All county officers shall have until the first day of January following the election to file their bonds as required by law.</p>
+          <p>(Orig. Code 1863, § 148; Ga. L. 1863-64, p. 124, § 1; Code 1868, § 143; Code 1873, § 154; Ga. L. 1875, p. 16, § 1; Code 1882, § 154; Civil Code 1895, § 250; Ga. L. 1898, p. 105, § 1; Civil Code 1910, § 285; Code 1933, § 89-408; Ga. L. 1990, p. 8, § 45; Ga. L. 2013, p. 141, § 45/HB 79.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

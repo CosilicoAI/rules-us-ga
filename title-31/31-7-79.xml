@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-79"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-79"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-79/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-79/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-79/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-79/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_79">
+        <num>31-7-79</num>
+        <content>
+          <p>Neither the members of an authority nor any person executing certificates on behalf of an authority shall be personally liable thereon by reason of the issuance thereof. The certificates and other obligations of an authority shall not be, and shall so state on the face thereof, a debt of the city, the county, the state or any political subdivision thereof, or any combination of subdivisions acting jointly as provided in this article. Certificates of any authority are declared to be issued for an essential public and governmental purpose and, together with interest thereon and income therefrom, shall be exempt from all taxes.</p>
+          <p>(Ga. L. 1941, p. 241, § 7; Ga. L. 1955, p. 618, § 1; Code 1933, § 88-1808, enacted by Ga. L. 1964, p. 499, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

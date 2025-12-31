@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-604"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-604"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-604/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-604/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-604/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-604/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_604">
+        <num>44-14-604</num>
+        <content>
+          <p>Except as otherwise provided in this Code section, whenever a claim for lien has been filed with the clerk of a superior court that would prevent the closing of a transaction or conveyance, an escrow account shall be established from the proceeds from the transaction or conveyance in an amount sufficient to release the claim for lien.The requirement to establish an escrow account, as provided for in this Code section, shall not be cause for any party to refuse to close the transaction.These moneys shall be held in escrow until the parties' rights to the escrowed moneys have been determined by written agreement of the parties, by a court of law, or by any other process which may be agreed to by the parties for resolution of their dispute.Upon the escrow of funds in the amount of the claimed lien, the lien or claim of lien shall be automatically dissolved.Upon the release of the commercial real estate lien by the broker, the broker shall be deemed to have an equitable lien on the escrow funds pending a resolution of the broker's claim and the escrow shall not be released until a resolution is reached and agreedto by all necessary parties or ordered by a court.The parties are not required to follow this escrow procedure if alternative procedures which would allow the transaction to close are available and are acceptable to the transferee in the transaction. If the proceeds from the transaction are insufficientto release all liens claimed against the commercial real estate, including the broker's lien, then the parties are not required to follow the escrow procedure in this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-5-44"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-44"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-5-44/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-44/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-5-44/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-5-44/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_5_44">
+        <num>49-5-44</num>
+        <content>
+          <p>(Ga. L. 1975, p. 1135, § 3; Ga. L. 1990, p. 1778, § 3; Ga. L. 2015, p. 689, § 6/HB 17.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, in subsection (c), in the introductory language, substituted "shall not" for "may not" and added a colon at the end; added the paragraph (c)(1) designator, and in subsection (c)(1), substituted "A district" for "a district" at the beginning, and added "; and" at the end; and added paragraph (c)(2).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

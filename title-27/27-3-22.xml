@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-3-22"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-3-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-3-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-3-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_3_22">
+        <num>27-3-22</num>
+        <content>
+          <p>It shall be unlawful for any person to hunt, trap, take, possess, sell, purchase, ship, or transport any hawk, eagle, owl, or any other bird or any part, nest, or egg thereof, except for the English or European house sparrow, the European starling, feral pigeons, and domestic fowl, and except as otherwise permitted by the game and fish laws of this state; provided, however, that any person may transport into this state feathers of birds, other than migratory game birds, for millinery purposes.</p>
+          <p>(Ga. L. 1963, p. 476, §§ 1, 2; Code 1933, § 45-530, enacted by Ga. L. 1977, p. 396, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

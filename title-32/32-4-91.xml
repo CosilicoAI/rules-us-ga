@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-4-91"/>
+          <FRBRuri value="/us-ga/act/ocga/32-4-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-4-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-4-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-4-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-4-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_4_91">
+        <num>32-4-91</num>
+        <content>
+          <p>(a.1)A municipality shall post on each bridge on the municipal street system and on each approach thereto on the municipal street a sign containing a legible notice showing the maximum safe weight limit for such bridge, each such sign to conform to the department regulations promulgated under authority of Code Section 32-6-50.</p>
+          <p>(Code 1933, § 95A-502, enacted by Ga. L. 1973, p. 947, § 1; Ga. L. 1981, p. 953, § 2; Ga. L. 1996, p. 6, § 32; Ga. L. 1998, p. 1206, § 2; Ga. L. 2011, p. 583, § 7/HB 137.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

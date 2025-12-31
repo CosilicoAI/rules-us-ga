@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-4-69"/>
+          <FRBRuri value="/us-ga/act/ocga/53-4-69"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-4-69/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-4-69/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-4-69/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-4-69/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_4_69">
+        <num>53-4-69</num>
+        <content>
+          <p>A beneficiary taking under a will shall allow all the provisions of the will to be executed as far as the beneficiary can. A beneficiary who has a claim adverse to the will shall be required to elect whether to claim under the will or against it. However, the mere fact that the beneficiary is also a creditor shall not necessitate an election.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

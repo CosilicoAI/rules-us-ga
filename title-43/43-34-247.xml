@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-247"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-247"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-247/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-247/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-247/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-247/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_247">
+        <num>43-34-247</num>
+        <content>
+          <p>The practice of providing cosmetic laser services is declared to be an activity affecting the public interest and involving the health, safety, and welfare of the public. Such practice when engaged in by a person who is not licensed as a cosmetic laser practitioner or otherwise licensed to practice a profession which is permitted under law to perform cosmetic laser services is declared to be harmful to the public health, safety, and welfare. The board or the district attorney of the circuit where such unlicensed practice exists, or any person or organization having an interest therein, may bring a petition to restrain and enjoin such unlicensed practice in the superior court of the county where such unlicensed person resides. It shall not be necessary in order to obtain an injunction under this Code section to allege or prove that there is no adequate remedy at law, or to allege or prove any special injury.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

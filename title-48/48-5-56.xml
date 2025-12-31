@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-56"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-56"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-56/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-56/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-56/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-56/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_56">
+        <num>48-5-56</num>
+        <content>
+          <p>Each bill for ad valorem taxes on real property other than property required to be returned to the commissioner shall contain or be accompanied by a notice in substantially the following form:</p>
+          <p>"Certain persons are eligible for certain homestead exemptions from ad valorem taxation. In addition to the regular homestead exemption authorized for all homeowners, certain elderly persons are entitled to additional homestead exemptions. The full law relating to each exemption must be referred to in order to determine eligibility for the exemption. If you are eligible for one of these exemptions and are not now receiving the benefit of the exemption, you must apply for the exemption not later than (insert date) in order to receive the exemption in future years. For more information on eligibility for exemptions or on the proper method of applying for an exemption, you may contact the office of the county tax receiver or county tax commissioner, which is located at : (insert address) and which may be contacted by telephone at : (insert telephone number).</p>
+          <p>If you feel that your property has been assigned too high a value for tax purposes by the board of tax assessors, you should file a tax return reducing the value not later than ________________ in order to have an opportunity to have this value lowered for next year's taxes. Information on filing a return can be obtained from the county tax receiver or tax commissioner at the above address and telephone number."</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

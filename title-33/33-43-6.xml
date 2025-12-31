@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-43-6"/>
+          <FRBRuri value="/us-ga/act/ocga/33-43-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-43-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-43-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-43-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-43-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_43_6">
+        <num>33-43-6</num>
+        <content>
+          <p>Medicare supplement policies or certificates shall have a notice prominently printed on the first page of the policy or certificate stating in substance that the applicant shall have the right to return the policy or certificate within 30 days of its delivery and to have the premium refunded if, after examination of the policy or certificate, the applicant is not satisfied for any reason.Any refund made pursuant to this Code section shall be paid directly to the applicant by the issuer in a timely manner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

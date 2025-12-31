@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-9-342"/>
+          <FRBRuri value="/us-ga/act/ocga/11-9-342"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-9-342/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-9-342/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-9-342/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-9-342/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_9_342">
+        <num>11-9-342</num>
+        <content>
+          <p>This article does not require a bank to enter into an agreement of the kind described in paragraph (2) of subsection (a) of Code Section 11-9-104, even if its customer so requests or directs. A bank that has entered into such an agreement is not required to confirm the existence of the agreement to another person unless requested to do so by its customer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

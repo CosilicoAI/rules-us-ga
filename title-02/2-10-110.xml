@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-10-110"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-10-110/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-10-110/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_10_110">
+        <num>2-10-110</num>
+        <content>
+          <p>Any corporation or association organized under any statute of this or any other state, by majority vote of its stockholders or members, may be brought under this article by limiting its membership to the classes mentioned in this article, by adopting the other restrictions provided in this article, and by filing articles of incorporation with the Secretary of State, if it has not done so already, and otherwise complying with the general corporation laws for the incorporation of private companies as set forth in Title 14. Such corporations shall be entitled to all the privileges and immunities and shall be subject to all the restrictions contained in this article.</p>
+          <p>(Ga. L. 1921, p. 139, § 22; Ga. L. 1925, p. 150, § 2; Code 1933, § 65-219.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

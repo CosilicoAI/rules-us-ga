@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-251"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-251"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-251/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-251/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-251/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-251/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_251">
+        <num>34-8-251</num>
+        <content>
+          <p>No individual claiming benefits shall be charged fees of any kind in any proceeding under this chapter by the Commissioner, the board of review, or representatives of the Commissioner or the board of review, or by any court or any officer thereof. Any individual claiming benefits in any proceeding before a court, the Commissioner, the board of review, or representatives of the Commissioner or the board of review may be represented by counsel or other duly authorized agent; but no such counsel or agents shall either charge or receive for such services more than an amount approved by the board of review. Any person who violates any provision of this Code section shall upon conviction be guilty of a misdemeanor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

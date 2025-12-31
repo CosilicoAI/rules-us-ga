@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-23"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_23">
+        <num>44-6-23</num>
+        <content>
+          <p>Limitations over to "heirs," "heirs of the body," "lineal heirs," "lawful heirs," "issue," or words of similar meaning shall be held to mean "children" whether the parents are alive or dead. Under such words the children and the descendants of deceased children by representation in being at the time of the vesting of the estate shall take.</p>
+          <p>(Orig. Code 1863, § 2229; Code 1868, § 2223; Code 1873, § 2249; Code 1882, § 2249; Civil Code 1895, § 3084; Civil Code 1910, § 3360; Code 1933, § 85-504.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

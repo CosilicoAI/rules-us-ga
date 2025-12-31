@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-10-21"/>
+          <FRBRuri value="/us-ga/act/ocga/44-10-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-10-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-10-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-10-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-10-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_10_21">
+        <num>44-10-21</num>
+        <content>
+          <p>The General Assembly finds that the historical, cultural, and esthetic heritage of this state is among its most valued and important assets and that the preservation of this heritage is essential to the promotion of the health, prosperity, and general welfare of the people. Therefore, in order to stimulate the revitalization of central business districts in this state's municipalities, to protect and enhance this state's historical and esthetic attractions to tourists and visitors and thereby promote and stimulate business in this state's cities and counties, to encourage the acquisition by cities and counties of conservation easements pursuant to Code Sections 44-10-1 through 44-10-8, and to enhance the opportunities for federal tax relief of this state's property owners under the relevant provisions of the Tax Reform Act of 1976 allowing tax deductions for rehabilitation of certified historic structures, the General Assembly establishes a uniform procedure for use by each county and municipality in the state in enacting ordinances providing for the protection, enhancement, perpetuation, and use of places, districts, sites, buildings, structures, and works of art having a special historical, cultural, or esthetic interest or value.</p>
+          <p>(Ga. L. 1980, p. 1723, § 2; Ga. L. 1993, p. 91, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

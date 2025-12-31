@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-12-8"/>
+          <FRBRuri value="/us-ga/act/ocga/31-12-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-12-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-12-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-12-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-12-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_12_8">
+        <num>31-12-8</num>
+        <content>
+          <p>For the purpose of safeguarding the health of employees and the general public, the department and the county boards of health are empowered to conduct studies and research pertaining to the operation and maintenance of industrial, commercial, business, or other facilities where people congregate or work. The department may issue such orders and directives in any particular instance as shall be necessary to abate or minimize any practice or any operation or condition that constitutes or may be reasonably deemed to constitute a hazard to the health and safety of the employees or the general public. Administrative hearings and reviews and enforcement of such orders and directives shall be governed by Article 1 of Chapter 5 of this title.</p>
+          <p>(Code 1933, § 88-1206, enacted by Ga. L. 1964, p. 499, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

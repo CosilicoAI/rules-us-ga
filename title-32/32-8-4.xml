@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-8-4"/>
+          <FRBRuri value="/us-ga/act/ocga/32-8-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-8-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-8-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-8-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-8-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_8_4">
+        <num>32-8-4</num>
+        <content>
+          <p>The department is authorized to make or approve payments for all necessary relocation expenses, replacement housing expenses, relocation advisory services, expenses incident to the transfer of real property, and litigation expenses as provided for in subparagraphs (a)(2)(A), (a)(2)(B), and (a)(2)(C) of Code Section 32-8-1 of any individual, family, business, farm operation, or nonprofit organization displaced by a state-aid highway project on the state highway system, the cost of which is now or hereafter financed in whole or in part from state funds. The department shall be guided by the policies, provisions, and limitations of the Uniform Act. The department shall not implement any relocation assistance on any state-aid projects on the state highway system without the prior concurrence of the board.</p>
+          <p>(Code 1933, § 95A-623.3, enacted by Ga. L. 1980, p. 775, § 3; Ga. L. 1988, p. 1737, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

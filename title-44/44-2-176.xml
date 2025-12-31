@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-176"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-176"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-176/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-176/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-176/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-176/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_176">
+        <num>44-2-176</num>
+        <content>
+          <p>After December 31 of every year, it shall be the duty of every officer charged with the collection of any taxes or assessments charged upon any registered land or any interest therein which have not been paid when due to cause a notation of the fact that those taxes or assessments have not been paid to be entered upon the certificate of title on the title register along with the amount thereof. Unless such notation is made, the delinquent tax or assessment shall not affect any transfer or other dealing with the registered land; but the tax officer failing to perform such duty and his surety shall be liable for the payment of the taxes and assessments, with all lawful penalties and interest thereon, if any loss is occasioned to the state, county, municipality, or other political subdivision on account of such failure.</p>
+          <p>(Ga. L. 1917, p. 108, § 57; Code 1933, § 60-517.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

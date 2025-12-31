@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-7"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_7">
+        <num>15-18-7</num>
+        <content>
+          <p>Whenever any criminal prosecution commenced by this state against any person for a violation of the laws of this state is removed to a United States district court pursuant to Chapter 89 of Title 28 of the United States Code, it shall be the duty of the district attorney of the circuit from which the case was removed, in association with the Attorney General, to appear for the state as the prosecuting officers of the state. The expenses incurred by the district attorney as actual costs in the prosecution of any such case shall be paid by the state out of such funds as may be provided for the operation of the superior courts or as otherwise may be provided by law.</p>
+          <p>(Ga. L. 1882-83, p. 98, §§ 1, 2; Code 1933, § 24-2909; Ga. L. 1977, p. 1257, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

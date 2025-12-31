@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-1"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_1">
+        <num>50-16-1</num>
+        <content>
+          <p>The lands heretofore specially reserved to the state are: the lands known as the McIntosh Reserve, on which is situated the Indian spring; a quantity of land on Flint River, opposite the old Indian agency; one square mile on the Chattahoochee River at McIntosh Ferry; five square miles on the Chattahoochee River at Cusseta Falls, including the falls; all islands contained in any of the navigable waters of the state and not disposed of, and the western bank of the Chattahoochee River to high-water mark where it forms the boundary between Georgia and Alabama; the fractional parts of surveys created by the different land divisions which are not granted or otherwise disposed of; and all lands omitted to be surveyed, granted, or sold.</p>
+          <p>(Orig. Code 1863, § 887; Code 1868, § 966; Code 1873, § 962; Code 1882, § 962; Ga. L. 1889, p. 171, § 1; Civil Code 1895, § 1018; Civil Code 1910, § 1285; Code 1933, § 91-102.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

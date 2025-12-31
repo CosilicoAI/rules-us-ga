@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-21-35"/>
+          <FRBRuri value="/us-ga/act/ocga/50-21-35"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-21-35/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-21-35/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-21-35/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-21-35/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_21_35">
+        <num>50-21-35</num>
+        <content>
+          <p>In all civil actions brought against the state under this article, to perfect service of process the plaintiff must both:(1) cause process to be served upon the chief executive officer of the state government entity involved at his or her usual office address; and (2) cause process to be served upon the director of the Risk Management Division of the Department of Administrative Services at his or her usual office address. The time for the state to file an answer shall not begin to run until process has been served upon all required persons. A copy of the complaint, showing the date of filing, shall also be mailed to the Attorney General at his or her usual office address, by certified mail or statutory overnight delivery, return receipt requested and there shall be attached to the complaint a certificate that this requirement has been met.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

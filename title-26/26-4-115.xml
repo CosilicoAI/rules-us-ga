@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-4-115"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-115"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-4-115/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-115/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-4-115/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-4-115/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_4_115">
+        <num>26-4-115</num>
+        <content>
+          <p>Every wholesale distributor registered as provided in Chapter 13 of Title 16 or subsection (a) of Code Section 26-4-115, except those which are exclusively reverse drug distributors, shall provide to the Department of Community Health such information, with regard to the controlled substances and dangerous drugs which are distributed by that wholesale distributor, as is determined by that department to be necessary or useful in the department's efficient administration of the state plan for medical assistance, as defined in Code Section 49-4-141, and in the department's determination of possible violations of Chapter 13 of Title 16, which information shall include but not be limited to price and quantity information.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

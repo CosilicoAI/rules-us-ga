@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-5-15"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-5-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-5-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_5_15">
+        <num>21-5-15</num>
+        <content>
+          <p>When the commission gives notice to a local official referred to in subparagraph (F) or (G) of paragraph (22) of Code Section 21-5-3 of any of the actions listed in this Code section, such notice shall be given by certified mail or statutory overnight delivery. This Code section shall apply with respect to any notice of: the filing of a complaint; a technical defect in a filing; a failure to make a timely filing; or a late fee or other penalty.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

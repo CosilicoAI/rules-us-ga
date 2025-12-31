@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-401"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-401"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-401/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-401/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-401/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-401/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_401">
+        <num>48-5-401</num>
+        <content>
+          <p>Each county board of education shall annually recommend to the county governing authority the rate of levy to be made for taxes for the support and maintenance of education in the county, exclusive of property located in independent school districts, and likewise shall notify the commissioner of the rate of the levy to be made on such property in the county for the support and maintenance of education.</p>
+          <p>(Ga. L. 1919, p. 288, § 134; Code 1933, § 32-1118; Ga. L. 1946, p. 206, § 17; Code 1933, § 91A-1702, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

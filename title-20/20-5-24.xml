@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-5-24"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-5-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-5-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-5-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_5_24">
+        <num>20-5-24</num>
+        <content>
+          <p>The municipal government of any city in which an appropriation shall be made under this part shall have authority to enter into a legal and binding agreement to accept and receive any donation offered by any person or persons, and any such agreement shall be legal and binding upon the municipal government and its successors. Any agreements by the municipal government of a city to pay any sum or sums of money annually for the use of the public library shall be legal and binding on the city. Any ordinance or ordinances carrying such agreement into effect shall have the force and effect of law and be binding on the city during the time mentioned in the agreement and the ordinance.</p>
+          <p>(Ga. L. 1901, p. 52, § 5; Ga. L. 1904, p. 90, § 5; Civil Code 1910, § 1570; Code 1933, § 32-2705.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

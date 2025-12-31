@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-9-51"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-9-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-9-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_9_51">
+        <num>46-9-51</num>
+        <content>
+          <p>Whenever a shipper or consignor requires a railroad company to furnish a car to be used in carload shipments, in order for the consignor or shipper to avail himself of the forfeitures or penalties prescribed by the rules and regulations of the commission, it must first appear that the consignor or shipper made written application to the railroad company for the car, provided that the commission shall, by reasonable rules and regulations, establish the time within which the car shall be furnished after being applied for and shall establish the penalty per day per car to be paid by the railroad company in the event the car is not furnished as ordered; provided, further, that in order for any shipper or consignor to avail himself of the penalties provided by the rules and regulations of the commission, such shipper or consignor shall likewise be subject, under proper rules to be fixed by the commission, to the orders, rules, and regulations of the commission.</p>
+          <p>(Ga. L. 1905, p. 120, § 2; Civil Code 1910, § 2635; Code 1933, § 93-408.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

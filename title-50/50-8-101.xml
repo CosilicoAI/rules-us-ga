@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-101"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-101"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-101/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-101/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-101/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-101/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_101">
+        <num>50-8-101</num>
+        <content>
+          <p>(A) Each county which has no portion of the most populous municipality within its boundary shall provide an amount determined by multiplying the number of persons residing in that county by the following per resident amounts based upon the appropriate calendar year specified:</p>
+          <p>2001 ...................................................................
+   80
+   2002 ...................................................................
+   90
+   2003 ..................................................................$ 1.00</p>
+          <p>(B) Each county which has some portion of the most populous municipality within its boundary shall provide an amount determined by multiplying the number of persons residing in the county but outside that most populous municipality by the per resident amount specified for the applicable calendar year under subparagraph (A) of this paragraph and shall also provide an amount determined by multiplying the number of persons residing in the county inside that most populous municipality by the following per resident amounts based upon the appropriate calendar year specified:</p>
+          <p>2001 ...................................................................
+   32
+   2002 ...................................................................
+   36
+   2003 ...................................................................
+   40</p>
+          <p>(C) The most populous municipality shall provide an amount determined by multiplying the number of persons residing in the municipality by the following per resident amounts based upon the appropriate calendar year specified:</p>
+          <p>2001 ...................................................................
+   48
+   2002 ...................................................................
+   54
+   2003 ...................................................................
+   60</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

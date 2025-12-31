@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-47-14"/>
+          <FRBRuri value="/us-ga/act/ocga/43-47-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-47-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-47-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-47-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-47-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_47_14">
+        <num>43-47-14</num>
+        <content>
+          <p>Each division or the board may impose a fine not to exceed $500.00 for each violation of any provision of this chapter. Such fines shall be listed in a schedule contained in the rules and regulations of the board. The licensee shall pay the fine within 30 days after receiving written notification from either the appropriate division or a representative of the division unless the licensee requests in writing a hearing before the division. Such request for a hearing must be received by the division within 30 days after receipt of the written notification from the division. Failure either to pay the fine or request a hearing shall result in immediate suspension of the license pending a hearing by the board to determine whether revocation or other disciplinary action should be imposed on the licensee.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

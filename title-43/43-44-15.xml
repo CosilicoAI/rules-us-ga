@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-44-15"/>
+          <FRBRuri value="/us-ga/act/ocga/43-44-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-44-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-44-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-44-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-44-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_44_15">
+        <num>43-44-15</num>
+        <content>
+          <p>Nothing contained in any other law shall prevent a person who is qualified under this article from engaging in the practice for which he or she is licensed under this article.</p>
+          <p>(Ga. L. 1974, p. 1009, § 12; Ga. L. 1987, p. 1072, § 1; Ga. L. 2006, p. 1077, § 1/HB 1112; Ga. L. 2021, p. 690, § 4/HB 34.)</p>
+          <p>The 2021 amendment,
+      effective July 1, 2021, substituted "this article" for "this chapter" twice in this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

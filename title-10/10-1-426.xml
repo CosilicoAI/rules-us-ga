@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-426"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-426"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-426/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-426/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-426/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-426/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_426">
+        <num>10-1-426</num>
+        <content>
+          <p>Any person, firm, association, or corporation violating any of the provisions of Code Sections 10-1-424 and 10-1-425 shall be guilty of a misdemeanor. Nothing in Code Section 10-1-424 or 10-1-425 or this Code section shall apply to any visual or sound broadcasting station or to any publisher or printer of a newspaper, magazine, or other form of printed advertising who broadcasts, telecasts, publishes, or prints such advertisement in good faith without knowledge of its false or fraudulent character.</p>
+          <p>(Ga. L. 1962, p. 129, § 3; Ga. L. 1993, p. 91, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

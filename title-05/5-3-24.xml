@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-3-24"/>
+          <FRBRuri value="/us-ga/act/ocga/5-3-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-3-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-3-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-3-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-3-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_3_24">
+        <num>5-3-24</num>
+        <content>
+          <p>Executors, administrators, and other trustees, when defending an action as such or defending solely the title of the estate, may enter an appeal without paying costs and giving bond and security as required by Code Section 5-3-22; but, if a judgment should be obtained against such executor, administrator, or other trustee and not the assets of the estate, he must pay costs and give security as in other cases.</p>
+          <p>(Laws 1799, Cobb's 1851 Digest, p. 495; Code 1863, § 3542; Code 1868, § 3565; Code 1873, § 3622; Code 1882, § 3622; Civil Code 1895, § 4464; Civil Code 1910, § 5009; Code 1933, § 6-113.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

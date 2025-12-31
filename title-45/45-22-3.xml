@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-22-3"/>
+          <FRBRuri value="/us-ga/act/ocga/45-22-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-22-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-22-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-22-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-22-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_22_3">
+        <num>45-22-3</num>
+        <content>
+          <p>All hazardous chemicals introduced into the workplace by employers and used in the workplace by employees shall be in labeled containers that meet the requirements of the Occupational Safety and Health Administration standard; provided, however, that employers shall not be required to label portable containers into which hazardous chemicals are transferred from labeled containers provided that the portable container and the hazardous chemical transferred to it are intended only for the immediate use of an employee who performs the transfer or who is present at the time of such transfer.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-194"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-194"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-194/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-194/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-194/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-194/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_194">
+        <num>44-2-194</num>
+        <content>
+          <p>If an action contemplated by Code Section 44-2-193 is brought to recover for loss or damage arising only through the legal operation of this article, the state treasurer shall be the sole defendant. If the action is brought to recover for loss or damage arising on account of any registration made or procured through fraud, neglect, or wrongful act of any person not exercising a judicial function, both the state treasurer and such person or persons shall be made parties defendant.</p>
+          <p>(Ga. L. 1917, p. 108, § 78; Code 1933, § 60-705; Ga. L. 1993, p. 1402, § 18; Ga. L. 2010, p. 863, §§ 3, 4/SB 296.)</p>
+          <p>The 2010 amendment,
+      effective July 1, 2010, substituted "state treasurer" for "director of the Office of Treasury and Fiscal Services" near the end of the first sentence, and substituted "state treasurer" for "director" near the end of the second sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

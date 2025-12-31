@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-54"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-54"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-54/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-54/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-54/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-54/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_54">
+        <num>31-7-54</num>
+        <content>
+          <p>In order to assist the several counties, municipalities, or any combination thereof or any hospital authorities created under the "Hospital Authorities Law," Article 4 of this chapter, such funds as are appropriated for each fiscal year for the construction of publicly owned and publicly operated medical facilities, auxiliary medical facilities, and mental health centers shall be expended in accordance with the provisions of this article.</p>
+          <p>(Ga. L. 1949, p. 263, § 2; Ga. L. 1955, p. 410, § 2; Code 1933, § 88-2106, enacted by Ga. L. 1964, p. 499, § 1; Code 1933, § 88-2105, enacted by Ga. L. 1966, p. 716, § 1; Ga. L. 2015, p. 385, § 4-5/HB 252.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

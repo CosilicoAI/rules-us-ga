@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-6-1"/>
+          <FRBRuri value="/us-ga/act/ocga/33-6-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-6-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-6-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-6-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-6-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_6_1">
+        <num>33-6-1</num>
+        <content>
+          <p>The purpose of this article is to regulate trade practices in the business of insurance in accordance with the intent of Congress as expressed in the act of Congress of March 9, 1945 (Public Law 15, 79th Congress), by defining or providing for the determination of all practices in this state which constitute unfair methods of competition or unfair or deceptive acts or practices and by prohibiting the trade practices so defined or determined.</p>
+          <p>(Code 1933, § 56-701, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1982, p. 3, § 33; Ga. L. 1992, p. 3048, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

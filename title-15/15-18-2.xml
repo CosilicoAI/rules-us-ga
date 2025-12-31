@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-18-2"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-18-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-18-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-18-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_18_2">
+        <num>15-18-2</num>
+        <content>
+          <p>The district attorney shall take the following oath:</p>
+          <p>"I do swear that I will faithfully and impartially and without fear, favor, or affection discharge my duties as district attorney and will take only my lawful compensation. So help me God."</p>
+          <p>(Orig. Code 1863, § 347; Code 1868, § 408; Code 1873, § 373; Code 1882, § 373; Civil Code 1895, § 4388; Civil Code 1910, § 4922; Code 1933, § 24-2902.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

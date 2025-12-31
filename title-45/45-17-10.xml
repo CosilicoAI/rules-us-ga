@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-17-10"/>
+          <FRBRuri value="/us-ga/act/ocga/45-17-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-17-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-17-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-17-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-17-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_17_10">
+        <num>45-17-10</num>
+        <content>
+          <p>It shall not be lawful for notaries public to issue attachments or garnishments, to approve bonds for the purpose of issuing attachments or garnishments, or to issue a summons in a dispossessory case; but a notary may attest an affidavit in an attachment, garnishment, or dispossessory action; provided, however, no writ or summons in said matter shall issue without first having judicial approval as provided by law.</p>
+          <p>(Ga. L. 1893, p. 117, § 1; Civil Code 1895, § 504; Civil Code 1910, § 622; Code 1933, § 71-109; Ga. L. 1947, p. 1108, § 1; Ga. L. 1984, p. 1105, § 1; Ga. L. 1986, p. 1446, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

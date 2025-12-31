@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-484"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-484"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-484/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-484/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-484/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-484/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_484">
+        <num>12-5-484</num>
+        <content>
+          <p>There is created as a joint committee of the General Assembly the Georgia Water Supply Act Legislative Oversight Committee, to be composed of the members of the House Committee on Natural Resources and Environment and the Senate Natural Resources and the Environment Committee. The chairpersons of such committees shall serve as cochairpersons of the oversight committee. The oversight committee shall periodically inquire into and review the operations of the division, as well as periodically review and evaluate the success with which the division is accomplishing its statutory duties and functions as provided in this article. The oversight committee may conduct any independent audit or investigation of the division it deems necessary.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-6-2"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-6-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-6-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_6_2">
+        <num>50-6-2</num>
+        <content>
+          <p>The Department of Audits and Accounts shall be provided with suitable offices at the state capital furnished at the state's expense, as may appear proper and necessary. The department shall be furnished, from time to time, with necessary equipment, furniture, fuel, light, and other proper conveniences for the transaction of the business of the department, the expense of which shall be paid by the state in the same manner as the expenses of other offices at the capital are paid.</p>
+          <p>(Ga. L. 1923, Ex. Sess., p. 7, § 10; Code 1933, § 40-1804.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

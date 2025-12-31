@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-4-149"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-149"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-4-149/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-149/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-4-149/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-149/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_4_149">
+        <num>49-4-149</num>
+        <content>
+          <p>If the federal government removes restrictions upon family supplementation of Medicaid payments or approves a waiver allowing this supplementation, the Department of Community Health shall submit to the Health and Human Services Committee of the Senate and the Health and Human Services Committee of the House of Representatives a plan for this supplementation, which submission shall be made within 30 days after the earlier of the date the restrictions are removed or the date the waiver is approved.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

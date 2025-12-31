@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-1-111"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-111"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-1-111/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-111/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-1-111/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-1-111/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_1_111">
+        <num>40-1-111</num>
+        <content>
+          <p>When an application for a motor carrier certificate under this part has been in whole or in part denied by the commissioner, or has been granted by the commissioner, and the order of the commissioner granting same has been quashed or set aside by a court of competent jurisdiction, a new application by the same petitioner or applicant therefor shall not be again considered by the department within three months from the date of the order denying the same or the judgment of the court quashing or setting aside the order.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

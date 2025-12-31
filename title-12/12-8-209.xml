@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-8-209"/>
+          <FRBRuri value="/us-ga/act/ocga/12-8-209"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-8-209/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-8-209/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-8-209/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-8-209/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_8_209">
+        <num>12-8-209</num>
+        <content>
+          <p>The initial compliance status report or a corrective action plan submitted for any qualifying property under Code Section 12-8-207 shall be deemed to be an application to participate in the program described in this article and shall be submitted in such form as may be prescribed by the director. By making said initial submission, the prospective purchaser agrees to the provisions of this Code section. A nonrefundable application review fee of $3,000.00 shall be submitted with the application. Within 30 days of the receipt of the application, the director shall cause to be prepared and delivered to the applicant an estimate of the projected costs of the division to review the application. The director may, at any time during the application review process, invoice the applicant for any costs of the division in reviewing the application that exceed the initial application review fee. Failure to remit payment within 30 days of receipt of invoice may cause rejection of the application. The director may not issue a written concurrence with a certification of compliance if there is an outstanding fee to be paid by the prospective purchaser.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

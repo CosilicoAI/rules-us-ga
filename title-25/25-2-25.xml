@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-2-25"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-2-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-2-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_2_25">
+        <num>25-2-25</num>
+        <content>
+          <p>If any person fails to comply with the order of the court made pursuant to Code Section 25-2-24 within the time fixed, the city or county in which the building or premises in question are located shall cause the building or premises to be forthwith repaired, torn down, or demolished, the hazardous materials removed, or the dangerous conditions remedied, as the case may be, at the expense of the city or county in which the property is situated. If the owner thereof, within 30 days after notice in writing of the amount of such expense, fails, neglects, or refuses to repay the city or county the expense thereby incurred, the local authorities shall issue a fi. fa. against the owner of the property for the expense actually incurred.</p>
+          <p>(Ga. L. 1949, p. 1057, § 20.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

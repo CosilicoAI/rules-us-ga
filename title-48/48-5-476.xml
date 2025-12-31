@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-476"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-476"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-476/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-476/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-476/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-476/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_476">
+        <num>48-5-476</num>
+        <content>
+          <p>When a motor vehicle is purchased from a seller who is required to return the motor vehicle for ad valorem taxation in a county other than the county where the purchaser resides, the tax collector or tax commissioner of the county in which the motor vehicle is returned for taxation shall collect the required fee for the registration of the vehicle in addition to the ad valorem taxes due on the vehicle and, at the request of the purchaser, shall transmit the fee, the application for registration, and an appropriate certificate indicating that all ad valorem taxes due on the motor vehicle have been paid to the tax collector or tax commissioner of the county where the purchaser resides. Upon receipt of the fee and documents, the tax collector or tax commissioner of the county where the purchaser resides shall issue the required license plate.</p>
+          <p>(Ga. L. 1966, p. 517, § 5; Code 1933, § 91A-1907, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

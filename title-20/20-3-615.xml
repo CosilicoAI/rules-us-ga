@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-615"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-615"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-615/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-615/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-615/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-615/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_615">
+        <num>20-3-615</num>
+        <content>
+          <p>Nothing in this article or in an advance tuition payment contract entered into pursuant to this article shall be construed as a promise or guarantee by the trust or the state that a person will be admitted to a state institution of higher education or to a particular state institution of higher education, will be allowed to continue to attend a state institution of higher education after having been admitted, or will be graduated from a state institution of higher education.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

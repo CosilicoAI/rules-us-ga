@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-7-5"/>
+          <FRBRuri value="/us-ga/act/ocga/49-7-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-7-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-7-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-7-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-7-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_7_5">
+        <num>49-7-5</num>
+        <content>
+          <p>The refusal of any person to accept family-planning services shall in no way affect the right of such person to receive public assistance or public health services or to avail himself of any other public benefit. The employees of the agencies engaged in the administration of this chapter shall recognize that the right to make decisions concerning family planning and birth control is a fundamental personal right of the individual; and nothing in this chapter shall in any way abridge such individual right, nor shall any individual be required to state his reason for refusing the offer of family-planning services.</p>
+          <p>(Ga. L. 1966, p. 228, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

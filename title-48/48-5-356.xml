@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-356"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-356"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-356/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-356/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-356/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-356/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_356">
+        <num>48-5-356</num>
+        <content>
+          <p>No municipality shall levy any tax or license fee or shall require the payment of any fee or tax upon the sale or introduction into the municipality of any agricultural product raised in this state including, but not limited to, swine, cattle, sheep, goats, poultry, and the products of such animals when the sale and introduction are made by the producer of the product and the sale of the product is made within 90 days of the introduction of the product into the municipality. The exemptions provided in this Code section shall be in addition to all other exemptions from taxation and licensing provided by law for any such product.</p>
+          <p>(Ga. L. 1957, p. 607, § 1; Code 1933, § 91A-1507, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

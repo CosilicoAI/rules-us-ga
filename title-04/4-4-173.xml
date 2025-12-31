@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-4-173"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-173"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-4-173/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-173/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-4-173/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-4-173/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_4_173">
+        <num>4-4-173</num>
+        <content>
+          <p>Health and transportation requirements for any Artiodactyla (even-toed ungulates) must meet the health requirements established by rule or regulation of the Georgia Department of Agriculture. Those animals specifically used for deer farming must meet the requirements of the Uniform Methods and Rules of the Code of Federal Regulations for Tuberculosis and Brucellosis in Cervidae.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

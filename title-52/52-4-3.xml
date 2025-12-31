@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-4-3"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-4-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-4-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_4_3">
+        <num>52-4-3</num>
+        <content>
+          <p>The Secretary of State shall keep on file all petitions for incorporation and transcripts from minutes provided for in this chapter and shall also keep a book in which shall be entered by him the name of the company, date of incorporation, amount of capital stock, location of principal office, and any increase or decrease of capital stock.</p>
+          <p>(Ga. L. 1893, p. 81, § 12; Civil Code 1895, § 1998; Civil Code 1910, § 2379; Code 1933, § 17-103.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

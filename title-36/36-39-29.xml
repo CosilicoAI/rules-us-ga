@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-29"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_29">
+        <num>36-39-29</num>
+        <content>
+          <p>At or before the filing of the petition provided for in Code Section 36-39-28, the same shall be presented to the judge of the superior court, who shall thereupon enter an order calling upon all persons owning or interested in the real estate abutting on the street or on the designated part thereof to show cause, at a time and place to be named in the order, why the prayer of the petition should not be granted, the ordinance and assessments not declared valid, and the liens not be fixed as legal and binding. The hearing shall be not less than 30 nor more than 60 days after the entry of the order and shall be either in open court or at chambers. It shall be the duty of the clerk to publish once a week for four weeks, in the official newspaper of the county, a statement of the case and a copy of the order.</p>
+          <p>(Ga. L. 1927, p. 321, § 16; Code 1933, § 69-429.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

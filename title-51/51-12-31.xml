@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-12-31"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-12-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-12-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_12_31">
+        <num>51-12-31</num>
+        <content>
+          <p>Except as provided in Code Section 51-12-33, where an action is brought jointly against several persons, the plaintiff may recover damages for an injury caused by any of the defendants against only the defendant or defendants liable for the injury. In its verdict, the jury may specify the particular damages to be recovered of each defendant. Judgment in such a case must be entered severally.</p>
+          <p>(Orig. Code 1863, § 3007; Code 1868, § 3020; Code 1873, § 3075; Code 1882, § 3075; Civil Code 1895, § 3915; Civil Code 1910, § 4512; Code 1933, § 105-2011; Ga. L. 1987, p. 915, § 8; Ga. L. 1992, p. 6, § 51; Ga. L. 2005, p. 1, § 12/SB 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

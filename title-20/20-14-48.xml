@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-14-48"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-48"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-14-48/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-48/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-14-48/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-14-48/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_14_48">
+        <num>20-14-48</num>
+        <content>
+          <p>The State School Superintendent shall ensure that all necessary department resources and supports are made available for full implementation of this part, including, but not limited to, the implementation of the intensive school improvement plans established pursuant to Code Section 20-14-46 for schools for which a local board of education has entered into a contract amendment or intervention contract with the State Board of Education pursuant to Code Section 20-14-45. Further, the State School Superintendent shall ensure that such schools receive priority for the receipt of federal and state funds available to the Department of Education to the fullest extent possible under federal and state law, including, but not limited to, federal school improvement grants and Title I funds. The State School Superintendent shall also pursue maximum flexibility in applying for and expending federal funds, including, but not limited to, the consolidation of all federal, state, and local funds in compliance with federal law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-303"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-303"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-303/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-303/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2A-303/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2A-303/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2A_303">
+        <num>11-2A-303</num>
+        <content>
+          <p>A transfer of "the lease" or of "all my rights under the lease", or a transfer in similar general terms, is a transfer of rights, and, unless the language or the circumstances, as in a transfer for security, indicate the contrary, the transfer is a delegation of duties by the transferor to the transferee. Acceptance by the transferee constitutes a promise by the transferee to perform those duties. The promise is enforceable by either the transferor or the other party to the lease contract.</p>
+          <p>Unless otherwise agreed by the lessor and the lessee, a delegation of performance does not relieve the transferor as against the other party of any duty to perform or of any liability for default.</p>
+          <p>In a consumer lease, to prohibit the transfer of an interest of a party under the lease contract or to make a transfer an event of default, the language must be specific, by a writing, and conspicuous.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

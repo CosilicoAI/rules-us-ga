@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-4-2"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-4-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-4-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_4_2">
+        <num>52-4-2</num>
+        <content>
+          <p>When the petition for incorporation has been made and filed and the fee paid, as provided in Code Section 52-4-1, the Secretary of State shall issue to the petitioners a certificate as follows:</p>
+          <p>"Georgia. To whom it may concern - Greetings:</p>
+          <p>______ having filed their petition in the terms of the law, praying to be incorporated as a canal company, they and their associates and successors are hereby declared to be a body corporate for the period of 30 years, under the name of ______, with power to construct, maintain, and operate a canal in and through ______, with such powers, privileges, and liabilities as may now or hereafter be prescribed by law.</p>
+          <p>Witness my official hand and seal of state, this ______ day of ____________, ________."</p>
+          <p>(Ga. L. 1893, p. 81, § 1; Civil Code 1895, § 1987; Civil Code 1910, § 2368; Code 1933, § 17-102; Ga. L. 1999, p. 81, § 52.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/29-10-10"/>
+          <FRBRuri value="/us-ga/act/ocga/29-10-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/29-10-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/29-10-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/29-10-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/29-10-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_10_10">
+        <num>29-10-10</num>
+        <content>
+          <p>Public guardians shall receive compensation for their services in accordance with the provisions of Chapter 4 of this title. However, for wards who have insufficient resources or income to pay the compensation provided for in Chapter 4 of this title, at the discretion of the probate court judge, a request for payment for the public guardian to the Division of Aging Services of the Department of Human Services, as provided for in Code Section 29-10-11, shall be made. A public guardian shall be paid the compensation provided for in Chapter 4 of this title pursuant to Code Section 29-10-11 to the extent that the available funds can meet that expense or, at the discretion of the judge, the public guardian's actual expenses may be reimbursed from the funds pursuant to Code Section 29-10-11.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

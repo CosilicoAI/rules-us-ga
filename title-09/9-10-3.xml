@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-3"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_3">
+        <num>9-10-3</num>
+        <content>
+          <p>During the trial in any court of any case in which the evidence is vulgar and obscene or relates to improper sexual acts and tends to debauch the morals of the young, the presiding judge shall have the right, in his discretion and on his own motion, or on motion of the plaintiff or the defendant or their attorneys, to hear and try the case after clearing the courtroom of all or any portion of the audience.</p>
+          <p>(Ga. L. 1890-91, p. 111, § 1; Civil Code 1895, § 5296; Ga. L. 1895, p. 49, § 1; Civil Code 1910, § 5885; Code 1933, § 81-1006; Ga. L. 1982, p. 3, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

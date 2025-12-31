@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-5-71"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-71"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-5-71/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-71/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-5-71/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-5-71/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_5_71">
+        <num>50-5-71</num>
+        <content>
+          <p>In case of any emergency arising from any unforeseen causes, including delay by contractors, delay in transportation, breakdown in machinery, unanticipated volume of work, or upon the declaration of a state of emergency by the Governor, the Department of Administrative Services or any other office, agency, department, board, bureau, commission, institution, or other entity of the state to which emergency purchasing powers have been granted by the Department of Administrative Services shall have power to purchase in the open market any necessary supplies, materials, services, or equipment for immediate delivery to any office, agency, department, board, bureau, commission, institution, or other entity of the state. A report on the circumstances of the emergency and the transactions thereunder shall be duly recorded in a book or file to be kept by the Department of Administrative Services.</p>
+          <p>(Ga. L. 1937, p. 503, § 9; Ga. L. 1939, p. 160, § 5; Ga. L. 1996, p. 922, § 1; Ga. L. 2005, p. 117, § 14/HB 312.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

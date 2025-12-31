@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-64"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-64"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-64/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-64/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-64/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-64/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_64">
+        <num>44-12-64</num>
+        <content>
+          <p>The contract of hire may call for the return of the thing or of like property of the same kind and quality. If the return of the thing is specified, the risk of death or inevitable accident is with the bailor and he can retake possession immediately at the expiration of the time of hiring. If the return of like property of the same kind and quality is specified, the risk is with the bailee and he must redeliver the thing hired before the bailor's interest is revested.</p>
+          <p>(Orig. Code 1863, § 2058; Code 1868, § 2061; Code 1873, § 2087; Code 1882, § 2087; Civil Code 1895, § 2905; Civil Code 1910, § 3478; Code 1933, § 12-205.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

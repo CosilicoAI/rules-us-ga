@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-29-3"/>
+          <FRBRuri value="/us-ga/act/ocga/31-29-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-29-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-29-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-29-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-29-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_29_3">
+        <num>31-29-3</num>
+        <content>
+          <p>Any institution, agency, or department having employees qualifying for compensation under Code Section 31-29-1 may require periodic physical examinations of such employees to determine if each such employee has recovered sufficiently to resume his duties without danger of spreading the infection. If an employee is found to have recovered sufficiently, he must forthwith return to his duties. In the event of failure to do so, he shall be removed from the payroll of the institution, agency, or department.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 513, § 4; Code 1933, § 88-2404, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1970, p. 737, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-44-16"/>
+          <FRBRuri value="/us-ga/act/ocga/36-44-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-44-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-44-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-44-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-44-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_44_16">
+        <num>36-44-16</num>
+        <content>
+          <p>As an additional source for financing redevelopment costs, a political subdivision or its redevelopment agency may borrow funds from financial institutions and, in connection therewith, may pledge or assign lease contracts or revenue received from lease contracts on property owned by the political subdivision or its redevelopment agency within a redevelopment area. A political subdivision or its redevelopment agency is authorized to enter into contracts with financial institutions for the purpose of exercising the authority provided by this Code section, and such contracts may obligate the political subdivision or its redevelopment agency for any number of years not exceeding 25. Contractual obligations incurred by a political subdivision pursuant to this Code section shall not constitute debt within the meaning of Article IX, Section V of the Constitution.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

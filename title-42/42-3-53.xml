@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-3-53"/>
+          <FRBRuri value="/us-ga/act/ocga/42-3-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-3-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-3-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-3-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-3-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_3_53">
+        <num>42-3-53</num>
+        <content>
+          <p>The community service officer shall place an offender sentenced to community service or educational advancement with an appropriate agency. The agency and work schedule shall be approved by the court. If the offender is employed at the time of sentencing or if the offender becomes employed after sentencing, the community service officer shall consider the offender's work schedule and, to the extent practicable, shall schedule the community service or educational advancement so that it will not conflict with the offender's work schedule. This scheduling accommodation shall not be construed as requiring the community service officer to alter scheduled community service or educational advancement based on changes in an offender's work schedule. The community service officer shall supervise the offender for the duration of the sentence which requires community service or educational advancement. Upon completion of the such sentence, the community service officer shall prepare a written report evaluating the offender's performance which shall be used to determine if the conditions of probation or sentence have been satisfied.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

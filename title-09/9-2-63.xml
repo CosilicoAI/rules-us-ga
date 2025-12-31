@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-2-63"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-63"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-2-63/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-63/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-2-63/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-2-63/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_2_63">
+        <num>9-2-63</num>
+        <content>
+          <p>When any action is dismissed or discontinued and the plaintiff desires to recommence his action, if he will make and file with his complaint, summons, or other proceedings an affidavit in writing stating that he is advised and believes that he has good cause for recommencing his action and that because of his indigence he is unable to pay the costs that have accrued in the case, he shall have the right to renew the action without payment of the cost as aforesaid.</p>
+          <p>(Ga. L. 1901, p. 80, § 1; Civil Code 1910, § 5626; Code 1933, § 3-509.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

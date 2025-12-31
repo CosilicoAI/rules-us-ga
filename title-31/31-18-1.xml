@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-18-1"/>
+          <FRBRuri value="/us-ga/act/ocga/31-18-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-18-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-18-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-18-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-18-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_18_1">
+        <num>31-18-1</num>
+        <content>
+          <p>It is the intent of the General Assembly to create a state-wide central registry for traumatic brain and spinal cord injuries to ensure the registration of all persons with traumatic brain or spinal cord injuries in order that all such persons might obtain information about rehabilitative, independent living, and other services or goods provided by existing state agencies, departments, other organizations, and individuals.</p>
+          <p>(Code 1933, § 88-3401, enacted by Ga. L. 1980, p. 1245, § 1; Ga. L. 1985, p. 871, § 1; Ga. L. 1986, p. 10, § 31; Ga. L. 2006, p. 175, § 1/SB 208.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

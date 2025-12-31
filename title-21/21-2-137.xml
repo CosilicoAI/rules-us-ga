@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-137"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-137"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-137/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-137/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-137/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-137/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_137">
+        <num>21-2-137</num>
+        <content>
+          <p>No person shall qualify with any political party as a candidate for nomination to any public office when such person has qualified for the same primary with another political party as a candidate for nomination by that party for any public office; nor shall a state, county, or municipal executive committee of any political party certify any person as the candidate of that party when such person has previously qualified as a candidate for nomination for any public office for the same primary with another political party. No person shall file a notice of candidacy as an independent or political body candidate for any public office when such person has qualified for the same office to be filled at the same election with any political party; nor shall any person qualify with any political party when such person has filed a notice of candidacy as an independent or political body candidate for the same office to be filled at the same election.</p>
+          <p>(Code 1933, § 34-1016, enacted by Ga. L. 1975, p. 686, § 1; Ga. L. 1983, p. 535, § 1; Ga. L. 1998, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

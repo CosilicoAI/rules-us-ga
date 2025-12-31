@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-2-4"/>
+          <FRBRuri value="/us-ga/act/ocga/51-2-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-2-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-2-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-2-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-2-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_2_4">
+        <num>51-2-4</num>
+        <content>
+          <p>An employer generally is not responsible for torts committed by his employee when the employee exercises an independent business and in it is not subject to the immediate direction and control of the employer.</p>
+          <p>(Orig. Code 1863, § 2905; Code 1868, § 2911; Code 1873, § 2962; Code 1882, § 2962; Civil Code 1895, § 3818; Civil Code 1910, § 4414; Code 1933, § 105-501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

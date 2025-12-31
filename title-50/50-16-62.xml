@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-62"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_62">
+        <num>50-16-62</num>
+        <content>
+          <p>Whenever the Governor, after consulting with the Attorney General, shall deem it proper to institute an action for the recovery of a debt due the state or money or property belonging to the state, he is authorized and required to institute the action in the proper court of this state, with the same rights as any citizen, and to require the aid of the Attorney General to begin and carry on the action.</p>
+          <p>(Ga. L. 1872, p. 39, § 1; Code 1873, § 63; Code 1882, § 63; Civil Code 1895, § 126; Civil Code 1910, § 149; Code 1933, § 91-405; Ga. L. 1982, p. 3, § 50.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

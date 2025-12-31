@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-3-5"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-3-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-3-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-3-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_3_5">
+        <num>45-3-5</num>
+        <content>
+          <p>When taken by the judges of the probate courts and the clerks of the superior courts, official oaths shall be filed in the office of the clerk of the superior court and also entered on the minutes of the court. When taken by sheriffs, the oaths shall be filed in the office of the judge of the probate court and shall be entered on the minutes of the superior courts; and when taken by coroners, tax collectors, tax receivers, county treasurers, magistrates, constables, or any other county officers, they shall be filed in the office of the judge of the probate court, who shall enter them on the minutes of his court.</p>
+          <p>(Orig. Code 1863, § 138; Code 1868, § 133; Code 1873, § 143; Code 1882, § 143; Civil Code 1895, § 238; Civil Code 1910, § 273; Code 1933, § 89-306; Ga. L. 1983, p. 884, § 4-1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-12-12"/>
+          <FRBRuri value="/us-ga/act/ocga/33-12-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-12-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-12-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-12-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-12-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_12_12">
+        <num>33-12-12</num>
+        <content>
+          <p>The Commissioner in his capacity as receiver shall apply to the judge of the superior court for an order of sale and in pursuance of said order shall sell said securities. After deducting any expenses as shall be allowed by the court, he shall pay over to the plaintiff or his attorney a sufficient amount to satisfy the judgment; and, if there shall remain any residue in the hands of the receiver, he shall pay over the same to the agent of the depositing company taking his receipt for the same, which shall be filed and recorded with the other papers in the case. The receipt shall be a complete discharge to the Commissioner.</p>
+          <p>(Ga. L. 1887, p. 113, § 4; Civil Code 1895, § 2037; Civil Code 1910, § 2421; Code 1933, § 56-303; Code 1933, § 56-1112, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1982, p. 3, § 33.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

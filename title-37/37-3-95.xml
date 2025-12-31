@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/37-3-95"/>
+          <FRBRuri value="/us-ga/act/ocga/37-3-95"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/37-3-95/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/37-3-95/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/37-3-95/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/37-3-95/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_3_95">
+        <num>37-3-95</num>
+        <content>
+          <p>Notwithstanding any other provisions of any part of this article, a patient under criminal charges, notice of which has been given in writing to the facility, may only be discharged from the physical custody of a facility if the facility, by certified mail or statutory overnight delivery, provides written notification of the proposed discharge to the law enforcement agency originally having custody of the patient and the patient is discharged into the physical custody of a peace officer from that agency. That agency shall be required to assume such physical custody within five days after receipt in writing of the notification of proposed discharge.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

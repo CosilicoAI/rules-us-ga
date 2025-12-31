@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-23-65"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-65"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-23-65/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-65/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-23-65/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-23-65/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_23_65">
+        <num>47-23-65</num>
+        <content>
+          <p>Any superior court judge or district attorney who is an active member of this retirement system may receive up to five years of creditable service for his or her past service as a circuit-paid assistant district attorney who was not eligible to participate in a local retirement plan upon payment to the board of trustees of an amount which will allow such creditable service without creating any accrued actuarial unfunded liability as to this retirement system. Any member desiring such creditable service shall make application to the board of trustees in such form as the board deems appropriate, provide such proof of eligible prior service as the board deems necessary, and make full payment not later than December 31, 2008, or within six months of first or again becoming a member, whichever is later. No creditable service shall be allowed under this Code section for any period of employment for which creditable service is allowed under any provision of any other retirement or pension system of this state or of any political subdivision of this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

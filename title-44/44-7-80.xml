@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-7-80"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-7-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-7-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_7_80">
+        <num>44-7-80</num>
+        <content>
+          <p>The landlord's lien for his rent shall attach from the time that the affidavit is made pursuant to Code Section 44-7-71; but it shall take precedence over no lien of older date except as to the crop raised on the premises.</p>
+          <p>(Orig. Code 1863, § 2268; Code 1868, § 2260; Code 1873, § 2286; Code 1882, § 2286; Civil Code 1895, § 3125; Civil Code 1910, § 3701; Code 1933, § 61-403; Code 1933, § 61-410, enacted by Ga. L. 1975, p. 1514, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

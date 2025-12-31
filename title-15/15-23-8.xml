@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-23-8"/>
+          <FRBRuri value="/us-ga/act/ocga/15-23-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-23-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-23-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-23-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-23-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_23_8">
+        <num>15-23-8</num>
+        <content>
+          <p>Boards shall comply with and be subject to the audit requirements of Code Section 36-81-7.</p>
+        </content>
+        <subsection eId="sec_15_23_8__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The board shall have control of the funds provided for in this chapter.
+   All funds received shall be deposited in a special account to be known as the _____________ County Fund for the Administration of Alternative Dispute Resolution Programs. The board shall have authority to expend the funds in accordance with this chapter and to invest any of the funds so received in any investments which are legal investments for fiduciaries in this state.</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

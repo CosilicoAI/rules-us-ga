@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-13-29"/>
+          <FRBRuri value="/us-ga/act/ocga/16-13-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-13-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-13-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-13-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-13-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_13_29">
+        <num>16-13-29</num>
+        <content>
+          <p>The State Board of Pharmacy shall have the authority to exempt and control the sale of Schedule V controlled substances by rule which shall allow the sale of such substances without the need for issuance of a prescription from a medical practitioner and shall require such substances to be sold only in a pharmacy when such substances are sold without a prescription. Such substances shall be known as Exempt Over-the-Counter (OTC) Schedule V Controlled Substances.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

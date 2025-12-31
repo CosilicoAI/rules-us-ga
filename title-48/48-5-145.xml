@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-145"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-145"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-145/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-145/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-145/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-145/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_145">
+        <num>48-5-145</num>
+        <content>
+          <p>If any tax collector or tax commissioner fails or refuses to make payment, if he makes a false return, or if he fails or refuses to file the report as required, it shall be the duty of the commissioner or the county governing authority to report such facts to the Governor. The Governor shall cause a notice of the failure, refusal, or making of a false return to be served on the tax collector or tax commissioner for him to show cause why he should not be removed from office. If the tax collector or tax commissioner fails to make a proper excuse within ten days, it shall be the duty of the Governor to remove the offending official.</p>
+          <p>(Ga. L. 1892, p. 89, § 1; Civil Code 1895, § 957; Civil Code 1910, § 1224; Ga. L. 1925, p. 79, § 5; Code 1933, § 92-4916; Code 1933, § 91A-1344, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

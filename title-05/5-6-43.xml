@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-6-43"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-43"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-6-43/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-43/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-6-43/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-43/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_6_43">
+        <num>5-6-43</num>
+        <content>
+          <p>(Ga. L. 1965, p. 18, § 12; Ga. L. 1966, p. 493, § 5; Ga. L. 1968, p. 1072, § 6; Ga. L. 1981, p. 1396, § 15; Ga. L. 1992, p. 6, § 5; Ga. L. 2011, p. 24, § 1/HB 41.)</p>
+          <p>The 2011 amendment,
+      effective March 16, 2011, in subsection (b), inserted ", at no cost," and deleted ", for which the clerk shall receive a fee as required by paragraph (6) of subsection (h) of Code Section 15-6-77, to be paid out of funds appropriated to the Department of Law" following "record on appeal". See editor's note for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

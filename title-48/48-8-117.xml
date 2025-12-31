@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-117"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-117"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-117/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-117/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-117/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-117/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_117">
+        <num>48-8-117</num>
+        <content>
+          <p>No tax provided for in this part shall be imposed upon the sale of tangible personal property which is ordered by and delivered to the purchaser at a point outside the geographical area of the county in which the tax is imposed regardless of the point at which title passes, if the delivery is made by the seller's vehicle, United States mail, or common carrier or by private or contract carrier licensed by the Federal Motor Carrier Safety Administration or the Georgia Department of Public Safety.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

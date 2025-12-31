@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-9-21"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-9-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-9-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-9-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_9_21">
+        <num>12-9-21</num>
+        <content>
+          <p>Nothing contained in this article shall be deemed to grant to the Board of Natural Resources, department, division, or director any jurisdiction or authority to make any rule, regulation, recommendation, or determination or to enter any order:</p>
+          <p>(Code 1933, § 88-910, enacted by Ga. L. 1967, p. 581, § 1; Ga. L. 1972, p. 1015, § 1529; Ga. L. 1978, p. 275, § 7; Ga. L. 1992, p. 918, § 2; Ga. L. 1992, p. 2886, § 1; Ga. L. 2018, p. 118, § 1/HB 885.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

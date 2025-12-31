@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-162"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-162"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-162/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-162/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-162/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-162/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_162">
+        <num>9-10-162</num>
+        <content>
+          <p>When any case is sent back for trial by the Supreme Court or the Court of Appeals, the same shall be in order for trial; and, if the continuances of a party are exhausted, the trial court may grant one continuance to the party as the ends of justice may require.</p>
+          <p>(Ga. L. 1851-52, p. 216, § 6; Code 1863, § 3456; Code 1868, § 3476; Code 1873, § 3527; Code 1882, § 3527; Civil Code 1895, § 5134; Civil Code 1910, § 5720; Code 1933, § 81-1415.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

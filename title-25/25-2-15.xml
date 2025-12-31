@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-2-15"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-2-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-2-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-2-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_2_15">
+        <num>25-2-15</num>
+        <content>
+          <p>In existing buildings which come under the classification in paragraph (1) of subsection (b) of Code Section 25-2-13, when substandard conditions are found, a temporary occupancy permit may be issued, such permit carrying a time limit adjusted to meet the amount of time deemed necessary to make the proper corrections in order to bring the building up to standard. All certificates of occupancy shall be issued against the building and shall not require renewal because of change of ownership. The same set of fees for certificates of occupancy as are applicable to proposed buildings covered in Code Section 25-2-14 shall apply. The Commissioner and his delegated authorities shall determine the time limit for complying with any of the standards established pursuant to this chapter.</p>
+          <p>(Ga. L. 1949, p. 1057, § 10; Ga. L. 1999, p. 81, § 25.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

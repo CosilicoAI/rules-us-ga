@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-472"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-472"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-472/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-472/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-472/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-472/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_472">
+        <num>20-2-472</num>
+        <content>
+          <p>Should the holder of any outstanding schoolhouse bonds be unwilling to surrender them for retirement, either in exchange for refunding bonds in a principal amount equal to the principal and interest accrued on the bonds under the authority of this subpart or upon tender to him of the par value of the bond or bonds held by him, plus accrued interest thereon, then and in that event, when any of the refunding schoolhouse bonds are sold, a sufficient amount of the proceeds derived from the sale of the refunding bonds shall be set aside and shall constitute a sinking fund for the eventual retirement of any such bond or bonds and the payment of interest thereon in accordance with the provisions of such bonds when they mature or are surrendered for retirement.</p>
+          <p>(Ga. L. 1937, p. 869, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

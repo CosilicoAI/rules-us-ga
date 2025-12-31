@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-11-3"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-11-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-11-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-11-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_11_3">
+        <num>9-11-3</num>
+        <content>
+          <p>(Ga. L. 1966, p. 609, § 3; Ga. L. 2000, p. 850, § 1; Ga. L. 2001, p. 4, § 9; Ga. L. 2006, p. 648, § 1/HB 1195; Ga. L. 2017, p. 632, § 2-1/SB 132.)</p>
+          <p>The 2017 amendment,
+      effective January 1, 2018, substituted "by the Judicial Council of Georgia" for "in Code Section 9-11-133" at the end of the second sentence of subsection (b).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

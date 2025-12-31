@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-564"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-564"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-564/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-564/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-564/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-564/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_564">
+        <num>20-3-564</num>
+        <content>
+          <p>All properties owned or held by the board of trustees pursuant to this article which have been declared to be the public property of the state may be sold, leased, or otherwise disposed of by the board, whenever the board may deem such sale, lease, or other disposition in the best interest of the college, if the board shall first determine that such property can no longer be advantageously used by the college; provided, however, that where any such property has been granted or conveyed to the college or the board for specified uses, such property shall only be sold, leased, conveyed, or otherwise disposed of for similar uses or purposes, which shall be in conformity with any use or trust declared in any such grant or conveyance; provided, further, that every such sale, lease, or other disposition of real property shall be subject to the approval of the Governor.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

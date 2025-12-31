@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-15-69"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-69"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-15-69/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-69/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-15-69/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-15-69/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_15_69">
+        <num>25-15-69</num>
+        <content>
+          <p>No county, municipality, or other political subdivision shall have the power to pass ordinances, resolutions, or other requirements regulating the construction, installation, inspection, maintenance, repair, or operation of amusement rides within the limits of such county, municipality, or other political subdivision. Any such ordinances, resolutions, or other requirements shall be void and of no effect; provided, however, that the provisions of this Code section shall not apply to local zoning ordinances or ordinances regulating location, siting requirements, or other development standards or conditions relative to amusement rides or their time of operation or noise levels generated. Nothing in this article preempts the imposition of regulatory fees or occupation taxes imposed by counties and municipalities pursuant to Chapter 13 of Title 48.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

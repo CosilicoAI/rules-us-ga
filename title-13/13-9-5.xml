@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-9-5"/>
+          <FRBRuri value="/us-ga/act/ocga/13-9-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-9-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-9-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-9-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-9-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_9_5">
+        <num>13-9-5</num>
+        <content>
+          <p>There may be organized in any municipality voluntary associations to be known as cotton exchanges, boards of trade, or similar institutions, to receive and post quotations on cotton, grain, stocks, or other commodities for the benefit of the members or other persons engaged in the production of cotton, grain, stocks, or other commodities. Such associations shall adopt a uniform set of rules and regulations not incompatible with the laws of this state and of the United States. Such associations shall open their books to inspection by all proper courts and officers when required to do so.</p>
+          <p>(Ga. L. 1929, p. 245, § 7; Code 1933, § 20-606.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

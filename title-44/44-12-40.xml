@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-40"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_40">
+        <num>44-12-40</num>
+        <content>
+          <p>A bailment is a delivery of goods or property upon a contract, express or implied, to carry out the execution of a special object beneficial either to the bailor or bailee or both and to dispose of the property in conformity with the purpose of the trust.</p>
+          <p>(Orig. Code 1863, § 2031; Code 1868, § 2032; Code 1873, § 2058; Code 1882, § 2058; Civil Code 1895, § 2894; Civil Code 1910, § 3467; Code 1933, § 12-101.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

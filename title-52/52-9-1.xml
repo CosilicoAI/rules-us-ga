@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-9-1"/>
+          <FRBRuri value="/us-ga/act/ocga/52-9-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-9-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-9-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-9-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-9-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_9_1">
+        <num>52-9-1</num>
+        <content>
+          <p>The General Assembly recognizes the need for maintaining navigation inlets, harbors, and rivers to promote commercial and recreational uses of our coastal waters and their resources. The General Assembly further recognizes that dredging activities to deepen or maintain navigation channels within tidal inlets, as well as the entrances to harbors and rivers, often alter the natural drift of sand resources within the littoral zone. This alteration can be exacerbated when the sand resources are deposited in designated upland or offshore disposal areas instead of being returned to the natural river-sand transport-beach system. This alteration can adversely impact natural resources, recreation, tourism, and associated coastal economies. Moreover, the General Assembly believes in the duties of government to protect life and property. Therefore, it is the policy of this state that there shall be no net loss of sand from the state's coastal barrier beaches resulting from dredging activities to deepen or maintain navigation channels within tidal inlets, as well as the entrances to harbors and rivers.</p>
+          <p>(Ga. L. 1967, p. 516; Ga. L. 1972, p. 1015, § 1516; Ga. L. 2002, p. 569, § 2; Ga. L. 2004, p. 784, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

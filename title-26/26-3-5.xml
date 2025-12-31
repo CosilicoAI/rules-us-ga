@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-3-5"/>
+          <FRBRuri value="/us-ga/act/ocga/26-3-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-3-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-3-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-3-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-3-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_3_5">
+        <num>26-3-5</num>
+        <content>
+          <p>It shall be the duty of each prosecuting attorney to whom the State Board of Pharmacy reports any violation of this chapter to cause appropriate criminal proceedings to be instituted in the appropriate court without delay and to prosecute same in the manner provided by law. Before any violation of this chapter is reported to any prosecuting attorney for the institution of a criminal proceeding, the person against whom such proceeding is contemplated shall be given appropriate notice and an opportunity to present his views before the State Board of Pharmacy or its designated agent, either orally or in writing, in person, or by attorney with regard to such contemplated proceedings.</p>
+          <p>(Ga. L. 1961, p. 529, § 7; Code 1933, § 79A-1006, enacted by Ga. L. 1967, p. 296, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

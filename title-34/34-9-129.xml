@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-9-129"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-129"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-9-129/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-129/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-9-129/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-9-129/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_9_129">
+        <num>34-9-129</num>
+        <content>
+          <p>Every insurance company doing a workers' compensation business in this state shall furnish a bond payable to the state in the sum of $50,000.00 with some surety company authorized to transact business in this state as surety, in such form as may be approved by the Commissioner of Insurance, conditioned for the payment of compensation losses on policies issued by such insurance company upon risks located in this state. An action may be brought upon said bond by the board for the use and benefit of any party or parties at interest. The annual license of such company shall not be issued or renewed until it has filed with the Commissioner of Insurance of this state the bond required by this Code section. In lieu of such bond a deposit of the same amount may be made with the Office of the State Treasurer in the form of other security satisfactory to the Commissioner of Insurance.</p>
+          <p>(Ga. L. 1920, p. 167, § 70; Ga. L. 1933, p. 182, § 1; Code 1933, § 114-606; Ga. L. 1993, p. 1402, § 18; Ga. L. 2010, p. 863, § 2/SB 296.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-9-18"/>
+          <FRBRuri value="/us-ga/act/ocga/48-9-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-9-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-9-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-9-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-9-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_9_18">
+        <num>48-9-18</num>
+        <content>
+          <p>If any person required by this article to hold an uncanceled distributor's license engages in business in this state as a distributor without such a license, thereby incurring a tax liability under this article which, but for the fact that such person was unlicensed, would not have been incurred, the commissioner may in his discretion waive such tax liability, including any applicable penalties and interest thereon, and assess in lieu thereof a penalty under this Code section. Such penalty shall be equal to 10 percent of the tax liability which, but for the fact that such person was unlicensed, would not have been incurred, but shall not be less than $100.00 for each monthly tax period involved.No taxes shall be waived under this Code section where the commissioner determines that such person failed to become properly licensed prior to operating as a distributor in this state, that such person knew or should have known of the requirement that he be licensed prior to so operating, and that such person failed to remit to the state such taxes under this article as are due from licensed distributors.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

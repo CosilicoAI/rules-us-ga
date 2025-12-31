@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-30"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_30">
+        <num>51-1-30</num>
+        <content>
+          <p>Notwithstanding any other provision of law, an authorized security officer as provided for in Code Section 16-11-124 acting within the scope of his or her official duties on the premises of a federally licensed nuclear power facility or the properties adjacent to the facility pursuant to a written agreement entered into with the local law enforcement agency having jurisdiction over the facility shall be entitled to immunity as provided in Code Section 51-11-9. Such officer and the officer's employer or the owner, operator, or licensee of the facility where the officer is providing security services shall also be immune from liability for the officer's good faith performance of his or her duties at such facility in accordance with a nuclear security plan approved by the United States Nuclear Regulatory Commission or other authorized federal agency.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4-90"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-90"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4-90/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-90/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4-90/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-90/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4_90">
+        <num>46-4-90</num>
+        <content>
+          <p>At all meetings of the authority, the presence in person of a majority of the members in office shall be necessary for the transaction of business, and the affirmative vote of a majority of the members then in office shall be necessary for any action of the authority. No vacancy in the membership of the authority shall impair the right of such majority to exercise all the rights and perform all the duties of the authority. If at any meeting there is less than a majority present, a majority of those present may adjourn the meeting to a fixed time and place, and notice of such time and place shall be given in accordance with subsection (c) of Code Section 46-4-91, provided that if the time element of subsection (c) of Code Section 46-4-91 cannot reasonably be complied with, such notice, if any, of such adjourned meeting shall be given as is reasonably practicable.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

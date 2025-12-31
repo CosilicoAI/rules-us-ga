@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-32-34"/>
+          <FRBRuri value="/us-ga/act/ocga/50-32-34"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-32-34/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-32-34/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-32-34/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-32-34/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_32_34">
+        <num>50-32-34</num>
+        <content>
+          <p>The State of Georgia does pledge to and agree with the owners of any bonds issued by the authority pursuant to this chapter that the state will not alter or limit the rights vested in the authority to fulfill the terms of any agreement made with or for the benefit of the owners of bonds or in any way impair the rights and remedies of bond owners until the bonds, together with the interest thereon, with interest on any unpaid installments of interest, and all costs and expenses in connection with any action or proceeding by or on behalf of such owners, are fully met and discharged or funds for the payment of such are fully provided. The authority is authorized to include this pledge and agreement of the state in any agreement with bond owners.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

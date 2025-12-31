@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-4-69"/>
+          <FRBRuri value="/us-ga/act/ocga/32-4-69"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-4-69/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-4-69/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-4-69/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-4-69/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_4_69">
+        <num>32-4-69</num>
+        <content>
+          <p>Notwithstanding any provision of Chapter 91 of Title 36 to the contrary, when the price of a contract let to bid, other than a contract solely for engineering or other kinds of professional services, is $5,000.00 or more, no contract of a county shall be valid unless the contractor first gives:</p>
+          <p>(Ga. L. 1922, p. 37, § 1b; Code 1933, § 95-1104; Code 1933, § 95A-825, enacted by Ga. L. 1973, p. 947, § 1; Ga. L. 2000, p. 498, § 11; Ga. L. 2001, p. 820, § 4; Ga. L. 2007, p. 167, § 4/HB 192.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

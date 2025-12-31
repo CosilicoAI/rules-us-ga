@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-141"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-141"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-141/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-141/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-141/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-141/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_141">
+        <num>31-7-141</num>
+        <content>
+          <p>There shall be no monetary liability on the part of and no cause of action for damages shall arise against any member of a duly appointed medical review committee for any act or proceeding undertaken or performed within the scope of the functions of any such committee if the committee member acts without malice or fraud. This immunity shall apply only to actions by providers of health services, and in no way shall this Code section render any medical review committee immune from any action in tort or contract brought by a patient or his successors or assigns. This Code section shall not affect the immunity of an officer or an employee of a public corporation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-5-501"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-501"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-5-501/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-501/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-5-501/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-5-501/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_5_501">
+        <num>48-5-501</num>
+        <content>
+          <p>Except as exempted by law, heavy-duty equipment used for construction purposes which is owned by a nonresident and operated in this state after January 1 of any year and which was brought into Georgia from a state which subjects to taxation heavy-duty equipment owned by residents of this state and taken into such other state after the initial tax assessment date in such other state shall be subject to ad valorem taxation the same as if such heavy-duty equipment had been held or owned in this state on January 1, except that such ad valorem tax shall be prorated with respect to the number of months remaining in the year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

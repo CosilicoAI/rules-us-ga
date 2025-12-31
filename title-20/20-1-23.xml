@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-1-23"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-1-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-1-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_1_23">
+        <num>20-1-23</num>
+        <content>
+          <p>Any student of a public educational institution who is convicted, under the laws of this state, the United States, or any other state, of any felony offense involving the manufacture, distribution, sale, possession, or use of marijuana, a controlled substance, or a dangerous drug shall as of the date of conviction be suspended from the public educational institution in which such person is enrolled. Except for cases in which the institution has previously taken disciplinary action against a student for the same offense, such suspension shall be effective as of the date of conviction, even though the educational institution may not complete all administrative actions necessary to implement such suspension until a later date. Except for cases in which the institution has already imposed disciplinary sanctions for the same offense, suchsuspension shall continue through the end of the term, quarter, semester, or other similar period for which the student was enrolled as of the date of conviction. The student shall forfeit any right to any academic credit otherwise earned or earnable for such term, quarter, semester, or other similar period; and the educational institution shall subsequently revoke any such academic credit which is granted prior to the completion of administrative actions necessary to implement such suspension.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

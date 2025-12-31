@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-15-380"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-380"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-15-380/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-380/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-15-380/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-15-380/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_15_380">
+        <num>34-15-380</num>
+        <content>
+          <p>The revision effective July 1, 2010, substituted "or a self-insurer who is determined by the Board to be in default of its workers' compensation obligations or requirements according to" for "and who is determined to be insolvent by" in subsection (e).</p>
+          <p>The revision effective July 1, 2016, added subsection (d) and redesignated former subsections (d) through (h) as present subsections (e) through (i), respectively; in subsection (f), inserted "state" preceding "or any other jurisdiction", substituted "noncompliance with" for "default of its" and "of the Board" for "promulgated by the Board of trustees and approved by the Board"; and, in subsection (h), added the last sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

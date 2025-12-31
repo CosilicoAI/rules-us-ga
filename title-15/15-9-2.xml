@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-2"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_2">
+        <num>15-9-2</num>
+        <content>
+          <p>"I do swear that I will well and faithfully discharge the duties of associate judge of the probate court for the County of ________ during my continuation in office, according to law, to the best of my knowledge and ability, without favor or affection to any party. So help me God."</p>
+          <p>The clerk of the probate court shall make an entry of the oath of each associate judge of the probate court on the minutes of the probate court. In the case of an associate judge of the probate court serving as a magistrate, no oath, certificate, or commission shall be required except the oath and commission of the associate judge of the probate court as an associate judge of the probate court.</p>
+        </content>
+        <subsection eId="sec_15_9_2__subsec_1">
+          <num>(1)</num>
+          <content>
+            <p>Before entering on the duties of their offices, all associate judges of the probate court shall take the oaths required of all civil officers and, in addition, the following oath:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

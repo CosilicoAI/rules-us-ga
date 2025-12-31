@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-284"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-284"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-284/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-284/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-284/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-284/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_284">
+        <num>20-3-284</num>
+        <content>
+          <p>In that the corporation is a duly created public authority and political subdivision of the state and is performing essential governmental functions in the exercise of its corporate purposes, the state covenants with the holders of educational loans guaranteed by the corporation that the corporation shall not be required to pay and shall be exempt and free from the payment of any taxes and assessments to the state or to any county, municipality, or other political subdivision of the state upon any property acquired by it or held under its jurisdiction or control, whether real, personal, or mixed; upon any loan guaranty or other obligation, agreement, or evidence of indebtedness issued or entered into by it pursuant to this part; upon the transfer by any holder to the corporation or by the corporation to the United States or to any other person or entity of the ownership of any obligation or evidence of indebtedness entered into or executed by any party pursuant to this part; or upon any moneys or income received or held by the corporation. The exemption from taxation provided in this Code section shall not, however, extend to nor include any exemption from sales and use taxes on property purchased by or for the use of the corporation.</p>
+          <p>(Ga. L. 1964, p. 735, § 11; Ga. L. 1965, p. 217, § 12; Ga. L. 1976, p. 415, § 2; Code 1933, § 32-3327, enacted by Ga. L. 1980, p. 835, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

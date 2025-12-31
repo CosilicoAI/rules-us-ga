@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-755"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-755"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-755/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-755/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-755/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-755/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_755">
+        <num>20-2-755</num>
+        <content>
+          <p>The disciplinary officer, panel, or tribunal of school officials, when appointed as required in Code Section 20-2-753, shall determine what, if any, disciplinary action shall be taken. Such action may include, but is not limited to, expulsion, long-term suspension, or short-term suspension. Any action taken by such officer, panel, or tribunal shall be subject to modification by the local school board on appeal.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

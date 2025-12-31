@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-9-4"/>
+          <FRBRuri value="/us-ga/act/ocga/51-9-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-9-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-9-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-9-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-9-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_9_4">
+        <num>51-9-4</num>
+        <content>
+          <p>The person having title to lands, if no one is in actual possession under the same title with him, may bring an action for a trespass thereon. If a tenant is in possession and the trespass is one which injures the freehold, the owner or a remainderman or reversioner may still bring the action.</p>
+          <p>(Orig. Code 1863, § 2958; Code 1868, § 2965; Code 1873, § 3016; Code 1882, § 3016; Civil Code 1895, § 3877; Civil Code 1910, § 4473; Code 1933, § 105-1404.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

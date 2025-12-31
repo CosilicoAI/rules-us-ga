@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-85-7"/>
+          <FRBRuri value="/us-ga/act/ocga/36-85-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-85-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-85-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-85-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-85-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_85_7">
+        <num>36-85-7</num>
+        <content>
+          <p>Each fund formed pursuant to this chapter shall possess and thereafter maintain minimum surplus in an amount such as the Commissioner may reasonably establish or subsequently require for the protection of the members. The Commissioner may authorize a fund to maintain a deposit with the Commissioner consisting of securities eligible for deposit by domestic insurance companies in accordance with Chapter 12 of Title 33 or, for a period not to exceed 60 months, to post a surety bond in lieu of maintaining the minimum surplus required by this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

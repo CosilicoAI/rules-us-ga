@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-12-51"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-12-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-12-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-12-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_12_51">
+        <num>45-12-51</num>
+        <content>
+          <p>The Governor shall have the power to engage the services of any competent person for the discharge of any duty required by the laws and essential to the interests of the state or necessary, in an emergency, to preserve the property or funds of the state.</p>
+          <p>(Orig. Code 1863, § 75; Code 1868, § 69; Code 1873, § 74; Code 1882, § 74; Civil Code 1895, § 136; Civil Code 1910, § 159; Code 1933, § 40-305.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

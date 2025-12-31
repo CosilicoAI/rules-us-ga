@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-14-26"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-26"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-14-26/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-26/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-14-26/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-26/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_14_26">
+        <num>33-14-26</num>
+        <content>
+          <p>Upon the dissolution of a domestic stock or mutual insurer under Code Section 33-14-25, or upon the expiration of the period of its corporate existence in any other manner, except under Chapter 37 of this title, the directors of the corporation shall be trustees of the corporation with the full power to settle the affairs, collect the outstanding debts, sell and convey the property, real and personal, of the corporation, and divide its assets among its stockholders or members entitled to the assets, after paying or adequately providing for the payment of its liabilities and obligations. Vacancies in the number of directors may be filled by the remaining directors, but any director may be replaced on the vote of a majority of the stockholders, or members of the corporation, if a mutual insurer.</p>
+          <p>(Code 1933, § 56-1546, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

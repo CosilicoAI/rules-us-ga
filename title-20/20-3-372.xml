@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-372"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-372"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-372/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-372/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-372/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-372/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_372">
+        <num>20-3-372</num>
+        <content>
+          <p>The authority is authorized to be a lender in the Georgia Higher Education Loan Program, as provided for in Part 2 of this article, and to establish and administer a state direct educational loan program pursuant to this subpart. The authority is authorized to prescribe all rules, regulations, policies, and procedures necessary or convenient for the administration of the program and all terms and conditions applicable to loans made under this subpart; provided, however, that they shall conform with this subpart and with Part 2 of this article in order that such loans shall be guaranteed by the corporation.</p>
+          <p>(Ga. L. 1969, p. 683, § 6; Ga. L. 1971, p. 518, § 2; Code 1933, § 32-3748, enacted by Ga. L. 1980, p. 835, § 3; Ga. L. 1981, p. 735, § 39.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-8"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_8">
+        <num>31-8-8</num>
+        <content>
+          <p>The department is authorized and empowered to enter into agreements with other state departments and boards, agencies of the United States government, local governmental agencies, and voluntary organizations to obtain funds for hospital care that may be available for needy persons; and the department is authorized to administer any funds received under such agreements in conformity with this article; provided, however, that the authority granted in this article shall not prevent the department from complying with 42 U.S.C.A. Section 701, et seq.</p>
+          <p>(Ga. L. 1957, p. 470, § 10; Code 1933, § 88-2310, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 1985, p. 149, § 31.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

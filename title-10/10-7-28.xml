@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-7-28"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-28"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-7-28/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-28/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-7-28/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-28/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_7_28">
+        <num>10-7-28</num>
+        <content>
+          <p>When the fact of suretyship appears on the face of the contract, the creditor shall sue out process against the surety and enter up judgment against him as such.</p>
+          <p>(Laws 1845, Cobb's 1851 Digest, p. 598; Laws 1850, Cobb's 1851 Digest, p. 600; Code 1863, § 2137; Code 1868, § 2132; Code 1873, § 2159; Code 1882, § 2159; Civil Code 1895, § 2977; Civil Code 1910, § 3549; Code 1933, § 103-208.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

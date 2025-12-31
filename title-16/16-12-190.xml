@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-12-190"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-12-190/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-12-190/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-12-190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_12_190">
+        <num>16-12-190</num>
+        <content>
+          <p>As used in this article, the term "low THC oil" means an oil that contains an amount of cannabidiol and not more than 5 percent by weight of tetrahydrocannabinol, tetrahydrocannabinolic acid, or a combination of tetrahydrocannabinol and tetrahydrocannabinolic acid which does not contain plant material exhibiting the external morphological features of the plant of the genus Cannabis. Such term shall not mean products approved by the federal Food and Drug Administration under Section 505 of the federal Food, Drug, and Cosmetic Act.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

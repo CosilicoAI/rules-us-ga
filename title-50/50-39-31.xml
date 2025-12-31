@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-39-31"/>
+          <FRBRuri value="/us-ga/act/ocga/50-39-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-39-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-39-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-39-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-39-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_39_31">
+        <num>50-39-31</num>
+        <content>
+          <p>The authority may serve as the entity to discharge all duties imposed on the state by any act of Congress allotting federal funds to be expended for transit projects and purposes within the jurisdiction of the authority. Unless designated otherwise by the federal government, the authority shall be designated as the proper and sole authority to receive any of the federal aid funds apportioned by the federal government for use within the jurisdiction of the authority and may disburse such funds in accordance with the purposes of this article. This Code section shall not be deemed to impair or interfere in any manner with any existing rights under a contract entered into prior to December 1, 2018, or any federal grants or agreements awarded or entered into prior to December 1, 2018. This Code section shall not be applicable to projects or services provided for under the terms of a contract entered into as of December 1, 2018, under the authority granted pursuant to a local constitutional amendment set out at Ga. L. 1964, p. 1008; and the planning, funding, coordination, and delivery of such projects or services shall be as provided for by such contract or contracts.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

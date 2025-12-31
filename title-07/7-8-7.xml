@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-8-7"/>
+          <FRBRuri value="/us-ga/act/ocga/7-8-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-8-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-8-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-8-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-8-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_8_7">
+        <num>7-8-7</num>
+        <content>
+          <p>The provisions of this chapter shall not be construed to create any duty, responsibility, or obligation for any person or entity whose primary function is to provide for the exchange, transfer, or dissemination of electronic fund transfer data and is not otherwise a financial depository institution or an operator, as defined in this chapter, and such person or entity shall have no liability of any nature to any customer or user of a remote service terminal and shall not be named in any action by a customer or user of a remote service terminal for any claim concerning any provision of this chapter or relating to the use or attempted use of a remote service terminal.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

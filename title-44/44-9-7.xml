@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-9-7"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-9-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-9-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_9_7">
+        <num>44-9-7</num>
+        <content>
+          <p>No sale of real property under a fi. fa. for taxes or under a fi. fa. for any assessment for improvements shall extinguish or affect any easement or right of way in, over, under, or across said real property, which easement or right of way was created by an operation of law or by an express grant; provided, however, that an easement or right of way created by an express grant must be recorded prior to the recording of the fi. fa. for taxes or assessment for improvements under which the real property subject to the easement or right of way was sold.</p>
+          <p>(Ga. L. 1969, p. 39, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

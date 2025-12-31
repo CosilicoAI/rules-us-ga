@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-100"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-100/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-100/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_100">
+        <num>44-2-100</num>
+        <content>
+          <p>The judge of the superior court of each judicial circuit shall appoint at least one auditor, who shall be known as the examiner, who shall discharge the duties provided for the examiner in this article but whose relation and accountability to the court shall be that of an auditor in the general practice existing in this state. The judge shall appoint as many examiners in the circuit as the public convenience may require in connection with the carrying out of this article; and the judge may, in any case, appoint a special examiner. Examiners shall hold office at the pleasure of the judge and shall be removable at any time with or without cause. Each examiner must be a competent attorney at law, be of good standing in his profession, and have at least three years' experience in the practice of law. Each examiner shall take and file in the office of the clerk of the superior court of the county of his residence, along with the order of his appointment, an oath or affidavit substantially in the form prescribed in Code Section 44-2-228.</p>
+          <p>(Ga. L. 1917, p. 108, § 15; Code 1933, § 60-301.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-5-58"/>
+          <FRBRuri value="/us-ga/act/ocga/33-5-58"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-5-58/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-5-58/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-5-58/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-5-58/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_5_58">
+        <num>33-5-58</num>
+        <content>
+          <p>In any action against an unauthorized foreign or alien insurer upon a contract of insurance issued or delivered in this state or to a resident of this state or to a corporation authorized to do business in this state, if the insurer has failed for 30 days after demand prior to the commencement of the action to make payment in accordance with the terms of the contract, and it appears that such refusal was vexatious and without reasonable cause, the said insurer shall be subject to a penalty of not more than 25 percent of the liability of the insurer for the loss and an allowance for reasonable attorney's fees. The attorney's fees shall be determined by the trial court and shall be included in any judgment which is rendered in the action. Failure of an insurer to defend the action shall be deemed prima-facie evidence that its failure to make payment was vexatious and without reasonable cause. The limitations contained in this Code section in reference to the amount of attorney's fees are not controlling as to the fees which may be agreed upon by the plaintiff and his attorney for the services of the attorney in the action against the unauthorized insurer.</p>
+          <p>(Code 1933, § 56-611, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

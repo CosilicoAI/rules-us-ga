@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-18-16"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-16"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-18-16/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-16/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-18-16/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-16/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_18_16">
+        <num>45-18-16</num>
+        <content>
+          <p>Not less than 30 days prior to the commencement of the plan year, the commissioner of community health shall certify to the director or chief administrative officer of each state department, bureau, institution, board, commission, or authority having employees covered by this part the amount of percentage adopted by the board as employer payments for the ensuing fiscal year; and they shall, in their annual budget, make provisions for funds with which to pay the board the required employer payments.</p>
+          <p>(Ga. L. 1961, p. 147, § 14; Ga. L. 1999, p. 296, § 23; Ga. L. 2006, p. 188, § 11/HB 1372; Ga. L. 2010, p. 878, § 45/HB 1387.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

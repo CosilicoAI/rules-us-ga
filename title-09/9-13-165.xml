@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-165"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-165"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-165/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-165/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-165/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-165/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_165">
+        <num>9-13-165</num>
+        <content>
+          <p>Whenever a tax fi. fa. is levied on property which is of a perishable nature or is liable to deteriorate in value from keeping or which is attended with expense in keeping, the same may be sold under Code Sections 9-13-163 and 9-13-164.</p>
+          <p>(Ga. L. 1873, p. 48, § 1; Code 1882, § 3648a; Civil Code 1895, § 5465; Civil Code 1910, § 6070; Code 1933, § 39-1205; Ga. L. 1983, p. 884, § 3-8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

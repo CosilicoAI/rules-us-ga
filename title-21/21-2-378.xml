@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-378"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-378"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-378/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-378/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-378/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-378/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_378">
+        <num>21-2-378</num>
+        <content>
+          <p>The governing authority of any county or municipality which adopts optical scanning voting systems in the manner provided for by this part shall, upon the purchase of optical scanning voting systems, provide for their payment by the county or municipality. Bonds or other evidence of indebtedness may be issued in accordance with the provisions of law relating to the increase of indebtedness of counties or municipalities to meet all or any part of the cost of the optical scanning voting systems.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

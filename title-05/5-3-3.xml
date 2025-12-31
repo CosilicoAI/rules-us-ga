@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-3-3"/>
+          <FRBRuri value="/us-ga/act/ocga/5-3-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-3-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-3-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-3-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-3-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_3_3">
+        <num>5-3-3</num>
+        <content>
+          <p>An appeal may be entered by the plaintiff or defendant in person, or by his attorney at law or in fact and, if by the latter, he must be authorized in writing, which authority shall be filed in the court in which the case is pending at the time the appeal is entered; but if it is shown to the court that the authority exists, the court may allow a reasonable time to file the same. Upon failure to so file, the appeal shall be dismissed and execution shall issue without further order. If the authority is not filed within the time allowed, a ratification of an unauthorized appeal, if made in writing and filed in the clerk's office before the next term of the court, shall render the appeal valid.</p>
+          <p>(Orig. Code 1863, § 3535; Code 1868, § 3558; Code 1873, § 3615; Code 1882, § 3615; Civil Code 1895, § 4457; Civil Code 1910, § 5002; Code 1933, § 6-104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

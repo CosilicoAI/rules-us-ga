@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-7-3"/>
+          <FRBRuri value="/us-ga/act/ocga/32-7-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-7-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-7-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-7-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-7-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_7_3">
+        <num>32-7-3</num>
+        <content>
+          <p>Whenever any property has been acquired in any manner by the department, a county, or a municipality for public road purposes and thereafter the department, county, or municipality determines that all or any part of the property or any interest therein is no longer needed for such purposes because of changed conditions, the department or the county or municipality is authorized to dispose of such property or such interest therein in accordance with Code Section 32-7-4. Any disposition of property acquired for utility relocation, as provided for in Code Section 32-6-172, or on which utilities are located shall not be subject to Code Section 32-7-4; and no provision of this title shall be construed to prevent the department from conveying to the federal government land or interests in land acquired for federal parkways in Georgia, as provided in Article 2 of Chapter 3 of this title.</p>
+          <p>(Code 1933, § 95A-620, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

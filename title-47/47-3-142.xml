@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-3-142"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-142"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-3-142/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-142/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-3-142/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-3-142/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_3_142">
+        <num>47-3-142</num>
+        <content>
+          <p>No person who commits or conspires to commit the murder or voluntary manslaughter of a member or retiree shall receive any refund of contributions or retirement benefits under this chapter upon the death of the member or retiree, even though the person so killing or conspiring is the named beneficiary for such refund of contributions or retirement benefits. A plea of guilty or a judicial finding of guilt, not reversed or otherwise set aside as to any of such crimes, shall be prima-facie evidence of guilt in determining rights under this chapter. All right, interest, and entitlement to any such refund of contributions or retirement benefits shall go to the secondary beneficiary designated by the member or retiree, if the secondary beneficiary is living, upon the death of the member or retiree, otherwise to the member's or retiree's estate.</p>
+          <p>(Ga. L. 1979, p. 918, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

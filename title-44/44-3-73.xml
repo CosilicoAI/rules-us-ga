@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-73"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-73"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-73/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-73/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-73/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-73/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_73">
+        <num>44-3-73</num>
+        <content>
+          <p>After the submission of any property to this article, no description of a condominium unit located thereon shall be deemed vague, uncertain, or otherwise insufficient if it sets forth the identifying number of that unit, the name of the condominium, the name of the county or counties in which the condominium is located, and the deed book and page number where the first page of the declaration is recorded. Any such description shall be deemed to include the undivided interest in the common elements appertaining to such unit even if such interest is not stated or referred to in the description.</p>
+          <p>(Ga. L. 1975, p. 609, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

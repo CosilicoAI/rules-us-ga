@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-8-74"/>
+          <FRBRuri value="/us-ga/act/ocga/12-8-74"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-8-74/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-8-74/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-8-74/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-8-74/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_8_74">
+        <num>12-8-74</num>
+        <content>
+          <p>Any order of the hearing officer issued after a hearing as provided in Code Section 12-8-73 or any order of the director issued pursuant to Code Section 12-8-71 or 12-8-96, either unappealed from as provided in those Code sections or affirmed or modified on any review or appeal pursuant to Code Section 12-8-73, and from which no further review is taken or allowed under Code Section 12-8-73, may be filed, as unappealed from or as affirmed or modified, if reviewed or appealed, by certified copy from the director in the superior court of the county wherein the person under order resides, or if such person is a corporation in the county wherein the corporation maintains its principal place of business, or in the county wherein the violation occurred or in which jurisdiction is appropriate, whereupon such superior court shall render judgment in accordance therewith and notify the parties. Such judgment shall have the same effect, and all proceedings in relation thereto shall thereafter be the same, as though such judgment had been rendered in an action duly heard and determined by such court.</p>
+          <p>(Ga. L. 1979, p. 1127, § 16; Ga. L. 1992, p. 2234, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

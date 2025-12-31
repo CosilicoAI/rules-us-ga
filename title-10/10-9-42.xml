@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-9-42"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-9-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-9-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_9_42">
+        <num>10-9-42</num>
+        <content>
+          <p>In case any officer whose signature or facsimile signature appears on any revenue bonds ceases to be an officer before the delivery of the revenue bonds, the signature or facsimile signature shall nevertheless be valid and sufficient for all purposes the same as if he had remained in office until the delivery. All such revenue bonds shall be signed by or bear the facsimile signature of the chairman or vice chairman of the board of governors of the authority, and the official seal of the authority shall be affixed thereto and attested by or bear the facsimile signature of the secretary or assistant secretary of the authority; and any bond may be signed, sealed, and attested on behalf of the authority by any such persons as at the actual time of the execution of the revenue bonds shall be duly authorized or hold the proper office, although at the date of the issuance of the revenue bonds such person may not have been so authorized or shall not have held such office. The facsimile signature of any officer of the authority may be imprinted in lieu of manual signature if the authority so directs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

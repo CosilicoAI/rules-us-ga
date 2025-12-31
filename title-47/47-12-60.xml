@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-12-60"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-60"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-12-60/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-60/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-12-60/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-12-60/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_12_60">
+        <num>47-12-60</num>
+        <content>
+          <p>Except as otherwise provided by general law, any person who is in at least his or her nineteenth year of service as district attorney of this state or as both a solicitor of a city court from which appeals can be taken directly to the Court of Appeals and as district attorney shall be eligible for retirement as district attorney and appointment to the office of district attorney emeritus. In computing years of service under this Code section, a person may be given credit for service as assistant district attorney or as an assistant to the district attorney if in the course of such service he or she performed the duties of the district attorney in the prosecution of cases in both the superior court and the city court, provided that such service was rendered immediately prior to his or her appointment or election as district attorney.</p>
+          <p>(Ga. L. 1949, p. 780, § 2; Ga. L. 1950, p. 177, § 1; Ga. L. 1950, p. 228, § 1; Ga. L. 1951, p. 597, § 1; Ga. L. 1975, p. 1632, § 1; Ga. L. 1982, p. 3, § 47; Ga. L. 1998, p. 513, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

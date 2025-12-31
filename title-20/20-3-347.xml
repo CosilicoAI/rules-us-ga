@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-347"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-347"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-347/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-347/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-347/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-347/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_347">
+        <num>20-3-347</num>
+        <content>
+          <p>Notwithstanding any other law to the contrary, all moneys received by the authority pursuant to this subpart shall be deemed to be trust funds to be held and applied solely as provided in this subpart. The resolution authorizing any obligations or the trust agreement securing such obligations may provide that any of such moneys may be temporarily invested pending the disbursement thereof and shall provide that any officer with whom, or any bank or trust company with which, such moneys shall be deposited shall act as trustee of such moneys and shall hold and apply them for the purposes of this subpart, subject to this subpart and to such resolution or trust agreement. Any such moneys or any other moneys of the authority derived from its operations and functions under this subpart may be invested as provided in paragraph (10) of subsection (b) of Code Section 20-3-342.</p>
+          <p>(Ga. L. 1969, p. 683, §§ 30, 34; Code 1933, § 32-3733, enacted by Ga. L. 1980, p. 835, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-8-12"/>
+          <FRBRuri value="/us-ga/act/ocga/14-8-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-8-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-8-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-8-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-8-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_8_12">
+        <num>14-8-12</num>
+        <content>
+          <p>Notice to any partner of any matter relating to partnership affairs, and the knowledge of the partner acting in the particular matter, acquired while a partner or then present to his mind, and the knowledge of any other partner who reasonably could and should have communicated it to the acting partner operate as notice to or knowledge of the partnership, except in the case of a fraud on the partnership committed by or with the consent of that partner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

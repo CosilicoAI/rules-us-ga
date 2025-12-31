@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-11-506"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-506"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-11-506/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-506/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-11-506/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-11-506/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_11_506">
+        <num>14-11-506</num>
+        <content>
+          <p>Except as otherwise provided in the articles of organization or a written operating agreement, if a member who is an individual dies or a court of competent jurisdiction adjudges him or her to be incompetent to manage his or her person or his or her property, the member's executor, administrator, guardian, conservator, or other legal representative has all of the rights of an assignee of all of the member's limited liability company interest. Except as otherwise provided in the articles of organization or a written operating agreement, if the last member of a limited liability company dies or a court of competent jurisdiction adjudges him or her to be incompetent to manage his or her person or his or her property, the member's executor, administrator, guardian, conservator, or other legal representative shall become a member of the limited liability company, unless such executor, administrator, guardian, conservator, or other legal representative elects not to become a member by written notice given to the limited liability company within 90 days of such death or adjudication (or within such other period as is provided for in a written operating agreement).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

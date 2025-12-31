@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-382"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-382"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-382/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-382/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-382/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-382/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_382">
+        <num>20-3-382</num>
+        <content>
+          <p>The authority is authorized to establish and administer loan forgiveness programs for education loans to encourage law students and other attorneys to choose careers in the area of public interest. The authority is authorized to prescribe all rules, regulations, policies, and procedures necessary or convenient for the administration of these programs and all terms and conditions applicable to payments made under this subpart.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

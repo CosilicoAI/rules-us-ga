@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-1-1"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-1-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-1-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_1_1">
+        <num>47-1-1</num>
+        <content>
+          <p>The enactment of Title 47 of this Code is intended only as a recodification of the existing laws of this state relating to retirement and pensions. The codification and enactment of this title are not intended to nor shall they be construed to increase, diminish, grant, destroy, impair, alter, or otherwise affect any pension, retirement benefit or allowance, survivors benefit, membership or right to membership, creditable service or right thereto, prior service or right thereto, membership service or right thereto, or any option, election, or right of any kind which is in existence on November 1, 1982.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

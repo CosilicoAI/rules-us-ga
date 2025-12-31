@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-399"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-399"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-399/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-399/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-399/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-399/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_399">
+        <num>10-1-399</num>
+        <content>
+          <p>(Ga. L. 1975, p. 376, § 10; Ga. L. 1985, p. 642, § 1; Ga. L. 1986, p. 1046, § 4; Ga. L. 1987, p. 794, § 3; Ga. L. 1988, p. 983, § 3; Ga. L. 1996, p. 231, § 2; Ga. L. 2000, p. 1589, § 4; Ga. L. 2015, p. 1088, § 2/SB 148.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, in subsection (a), inserted "or her" near the end of the first sentence and substituted "Attorney General" for "administrator" throughout subsection (g).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

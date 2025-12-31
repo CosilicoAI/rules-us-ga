@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-29-13"/>
+          <FRBRuri value="/us-ga/act/ocga/43-29-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-29-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-29-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-29-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-29-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_29_13">
+        <num>43-29-13</num>
+        <content>
+          <p>Any person whose license has been revoked or suspended by the board may appeal to the superior court of the county of domicile of the board for a trial de novo by filing with the clerk a certified copy of the charge heard by the board and his petition requesting a trial. Upon demand by the applicant, the board shall make certified copies of any charges. When the copy of the charge is lodged with the clerk of the superior court of the county of domicile of the board and the required deposit of court cost is paid within ten days after the board's findings, the appeal shall be considered perfected and shall be docketed and stand for trial. No such appeal shall operate as a supersedeas to such revocation or suspension.</p>
+          <p>(Ga. L. 1956, p. 148, § 16; Ga. L. 2000, p. 1706, § 18.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

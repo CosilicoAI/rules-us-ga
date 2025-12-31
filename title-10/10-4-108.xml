@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-108"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-108"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-108/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-108/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-108/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-108/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_108">
+        <num>10-4-108</num>
+        <content>
+          <p>Each licensee shall keep a correct daily account of the number of pounds of leaf tobacco sold upon the floor of his warehouse. On or before Monday of each week, the licensee shall make a statement under oath of all of the tobacco sold upon the floor of his warehouse during the preceding week and shall transmit each report to the Commissioner of Agriculture. The report shall be so arranged and classified as to show the number of pounds of tobacco sold for producers, the number of pounds sold for dealers, and the number of pounds resold by the licensee for his own account or for the account of some other warehouse or licensee. In addition thereto, each licensee shall indicate the number of pounds of Type 14 flue-cured leaf tobacco sold upon the floor of his warehouse for producers thereof and the number of pounds of Type 14 flue-cured leaf tobacco sold by persons other than producers upon the floor of his warehouse. The licensee shall report the total number of pounds of other than Type 14 flue-cured leaf tobacco sold for producers and persons other than producers. In addition thereto, each licensee shall make such additional reports as shall be prescribed by the Commissioner.</p>
+          <p>(Ga. L. 1960, p. 214, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

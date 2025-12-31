@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-140"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-140/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-140/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_140">
+        <num>31-7-140</num>
+        <content>
+          <p>As used in this article, the term "medical review committee" means a committee of a state or local professional society or of a medical staff or a licensed hospital, nursing home, medical foundation, or peer review committee, provided the medical staff operates pursuant to written bylaws that have been approved by the governing board of the hospital or nursing home, which committee is formed to evaluate and improve the quality of health care rendered by providers of health service or to determine that health services rendered were professionally indicated or were performed in compliance with the applicable standard of care or that the cost of health care rendered was considered reasonable by the providers of professional health services in the area.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

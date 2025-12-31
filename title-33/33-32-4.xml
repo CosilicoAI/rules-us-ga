@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-32-4"/>
+          <FRBRuri value="/us-ga/act/ocga/33-32-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-32-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-32-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-32-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-32-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_32_4">
+        <num>33-32-4</num>
+        <content>
+          <p>In the event of a total loss of property, if an insurer shall pay to the insured an amount less than the maximum amount authorized to be paid under an insurance policy covering the property, the insurer shall refund to the insured the difference between the amount of premiums actually paid for the insurance policy and the amount of premiums which would have been charged for a property insurance policy having a maximum amount payable equal to the amount actually paid by the insurer to the insured.</p>
+          <p>(Ga. L. 1895, p. 51, § 1; Civil Code 1895, § 2110; Civil Code 1910, § 2545; Code 1933, § 56-701; Code 1933, § 56-3205, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

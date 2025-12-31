@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4A-7"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4A-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4A-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4A-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4A-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4A-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4A_7">
+        <num>46-4A-7</num>
+        <content>
+          <p>Whenever, in the judgment of the director, any covered utility has engaged in or is about to engage in any act or practice which constitutes or will constitute a violation of this chapter, the director may make application to the superior court wherein the covered utility maintains its principal place of business, or, if a nonresident of the state, to the superior court of the county where such covered utility is engaged in or is about to engage in such act or practice, for an order restraining and enjoining such act or practice; and upon a showing by the director that such covered utility has engaged in or is about to engage in any such act or practice, a temporary or permanent injunction, restraining order, or other order shall be granted without the necessity of showing the lack of an adequate remedy at law.</p>
+          <p>(Ga. L. 1981, p. 1258, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

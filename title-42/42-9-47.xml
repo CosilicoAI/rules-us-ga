@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-9-47"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-9-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-9-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_9_47">
+        <num>42-9-47</num>
+        <content>
+          <p>Within 72 hours after the board reaches a final decision to parole an inmate, the district attorney, the presiding judge, the sheriff of each county in which the inmate was tried, convicted, and sentenced, the local law enforcement authorities of the county of the last residence of the inmate prior to incarceration, and the victim of crimes against the person shall be notified of the decision by the chairman of the board. Such notice to the victim shall be mailed or emailed to the victim's address if such information is provided pursuant to Code Section 17-17-13. Failure of the victim to inform the board of a change of address shall not void a parole date set by the board.</p>
+          <p>(Ga. L. 1980, p. 393, § 3; Ga. L. 1985, p. 739, § 2; Ga. L. 2015, p. 207, § 6/HB 71; Ga. L. 2021, p. 922, § 42/HB 497.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "mailed or e-mailed to the victim's address if such information is provided pursuant to Code Section 17-17-13." for "mailed to the victim's address provided for in subsection (c) of Code Section 17-10-1.1." at the end of the second sentence; and substituted "Failure of the victim" for "Failure of the prosecuting attorney to provide an address of the victim or failure of the victim" in the last sentence.</p>
+          <p>The 2021 amendment,
+      effective May 10, 2021, part of an Act to revise, modernize, and correct the Code, substituted "emailed" for "e-mailed" in the second sentence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

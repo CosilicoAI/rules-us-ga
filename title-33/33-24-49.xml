@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-24-49"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-49"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-24-49/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-49/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-24-49/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-24-49/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_24_49">
+        <num>33-24-49</num>
+        <content>
+          <p>It shall be lawful for any party of whom a bond, undertaking, or other obligation is required to agree with his surety or sureties for the deposit of any or all moneys and assets for which he and his surety or sureties are or may be held responsible with a bank, savings bank, safe-deposit, or trust company authorized by law to do business as such or with such other depository as approved by the court or a judge of the court, if the deposit is otherwise proper, for the safekeeping of the moneys or assets. The agreement shall prevent the withdrawal of the moneys or assets or any part of the moneys or assets without the written consent of the surety or sureties or an order of the court or a judge of the court made on notice to the surety or sureties as the court or judge may direct; provided, however, that the agreement shall not in any manner release from or change the liability of the principal or sureties as established by the terms of the said bond.</p>
+          <p>(Code 1933, § 56-2436, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-4-10"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-4-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-4-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-4-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_4_10">
+        <num>52-4-10</num>
+        <content>
+          <p>Any company incorporated under this chapter is authorized to enlarge any of the works or appliances of a canal or branch canals and enlarge a canal anywhere along the line of the same by deepening and widening it, making basins, dams, reservoirs, or otherwise. Any such company is also authorized to construct and build branch canals to and from a canal from any and all points, with the same privileges and rights as are granted in constructing the main canal and other works, and to construct any dams, races, waste-weirs, weirs, towpaths, and other structures to improve and make available a canal or canals under the limitations already set out in this chapter.</p>
+          <p>(Ga. L. 1893, p. 81, § 5; Civil Code 1895, § 1991; Civil Code 1910, § 2372; Code 1933, § 17-108.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

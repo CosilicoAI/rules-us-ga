@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-8-50"/>
+          <FRBRuri value="/us-ga/act/ocga/13-8-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-8-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-8-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-8-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-8-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_8_50">
+        <num>13-8-50</num>
+        <content>
+          <p>The General Assembly finds that reasonable restrictive covenants contained in employment and commercial contracts serve the legitimate purpose of protecting legitimate business interests and creating an environment that is favorable to attracting commercial enterprises to Georgia and keeping existing businesses within the state. Further, the General Assembly desires to provide statutory guidance so that all parties to such agreements may be certain of the validity and enforceability of such provisions and may know their rights and duties according to such provisions.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

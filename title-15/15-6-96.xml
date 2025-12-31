@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-6-96"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-96"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-6-96/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-96/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-6-96/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-6-96/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_6_96">
+        <num>15-6-96</num>
+        <content>
+          <p>The clerk of the superior court is the custodian of the records of his or her office.Any contract to distribute, sell, or otherwise market records or computer generated data of the office of the clerk of the superior court for profit shall be made by the clerk of the superior court. If the clerk of the superior court also serves as the clerk of any other court, the provisions of this Code section shall be applicable to the records and data of such other court.A report summarizing contracts entered into pursuant to this Code section along with any revenues received therefrom shall be prepared by the clerk of the superior court and submitted to the governing authority of the county on a monthly basis.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

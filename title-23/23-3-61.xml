@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/23-3-61"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/23-3-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/23-3-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/23-3-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_3_61">
+        <num>23-3-61</num>
+        <content>
+          <p>Any person, which term shall include a corporation, partnership, or other association, who claims an estate of freehold present or future or any estate for years of which at least five years are unexpired, including persons holding lands under tax deeds, in any land in this state, whether in the actual and peaceable possession thereof or not and whether the land is vacant or not, may bring a proceeding in rem against all the world to establish his title to the land and to determine all adverse claims thereto or to remove any particular cloud or clouds upon his title to the land, including an equity of redemption, which proceeding may be against all persons known or unknown who claim or might claim adversely to him, whether or not the petition discloses any known or possible claimants.</p>
+          <p>(Ga. L. 1966, p. 443, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

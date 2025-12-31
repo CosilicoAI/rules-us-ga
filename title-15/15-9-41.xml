@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-41"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-41"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-41/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-41/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-41/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-41/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_41">
+        <num>15-9-41</num>
+        <content>
+          <p>The judge of the probate court shall keep a regular book of minutes of the proceedings of his court, on which he shall enter all the applications refused as well as those granted.</p>
+          <p>(Orig. Code 1863, § 4018; Code 1868, § 4047; Code 1873, § 4118; Code 1882, § 4118; Civil Code 1895, § 4258; Civil Code 1910, § 4816; Code 1933, § 24-2110.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-152"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-152"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-152/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-152/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-152/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-152/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_152">
+        <num>12-6-152</num>
+        <content>
+          <p>It shall be unlawful for any person to harvest ginseng in this state except from September 1 through December 31 and with the written permission of the owner of the property on which the ginseng is located. It shall also be unlawful for any person to harvest ginseng that has fewer than three prongs. Further, it shall also be unlawful for any person to fail to plant, immediately after harvest, the ripe berries of the harvested ginseng at the same location at which such ginseng was harvested.</p>
+          <p>(Ga. L. 1979, p. 919, § 3; Ga. L. 1996, p. 327, § 1; Ga. L. 2013, p. 564, § 1/SB 81.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

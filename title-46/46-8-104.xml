@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-8-104"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-8-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-8-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-8-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_8_104">
+        <num>46-8-104</num>
+        <content>
+          <p>Any railroad company chartered by the General Assembly, and also any person or persons or any company owning or operating a public or private railroad in this state, shall, when necessary to reach minerals, timber, or other materials, have the right to cross any other railroad at grade points or at any other point where such crossing will not obstruct the other road, or, if necessary, by means of a tunnel or bridge, said tunnel or bridge being absolutely secure.</p>
+          <p>(Ga. L. 1870, p. 428, § 1; Code 1873, § 705; Code 1882, § 705; Civil Code 1895, § 2219; Ga. L. 1899, p. 31, § 1; Civil Code 1910, § 2671; Code 1933, § 94-501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

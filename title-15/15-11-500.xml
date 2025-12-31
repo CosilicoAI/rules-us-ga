@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-11-500"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-500"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-11-500/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-500/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-11-500/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-500/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_11_500">
+        <num>15-11-500</num>
+        <content>
+          <p>If it appears from a filed affidavit or from sworn testimony before the court that the conduct, condition, or surroundings of an alleged delinquent child are endangering such child's health or welfare or those of others or that such child may abscond or be removed from the jurisdiction of the court or will not be brought before the court, notwithstanding the service of the summons, the court may endorse upon the summons an order that a law enforcement officer shall serve the summons and take such child into immediate custody and bring him or her forthwith before the court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

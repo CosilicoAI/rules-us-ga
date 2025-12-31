@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-10-4"/>
+          <FRBRuri value="/us-ga/act/ocga/45-10-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-10-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-10-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-10-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-10-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_10_4">
+        <num>45-10-4</num>
+        <content>
+          <p>Upon formal charges being filed with the Governor relative to a violation of Code Section 45-10-3 on the part of a member of any such board, commission, or authority, the Governor or his designated agent shall conduct a hearing for the purpose of receiving evidence relative to the merits of such charges. The member so charged shall be given at least 30 days' notice prior to such hearing. If such charges are found to be true, the Governor shall forthwith remove such member from office and the vacancy shall be filled as provided by law. Such hearing shall be held in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act," and judicial review of any such decision shall be in accordance with such chapter.</p>
+          <p>(Ga. L. 1976, p. 344, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

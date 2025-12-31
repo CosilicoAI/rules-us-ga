@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-11-18"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-11-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-11-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_11_18">
+        <num>43-11-18</num>
+        <content>
+          <p>All signs, cards, announcements, advertisements, or methods used to state or imply that dentistry may or will be done by anyone at any place in this state shall be required to list the full name of at least one individual practicing dentistry in such place; provided, however, that the names of all dentists practicing at a location shall be supplied to any person who inquires, and a list containing the names of all dentists practicing at a location shall be posted at the entry of such location.</p>
+          <p>(Ga. L. 1920, p. 132, § 12; Code 1933, § 84-714; Ga. L. 1976, p. 484, § 1; Ga. L. 1991, p. 1056, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

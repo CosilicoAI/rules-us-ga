@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-17-24"/>
+          <FRBRuri value="/us-ga/act/ocga/47-17-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-17-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-17-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-17-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-17-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_17_24">
+        <num>47-17-24</num>
+        <content>
+          <p>It shall be the duty of the board to keep permanent records of all its actions in granting annuities or benefits. Such records shall give the name of the recipient, the date of the beginning of the service of the involved peace officer, the date of such officer's incapacity, retirement, or death, the reason therefor, and such other information as the board shall desire. All records, papers, and other data shall be carefully preserved and turned over to the succeeding members of the board.</p>
+          <p>(Ga. L. 1950, p. 50, § 6; Ga. L. 1956, p. 280, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

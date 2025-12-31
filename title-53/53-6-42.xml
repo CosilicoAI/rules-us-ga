@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-6-42"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-6-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-6-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-6-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_6_42">
+        <num>53-6-42</num>
+        <content>
+          <p>The probate court may, for good cause shown, as provided in Code Sections 29-3-82, 29-5-92, and 53-7-14, revoke the letters of administration of the county administrator or letters of guardianship of the county administrator, require additional security on the county administrator's bond, or pass such other order as is expedient and necessary for the good of any particular estate in the hands of any county administrator.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

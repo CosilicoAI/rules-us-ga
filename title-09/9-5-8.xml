@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-5-8"/>
+          <FRBRuri value="/us-ga/act/ocga/9-5-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-5-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-5-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-5-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-5-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_5_8">
+        <num>9-5-8</num>
+        <content>
+          <p>The granting and continuing of injunctions shall always rest in the sound discretion of the judge, according to the circumstances of each case. This power shall be prudently and cautiously exercised and, except in clear and urgent cases, should not be resorted to.</p>
+          <p>(Orig. Code 1863, § 3141; Code 1868, § 3153; Code 1873, § 3220; Code 1882, § 3220; Civil Code 1895, §§ 4902, 4920; Civil Code 1910, §§ 5477, 5497; Code 1933, § 55-108.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

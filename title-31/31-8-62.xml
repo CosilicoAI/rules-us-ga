@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-62"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_62">
+        <num>31-8-62</num>
+        <content>
+          <p>Any person who, in good faith, makes a complaint or provides information as authorized in this article shall incur no civil or criminal liability therefor. Any state or community ombudsman who, in good faith, performs his or her official duties, including but not limited to, making a statement or communication relevant to a complaint received or an investigative activity conducted pursuant to this article shall incur no civil or criminal liability therefor.</p>
+          <p>(Code 1933, § 88-1912a, enacted by Ga. L. 1979, p. 1240, § 1; Ga. L. 1995, p. 1239, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

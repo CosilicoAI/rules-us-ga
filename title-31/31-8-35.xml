@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-8-35"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-35"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-8-35/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-35/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-8-35/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-8-35/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_8_35">
+        <num>31-8-35</num>
+        <content>
+          <p>For each fiscal year, beginning with the 1980-81 fiscal year, payments to hospitals for cost of care of nonresident indigent patients shall be made from the fund. Beginning with the certifications made after the close of the first quarter of the 1980-81 fiscal year, the quarterly certifications of cost of care for nonresident indigent patients made by hospitals pursuant to subsection (a) of Code Section 31-8-34 shall constitute requests for payments from the fund to reimburse such hospitals for the cost of care. Within 30 days after receiving any such request, the commissioner shall authorize the state treasurer to issue a check to the hospital submitting the request for the payment from the fund of the amount requested.</p>
+          <p>(Code 1933, § 88-2307a, enacted by Ga. L. 1979, p. 1234, § 1; Ga. L. 1993, p. 1402, § 18; Ga. L. 2010, p. 863, § 3/SB 296.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

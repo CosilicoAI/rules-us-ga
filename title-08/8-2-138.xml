@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-2-138"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-138"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-2-138/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-138/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-2-138/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-2-138/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_2_138">
+        <num>8-2-138</num>
+        <content>
+          <p>During such time as the Commissioner has contracted or entered into cooperative agreements pursuant to his or her authority under Code Section 8-2-132, retailers, retail brokers, and installers are expressly prohibited from altering or modifying any manufactured home certified under this part and under the rules and regulations of the Commissioner, except that alterations, changes, or modifications may be made by retailers, retail brokers, or installers certified to make such alterations, changes, or modifications in accordance with rules and regulations promulgated by the Commissioner.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

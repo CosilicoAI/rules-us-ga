@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/6-3-24"/>
+          <FRBRuri value="/us-ga/act/ocga/6-3-24"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/6-3-24/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/6-3-24/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/6-3-24/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/6-3-24/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_3_24">
+        <num>6-3-24</num>
+        <content>
+          <p>The local public authorities having power to appropriate moneys within the counties, municipalities, or other public subdivisions acquiring, establishing, developing, operating, maintaining, or controlling airports or landing fields under this article are authorized to appropriate and cause to be raised, by taxation or otherwise, in such counties, municipalities, or other political subdivisions, moneys sufficient to carry out therein the provisions of this article and to use for such purpose or purposes moneys derived from said airports or landing fields.</p>
+          <p>(Ga. L. 1933, p. 102, § 6; Code 1933, § 11-206.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

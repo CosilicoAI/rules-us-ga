@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-197"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-197"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-197/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-197/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-197/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-197/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_197">
+        <num>44-2-197</num>
+        <content>
+          <p>The assurance fund shall not under any circumstances be liable for any loss, damage, or deprivation occasioned by a breach of trust, whether express, implied, or constructive, on the part of the registered owner of any estate or interest in land.</p>
+          <p>(Ga. L. 1917, p. 108, § 80; Code 1933, § 60-707.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

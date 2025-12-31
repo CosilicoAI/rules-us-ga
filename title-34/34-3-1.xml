@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-3-1"/>
+          <FRBRuri value="/us-ga/act/ocga/34-3-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-3-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-3-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-3-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-3-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_3_1">
+        <num>34-3-1</num>
+        <content>
+          <p>The hours of labor required of all persons employed in all cotton or woolen manufacturing establishments in this state, except engineers, firefighters, watchmen, mechanics, teamsters, yard employees, clerical force, and all help that may be needed to clean up and make necessary repairs or changes in or of machinery, shall not exceed ten hours per day; or the same may be regulated by employers, so that the number of hours shall not in the aggregate exceed 60 hours per week, provided that nothing contained in this Code section shall be construed to prevent any of the aforesaid employees from working such time as may be necessary to make up lost time, not to exceed ten days, caused by accidents or other unavoidable circumstances.</p>
+          <p>(Ga. L. 1889, p. 163, § 1; Civil Code 1895, § 2615; Civil Code 1910, § 3137; Ga. L. 1911, p. 65, § 1; Code 1933, § 54-201; Ga. L. 1983, p. 3, § 25; Ga. L. 2002, p. 660, § 4; Ga. L. 2002, p. 1259, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

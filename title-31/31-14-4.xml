@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-14-4"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-14-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-14-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-14-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_14_4">
+        <num>31-14-4</num>
+        <content>
+          <p>A copy of the petition and order shall be served on the person named in the petition. Any failure of such person to comply with the order or with the notice by the persons appointed therein to make examination shall be enforceable by attachment for contempt.</p>
+          <p>(Ga. L. 1953, Nov.-Dec. Sess., p. 348, § 7; Code 1933, § 88-707, enacted by Ga. L. 1964, p. 499, § 1; Ga. L. 2005, p. 1513, § 1/SB 56.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

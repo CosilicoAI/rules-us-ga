@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-6-17"/>
+          <FRBRuri value="/us-ga/act/ocga/43-6-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-6-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-6-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-6-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-6-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_6_17">
+        <num>43-6-17</num>
+        <content>
+          <p>If the commission, after an application in proper form has been filed and accompanied by the proper fee, shall refuse to accept the application, the commission shall provide for a hearing for such applicant in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act." Any person who has exhausted all administrative remedies available within this chapter and who is aggrieved by a final decision in a contested case is entitled to judicial review in accordance with Chapter 13 of Title 50.</p>
+          <p>(Code 1933, § 84-315A, enacted by Ga. L. 1975, p. 53, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

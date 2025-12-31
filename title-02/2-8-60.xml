@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-60"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-60"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-60/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-60/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-60/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-60/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_60">
+        <num>2-8-60</num>
+        <content>
+          <p>The commission is authorized to confer with and to make any information obtained pursuant to this article available to the duly constituted governmental authorities of this state, of other states, of political subdivisions of this state or other states, and of the United States who, by reason of their duties, have legitimate concern with the subject and to cooperate with all such authorities for the purpose of obtaining administrative uniformity and achieving the objectives of this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

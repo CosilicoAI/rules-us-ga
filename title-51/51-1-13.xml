@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-1-13"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-1-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-1-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-1-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1_13">
+        <num>51-1-13</num>
+        <content>
+          <p>A physical injury done to another shall give a right of action to the injured party, whatever may be the intention of the person causing the injury, unless he is justified under some rule of law. However, intention shall be considered in the assessment of damages.</p>
+          <p>(Orig. Code 1863, § 2910; Code 1868, § 2917; Code 1873, § 2968; Code 1882, § 2968; Civil Code 1895, § 3826; Civil Code 1910, § 4422; Code 1933, § 105-601.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

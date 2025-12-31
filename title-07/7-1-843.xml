@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-843"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-843"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-843/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-843/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-843/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-843/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_843">
+        <num>7-1-843</num>
+        <content>
+          <p>Any officer, director, agent, or employee of any financial institution who shall perform the following acts or deeds shall be guilty of a misdemeanor:</p>
+          <p>(Ga. L. 1919, p. 135, art. 19, § 37; Ga. L. 1919, p. 135, art. 20, §§ 15, 16, 24, 25, 26, 27, 30; Ga. L. 1927, p. 195, § 14; Code 1933, §§ 13-2037, 13-9915, 13-9916, 13-9924, 13-9925, 13-9926, 13-9927, 13-9929; Code 1933, § 41A-9906, enacted by Ga. L. 1974, p. 705, § 1; Ga. L. 2016, p. 390, § 7-20/HB 811.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

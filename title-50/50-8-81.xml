@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-8-81"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-81"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-8-81/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-81/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-8-81/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-8-81/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_8_81">
+        <num>50-8-81</num>
+        <content>
+          <p>It is in the public interest to create an agency composed of officials of political subdivisions and private citizens to coordinate planning and development within each area of this state having a population of more than 1,000,000 according to the United States decennial census of 1970 or any future such census; to designate the agency as the regional commission under Article 2 of this chapter to make the agency the official metropolitan agency for comprehensive research, study, advice, and review concerning area plans; to improve relationships between political subdivisions and public agencies within areas; and to provide policy direction for the solution of common problems through short and long-range comprehensive planning within areas.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

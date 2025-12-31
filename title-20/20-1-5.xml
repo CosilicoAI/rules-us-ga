@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-1-5"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-1-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-1-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-1-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_1_5">
+        <num>20-1-5</num>
+        <content>
+          <p>Any individual appointed to act as a surrogate parent for a child pursuant to federal law (P.L. 94-142) and federal regulations (34 C.F.R. 8300.514), as such law and regulations existed on January 1, 1985, shall not be liable for any civil damages for any action or actions done while performing duty as a surrogate parent, except for acts or omissions to act constituting gross, willful, or wanton negligence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

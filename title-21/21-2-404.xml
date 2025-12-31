@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-404"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-404"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-404/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-404/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-404/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-404/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_404">
+        <num>21-2-404</num>
+        <content>
+          <p>Each employee in this state shall, upon reasonable notice to his or her employer, be permitted by his or her employer to take any necessary time off from his or her employment to vote in any municipal, county, state, or federal political party primary or election for which such employee is qualified and registered to vote on the day on which such primary or election is held; provided, however, that such necessary time off shall not exceed two hours; and provided, further, that, if the hours of work of such employee commence at least two hours after the opening of the polls or end at least two hours prior to the closing of the polls, then the time off for voting as provided for in this Code section shall not be available. The employer may specify the hours during which the employee may absent himself or herself as provided in this Code section.</p>
+          <p>(Ga. L. 1964, p. 253, § 1; Ga. L. 1985, p. 206, § 1; Ga. L. 1986, p. 32, § 1; Ga. L. 1987, p. 34, § 1; Ga. L. 1998, p. 295, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

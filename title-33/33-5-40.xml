@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-5-40"/>
+          <FRBRuri value="/us-ga/act/ocga/33-5-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-5-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-5-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-5-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-5-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_5_40">
+        <num>33-5-40</num>
+        <content>
+          <p>The General Assembly finds the federal Nonadmitted and Reinsurance Reform Act of 2010, which was incorporated into the federal Dodd-Frank Wall Street Reform and Consumer Protection Act, P.L. 111-203, provides that only an insured's home state may require premium tax payment for nonadmitted insurance and authorizes states to enter into a compact or otherwise establish procedures to allocate among the states the nonadmitted insurance premium taxes. The General Assembly further finds that as the states are still in flux as to which proposed plan is best for them to enter, or if any agreement should be entered into by the state, the Commissioner is in a unique position to weigh these options and to determine what is in the best interest of the state financially. Therefore, the General Assembly acknowledges that some flexibility is necessary to determine that the best financial interests of the state are met.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

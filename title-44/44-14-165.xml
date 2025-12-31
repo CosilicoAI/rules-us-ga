@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-165"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-165"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-165/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-165/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-165/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-165/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_165">
+        <num>44-14-165</num>
+        <content>
+          <p>When a judgment is vacated and set aside as provided by Code Sections 44-14-163 and 44-14-164, the obligation upon which the judgment was rendered, as well as the deed, bond for title, bill of sale securing the same, and other instruments mentioned in Code Section 44-14-163, shall be fully restored in all respects to their original status which existed prior to the commencement of the action in which the judgment was rendered; and thereafter the instruments shall be for all purposes whatsoever legally of force and effect as if an action had not been instituted and a judgment had not been obtained on the obligation.</p>
+          <p>(Ga. L. 1927, p. 220, § 3; Code 1933, § 110-803.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-28-7"/>
+          <FRBRuri value="/us-ga/act/ocga/33-28-7"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-28-7/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-28-7/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-28-7/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-28-7/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_28_7">
+        <num>33-28-7</num>
+        <content>
+          <p>The proceeds of annuity, reversionary annuity, or pure endowment contracts issued to citizens or residents of this state, upon whatever form, shall not in any case be liable to attachment, garnishment, or legal process in favor of any creditor of the person who is the beneficiary of such annuity contract unless the annuity contract was assigned to or was effected for the benefit of such creditor or unless the purchase, sale, or transfer of the policy is made with the intent to defraud creditors.</p>
+          <p>(Code 1933, § 56-2603, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 2006, p. 885, § 2/HB 1304.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

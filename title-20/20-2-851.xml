@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-851"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-851"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-851/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-851/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-851/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-851/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_851">
+        <num>20-2-851</num>
+        <content>
+          <p>During any school year, personnel may utilize up to a maximum of three days of any accumulated sick leave for the purpose of absenting themselves from their duties for personal or professional reasons if prior approval of their absence is given by the local school superintendent or his authorized representative; provided, however, that the absence is not in conflict with a local board of education policy concerning school days on which the presence of the personnel requesting absence is essential for effective school operation. No grant of approval for an absence permitted under this Code section shall be conditioned upon disclosure of the specific purpose for which such absence is sought, nor shall any such grant of approval be withheld or denied because of the failure or refusal of personnel to disclose the specific purpose for which such an absence is sought; provided, however, that personnel may be requested to state whether the absence is sought under the category of "personal" or "professional" absence.</p>
+          <p>(Ga. L. 1970, p. 459, § 1; Ga. L. 1977, p. 798, § 1; Ga. L. 1980, p. 465, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1125"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1125"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1125/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1125/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1125/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1125/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_1125">
+        <num>20-2-1125</num>
+        <content>
+          <p>All persons employed as school bus drivers by any public school system in this state shall receive annual mandatory training on traffic laws pertaining to the operation of school buses and on school bus operations and safety. The State Board of Education shall establish the content and length of initial driver training and shall determine the qualifications of and certify the instructors who conduct such training. No person employed as a school bus driver by any public school system in this state shall operate a school bus unless such person has completed such training within the preceding 12 month period.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

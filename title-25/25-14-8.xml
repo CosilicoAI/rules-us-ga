@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/25-14-8"/>
+          <FRBRuri value="/us-ga/act/ocga/25-14-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/25-14-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/25-14-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/25-14-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/25-14-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_14_8">
+        <num>25-14-8</num>
+        <content>
+          <p>To enforce the provisions of this chapter, the Attorney General and the Commissioner, their duly authorized representatives, and other law enforcement personnel shall be authorized to examine the books, papers, invoices, and other records of any person in possession, control, or occupancy of any premises where cigarettes are placed, stored, sold, or offered for sale, as well as the stock of cigarettes on the premises. Every person in the possession, control, or occupancy of any premises where cigarettes are placed, sold, or offered for sale shall be directed and required to give the Attorney General and the Commissioner, their duly authorized representatives, and other law enforcement personnel the means, facilities, and opportunity for the examinations authorized by this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

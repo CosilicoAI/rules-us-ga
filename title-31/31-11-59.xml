@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-11-59"/>
+          <FRBRuri value="/us-ga/act/ocga/31-11-59"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-11-59/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-11-59/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-11-59/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-11-59/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_11_59">
+        <num>31-11-59</num>
+        <content>
+          <p>Emergency medical technicians, paramedics, and cardiac technicians may render any service which they are authorized to render under Code Sections 31-11-53, 31-11-54, and 31-11-55, respectively, in any hospital. Such services shall not be rendered in lieu of the services of a physician or a registered professional nurse and shall only be rendered in a hospital at the discretion of and after the prior approval by the hospital governing authority on the order of a physician or, if a physician or registered professional nurse is present, at the direction of a physician or registered professional nurse, provided that such hospital has a currently valid permit or conditional permit issued by the department pursuant to Article 1 of Chapter 7 of this title. The provisions of this Code section are cumulative and are not intended to limit the rendering of services by emergency medical technicians, cardiac technicians, and paramedics in any area in which they are already authorized to render such services.</p>
+          <p>(Code 1933, § 88-3112.11, enacted by Ga. L. 1979, p. 1017, § 1; Ga. L. 1983, p. 694, § 1; Ga. L. 1988, p. 1923, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

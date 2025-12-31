@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-3-2"/>
+          <FRBRuri value="/us-ga/act/ocga/32-3-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-3-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-3-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-3-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-3-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_3_2">
+        <num>32-3-2</num>
+        <content>
+          <p>All acquisition of property or interests for public road and other transportation purposes shall proceed under the methods set out in this article and in Title 22. Any instrument which conveys such property or interest to or any order and judgment which vests such property or interest in a state agency, county, or municipality shall be recorded in the name of the agency, county, or municipality in each county wherein the property or interest may lie, notwithstanding Code Section 50-16-3. In the case of property or interests acquired by the department, the instrument or order and judgment shall also be kept in the records of the department. Article 1 of Chapter 6 of Title 48 shall not apply to property or interests acquired under the authority of this article.</p>
+          <p>(Code 1933, § 95A-602, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-990"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-990"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-990/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-990/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-990/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-990/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_990">
+        <num>20-2-990</num>
+        <content>
+          <p>The General Assembly finds that an urgent crisis confronts public education in Georgia. Evolving constitutional principles established by recent judicial decisions impose increased burdens upon school administrators and boards of education and subject them to personal liability under judicial doctrines so unsettled as to render it difficult to predict the legality of actions in advance. Consequently, responsible and competent persons declined to accept appointment and employment, with resulting detriment to public administration. This crisis has become so grave that immediate relief is essential to quality education, and the purchase of protection through liability insurance and contracts of indemnity, and the defense of civil and criminal actions at public expense, as part of the public compensation paid to such officials and employees, offers the only feasible solution. Therefore, the General Assembly finds that the expenditure of public funds for such purposes in these circumstances is for educational purposes and in furtherance of the support and maintenance of public schools and public education.</p>
+          <p>(Ga. L. 1973, p. 1267, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

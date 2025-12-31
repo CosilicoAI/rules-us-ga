@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-10A-18"/>
+          <FRBRuri value="/us-ga/act/ocga/43-10A-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-10A-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-10A-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-10A-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-10A-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_10A_18">
+        <num>43-10A-18</num>
+        <content>
+          <p>Whenever it shall appear to the board that any person is or has been violating any provisions of this article or any of the lawful rules, regulations, or orders of the board, the board, the division director, or the appropriate district attorney may file a petition for injunction in the proper superior court of this state against such person for the purpose of enjoining any such violation. It shall not be necessary to allege or prove that there is no adequate remedy at law. The right of injunction provided for in this Code section shall be in addition to any other legal remedy available, including but not limited to any right of criminal prosecution provided by law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

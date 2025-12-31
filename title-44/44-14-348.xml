@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-348"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-348"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-348/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-348/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-348/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-348/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_348">
+        <num>44-14-348</num>
+        <content>
+          <p>Any person who sells or otherwise disposes of crops upon which there is a lien for rent and advances, before the payment of the rent and advances, without the consent of and with intent to defraud the lienor or assignee of the lien, where loss is thereby sustained by the lienor or assignee of the lien, shall be guilty of a misdemeanor.</p>
+          <p>(Ga. L. 1871-72, p. 71, §§ 1, 2; Code 1873, § 4600; Ga. L. 1875, p. 26, § 1; Ga. L. 1876, p. 114, § 1; Code 1882, § 4600; Penal Code 1895, § 671; Penal Code 1910, § 721; Code 1933, § 61-9903.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

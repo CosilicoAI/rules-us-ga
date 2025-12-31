@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-6-13"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-6-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-6-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-6-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_6_13">
+        <num>45-6-13</num>
+        <content>
+          <p>Upon failure to deliver any books, papers, or other office property after demand has been made by the incoming officer, the retiring judicial or ministerial officer shall be liable for three times the initial cost of such books, papers, or other office property, to be retained out of his salary, if a salaried officer, or if not a salaried officer and the said amount has not been retained, he shall be subject to action and recovery by his successor in the name of the state.</p>
+          <p>(Orig. Code 1863, § 171; Code 1868, § 166; Code 1873, § 177; Code 1882, § 177; Civil Code 1895, § 274; Civil Code 1910, § 309; Code 1933, § 89-607.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

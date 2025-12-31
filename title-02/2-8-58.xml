@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-8-58"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-58"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-8-58/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-58/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-8-58/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-8-58/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_8_58">
+        <num>2-8-58</num>
+        <content>
+          <p>Any persons who handle funds under this article shall be bonded with good and sufficient surety in an amount determined by the commission for the accounting of any and all funds coming into their hands. All checks, drafts, and negotiable instruments which are drawn on or payable from the funds of the Agricultural Commodity Commission for Peanuts shall be signed by either the chairman or treasurer of the commission. It shall be the duty of the commission to elect annually a treasurer from among the membership of the commission. The treasurer shall have such powers and perform such duties as shall be provided by the commission.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

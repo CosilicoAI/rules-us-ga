@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-21-6"/>
+          <FRBRuri value="/us-ga/act/ocga/45-21-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-21-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-21-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-21-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-21-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_21_6">
+        <num>45-21-6</num>
+        <content>
+          <p>The commissioner shall make any further investigation deemed appropriate with respect to any suggestion or idea whether or not reported by the appointing authorities and shall report his or her findings and recommendations to the board. Subject to any rules adopted under this chapter, the board shall make the final determination as to what action will be taken on awards for employee suggestions or ideas including what, if anything, shall be awarded to an employee.</p>
+          <p>(Ga. L. 1957, p. 336, § 7; Ga. L. 1972, p. 914, § 1; Ga. L. 2000, p. 1377, § 6; Ga. L. 2001, p. 500, § 1; Ga. L. 2006, p. 760, § 1/SB 472.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

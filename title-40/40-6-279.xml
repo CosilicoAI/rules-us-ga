@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-279"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-279"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-279/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-279/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-279/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-279/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_279">
+        <num>40-6-279</num>
+        <content>
+          <p>Notwithstanding the provisions of this chapter to the contrary, when an accident involves a fully autonomous vehicle with the automated driving system engaged, the requirements of subsection (a) of Code Sections 40-6-270, 40-6-271, 40-6-272, 40-6-273, and 40-6-273.1 shall be deemed satisfied if such fully autonomous vehicle remains on the scene of such accident as required by law and such fully autonomous vehicle or operator promptly contacts a local law enforcement agency and communicates the information required by this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

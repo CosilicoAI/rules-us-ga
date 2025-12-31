@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-7-11"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-7-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-7-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_7_11">
+        <num>44-7-11</num>
+        <content>
+          <p>The tenant has no rights beyond the use of the land and tenements rented to him and such privileges as are necessary for the enjoyment of his use. He may not cut or destroy growing trees, remove permanent fixtures, or otherwise injure the property. He may use dead or fallen timber for firewood and the pasturage for his cattle.</p>
+          <p>(Orig. Code 1863, § 2263; Code 1868, § 2255; Code 1873, § 2281; Code 1882, § 2281; Civil Code 1895, § 3119; Civil Code 1910, § 3695; Code 1933, § 61-109.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

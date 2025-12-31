@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-45"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-45"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-45/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-45/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-9A-45/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-9A-45/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_9A_45">
+        <num>14-9A-45</num>
+        <content>
+          <p>Where there are several limited partners, the members may agree that one or more of the limited partners shall have a priority over other limited partners as to the return of their contributions, as to their compensation by way of income, or as to any other matter. If such an agreement is made, it shall be stated in the certificate required under Code Section 14-9A-20, and in the absence of such a statement all the limited partners shall stand upon equal footing.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-6-8"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-6-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-6-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-6-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_6_8">
+        <num>52-6-8</num>
+        <content>
+          <p>The commissioners shall preserve in a neatly bound book a record of all their acts and of all the rules and regulations adopted by them for the direction and government of pilots. The commissioners shall designate one of their number as chairperson and cause a record thereof to be made. The commissioners shall also preserve upon their records a list of the names of all persons appointed pilots by them, as well as a list of the names of those whose licenses have been suspended or revoked or who have been retired. All persons interested shall have access to and be permitted to have duplicates of such records.</p>
+          <p>(Orig. Code 1863, §§ 1473, 1474; Code 1868, §§ 1530, 1531; Code 1873, §§ 1524, 1525; Code 1882, §§ 1524, 1525; Civil Code 1895, §§ 1672, 1673; Civil Code 1910, §§ 1918, 1919; Code 1933, §§ 80-112, 80-113; Ga. L. 1945, p. 279, §§ 22, 23; Ga. L. 2011, p. 99, § 96/HB 24.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

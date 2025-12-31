@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-235"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-235"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-235/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-235/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-235/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-235/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_235">
+        <num>44-2-235</num>
+        <content>
+          <p>When registering a certificate of title upon a transfer, the clerk shall bring forward and appropriately enter on the new certificate of title all entries and notations appearing on the certificate from which the transfer is made, except such as shall have been canceled. In transcribing entries brought forward, the clerk will note under the column headed "Remarks" against such entries the words "Brought forward."</p>
+          <p>(Ga. L. 1917, p. 108, § 100; Code 1933, § 60-616.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

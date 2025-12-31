@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-4-1"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-4-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-4-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-4-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_4_1">
+        <num>45-4-1</num>
+        <content>
+          <p>The bonds of all public officers required by law to give bond, unless otherwise provided, shall be made payable to the Governor and his successor in office. In all cases in which a different condition is not prescribed, such bonds shall be conditioned upon the faithful discharge of the duties of the office by the officer during the time he continues in the office or discharges any of its duties.</p>
+          <p>(Orig. Code 1863, § 143; Code 1868, § 138; Code 1873, § 148; Code 1882, § 148; Civil Code 1895, § 243; Civil Code 1910, § 278; Code 1933, § 89-402.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

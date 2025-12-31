@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-16-100"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-16-100/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-16-100/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-16-100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_16_100">
+        <num>47-16-100</num>
+        <content>
+          <p>In order for a member to be eligible to receive retirement benefits under this chapter, he must meet the following requirements:</p>
+          <p>(Ga. L. 1963, p. 630, § 17; Ga. L. 1972, p. 705, §§ 1, 3; Ga. L. 1973, p. 892, § 1; Ga. L. 1983, p. 1185, § 4; Ga. L. 1988, p. 352, § 2; Ga. L. 1990, p. 315, § 3; Ga. L. 1994, p. 325, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

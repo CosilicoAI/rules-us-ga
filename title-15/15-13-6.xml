@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-13-6"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-13-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-13-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_13_6">
+        <num>15-13-6</num>
+        <content>
+          <p>If a sheriff or other officer designedly absents himself from his court, the presiding judge or justice, when required by plaintiffs in execution or their attorneys, shall grant a rule absolute against the sheriff or other officer without the notice provided for in Code Section 15-13-4 unless it is proved at such term of the court that the sheriff or other officer, from sickness, is not able to attend the court.</p>
+          <p>(Laws 1841, Cobb's 1851 Digest, p. 579; Code 1863, § 3859; Code 1868, § 3879; Code 1873, § 3955; Code 1882, § 3955; Civil Code 1895, § 4777; Civil Code 1910, § 5349; Code 1933, § 24-212.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

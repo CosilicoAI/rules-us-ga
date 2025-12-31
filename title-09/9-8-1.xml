@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-8-1"/>
+          <FRBRuri value="/us-ga/act/ocga/9-8-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-8-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-8-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-8-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-8-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_8_1">
+        <num>9-8-1</num>
+        <content>
+          <p>When any fund or property is in litigation and the rights of either or both parties cannot otherwise be fully protected or when there is a fund or property having no one to manage it, a receiver of the same may be appointed by the judge of the superior court having jurisdiction thereof.</p>
+          <p>(Ga. L. 1855-56, p. 219, § 2; Code 1863, § 271; Code 1868, § 265; Code 1873, § 274; Code 1882, § 274; Civil Code 1895, § 4900; Civil Code 1910, § 5475; Code 1933, § 55-301.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

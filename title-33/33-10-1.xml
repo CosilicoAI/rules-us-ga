@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-10-1"/>
+          <FRBRuri value="/us-ga/act/ocga/33-10-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-10-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-10-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-10-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-10-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_10_1">
+        <num>33-10-1</num>
+        <content>
+          <p>In any determination of the financial condition of an insurer, there shall be allowed as assets only such assets as are owned by the insurer and which consist of:</p>
+          <p>(Code 1933, § 56-901, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1980, p. 1108, § 2; Ga. L. 1995, p. 481, § 1; Ga. L. 1996, p. 6, § 33; Ga. L. 2008, p. 469, § 1/SB 347; Ga. L. 2013, p. 690, § 21/SB 185; Ga. L. 2019, p. 869, § 1/HB 277.)</p>
+          <p>The 2019 amendment,
+      effective July 1, 2019, inserted "a" preceding "trust company" in paragraph (1); in paragraph (3), deleted ", as such term is defined in Code Section 11-9-102," following "software" near the middle and substituted "$7.5 million" for "$7,500,000.00"; added paragraph (4); redesignated former paragraphs (4) through (13) as present paragraphs (5) through (14), respectively; and substituted "the Commissioner" for "him" at the end of paragraph (12).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-10-82"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-82"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-10-82/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-82/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-10-82/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-10-82/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_10_82">
+        <num>15-10-82</num>
+        <content>
+          <p>For hearing an application for an arrest or search warrant or deposit account fraud citation, the fee charged shall not exceed $20.00, but this fee may be waived by the issuing magistrate if he or she finds that because of the financial circumstances of the party applying for the warrant or citation or for other reasons this fee should not be charged in justice, provided that no fee shall be assessed against the alleged victim of a violation of Code Section 16-5-90, 16-5-91, 16-6-1, 16-6-2, 16-6-3, 16-6-4, 16-6-5.1, 16-6-22.1, or 16-6-22.2 or against the alleged victim of any domestic violence offense for costs associated with the filing of criminal charges against the stalking offender, sexual offender, or domestic violence offender or for the issuance or service of a warrant, protective order, or witness subpoena arising from the incident of stalking, sexual assault, or domestic violence.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

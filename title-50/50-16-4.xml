@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-16-4"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-16-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-16-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-16-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_16_4">
+        <num>50-16-4</num>
+        <content>
+          <p>The use of the capitol building and grounds shall be limited to departments of the state government and to state and national political organizations, and the keeper of public buildings and grounds shall not grant the use of either the capitol buildings or grounds for any other purposes, except that the Georgia Building Authority as keeper of public buildings and grounds is authorized to provide space in the capitol building for use as a vending stand, as described by Article 2 of Chapter 9 of Title 49, for the use of state officials and employees and their invited guests.</p>
+          <p>(Ga. L. 1882-83, p. 18, §§ 1-16; Ga. L. 1884-85, p. 27, § 1; Ga. L. 1888, p. 14, §§ 1-3; Ga. L. 1892, p. 95, §§ 1, 2; Civil Code 1895, § 1017; Civil Code 1910, § 1284; Code 1933, § 91-105; Ga. L. 1961, p. 218, § 1; Ga. L. 2000, p. 1137, § 9; Ga. L. 2012, p. 303, § 8/HB 1146.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

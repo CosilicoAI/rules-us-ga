@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-123"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-123"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-123/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-123/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-123/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-123/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_123">
+        <num>10-1-123</num>
+        <content>
+          <p>No person, firm, corporation, or agent or employee of any person, firm, or corporation shall manufacture for sale or offer or expose for sale any flaxseed or linseed oil unless the same shall answer all the chemical tests for purity recognized in the United States Pharmacopoeia or offer or expose for sale any flaxseed or linseed oil as "boiled linseed oil" unless in its manufacture the same shall have been put to a temperature of 225 degrees Fahrenheit.</p>
+          <p>(Ga. L. 1920, p. 225, § 4; Code 1933, § 73-104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

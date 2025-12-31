@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-610"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-610"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-610/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-610/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-610/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-610/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_610">
+        <num>44-14-610</num>
+        <content>
+          <p>No action, whether seeking legal or equitable relief or both, as to real property in this state shall operate as a lis pendens as to any such real property involved therein until there shall have been filed in the office of the clerk of the superior court of the county where the real property is located and shall have been recorded by the clerk in a book to be kept by him for the purpose a notice of the institution of the action containing the names of the parties, the time of the institution of the action, the name of the court in which it is pending, a description of the real property involved, and a statement of the relief sought regarding the property.</p>
+          <p>(Ga. L. 1939, p. 345, § 1; Ga. L. 1982, p. 3, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

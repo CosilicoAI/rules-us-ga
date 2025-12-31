@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-2-55"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-55"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-2-55/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-55/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-2-55/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-55/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_2_55">
+        <num>35-2-55</num>
+        <content>
+          <p>The commissioner is authorized and directed to arrange the work schedules of members of the Uniform Division in such a manner that each member shall be given compensatory time off for each day which he is required to work and which is also a legal state holiday. Such compensatory time off shall be given within 90 days of the holiday involved, except where the day of compensatory time off coincides with an emergency situation, in which case the granting of compensatory time off shall be postponed until such time as the emergency no longer exists.</p>
+          <p>(Ga. L. 1970, p. 849.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

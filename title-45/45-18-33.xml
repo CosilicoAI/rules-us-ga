@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-18-33"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-33"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-18-33/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-33/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-18-33/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-33/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_18_33">
+        <num>45-18-33</num>
+        <content>
+          <p>Notwithstanding any other provision of law to the contrary, in order to carry out the provisions of the deferred compensation plan, the state or any county, municipality, or other political subdivision is authorized to make payments for the purchase of insurance, endowments, annuities, mutual funds, or savings from funds derived from the deferral of compensation. Such payments shall not be construed to be a prohibited use of the general assets of the state, county, municipality, or other political subdivision. The Board of Trustees of the Employees' Retirement System of Georgia or the administrator of the plan shall have the power to arrange for a custodian for the holding of such insurance policies, funds, investments, and other assets of the fund.</p>
+          <p>(Ga. L. 1974, p. 198, § 5; Ga. L. 1981, p. 119, § 1; Ga. L. 2005, p. 134, § 1/HB 275.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

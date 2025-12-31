@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-93"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-93"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-93/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-93/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-93/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-93/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_93">
+        <num>40-2-93</num>
+        <content>
+          <p>All reciprocal agreements entered into by the commissioner while the General Assembly is not in session shall be approved by the Governor. Such agreements shall be submitted by the commissioner to the General Assembly not later than the tenth day of its next session, whereupon the General Assembly may confirm or reject such agreement or agreements by appropriate Act or resolution approved by the Governor. Pending passage and approval of such Act or resolution of confirmation or rejection, the agreement or agreements made during the adjournment of the General Assembly shall be of full force and effect according to their terms.</p>
+          <p>(Ga. L. 1931, p. 7, § 84; Ga. L. 1931, p. 216, §§ 3, 5; Code 1933, §§ 68-218, 68-220; Ga. L. 1990, p. 2048, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

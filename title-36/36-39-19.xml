@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-39-19"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-39-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-39-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-39-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_39_19">
+        <num>36-39-19</num>
+        <content>
+          <p>It shall be the duty of the treasurer, not less than 30 days and not more than 50 days before the maturity of any installment of the assessments, to publish at least one time, in a newspaper having a general circulation in the municipal corporation, a notice advising the owner of the property affected by the assessment of the date when such installment and interest will be due, designating the street or streets or other public places for the improvement of which such assessments have been levied and stating that, unless the installment and interest are promptly paid, proceedings will be taken to collect such installment and interest. In lieu of the publication, the treasurer may mail the notice within the time limits aforesaid to the owners of record of the property affected, at their last known address. The failure of the treasurer or clerk to publish or mail the notice of maturity of any installment of the assessment and interest shall in no wise affect the validity of the assessment and interest and the execution issued therefor.</p>
+          <p>(Ga. L. 1927, p. 321, § 11; Code 1933, § 69-420.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

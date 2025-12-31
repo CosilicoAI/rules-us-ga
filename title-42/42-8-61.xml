@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-8-61"/>
+          <FRBRuri value="/us-ga/act/ocga/42-8-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-8-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-8-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-8-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-8-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_8_61">
+        <num>42-8-61</num>
+        <content>
+          <p>When a defendant is represented by an attorney, his or her attorney shall be responsible for informing the defendant as to his or her eligibility for sentencing as a first offender. When a defendant is pro se, the court shall inquire as to the defendant's interest in entering a plea pursuant to the terms of this article. If the defendant expresses a desire to be sentenced as a first offender, the court shall ask the prosecuting attorney or probation official if the defendant is eligible for sentencing as a first offender. When imposing a sentence, the court shall ensure that, if a defendant is sentenced as a first offender, he or she is made aware of the consequences of entering a first offender plea pursuant to the terms of this article.</p>
+          <p>(Ga. L. 1968, p. 324, § 3; Ga. L. 1982, p. 1807, § 2; Ga. L. 2015, p. 422, § 5-74/HB 310; Ga. L. 2016, p. 443, § 6A-1/SB 367.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted the present provisions of this Code section for the former provisions, which read: "The defendant shall be informed of the terms of this article at the time of imposition of sentence." See Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

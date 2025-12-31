@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-3-299"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-299"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-3-299/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-299/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-3-299/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-3-299/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_3_299">
+        <num>46-3-299</num>
+        <content>
+          <p>Unless otherwise provided by the articles of incorporation or bylaws, any action required by this article to be taken at a meeting of the directors of an electric membership corporation or any action which may be taken at a meeting of the directors or of a committee may be taken without a meeting if written consent setting forth the action so taken is signed by all the directors or by all of the members of the committee, as the case may be, and is filed with the minutes of the proceedings of the board or the committee. Such consent shall have the same force and effect as a unanimous vote and may be stated as such in any articles or document filed with the Secretary of State under this article.</p>
+          <p>(Code 1933, § 34C-610, enacted by Ga. L. 1981, p. 1587, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

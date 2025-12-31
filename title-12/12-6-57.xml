@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-6-57"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-57"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-6-57/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-57/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-6-57/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-6-57/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_6_57">
+        <num>12-6-57</num>
+        <content>
+          <p>The board shall have the authority to refuse to grant a license to an applicant, to revoke the license of a person licensed by the board, or to discipline a person licensed by the board upon a finding by a majority of the board that the licensee or applicant has violated the provisions of Code Section 43-1-19. The board shall have the authority to adopt, by regulation, a code of professional ethics for foresters and thereby define unethical conduct or practice by applicants or licensees of the board for purposes of Code Section 43-1-19.</p>
+          <p>(Ga. L. 1951, p. 581, § 19; Ga. L. 1988, p. 953, § 9; Ga. L. 1998, p. 183, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

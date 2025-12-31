@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-620"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-620"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-620/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-620/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-620/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-620/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_620">
+        <num>7-1-620</num>
+        <content>
+          <p>This part governs the acquisition of banks having banking offices in Georgia by bank holding companies controlling bank subsidiaries having banking offices outside this state. It further governs the acquisition of banks having banking offices outside this state by bank holding companies controlling bank subsidiaries having banking offices in Georgia. It sets forth application, notice, and other related requirements. Acquisitions of banks having banking offices only in Georgia by bank holding companies controlling only bank subsidiaries having banking offices solely in Georgia are governed by the provisions of Code Sections 7-1-605 through 7-1-608.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

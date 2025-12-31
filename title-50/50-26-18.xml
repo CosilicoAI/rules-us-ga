@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-26-18"/>
+          <FRBRuri value="/us-ga/act/ocga/50-26-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-26-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-26-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-26-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-26-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_26_18">
+        <num>50-26-18</num>
+        <content>
+          <p>Without limiting the generality of the findings and intent of the General Assembly or any provision of this chapter, the authority shall facilitate economic development for enterprises throughout the state by means that shall include, without limitation, the issuance of bonds, with or without such credit enhancement as the authority may deem appropriate; the collection of and accumulation of fees and other revenues; the establishment of debt service reserves and sinking funds; and the use of the proceeds from such bonds, funds, and reserves to make loans to enterprises, either directly to such enterprises or indirectly through a financial institution, a political subdivision, or otherwise; to acquire loans made by others to such enterprises; to establish revolving or other funds from which short-term or long-term loans can be made to such businesses; to guarantee the payment of loans or other obligations of such enterprises; and to do all things deemed by the authority to be necessary, convenient, and desirable for and incident to the efficient and proper development and operation of such types of undertakings.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

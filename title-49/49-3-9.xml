@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-3-9"/>
+          <FRBRuri value="/us-ga/act/ocga/49-3-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-3-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-3-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-3-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-3-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_3_9">
+        <num>49-3-9</num>
+        <content>
+          <p>There is established in each region a DFCS Regional Advisory Board. Each regional advisory board shall be composed of at least five members and shall include the director and at least one board member of each county department of family and children services within the region as selected by the DFCS regional director. The DFCS regional director may appoint additional members who are representatives from the categories included in paragraphs (1) through (9) of subsection (a) of Code Section 49-3-2. The purpose of the regional advisory boards shall be to improve communication and coordination between the county departments of family and children services of the counties within the region, to improve and streamline service delivery by the county departments, and to provide for the consistent application of state policy of the Division of Family and Children Services of the department within the county departments within each DFCS region. Each regional advisory board shall meet at least quarterly.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

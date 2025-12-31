@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-40-14"/>
+          <FRBRuri value="/us-ga/act/ocga/33-40-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-40-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-40-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-40-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-40-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_40_14">
+        <num>33-40-14</num>
+        <content>
+          <p>Any purchasing group meeting the criteria established under the provisions of the federal Liability Risk Retention Act of 1986 shall be exempt from any law of this state relating to the creation of groups for the purchase of insurance, prohibition of group purchasing, or any law that would discriminate against a purchasing group or its members. In addition, an insurer shall be exempt from any law of this state which prohibits providing or offering to provide to a purchasing group or its members advantages based on their loss and expense experience not afforded to other persons with respect to rates, policy forms, coverages, or other matters. A purchasing group shall be subject to all other applicable laws of this state.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

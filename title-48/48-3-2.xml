@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-3-2"/>
+          <FRBRuri value="/us-ga/act/ocga/48-3-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-3-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-3-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-3-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-3-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_3_2">
+        <num>48-3-2</num>
+        <content>
+          <p>An execution against an agent of a foreign corporation or other foreign company shall be against the chief agent or his successor and shall authorize the executing officer to levy on all property of the agency and to seize its money, notes, and other effects.</p>
+          <p>(Orig. Code 1863, § 807; Code 1868, § 886; Code 1873, § 883; Code 1882, § 883; Civil Code 1895, § 881; Civil Code 1910, § 1138; Code 1933, § 92-7307; Code 1933, § 91A-305, enacted by Ga. L. 1978, p. 309, § 2.)</p>
+          <p>RESEARCH REFERENCES</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

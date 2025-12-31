@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-9-4"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-9-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-9-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-9-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_9_4">
+        <num>40-9-4</num>
+        <content>
+          <p>This chapter shall not apply with respect to any motor vehicle owned by the United States, the State of Georgia, any political subdivision of this state, or any municipality therein, or any motor carrier required by any other law to file evidence of insurance or other surety. Code Sections 40-9-81, 40-9-7, 40-9-8, and 40-9-12 shall apply as to the operator of such motor vehicles. All provisions of this chapter shall apply to the operator of such motor vehicles while on unofficial business.</p>
+          <p>(Ga. L. 1951, p. 565, § 15; Ga. L. 1956, p. 543, § 19; Ga. L. 1963, p. 593, § 10; Code 1933, § 68C-603, enacted by Ga. L. 1977, p. 1014, § 1; Ga. L. 1994, p. 97, § 40; Ga. L. 2005, p. 334, § 20-1/HB 501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

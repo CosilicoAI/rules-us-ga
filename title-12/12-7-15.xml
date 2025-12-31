@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-7-15"/>
+          <FRBRuri value="/us-ga/act/ocga/12-7-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-7-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-7-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-7-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-7-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_7_15">
+        <num>12-7-15</num>
+        <content>
+          <p>Any person who violates any provision of this chapter, the rules and regulations adopted pursuant to this chapter, or any permit condition or limitation established pursuant to this chapter or who negligently or intentionally fails or refuses to comply with any final or emergency order of the director issued as provided in this chapter shall be liable for a civil penalty not to exceed $2,500.00 per day. For the purpose of enforcing the provisions of this chapter, notwithstanding any provision in any city charter to the contrary, municipal courts shall be authorized to impose a penalty not to exceed $2,500.00 for each violation. Notwithstanding any limitation of law as to penalties which can be assessed for violations of county ordinances, any magistrate court or any other court of competent jurisdiction trying cases brought as violations of this chapter under county ordinances approved under this chapter shall be authorized to impose penalties for such violations not to exceed $2,500.00 for each violation. Each day during which the violation or failure or refusal to comply continues shall be a separate violation.</p>
+          <p>(Ga. L. 1980, p. 942, § 9; Ga. L. 1985, p. 1224, § 2; Ga. L. 1989, p. 1295, § 8; Ga. L. 1994, p. 1650, § 7; Ga. L. 2000, p. 1430, § 4; Ga. L. 2003, p. 224, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

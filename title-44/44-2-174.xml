@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-174"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-174"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-174/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-174/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-174/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-174/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_174">
+        <num>44-2-174</num>
+        <content>
+          <p>Nothing in this article shall prevent any transfer or other dealing with registered land from being attacked in court as having been made for the purpose of hindering, delaying, or defrauding creditors; provided, however, that, upon the trial of the case, the court having jurisdiction finds that the person taking the transfer or the apparent beneficiary of the dealing took the benefit of the same with knowledge of the fact that the intention of the transaction was to hinder, delay, or defraud creditors; and provided, further, that none of the rights of innocent parties shall be affected. If, in the proceeding, the court having jurisdiction of the case finds that any transfer or other dealing with registered land was made for the purpose of hindering, delaying, or defrauding creditors and that the rights of no innocent parties will be prejudiced by the court's judgment or decree, the court may pass such judgment or decree as will void the transfer or the effect of such other transaction as may have been made to hinder, delay, or defraud creditors. Upon the decree or judgment of the court, the judge of the superior court of the county where the land is located, upon application as provided in Code Section 44-2-173, may direct such cancellations and transfers to be entered upon the title register and upon the owner's certificate as shall be necessary to carry the decree or judgment into effect.</p>
+          <p>(Ga. L. 1917, p. 108, § 55; Code 1933, § 60-515.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

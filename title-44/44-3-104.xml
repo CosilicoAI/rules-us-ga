@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-104"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_104">
+        <num>44-3-104</num>
+        <content>
+          <p>If the condominium instruments provide that any member of the board of directors or any officer of the association must be a unit owner, then, notwithstanding paragraph (1) of subsection (a) of Code Section 44-3-75, the term "unit owner" in such context shall, unless the condominium instruments otherwise provide, be deemed to include, without limitation, any shareholder, director, officer, partner in, or trustee of any person who is, either alone or in conjunction with any other person or persons, a unit owner. Any individual who would not be eligible to serve as a member of the board of directors or officer were he not a shareholder, director, officer, partner in, or trustee of such a person shall be deemed to have disqualified himself from continuing in office if he ceases to have any such affiliation with that person.</p>
+          <p>(Ga. L. 1975, p. 609, § 36.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

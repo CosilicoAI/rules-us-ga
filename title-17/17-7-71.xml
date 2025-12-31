@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/17-7-71"/>
+          <FRBRuri value="/us-ga/act/ocga/17-7-71"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/17-7-71/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/17-7-71/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/17-7-71/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/17-7-71/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_7_71">
+        <num>17-7-71</num>
+        <content>
+          <p>IN THE ____________ COURT OF ____________ COUNTY</p>
+          <p>STATE OF GEORGIA</p>
+          <p>On behalf of the people of the State of Georgia, the undersigned, as prosecuting attorney for the county and state aforesaid, does hereby charge and accuse (name of accused) with the offense of ______________; for that the said (name of accused) (state with sufficient certainty the offense and the time and place it occurred) contrary to the laws of this state, the good order, peace, and dignity thereof.
+   /s/ _____________________________________________________________
+   (District attorney)
+   (Solicitor-general)</p>
+          <p>The undersigned, as prosecuting attorney, does further charge and accuse the said (name of accused) with the offense of ______________ (the offense as before); for that the said (name of accused) (state with sufficient certainty the offense and the time and place it occurred), contrary to the laws of this state, the good order, peace, and dignity thereof.</p>
+        </content>
+        <subsection eId="sec_17_7_71__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>An accusation substantially complying with the following form shall in all cases be sufficient:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_17_7_71__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>If there should be more than one count, each additional count shall state:</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

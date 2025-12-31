@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-9-251"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-251"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-9-251/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-251/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-9-251/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-251/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_9_251">
+        <num>46-9-251</num>
+        <content>
+          <p>If any railroad company organized or doing business under the laws of this state makes any unjust discrimination in its rates or charges of toll or any compensation for the transportation of passengers or freight of any description, or for the use and transportation of any railroad car upon its road or upon any of the branches thereof, or upon any railroad connected therewith which it has the right, license, or permission to operate, control, or use within this state, that corporation shall be deemed guilty of having violated the provisions of this title, and, upon conviction thereof, shall be subject to the liabilities and penalties provided in Code Sections 46-2-90, 46-2-92, and 46-2-93.</p>
+          <p>(Ga. L. 1878-79, p. 125, § 4; Code 1882, § 719d; Civil Code 1895, § 2188; Civil Code 1910, § 2629; Code 1933, § 93-407.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

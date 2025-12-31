@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-446"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-446"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-446/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-446/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-446/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-446/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_446">
+        <num>10-1-446</num>
+        <content>
+          <p>Any trademark or service mark and its registration under this part shall be assignable with the good will of the business in which the trademark or service mark is used or with that part of the good will of the business connected with the use of and symbolized by the trademark or service mark. Assignment shall be by instruments in writing duly executed and may be recorded with the Secretary of State upon the payment of a fee of $15.00, payable to the Secretary of State, who, upon recording of the assignment, shall issue in the name of the assignee a new certificate for the remainder of the term of the registration or of the last renewal thereof. An assignment of any registration under this part shall be ineffective as against a subsequent purchaser for value without notice unless it is recorded with the Secretary of State prior to the subsequent purchase.</p>
+          <p>(Ga. L. 1952, p. 134, § 11; Ga. L. 1963, p. 463, § 6; Ga. L. 1983, p. 1470, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

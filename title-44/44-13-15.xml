@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-15"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-15"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-15/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-15/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-15/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-15/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_15">
+        <num>44-13-15</num>
+        <content>
+          <p>When any person applies for an exemption of personalty and the personalty sought to be exempted consists of cash in whole or in part, before the cash shall be allowed as an exemption, it shall, under the direction of the judge of the probate court, be invested in such articles of personal property as the applicant may desire; when so invested and returned by schedule with or without other property as required by this article, such property shall constitute the exemption of personalty. In no case shall the allowance of cash without such investment be a valid exemption.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

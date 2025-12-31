@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-4-19"/>
+          <FRBRuri value="/us-ga/act/ocga/43-4-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-4-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-4-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-4-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-4-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_4_19">
+        <num>43-4-19</num>
+        <content>
+          <p>As cumulative of any other remedy or criminal prosecution, whenever it appears to the board that any person, firm, sole proprietorship, partnership, limited liability company, or corporation is or has been violating any of the provisions of this article, or the lawful rules, regulations, or orders of the board, or any of the laws of this state relating to the practice of architecture, the board, on its own motion, may bring an action in its own name in the superior courts of this state alleging the facts and praying for a temporary restraining order and an injunction against such person, firm, sole proprietorship, partnership, limited liability company, or corporation, restraining him, her, or it from violating such law, order, rule, or regulation. Upon proof of such facts, the court shall issue a restraining order or injunction, or both, without requiring allegation or proof that the petitioner therefor has no adequate remedy at law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

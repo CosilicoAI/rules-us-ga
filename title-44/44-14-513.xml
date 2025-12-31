@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-513"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-513"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-513/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-513/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-513/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-513/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_513">
+        <num>44-14-513</num>
+        <content>
+          <p>Proprietors of planing mills and other similar establishments shall have the same lien as provided in Code Section 44-14-363 for work done on material furnished by others; and, when they furnish material, they shall have the same liens provided for in Code Section 44-14-361 for materialmen. Proprietors of sawmills, when furnishing material for the improvement of real estate to purchasers from them for that purpose, shall be entitled to the lien provided for in Code Section 44-14-361, said lien to be governed by the rules laid down in Code Section 44-14-361 when the same are applicable.</p>
+          <p>(Ga. L. 1873, p. 42, § 10; Code 1873, § 1983; Code 1882, § 1983; Civil Code 1895, § 2807; Civil Code 1910, § 3356; Code 1933, § 67-2204.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

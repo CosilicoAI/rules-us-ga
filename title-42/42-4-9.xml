@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-4-9"/>
+          <FRBRuri value="/us-ga/act/ocga/42-4-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-4-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-4-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-4-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-4-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_4_9">
+        <num>42-4-9</num>
+        <content>
+          <p>The keeper of a county jail may decline to receive a person from the custody of anyone acting under the authority of the United States government. He may receive the person if the consent of the authority having control of county matters is first obtained. If the keeper receives the person he shall have the same duties and responsibilities toward him as in the case of inmates committed under the authority of this state.</p>
+          <p>(Orig. Code 1863, § 334; Code 1868, § 395; Code 1873, § 359; Code 1882, § 359; Ga. L. 1889, p. 47, § 2; Penal Code 1895, § 1123; Penal Code 1910, § 1152; Code 1933, § 77-106.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

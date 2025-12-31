@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-158"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-158"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-158/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-158/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-158/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-158/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_158">
+        <num>20-2-158</num>
+        <content>
+          <p>A local unit of administration shall be authorized to contract for school psychology services with an individual certified by the Professional Standards Commission in school psychology. The certified individual shall be authorized to practice school psychology for the local unit of administration notwithstanding any contrary provision contained in Chapter 39 of Title 43 which requires such individual to be licensed thereunder.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

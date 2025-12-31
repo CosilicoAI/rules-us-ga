@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/51-12-10"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/51-12-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/51-12-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/51-12-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_12_10">
+        <num>51-12-10</num>
+        <content>
+          <p>When a tort is committed, a contract is broken, or a duty is omitted with knowledge and for the purpose of depriving the plaintiff of certain contemplated benefits, the remote damages occasioned thereby become a proper subject for the consideration of the jury.</p>
+          <p>(Orig. Code 1863, § 3006; Code 1868, § 3019; Code 1873, § 3074; Code 1882, § 3074; Civil Code 1895, § 3914; Civil Code 1910, § 4511; Code 1933, § 105-2010.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-40-3"/>
+          <FRBRuri value="/us-ga/act/ocga/50-40-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-40-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-40-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-40-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-40-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_40_3">
+        <num>50-40-3</num>
+        <content>
+          <p>All information provided by a broadband services provider pursuant to this chapter shall be presumed to be confidential, proprietary, a trade secret as such term is defined in Code Section 10-1-761, and subject to exemption from disclosure under state and federal law and shall not be subject to disclosure under Article 4 of Chapter 18 of this title, except in the form of a map where information that could be used to determine provider-specific information about the network of the broadband services provider is not disclosed. Except as otherwise provided in this chapter, such provider-specific information shall not be released to any person other than to the submitting broadband services provider, the Department of Community Affairs or the Georgia Technology Authority, agents designated to assist in developing the map provided for in Article 2 of this chapter, employees of the Department of Community Affairs or the Georgia Technology Authority, and attorneys employed by or under contract with the Department of Community Affairs or the Georgia Technology Authority without express permission of the submitting broadband services provider. Such information shall be used solely for the purposes stated under this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

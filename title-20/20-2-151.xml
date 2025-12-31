@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-151"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-151"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-151/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-151/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-151/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-151/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_151">
+        <num>20-2-151</num>
+        <content>
+          <p>For the purpose of earning Carnegie unit curriculum credits at the high school level, satisfactory completion, on or after January 1, 1999, of a driver education course in a driver training school and under the instruction of a driver training instructor licensed by the department under Chapter 13 of Title 43, "The Driver Training School and Commercial Driver Training School License Act," may be accepted by the State Board of Education for one-half unit of elective credit for any student.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

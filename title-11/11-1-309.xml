@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-1-309"/>
+          <FRBRuri value="/us-ga/act/ocga/11-1-309"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-1-309/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-1-309/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-1-309/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-1-309/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_1_309">
+        <num>11-1-309</num>
+        <content>
+          <p>A term providing that one party or that party's successor in interest may accelerate payment or performance or require collateral or additional collateral "at will" or when the party "deems itself insecure" or words of similar import shall be construed to mean that the party shall have power to do so only if that party in good faith believes that the prospect of payment or performance is impaired. The burden of establishing lack of good faith is on the party against whom the power has been exercised.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

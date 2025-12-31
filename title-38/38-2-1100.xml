@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1100"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1100/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-1100/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-1100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_1100">
+        <num>38-2-1100</num>
+        <content>
+          <p>Any person subject to this article who compels or attempts to compel a commander, an individual in command of the National Guard of another state, or an individual in command of a vessel, aircraft, or other military property or of any body of members of the armed forces, to give it up to an enemy or to abandon it, or who strikes the colors or flag to an enemy without proper authority, shall be punished as a court-martial may direct.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

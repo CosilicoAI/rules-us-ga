@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-9-50"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-50"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-9-50/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-50/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-9-50/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-9-50/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_9_50">
+        <num>44-9-50</num>
+        <content>
+          <p>When a private way becomes established, it shall be entered on and fully described on the official minutes of the county commission and the road deed file; and the owner thereof shall be entitled to be protected in the use of the same as a public road.</p>
+          <p>(Orig. Code 1863, § 699; Code 1868, § 761; Code 1873, § 727; Code 1882, § 727; Civil Code 1895, § 668; Civil Code 1910, § 814; Code 1933, § 83-108.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

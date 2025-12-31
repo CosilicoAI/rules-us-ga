@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-124"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-124"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-124/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-124/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-124/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-124/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_124">
+        <num>44-2-124</num>
+        <content>
+          <p>If a clerk of the superior court is disqualified by reason of relationship, interest, or any other cause or in case of the death or other disability of the clerk to act in any matter arising under this article, the duties required of the clerk may be performed either by the judge of the probate court of the county or by a special clerk appointed by the judge for that purpose. The entry of the appointment of the special clerk and of the purpose for which he is appointed shall be entered and recorded upon the minutes of the court.</p>
+          <p>(Ga. L. 1917, p. 108, § 69; Code 1933, § 60-414.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

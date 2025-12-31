@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-14-62"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-14-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-14-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_14_62">
+        <num>33-14-62</num>
+        <content>
+          <p>A domestic mutual insurer formed after January 1, 1961, after being authorized to transact one kind of insurance shall be authorized by the Commissioner to transact such additional kinds of insurance as are permitted under Code Section 33-3-5, while otherwise in compliance with this title and while maintaining unimpaired surplus funds in an amount not less than the amount of paid-in capital stock required of a domestic stock insurer transacting like kinds of insurance, subject further to the additional expendable surplus requirements of this title applicable to such a stock insurer.</p>
+          <p>(Code 1933, § 56-1517, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

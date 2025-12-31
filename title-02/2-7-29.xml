@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-7-29"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-29"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-7-29/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-29/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-7-29/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-29/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_7_29">
+        <num>2-7-29</num>
+        <content>
+          <p>The Commissioner may enforce this article and the rules and regulations made pursuant hereto by injunction in the proper court as well as by criminal proceedings. It shall be the duty of the prosecuting attorneys of all courts to represent the Commissioner when called upon to do so. In the discharge of his duties and in the enforcement of the powers delegated in this article, the Commissioner may issue subpoenas for the production of evidence, require production of books and papers, administer oaths, and subpoena and hear witnesses. To this end, it is made the duty of the various sheriffs throughout this state to serve all subpoenas and other papers upon the request of the Commissioner.</p>
+          <p>(Ga. L. 1937, p. 659, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/28-5-84"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-84"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/28-5-84/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-84/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/28-5-84/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/28-5-84/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28_5_84">
+        <num>28-5-84</num>
+        <content>
+          <p>No resolution provided for in this part shall be passed without being presented to the board. The board is prohibited from considering any resolution unless notice of claim is filed within the time provided for in Code Section 28-5-80, unless the resolution is introduced within the time limitations specified in Code Section 28-5-80, and unless the information required by the board is filed within the time limitations specified in Code Section 28-5-80. The board shall make no recommendations after the fifteenth day of any regular session.</p>
+          <p>(Ga. L. 1963, p. 624, § 5; Ga. L. 1965, p. 653, § 2; Ga. L. 1974, p. 395, § 2; Ga. L. 2000, p. 1243, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

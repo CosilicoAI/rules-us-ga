@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-11-13"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-11-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-11-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_11_13">
+        <num>33-11-13</num>
+        <content>
+          <p>An insurer may invest in the obligations of any county, any incorporated city, town, or village, any school district, water district, sewer district, road district, or any special district, or any other political subdivision or public authority of any state, territory, or insular possession of the United States, or of the District of Columbia, or of the Canadian cities that have a population of over 25,000 according to the most recent official Census of Canada, which has not defaulted for a period of 120 days in the payment of interest upon, or for a period of more than one year in the payment of principal of, any of its bonds, notes, warrants, certificates of indebtedness, securities, or any other interest-bearing obligation during the five years immediately preceding the acquisition of the investment.</p>
+          <p>(Code 1933, § 56-1012, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1999, p. 592, § 6; Ga. L. 2006, p. 767, § 1/SB 385.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

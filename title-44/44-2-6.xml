@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-6"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_6">
+        <num>44-2-6</num>
+        <content>
+          <p>Every bond for title, bond to reconvey realty, contract to sell or convey realty or any interest therein, and any and all transfers or assignments of realty shall be filed and recorded in the office of the clerk of the superior court of the county where the land referred to in the instrument is located. The filing and recording shall, from the date of filing, be notice of the interest and equity of the holder of the instrument in the property described therein. The filing and recording may be made at any time; but such bond for title, bond to reconvey realty, contract to sell or convey realty or any interest therein, and any transfer or assignment of realty shall lose its priority over deeds, loan deeds, mortgages, bonds for titles, bonds to reconvey realty, contracts to sell or convey realty or any interest therein and any transfer or assignment of realty from the same vendor, obligor, transferor, or assignor which is executed subsequently but filed for record first and is taken without notice of the former instrument.</p>
+          <p>(Ga. L. 1900, p. 68, §§ 1, 2; Civil Code 1910, §§ 4213, 4214; Ga. L. 1921, p. 157, § 2; Code 1933, §§ 29-418, 29-418.1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

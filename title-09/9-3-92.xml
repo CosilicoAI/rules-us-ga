@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-3-92"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-3-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-3-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-3-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_3_92">
+        <num>9-3-92</num>
+        <content>
+          <p>The time between the death of a person and the commencement of representation upon his estate or between the termination of one administration and the commencement of another shall not be counted against his estate in calculating any limitation applicable to the bringing of an action, provided that such time shall not exceed five years. At the expiration of the five years the limitation shall commence, even if the cause of action accrued after the person's death.</p>
+          <p>(Ga. L. 1855-56, p. 235, §§ 21, 40; Code 1863, § 2869; Code 1868, § 2877; Code 1873, § 2928; Code 1882, § 2928; Civil Code 1895, § 3781; Civil Code 1910, § 4376; Code 1933, § 3-803.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

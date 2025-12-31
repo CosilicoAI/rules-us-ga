@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-12-43"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-43"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-12-43/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-43/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-12-43/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-12-43/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_12_43">
+        <num>44-12-43</num>
+        <content>
+          <p>All bailees are required to exercise care and diligence to protect the thing bailed and to keep it safe. Different degrees of diligence are required according to the nature of the bailments.</p>
+          <p>(Orig. Code 1863, § 2033; Code 1868, § 2034; Code 1873, § 2060; Code 1882, § 2060; Civil Code 1895, § 2897; Civil Code 1910, § 3470; Code 1933, § 12-103.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

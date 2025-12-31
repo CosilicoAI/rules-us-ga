@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-224"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-224"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-224/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-224/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-224/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-224/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_224">
+        <num>44-2-224</num>
+        <content>
+          <p>Acknowledgment of service may be made in the following form, provided it is entered on the petition or entitled in the action and is signed in the presence of the judge, the clerk, the examiner, or any other person or official authorized by law to administer oaths, take acknowledgments, or act as a notary public or official witness and is attested by such officer:
+   Due and legal service of the within and foregoing petition for registration is acknowledged. Further service, process, and notice waived, this the ________ day of ________________________, ________.
+   ____________________________________________________________________
+   In the presence of ______________.</p>
+          <p>(Ga. L. 1917, p. 108, § 89; Code 1933, § 60-605; Ga. L. 1945, p. 140, § 1; Ga. L. 1999, p. 81, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

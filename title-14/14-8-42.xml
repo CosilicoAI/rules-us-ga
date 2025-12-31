@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-8-42"/>
+          <FRBRuri value="/us-ga/act/ocga/14-8-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-8-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-8-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-8-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-8-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_8_42">
+        <num>14-8-42</num>
+        <content>
+          <p>When any partner withdraws or dies, and the business is continued under any of the conditions set forth in subsection (a) of Code Section 14-8-41 or paragraph (2) of subsection (b) of Code Section 14-8-38, without any settlement of accounts as between the withdrawn partner or the legal representative of the estate of a deceased partner and the persons or partnership continuing the business, unless otherwise agreed:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-14-79"/>
+          <FRBRuri value="/us-ga/act/ocga/47-14-79"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-14-79/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-14-79/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-14-79/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-14-79/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_14_79">
+        <num>47-14-79</num>
+        <content>
+          <p>A death benefit in the amount of $5,000.00 shall be paid to the designated beneficiary of any member who dies in service. In the absence of a designated beneficiary, such amount shall be paid to the deceased member's estate. For members eligible for a surviving spouse's benefit, such amount shall be in addition to the benefit provided pursuant to Code Section 47-14-72.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

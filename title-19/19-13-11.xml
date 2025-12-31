@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-13-11"/>
+          <FRBRuri value="/us-ga/act/ocga/19-13-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-13-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-13-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-13-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-13-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_13_11">
+        <num>19-13-11</num>
+        <content>
+          <p>In carrying out the purpose of this article, the department shall charge a fee for the consideration of applications for certification of family violence intervention programs and instructors. The amount of this fee shall be established by the commission and shall, as best as the commission shall determine, approximate the expense incurred by the department in consideration of an application. These certifications shall be valid for a period of two years unless suspended or revoked prior to the expiration of that time period.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

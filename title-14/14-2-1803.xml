@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-2-1803"/>
+          <FRBRuri value="/us-ga/act/ocga/14-2-1803"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-2-1803/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-2-1803/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-2-1803/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-2-1803/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_2_1803">
+        <num>14-2-1803</num>
+        <content>
+          <p>The name of a benefit corporation shall satisfy the requirements of Code Section 14-2-401; provided, however, that in lieu of the use of a word or abbreviation as required under paragraph (1) of subsection (a) of Code Section 14-2-401, the phrase "benefit corporation" or "public benefit corporation" or the abbreviation "BC" or "PBC" may be used.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

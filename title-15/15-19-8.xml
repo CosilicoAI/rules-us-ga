@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-19-8"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-19-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-19-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_19_8">
+        <num>15-19-8</num>
+        <content>
+          <p>If it is alleged by a party for whom an attorney appears that the attorney does so without authority, the court, at any stage of the proceedings, if fully satisfied that the allegation is true, may relieve the party for whom the attorney assumed to appear from the consequences of his acts.</p>
+          <p>(Orig. Code 1863, § 385; Code 1868, § 446; Code 1873, § 411; Code 1882, § 411; Civil Code 1895, § 4421; Civil Code 1910, § 4959; Code 1933, § 9-603.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

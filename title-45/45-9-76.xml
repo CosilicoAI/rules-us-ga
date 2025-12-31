@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-9-76"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-76"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-9-76/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-76/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-9-76/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-9-76/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_9_76">
+        <num>45-9-76</num>
+        <content>
+          <p>The Georgia Public School Personnel Indemnification Fund shall consist of revenues derived from the sale of special and distinctive motor vehicle license plates honoring Georgia educators issued prior to June 30, 2010 as provided by paragraph (7) of subsection (l) of Code Section 40-2-86. In addition, the Department of Administrative Services is authorized to accept for deposit in the Georgia Public School Personnel Indemnification Fund any other funds from any other source. All revenue or other funds received by the Georgia Public School Personnel Indemnification Fund shall not lapse.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

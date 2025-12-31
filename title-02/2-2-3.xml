@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-2-3"/>
+          <FRBRuri value="/us-ga/act/ocga/2-2-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-2-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-2-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-2-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-2-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_2_3">
+        <num>2-2-3</num>
+        <content>
+          <p>The term of office of the Commissioner shall be for four years or until his successor is elected and qualified, unless he is removed in the manner prescribed by law for the removal of officers of the state government.</p>
+          <p>(Ga. L. 1874, p. 5, § 7; Code 1882, § 1465g; Ga. L. 1889, p. 63, § 1; Civil Code 1895, § 1790; Civil Code 1910, § 2066; Ga. L. 1927, p. 207, §§ 1, 2; Code 1933, § 5-103; Ga. L. 1935, p. 98, § 1; Ga. L. 1984, p. 1152, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

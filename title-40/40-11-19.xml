@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-11-19"/>
+          <FRBRuri value="/us-ga/act/ocga/40-11-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-11-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-11-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-11-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-11-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_11_19">
+        <num>40-11-19</num>
+        <content>
+          <p>DISCLAIMER OF MOTOR VEHICLE OWNERSHIP INTEREST
+   Georgia, ____________ County
+   I, ________________________ (name of motor vehicle owner) do hereby swear that I disclaim any and all ownership interest in:
+   ________________________ (motor vehicle year, model, and make)
+   ________________________ (vehicle identification number (VIN))
+   ________________________ (vehicle registration number, if available)
+   I understand that by signing this form I will no longer hold any rights to the above listed vehicle and such vehicle may be sold at auction to satisfy a debt related to a lien filed against the vehicle.
+   I further understand that disclaiming an ownership interest in this vehicle does not relieve me of any other debts related to such vehicle, such as a debt entered into for the purchase of such vehicle.
+   By signing this form, I understand that I waive all future notices to which I am entitled under Article 1A of Chapter 11 of Title 40 of the Official Code of Georgia Annotated, "The Abandoned Motor Vehicle Act."
+   ________________________________________
+   Owner signature
+   Sworn to and subscribed in ________________________ County, Georgia,
+   This ________ (date)
+   Before me:
+   ________________________________
+   (Notary public signature, seal, and commission expiration date).
+   If you wish to disclaim ownership, return this completed and notarized form to __________________ (name and address of party owed fees).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

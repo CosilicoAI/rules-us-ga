@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-14-78"/>
+          <FRBRuri value="/us-ga/act/ocga/47-14-78"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-14-78/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-14-78/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-14-78/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-14-78/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_14_78">
+        <num>47-14-78</num>
+        <content>
+          <p>Any member of this retirement system who, prior to becoming a member, served as a clerk of a state court in which the clerk is someone other than the clerk of the superior court shall be entitled to not more than 20 years of creditable service for such prior service. Any such member shall make application to the board in such form and providing such documentation of such prior service as the board deems necessary.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

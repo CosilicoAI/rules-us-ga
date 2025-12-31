@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-11-683"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-683"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-11-683/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-683/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-11-683/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-11-683/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_11_683">
+        <num>15-11-683</num>
+        <content>
+          <p>Notwithstanding Code Sections 15-11-40, 15-11-150, 15-11-152, 15-11-160, 15-11-281, 15-11-424, and 15-11-531, the unemancipated minor or next friend shall be notified of the date, time, and place of the hearing in such proceedings at the time of filing the petition. The hearing shall be held within three days of the date of filing, excluding weekends and legal holidays. The parent, guardian, or legal custodian of the unemancipated minor shall not be served with the petition or with a summons or otherwise notified of the proceeding. If a hearing is not held within the time prescribed in this Code section, the petition shall be deemed granted.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

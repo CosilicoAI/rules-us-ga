@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-30-11"/>
+          <FRBRuri value="/us-ga/act/ocga/33-30-11"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-30-11/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-30-11/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-30-11/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-30-11/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_30_11">
+        <num>33-30-11</num>
+        <content>
+          <p>Chapter 29 of this title shall not apply to group accident and sickness or blanket accident and sickness insurance policies; but, except as otherwise provided in this chapter, no policy of group or blanket accident and sickness insurance shall contain any provision relative to notice or proof of loss, to the time for paying benefits, or to the time within which an action may be brought on the policy, which provision is less favorable to the individuals insured than would be permitted by the comparable provisions required for individual accident and sickness insurance policies.</p>
+          <p>(Code 1933, § 56-3108, enacted by Ga. L. 1960, p. 289, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

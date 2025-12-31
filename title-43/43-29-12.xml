@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-29-12"/>
+          <FRBRuri value="/us-ga/act/ocga/43-29-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-29-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-29-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-29-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-29-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_29_12">
+        <num>43-29-12</num>
+        <content>
+          <p>The board shall refuse to issue its certificate of registration and may revoke its certificate of registration issued to any person who is not of good moral character, who commits an act involving moral turpitude, who is guilty of highly unprofessional conduct, or whose certificate was issued through error, fraud, or perjury, provided that in all such cases the board shall serve written notice of the charges on such accused person at least ten days prior to the date set for hearing, and such person shall be notified to appear before the board to answer the charges at such time and place as the board may direct. Such notice shall plainly set forth the charges made and shall notify the accused person to appear to answer the same. On such hearing, if the charges are found true, the accused having the right to produce witnesses in his behalf and cross-examine those testifying against him, the board shall render judgment against him.</p>
+          <p>(Ga. L. 1956, p. 148, § 15.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

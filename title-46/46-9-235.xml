@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-9-235"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-235"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-9-235/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-235/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-9-235/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-9-235/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_9_235">
+        <num>46-9-235</num>
+        <content>
+          <p>In all cases where its chief officer does not reside in this state, an express company may be served in any proceeding against it by serving a copy of the summons and complaint upon any agent of such company within this state. The judgment obtained in cases so commenced shall bind the property of the defendant as fully as though the summons and complaint had been served on the president or other chief officer.</p>
+          <p>(Ga. L. 1862-63, p. 162, § 1; Ga. L. 1865-66, p. 222, § 1; Code 1868, § 3334; Code 1873, § 3411; Code 1882, § 3411; Civil Code 1895, § 2005; Civil Code 1910, § 2386; Code 1933, § 41-202.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

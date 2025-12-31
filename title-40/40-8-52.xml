@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-8-52"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-52"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-8-52/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-52/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-8-52/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-8-52/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_8_52">
+        <num>40-8-52</num>
+        <content>
+          <p>Every 1966 model motor vehicle and all subsequent model motor vehicles shall be equipped with parking brakes adequate to hold the vehicle on any grade on which it is operated, under all conditions of loading, on a surface free from snow, ice, or loose material. The parking brakes shall be capable of being applied in conformance with the foregoing requirements by the driver's muscular effort or by spring action or by equivalent means. Their operation may be assisted by the service brakes or other source of power, provided that failure of the service brake actuation system or other power assisting mechanism will not prevent the parking brakes from being applied in conformance with the foregoing requirements. The parking brakes shall be so designed that when once applied they shall remain applied with the required effectiveness despite exhaustion of any source of energy or leakage of any kind. The same brake drums, brake shoes and lining assemblies, brake shoe anchors, and mechanical brake shoe actuation mechanism normally associated with the wheel brake assemblies may be used for both the service brakes and the parking brakes. If the means of applying the parking brakes and the service brakes are connected in any way, they shall be so constructed that failure of any one part shall not leave the vehicle without operative brakes.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

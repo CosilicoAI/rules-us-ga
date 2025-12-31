@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/26-3-18"/>
+          <FRBRuri value="/us-ga/act/ocga/26-3-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/26-3-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/26-3-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/26-3-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/26-3-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26_3_18">
+        <num>26-3-18</num>
+        <content>
+          <p>In addition to the remedies provided in this chapter and to provide for more efficient enforcement of this chapter, the State Board of Pharmacy or the director of the Georgia Drugs and Narcotics Agency may ask the Department of Agriculture and the Department of Public Health for assistance; and, in such event, either or both such departments may render such assistance. Any employee or agent of either such department engaged in the rendering of such assistance shall be an authorized agent of the board.</p>
+          <p>(Ga. L. 1961, p. 529, § 16A; Code 1933, § 79A-1016, enacted by Ga. L. 1967, p. 296, § 1; Ga. L. 1977, p. 625, § 1; Ga. L. 2009, p. 453, § 1-4/HB 228; Ga. L. 2011, p. 705, § 6-3/HB 214.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-4-143"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-143"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-4-143/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-143/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-4-143/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-4-143/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_4_143">
+        <num>10-4-143</num>
+        <content>
+          <p>As a prerequisite to the issuance of a license under this part, each applicant shall furnish evidence to the Commissioner of Agriculture that there is in force an insurance policy against loss or damage by fire and such other perils as are commonly insured against under extended coverage provisions, for its full value, upon the best terms obtainable by individual or reporting form blanket policies on the carry-over tobacco to be received for storage or stored, or both, by him in the year for which the license is sought, either provided by the applicant or the actual storer of the tobacco. The insurance policy shall be written by an insurance company, of the applicant's choice, authorized to transact business in this state or in the state where the tobacco is stored. Such insurance policy shall be effective for the entire storage period and shall be approved in form by the Commissioner of Insurance. A copy of the insurance policy shall be filed with the Commissioner of Agriculture.</p>
+          <p>(Ga. L. 1975, p. 1263, § 3; Ga. L. 1989, p. 14, § 10.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

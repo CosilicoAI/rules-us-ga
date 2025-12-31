@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-25-4"/>
+          <FRBRuri value="/us-ga/act/ocga/43-25-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-25-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-25-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-25-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-25-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_25_4">
+        <num>43-25-4</num>
+        <content>
+          <p>No license for operating or conducting a motor vehicle racetrack shall be issued by the Safety Fire Commissioner until the applicant has complied with the rules and regulations of the Safety Fire Commissioner pursuant to Code Section 43-25-8 and has a valid public liability insurance policy with minimum limits of $1 million per accident and $100,000.00 per person per accident, or $1 million combined single limit, or in lieu thereof a valid public liability bond in like amount. The policy or bond shall be designed to provide coverage for the protection of the licensee from any legal liability arising out of bodily injury, including death, to any member of the general public, resulting from any racing event. The insurance policy or bond shall not be designed to provide coverage for bodily injuries or death of drivers of motor vehicles which are engaged in any race, any pit area personnel, or any person who is involved in the conduct of a race. The policy or bond shall be written by a company which is licensed to do business in this state or which is considered to be acceptable by the Safety Fire Commissioner.</p>
+          <p>(Ga. L. 1969, p. 870, § 2; Ga. L. 1971, p. 562, § 1; Ga. L. 1993, p. 725, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

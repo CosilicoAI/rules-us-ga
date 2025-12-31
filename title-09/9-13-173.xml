@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-173"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-173"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-173/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-173/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-173/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-173/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_173">
+        <num>9-13-173</num>
+        <content>
+          <p>A sale regularly made by virtue of judicial process issuing from a court of competent jurisdiction shall convey the title as effectually as if the sale were made by the person against whom the process was issued.</p>
+          <p>(Orig. Code 1863, § 2575; Code 1868, § 2577; Code 1873, § 2619; Code 1882, § 2619; Civil Code 1895, § 5446; Civil Code 1910, § 6051; Code 1933, § 39-1303.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

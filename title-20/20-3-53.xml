@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-53"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_53">
+        <num>20-3-53</num>
+        <content>
+          <p>All appropriations for the use of any or all institutions in the university system shall be paid to the board of regents in a lump sum, with the power and authority in said board to allocate or distribute them among the institutions under its control in such a way and manner and in such amount or amounts as will further an efficient and economical administration of the system.</p>
+          <p>(Ga. L. 1933, p. 61, § 1; Code 1933, § 32-116.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

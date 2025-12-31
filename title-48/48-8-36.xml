@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-36"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-36"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-36/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-36/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-36/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-36/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_36">
+        <num>48-8-36</num>
+        <content>
+          <p>No person engaged in making retail sales shall advertise or represent to the public in any manner directly or indirectly that he or she will absorb all or any part of the tax or that he or she will relieve the purchaser of the payment of all or any part of the tax imposed by this article unless:</p>
+          <p>(Ga. L. 1951, p. 360, § 12; Ga. L. 1960, p. 153, § 5; Code 1933, § 91A-4514, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 2012, p. 954, § 1/SB 332.)</p>
+          <p>OPINIONS OF THE ATTORNEY GENERAL</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

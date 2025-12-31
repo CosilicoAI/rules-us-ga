@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-817"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-817"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-817/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-817/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-817/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-817/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_817">
+        <num>7-1-817</num>
+        <content>
+          <p>Any sums in a joint account may be paid, on request, to any party without regard to whether any other party is incapacitated or deceased at the time the payment is demanded; but payment may not be made to the personal representative or heirs of a deceased party unless proof of death is presented to the financial institution showing that the decedent was the last surviving party or unless there is no right of survivorship under Code Section 7-1-813.</p>
+          <p>(Code 1933, § 41A-3808, enacted by Ga. L. 1976, p. 1388, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

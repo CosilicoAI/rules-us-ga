@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-6-278"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-278"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-6-278/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-278/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-6-278/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-6-278/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_6_278">
+        <num>40-6-278</num>
+        <content>
+          <p>The commissioner of transportation shall prescribe, by rule, uniform motor vehicle accident reports and reporting procedures which shall be used by all police officers, whether state, county, or municipal. The rules shall be adopted in accordance with Chapter 13 of Title 50, the "Georgia Administrative Procedure Act." The rules may require one type of report and reporting procedure for motor vehicle accidents in which property damage alone is involved and another type of report and reporting procedure for motor vehicle accidents involving personal injury or death. The commissioner may, by rule, require additional investigation or reports in case of serious bodily injury or death.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

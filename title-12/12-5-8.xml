@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-8"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_8">
+        <num>12-5-8</num>
+        <content>
+          <p>Not later than June 30, 2009, the board shall adopt new rules and regulations relating to drought management consistent with this chapter and any state-wide water management plan under Article 8 of this chapter. Such rules and regulations shall include but not be limited to provisions for a drought response committee; drought indicators and triggers; a drought declaration process; and state and local predrought mitigation strategies and drought response strategies. Such predrought mitigation strategies shall be designed to minimize the potential effects of drought. Such drought response strategies shall be measures or actions to be implemented during various stages of drought. Such rules and regulations shall replace any previous drought management plan adopted by the board and shall be revised from time to time as the board deems appropriate.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-2-281"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-281"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-2-281/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-281/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-2-281/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-2-281/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_2_281">
+        <num>38-2-281</num>
+        <content>
+          <p>It shall be unlawful for the owner or the owner's agent, whatever may be the latter's designation, of any place of amusement or recreation otherwise open to the general public, admission to which is free or otherwise, to refuse admission or exclude any officer or enlisted man of any component of the armed forces of the United States or the organized militia of this state or of any state, territory, or the District of Columbia from the place of amusement or recreation by reason of such officer's or enlisted man's being in uniform. Any owner or agent aforesaid who violates this Code section shall be guilty of a misdemeanor.</p>
+          <p>(Ga. L. 1916, p. 158, § 3; Code 1933, § 86-9911; Ga. L. 1951, p. 311, § 59; Ga. L. 1955, p. 10, § 118.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

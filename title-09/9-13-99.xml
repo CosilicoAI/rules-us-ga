@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-13-99"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-99"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-13-99/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-99/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-13-99/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-13-99/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_13_99">
+        <num>9-13-99</num>
+        <content>
+          <p>Whenever an execution issued from a probate court is levied upon personal property and a claim to the property or an affidavit of illegality is interposed, it shall be the duty of the sheriff or other levying officer to return the same, together with the execution and all the other papers, to the next term of the superior court of the county from which the execution was issued. If the levy has been made upon realty, the execution, with the claim or illegality papers, shall be returned by the levying officer to the next term of the superior court of the county where the land lies and the issue shall be tried as is provided for the trial of claim and illegality cases.</p>
+          <p>(Ga. L. 1876, p. 100, § 1; Code 1882, § 3742a; Civil Code 1895, § 4628; Civil Code 1910, § 5174; Code 1933, § 39-908.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/8-3-104"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/8-3-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/8-3-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/8-3-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_3_104">
+        <num>8-3-104</num>
+        <content>
+          <p>In any suit, action, or proceeding involving the validity or enforcement of or relating to any contract of the regional housing authority, the regional housing authority shall be conclusively deemed to have become created as a public body corporate and politic and to have become established and authorized to transact business and exercise its powers under this part upon proof of the adoption of a resolution by the governing body of each of the counties creating the regional housing authority declaring the need for the regional housing authority. Each such resolution shall be deemed sufficient if it declares that there is need for the regional housing authority and finds in substantially such terms as appear in paragraphs (1) and (2) of subsection (a) of Code Section 8-3-102, no further detail being necessary, that the conditions enumerated in those paragraphs exist.</p>
+          <p>(Ga. L. 1943, p. 146, § 6; Ga. L. 1951, p. 127, § 1; Ga. L. 1959, p. 141, § 1; Ga. L. 1962, p. 734, § 1; Ga. L. 2011, p. 99, § 8/HB 24.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

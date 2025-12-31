@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-6-30"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-30"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-6-30/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-30/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-6-30/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-6-30/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_6_30">
+        <num>5-6-30</num>
+        <content>
+          <p>It is the intention of this article to provide a procedure for taking cases to the Supreme Court and the Court of Appeals, as authorized in Article VI, Sections V and VI of the Constitution of this state; to that end, this article shall be liberally construed so as to bring about a decision on the merits of every case appealed and to avoid dismissal of any case or refusal to consider any points raised therein, except as may be specifically referred to in this article.</p>
+          <p>(Ga. L. 1965, p. 18, § 23; Ga. L. 1983, p. 3, § 47.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

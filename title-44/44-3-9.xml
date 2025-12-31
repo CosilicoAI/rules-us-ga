@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-3-9"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-3-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-3-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-3-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_3_9">
+        <num>44-3-9</num>
+        <content>
+          <p>Except as provided in Code Section 44-3-6, for the purposes of venue for any civil or criminal action under this article, any violation of this article or of any rule, regulation, or order promulgated under this article shall be considered to have been committed in any county in which any act was performed in furtherance of the transaction which violated the article, in the county of any violator's principal place of business, and in any county in which any violator had control or possession of any proceeds of said violation or of any books, records, documents, or other material or objects which were used in furtherance of said violation.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

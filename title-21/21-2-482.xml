@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-2-482"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-482"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-2-482/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-482/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-2-482/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-2-482/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_2_482">
+        <num>21-2-482</num>
+        <content>
+          <p>Ballots in a precinct using optical scanning voting equipment for voting by absentee electors shall be prepared sufficiently in advance by the superintendent and shall be delivered to the board of registrars as provided in Code Section 21-2-384. Such ballots shall be marked "Official Absentee Ballot" and shall be in substantially the form for ballots required by Article 8 of this chapter, except that in counties or municipalities using voting machines, direct recording electronic (DRE) units, or ballot scanners, the ballots may be in substantially the form for the ballot labels required by Article 9 of this chapter or in such form as will allow the ballot to be machine tabulated. Every such ballot shall have printed on the face thereof the following:</p>
+          <p>"I understand that the offer or acceptance of money or any other object of value to vote for any particular candidate, list of candidates, issue, or list of issues included in this election constitutes an act of voter fraud and is a felony under Georgia law."</p>
+          <p>The form for either ballot shall be determined and prescribed by the Secretary of State and shall have printed at the top the name and designation of the precinct.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

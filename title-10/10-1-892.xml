@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-1-892"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-892"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-1-892/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-892/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-1-892/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-1-892/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_1_892">
+        <num>10-1-892</num>
+        <content>
+          <p>A manufacturer who sells a motorized wheelchair to a consumer, either directly or through a motorized wheelchair dealer, shall furnish the consumer with an express written warranty for the motorized wheelchair warranting parts and performance.The duration of the express written warranty shall be not less than one year after first delivery of the motorized wheelchair to the consumer.If a manufacturer fails to furnish an express written warranty as required by this Code section, the motorized wheelchair shall be covered by an express warranty as if the manufacturer had furnished an express written warranty to the consumer as required by this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

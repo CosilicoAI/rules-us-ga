@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-2-225"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-225"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-2-225/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-225/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-2-225/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-2-225/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_2_225">
+        <num>47-2-225</num>
+        <content>
+          <p>Any other provision of this chapter to the contrary notwithstanding, any member who was employed as a narcotics agent pursuant to the provisions of Code Section 35-3-9 prior to becoming a member of the retirement system shall be entitled to obtain creditable service for all such prior service subject to the conditions contained in this Code section. In order to be eligible for such creditable service, the member must make application as prescribed by the board not later than July 1, 1997, or one year after becoming a member of the retirement system, whichever date is later, provide proof of such prior service, and pay the employee contributions which he or she would have paid if he or she had been a member of the retirement system, together with regular interest thereon. Within 30 days after the retirement system gives notice that the foregoing conditions have been met, the Georgia Bureau of Investigation shall pay the employer contributions which would have been paid for the member if he or she had been a member of the retirement system, together with regular interest thereon.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

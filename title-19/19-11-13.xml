@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-11-13"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-11-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-11-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_11_13">
+        <num>19-11-13</num>
+        <content>
+          <p>Whenever the department receives an application for services under this article on behalf of a child born out of wedlock and the child's mother identifies in writing the putative father of the child, the department may make an investigation of the surrounding circumstances and may request that the putative father acknowledge paternity under oath. If the department is unable to secure such an acknowledgment, the department may initiate legal proceedings to establish the paternity of the child, unless the department determines, in accordance with standards prescribed pursuant to the federal Social Security Act, that it is against the best interests of the child to do so.</p>
+          <p>(Ga. L. 1976, p. 1537, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

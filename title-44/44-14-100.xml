@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-100"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-100"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-100/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-100/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-100/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-100/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_100">
+        <num>44-14-100</num>
+        <content>
+          <p>(Ga. L. 1933, p. 128, §§ 1, 2; Code 1933, § 67-1107; Ga. L. 1939, p. 240, §§ 1, 2; Ga. L. 1962, p. 156, § 1; Ga. L. 1963, p. 188, § 39; Ga. L. 2001, p. 362, § 35.)</p>
+          <p>The 2001 amendment,
+      effective July 1, 2001, deleted former subsection (a) which read: "As used in laws relating to security agreements with respect to personal property, the terms 'crops' and 'growing crops' means the fruits and products of all annual or perennial plants, trees, and shrubs and shall also mean crude gum, oleoresin, from a living tree." and redesignated former subsections (b) and (c) as present subsections (a) and (b), respectively.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-10-104"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-104"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-10-104/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-104/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-10-104/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-10-104/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_10_104">
+        <num>2-10-104</num>
+        <content>
+          <p>Each association formed under this article shall prepare an annual report, on forms furnished by the Secretary of State, indicating the name of the association, its principal place of business, and a general statement of its business operations during the fiscal year. If the association is a stock association, the report shall show the amount of capital stock paid up and the number of stockholders. If the association is a nonstock association, the report shall show the number of members and the amount of membership fees received. The report shall also show the total expenses of operation, the amount of indebtedness or liability, and the balance sheets of the association.</p>
+          <p>(Ga. L. 1921, p. 139, § 17; Code 1933, § 65-221.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

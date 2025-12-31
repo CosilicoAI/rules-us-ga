@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-2-155"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-155"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-2-155/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-155/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-2-155/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-2-155/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_2_155">
+        <num>40-2-155</num>
+        <content>
+          <p>The annual license and plate issued for the operation of a vehicle described in paragraph (3), (9), or (10) of subsection (a) of Code Section 40-2-151, except those named in divisions (a)(3)(A)(i), (a)(3)(A)(ii), (a)(3)(A)(iii), (a)(10)(A)(i), (a)(10)(A)(ii), and (a)(10)(A)(iii) of Code Section 40-2-151, may be transferred with the approval of the commissioner from a destroyed or retired motor vehicle to another vehicle upon payment of a transfer fee of $5.00 and upon presentation of an appropriate application for transfer.If the substituted vehicle normally calls for a higher-priced plate than the vehicle displaced, a proportionate additional fee shall be paid for the remainder of the taxable year.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

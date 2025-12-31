@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-21-56"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-56"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-21-56/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-56/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-21-56/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-21-56/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_21_56">
+        <num>15-21-56</num>
+        <content>
+          <p>(Ga. L. 1949, p. 1168, §§ 4-6; Ga. L. 1982, p. 3, § 15; Ga. L. 2015, p. 693, §§ 3-32, 3-33/HB 233.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "fine and bond forfeiture fund" for "fine and forfeiture fund" near the beginning of subsection (a), in the middle of subsection (b), and in the middle of the last sentence of subsection (c);
+   and substituted "fines and bond forfeitures" for "fines and forfeitures" near the end of subsection (c).
+   See editor's note for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

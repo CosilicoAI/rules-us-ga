@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-14-6"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-6"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-14-6/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-6/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-14-6/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-14-6/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_14_6">
+        <num>9-14-6</num>
+        <content>
+          <p>The writ of habeas corpus may be substantially as follows:
+   IN THE __________ COURT OF __________ COUNTY
+   STATE OF GEORGIA
+   A.B.,
+   )
+   Petitioner
+   )
+   )
+   v.
+   )
+   Civil action
+   )
+   C.D.,
+   )
+   File no. __________
+   Respondent
+   )
+   WRIT OF HABEAS CORPUS
+   To C.D.:
+   You are hereby commanded to produce the body of __________, alleged to be illegally detained by you, together with the cause of the detention, before me on the __________ day of __________, ____, at _: _ _.M., then and there to be disposed of as the law directs.
+   Given under my hand and official signature, this __________ day of __________, ____.
+   __________
+   Judge</p>
+          <p>(Orig. Code 1863, § 3913; Code 1868, § 3937; Code 1873, § 4013; Code 1882, § 4013; Penal Code 1895, § 1214; Penal Code 1910, § 1295; Code 1933, § 50-106; Ga. L. 1999, p. 81, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

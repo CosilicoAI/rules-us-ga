@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-26-51"/>
+          <FRBRuri value="/us-ga/act/ocga/43-26-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-26-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-26-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-26-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-26-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_26_51">
+        <num>43-26-51</num>
+        <content>
+          <p>A nurse shall report names of subject individuals to the board if the nurse has reasonable cause to believe that any other nurse has violated any of the grounds for discipline provided for in Code Section 43-26-53. A nurse need not duplicate a report if he or she has reasonable cause to believe that such report has been made to the board. A licensed health care professional shall not be required to report a nurse to the board under this Code section as a result of professional knowledge obtained in the course of the health care professional-patient relationship when the nurse is the patient.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

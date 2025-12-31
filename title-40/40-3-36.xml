@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-3-36"/>
+          <FRBRuri value="/us-ga/act/ocga/40-3-36"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-3-36/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-3-36/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-3-36/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-3-36/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_3_36">
+        <num>40-3-36</num>
+        <content>
+          <p>For any salvage motor vehicle which, after inspection, it is determined that repair to an operable condition does not require replacement of two or more major component parts but it is determined that the damage to the vehicle is a result of flood or fire shall be designated as flood damaged or fire damaged by the commissioner and such designation shall be indicated on the face of the certificate of title for such vehicle.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

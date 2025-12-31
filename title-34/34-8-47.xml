@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-47"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_47">
+        <num>34-8-47</num>
+        <content>
+          <p>For purposes of this chapter, an individual shall be deemed "unemployed" in any week during which the individual performs no services and with respect to which no wages are payable to him or her or in any week of less than full-time work if his or her deductible earnings do not equal or exceed his or her weekly benefit amount. The Commissioner shall prescribe regulations applicable to unemployed individuals and shall make such distinctions in the procedures as to total unemployment, partial unemployment of individuals attached to their regular jobs, temporary employment, and other forms of short-time work as is deemed necessary. An individual compensated solely on a commission basis shall be deemed to be unemployed only upon the termination of his or her contract of employment.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

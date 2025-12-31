@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-11-21"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-11-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-11-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-11-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_11_21">
+        <num>33-11-21</num>
+        <content>
+          <p>An insurer may invest in nonassessable dividend-paying stocks, common or preferred, of any solvent corporation other than a corporation engaged solely in the business of operating real estate or a corporation having substantially all of its assets invested in the shares of such corporation, created or existing under the laws of the United States of America or of any state or of the District of Columbia, provided cash dividends on the common stocks shall have been paid out of current earnings in at least three of the last five years preceding the purchase.</p>
+          <p>(Code 1933, § 56-1020, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 1999, p. 592, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

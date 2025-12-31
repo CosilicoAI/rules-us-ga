@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-5-21"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-5-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-5-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_5_21">
+        <num>42-5-21</num>
+        <content>
+          <p>The department shall provide within the correctional system a Family Violence Counseling Program. The program shall be made available to every person sentenced to the custody of the state who committed an offense which has been identified to involve family violence as such term is defined in Code Section 19-13-1; provided, however, that the provisions of this Code section shall not apply to a person who has been sentenced to the punishment of death or to those deemed mentally incompetent.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

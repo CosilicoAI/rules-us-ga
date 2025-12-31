@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-11-51"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-51"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-11-51/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-51/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-11-51/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-51/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_11_51">
+        <num>43-11-51</num>
+        <content>
+          <p>Any person, firm, partnership, corporation, or other entity who practices dentistry or performs any dental operation under the protection of another's license shall be guilty of a felony and, upon conviction thereof, shall be punished by a fine of not less than $500.00 nor more than $1,000.00 or by imprisonment for not less than two nor more than five years, or both.</p>
+          <p>(Ga. L. 1897, p. 119, § 14; Civil Code 1910, § 1751; Code 1933, § 84-9907; Ga. L. 1999, p. 234, § 20; Ga. L. 2004, p. 720, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

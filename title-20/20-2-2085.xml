@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2085"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2085"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2085/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2085/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2085/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2085/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_2085">
+        <num>20-2-2085</num>
+        <content>
+          <p>A petition may be submitted pursuant to this Code section by an existing charter school approved by a local board of education or the State Board of Education provided that the obligations of its charter with the local board of education or State Board of Education will expire prior to entering into a new charter with the commission. Upon the existing charter school's request, a local board of education or the State Board of Education in the case of a state chartered special school may agree to rescind or waive the obligations of a current charter to allow a petition to be submitted by an existing charter school pursuant to this Code section. An existing charter school that is established as a state charter school pursuant to this Code section shall be allowed to continue the use of all facilities, equipment, and other assets it used prior to the expiration or rescission of its charter with a local board of education; provided, however, that the local board shall be authorized to charge or continue to charge a reasonable fee for use of the facilities.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

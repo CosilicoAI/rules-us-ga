@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-61"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_61">
+        <num>15-9-61</num>
+        <content>
+          <p>The judges of probate courts shall not be required to file any proceedings until the deposit specified in Code Section 15-9-60, relating to court costs of probate courts, has been deposited with the probate judge on account of cost, provided that the deposit shall not be required if the party desiring to file the proceeding is unable because of his indigence to pay the deposit and the party files with the probate court an affidavit to that effect. If the proceeding is dismissed or withdrawn or if the total cost incurred in the proceeding is less than the deposit required by Code Section 15-9-60, any of the sum remaining in the hands of the judge of the probate court shall be repaid. The deposit required to be filed by this Code section shall not affect any Code section or Act of the General Assembly which requires a deposit in excess or in addition to the deposit of cost required by this Code section. Nothing contained in this Code section shall be deemed to require the deposit of cost by the state, its agencies, or its political subdivisions.</p>
+          <p>(Code 1933, § 24-1716.1, enacted by Ga. L. 1978, p. 1939, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

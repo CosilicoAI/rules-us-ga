@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2084"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2084"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2084/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2084/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-2084/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-2084/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_2084">
+        <num>20-2-2084</num>
+        <content>
+          <p>A state charter school shall be authorized, upon the approval of the commission, to enter into a contract with the Department of Juvenile Justice or the Department of Corrections to operate a school and deliver education services to school age children or youth incarcerated within any facility of the Department of Corrections or incarcerated within or committed to the Department of Juvenile Justice. Any children or youth receiving education services through a state charter school in such manner shall be considered students enrolled in and attending the state charter school for purposes of funding pursuant to Code Section 20-2-2089.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

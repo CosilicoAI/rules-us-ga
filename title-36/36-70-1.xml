@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-70-1"/>
+          <FRBRuri value="/us-ga/act/ocga/36-70-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-70-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-70-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-70-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-70-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_70_1">
+        <num>36-70-1</num>
+        <content>
+          <p>The local governments of the State of Georgia are of vital importance to the state and its citizens. The state has an essential public interest in promoting, developing, sustaining, and assisting local governments. In addition, the natural resources, environment, and vital areas of the state are of vital importance to the state and its citizens. The state has an essential public interest in protecting and preserving the natural resources, the environment, and the vital areas of the state. The purpose of this article is to provide for local governments to serve these essential public interests of the state by authorizing and promoting the establishment, implementation, and performance of coordinated and comprehensive planning by municipal governments and county governments, and this article shall be construed liberally to achieve that end. This article is enacted pursuant to the authority granted the General Assembly in the Constitution of the State of Georgia, including, but not limited to, the authority provided in Article III, Section VI, Paragraphs I and II(a)(1) and Article IX, Section II, Paragraphs III and IV.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

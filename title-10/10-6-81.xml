@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-6-81"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-81"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-6-81/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-81/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-6-81/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-6-81/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_6_81">
+        <num>10-6-81</num>
+        <content>
+          <p>If money shall be paid to an agent by mistake and he in good faith shall pay it over to his principal, he shall not thereafter be personally liable therefor. In all other cases he shall be liable for its repayment. If money shall be paid by an agent by mistake, he may recover it in his own name.</p>
+          <p>(Orig. Code 1863, § 2186; Code 1868, § 2182; Code 1873, § 2208; Code 1882, § 2208; Civil Code 1895, § 3036; Civil Code 1910, § 3608; Code 1933, § 4-403.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

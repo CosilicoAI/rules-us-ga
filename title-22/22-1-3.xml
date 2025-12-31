@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/22-1-3"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/22-1-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/22-1-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/22-1-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_1_3">
+        <num>22-1-3</num>
+        <content>
+          <p>It is the province of the General Assembly to determine when the right of eminent domain may be exercised. If, however, under pretext of such necessity the General Assembly should pass a law authorizing the taking of property for private use rather than for public use, the courts should declare the law inoperative.</p>
+          <p>(Orig. Code 1863, § 2202; Code 1868, § 2197; Code 1873, § 2223; Code 1882, § 2223; Civil Code 1895, § 3053; Civil Code 1910, § 3625; Code 1933, § 36-102.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

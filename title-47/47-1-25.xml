@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-1-25"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-25"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-1-25/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-25/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-1-25/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-1-25/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_1_25">
+        <num>47-1-25</num>
+        <content>
+          <p>Within 30 days following the day the board of trustees receives notice that a member of the retirement system has been convicted of a public employment related crime, the board shall initiate proceedings in the Office of State Administrative Hearings, under the provisions of Article 2 of Chapter 13 of Title 50, to determine the economic impact of the public employment related crime. Such matter shall be deemed to be a contested case within the meaning of such article. The Department of Law shall represent the board of trustees in such proceedings. The decision of the administrative law judge shall be final unless appeal is made as otherwise provided by law.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

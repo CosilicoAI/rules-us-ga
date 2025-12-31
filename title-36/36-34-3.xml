@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-34-3"/>
+          <FRBRuri value="/us-ga/act/ocga/36-34-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-34-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-34-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-34-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-34-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_34_3">
+        <num>36-34-3</num>
+        <content>
+          <p>In addition to the other powers it may have, any municipal corporation shall have the power, in the interest of the health and general welfare, to accept by gift, acquire, construct, lease, own, regulate, operate, improve, open, close, or extend public streets, alleys, sidewalks, parks, swimming pools, golf courses, recreation grounds, airports, airfields, parking areas, parking buildings, athletic fields, grandstands and stadia buildings used or useful for sports, buildings used or useful for housing fairs and exhibits, buildings for educational purposes, libraries, buildings used or useful for poultry and livestock shows and exhibits, and buildings used or useful for public amusement purposes, together with facilities or buildings used for any combination of the above. Any municipal corporation may, under this chapter, contract with any other political subdivision for the joint use of any of such facilities.</p>
+          <p>(Ga. L. 1962, p. 140, § 4.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

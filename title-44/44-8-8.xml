@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-8-8"/>
+          <FRBRuri value="/us-ga/act/ocga/44-8-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-8-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-8-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-8-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-8-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_8_8">
+        <num>44-8-8</num>
+        <content>
+          <p>Nothing in Code Sections 44-8-6 and 44-8-7 shall be so construed as to authorize such an exclusive appropriation of any tidewater, navigable or nonnavigable, by any person as will prevent the free use of the same by other persons for the purposes of passage and for the transportation of such freights as may be capable of being carried thereon.</p>
+          <p>(Ga. L. 1902, p. 108, § 3; Civil Code 1910, § 3637; Code 1933, § 85-1309.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

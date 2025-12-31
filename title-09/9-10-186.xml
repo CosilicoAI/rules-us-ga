@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-10-186"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-186"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-10-186/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-186/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-10-186/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-10-186/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_10_186">
+        <num>9-10-186</num>
+        <content>
+          <p>In civil actions, where the burden of proof rests with the plaintiff, the plaintiff is entitled to the opening and concluding arguments except that if the defendant introduces no evidence or admits a prima-facie case, the defendant shall be entitled to open and conclude. In civil actions for personal injuries, the defendant shall be deemed not to have admitted a prima-facie case if such defendant introduces any evidence as to the extent of damages, other than cross-examination of the plaintiff and witnesses called by the plaintiff.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

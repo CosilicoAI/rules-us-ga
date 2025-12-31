@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-14-4"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-14-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-14-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_14_4">
+        <num>40-14-4</num>
+        <content>
+          <p>No state, county, municipal, or campus law enforcement agency may use speed detection devices unless the agency possesses a license in compliance with Federal Communications Commission rules, and unless each device, before being placed in service and annually after being placed in service, is certified for compliance by a technician possessing a certification as required by the Department of Public Safety.</p>
+          <p>(Ga. L. 1978, p. 2254, § 1; Ga. L. 1979, p. 771, § 1; Ga. L. 1988, p. 308, § 1; Ga. L. 1989, p. 586, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/38-3-22"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-22"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/38-3-22/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-22/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/38-3-22/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/38-3-22/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38_3_22">
+        <num>38-3-22</num>
+        <content>
+          <p>If the Governor makes a determination that a memorandum of agreement with one or more of the major military commands established in this state would substantially enhance the education or job placement of Georgians in the area of science, technology, engineering, math, or cyber security, he or she is authorized to enter into such an agreement, provided that any state expenditures provided for in such an agreement shall be subject to appropriations.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

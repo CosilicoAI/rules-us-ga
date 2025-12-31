@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-14-92"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-92"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-14-92/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-92/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-14-92/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-14-92/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_14_92">
+        <num>33-14-92</num>
+        <content>
+          <p>For the purpose of preventing the unfair use of information which may have been obtained by a beneficial owner, director, or officer by reason of his relationship to an insurer, any profit realized by him from any purchase and sale, or any sale and purchase, of any equity security of the insurer within any period of less than six months, unless the security was acquired in good faith in connection with a debt previously contracted, shall inure to and be recoverable by the insurer irrespective of any intention on the part of the beneficial owner, director, or officer in entering into the transaction of holding the security purchased or of not repurchasing the security sold for a period exceeding six months. An action to recover such profit may be instituted in any court of competent jurisdiction by the insurer or by the owner of any security of the insurer in the name and in behalf of the insurer if the insurer shall fail or refuse to bring an action within 60 days after request or shall fail diligently to prosecute the same thereafter; but no action shall be brought more than two years after the date the profit was realized. This Code section shall not be construed to cover any transaction in which the beneficial owner was not such both at the time of the purchase and sale, or the sale and purchase, of the security involved or any transaction or transactions which the Commissioner by rules and regulations may exempt as not comprehended within the purpose of this Code section.</p>
+          <p>(Code 1933, § 56-1602, enacted by Ga. L. 1965, p. 378, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

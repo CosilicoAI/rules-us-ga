@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-9-53"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-53"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-9-53/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-53/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-9-53/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-9-53/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_9_53">
+        <num>10-9-53</num>
+        <content>
+          <p>The authority may, in the resolution providing for the issuance of revenue bonds or in the trust indenture, provide for the payment of the proceeds of the sale of the bonds to any officer or person who shall act as trustee or any agency, bank, or trust company or to the Georgia State Financing and Investment Commission acting under contract with the authority, which officer, person, bank, trust company, or agency shall act as trustee of such funds and shall hold and apply the same to the purposes set forth in or through this article, subject to such regulations as this article and Article 1 of this chapter, or as the resolution or trust indenture, may provide.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

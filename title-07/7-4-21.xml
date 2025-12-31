@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-4-21"/>
+          <FRBRuri value="/us-ga/act/ocga/7-4-21"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-4-21/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-4-21/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-4-21/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-4-21/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_4_21">
+        <num>7-4-21</num>
+        <content>
+          <p>A claim of violation on any loan secured by an interest in real estate may be asserted in an individual action only and may not be the subject of a class action under Code Section 9-11-23 or any other provisions of law.</p>
+          <p>Nothing contained in this Code section shall be construed to affect any class action which was pending in any court of this state, including any United States courts, on February 15, 1983, as to the parties to and subject matter then before such court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/9-6-42"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-42"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/9-6-42/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-42/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/9-6-42/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/9-6-42/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_6_42">
+        <num>9-6-42</num>
+        <content>
+          <p>The writ of prohibition will not lie to the duly inaugurated Governor, but it lies to all other executive or military officers when acting as a judicial or quasi-judicial tribunal.</p>
+          <p>(Orig. Code 1863, § 3134; Code 1868, § 3146; Code 1873, § 3202; Code 1882, § 3202; Civil Code 1895, § 4877; Civil Code 1910, § 5450; Code 1933, § 64-303.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

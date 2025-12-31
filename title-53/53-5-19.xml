@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-5-19"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-5-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-5-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-5-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_5_19">
+        <num>53-5-19</num>
+        <content>
+          <p>Probate in common form shall become conclusive upon all parties in interest four years from the date the order admitting such will to probate in common form is entered by the court in such proceeding, except upon minor heirs who require proof in solemn form and interpose a caveat within four years after reaching the age of majority. In such case, if the will is refused probate in solemn form and no prior will is admitted to probate, an intestacy shall be declared only as to the minor or minors and not as to others whose right to caveat is barred by the lapse of time.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

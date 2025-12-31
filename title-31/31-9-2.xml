@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-9-2"/>
+          <FRBRuri value="/us-ga/act/ocga/31-9-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-9-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-9-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-9-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-9-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_9_2">
+        <num>31-9-2</num>
+        <content>
+          <p>(a.1)In the absence, after reasonable inquiry, of any person authorized in subsection (a) of this Code section to consent for the patient, a hospital or other health care facility or any interested person may initiate proceedings for expedited judicial intervention to appoint a temporary medical consent guardian pursuant to Code Section 29-4-18.</p>
+          <p>(Code 1933, § 88-2904, enacted by Ga. L. 1971, p. 438, § 1; Ga. L. 1972, p. 688, § 1; Ga. L. 1975, p. 704, § 2; Ga. L. 1991, p. 335, § 1; Ga. L. 2001, p. 4, § 31; Ga. L. 2007, p. 133, § 12/HB 24; Ga. L. 2010, p. 852, § 1/SB 367.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

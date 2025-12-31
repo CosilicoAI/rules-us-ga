@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-7-10"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-7-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-7-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-7-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_7_10">
+        <num>31-7-10</num>
+        <content>
+          <p>The department shall (1) certify and approve hospitals applying therefor which may be found to be eligible to render hospital service under any group nonprofit hospital insurance plan, which plan may be approved and become effective, and (2) supervise the services rendered by hospitals operating under such plan, with authority to withdraw approval from any hospital which subsequently may, under rules and regulations of the board, become ineligible for rendering such services, provided that, in fixing rules and regulations in this connection or in enforcing such rules, hospitals interested therein shall be given opportunity to be heard.</p>
+          <p>(Ga. L. 1937, p. 355, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

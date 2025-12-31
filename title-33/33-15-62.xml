@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-15-62"/>
+          <FRBRuri value="/us-ga/act/ocga/33-15-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-15-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-15-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-15-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-15-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_15_62">
+        <num>33-15-62</num>
+        <content>
+          <p>No money or other benefit, charity, relief, or aid to be paid, provided, or rendered by any society shall be liable to attachment, garnishment, or other process or to be seized, taken, appropriated, or applied by any legal or equitable process or operation of law to pay any debt or liability of a member or beneficiary, or any other person who may have a right thereunder, either before or after payment by the society.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

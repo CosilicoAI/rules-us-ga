@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-10-31"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-10-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-10-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_10_31">
+        <num>32-10-31</num>
+        <content>
+          <p>All bonds of the authority shall be sold by public competitive bidding at not less than par plus accrued interest to the date of delivery. However, the authority may obligate itself to deliver any given issue of bonds to the purchasers thereof within any reasonable period of time after the date of sale and may pay as a penalty for delay in such delivery such reasonable sums as may be agreed upon in advance in writing with the purchaser or purchasers of such bonds. All bonds of the authority shall be advertised and offered prior to the fixing of the interest rates thereon, and bids thereon shall be competitive as to the interest rate offered by each bidder, provided that on any issue the authority may make rules limiting the number of divisions into which the bonds of various maturity dates may be divided and limiting the number and percentage spreads of the different interest rates which may be bid to apply to such divisions of the bonds; and provided, further, that the authority may require reasonable security for the performance of the contract of purchase of any successful bidder at any public bidding held.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 626, § 15; Ga. L. 1955, p. 124, § 16; Ga. L. 1961, p. 3, § 5; Ga. L. 1967, p. 385, § 15; Code 1933, § 95A-1215, enacted by Ga. L. 1973, p. 947, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

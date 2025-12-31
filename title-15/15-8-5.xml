@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-8-5"/>
+          <FRBRuri value="/us-ga/act/ocga/15-8-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-8-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-8-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-8-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-8-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_8_5">
+        <num>15-8-5</num>
+        <content>
+          <p>The clerks of the city courts shall each have the power to appoint a deputy clerk and may require from him a bond with good security. The deputy clerks shall take the same oath as the clerks do before entering upon the discharge of their duties; and their powers and duties shall be the same as those of the clerk, for as long as the principal continues in office and not longer. For the faithful performance of their duties the deputy clerks and their securities shall be bound. The appointment of deputy clerks shall be in writing and shall be entered upon the minutes of the court.</p>
+          <p>(Ga. L. 1902, p. 106, §§ 1, 2; Civil Code 1910, § 4829; Code 1933, § 24-2301.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

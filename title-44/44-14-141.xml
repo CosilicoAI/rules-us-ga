@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-141"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-141"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-141/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-141/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-141/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-141/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_141">
+        <num>44-14-141</num>
+        <content>
+          <p>The effect regarding third persons of the filing for record of any of the instruments enumerated in Code Section 44-14-140 may in all respects, including the preservation of priority thereof, be extended for successive additional periods, each period not exceeding five years from the date of the filing in the office of the clerk of the superior court wherein any such instrument is recorded, upon the filing by the owner or holder thereof of an affidavit identifying the instrument and stating his interest and the nature and amount unpaid on the obligation still secured thereby. Where the instrument is made to, held, or owned by a trustee or other representative to secure bonds, notes, or other obligations of the maker of the instrument, the affidavit provided for in this Code section may be made and filed by the trustee or other representative.</p>
+          <p>(Ga. L. 1937, p. 760, § 2; Ga. L. 1943, p. 575, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/40-14-23"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/40-14-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/40-14-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/40-14-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_14_23">
+        <num>40-14-23</num>
+        <content>
+          <p>Each governing authority using traffic-control signal monitoring devices shall erect signs on every highway which comprises a part of the state highway system at that point on the highway which intersects the jurisdictional limits of the governing authority. A sign shall be erected also by such entity on each public road on the approach to the next traffic-control signal for such road when a traffic-control signal monitoring device is monitoring such next signal for such road and signs shall also be erected at any other location required by the Department of Transportation. Such signs shall be of a design specified by the Department of Transportation in accordance with nationally recognized standards.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

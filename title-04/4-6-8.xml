@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/4-6-8"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/4-6-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/4-6-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/4-6-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_6_8">
+        <num>4-6-8</num>
+        <content>
+          <p>Any person affected by any rule or regulation adopted and promulgated by the Commissioner pursuant to any statute conferring such authority upon him, who believes that the Commissioner, in the promulgation of such rules and regulations or in the enforcement thereof, has gone beyond the authority vested in him by law or who believes that the Commissioner has exceeded any power which the legislature of this state under the Constitution of the United States or the Constitution of Georgia conferred upon him, is given the right to protest or object in writing to such rule or regulation or any act done by the Commissioner pursuant to such rule or regulation, as he may believe violates the legal and constitutional authority of the Commissioner, by pointing out in what respect and for what reasons he contends the act, rules, or regulations to be improper or illegal. The Commissioner is required to consider every such objection and afford the aggrieved party opportunity to submit evidence and argument in support of his protest; and if, in his judgment, the protest is in whole or in part well founded, the Commissioner shall take such corrective measures as are necessary to give the aggrieved party relief in every respect from any illegal or unconstitutional requirement. This Code section is expressly made an administrative remedy and every person affected by any rule, regulation, or act of the Commissioner is required to exhaust this remedy before pursuing any other remedy, provided that nothing contained in this chapter shall be construed to deny any applicant for a license any existing right to a review by the court of the Commissioner's action as now provided by law.</p>
+          <p>(Ga. L. 1952, p. 184, § 8; Ga. L. 1983, p. 1161, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

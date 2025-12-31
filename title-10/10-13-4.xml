@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-13-4"/>
+          <FRBRuri value="/us-ga/act/ocga/10-13-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-13-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-13-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-13-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-13-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_13_4">
+        <num>10-13-4</num>
+        <content>
+          <p>The "Master Settlement Agreement" referred to in subsection (e) of Code Section 10-13-1 and other provisions of this chapter has been transmitted by the Attorney General to the Secretary of State and shall be maintained as a permanent record in the office of the Secretary of State, together with the enrolled Act by which this chapter is enacted. The Master Settlement Agreement shall not be published with the Act, but the Secretary of State shall, upon request and payment of copying costs, make a copy or certified copy of such document available to any member of the public.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

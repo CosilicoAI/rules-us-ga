@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/47-14-91"/>
+          <FRBRuri value="/us-ga/act/ocga/47-14-91"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/47-14-91/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/47-14-91/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/47-14-91/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/47-14-91/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47_14_91">
+        <num>47-14-91</num>
+        <content>
+          <p>The right to any pension, allowance, or benefit; the right to the return of contributions; any optional benefit; or any other right accrued or accruing to any person under this chapter; and moneys under this chapter shall be exempt from any tax imposed by any state, county, municipal, or other political subdivision, except as provided in Code Section 48-7-27, and shall be exempt from levy and sale, garnishment, attachment, or any other process. Such funds and benefits shall not be assignable.</p>
+          <p>(Ga. L. 1952, p. 238, § 13; Ga. L. 1968, p. 381, § 1; Ga. L. 2000, p. 1449, § 7.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-403"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-403"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-403/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-403/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-403/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-403/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_403">
+        <num>12-3-403</num>
+        <content>
+          <p>The corporate purpose and the general nature of the business of the authority shall be the acquisition or establishment of projects consistent with but not limited to one or more of the goals specified in paragraph (5) of Code Section 12-6A-2; their maintenance and protection; and their development or restoration. The authority's purpose also shall be to engage in such other activities as it deems appropriate to promote use of any project by means of promoting tourism and educational, entertainment, recreational, athletic, or other events within the state and to promote the use of the educational, historical, cultural, recreational, and natural resources of the state by persons using or visiting any project.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

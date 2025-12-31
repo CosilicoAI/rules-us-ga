@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-16-9"/>
+          <FRBRuri value="/us-ga/act/ocga/33-16-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-16-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-16-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-16-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-16-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_16_9">
+        <num>33-16-9</num>
+        <content>
+          <p>The portion of the bylaws which affects the insuring agreement shall be contained in the policy. Each policy issued by the insurer shall contain a statement of the contingent liability, if any, of its members.</p>
+          <p>(Orig. Code 1863, § 2787; Code 1868, § 2795; Code 1873, § 2837; Code 1882, § 2837; Civil Code 1895, § 2135; Civil Code 1910, § 2530; Code 1933, § 56-1403; Code 1933, § 56-2009, enacted by Ga. L. 1960, p. 289, § 1; Ga. L. 2012, p. 1040, § 1/SB 203.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

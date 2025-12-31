@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-4-4"/>
+          <FRBRuri value="/us-ga/act/ocga/36-4-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-4-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-4-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-4-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-4-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_4_4">
+        <num>36-4-4</num>
+        <content>
+          <p>The certificate of the Secretary of State showing that the election was held and that two-thirds of the qualified voters voting at the election voted in favor of removal shall be sufficient evidence of the holding of the election and of the number of votes cast.</p>
+          <p>(Ga. L. 1878-79, p. 44, § 4; Code 1882, § 508aa; Civil Code 1895, § 394; Civil Code 1910, § 489; Ga. L. 1911, p. 54, § 1; Code 1933, § 23-504.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

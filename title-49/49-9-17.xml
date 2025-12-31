@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-9-17"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-17"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-9-17/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-17/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-9-17/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-9-17/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_9_17">
+        <num>49-9-17</num>
+        <content>
+          <p>The agency is authorized to retain title to any property, tools, instruments, training supplies, equipment, or other items of value acquired for use of persons with disabilities and to repossess and transfer them for the use of other persons with disabilities. The board is authorized to offer for sale any items acquired in the operation of the program under this chapter when they are no longer necessary or to exchange them for necessary items which may be used to greater advantage. When any such surplus equipment is sold or exchanged, a receipt for it shall be taken from the purchaser showing the consideration given for such equipment and shall be forwarded to the Office of the State Treasurer; and any funds received by the agency pursuant to any such transactions shall be deposited in the state treasury in the appropriate federal or state rehabilitation account and shall be available for expenditures for any purposes consistent with this chapter.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

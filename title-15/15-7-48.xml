@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-7-48"/>
+          <FRBRuri value="/us-ga/act/ocga/15-7-48"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-7-48/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-7-48/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-7-48/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-7-48/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_7_48">
+        <num>15-7-48</num>
+        <content>
+          <p>Any person who serves as a clerk of any state court, as a qualification of holding his office, shall execute bond in the sum of $25,000.00 for the faithful performance of his duties as clerk, which amount may be increased by local Act. However, any clerk of a superior court who is also serving as clerk of a state court shall not be required to post a bond under this Code section; the bond given by the clerk of the superior court for the faithful performance of his duties shall also be conditioned on his faithful performance of his duties as clerk of the state court.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

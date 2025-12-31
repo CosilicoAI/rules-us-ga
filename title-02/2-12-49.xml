@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-12-49"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-49"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-12-49/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-49/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-12-49/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-12-49/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_12_49">
+        <num>2-12-49</num>
+        <content>
+          <p>The Commissioner, after reasonable notice and hearing, is authorized to promulgate and adopt rules and regulations for the administration of this article. The Commissioner is further authorized to share such information and consult with other agencies such as, but not limited to, the Environmental Protection Division of the Department of Natural Resources and the United States Department of Agriculture's Natural Resources Conservation Service.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

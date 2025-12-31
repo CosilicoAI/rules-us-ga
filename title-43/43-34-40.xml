@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-34-40"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-34-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-34-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-34-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_34_40">
+        <num>43-34-40</num>
+        <content>
+          <p>Any person who shall buy, sell, or fraudulently obtain any diploma, license, record, or registration to practice osteopathic medicine, illegally obtained or signed, or issued unlawfully or under fraudulent representation; or who shall use any of the forms or letters, "Osteopathy," "Osteopath," "Osteopathist," "Diplomate in Osteopathy," "D.O.," "D.Sc.O.," "Osteopathic Physician," "Doctor of Osteopathy," or any other title or letters, either alone or with other qualifying words or phrases, under such circumstances as to induce the belief that the person who uses such term or terms is engaged in the practice of osteopathic medicine, or anyone who shall hold himself or herself out as practicing any other nondrug-giving school of medical practice, without having complied with this article, shall be guilty of a felony.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

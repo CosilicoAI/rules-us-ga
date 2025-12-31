@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-10-93"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-93"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-10-93/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-93/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-10-93/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-10-93/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_10_93">
+        <num>32-10-93</num>
+        <content>
+          <p>All bonds issued by the authority shall be executed in the name of the authority by the chairperson and secretary of the authority and shall be sealed with the official seal of the authority or a facsimile thereof. The facsimile signatures of the chairperson and secretary of the authority may be imprinted thereon in lieu of the manual signatures of such officers if the authority so directs in the resolution authorizing such bonds or otherwise. In case any officer whose manual or facsimile signature shall appear on any bonds shall cease to be such officer before the delivery of such bonds, such signature shall nevertheless be valid and sufficient for all purposes the same as if he or she had remained in office until such delivery.</p>
+          <p>(Ga. L. 1953, Jan.-Feb. Sess., p. 302, § 15; Code 1933, § 95A-1252, enacted by Ga. L. 1973, p. 947, § 1; Ga. L. 2001, p. 1251, § 1-13.1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

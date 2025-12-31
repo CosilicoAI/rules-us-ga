@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-412"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-412"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-412/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-412/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-412/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-412/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_412">
+        <num>20-3-412</num>
+        <content>
+          <p>Each eligible student is entitled to a tuition equalization grant each academic year, as specified in appropriations Acts of the General Assembly. No grants shall be made to graduate students unless specifically authorized in appropriations Acts of the General Assembly. It is the intent of the General Assembly and the purpose of this program to provide tuition equalization grants to all Georgia students attending approved schools at all levels and throughout the entire calendar year whenever sufficient funds are available to the state.In no event shall an eligible student receive a tuition equalization grant for more than 127 semester hours or 190 quarter hours of his or her undergraduate program.</p>
+          <p>(Ga. L. 1971, p. 906, § 2; Ga. L. 1974, p. 487, § 1; Ga. L. 1975, p. 1320, § 1; Ga. L. 1976, p. 1717, § 1; Code 1933, § 32-3760, enacted by Ga. L. 1980, p. 835, § 3; Ga. L. 1981, p. 735, § 46; Ga. L. 1981, p. 1377, § 1; Ga. L. 1985, p. 550, § 1; Ga. L. 2003, p. 904, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

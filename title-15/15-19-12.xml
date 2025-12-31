@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-19-12"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-12"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-19-12/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-12/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-19-12/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-19-12/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_19_12">
+        <num>15-19-12</num>
+        <content>
+          <p>Attorneys are prohibited from collecting any note or other contract in writing given as a fee in any case in which they have failed to attend to in person or by some competent attorney from the time of employment until the rendition of judgment. Any such note or written contract shall be null and void unless the attorney holding it was, by contract, released from the duty of attending to the case for which it was given. The transfer of such note or obligation subjects an attorney to forfeit and pay to the person from whom the same was taken double the amount thereof, recoverable in any court having jurisdiction of the same, unless the person is saved harmless against all fees, costs, and other necessary expenses on account thereof.</p>
+          <p>(Laws 1831, Cobb's 1851 Digest, p. 91; Code 1863, §§ 378, 379; Code 1868, §§ 439, 440; Code 1873, §§ 404, 405; Code 1882, §§ 404, 405; Civil Code 1895, §§ 4413, 4414; Civil Code 1910, §§ 4951, 4952; Code 1933, §§ 9-615, 9-616.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-5-57"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-57"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-5-57/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-57/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-5-57/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-5-57/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_5_57">
+        <num>42-5-57</num>
+        <content>
+          <p>(Ga. L. 1956, p. 161, § 23; Ga. L. 1964, p. 734, § 1; Ga. L. 1968, p. 1399, § 4; Ga. L. 2021, p. 782, § 9/SB 46.)</p>
+          <p>The 2021 amendment,
+      effective May 10, 2021, added subsections (b) and (c), and redesignated former subsection (b) as present subsection (d).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

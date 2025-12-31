@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/33-37-10"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/33-37-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/33-37-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/33-37-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_37_10">
+        <num>33-37-10</num>
+        <content>
+          <p>In all proceedings and judicial reviews thereof under Code Section 33-37-9, all records of the insurer, other documents, and all Department of Insurance files and court records and papers, so far as they pertain to or are a part of the record of the proceedings, shall be and remain confidential except as is necessary to obtain compliance therewith, unless and until the court, after hearing arguments from the parties in chambers, shall order otherwise or unless the insurer requests that the matter be made public. Until such court order, all papers filed with the clerk of the superior court shall be held by him in a confidential file.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

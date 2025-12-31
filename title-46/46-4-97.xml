@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4-97"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-97"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4-97/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-97/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4-97/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4-97/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4_97">
+        <num>46-4-97</num>
+        <content>
+          <p>The authority shall not operate or construct any project for profit, except insofar as any such profit will inure to the benefit of the public. The authority shall fix the rates, fees, and charges consistent with this declaration of policy such as will produce revenues only in amounts sufficient, together with all other funds of the authority, to pay the principal or purchase price of and premium, if any, and interest on bonds and all other indebtedness and contractual obligations of the authority; to provide for maintenance and operation of the authority and of its projects; to provide for payment of any judgment against the authority; and to maintain such reserves as shall have been created in amounts sufficient in the judgment of the authority for the security of the bonds and other obligations; and for the improvement, replacement, or expansion of the facilities or services of the authority or to provide fuel for its projects.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

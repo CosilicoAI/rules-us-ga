@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-6-49"/>
+          <FRBRuri value="/us-ga/act/ocga/31-6-49"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-6-49/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-6-49/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-6-49/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-6-49/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_6_49">
+        <num>31-6-49</num>
+        <content>
+          <p>All matters transferred to the Health Planning Agency by the previously existing provisions of this Code section and that are in effect on June 30, 1999, shall automatically be transferred to the Department of Community Health on July 1, 1999. All matters of the Health Planning Review Board that are pending on June 30, 2008, shall automatically be transferred to the Certificate of Need Appeal Panel established pursuant to Code Section 31-6-44.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

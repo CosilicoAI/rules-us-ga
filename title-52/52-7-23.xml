@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-7-23"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-23"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-7-23/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-23/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-7-23/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-7-23/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_7_23">
+        <num>52-7-23</num>
+        <content>
+          <p>The Board of Natural Resources is authorized to adopt any regulations necessary for the administration and enforcement of this article, including, but not limited to, regulations setting forth the criteria for determining when an indemnity bond shall be required under Code Section 52-7-19 and the appropriate amount of the bond and when a forfeiture bond shall be required under Code Section 52-7-19, the appropriate amount of the bond, and the conditions for default thereunder. In adopting the indemnity bond regulations, the board shall include, without limitation, criteria relating to the expense of restoring the water body and its surrounding area to the state of cleanliness existing before the conduct of an event authorized under Code Section 52-7-19. In adopting the forfeiture bond regulations, the board shall include, without limitation, criteria relating to the magnitude of the event, the water body and surrounding area upon which it will be held, and the potential public safety hazard inherent in the event. The board may, by regulation, establish bond forfeiture conditions for categories of noncompliance, including, but not limited to, failure or refusal to comply with requirements to provide facilities for the convenience of participants and spectators, requirements relating to public safety, and requirements relating to damage to the water body and surrounding area upon which the event was held.</p>
+          <p>(Ga. L. 1973, p. 1427, § 21; Ga. L. 1981, p. 987, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

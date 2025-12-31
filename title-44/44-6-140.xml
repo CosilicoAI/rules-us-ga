@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-6-140"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-6-140/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-6-140/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-6-140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_6_140">
+        <num>44-6-140</num>
+        <content>
+          <p>Equity has jurisdiction in cases of partition whenever the remedy at law is insufficient or peculiar circumstances render the proceeding in equity more suitable and just.</p>
+          <p>(Orig. Code 1863, § 3115; Code 1868, § 3127; Code 1873, § 3183; Code 1882, § 3183; Civil Code 1895, § 4783; Civil Code 1910, § 5355; Code 1933, § 85-1501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

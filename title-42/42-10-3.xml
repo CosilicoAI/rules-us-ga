@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-10-3"/>
+          <FRBRuri value="/us-ga/act/ocga/42-10-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-10-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-10-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-10-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-10-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_10_3">
+        <num>42-10-3</num>
+        <content>
+          <p>For the purposes of this chapter, the Board of Corrections shall constitute, ex officio, the Georgia Correctional Industries Administration. The board, constituted as the Georgia Correctional Industries Administration, shall have the power to perfect its own organization and to adopt such rules and bylaws as may be necessary for it to carry out its duties under this chapter. The commissioner of corrections shall serve as the executive officer of the administration.</p>
+          <p>(Ga. L. 1980, p. 731, § 1; Ga. L. 1985, p. 283, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

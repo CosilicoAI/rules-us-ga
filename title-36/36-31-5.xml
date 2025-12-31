@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-31-5"/>
+          <FRBRuri value="/us-ga/act/ocga/36-31-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-31-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-31-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-31-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-31-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_31_5">
+        <num>36-31-5</num>
+        <content>
+          <p>Every local law granting an original municipal charter shall have attached thereto a certificate by the author of the bill stating that the minimum standards required by this chapter exist as to the area embraced. Existence of the standards may be determined, as to population, by estimate based on the number of dwellings in the area multiplied by the average family size in the area, as determined by the last preceding federal census or by other reliable evidence acceptable to the author. As to development of the area, existence of the standards may be determined by estimate based on actual survey, county maps or records, aerial photographs, or some other reliable map acceptable to the author. The certificate shall be a permanent part of the charter and shall constitute conclusive evidence of the existence of the standards required by this chapter.</p>
+          <p>(Ga. L. 1963, p. 251, § 5.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

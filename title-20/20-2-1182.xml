@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1182"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1182"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1182/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1182/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-1182/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-1182/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_1182">
+        <num>20-2-1182</num>
+        <content>
+          <p>Any parent, guardian, or person other than a student at the public school in question who has been advised that minor children are present and who continues to upbraid, insult, or abuse any public school teacher, public school administrator, or public school bus driver in the presence and hearing of a pupil while on the premises of any public school or public school bus may be ordered by any of the above-designated school personnel to leave the school premises or school bus, and upon failure to do so such person shall be guilty of a misdemeanor and, upon conviction thereof, shall be punished by a fine not to exceed $500.00.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

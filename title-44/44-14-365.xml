@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-14-365"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-365"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-14-365/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-365/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-14-365/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-14-365/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_14_365">
+        <num>44-14-365</num>
+        <content>
+          <p>If services are performed or furnished with respect to any real estate by any registered architect, registered forester, registered land surveyor, registered professional engineer, or registered interior designer who is a member of a partnership or who is an agent or employee of a corporation or an association and the contract for the services is made for or on behalf of the owner with the partnership or corporation or association, the partnership, corporation, or association shall be entitled to all the privileges and benefits of Code Sections 44-14-361 and 44-14-362, just as if the partnership, corporation, or association was a registered architect, a registered forester, a registered land surveyor, a registered professional engineer, or a registered interior designer.</p>
+          <p>(Ga. L. 1956, p. 185, §§ 5-8; Ga. L. 1959, p. 367, § 1; Ga. L. 1985, p. 1322, § 5; Ga. L. 2021, p. 674, § 6/HB 480.)</p>
+          <p>The 2021 amendment,
+      effective May 10, 2021, substituted "land surveyor, registered professional engineer, or registered interior designer" for "land surveyor or registered professional engineer" near the beginning and substituted "forester, a registered land surveyor, a registered professional engineer, or a registered interior designer" for "forester, a registered professional engineer, or a registered land surveyor" at the end. See Editor's notes for applicability.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

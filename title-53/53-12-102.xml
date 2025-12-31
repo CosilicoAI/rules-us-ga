@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-12-102"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-102"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-12-102/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-102/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-12-102/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-102/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_12_102">
+        <num>53-12-102</num>
+        <content>
+          <p>The trustee of a trust established by the testator or others as provided in Code Section 53-12-101 shall not be required to inquire into or audit the actions of the executor of the testator's estate or to make any claim against the executor unless specifically directed to do so by the settlor in the trust instrument. In the event that the trustee is authorized or directed by the settlor in the trust instrument to pay or advance any part or all of the trust property to the executor of the testator's estate for the payment of debts, taxes, and expenses of administration of the testator's estate, the trustee shall not be liable for the application of the trust property so paid or advanced and shall not be liable for any act done or omitted to be done by the executor with regard to the trust property.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

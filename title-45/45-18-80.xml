@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/45-18-80"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/45-18-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/45-18-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/45-18-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_18_80">
+        <num>45-18-80</num>
+        <content>
+          <p>Any other provision of this chapter to the contrary notwithstanding, those state employees with at least 34 years of creditable service who retired from state government prior to July 1, 1962, who are entitled to full medical and dental services from a state hospital, as established by the State Board of Health in its March 1, 1962, meeting, shall be exempt from any and all personal liabilities for services at state hospitals.Such services shall include full medical, dental, psychiatric, skilled and intermediate nursing care, and custodial care as available at state hospitals and shall be considered as part of retirement benefits to such retirees. Such retired employees shall be required to cooperate in the application and claims process for any and all benefits, plans, or programs available for payment of cost of care at state hospitals, but such employees shall be exempt from personal liability for any cost after application of such benefits, plans, or programs.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

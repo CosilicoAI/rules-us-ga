@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-4-40"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-40"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-4-40/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-40/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-4-40/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-4-40/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_4_40">
+        <num>14-4-40</num>
+        <content>
+          <p>Every corporation having capital stock incorporated prior to April 1, 1969, or thereafter by the Secretary of State or by Act of the General Assembly, including corporations with powers derived from both of such sources, except an insurance company, which shall be subject to the provisions of Code Section 33-14-45, or a banking or trust company, which shall be subject to the provisions of Code Section 7-1-413, may, upon its organization or thereafter in the manner provided in this article, create shares of stock with or without par value and may create two or more classes of stock with such preferences, voting powers, restrictions, and qualifications as shall be designated in its petition, declaration, or other application for incorporation or as subsequently shall be decided upon, provided there shall be but one class of common stock, each share of which shall stand upon an equality with every other share. Before any such corporation can begin business as a corporation there must be at least $1,000.00 paid in for such nonpar value common stock either in cash or in tangible assets at their fairly appraised valuation.</p>
+          <p>(Ga. L. 1925, p. 224, § 1; Code 1933, §§ 22-801, 22-803, 22-804; Code 1933, §§ 22-4501, 22-4503, 22-4504, enacted by Ga. L. 1968, p. 565, § 1; Ga. L. 1994, p. 694, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

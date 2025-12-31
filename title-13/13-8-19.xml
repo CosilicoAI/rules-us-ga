@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/13-8-19"/>
+          <FRBRuri value="/us-ga/act/ocga/13-8-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/13-8-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/13-8-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/13-8-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/13-8-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_8_19">
+        <num>13-8-19</num>
+        <content>
+          <p>It shall be unlawful for the manufacturer, wholesaler, distributor, or franchisor, without due cause, to fail to renew on terms then equally available to all its dealers, to terminate a franchise, or to restrict the transfer of a franchise unless the franchisee shall receive fair and reasonable compensation for the inventory of the business. As used in this Code section, "due cause" shall be construed in accordance with the definition of same as contained in subparagraph (c)(3)(C) of Code Section 13-8-15.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

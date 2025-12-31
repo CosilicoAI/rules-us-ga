@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-13-108"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-108"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-13-108/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-108/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-13-108/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-13-108/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_13_108">
+        <num>44-13-108</num>
+        <content>
+          <p>Any officer who knowingly levies on or sells any property of a debtor which is exempt under this article, a schedule of which shall have been returned as required, shall be guilty of a trespass. An action may be brought therefor in the name of the wife or family of the debtor, and the recovery shall be for their exclusive use.</p>
+          <p>(Orig. Code 1863, § 2019; Code 1868, § 2019; Code 1873, § 2046; Code 1882, § 2046; Civil Code 1895, § 2872; Civil Code 1910, § 3422; Code 1933, § 51-1501.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

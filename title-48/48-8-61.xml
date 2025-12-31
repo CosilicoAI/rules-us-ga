@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-61"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-61"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-61/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-61/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-61/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-61/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_61">
+        <num>48-8-61</num>
+        <content>
+          <p>Dealers who import or cause to be imported tangible personal property from other states or foreign countries for use or consumption or for storage for use or consumption in this state, if not already registered as dealers under Code Section 48-8-59, shall at the time and in the manner required by rules and regulations of the commissioner obtain from the commissioner a certificate of registration and shall file returns and pay the applicable use tax on the tangible personal property.</p>
+          <p>(Ga. L. 1960, p. 989, § 1; Code 1933, § 91A-4532.1, enacted by Ga. L. 1979, p. 5, § 96A.)</p>
+          <p>RESEARCH REFERENCES</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

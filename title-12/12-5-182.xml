@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-5-182"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-182"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-5-182/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-182/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-5-182/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-5-182/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_5_182">
+        <num>12-5-182</num>
+        <content>
+          <p>The director, upon receipt of information that a contaminant is present in or is likely to enter a public water system and that such contaminant may present imminent and substantial danger to the public health, may take such authorized action as he may deem necessary in order to protect the public health. The actions which the director may take include, but shall not be limited to, issuing such orders as may be necessary to protect the health of persons who are or may be users of such system, including travelers; commencing actions under Code Section 12-5-187; and commencing a civil action for appropriate relief, including, but not limited to, an action to obtain a restraining order or temporary or permanent injunction.</p>
+          <p>(Ga. L. 1977, p. 351, § 11.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

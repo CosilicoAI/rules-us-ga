@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/53-12-411"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-411"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/53-12-411/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-411/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/53-12-411/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/53-12-411/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53_12_411">
+        <num>53-12-411</num>
+        <content>
+          <p>A trustee shall allocate to income an amount received as a distribution of income from a trust or an estate in which the trust has an interest other than a purchased interest and shall allocate to principal an amount received as a distribution of principal from such trust or estate. If a trustee purchases an interest in a trust that is an investment entity, or a decedent or donor transfers an interest in such trust to a trustee, Code Section 53-12-410 or 53-12-431 shall apply to a receipt from the trust.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

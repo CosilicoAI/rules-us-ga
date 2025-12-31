@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-13-31"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-31"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-13-31/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-31/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-13-31/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-13-31/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_13_31">
+        <num>15-13-31</num>
+        <content>
+          <p>Every public official mentioned in Code Section 15-13-30, his deputy, or his agent shall, when required, give a statement of the fees demanded and a receipt for the same to any person paying any lawful or pretended fees of office, on pain of forfeiting $10.00 for every such neglect or refusal, to be demanded in court within 12 months and recovered by the person paying the fees and making the demand.</p>
+          <p>(Laws 1792, Cobb's 1851 Digest, p. 356; Code 1863, § 3630; Code 1868, § 3655; Code 1873, § 3706; Code 1882, § 3706; Civil Code 1895, § 5409; Civil Code 1910, § 6008; Code 1933, § 24-302.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

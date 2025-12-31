@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/52-1-37"/>
+          <FRBRuri value="/us-ga/act/ocga/52-1-37"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/52-1-37/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/52-1-37/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/52-1-37/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/52-1-37/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_1_37">
+        <num>52-1-37</num>
+        <content>
+          <p>Except as otherwise provided for in this article, any remedy provided for in this article shall be in addition to any other remedy available to the state, any riparian owner within this state, or any other citizen of this state. Further, nothing in this article shall be construed as limiting any right that the state or any citizen of this state has regarding the right of passage on any stream or river in this state whether or not it is navigable as "navigable stream or river" is defined in this article.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/10-7-47"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-47"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/10-7-47/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-47/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/10-7-47/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/10-7-47/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_7_47">
+        <num>10-7-47</num>
+        <content>
+          <p>Any surety on the original contract, or on stay of execution, or on appeal, or in any other way, or the representative of a deceased surety, who shall have paid off or discharged the judgment or execution in whole or in part and shall have the fact of such payment by him entered on such execution by the plaintiff or his attorney or the collecting officer, shall have the control of such execution and the judgment upon which it is founded, to the same extent as if he were the original plaintiff therein, and be subrogated to all the rights of such plaintiff, for the purpose of reimbursing himself from his principal.</p>
+          <p>(Laws 1810, Cobb's 1851 Digest, p. 592; Laws 1826, Cobb's 1851 Digest, p. 594; Laws 1831, Cobb's 1851 Digest, p. 595; Laws 1845, Cobb's 1851 Digest, p. 598; Code 1863, § 2145; Code 1868, § 2140; Code 1873, § 2167; Code 1882, § 2167; Civil Code 1895, § 2986; Civil Code 1910, § 3558; Code 1933, § 103-308.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

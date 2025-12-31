@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/46-4A-4"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4A-4"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/46-4A-4/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4A-4/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/46-4A-4/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/46-4A-4/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_4A_4">
+        <num>46-4A-4</num>
+        <content>
+          <p>The director shall have and may exercise the following powers and duties:</p>
+          <p>(Ga. L. 1981, p. 1258, § 4; Ga. L. 2015, p. 1088, § 42/SB 148.)</p>
+          <p>The 2015 amendment,
+      effective July 1, 2015, substituted "office of the Attorney General" for "Office of Consumer Affairs" in subparagraph (1)(F).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

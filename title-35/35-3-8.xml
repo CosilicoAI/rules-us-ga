@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-3-8"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-8"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-3-8/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-8/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-3-8/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-3-8/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_3_8">
+        <num>35-3-8</num>
+        <content>
+          <p>Upon request of the governing authority or chief law enforcement officer of any municipality, the sheriff of any county, the chief of the county police force of any county having a population of more than 100,000 according to the United States decennial census of 1970 or any future such census, the judge of the superior court of any county of this state, or the Governor, the director, in unusual circumstances, may, and in the case of a request by the Governor, shall, direct the bureau to render assistance in any criminal case, in the prevention or detection of violations of law, or in the detection or apprehension of persons violating the criminal laws of this state, any other state, or the United States.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

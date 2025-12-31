@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/7-1-612"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-612"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/7-1-612/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-612/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/7-1-612/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/7-1-612/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_612">
+        <num>7-1-612</num>
+        <content>
+          <p>Notwithstanding any other provisions of this part to the contrary, any bank or trust company which does not exercise trust powers as provided in this chapter, whether or not such powers have been incorporated into its articles, may, with the consent of the department, contract with any bank or trust company exercising trust powers to provide for the latter bank or trust company to offer trust services through the branches and offices of the former bank or trust company.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

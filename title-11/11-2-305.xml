@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-2-305"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-305"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-2-305/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-305/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-2-305/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-2-305/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2_305">
+        <num>11-2-305</num>
+        <content>
+          <p>A price to be fixed by the seller or by the buyer means a price for him to fix in good faith.</p>
+          <p>When a price left to be fixed otherwise than by agreement of the parties fails to be fixed through fault of one party the other may at his option treat the contract as canceled or himself fix a reasonable price.</p>
+          <p>Where, however, the parties intend not to be bound unless the price be fixed or agreed and it is not fixed or agreed there is no contract. In such a case the buyer must return any goods already received or if unable so to do must pay their reasonable value at the time of delivery and the seller must return any portion of the price paid on account.</p>
+          <p>(Code 1933, § 109A-2 - 305, enacted by Ga. L. 1962, p. 156, § 1; Ga. L. 2002, p. 415, § 11.)</p>
+          <p>The 2002 amendment,
+      effective April 18, 2002, part of an Act to revise, modernize, and correct the Code, substituted "canceled" for "cancelled" in subsection (3).</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

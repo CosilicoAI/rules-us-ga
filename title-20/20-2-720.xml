@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-2-720"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-720"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-2-720/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-720/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-2-720/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-2-720/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2_720">
+        <num>20-2-720</num>
+        <content>
+          <p>No local school system, whether county, independent, or area, shall have a policy of denying, or which effectively prevents, the parents of students who are in attendance at or who have been enrolled in any facility within such system the right to inspect and review the education records of their child. A parent shall be entitled to inspect and review only information relating to his or her own child and if any material or document in a child's record includes information on another student, such information regarding any other student shall not be made available for inspection or review except to the parents of that student. Both parents of a child shall be entitled to inspect and review the education records of their child or to be provided information concerning their child's progress. Information concerning a child's education record shall not be withheld from the noncustodial parent unless a court order has specifically removed the right of the noncustodial parent to such information or unless parental rights have been terminated. For purposes of this Code section, "education records" shall include attendance reports and records.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

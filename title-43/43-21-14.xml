@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-21-14"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-21-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-21-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-21-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_21_14">
+        <num>43-21-14</num>
+        <content>
+          <p>Proof that food, lodging, or other accommodation was obtained by false pretense or by false or fictitious show or pretense of any baggage or other property, by such person obtaining such food, lodging, or other accommodation; or that such person absconded without paying or offering to pay for such food, lodging, or other accommodation; or that such person gave in payment for such food, lodging, or other accommodation any check or draft made payable at sight, on demand, or on a date not subsequent to the date when the same was drawn, which check or draft payment was refused on presentation; or that such person surreptitiously removed or attempted to remove therefrom his baggage or other property brought with him to such hotel, inn, boarding house, or eating house, without having paid for or having offered to pay for such food, lodging, or other accommodation so furnished him shall be prima-facie evidence of the fraudulent intent mentioned in Code Section 43-21-13. No person shall be convicted under Code Section 43-21-13 where there shall have been an agreement to delay payment for such food, lodging, or other accommodations until a date after such person shall have terminated his relation as a guest at such hotel, inn, boarding house, or eating house.</p>
+          <p>(Ga. L. 1910, p. 137, § 2; Code 1933, § 52-9904.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/2-7-18"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-18"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/2-7-18/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-18/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/2-7-18/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/2-7-18/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_7_18">
+        <num>2-7-18</num>
+        <content>
+          <p>In case any person or persons refuse to execute the directions of the Commissioner or refuse to allow the Commissioner or his agents to do so, the judge of the superior court of the county having jurisdiction over such person, upon complaint filed by the Commissioner or any citizen, shall cite the person or persons to appear before him within three days after notice is served. The judge may hear and determine all these cases. Upon satisfactory evidence, the judge shall cause the prescribed treatment to be executed. The expenses thereof and the costs of court shall be collected from the owner or owners of the affected material.</p>
+          <p>(Ga. L. 1898, p. 94, § 6; Civil Code 1910, § 2125; Code 1933, § 5-708; Ga. L. 1937, p. 659, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

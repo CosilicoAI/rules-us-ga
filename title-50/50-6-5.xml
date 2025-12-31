@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/50-6-5"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/50-6-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/50-6-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/50-6-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_6_5">
+        <num>50-6-5</num>
+        <content>
+          <p>The state auditor shall, upon the request of either the Governor or the state revenue commissioner, make an examination into and report upon the necessary books, records, and accounts of those persons, firms, and corporations required by law to pay an occupational tax as distributors of motor fuels and also, at the request of the state revenue commissioner, of those persons, firms, and corporations required by law to pay a tax upon the retail sales price of cigarettes, cigars, and loose or smokeless tobacco, as prescribed in Code Section 48-11-2. The examination is to be made at such time as shall be fixed by the state revenue commissioner and for the purpose and to the extent of ascertaining whether or not the tax has been paid and collected as provided by law.</p>
+          <p>(Ga. L. 1923, Ex. Sess., p. 7, § 6; Code 1933, § 40-1807; Ga. L. 2003, p. 665, § 44.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

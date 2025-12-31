@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/20-3-86"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-86"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/20-3-86/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-86/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/20-3-86/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/20-3-86/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_3_86">
+        <num>20-3-86</num>
+        <content>
+          <p>Revenue collected by any or all institutions in the university system from tuition, departmental sales or services, continuing education fees, technology fees, or indirect cost recoveries shall not lapse. The amount of revenue from tuition that shall not lapse under this Code section shall not exceed 3 percent of the tuition collected. This Code section shall stand repealed on July 1, 2026. Not later than October 15 each year, the board of regents shall provide to the Governor, the chairperson of the House Committee on Appropriations, and the chairperson of the Senate Appropriations Committee a report of all nonlapsing revenue provided for in this Code section from the preceding fiscal year, the anticipated plans for the use of such nonlapsing revenue, the actual expenses paid for from nonlapsing revenue from the previous fiscal year, and the cumulative balance of nonlapsed revenue.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

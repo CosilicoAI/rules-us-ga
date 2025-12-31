@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/12-3-80"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-80"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/12-3-80/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-80/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/12-3-80/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/12-3-80/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_3_80">
+        <num>12-3-80</num>
+        <content>
+          <p>As used in this part, the term "submerged cultural resources" means all prehistoric and historic sites, ruins, artifacts, treasure, treasure-trove, and shipwrecks or vessels and their cargo or tackle which have remained on the bottom for more than 50 years, and similar sites and objects found in the Atlantic Ocean within the three-mile territorial limit of the state or within its navigable waters. Title to, and the exclusive right to regulate the investigating, surveying, and recovery of, all such submerged cultural resources is declared to be in the State of Georgia; provided, however, that the Board of Natural Resources may determine and provide by rule that certain submerged cultural resources are of no cultural or economic value to the State of Georgia such that items or areas so designated are not subject to the provisions of this part, including any permit requirements of Code Section 12-3-82.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

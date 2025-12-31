@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-25-3"/>
+          <FRBRuri value="/us-ga/act/ocga/43-25-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-25-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-25-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-25-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-25-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_25_3">
+        <num>43-25-3</num>
+        <content>
+          <p>Application for a license to operate or conduct a racetrack or other place for the holding of motor vehicle races or exhibitions shall be made in writing to the Safety Fire Commissioner on a form prescribed by or furnished by the Safety Fire Commissioner. The application form shall require a full and complete address of the track or other place desired to be licensed, the name and address of the licensee, and the name and address of the promoter of such race or exhibition and shall contain such further information as the Safety Fire Commissioner may require in order to comply with Code Section 43-25-4. Such application shall be accompanied by a nonrefundable fee of $150.00.</p>
+          <p>(Ga. L. 1969, p. 870, § 4; Ga. L. 1993, p. 725, § 1; Ga. L. 2010, p. 9, § 1-83/HB 1055.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/32-6-190"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-190"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/32-6-190/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-190/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/32-6-190/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/32-6-190/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_32_6_190">
+        <num>32-6-190</num>
+        <content>
+          <p>Any railroad whose track or tracks cross a public road at grade shall have a duty to maintain such grade crossings in such condition as to permit the safe and reasonable passage of public traffic. Such duty of maintenance shall include that portion of the public road lying between the track or tracks and for two feet beyond the ends of the crossties on each side and extending four feet beyond the traveled way or flush with the edge of a paved shoulder, whichever is greater, of such crossing.</p>
+          <p>(Code 1933, § 95A-1006, enacted by Ga. L. 1973, p. 947, § 1; Ga. L. 2002, p. 1050, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

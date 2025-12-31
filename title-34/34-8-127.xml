@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/34-8-127"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-127"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/34-8-127/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-127/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/34-8-127/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/34-8-127/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34_8_127">
+        <num>34-8-127</num>
+        <content>
+          <p>The department shall have the right to disclose information or records deemed private and confidential under this chapter to any private person or organization when such disclosure is necessary to permit private contracting parties to assist in the operation and management of the department in instances where certain departmental functions may be delegated to private parties to increase the department's efficiency or quality of service to the public.The private persons or organizations shall use the information or records solely for the purpose for which the information was disclosed and shall be bound by the same rules of privacy and confidentiality as department employees.The misuse or unauthorized release of records or information deemed private and confidential under this article by any private person or organization to which access is permitted by this Code section shall subject the person or organization to a civil penalty of $500.00 per violation and shall also subject such person or organization to the criminal provisions specified in Code Section 34-8-125. An action to enforce this Code section shall be brought by the Attorney General.The Attorney General may recover reasonable attorneys' fees for any action brought to enforce this Code section.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

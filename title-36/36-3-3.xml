@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-3-3"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-3"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-3-3/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-3/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-3-3/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-3/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_3_3">
+        <num>36-3-3</num>
+        <content>
+          <p>When all the proceedings have been had in the manner prescribed in Code Sections 36-3-1 and 36-3-2 and when the same have been fairly recorded by the judges of the probate courts on the minutes of their respective courts, the new line or lines shall be held to have been established in lieu of the original line or lines.</p>
+          <p>(Ga. L. 1880-81, p. 52, § 3; Code 1882, § 508r; Civil Code 1895, § 384; Civil Code 1910, § 470; Code 1933, § 23-303.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

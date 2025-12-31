@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/21-5-13"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-13"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/21-5-13/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-13/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/21-5-13/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/21-5-13/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_5_13">
+        <num>21-5-13</num>
+        <content>
+          <p>Any action alleging a violation of this chapter shall be commenced within three years after the date of filing of the first report containing the alleged violation; provided, however, that any action alleging a violation of this chapter shall be commenced within five years after the date of filing of the first report containing the alleged violation involving any person elected to serve for a term of four or more years or any candidate for an office with a term of four or more years. For purposes of this Code section, an action shall be deemed to have commenced against a person only when either:</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

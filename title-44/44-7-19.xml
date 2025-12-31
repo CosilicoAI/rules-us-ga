@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-7-19"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-7-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-7-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-7-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_7_19">
+        <num>44-7-19</num>
+        <content>
+          <p>No county or municipal corporation may enact, maintain, or enforce any ordinance or resolution which would regulate in any way the amount of rent to be charged for privately owned, single-family or multiple-unit residential rental property. This Code section shall not be construed as prohibiting any county or municipal corporation, or any authority created by a county or municipal corporation for that purpose, from regulating in any way property belonging to such county, such municipal corporation, or such authority from entering into any agreements with private persons, which agreements regulate the amount of rent to be charged for such rental properties.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

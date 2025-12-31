@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/15-9-140"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-140"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/15-9-140/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-140/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/15-9-140/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/15-9-140/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_9_140">
+        <num>15-9-140</num>
+        <content>
+          <p>Except as otherwise provided by law, any judge of a probate court is authorized to serve as a judge of any other probate court in which such judge would otherwise be qualified to serve, but only upon the written request of the judge of such other probate court. When serving in a probate court other than his or her own court, the judge shall exercise the same jurisdiction, power, and authority as the regular judge of the court. Judges rendering assistance in accordance with this Code section shall be entitled to receive actual expenses or, at such judge's option, the same per diem expense authorized by law for members of the General Assembly and shall receive mileage at the same rate as state employees for such services but shall not be entitled to any further compensation for such services. The governing authority responsible for funding the operation of the requesting court shall bear the expenses of the assisting judge.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

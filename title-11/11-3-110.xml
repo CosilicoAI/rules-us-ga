@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/11-3-110"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-110"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/11-3-110/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-110/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/11-3-110/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/11-3-110/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_3_110">
+        <num>11-3-110</num>
+        <content>
+          <p>A trust, an estate, or a person described as trustee or representative of a trust or estate, the instrument is payable to the trustee, the representative, or a successor of either, whether or not the beneficiary or estate is also named;</p>
+          <p>A person described as agent or similar representative of a named or identified person, the instrument is payable to the represented person, the representative, or a successor of the representative;</p>
+          <p>A fund or organization that is not a legal entity, the instrument is payable to a representative of the members of the fund or organization; or</p>
+          <p>An office or to a person described as holding an office, the instrument is payable to the named person, the incumbent of the office, or a successor to the incumbent.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

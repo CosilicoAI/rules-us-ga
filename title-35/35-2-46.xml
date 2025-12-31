@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/35-2-46"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-46"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/35-2-46/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-46/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/35-2-46/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/35-2-46/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_2_46">
+        <num>35-2-46</num>
+        <content>
+          <p>All officers, troopers, and communications officers who are in the classified service as defined by Code Section 45-20-2 may be dismissed from their employment with the department only in accordance with Chapter 20 of Title 45 and the rules and regulations promulgated thereunder.</p>
+          <p>(Ga. L. 1937, p. 322, art. 2, § 5; Ga. L. 1949, p. 70, § 7; Ga. L. 1976, p. 465, § 1; Ga. L. 1992, p. 3131, § 5; Ga. L. 1997, p. 880, § 1; Ga. L. 2000, p. 951, § 12-6; Ga. L. 2009, p. 745, § 1/SB 97; Ga. L. 2012, p. 446, § 2-47/HB 642.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

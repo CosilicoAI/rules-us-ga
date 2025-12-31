@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/42-9-19"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-19"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/42-9-19/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-19/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/42-9-19/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/42-9-19/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_9_19">
+        <num>42-9-19</num>
+        <content>
+          <p>On or before January 1 of each year, the board shall make a written report of its activities, copies of which shall be sent to the Governor, the Attorney General, each body of the General Assembly, and to such other officers and persons as the board may deem advisable. One copy of the report shall become a part of the records of the board.</p>
+          <p>(Ga. L. 1943, p. 185, § 24; Ga. L. 1983, p. 500, § 5; Ga. L. 1984, p. 22, § 42; Ga. L. 1984, p. 689, § 2.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

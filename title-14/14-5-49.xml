@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/14-5-49"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-49"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/14-5-49/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-49/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/14-5-49/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/14-5-49/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_5_49">
+        <num>14-5-49</num>
+        <content>
+          <p>Code Sections 14-5-46 through 14-5-48 shall be so construed as to apply to all societies whether social, charitable, secret, or masonic or by whatever name they may be called; and all criminal laws for the protection of religious societies shall be so construed as to apply to all societies by whatever name they may be called.</p>
+          <p>(Ga. L. 1855-56, p. 272, § 1; Code 1873, § 2346; Code 1882, § 2346; Civil Code 1895, § 2356; Civil Code 1910, § 2829; Code 1933, § 22-412; Code 1933, § 22-5510, enacted by Ga. L. 1968, p. 565, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

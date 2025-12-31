@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-82-5"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-5"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-82-5/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-5/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-82-5/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-82-5/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_82_5">
+        <num>36-82-5</num>
+        <content>
+          <p>When any county, municipality, or political subdivision of this state has issued bonds under the authority of Article IX, Section V, Paragraph I, II, or III of the Constitution of Georgia and laws passed in pursuance thereof and when, after the bond issue is authorized and the bonds are printed, any of the bonds authorized and printed are not sold for any reason, the governing authorities of the county, municipality, or political subdivision may destroy the unsold bonds in the manner and under the conditions set out in Code Section 36-82-6.</p>
+          <p>(Ga. L. 1941, p. 426, § 1; Ga. L. 1983, p. 3, § 57; Ga. L. 1984, p. 1362, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

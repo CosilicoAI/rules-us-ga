@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/48-8-62"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-62"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/48-8-62/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-62/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/48-8-62/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/48-8-62/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_8_62">
+        <num>48-8-62</num>
+        <content>
+          <p>Whenever any person fails to comply with any provision of this article or with any rule or regulation of the commissioner relating to this article, the commissioner, upon hearing, after giving the person ten days' notice in writing specifying the time and place of hearing and requiring him to show cause why his certificate of registration should not be revoked, may revoke or suspend any one or more of the certificates of registration held by the person. The notice may be served in person or by registered or certified mail or statutory overnight delivery directed to the last known address of the person.</p>
+          <p>(Ga. L. 1951, p. 360, § 24; Code 1933, § 91A-4533, enacted by Ga. L. 1978, p. 309, § 2; Ga. L. 2000, p. 1589, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

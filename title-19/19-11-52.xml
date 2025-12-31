@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/19-11-52"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-52"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/19-11-52/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-52/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/19-11-52/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/19-11-52/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_11_52">
+        <num>19-11-52</num>
+        <content>
+          <p>The petition shall be verified and shall state the name and, so far as known to the petitioner, the address and circumstances of the respondent and the names of his dependents for whom support is sought and all other pertinent information. The petitioner may include in or attach to the petition any information which may help in locating or identifying the respondent, including, but without limitation by enumeration, a photograph of the respondent, a description of any distinguishing marks of his person, other names and aliases by which he has been or is known, the name of his employer, his fingerprints, and his social security number. However, no cause of action shall arise unless the obligee is in need of support or the obligor has failed and refused to support the obligee.</p>
+          <p>(Ga. L. 1958, p. 34, § 9.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

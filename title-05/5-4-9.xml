@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/5-4-9"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/5-4-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/5-4-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/5-4-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_4_9">
+        <num>5-4-9</num>
+        <content>
+          <p>The petitioner or defendant in certiorari may traverse or except to the answer of the respondent, which exceptions or traverse shall be filed in writing, specifying the defects, within 15 days after the filing of the answer; and, if the traverse or exceptions are sustained, the answer shall be perfected as directed by the court.</p>
+          <p>(Orig. Code 1863, § 3970; Code 1868, § 3990; Code 1873, § 4062; Code 1882, § 4062; Civil Code 1895, § 4647; Civil Code 1910, § 5196; Code 1933, § 19-302; Ga. L. 1961, p. 190, § 6.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

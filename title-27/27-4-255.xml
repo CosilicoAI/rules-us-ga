@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/27-4-255"/>
+          <FRBRuri value="/us-ga/act/ocga/27-4-255"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/27-4-255/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/27-4-255/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/27-4-255/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/27-4-255/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_4_255">
+        <num>27-4-255</num>
+        <content>
+          <p>Any person engaged in the sale of domestic fish, except grocery stores, shall apply to the department for an aquaculture registration.The domestic fish of a registered aquaculture producer shall be privately owned subject to regulation by the Department of Natural Resources; provided, however, any person selling "domestic fish" without first obtaining an aquaculture registration shall be considered to be selling "wildlife" or "wild animals" and shall be subject to the provisions of this title governing such sale.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

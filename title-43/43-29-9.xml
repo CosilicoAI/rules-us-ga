@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-29-9"/>
+          <FRBRuri value="/us-ga/act/ocga/43-29-9"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-29-9/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-29-9/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-29-9/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-29-9/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_29_9">
+        <num>43-29-9</num>
+        <content>
+          <p>Any person who has been duly licensed to practice as a dispensing optician in any state of the United States which has a standard of qualifications and examination for such practice at least as high as that provided for in this state by this chapter and who has been principally engaged in such practice pursuant to such license for a period of not less than two years preceding may, upon proper application to the board and upon payment of a fee in an amount established by the board in lieu of examination and registration fees, be issued a certificate of registration without examination and shall thereupon be authorized to practice as a registered dispensing optician in this state subject to this chapter and the rules and regulations of the board, provided that the state of residence of a dispensing optician seeking registration under this Code section accords a similar privilege to dispensing opticians licensed by Georgia and seeking to practice as dispensing opticians in such other state; provided, further, that an applicant for registration under this Code section shall not, within the five years preceding his application, have failed any examination which is required in this state.</p>
+          <p>(Ga. L. 1956, p. 148, § 9; Ga. L. 1980, p. 1101, § 3.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

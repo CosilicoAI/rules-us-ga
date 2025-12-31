@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/31-44-2"/>
+          <FRBRuri value="/us-ga/act/ocga/31-44-2"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/31-44-2/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/31-44-2/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/31-44-2/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/31-44-2/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_44_2">
+        <num>31-44-2</num>
+        <content>
+          <p>The board shall set fees imposed by this chapter in amounts reasonable and necessary to defray the costs of administering this chapter with due consideration to the amount of funds received from the federal government by the department for performance of medicare certification surveys of dialysis clinics. In setting fees under this Code section, the board shall consider setting a range of license and renewal fees based upon the number of dialysis stations at each facility, but in no event shall the annual license fee exceed $1,500.00 per end stage renal disease facility.</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/49-4-10"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-10"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/49-4-10/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-10/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/49-4-10/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/49-4-10/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_4_10">
+        <num>49-4-10</num>
+        <content>
+          <p>With respect to applicants for any category of public assistance authorized under Code Section 49-4-3, the department may require physical examinations of any applicant and may require the results thereof to be recorded by the examining physician on a form furnished by the department. Upon receipt of the form from the examining physician, the county department shall forward it to the department, whose duty it shall be to review the medical information contained thereon and determine therefrom whether the applicant meets the medical requirements for assistance under this article. When said decision has been made by the department, the county department will be notified and bound thereby.</p>
+          <p>(Ga. L. 1965, p. 385, § 18.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

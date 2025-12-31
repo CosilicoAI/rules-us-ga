@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-5-83"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-83"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-5-83/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-83/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-5-83/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-5-83/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_5_83">
+        <num>44-5-83</num>
+        <content>
+          <p>A gift in writing, without good consideration and without delivery, is void. However, when, in order for a gift to be valid, a written conveyance for good consideration is required by law, or when in any case a written conveyance is made for a good consideration, the execution and delivery of such conveyance shall dispense with the necessity of delivering the article given.</p>
+          <p>(Orig. Code 1863, § 2616; Code 1868, § 2617; Code 1873, § 2659; Code 1882, § 2659; Civil Code 1895, § 3566; Civil Code 1910, § 4146; Code 1933, § 48-104.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

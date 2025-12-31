@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/36-3-1"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-1"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/36-3-1/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-1/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/36-3-1/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/36-3-1/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_3_1">
+        <num>36-3-1</num>
+        <content>
+          <p>Whenever one or more citizens of any county desire to have the boundary line of the county changed, they shall file in the offices of the judges of the probate courts of the counties to be affected a petition in writing, setting forth the exact character of the change desired to be made, specifying particularly the situation, direction, and existing marks and monuments, if any, of the original line, and describing particularly the direction, location, and length of the proposed new line, and setting forth the reasons for the change. The person or persons applying for the change shall also give notice of the intention to apply for the change by publishing the same for at least 30 days next preceding the term of the superior court or courts to be held in the counties to be affected, which term shall be that next occurring after the filing of the petition with the judges of the probate courts:</p>
+          <p>(Ga. L. 1880-81, p. 52, § 1; Code 1882, § 508n; Civil Code 1895, § 382; Civil Code 1910, § 468; Code 1933, § 23-301.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

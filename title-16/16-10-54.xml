@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/16-10-54"/>
+          <FRBRuri value="/us-ga/act/ocga/16-10-54"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/16-10-54/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/16-10-54/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/16-10-54/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/16-10-54/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_10_54">
+        <num>16-10-54</num>
+        <content>
+          <p>A person in the lawful custody of any penal institution of the state or of a political subdivision of the state who assails, opposes, or resists an officer of the law or of such penal institution or a member of the guard with intent to cause serious bodily injury commits the offense of mutiny and, upon conviction thereof, shall be punished by imprisonment for not less than one nor more than five years.</p>
+          <p>(Laws 1833, Cobb's 1851 Digest, p. 810; Code 1863, § 4396; Code 1868, § 4437; Code 1873, § 4510; Code 1882, § 4510; Penal Code 1895, § 329; Penal Code 1910, § 334; Code 1933, § 26-4801; Code 1933, § 26-2507, enacted by Ga. L. 1968, p. 1249, § 1; Ga. L. 1993, p. 808, § 1.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

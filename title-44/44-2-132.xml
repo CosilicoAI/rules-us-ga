@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/44-2-132"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-132"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/44-2-132/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-132/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/44-2-132/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/44-2-132/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_2_132">
+        <num>44-2-132</num>
+        <content>
+          <p>Whenever an involuntary transfer is sought to be registered under this article and the owner's certificate is not produced so that it can be attached to the order directing a transfer, the court shall have the power to issue a subpoena for the production of documentary evidence or any other process designed to compel the production of the owner's certificate, including attachment for contempt. If, after the process issues, the owner's certificate is not produced or if it appears to the court that there is no practical means of compelling its production, the court may nevertheless grant the order of transfer but shall cause the clerk to enter a cancellation of the certificate of title on the title register and to give notice once a week for four weeks in the newspaper in which the sheriff's sales of the county are advertised that such certificate has been canceled; the cost of making the advertisement shall be deposited with the clerk before the judge shall grant the order of transfer without the production of the certificate.</p>
+          <p>(Ga. L. 1917, p. 108, § 52; Code 1933, § 60-410.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

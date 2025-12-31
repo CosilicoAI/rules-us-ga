@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="section">
+    <meta>
+      <identification source="#publicresource">
+        <FRBRWork>
+          <FRBRthis value="/us-ga/act/ocga/43-11-14"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-14"/>
+          <FRBRdate date="2025-12-31" name="enacted"/>
+          <FRBRauthor href="#ga-legislature"/>
+          <FRBRcountry value="us-ga"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/us-ga/act/ocga/43-11-14/eng"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-14/eng"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#publicresource"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/us-ga/act/ocga/43-11-14/eng/akn"/>
+          <FRBRuri value="/us-ga/act/ocga/43-11-14/eng/akn"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#cosilico"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#cosilico">
+        <TLCOrganization eId="ga-legislature" href="/ontology/organization/us-ga/legislature" showAs="Georgia General Assembly"/>
+        <TLCOrganization eId="publicresource" href="https://public.resource.org" showAs="Public.Resource.Org"/>
+        <TLCOrganization eId="cosilico" href="https://cosilico.ai" showAs="Cosilico"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_11_14">
+        <num>43-11-14</num>
+        <content>
+          <p>The board shall have the power to enforce any and all of its lawful orders or subpoenas; to punish as for a contempt anyone obstructing or violating the same and shall also have the power to conduct any and all hearings before it in an orderly and legal manner; to punish anyone as for a contempt who may attempt to or who shall interfere with or in any manner obstruct such hearing; and may also punish as for a contempt any act of indecorum or discourtesy committed in the presence of the board when in session. The board may fine anyone an amount not exceeding $100.00 for a contempt and in default of the payment thereof may make application to any superior court having jurisdiction to confine the offender to jail for not more than ten days.</p>
+          <p>(Ga. L. 1920, p. 132, § 17; Code 1933, § 84-718; Ga. L. 1976, p. 484, § 1; Ga. L. 1999, p. 234, § 8.)</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
